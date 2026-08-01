@@ -1,6 +1,6 @@
 #include "asm.h"
 
-void ASM_FUNCTION hookForDump() {
+void ASM_FUNCTION HookForDump() {
 	__asm {
 		push offset hook
 		sub esp, 4

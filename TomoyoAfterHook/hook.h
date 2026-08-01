@@ -30,7 +30,8 @@ typedef DWORD(__fastcall* ReadSeenHeaderFuncPtr)(void);
 typedef DWORD(__fastcall* ReadSeenDataFuncPtr)(BYTE dummy_ctx[64], SeenData* out, DWORD scene_no, DWORD flags);
 
 void HookInit();
-void runDump();
+void HookDestroy();
+void RunDump();
 
 #endif
 

@@ -176,6 +176,7 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD dwReason, PVOID pvReserved)
 	}
 	else if (dwReason == DLL_PROCESS_DETACH)
 	{
+		HookDestroy();
 		Free();
 	}
 

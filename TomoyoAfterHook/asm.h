@@ -6,6 +6,6 @@
 
 #define ASM_FUNCTION __declspec(naked)
 
-void hookForDump();
+void HookForDump();
 
 #endif
