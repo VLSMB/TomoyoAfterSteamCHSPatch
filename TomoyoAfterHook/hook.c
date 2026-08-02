@@ -7,7 +7,8 @@ void initForDump();
 void initForPatch();
 void dumpSeenData(ReadSeenDataFuncPtr dataFunc, SeenData* data, int num);
 void logError(const char* msg);
-void writeHookCode(DWORD orgAddr, DWORD tarAddr);
+void updateAsmCode(void* address, BYTE* codeArr, size_t len);
+void assembleCallOp(BYTE* buffer, size_t len, DWORD orgAddr, DWORD tarAddr);
 void loadSeenPatchData();
 
 #define SEEN_DATA_NUM 10000
@@ -44,13 +45,19 @@ DWORD getImageBase() {
 }
 
 void initForDump() {
-	DWORD imageBase = getImageBase();
-	writeHookCode(imageBase + CALL_READ_SEEN_HEADER_RVA, HookForDump);
+	DWORD hookAddress = getImageBase() + CALL_READ_SEEN_HEADER_RVA;
+	BYTE callHookOp[5];
+	assembleCallOp(callHookOp, 5, hookAddress, HookForDump);
+	updateAsmCode(hookAddress, callHookOp, 5);
 }
 
 void initForPatch() {
-	DWORD imageBase = getImageBase();
+	DWORD hookAddress = getImageBase() + READ_SEEN_DATA_FUNC_RVA;
 	loadSeenPatchData();
+	BYTE callHookOp[6];
+	assembleCallOp(callHookOp, 6, hookAddress, HookForDump);
+	callHookOp[5] = 0xC3;
+	updateAsmCode(hookAddress, callHookOp, 6);
 }
 
 void loadSeenPatchData() {
@@ -83,6 +90,13 @@ void loadSeenPatchData() {
 		CloseHandle(hFile);
 		TerminateProcess(GetCurrentProcess(), 1);
 	}
+}
+
+BYTE* getSeenPatchData(int num) {
+	if (num < 0 || num >= SEEN_DATA_NUM) {
+		return NULL;
+	}
+	return seen_data_buffer[num];
 }
 
 void RunDump() {
@@ -128,12 +142,20 @@ void logError(const char* msg) {
 	MessageBoxA(NULL, msg, MESSAGEBOX_TITLE, MB_ICONERROR);
 }
 
-void writeHookCode(DWORD orgAddr, DWORD tarAddr)
-{
+void updateAsmCode(void* address, BYTE* codeArr, size_t len) {
 	DWORD oldProtect = 0;
-	VirtualProtect((LPVOID)orgAddr, 0x5, PAGE_EXECUTE_READWRITE, &oldProtect);
-	DWORD rvaAddr = tarAddr - orgAddr - 0x5;
-	BYTE code[5] = { 0xE8,0x90,0x90,0x90,0x90 };
-	memcpy_s(&code[1], 4, &rvaAddr, 4);
-	memcpy_s((void*)orgAddr, 5, code, 5);
+	VirtualProtect(address, len, PAGE_EXECUTE_READWRITE, &oldProtect);
+	memcpy_s(address, len, codeArr, len);
+	DWORD tmp = 0;
+	VirtualProtect(address, len, oldProtect, &tmp);
+}
+
+void assembleCallOp(BYTE* buffer, size_t len, DWORD orgAddr, DWORD tarAddr) {
+	RtlFillMemory(buffer, len * sizeof(BYTE), 0x90);
+	if (len < 5) {
+		return;
+	}
+	buffer[0] = 0xE8;
+	DWORD rva = tarAddr - (orgAddr + 0x5);
+	memcpy_s(buffer + 1, 4, &rva, 4);
 }

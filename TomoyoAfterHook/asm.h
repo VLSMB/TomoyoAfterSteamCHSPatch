@@ -7,5 +7,6 @@
 #define ASM_FUNCTION __declspec(naked)
 
 void HookForDump();
+void HookForPatch();
 
 #endif

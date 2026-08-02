@@ -2,7 +2,7 @@
 
 void ASM_FUNCTION HookForDump() {
 	__asm {
-		push offset hook
+		push offset hook_for_dump
 		sub esp, 4
 		pushad
 		pushfd
@@ -15,14 +15,24 @@ void ASM_FUNCTION HookForDump() {
 		popfd
 		popad
 		ret
-	hook:
+	}
+hook_for_dump:
+	__asm {
 		pushad
 		pushfd
 	}
-	runDump();
+	RunDump();
 	__asm {
 		popfd
 		popad
 		ret
+	}
+}
+
+void ASM_FUNCTION HookForPatch() {
+	__asm {
+		push ebp
+		mov ebp, esp
+		and esp, 0xFFFFFFF8
 	}
 }
