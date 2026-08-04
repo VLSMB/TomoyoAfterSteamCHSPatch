@@ -1,8 +1,6 @@
 #ifndef __VLSMB_ASM_H
 #define __VLSMB_ASM_H
 
-#pragma optimize("", off)
-
 #include <Windows.h>
 #include "hook.h"
 

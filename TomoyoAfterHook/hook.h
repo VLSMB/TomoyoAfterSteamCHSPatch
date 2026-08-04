@@ -28,7 +28,7 @@ typedef struct SeenDataStruct {
 } SeenData;
 
 typedef DWORD(__fastcall* ReadSeenHeaderFuncPtr)(void);
-typedef DWORD(__fastcall* ReadSeenDataFuncPtr)(BYTE dummy_ctx[64], SeenData* out, DWORD scene_no, DWORD flags);
+typedef DWORD(__fastcall* ReadSeenDataFuncPtr)(BYTE ctx[64], SeenData* out, DWORD scene_no, DWORD flags);
 
 void HookInit();
 void HookDestroy();

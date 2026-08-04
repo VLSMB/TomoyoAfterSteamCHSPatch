@@ -33,6 +33,10 @@ hook_for_dump:
 
 void ASM_FUNCTION HookForPatch() {
 	__asm {
+		mov eax, 0
+		mov [edx + 28], eax
+	}
+	__asm {
 		push edx
 		mov eax, [esp + 16]
 		push eax
