@@ -28,11 +28,13 @@ void HookInit() {
 }
 
 void HookDestroy() {
+#ifndef __HOOK_FOR_DUMP
 	for (int i = 0; i < SEEN_DATA_NUM; i++) {
 		if (seen_data_buffer[i] != NULL) {
 			free(seen_data_buffer[i]);
 		}
 	}
+#endif
 }
 
 DWORD getImageBase() {
@@ -55,7 +57,7 @@ void initForPatch() {
 	DWORD hookAddress = getImageBase() + READ_SEEN_DATA_FUNC_RVA;
 	loadSeenPatchData();
 	BYTE callHookOp[6];
-	assembleCallOp(callHookOp, 6, hookAddress, HookForDump);
+	assembleCallOp(callHookOp, 6, hookAddress, HookForPatch);
 	callHookOp[5] = 0xC3;
 	updateAsmCode(hookAddress, callHookOp, 6);
 }
@@ -74,6 +76,10 @@ void loadSeenPatchData() {
 			logError("获取文件大小失败！");
 			goto hook_init_patch_fail;
 		}
+		if (fileSize == 0) {
+			seen_data_buffer[i] = NULL;
+			goto hook_init_patch_skip;
+		}
 		seen_data_buffer[i] = (BYTE*)malloc(fileSize * sizeof(BYTE));
 		if (seen_data_buffer[i] == NULL) {
 			logError("内存不足");
@@ -84,6 +90,7 @@ void loadSeenPatchData() {
 			logError("读取文件失败");
 			goto hook_init_patch_fail;
 		}
+	hook_init_patch_skip:
 		CloseHandle(hFile);
 		continue;
 	hook_init_patch_fail:
@@ -92,7 +99,7 @@ void loadSeenPatchData() {
 	}
 }
 
-BYTE* getSeenPatchData(int num) {
+BYTE* GetSeenPatchData(int num) {
 	if (num < 0 || num >= SEEN_DATA_NUM) {
 		return NULL;
 	}
@@ -148,6 +155,7 @@ void updateAsmCode(void* address, BYTE* codeArr, size_t len) {
 	memcpy_s(address, len, codeArr, len);
 	DWORD tmp = 0;
 	VirtualProtect(address, len, oldProtect, &tmp);
+	FlushInstructionCache(GetCurrentProcess(), address, len);
 }
 
 void assembleCallOp(BYTE* buffer, size_t len, DWORD orgAddr, DWORD tarAddr) {
