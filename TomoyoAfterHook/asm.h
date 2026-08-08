@@ -8,5 +8,7 @@
 
 void HookForDump();
 void HookForPatch();
+void HookEnumFontFamiliesExA();
+void HookCreateFontA();
 
 #endif

@@ -83,3 +83,28 @@ void WINAPI handleSeenDataPatch(SeenData* ptr, int num) {
 		memcpy(ptr->decompressed_data, data, ptr->decompressed_size);
 	}
 }
+
+void ASM_FUNCTION HookEnumFontFamiliesExA() {
+	__asm {
+		pop eax
+		push ebx
+		mov ebx, [esp + 12]
+		mov byte ptr[ebx + 23], 134
+		pop ebx
+		mov edi, edi
+		push ebp
+		mov ebp, esp
+		jmp eax
+	}
+}
+
+void ASM_FUNCTION HookCreateFontA() {
+	__asm {
+		pop eax
+		mov dword ptr ss : [esp + 36] , 134
+		mov edi, edi
+		push ebp
+		mov ebp, esp
+		jmp eax
+	}
+}

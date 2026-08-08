@@ -33,7 +33,7 @@ typedef DWORD(__fastcall* ReadSeenDataFuncPtr)(BYTE ctx[64], SeenData* out, DWOR
 void HookInit();
 void HookDestroy();
 void RunDump();
-BYTE* GetSeenPatchData(int num);
+BYTE* GetSeenPatchData(size_t num);
 
 #endif
 
