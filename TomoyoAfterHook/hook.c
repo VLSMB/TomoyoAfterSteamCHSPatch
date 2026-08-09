@@ -202,5 +202,10 @@ void skipAsmCode(DWORD imageBase, DWORD rva, size_t codeLength) {
 		return;
 	}
 	RtlFillMemory(buffer, codeLength, 0x90);
+	if (codeLength >= 5) {
+		buffer[0] = 0xE9;
+		DWORD offset = codeLength - 0x5;
+		memcpy_s(buffer + 1, 4, &offset, 4);
+	}
 	updateAsmCode(imageBase + rva, buffer, codeLength);
 }
