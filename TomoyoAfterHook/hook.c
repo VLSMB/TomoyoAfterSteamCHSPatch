@@ -30,6 +30,7 @@ void logError(const char* msg);
 void updateAsmCode(void* address, BYTE* codeArr, size_t len);
 void assembleCallOp(BYTE* buffer, size_t len, void* targetFuncAddr, void* hookFuncAddr);
 void writeHook(void* targetFuncAddr, void* hookFuncAddr);
+void writeHookWithNop(void* targetFuncAddr, void* hookFuncAddr, unsigned nopLength);
 void loadSeenPatchData();
 void skipAsmCode(DWORD imageBase, DWORD rva, size_t codeLength);
 
@@ -80,6 +81,9 @@ void initForPatch() {
 	for (size_t i = 0; i < SET_NOP_ARRAY_SIZE; i++) {
 		skipAsmCode(imageBase, SET_NOP_RVA[i], SET_NOP_COUNT[i]);
 	}
+
+	writeHook(imageBase + CONSUME_TEXT_IN_QUOTE_MODE_CALLER_RVA, ProxyConsumeTextInQuoteMode);
+	writeHookWithNop(imageBase + HANDLE_NAME_TEXT_FUNC_RVA, HookHandleNameText, 1);
 }
 
 void loadSeenPatchData() {
@@ -147,13 +151,16 @@ void RunDump() {
 	}
 	free(data);
 	MessageBoxA(NULL, "seen解包成功！", MESSAGEBOX_TITLE, MB_ICONINFORMATION);
-	TerminateProcess(GetCurrentProcess(), 0);
+	ExitProcess(0);
 }
 
 void dumpSeenData(ReadSeenDataFuncPtr dataFunc, SeenData* data, size_t num) {
 	RtlZeroMemory(data, sizeof(SeenData));
 	RtlZeroMemory(dummy_ctx, sizeof(dummy_ctx));
 	dataFunc(dummy_ctx, data, num, 0);
+	__asm {
+		add esp, 8
+	}
 	char path[MAX_PATH];
 	wsprintfA(path, SEEN_DATA_FILE, num);
 	CreateDirectoryA(SEEN_DATA_DIR, NULL);
@@ -188,10 +195,20 @@ void assembleCallOp(BYTE* buffer, size_t len, void* targetFuncAddr, void* hookFu
 	memcpy_s(buffer + 1, 4, &rva, 4);
 }
 
+void writeHookWithNop(void* targetFuncAddr, void* hookFuncAddr, unsigned nopLength) {
+	size_t len = 5 + nopLength;
+	BYTE* callHookOp = (BYTE*)malloc(len);
+	if (callHookOp == NULL) {
+		logError("内存不足");
+		ExitProcess(1);
+	}
+	RtlFillMemory(callHookOp, len, 0x90);
+	assembleCallOp(callHookOp, len, targetFuncAddr, hookFuncAddr);
+	updateAsmCode(targetFuncAddr, callHookOp, len);
+}
+
 void writeHook(void* targetFuncAddr, void* hookFuncAddr) {
-	BYTE callHookOp[5];
-	assembleCallOp(callHookOp, 5, targetFuncAddr, hookFuncAddr);
-	updateAsmCode(targetFuncAddr, callHookOp, 5);
+	writeHookWithNop(targetFuncAddr, hookFuncAddr, 0);
 }
 
 void skipAsmCode(DWORD imageBase, DWORD rva, size_t codeLength) {

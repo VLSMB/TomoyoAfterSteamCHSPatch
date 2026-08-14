@@ -11,4 +11,7 @@ void HookForPatch();
 void HookEnumFontFamiliesExA();
 void HookCreateFontA();
 
+void ProxyConsumeTextInQuoteMode();
+void HookHandleNameText();
+
 #endif

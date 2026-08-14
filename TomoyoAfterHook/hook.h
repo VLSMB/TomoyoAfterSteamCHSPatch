@@ -10,6 +10,10 @@
 #define READ_SEEN_DATA_FUNC_RVA 0x8E950
 #define READ_SEEN_DATA_AFTER_HOOK_RVA 0x8E956
 #define SEEN_HEADER_ENTRY_POINTER_RVA 0x178BE84
+#define DRAW_SINGLE_CHAR_FUNC_RVA 0xC7F10
+#define CONSUME_TEXT_IN_QUOTE_MODE_FUNC_RVA 0xECA80
+#define CONSUME_TEXT_IN_QUOTE_MODE_CALLER_RVA 0xE9F9D
+#define HANDLE_NAME_TEXT_FUNC_RVA 0x17E5A0
 
 typedef struct SeenHeaderEntryStruct {
     DWORD offset;
@@ -29,6 +33,9 @@ typedef struct SeenDataStruct {
 
 typedef DWORD(__fastcall* ReadSeenHeaderFuncPtr)(void);
 typedef DWORD(__fastcall* ReadSeenDataFuncPtr)(BYTE ctx[64], SeenData* out, DWORD scene_no, DWORD flags);
+typedef DWORD(__fastcall* DrawSingleCharacterFuncPtr)(DWORD a1, DWORD a2, DWORD a3, DWORD a4, DWORD character, DWORD a6, DWORD a7, DWORD a8, DWORD a9, DWORD a10, DWORD a11, DWORD a12);
+typedef DWORD(__fastcall* ConsumeTextInQuoteModeFuncPtr)(void* p1, void* p2, int a3, int a4);
+#define GET_VM_IP_POINTER(p) (*(BYTE**)((DWORD)p2 + 32))
 
 void HookInit();
 void HookDestroy();

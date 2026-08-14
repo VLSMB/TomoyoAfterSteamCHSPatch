@@ -1,6 +1,8 @@
 #include "asm.h"
 
 void WINAPI handleSeenDataPatch(SeenData* ptr, int num);
+void WINAPI beforeConsumeTextHook(void* p1, void* p2, int a3, int a4);
+void WINAPI afterConsumeTextHook(void* p1, void* p2, int a3, int a4);
 
 void ASM_FUNCTION HookForDump() {
 	__asm {
@@ -105,6 +107,106 @@ void ASM_FUNCTION HookCreateFontA() {
 		mov edi, edi
 		push ebp
 		mov ebp, esp
+		jmp eax
+	}
+}
+
+void ASM_FUNCTION ProxyConsumeTextInQuoteMode() {
+	__asm {
+		push ebp
+		mov ebp, esp
+		sub esp, 20
+		pushad
+		pushfd
+	}
+	GetModuleHandleA(PROCESS_NAME);
+	__asm {
+		add eax, CONSUME_TEXT_IN_QUOTE_MODE_FUNC_RVA
+		mov [ebp - 4], eax
+		popfd
+		popad
+	}
+	__asm {
+		mov [ebp - 8], ecx
+		mov [ebp - 12], edx
+		mov eax, [ebp + 8]
+		mov [ebp - 16], eax
+		mov eax, [ebp + 12]
+		mov [ebp - 20], eax
+	}
+	__asm {
+		jmp __proxy_consume_text
+	}
+__consume_text_hook:
+	__asm {
+		mov eax, [ebp - 20]
+		push eax
+		mov eax, [ebp - 16]
+		push eax
+		mov eax, [ebp - 12]
+		push eax
+		mov eax, [ebp - 8]
+		push eax
+		call ebx
+		ret
+	}
+__proxy_consume_text:
+	__asm {
+		pushad
+		pushfd
+
+		mov ebx, beforeConsumeTextHook
+		call __consume_text_hook
+
+		popfd
+		popad
+	}
+	__asm {
+		mov eax, [ebp - 20]
+		push eax
+		mov eax, [ebp - 16]
+		push eax
+		mov eax, [ebp - 4]
+		call eax
+		add esp, 8
+	}
+	__asm {
+		pushad
+		pushfd
+
+		mov ebx, afterConsumeTextHook
+		call __consume_text_hook
+
+		popfd
+		popad
+	}
+	__asm {
+		add esp, 20
+		pop ebp
+		ret
+	}
+}
+
+void WINAPI beforeConsumeTextHook(void* p1, void* p2, int a3, int a4) {
+	BYTE* buffer = GET_VM_IP_POINTER(p2);
+	
+}
+
+void WINAPI afterConsumeTextHook(void* p1, void* p2, int a3, int a4) {
+	BYTE* buffer = GET_VM_IP_POINTER(p2);
+	
+}
+
+const char* kotori = "Éñ»§Ð¡Äñ";
+
+void ASM_FUNCTION HookHandleNameText() {
+	__asm {
+		mov edx, kotori
+		pop eax
+
+		push ebp
+		mov ebp, esp
+		sub esp, 64
 		jmp eax
 	}
 }
