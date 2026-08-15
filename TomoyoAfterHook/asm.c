@@ -3,6 +3,7 @@
 void WINAPI handleSeenDataPatch(SeenData* ptr, int num);
 void WINAPI beforeConsumeTextHook(void* p1, void* p2, int a3, int a4);
 void WINAPI afterConsumeTextHook(void* p1, void* p2, int a3, int a4);
+int WINAPI checkFileIsSeen(const char* fileName);
 
 void ASM_FUNCTION HookForDump() {
 	__asm {
@@ -109,6 +110,42 @@ void ASM_FUNCTION HookCreateFontA() {
 		mov ebp, esp
 		jmp eax
 	}
+}
+
+void ASM_FUNCTION HookCreateFileA() {
+	_asm {
+		mov eax, [esp + 8]
+		push eax
+		call checkFileIsSeen
+		test eax, eax
+		je __create_file_ret
+	}
+	__asm {
+		pushfd
+		pushad
+		call PatchHookAfterOpenSeenFile
+		popad
+		popfd
+	}
+__create_file_ret:
+	__asm {
+		pop eax
+		mov edi, edi
+		push ebp
+		mov ebp, esp
+		jmp eax
+	}
+}
+
+int WINAPI checkFileIsSeen(const char* fileName) {
+	const int len = strlen("SEEN.TXT");
+	if (strlen(fileName) < len) {
+		return FALSE;
+	}
+	const char* p = fileName;
+	while (*(++p));
+	p -= len;
+	return lstrcmpiA("SEEN.TXT", p) == 0;
 }
 
 void ASM_FUNCTION ProxyConsumeTextInQuoteMode() {

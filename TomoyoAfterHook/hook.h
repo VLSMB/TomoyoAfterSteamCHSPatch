@@ -55,6 +55,7 @@ void HookInit();
 void HookDestroy();
 void RunDump();
 BYTE* GetSeenPatchData(size_t num);
+void PatchHookAfterOpenSeenFile();
 
 #endif
 

@@ -19,6 +19,7 @@ const size_t SET_NOP_COUNT[SET_NOP_ARRAY_SIZE] = {
 BYTE dummy_ctx[64];
 BYTE* seen_data_buffer[SEEN_DATA_NUM] = { NULL };
 PatchMode patch_mode = PATCH_RELEASE;
+int hookProcessAfterVMInitFlag = 0;
 
 void initPatchMode();
 char* calculateSHA256();
@@ -44,6 +45,42 @@ void HookInit() {
 	case PATCH_RELEASE:
 	case PATCH_DEBUG:
 		initForPatch();
+		break;
+	case PATCH_ARCHIVE:
+	case PATCH_NONE:
+		break;
+	}
+}
+
+void PatchHookAfterOpenSeenFile() {
+	if (hookProcessAfterVMInitFlag) {
+		return;
+	}
+	hookProcessAfterVMInitFlag = 1;
+	switch (patch_mode) {
+	case PATCH_DUMP:
+		break;
+	case PATCH_RELEASE:
+	case PATCH_DEBUG:
+	{
+		const DWORD imageBase = getImageBase();
+		DWORD hookAddress = imageBase + READ_SEEN_DATA_FUNC_RVA;
+		loadSeenPatchData();
+		BYTE callHookOp[6];
+		assembleCallOp(callHookOp, 6, hookAddress, HookForPatch);
+		callHookOp[5] = 0xC3;
+		updateAsmCode(hookAddress, callHookOp, 6);
+
+		writeHook(EnumFontFamiliesExA, HookEnumFontFamiliesExA);
+		writeHook(CreateFontA, HookCreateFontA);
+
+		for (size_t i = 0; i < SET_NOP_ARRAY_SIZE; i++) {
+			skipAsmCode(imageBase, SET_NOP_RVA[i], SET_NOP_COUNT[i]);
+		}
+
+		writeHook(imageBase + CONSUME_TEXT_IN_QUOTE_MODE_CALLER_RVA, ProxyConsumeTextInQuoteMode);
+		writeHookWithNop(imageBase + HANDLE_NAME_TEXT_FUNC_RVA, HookHandleNameText, 1);
+	}
 		break;
 	case PATCH_ARCHIVE:
 	case PATCH_NONE:
@@ -159,23 +196,14 @@ void initForDump() {
 }
 
 void initForPatch() {
-	const DWORD imageBase = getImageBase();
-	DWORD hookAddress = imageBase + READ_SEEN_DATA_FUNC_RVA;
-	loadSeenPatchData();
-	BYTE callHookOp[6];
-	assembleCallOp(callHookOp, 6, hookAddress, HookForPatch);
-	callHookOp[5] = 0xC3;
-	updateAsmCode(hookAddress, callHookOp, 6);
-
-	writeHook(EnumFontFamiliesExA, HookEnumFontFamiliesExA);
-	writeHook(CreateFontA, HookCreateFontA);
-
-	for (size_t i = 0; i < SET_NOP_ARRAY_SIZE; i++) {
-		skipAsmCode(imageBase, SET_NOP_RVA[i], SET_NOP_COUNT[i]);
+	HMODULE hModule = GetModuleHandleA("kernelbase.dll");
+	if (hModule == NULL) {
+		hModule = LoadLibraryA("kernelbase.dll");
 	}
-
-	writeHook(imageBase + CONSUME_TEXT_IN_QUOTE_MODE_CALLER_RVA, ProxyConsumeTextInQuoteMode);
-	writeHookWithNop(imageBase + HANDLE_NAME_TEXT_FUNC_RVA, HookHandleNameText, 1);
+	if (hModule == NULL) {
+		ExitProcess(1);
+	}
+	writeHook(GetProcAddress(hModule, "CreateFileA"), HookCreateFileA);
 }
 
 void loadSeenPatchData() {

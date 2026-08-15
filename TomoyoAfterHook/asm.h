@@ -10,6 +10,7 @@ void HookForDump();
 void HookForPatch();
 void HookEnumFontFamiliesExA();
 void HookCreateFontA();
+void HookCreateFileA();
 
 void ProxyConsumeTextInQuoteMode();
 void HookHandleNameText();
