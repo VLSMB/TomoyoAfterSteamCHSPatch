@@ -4,7 +4,13 @@
 #include <Windows.h>
 
 #define PROCESS_NAME "RealLive.exe"
-//#define __HOOK_FOR_DUMP
+#define PROCESS_FILE_SHA256 "cbfe30775595145b58af21edca73bc9ed25a54b135adb4702af1d26c1f9aa084"
+#define SEEN_DATA_NUM 10000
+#define SEEN_DATA_FILE "patch\\SEEN%04d.txt"
+#define SEEN_DATA_DIR "patch"
+#define MESSAGEBOX_TITLE "VLSMB"
+#define PATCH_MODE_CONFIG_FILE "patch_mode.cfg"
+
 #define CALL_READ_SEEN_HEADER_RVA 0x526EF
 #define READ_SEEN_HEADER_FUNC_RVA 0x991B0
 #define READ_SEEN_DATA_FUNC_RVA 0x8E950
@@ -14,6 +20,14 @@
 #define CONSUME_TEXT_IN_QUOTE_MODE_FUNC_RVA 0xECA80
 #define CONSUME_TEXT_IN_QUOTE_MODE_CALLER_RVA 0xE9F9D
 #define HANDLE_NAME_TEXT_FUNC_RVA 0x17E5A0
+
+typedef enum PatchModeEnum {
+    PATCH_RELEASE,
+    PATCH_DUMP,
+    PATCH_ARCHIVE,
+    PATCH_DEBUG,
+    PATCH_NONE
+} PatchMode;
 
 typedef struct SeenHeaderEntryStruct {
     DWORD offset;

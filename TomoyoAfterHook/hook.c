@@ -1,11 +1,8 @@
 #include "hook.h"
 #include "asm.h"
 #include <Windows.h>
-
-#define SEEN_DATA_NUM 10000
-#define SEEN_DATA_FILE "patch\\SEEN%04d.txt"
-#define SEEN_DATA_DIR "patch"
-#define MESSAGEBOX_TITLE "VLSMB"
+#include <stdio.h>
+#include <wincrypt.h>
 
 #define SET_NOP_ARRAY_SIZE 23
 const DWORD SET_NOP_RVA[SET_NOP_ARRAY_SIZE] = { 
@@ -20,8 +17,12 @@ const size_t SET_NOP_COUNT[SET_NOP_ARRAY_SIZE] = {
 };
 
 BYTE dummy_ctx[64];
-BYTE* seen_data_buffer[SEEN_DATA_NUM];
+BYTE* seen_data_buffer[SEEN_DATA_NUM] = { NULL };
+PatchMode patch_mode = PATCH_RELEASE;
 
+void initPatchMode();
+char* calculateSHA256();
+char singleHexToChar(BYTE b);
 DWORD getImageBase();
 void initForDump();
 void initForPatch();
@@ -35,21 +36,112 @@ void loadSeenPatchData();
 void skipAsmCode(DWORD imageBase, DWORD rva, size_t codeLength);
 
 void HookInit() {
-#ifdef __HOOK_FOR_DUMP
-	initForDump();
-#else
-	initForPatch();
-#endif
+	initPatchMode();
+	switch (patch_mode) {
+	case PATCH_DUMP:
+		initForDump();
+		break;
+	case PATCH_RELEASE:
+	case PATCH_DEBUG:
+		initForPatch();
+		break;
+	case PATCH_ARCHIVE:
+	case PATCH_NONE:
+		break;
+	}
 }
 
 void HookDestroy() {
-#ifndef __HOOK_FOR_DUMP
 	for (size_t i = 0; i < SEEN_DATA_NUM; i++) {
 		if (seen_data_buffer[i] != NULL) {
 			free(seen_data_buffer[i]);
 		}
 	}
-#endif
+}
+
+void initPatchMode() {
+	BYTE* sha256 = calculateSHA256();
+	if (strcmp(sha256, PROCESS_FILE_SHA256)) {
+		int btn = MessageBoxA(NULL, 
+			"检测到当前程序与补丁版本不匹配，本补丁是为Steam版《Tomoyo After English Edition》准备的。\r\n"
+			"如果继续运行汉化补丁可能会出现未知错误，是否仍然要继续运行汉化补丁？\r\n"
+			"（选择“是”则继续启动汉化补丁，选择“否”则关闭补丁运行原版程序）",
+			MESSAGEBOX_TITLE, MB_YESNO | MB_ICONWARNING);
+		if (btn != IDYES) {
+			patch_mode = PATCH_NONE;
+			return;
+		}
+	}
+	FILE* fp = fopen(PATCH_MODE_CONFIG_FILE, "rb");
+	if (fp == NULL) {
+		patch_mode = PATCH_RELEASE;
+		return;
+	}
+	int ch = fgetc(fp);
+	fclose(fp);
+	if (ch == EOF || ch < '0' || ch > '4') {
+		patch_mode = PATCH_RELEASE;
+		return;
+	}
+	patch_mode = (PatchMode)(ch - '0');
+}
+
+char* calculateSHA256() {
+	HANDLE hFile = CreateFileA(PROCESS_NAME, GENERIC_READ, FILE_SHARE_READ,
+		NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);
+	if (hFile == INVALID_HANDLE_VALUE) {
+		return NULL;
+	}
+
+	HCRYPTPROV hProv = 0;
+	HCRYPTHASH hHash = 0;
+	BYTE out_hash[32] = { 0 };
+	int flag = 1;
+
+	if (CryptAcquireContextA(&hProv, NULL, NULL, PROV_RSA_AES, CRYPT_VERIFYCONTEXT)) {
+		if (CryptCreateHash(hProv, CALG_SHA_256, 0, 0, &hHash)) {
+			BYTE buffer[8192];
+			DWORD bytesRead;
+			while (flag && ReadFile(hFile, buffer, sizeof(buffer), &bytesRead, NULL) && bytesRead > 0) {
+				if (!CryptHashData(hHash, buffer, bytesRead, 0)) {
+					flag = 0;
+				}
+			}
+			if (flag) {
+				DWORD hashLen = 32;
+				flag = CryptGetHashParam(hHash, HP_HASHVAL, out_hash, &hashLen, 0);
+			}
+			CryptDestroyHash(hHash);
+		}
+		CryptReleaseContext(hProv, 0);
+	}
+	CloseHandle(hFile);
+
+	if (flag) {
+		char* result = (char*)malloc(65 * sizeof(char));
+		char* rp = result;
+		if (result == NULL) {
+			return NULL;
+		}
+		for (int i = 0; i < 32; i++) {
+			*(rp++) = singleHexToChar((out_hash[i] >> 4) & 0xF);
+			*(rp++) = singleHexToChar(out_hash[i] & 0xF);
+		}
+		*rp = '\0';
+		return result;
+	} else {
+		return NULL;
+	}
+}
+
+char singleHexToChar(BYTE b) {
+	if (b >= 0 && b <= 9) {
+		return '0' + b;
+	} else if (b < 16) {
+		return 'a' + (b - 10);
+	} else {
+		return '?';
+	}
 }
 
 DWORD getImageBase() {

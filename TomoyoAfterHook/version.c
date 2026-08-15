@@ -97,7 +97,7 @@ FARPROC WINAPI GetAddress(PCSTR pszProcName)
 	{
 		if (HIWORD(pszProcName) == 0)
 		{
-			wsprintfA(szProcName, "#%d", pszProcName);
+			wsprintf(szProcName, "#%d", pszProcName);
 			pszProcName = szProcName;
 		}
 
