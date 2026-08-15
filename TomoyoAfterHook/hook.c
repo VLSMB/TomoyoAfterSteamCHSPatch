@@ -27,7 +27,7 @@ char singleHexToChar(BYTE b);
 DWORD getImageBase();
 void initForDump();
 void initForPatch();
-void dumpSeenData(ReadSeenDataFuncPtr dataFunc, SeenData* data, size_t num);
+void dumpSeenData(ReadSeenDataFuncPtr dataFunc, RealLiveSeenData* data, size_t num);
 void logError(const char* msg);
 void updateAsmCode(void* address, BYTE* codeArr, size_t len);
 void assembleCallOp(BYTE* buffer, size_t len, void* targetFuncAddr, void* hookFuncAddr);
@@ -258,8 +258,8 @@ void RunDump() {
 		TerminateProcess(GetCurrentProcess(), 1);
 	}
 	ReadSeenDataFuncPtr dataFunc = (ReadSeenDataFuncPtr)(imageBase + READ_SEEN_DATA_FUNC_RVA);
-	SeenHeaderEntry* entryArray = *(SeenHeaderEntry**)(imageBase + SEEN_HEADER_ENTRY_POINTER_RVA);
-	SeenData* data = malloc(sizeof(SeenData));
+	RealLiveSeenHeader* entryArray = *(RealLiveSeenHeader**)(imageBase + SEEN_HEADER_ENTRY_POINTER_RVA);
+	RealLiveSeenData* data = malloc(sizeof(RealLiveSeenData));
 	if (data == NULL) {
 		logError("ÄÚ´æ²»×ã");
 		TerminateProcess(GetCurrentProcess(), 1);
@@ -275,8 +275,8 @@ void RunDump() {
 	ExitProcess(0);
 }
 
-void dumpSeenData(ReadSeenDataFuncPtr dataFunc, SeenData* data, size_t num) {
-	RtlZeroMemory(data, sizeof(SeenData));
+void dumpSeenData(ReadSeenDataFuncPtr dataFunc, RealLiveSeenData* data, size_t num) {
+	RtlZeroMemory(data, sizeof(RealLiveSeenData));
 	RtlZeroMemory(dummy_ctx, sizeof(dummy_ctx));
 	dataFunc(dummy_ctx, data, num, 0);
 	__asm {

@@ -1,6 +1,6 @@
 #include "asm.h"
 
-void WINAPI handleSeenDataPatch(SeenData* ptr, int num);
+void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, int num);
 void WINAPI beforeConsumeTextHook(void* p1, void* p2, int* byteMode, int a4);
 void WINAPI afterConsumeTextHook(void* p1, void* p2, int* byteMode, int a4);
 int WINAPI checkFileIsSeen(const char* fileName);
@@ -80,7 +80,7 @@ hook_for_patch:
 	}
 }
 
-void WINAPI handleSeenDataPatch(SeenData* ptr, int num) {
+void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, int num) {
 	BYTE* data = GetSeenPatchData(num);
 	if (data != NULL && ptr->decompressed_data != NULL && ptr->decompressed_size > 0) {
 		memcpy(ptr->decompressed_data, data, ptr->decompressed_size);

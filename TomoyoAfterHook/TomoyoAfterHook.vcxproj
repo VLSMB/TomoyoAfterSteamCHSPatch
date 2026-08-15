@@ -20,11 +20,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="asm.c" />
+    <ClCompile Include="data.cpp" />
     <ClCompile Include="hook.c" />
     <ClCompile Include="version.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="asm.h" />
+    <ClInclude Include="data.h" />
     <ClInclude Include="hook.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
