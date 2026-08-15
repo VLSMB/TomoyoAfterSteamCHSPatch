@@ -1,8 +1,8 @@
 #include "asm.h"
 
 void WINAPI handleSeenDataPatch(SeenData* ptr, int num);
-void WINAPI beforeConsumeTextHook(void* p1, void* p2, int a3, int a4);
-void WINAPI afterConsumeTextHook(void* p1, void* p2, int a3, int a4);
+void WINAPI beforeConsumeTextHook(void* p1, void* p2, int* byteMode, int a4);
+void WINAPI afterConsumeTextHook(void* p1, void* p2, int* byteMode, int a4);
 int WINAPI checkFileIsSeen(const char* fileName);
 
 void ASM_FUNCTION HookForDump() {
@@ -178,7 +178,7 @@ __consume_text_hook:
 	__asm {
 		mov eax, [ebp - 20]
 		push eax
-		mov eax, [ebp - 16]
+		lea eax, [ebp - 16]
 		push eax
 		mov eax, [ebp - 12]
 		push eax
@@ -224,14 +224,42 @@ __proxy_consume_text:
 	}
 }
 
-void WINAPI beforeConsumeTextHook(void* p1, void* p2, int a3, int a4) {
+const char* const text = "神户小鸟天下第一！VLSMB1英文字符测试。";
+const char* p = NULL;
+BYTE* origin_ip = NULL;
+
+void WINAPI beforeConsumeTextHook(void* p1, void* p2, int* byteMode, int a4) {
 	BYTE* buffer = GET_VM_IP_POINTER(p2);
-	
+	if (*buffer == 0xC4 && *(buffer + 1) == 0xE3) {
+		if (p == NULL) {
+			p = text;
+		}
+		if (*p == '\\') {
+			*byteMode = 2;
+		} else if ((BYTE)(*p) < 0x80) {
+			*byteMode = 1;
+		} else {
+			*byteMode = 0;
+		}
+		origin_ip = buffer;
+		SET_VM_IP_POINTER(p2, p);
+	}
 }
 
-void WINAPI afterConsumeTextHook(void* p1, void* p2, int a3, int a4) {
+void WINAPI afterConsumeTextHook(void* p1, void* p2, int* byteMode, int a4) {
+	if (origin_ip == NULL) {
+		return;
+	}
 	BYTE* buffer = GET_VM_IP_POINTER(p2);
-	
+	if (*buffer) {
+		SET_VM_IP_POINTER(p2, origin_ip);
+		p = buffer;
+	}
+	else {
+		SET_VM_IP_POINTER(p2, origin_ip + 2);
+		p = NULL;
+	}
+	origin_ip = NULL;
 }
 
 const char* kotori = "神户小鸟";

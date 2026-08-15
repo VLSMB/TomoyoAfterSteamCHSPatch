@@ -78,7 +78,8 @@ void PatchHookAfterOpenSeenFile() {
 			skipAsmCode(imageBase, SET_NOP_RVA[i], SET_NOP_COUNT[i]);
 		}
 
-		writeHook(imageBase + CONSUME_TEXT_IN_QUOTE_MODE_CALLER_RVA, ProxyConsumeTextInQuoteMode);
+		writeHook(imageBase + CONSUME_TEXT_IN_QUOTE_MODE_CALLER_1_RVA, ProxyConsumeTextInQuoteMode);
+		writeHook(imageBase + CONSUME_TEXT_IN_QUOTE_MODE_CALLER_2_RVA, ProxyConsumeTextInQuoteMode);
 		writeHookWithNop(imageBase + HANDLE_NAME_TEXT_FUNC_RVA, HookHandleNameText, 1);
 	}
 		break;
