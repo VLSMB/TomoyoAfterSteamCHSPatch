@@ -1,5 +1,6 @@
 #include "hook.h"
 #include "asm.h"
+#include "data.h"
 #include <Windows.h>
 #include <stdio.h>
 #include <wincrypt.h>
@@ -27,7 +28,8 @@ char singleHexToChar(BYTE b);
 DWORD getImageBase();
 void initForDump();
 void initForPatch();
-void dumpSeenData(ReadSeenDataFuncPtr dataFunc, RealLiveSeenData* data, size_t num);
+void dumpSeenData(ReadSeenDataFuncPtr dataFunc, RealLiveSeenData* data, size_t num, SeenDumpData* out);
+void saveFile(const char* fileName, ByteBuffer buffer);
 void logError(const char* msg);
 void updateAsmCode(void* address, BYTE* codeArr, size_t len);
 void assembleCallOp(BYTE* buffer, size_t len, void* targetFuncAddr, void* hookFuncAddr);
@@ -252,45 +254,86 @@ BYTE* GetSeenPatchData(size_t num) {
 }
 
 void RunDump() {
-	DWORD imageBase = (DWORD)GetModuleHandleA(PROCESS_NAME);
-	if (imageBase == NULL) {
-		logError("寻找进程基地址失败！");
-		TerminateProcess(GetCurrentProcess(), 1);
-	}
+	DWORD imageBase = getImageBase();
 	ReadSeenDataFuncPtr dataFunc = (ReadSeenDataFuncPtr)(imageBase + READ_SEEN_DATA_FUNC_RVA);
 	RealLiveSeenHeader* entryArray = *(RealLiveSeenHeader**)(imageBase + SEEN_HEADER_ENTRY_POINTER_RVA);
-	RealLiveSeenData* data = malloc(sizeof(RealLiveSeenData));
-	if (data == NULL) {
-		logError("内存不足");
-		TerminateProcess(GetCurrentProcess(), 1);
+	RealLiveSeenData data;
+	SeenDumpData** pDumpData = (SeenDumpData**)malloc(SEEN_DATA_NUM * sizeof(SeenDumpData*));
+	if (pDumpData == NULL) {
+		ExitProcess(1);
 	}
+	RtlZeroMemory(pDumpData, SEEN_DATA_NUM * sizeof(SeenDumpData*));
 	for (size_t i = 0; i < SEEN_DATA_NUM; i++) {
 		if ((entryArray + i)->offset == 0 || (entryArray + i)->size == 0) {
 			continue;
 		}
-		dumpSeenData(dataFunc, data, i);
+		pDumpData[i] = (SeenDumpData*)malloc(sizeof(SeenDumpData));
+		if (pDumpData[i] == NULL) {
+			ExitProcess(1);
+		}
+		RtlZeroMemory(pDumpData[i], sizeof(SeenDumpData));
+		RtlZeroMemory(&data, sizeof(RealLiveSeenData));
+		dumpSeenData(dataFunc, &data, i, pDumpData[i]);
 	}
-	free(data);
+
+	char path[MAX_PATH];
+	for (size_t i = 0; i < SEEN_DATA_NUM; i++) {
+		if (pDumpData[i] == NULL) continue;
+		ByteBuffer buffer;
+		RtlZeroMemory(&buffer, sizeof(ByteBuffer));
+		TextDataToTextFile(&pDumpData[i]->textData, &buffer);
+		wsprintfA(path, "patch\\seen%04d.txt", i);
+		saveFile(path, buffer);
+		FreeByteBuffer(&buffer);
+	}
+	NameDataArray** pNameDataArray = (NameDataArray**)malloc(SEEN_DATA_NUM * sizeof(NameDataArray*));
+	if (pNameDataArray == NULL) {
+		ExitProcess(1);
+	}
+
+	size_t pSize = 0;
+	for (size_t i = 0; i < SEEN_DATA_NUM; i++) {
+		if (pDumpData[i] == NULL) continue;
+		pNameDataArray[pSize++] = &pDumpData[i]->nameData;
+	}
+	NameDataArray* nameData = MergeNameDataArray(pNameDataArray, pSize);
+	ByteBuffer buffer;
+	RtlZeroMemory(&buffer, sizeof(ByteBuffer));
+	NameDataToTextFile(nameData, &buffer);
+	saveFile("patch\\name.txt", buffer);
+
+	for (size_t i = 0; i < SEEN_DATA_NUM; i++) {
+		FreeSeenDumpData(pDumpData[i]);
+		free(pDumpData[i]);
+	}
+	FreeNameDataArray(nameData);
+	free(nameData);
+	free(pDumpData);
+	free(pNameDataArray);
 	MessageBoxA(NULL, "seen解包成功！", MESSAGEBOX_TITLE, MB_ICONINFORMATION);
 	ExitProcess(0);
 }
 
-void dumpSeenData(ReadSeenDataFuncPtr dataFunc, RealLiveSeenData* data, size_t num) {
+void dumpSeenData(ReadSeenDataFuncPtr dataFunc, RealLiveSeenData* data, size_t num, SeenDumpData* out) {
 	RtlZeroMemory(data, sizeof(RealLiveSeenData));
 	RtlZeroMemory(dummy_ctx, sizeof(dummy_ctx));
 	dataFunc(dummy_ctx, data, num, 0);
 	__asm {
 		add esp, 8
 	}
-	char path[MAX_PATH];
-	wsprintfA(path, SEEN_DATA_FILE, num);
+	DumpSeenData(num, data, out);
+}
+
+void saveFile(const char* fileName, ByteBuffer buffer) {
 	CreateDirectoryA(SEEN_DATA_DIR, NULL);
-	HANDLE hFile = CreateFileA(path, GENERIC_WRITE, 0, NULL, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, NULL);
-	if (hFile != INVALID_HANDLE_VALUE) {
-		DWORD written;
-		WriteFile(hFile, data->decompressed_data, data->decompressed_size, &written, NULL);
-		CloseHandle(hFile);
+	HANDLE hFile = CreateFileA(fileName, GENERIC_WRITE, 0, NULL, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, NULL);
+	if (hFile == INVALID_HANDLE_VALUE) {
+		logError("文件创建失败");
+		ExitProcess(2);
 	}
+	DWORD written = 0;
+	WriteFile(hFile, buffer.pointer, buffer.size, &written, NULL);
+	CloseHandle(hFile);
 }
 
 void logError(const char* msg) {

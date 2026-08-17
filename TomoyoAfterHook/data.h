@@ -82,7 +82,15 @@ void TextFileToNameData(ByteBuffer* in, NameDataArray* out);
 void NameDataToBinFile(NameDataArray* in, ByteBuffer* out);
 void BinFileToNameData(ByteBuffer* in, NameDataArray* out);
 
-NameDataArray* mergeNameDataArray(NameDataArray** arrayList, size_t arraySize);
+NameDataArray* MergeNameDataArray(NameDataArray** arrayList, size_t arraySize);
+
+void FreeByteBuffer(ByteBuffer* buf);
+void FreeSeenPatchData(SeenPatchData* data);
+void FreeSeenPatchDataArray(SeenPatchDataArray* array);
+void FreeNameData(NameData* data);
+void FreeNameDataArray(NameDataArray* array);
+void FreeSingleWordExtendMap(SingleWordExtendMap* map);
+void FreeSeenDumpData(SeenDumpData* dump);
 
 #ifdef __cplusplus
 }

@@ -38,7 +38,32 @@ EXTERN_C void DumpSeenData(unsigned seenNo, RealLiveSeenData* in, SeenDumpData* 
 	while (i < size) {
 		const BYTE b = data[i];
 		if (inQuote) {
+			if (b == '\\' && i + 1 < size && data[i + 1] == '"') {
+				textBuffer.push_back('\\');
+				textBuffer.push_back('"');
+				i += 2;
+				continue;
+			}
 			if (b == '"') {
+				bool hasInvalidChar = false;
+				for (size_t j = 0; j < textBuffer.size(); ++j) {
+					BYTE c = textBuffer[j];
+					if (!(c >= 0x20 && c <= 0x7E)) {
+						hasInvalidChar = true;
+						break;
+					}
+				}
+				if (hasInvalidChar) {
+					textBuffer.clear();
+					if (i >= 2 && data[i - 2] == 0x81 && data[i - 1] == 0x79) {
+						inQuote = false;
+						i -= 2;
+					} else {
+						inQuote = true;
+						++i;
+					}
+					continue;
+				}
 				inQuote = false;
 				if (inName) {
 					nameBuffer.insert(nameBuffer.end(), textBuffer.begin(), textBuffer.end());
@@ -304,7 +329,7 @@ EXTERN_C void BinFileToNameData(ByteBuffer* in, NameDataArray* out) {
 	out->size = arr.size();
 }
 
-EXTERN_C NameDataArray* mergeNameDataArray(NameDataArray** arrayList, size_t arraySize) {
+EXTERN_C NameDataArray* MergeNameDataArray(NameDataArray** arrayList, size_t arraySize) {
 	std::set<std::pair<std::vector<BYTE>, std::vector<BYTE>>> seen;
 	std::vector<std::pair<std::vector<BYTE>, std::vector<BYTE>>> unique;
 
@@ -335,6 +360,65 @@ EXTERN_C NameDataArray* mergeNameDataArray(NameDataArray** arrayList, size_t arr
 		}
 	}
 	return result;
+}
+
+EXTERN_C void FreeByteBuffer(ByteBuffer* buf) {
+	if (buf == NULL) return;
+	free(buf->pointer);
+	buf->pointer = NULL;
+	buf->size = 0;
+}
+
+EXTERN_C void FreeSeenPatchData(SeenPatchData* data) {
+	if (data == NULL) return;
+	FreeByteBuffer(&data->name);
+	FreeByteBuffer(&data->origin);
+	FreeByteBuffer(&data->translated);
+	data->number = 0;
+	data->offset = 0;
+}
+
+EXTERN_C void FreeSeenPatchDataArray(SeenPatchDataArray* array) {
+	if (array == NULL) return;
+	if (array->pointer != NULL) {
+		for (size_t i = 0; i < array->size; ++i) {
+			FreeSeenPatchData(&array->pointer[i]);
+		}
+		free(array->pointer);
+		array->pointer = NULL;
+	}
+	array->size = 0;
+}
+
+EXTERN_C void FreeNameData(NameData* data) {
+	if (data == NULL) return;
+	FreeByteBuffer(&data->origin);
+	FreeByteBuffer(&data->translated);
+}
+
+EXTERN_C void FreeNameDataArray(NameDataArray* array) {
+	if (array == NULL) return;
+	if (array->pointer != NULL) {
+		for (size_t i = 0; i < array->size; ++i) {
+			FreeNameData(&array->pointer[i]);
+		}
+		free(array->pointer);
+		array->pointer = NULL;
+	}
+	array->size = 0;
+}
+
+EXTERN_C void FreeSingleWordExtendMap(SingleWordExtendMap* map) {
+	if (map == NULL) return;
+	FreeByteBuffer(&map->sentence);
+	map->word = 0;
+}
+
+EXTERN_C void FreeSeenDumpData(SeenDumpData* dump) {
+	if (dump == NULL) return;
+	FreeSeenPatchDataArray(&dump->textData);
+	FreeNameDataArray(&dump->nameData);
+	dump->number = 0;
 }
 
 template<typename T>
