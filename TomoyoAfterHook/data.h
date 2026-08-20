@@ -37,14 +37,16 @@ typedef struct RealLiveSeenDataStruct {
 } RealLiveSeenData;
 
 typedef struct SeenPatchDataStruct {
-	unsigned number;
+	unsigned index;
 	unsigned offset;
+    size_t length;
     ByteBuffer name;
     ByteBuffer origin;
     ByteBuffer translated;
 } SeenPatchData;
 
 typedef struct SeenPatchDataArrayStruct {
+    unsigned seenNo;
     SeenPatchData* pointer;
     size_t size;
 } SeenPatchDataArray;
@@ -65,12 +67,11 @@ typedef struct SingleWordExtendMapStruct {
 } SingleWordExtendMap;
 
 typedef struct SeenDumpDataStruct {
-	unsigned number;
     SeenPatchDataArray textData;
     NameDataArray nameData;
 } SeenDumpData;
 
-void DumpSeenData(unsigned seenNo, RealLiveSeenData* in, SeenDumpData* out);
+void DumpSeenData(RealLiveSeenData* in, SeenDumpData* out);
 
 void TextDataToTextFile(SeenPatchDataArray* in, ByteBuffer* out);
 void TextFileToTextData(ByteBuffer* in, SeenPatchDataArray* out);

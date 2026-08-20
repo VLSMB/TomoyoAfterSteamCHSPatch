@@ -274,6 +274,7 @@ void RunDump() {
 		RtlZeroMemory(pDumpData[i], sizeof(SeenDumpData));
 		RtlZeroMemory(&data, sizeof(RealLiveSeenData));
 		dumpSeenData(dataFunc, &data, i, pDumpData[i]);
+		pDumpData[i]->textData.seenNo = i;
 	}
 
 	char path[MAX_PATH];
@@ -321,7 +322,7 @@ void dumpSeenData(ReadSeenDataFuncPtr dataFunc, RealLiveSeenData* data, size_t n
 	__asm {
 		add esp, 8
 	}
-	DumpSeenData(num, data, out);
+	DumpSeenData(data, out);
 }
 
 void saveFile(const char* fileName, ByteBuffer buffer) {

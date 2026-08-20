@@ -9,21 +9,27 @@
 #include <type_traits>
 
 template<typename T>
-T* toArrayPointer(const std::vector<T>& vec);
+static T* toArrayPointer(const std::vector<T>& vec);
 
 static BYTE* copyBytes(const BYTE* p, size_t n);
 static ByteBuffer makeBuffer(const BYTE* p, size_t n);
 static std::vector<BYTE> bufferToVec(const ByteBuffer& b);
-static void appendU32(std::vector<BYTE>& b, uint32_t v);
+static void appendDWORD(std::vector<BYTE>& b, DWORD v);
 static void appendBytes(std::vector<BYTE>& b, const BYTE* p, size_t n);
-static bool readU32(const BYTE*& p, const BYTE* end, uint32_t& v);
+static bool readDWORD(const BYTE*& p, const BYTE* const end, DWORD& v);
 static std::vector<std::string> splitLines(const BYTE* p, size_t n);
 static bool isSep(const std::string& s);
 static size_t nextSep(const std::vector<std::string>& L, size_t i);
 static std::string readBlock(const std::vector<std::string>& L, size_t& i);
 static bool startsWith(const std::string& s, const char* p);
 
-EXTERN_C void DumpSeenData(unsigned seenNo, RealLiveSeenData* in, SeenDumpData* out) {
+const char* EMPTY_NAME = "NULL";
+const DWORD BIN_MAGIC = 0x54504C56;
+const DWORD TEXT_BIN_MAGIC = 0x4E454553;
+const DWORD NAME_BIN_MAGIC = 0x454D414E;
+const DWORD TEXT_MAPPING_MAGIC = 0x54584553;
+
+EXTERN_C void DumpSeenData(RealLiveSeenData* in, SeenDumpData* out) {
 	BYTE* const data = in->decompressed_data;
 	const size_t size = in->decompressed_size;
 	RtlZeroMemory(out, sizeof(SeenDumpData));
@@ -71,7 +77,7 @@ EXTERN_C void DumpSeenData(unsigned seenNo, RealLiveSeenData* in, SeenDumpData* 
 				} else {
 					SeenPatchData data;
 					RtlZeroMemory(&data, sizeof(SeenPatchData));
-					data.number = seenNo;
+					data.index = textArray.size() + 1;
 					data.offset = i - textBuffer.size();
 					data.name.pointer = nameBuffer.empty() ? NULL : toArrayPointer(nameBuffer);
 					data.origin.pointer = toArrayPointer(textBuffer);
@@ -79,6 +85,7 @@ EXTERN_C void DumpSeenData(unsigned seenNo, RealLiveSeenData* in, SeenDumpData* 
 					data.name.size = nameBuffer.size();
 					data.origin.size = textBuffer.size();
 					data.translated.size = textBuffer.size();
+					data.length = textBuffer.size();
 					textArray.push_back(data);
 					nameBuffer.clear();
 				}
@@ -127,7 +134,6 @@ EXTERN_C void DumpSeenData(unsigned seenNo, RealLiveSeenData* in, SeenDumpData* 
 		nameArray.push_back(data);
 	}
 
-	out->number = seenNo;
 	out->textData.pointer = toArrayPointer(textArray);
 	out->textData.size = textArray.size();
 	out->nameData.pointer = toArrayPointer(nameArray);
@@ -135,20 +141,25 @@ EXTERN_C void DumpSeenData(unsigned seenNo, RealLiveSeenData* in, SeenDumpData* 
 }
 
 EXTERN_C void TextDataToTextFile(SeenPatchDataArray* in, ByteBuffer* out) {
+	if (in == NULL) {
+		out->pointer = NULL;
+		out->size = 0;
+		return;
+	}
 	std::string t;
-	size_t n = (in != NULL && in->pointer != NULL) ? in->size : 0;
-	t += "type seen\n";
+	size_t n = (in->pointer != NULL) ? in->size : 0;
+	t += "type seen" + std::to_string(in->seenNo) + "\n";
 	t += "count " + std::to_string(n) + "\n";
 	for (size_t i = 0; i < n; ++i) {
 		const SeenPatchData& d = in->pointer[i];
 		t += "\n====================\n";
-		t += "number " + std::to_string(d.number) + "\n";
+		t += "index " + std::to_string(d.index) + "\n";
 		t += "offset " + std::to_string(d.offset) + "\n";
 		t += "name ";
 		if (d.name.pointer != NULL) t.append((const char*)d.name.pointer, d.name.size);
-		else t.append("NULL", 4);
+		else t += EMPTY_NAME;
 		t += "\n";
-		t += "length " + std::to_string(d.origin.size) + "\n";
+		t += "length " + std::to_string(d.length) + "\n";
 		t += "====================\n";
 		if (d.origin.pointer != NULL) t.append((const char*)d.origin.pointer, d.origin.size);
 		t += "\n====================\n";
@@ -175,9 +186,10 @@ EXTERN_C void TextFileToTextData(ByteBuffer* in, SeenPatchDataArray* out) {
 			std::string name;
 			while (i < L.size() && !isSep(L[i])) {
 				const std::string& s = L[i];
-				if (startsWith(s, "number ")) d.number = (unsigned)strtoul(s.c_str() + 7, NULL, 10);
+				if (startsWith(s, "index ")) d.index = (unsigned)strtoul(s.c_str() + 6, NULL, 10);
 				else if (startsWith(s, "offset ")) d.offset = (unsigned)strtoul(s.c_str() + 7, NULL, 10);
 				else if (startsWith(s, "name ")) name = s.substr(5);
+				else if (startsWith(s, "length ")) d.length = (size_t)strtoul(s.c_str() + 7, NULL, 10);
 				++i;
 			}
 			if (i < L.size()) ++i;
@@ -185,12 +197,13 @@ EXTERN_C void TextFileToTextData(ByteBuffer* in, SeenPatchDataArray* out) {
 			std::string origin = readBlock(L, i);
 			std::string translated = readBlock(L, i);
 
-			d.name = makeBuffer((const BYTE*)name.data(), name.size());
-			if (d.name.size == 4 && d.name.pointer[0] == 'N' && d.name.pointer[1] == 'U'
-				&& d.name.pointer[2] == 'L' && d.name.pointer[3] == 'L') {
-				d.name.size = 0;
+			if (name == EMPTY_NAME) {
 				d.name.pointer = NULL;
+				d.name.size = 0;
+			} else {
+				d.name = makeBuffer((const BYTE*)name.data(), name.size());
 			}
+			
 			d.origin = makeBuffer((const BYTE*)origin.data(), origin.size());
 			d.translated = makeBuffer((const BYTE*)translated.data(), translated.size());
 			arr.push_back(d);
@@ -201,16 +214,25 @@ EXTERN_C void TextFileToTextData(ByteBuffer* in, SeenPatchDataArray* out) {
 }
 
 EXTERN_C void TextDataToBinFile(SeenPatchDataArray* in, ByteBuffer* out) {
+	if (in == NULL) {
+		out->pointer = NULL;
+		out->size = 0;
+		return;
+	}
 	std::vector<BYTE> b;
-	size_t n = (in != NULL && in->pointer != NULL) ? in->size : 0;
-	appendU32(b, (uint32_t)n);
+	size_t n = (in->pointer != NULL) ? in->size : 0;
+	appendDWORD(b, BIN_MAGIC);
+	appendDWORD(b, TEXT_BIN_MAGIC);
+	appendDWORD(b, in->seenNo);
+	appendDWORD(b, (DWORD)n);
 	for (size_t i = 0; i < n; ++i) {
 		const SeenPatchData& d = in->pointer[i];
-		appendU32(b, (uint32_t)d.number);
-		appendU32(b, (uint32_t)d.offset);
-		appendU32(b, (uint32_t)d.name.size);
-		appendU32(b, (uint32_t)d.origin.size);
-		appendU32(b, (uint32_t)d.translated.size);
+		appendDWORD(b, (DWORD)d.index);
+		appendDWORD(b, (DWORD)d.offset);
+		appendDWORD(b, (DWORD)d.length);
+		appendDWORD(b, (DWORD)d.name.size);
+		appendDWORD(b, (DWORD)d.origin.size);
+		appendDWORD(b, (DWORD)d.translated.size);
 		appendBytes(b, d.name.pointer, d.name.size);
 		appendBytes(b, d.origin.pointer, d.origin.size);
 		appendBytes(b, d.translated.pointer, d.translated.size);
@@ -221,29 +243,43 @@ EXTERN_C void TextDataToBinFile(SeenPatchDataArray* in, ByteBuffer* out) {
 
 EXTERN_C void BinFileToTextData(ByteBuffer* in, SeenPatchDataArray* out) {
 	std::vector<SeenPatchData> arr;
+	RtlZeroMemory(out, sizeof(SeenPatchDataArray));
+	DWORD magic1 = 0, magic2 = 0, seenNo = 0, count = 0;
 	if (in != NULL && in->pointer != NULL) {
 		const BYTE* p = in->pointer;
-		const BYTE* end = p + in->size;
-		uint32_t count = 0;
-		if (!readU32(p, end, count)) count = 0;
-		for (uint32_t i = 0; i < count; ++i) {
-			uint32_t number, offset, ns, os, ts;
-			if (!readU32(p, end, number) || !readU32(p, end, offset) ||
-				!readU32(p, end, ns) || !readU32(p, end, os) || !readU32(p, end, ts)) break;
+		const BYTE* const end = p + in->size;
+		if (!readDWORD(p, end, magic1) || !readDWORD(p, end, magic2) ||
+			!readDWORD(p, end, seenNo) || !readDWORD(p, end, count) ||
+			magic1 != BIN_MAGIC || magic2 != TEXT_BIN_MAGIC) {
+			count = 0;
+		}
+		for (size_t i = 0; i < count; ++i) {
+			DWORD index, offset, length, ns, os, ts;
+			if (!readDWORD(p, end, index) || !readDWORD(p, end, offset) ||
+				!readDWORD(p, end, length) || !readDWORD(p, end, ns) || 
+				!readDWORD(p, end, os) || !readDWORD(p, end, ts)) break;
 			if ((size_t)(end - p) < (size_t)ns + (size_t)os + (size_t)ts) break;
 
 			SeenPatchData d;
 			RtlZeroMemory(&d, sizeof(d));
-			d.number = number;
+			d.index = index;
 			d.offset = offset;
+			d.length = length;
 			d.name = makeBuffer(p, ns); p += ns;
 			d.origin = makeBuffer(p, os); p += os;
 			d.translated = makeBuffer(p, ts); p += ts;
 			arr.push_back(d);
 		}
 	}
-	out->pointer = toArrayPointer(arr);
-	out->size = arr.size();
+	if (!arr.empty()) {
+		out->pointer = toArrayPointer(arr);
+		out->size = arr.size();
+		out->seenNo = seenNo;
+	} else {
+		out->pointer = NULL;
+		out->size = 0;
+		out->seenNo = 0;
+	}
 }
 
 EXTERN_C void NameDataToTextFile(NameDataArray* in, ByteBuffer* out) {
@@ -295,11 +331,13 @@ EXTERN_C void TextFileToNameData(ByteBuffer* in, NameDataArray* out) {
 EXTERN_C void NameDataToBinFile(NameDataArray* in, ByteBuffer* out) {
 	std::vector<BYTE> b;
 	size_t n = (in != NULL && in->pointer != NULL) ? in->size : 0;
-	appendU32(b, (uint32_t)n);
+	appendDWORD(b, BIN_MAGIC);
+	appendDWORD(b, NAME_BIN_MAGIC);
+	appendDWORD(b, (DWORD)n);
 	for (size_t i = 0; i < n; ++i) {
 		const NameData& d = in->pointer[i];
-		appendU32(b, (uint32_t)d.origin.size);
-		appendU32(b, (uint32_t)d.translated.size);
+		appendDWORD(b, (DWORD)d.origin.size);
+		appendDWORD(b, (DWORD)d.translated.size);
 		appendBytes(b, d.origin.pointer, d.origin.size);
 		appendBytes(b, d.translated.pointer, d.translated.size);
 	}
@@ -312,14 +350,18 @@ EXTERN_C void BinFileToNameData(ByteBuffer* in, NameDataArray* out) {
 	if (in != NULL && in->pointer != NULL) {
 		const BYTE* p = in->pointer;
 		const BYTE* end = p + in->size;
-		uint32_t count = 0;
-		if (!readU32(p, end, count)) count = 0;
-		for (uint32_t i = 0; i < count; ++i) {
-			uint32_t os, ts;
-			if (!readU32(p, end, os) || !readU32(p, end, ts)) break;
+		DWORD magic1 = 0, magic2 = 0, count = 0;
+		if (!readDWORD(p, end, magic1) || !readDWORD(p, end, magic2) ||
+			!readDWORD(p, end, count) || magic1 != BIN_MAGIC || magic2 != NAME_BIN_MAGIC) {
+			count = 0;
+		}
+		for (DWORD i = 0; i < count; ++i) {
+			DWORD os, ts;
+			if (!readDWORD(p, end, os) || !readDWORD(p, end, ts)) break;
 			if ((size_t)(end - p) < (size_t)os + (size_t)ts) break;
 
 			NameData d;
+			RtlZeroMemory(&d, sizeof(NameData));
 			d.origin = makeBuffer(p, os); p += os;
 			d.translated = makeBuffer(p, ts); p += ts;
 			arr.push_back(d);
@@ -374,8 +416,9 @@ EXTERN_C void FreeSeenPatchData(SeenPatchData* data) {
 	FreeByteBuffer(&data->name);
 	FreeByteBuffer(&data->origin);
 	FreeByteBuffer(&data->translated);
-	data->number = 0;
+	data->index = 0;
 	data->offset = 0;
+	data->length = 0;
 }
 
 EXTERN_C void FreeSeenPatchDataArray(SeenPatchDataArray* array) {
@@ -388,6 +431,7 @@ EXTERN_C void FreeSeenPatchDataArray(SeenPatchDataArray* array) {
 		array->pointer = NULL;
 	}
 	array->size = 0;
+	array->seenNo = 0;
 }
 
 EXTERN_C void FreeNameData(NameData* data) {
@@ -418,11 +462,10 @@ EXTERN_C void FreeSeenDumpData(SeenDumpData* dump) {
 	if (dump == NULL) return;
 	FreeSeenPatchDataArray(&dump->textData);
 	FreeNameDataArray(&dump->nameData);
-	dump->number = 0;
 }
 
 template<typename T>
-T* toArrayPointer(const std::vector<T>& vec) {
+static T* toArrayPointer(const std::vector<T>& vec) {
 	static_assert(std::is_trivially_copyable_v<T>, "type must be trivially copyable");
 	T* arr = (T*)malloc(vec.size() * sizeof(T));
 	if (arr == NULL) {
@@ -444,6 +487,7 @@ static BYTE* copyBytes(const BYTE* p, size_t n) {
 
 static ByteBuffer makeBuffer(const BYTE* p, size_t n) {
 	ByteBuffer b;
+	RtlZeroMemory(&b, sizeof(ByteBuffer));
 	b.pointer = copyBytes(p, n);
 	b.size = n;
 	return b;
@@ -454,7 +498,7 @@ static std::vector<BYTE> bufferToVec(const ByteBuffer& b) {
 	return std::vector<BYTE>(b.pointer, b.pointer + b.size);
 }
 
-static void appendU32(std::vector<BYTE>& b, uint32_t v) {
+static void appendDWORD(std::vector<BYTE>& b, DWORD v) {
 	b.push_back((BYTE)(v & 0xFF));
 	b.push_back((BYTE)((v >> 8) & 0xFF));
 	b.push_back((BYTE)((v >> 16) & 0xFF));
@@ -465,9 +509,9 @@ static void appendBytes(std::vector<BYTE>& b, const BYTE* p, size_t n) {
 	if (p != NULL && n > 0) b.insert(b.end(), p, p + n);
 }
 
-static bool readU32(const BYTE*& p, const BYTE* end, uint32_t& v) {
+static bool readDWORD(const BYTE*& p, const BYTE* const end, DWORD& v) {
 	if (end - p < 4) return false;
-	v = (uint32_t)p[0] | ((uint32_t)p[1] << 8) | ((uint32_t)p[2] << 16) | ((uint32_t)p[3] << 24);
+	v = (DWORD)p[0] | ((DWORD)p[1] << 8) | ((DWORD)p[2] << 16) | ((DWORD)p[3] << 24);
 	p += 4;
 	return true;
 }
