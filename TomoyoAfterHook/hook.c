@@ -5,17 +5,19 @@
 #include <stdio.h>
 #include <wincrypt.h>
 
-#define SET_NOP_ARRAY_SIZE 23
+#define SET_NOP_ARRAY_SIZE 32
 static const DWORD SET_NOP_RVA[SET_NOP_ARRAY_SIZE] = {
 	0xEDC3E, 0xCFC94, 0xEBF6E, 0xEBFA6, 0xA578E, 0x17E6AD, 0xEBBBE, 0xD0F42, 
 	0x17E76E, 0xEBA96, 0xEF297, 0xC5F0D, 0xC99AD, 0xC9646, 0xEDF5D, 0xEDBDC,
-	0xECE3E, 0x604D6, 0x6062A, 0x13F3BC, 0x13E74A, 0xA519D, 0xE9D01
+	0xECE3E, 0x604D6, 0x6062A, 0x13F3BC, 0x13E74A, 0xA519D, 0xE9D01, 0xE976B,
+	0xEF22A, 0x126576, 0x1264DB, 0x1262EC, 0x126F24, 0x1BD0D, 0xECDEA, 0x1266E3
 };
 
 static const size_t SET_NOP_COUNT[SET_NOP_ARRAY_SIZE] = {
 	29, 12, 37, 12, 32, 12, 20, 12, 
 	20, 12, 15, 15, 12, 12, 20, 20,
-	 8, 12, 20, 12, 12, 20, 20
+	 8, 12, 20, 12, 12, 20, 20, 12,
+	12, 12, 12,  8, 12, 15,  8,  8
 };
 
 static ByteBuffer byte_buffer_array[SEEN_DATA_NUM] = { 0 };
@@ -84,6 +86,7 @@ void PatchHookAfterOpenSeenFile() {
 	}
 	writeHook(imageBase + CONSUME_TEXT_IN_QUOTE_MODE_CALLER_1_RVA, ProxyConsumeTextInQuoteMode);
 	writeHook(imageBase + CONSUME_TEXT_IN_QUOTE_MODE_CALLER_2_RVA, ProxyConsumeTextInQuoteMode);
+	writeHook(imageBase + CONSUME_TEXT_IN_QUITE_MODE_CALLER_3_RVA, ProxyConsumeTextInQuoteMode);
 	writeHookWithNop(imageBase + HANDLE_NAME_TEXT_FUNC_RVA, HookHandleNameText, 1);
 }
 
