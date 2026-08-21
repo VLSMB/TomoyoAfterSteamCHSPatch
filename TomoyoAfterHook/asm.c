@@ -4,6 +4,7 @@ static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, int num);
 static void WINAPI beforeConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4);
 static void WINAPI afterConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4);
 static BOOL WINAPI checkFileIsSeen(const char* fileName);
+static const char* const WINAPI getTranslatedName(const char* const name);
 
 void ASM_FUNCTION HookForDump() {
 	__asm {
@@ -34,51 +35,51 @@ hook_for_dump:
 	}
 }
 
-void ASM_FUNCTION HookForPatch() {
-	__asm {
-		mov eax, 0
-		mov [edx + 28], eax
-	}
-	__asm {
-		push edx
-		mov eax, [esp + 16]
-		push eax
-		mov eax, [esp + 16]
-		push eax
-
-		sub esp, 4
-		pushad
-		pushfd
-	}
-	GetModuleHandleA(PROCESS_NAME);
-	__asm {
-		add eax, READ_SEEN_DATA_AFTER_HOOK_RVA
-		mov[esp + 36], eax
-		popfd
-		popad
-		pop eax
-
-		push offset hook_for_patch
-		push ebp
-		mov ebp, esp
-		and esp, 0xFFFFFFF8
-		jmp eax
-	}
-hook_for_patch:
-	__asm {
-		pushfd
-		pushad
-		mov eax, [esp + 36]
-		push eax
-		mov eax, [esp + 48]
-		push eax
-		call handleSeenDataPatch
-		popad
-		popfd
-		add esp, 12
-		ret
-	}
-}
+//void ASM_FUNCTION HookForPatch() {
+//	__asm {
+//		mov eax, 0
+//		mov [edx + 28], eax
+//	}
+//	__asm {
+//		push edx
+//		mov eax, [esp + 16]
+//		push eax
+//		mov eax, [esp + 16]
+//		push eax
+//
+//		sub esp, 4
+//		pushad
+//		pushfd
+//	}
+//	GetModuleHandleA(PROCESS_NAME);
+//	__asm {
+//		add eax, READ_SEEN_DATA_AFTER_HOOK_RVA
+//		mov[esp + 36], eax
+//		popfd
+//		popad
+//		pop eax
+//
+//		push offset hook_for_patch
+//		push ebp
+//		mov ebp, esp
+//		and esp, 0xFFFFFFF8
+//		jmp eax
+//	}
+//hook_for_patch:
+//	__asm {
+//		pushfd
+//		pushad
+//		mov eax, [esp + 36]
+//		push eax
+//		mov eax, [esp + 48]
+//		push eax
+//		call handleSeenDataPatch
+//		popad
+//		popfd
+//		add esp, 12
+//		ret
+//	}
+//}
 
 static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, int num) {
 	
@@ -220,50 +221,62 @@ __proxy_consume_text:
 		ret
 	}
 }
-
-const char* const text = "神户小鸟天下第一！VLSMB1英文字符测试。";
-const char* p = NULL;
-BYTE* origin_ip = NULL;
+static BYTE* origin_vm_ip = NULL;
+static CharacterInfo char_info = { 0 };
+static BYTE text_buffer[100];
 
 static void WINAPI beforeConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4) {
-	BYTE* buffer = cp->vmIp;
-	if (*buffer == 0x05) {
-		if (p == NULL) {
-			p = text;
+	origin_vm_ip = NULL;
+	if (GetNextCharacterInfo(sp->seenNo, cp->vmIp - cp->vmBase, &char_info)) {
+		if (char_info.asciiFlag) {
+			text_buffer[0] = char_info.character & 0x00FF;
+			text_buffer[1] = '\0';
+		} else {
+			text_buffer[0] = char_info.character & 0x00FF;
+			text_buffer[1] = (BYTE)((char_info.character & 0xFF00) >> 8);
+			text_buffer[2] = '\0';
 		}
-		if (*p == '\\') {
+		if (text_buffer[0] == '\\') {
 			*byteMode = 2;
-		} else if ((BYTE)(*p) < 0x80) {
+		} else if (char_info.asciiFlag) {
 			*byteMode = 1;
 		} else {
 			*byteMode = 0;
 		}
-		origin_ip = buffer;
-		cp->vmIp = p;
+		origin_vm_ip = cp->vmIp;
+		cp->vmIp = text_buffer;
 	}
 }
 
 static void WINAPI afterConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4) {
-	if (origin_ip == NULL) {
+	if (origin_vm_ip == NULL) {
 		return;
 	}
-	BYTE* buffer = cp->vmIp;
-	if (*buffer) {
-		cp->vmIp = origin_ip;
-		p = buffer;
+	BOOL consumeFlag = cp->vmIp != text_buffer;
+	if (consumeFlag) {
+		AckConsumeCharacter(&char_info);
 	}
-	else {
-		cp->vmIp = origin_ip + 1;
-		p = NULL;
-	}
-	origin_ip = NULL;
+	cp->vmIp = (consumeFlag && char_info.lastFlag) ? 
+		origin_vm_ip + char_info.length : origin_vm_ip;
+	RtlZeroMemory(&char_info, sizeof(CharacterInfo));
+	origin_vm_ip = NULL;
 }
-
-const char* kotori = "神户小鸟";
 
 void ASM_FUNCTION HookHandleNameText() {
 	__asm {
-		mov edx, kotori
+		sub esp, 4
+		pushad
+		pushfd
+
+		push edx
+		call getTranslatedName
+		mov [esp + 36], eax
+
+		popfd
+		popad
+	}
+	__asm {
+		pop edx
 		pop eax
 
 		push ebp
@@ -271,4 +284,8 @@ void ASM_FUNCTION HookHandleNameText() {
 		sub esp, 64
 		jmp eax
 	}
+}
+
+static const char* const WINAPI getTranslatedName(const char* const name) {
+	return GetTranslatedName(name);
 }

@@ -18,18 +18,19 @@ static const size_t SET_NOP_COUNT[SET_NOP_ARRAY_SIZE] = {
 	 8, 12, 20, 12, 12, 20, 20
 };
 
-static ByteBuffer byteBufferArray[SEEN_DATA_NUM] = { 0 };
+static ByteBuffer byte_buffer_array[SEEN_DATA_NUM] = { 0 };
 static BYTE dummy_ctx[64];
 static PatchMode patch_mode = PATCH_RELEASE;
-static BOOL hookProcessAfterVMInitFlag = FALSE;
+static BOOL hook_process_after_vm_init_flag = FALSE;
 
 static void initPatchMode();
 static char* calculateSHA256();
 static char singleHexToChar(BYTE b);
 static DWORD getImageBase();
 static void initForDump();
-static void initForPatch();
+static void initPatchHook();
 static void initForArchive();
+static void assemblePatchPackFromTextFile(PatchPack* out);
 static void dumpSeenData(ReadSeenDataFuncPtr dataFunc, RealLiveSeenData* data, size_t num, SeenDumpData* out);
 static BOOL readFile(const char* fileName, ByteBuffer* out);
 static void saveFile(const char* fileName, ByteBuffer buffer);
@@ -42,14 +43,18 @@ static void skipAsmCode(DWORD imageBase, DWORD rva, size_t codeLength);
 
 void HookInit() {
 	initPatchMode();
-	PatchPack* patchPack = NULL;
+	PatchPack pack;
+	RtlZeroMemory(&pack, sizeof(PatchPack));
 	switch (patch_mode) {
 	case PATCH_DUMP:
 		initForDump();
 		break;
 	case PATCH_RELEASE:
+		assemblePatchPackFromTextFile(&pack);
+		goto patch;
 	case PATCH_DEBUG:
-		break;
+		assemblePatchPackFromTextFile(&pack);
+		goto patch;
 	case PATCH_ARCHIVE:
 		initForArchive();
 		break;
@@ -58,23 +63,24 @@ void HookInit() {
 	}
 	return;
 patch:
-	initForPatch();
+	InitPatchData(&pack);
+	initPatchHook();
 }
 
 void PatchHookAfterOpenSeenFile() {
-	if (hookProcessAfterVMInitFlag) {
+	if (hook_process_after_vm_init_flag) {
 		return;
 	}
-	hookProcessAfterVMInitFlag = TRUE;
+	hook_process_after_vm_init_flag = TRUE;
 	if (patch_mode != PATCH_RELEASE && patch_mode != PATCH_DEBUG) {
 		return;
 	}
 	const DWORD imageBase = getImageBase();
-	DWORD hookAddress = imageBase + READ_SEEN_DATA_FUNC_RVA;
+	/*DWORD hookAddress = imageBase + READ_SEEN_DATA_FUNC_RVA;
 	BYTE callHookOp[6];
 	assembleCallOp(callHookOp, 6, hookAddress, HookForPatch);
 	callHookOp[5] = 0xC3;
-	updateAsmCode(hookAddress, callHookOp, 6);
+	updateAsmCode(hookAddress, callHookOp, 6);*/
 
 	writeHook(EnumFontFamiliesExA, HookEnumFontFamiliesExA);
 	writeHook(CreateFontA, HookCreateFontA);
@@ -89,7 +95,7 @@ void PatchHookAfterOpenSeenFile() {
 }
 
 void HookDestroy() {
-	
+	CleanPatchData();
 }
 
 static void initPatchMode() {
@@ -191,7 +197,7 @@ static void initForDump() {
 	writeHook(hookAddress, HookForDump);
 }
 
-static void initForPatch() {
+static void initPatchHook() {
 	HMODULE hModule = GetModuleHandleA("kernelbase.dll");
 	if (hModule == NULL) {
 		hModule = LoadLibraryA("kernelbase.dll");
@@ -204,49 +210,55 @@ static void initForPatch() {
 
 static void initForArchive() {
 	PatchPack pack;
+	assemblePatchPackFromTextFile(&pack);
+	ByteBuffer buffer;
+	RtlZeroMemory(&buffer, sizeof(ByteBuffer));
+	PatchPackToBinFile(&pack, &buffer);
+	saveFile(BIN_DATA_FILE, buffer);
+	FreePatchPack(&pack);
+	MessageBoxA(NULL, "打包成功！", MESSAGEBOX_TITLE, MB_OK | MB_ICONINFORMATION);
+	ExitProcess(0);
+}
+
+static void assemblePatchPackFromTextFile(PatchPack* out) {
 	ByteBuffer buffer;
 	char path[MAX_PATH];
-	RtlZeroMemory(&pack, sizeof(PatchPack));
+	RtlZeroMemory(out, sizeof(PatchPack));
 	RtlZeroMemory(&buffer, sizeof(ByteBuffer));
 	RtlZeroMemory(path, MAX_PATH * sizeof(char));
 	size_t seenCount = 0;
 	for (size_t i = 0; i < SEEN_DATA_NUM; i++) {
 		wsprintfA(path, SEEN_DATA_FILE, i);
 		if (readFile(path, &buffer)) {
-			byteBufferArray[seenCount++] = buffer;
+			byte_buffer_array[seenCount++] = buffer;
 		}
 	}
-	pack.pSize = seenCount;
-	pack.pText = (SeenPatchDataArray**)malloc(sizeof(SeenPatchDataArray*) * seenCount);
-	pack.pName = (NameDataArray*)malloc(sizeof(NameDataArray));
-	BOOL initFlag = pack.pText != NULL && pack.pName != NULL;
+	out->pSize = seenCount;
+	out->pText = (SeenPatchDataArray**)malloc(sizeof(SeenPatchDataArray*) * seenCount);
+	out->pName = (NameDataArray*)malloc(sizeof(NameDataArray));
+	BOOL initFlag = out->pText != NULL && out->pName != NULL;
 	if (initFlag) {
-		RtlZeroMemory(pack.pText, sizeof(SeenPatchDataArray*) * seenCount);
-		RtlZeroMemory(pack.pName, sizeof(NameDataArray));
+		RtlZeroMemory(out->pText, sizeof(SeenPatchDataArray*) * seenCount);
+		RtlZeroMemory(out->pName, sizeof(NameDataArray));
 	}
 	for (size_t i = 0; i < seenCount && initFlag; i++) {
-		pack.pText[i] = (SeenPatchDataArray*)malloc(sizeof(SeenPatchDataArray));
-		initFlag = pack.pText[i] != NULL;
+		out->pText[i] = (SeenPatchDataArray*)malloc(sizeof(SeenPatchDataArray));
+		initFlag = out->pText[i] != NULL;
 	}
 	if (!initFlag) {
-		FreePatchPack(&pack);
+		FreePatchPack(out);
 		logError("内存不足");
 		ExitProcess(1);
 	}
 	for (size_t i = 0; i < seenCount; i++) {
-		TextFileToTextData(&byteBufferArray[i], pack.pText[i]);
+		TextFileToTextData(&byte_buffer_array[i], out->pText[i]);
 	}
 	if (readFile(NAME_DATA_FILE, &buffer)) {
-		TextFileToNameData(&buffer, pack.pName);
+		TextFileToNameData(&buffer, out->pName);
 	}
-	PatchPackToBinFile(&pack, &buffer);
-	saveFile(BIN_DATA_FILE, buffer);
 	for (size_t i = 0; i < seenCount; i++) {
-		FreeByteBuffer(&byteBufferArray[i]);
+		FreeByteBuffer(&byte_buffer_array[i]);
 	}
-	FreePatchPack(&pack);
-	MessageBoxA(NULL, "打包成功！", MESSAGEBOX_TITLE, MB_OK | MB_ICONINFORMATION);
-	ExitProcess(0);
 }
 
 void RunDump() {

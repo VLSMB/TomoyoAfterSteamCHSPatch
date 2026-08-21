@@ -7,6 +7,10 @@
 #include <cstdlib>
 #include <cstdint>
 #include <type_traits>
+#include <unordered_map>
+#include <map>
+#include <stack>
+#include <new>
 
 template<typename T>
 static T* toArrayPointer(const std::vector<T>& vec);
@@ -177,6 +181,9 @@ EXTERN_C void TextFileToTextData(ByteBuffer* in, SeenPatchDataArray* out) {
 	std::vector<SeenPatchData> arr;
 	if (in != NULL && in->pointer != NULL && in->size > 0) {
 		std::vector<std::string> L = splitLines(in->pointer, in->size);
+		if (L.size() && startsWith(L[0], "type seen")) {
+			out->seenNo = (unsigned)strtoul(L[0].c_str() + 9, NULL, 10);
+		}
 		size_t i = 2;
 		while (i < L.size()) {
 			i = nextSep(L, i);
@@ -542,6 +549,155 @@ EXTERN_C void FreePatchPack(PatchPack* pack) {
 	pack->pText = NULL;
 	pack->pName = NULL;
 	pack->pSize = 0;
+}
+
+template<typename T>
+using seen_map = std::unordered_map<unsigned, std::unordered_map<unsigned, T>>;
+
+static std::unordered_map<std::string, std::string> name_map;
+static seen_map<ByteBuffer> text_map;
+static seen_map<unsigned> text_length_map;
+static seen_map<std::stack<BYTE>> text_stack;
+
+EXTERN_C BOOL InitPatchData(PatchPack* in) {
+	if (in == NULL) return FALSE;
+	if (in->pName->pointer != NULL && in->pName->size > 0) {
+		name_map.reserve(in->pName->size);
+		for (size_t i = 0; i < in->pName->size; i++) {
+			NameData& e = in->pName->pointer[i];
+			name_map.insert(std::make_pair(
+				std::string((const char*)e.origin.pointer, e.origin.size),
+				std::string((const char*)e.translated.pointer, e.translated.size)
+			));
+		}
+	}
+	if (in->pSize > 0 && in->pText != NULL) {
+		text_map.reserve(in->pSize);
+		text_stack.reserve(in->pSize);
+		text_length_map.reserve(in->pSize);
+		for (size_t i = 0; i < in->pSize; i++) {
+			SeenPatchDataArray* pArray = in->pText[i];
+			auto& map = text_map[pArray->seenNo];
+			map.reserve(pArray->size);
+			text_stack[pArray->seenNo].reserve(pArray->size);
+			text_length_map[pArray->seenNo].reserve(pArray->size);
+			for (size_t j = 0; j < pArray->size; j++) {
+				ByteBuffer buffer;
+				RtlZeroMemory(&buffer, sizeof(ByteBuffer));
+				buffer.size = pArray->pointer[j].translated.size;
+				buffer.pointer = new (std::nothrow) BYTE[buffer.size];
+				if (!buffer.pointer) {
+					return FALSE;
+				}
+				memcpy(buffer.pointer, pArray->pointer[j].translated.pointer, buffer.size);
+				map[pArray->pointer[j].offset] = buffer;
+				text_length_map[pArray->seenNo][pArray->pointer[j].offset] = pArray->pointer[j].length;
+			}
+		}
+	}
+	return TRUE;
+}
+
+EXTERN_C void CleanPatchData() {
+	name_map.clear();
+	for (auto& pair : text_map) {
+		for (auto& pair2 : pair.second) {
+			if (pair2.second.pointer) {
+				delete[] pair2.second.pointer;
+				pair2.second.pointer = nullptr;
+				pair2.second.size = 0;
+			}
+		}
+	}
+	text_map.clear();
+	text_stack.clear();
+	text_length_map.clear();
+}
+
+EXTERN_C const char* const GetTranslatedName(const char* const name) {
+	auto it = name_map.find(std::string(name));
+	return it == name_map.end() ? name : it->second.c_str();
+}
+
+EXTERN_C BOOL GetNextCharacterInfo(unsigned seenNo, unsigned offset, CharacterInfo* out) {
+	const auto& textMap = text_map.find(seenNo);
+	if (textMap == text_map.end()) {
+		return FALSE;
+	}
+	const auto& it = textMap->second.find(offset);
+	if (it == textMap->second.end()) {
+		return FALSE;
+	}
+	const ByteBuffer& buffer = it->second;
+
+	RtlZeroMemory(out, sizeof(CharacterInfo));
+	out->seenNo = seenNo;
+	out->offset = offset;
+	out->length = text_length_map[seenNo][offset];
+
+	const auto& stackMap = text_stack.find(seenNo);
+	bool inStack = stackMap != text_stack.end() && 
+		stackMap->second.find(offset) != stackMap->second.end();
+	if (inStack) {
+		const auto& it = stackMap->second.find(offset);
+		std::stack<BYTE>& stack = it->second;
+		if (stack.empty()) {
+			stackMap->second.erase(it);
+			return FALSE;
+		}
+		BYTE bl = stack.top();
+		stack.pop();
+		if ((bl >= 0x80 || bl == '\\') && !stack.empty()) {
+			WORD bh = stack.top();
+			stack.pop();
+			out->asciiFlag = 0;
+			out->character = ((bh << 8) & 0xFF00) | (bl & 0x00FF);
+		} else {
+			out->asciiFlag = 1;
+			out->character = bl & 0x00FF;
+		}
+		out->lastFlag = stack.empty() ? 1 : 0;
+		if (out->asciiFlag) {
+			stack.push(out->character);
+		} else {
+			stack.push((BYTE)(out->character & 0xFF00) >> 8);
+			stack.push((BYTE)(out->character & 0x00FF));
+		}
+		return TRUE;
+	}
+	
+	if (buffer.size == 0 || buffer.pointer == nullptr) {
+		return FALSE;
+	} else if (buffer.size == 1) {
+		out->asciiFlag = 1;
+		out->lastFlag = 1;
+		out->character = buffer.pointer[0] & 0x00FF;
+	} else {
+		out->asciiFlag = (buffer.pointer[0] >= 0x80 || buffer.pointer[0] == '\\') ? 0 : 1;
+		out->lastFlag = (!out->asciiFlag && buffer.size == 2) ? 1 : 0;
+		if (out->asciiFlag) {
+			out->character = buffer.pointer[0];
+		} else {
+			out->character = buffer.pointer[1];
+			out->character = ((out->character << 8) & 0xFF00) | (buffer.pointer[0] & 0x00FF);
+		}
+	}
+	const BYTE* end = buffer.pointer;
+	const BYTE* p = buffer.pointer + buffer.size - 1;
+	std::stack<BYTE>& stack = text_stack[seenNo][offset];
+	while (p >= end) {
+		stack.push(*(p--));
+	}
+	return TRUE;
+}
+
+EXTERN_C void AckConsumeCharacter(const CharacterInfo* out) {
+	std::stack<BYTE>& stack = text_stack[out->seenNo][out->offset];
+	if (!stack.empty()) stack.pop();
+	if (!out->asciiFlag && !stack.empty()) stack.pop();
+	if (stack.empty()) {
+		text_stack[out->seenNo].erase(text_stack[out->seenNo].find(out->offset));
+	}
 }
 
 template<typename T>

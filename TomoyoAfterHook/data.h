@@ -90,6 +90,15 @@ typedef struct PatchPackStruct {
     NameDataArray* pName;
 } PatchPack;
 
+typedef struct CharacterInfoStruct {
+    unsigned seenNo;
+    unsigned offset;
+    unsigned length;
+    BYTE asciiFlag;
+    BYTE lastFlag;
+    WORD character;
+} CharacterInfo;
+
 void DumpSeenData(RealLiveSeenData* in, SeenDumpData* out);
 
 void TextDataToTextFile(SeenPatchDataArray* in, ByteBuffer* out);
@@ -114,6 +123,12 @@ void FreeNameData(NameData* data);
 void FreeNameDataArray(NameDataArray* array);
 void FreeSeenDumpData(SeenDumpData* dump);
 void FreePatchPack(PatchPack* pack);
+
+BOOL InitPatchData(PatchPack* in);
+void CleanPatchData();
+const char* const GetTranslatedName(const char* const name);
+BOOL GetNextCharacterInfo(unsigned seenNo, unsigned offset, CharacterInfo* out);
+void AckConsumeCharacter(const CharacterInfo* out);
 
 #ifdef __cplusplus
 }
