@@ -1,0 +1,3467 @@
+type seen720
+count 315
+
+====================
+index 1
+offset 272
+name NULL
+length 15
+====================
+July 20th (Tue)
+====================
+July 20th (Tue)
+====================
+
+====================
+index 2
+offset 1200
+name NULL
+length 25
+====================
+The sun is blazing today.
+====================
+The sun is blazing today.
+====================
+
+====================
+index 3
+offset 1241
+name NULL
+length 43
+====================
+The sunlight is harsh and scorches my skin.
+====================
+The sunlight is harsh and scorches my skin.
+====================
+
+====================
+index 4
+offset 1334
+name Tomoya
+length 14
+====================
+\"...so hot.\"
+====================
+\"...so hot.\"
+====================
+
+====================
+index 5
+offset 1364
+name NULL
+length 67
+====================
+I wipe the ceaselessly flowing sweat with the towel around my neck.
+====================
+I wipe the ceaselessly flowing sweat with the towel around my neck.
+====================
+
+====================
+index 6
+offset 1871
+name NULL
+length 110
+====================
+Organizing the things we've picked up from the piles of items outside is the hardest part of my job in summer.
+====================
+Organizing the things we've picked up from the piles of items outside is the hardest part of my job in summer.
+====================
+
+====================
+index 7
+offset 1997
+name NULL
+length 71
+====================
+I hear some high-pitched voices mixed in with the cries of the cicadas.
+====================
+I hear some high-pitched voices mixed in with the cries of the cicadas.
+====================
+
+====================
+index 8
+offset 2118
+name Tomoya
+length 10
+====================
+\"Again?\"
+====================
+\"Again?\"
+====================
+
+====================
+index 9
+offset 2178
+name Tomoya
+length 47
+====================
+\"Hey now, it's dangerous; don't go in there.\"
+====================
+\"Hey now, it's dangerous; don't go in there.\"
+====================
+
+====================
+index 10
+offset 2241
+name NULL
+length 55
+====================
+I turn toward the direction of the voices and say this.
+====================
+I turn toward the direction of the voices and say this.
+====================
+
+====================
+index 11
+offset 2345
+name Child
+length 14
+====================
+\"Uwah, run!\"
+====================
+\"Uwah, run!\"
+====================
+
+====================
+index 12
+offset 2375
+name NULL
+length 27
+====================
+They scatter like the wind.
+====================
+They scatter like the wind.
+====================
+
+====================
+index 13
+offset 2418
+name NULL
+length 79
+====================
+Occasionally, kids come in and use the mountain of junk as a play area for fun.
+====================
+Occasionally, kids come in and use the mountain of junk as a play area for fun.
+====================
+
+====================
+index 14
+offset 2513
+name NULL
+length 58
+====================
+I chase them away when I spot them, but it's never ending.
+====================
+I chase them away when I spot them, but it's never ending.
+====================
+
+====================
+index 15
+offset 2587
+name NULL
+length 37
+====================
+As I'm heading back, I suddenly stop.
+====================
+As I'm heading back, I suddenly stop.
+====================
+
+====================
+index 16
+offset 2640
+name NULL
+length 31
+====================
+It's before noon, on a weekday.
+====================
+It's before noon, on a weekday.
+====================
+
+====================
+index 17
+offset 2687
+name NULL
+length 70
+====================
+Elementary school kids shouldn't be out playing at this time of day...
+====================
+Elementary school kids shouldn't be out playing at this time of day...
+====================
+
+====================
+index 18
+offset 2807
+name Tomoya
+length 21
+====================
+(Ah... that's right.)
+====================
+(Ah... that's right.)
+====================
+
+====================
+index 19
+offset 2844
+name NULL
+length 24
+====================
+...it's summer vacation.
+====================
+...it's summer vacation.
+====================
+
+====================
+index 20
+offset 2884
+name NULL
+length 60
+====================
+I remember the days when I would pass the time lazing about.
+====================
+I remember the days when I would pass the time lazing about.
+====================
+
+====================
+index 21
+offset 2960
+name NULL
+length 28
+====================
+I don't want them to return.
+====================
+I don't want them to return.
+====================
+
+====================
+index 22
+offset 3004
+name NULL
+length 31
+====================
+My life right now isn't so bad.
+====================
+My life right now isn't so bad.
+====================
+
+====================
+index 23
+offset 3051
+name NULL
+length 52
+====================
+I'm living a humble little life the best that I can.
+====================
+I'm living a humble little life the best that I can.
+====================
+
+====================
+index 24
+offset 4785
+name Kanako
+length 30
+====================
+\"All right, to the dungeon!\"
+====================
+\"All right, to the dungeon!\"
+====================
+
+====================
+index 25
+offset 4831
+name NULL
+length 24
+====================
+Kanako suddenly cuts in.
+====================
+Kanako suddenly cuts in.
+====================
+
+====================
+index 26
+offset 4905
+name Tomoya
+length 8
+====================
+\"Huh?\"
+====================
+\"Huh?\"
+====================
+
+====================
+index 27
+offset 5236
+name Kanako
+length 83
+====================
+\"It's summer vacation. What else is there to do other than going to the dungeon?\"
+====================
+\"It's summer vacation. What else is there to do other than going to the dungeon?\"
+====================
+
+====================
+index 28
+offset 5369
+name Tomoya
+length 32
+====================
+\"What do you mean by dungeon?\"
+====================
+\"What do you mean by dungeon?\"
+====================
+
+====================
+index 29
+offset 5451
+name Kanako
+length 27
+====================
+\"In a role-playing game.\"
+====================
+\"In a role-playing game.\"
+====================
+
+====================
+index 30
+offset 5528
+name Tomoya
+length 16
+====================
+\"Where is it?\"
+====================
+\"Where is it?\"
+====================
+
+====================
+index 31
+offset 5594
+name Kanako
+length 25
+====================
+\"Inside that computer.\"
+====================
+\"Inside that computer.\"
+====================
+
+====================
+index 32
+offset 5635
+name NULL
+length 34
+====================
+She points at Takafumi's computer.
+====================
+She points at Takafumi's computer.
+====================
+
+====================
+index 33
+offset 5993
+name Takafumi
+length 8
+====================
+\"Eeh?\"
+====================
+\"Eeh?\"
+====================
+
+====================
+index 34
+offset 6323
+name Kanako
+length 53
+====================
+\"You were running something like an RPG. I saw it.\"
+====================
+\"You were running something like an RPG. I saw it.\"
+====================
+
+====================
+index 35
+offset 6700
+name Takafumi
+length 93
+====================
+\"That was for a presentation to show that I can do stuff like that too, not for playing...\"
+====================
+\"That was for a presentation to show that I can do stuff like that too, not for playing...\"
+====================
+
+====================
+index 36
+offset 6845
+name Takafumi
+length 41
+====================
+\"The characters are all AI controlled.\"
+====================
+\"The characters are all AI controlled.\"
+====================
+
+====================
+index 37
+offset 7208
+name Kanako
+length 25
+====================
+\"Eh? We can't play it?\"
+====================
+\"Eh? We can't play it?\"
+====================
+
+====================
+index 38
+offset 7557
+name Takafumi
+length 88
+====================
+\"We could use them if we needed to... but there's no content, like story or anything.\"
+====================
+\"We could use them if we needed to... but there's no content, like story or anything.\"
+====================
+
+====================
+index 39
+offset 7968
+name Kanako
+length 33
+====================
+\"Story... you mean a scenario?\"
+====================
+\"Story... you mean a scenario?\"
+====================
+
+====================
+index 40
+offset 8053
+name Takafumi
+length 46
+====================
+\"I've already got a bad feeling about this.\"
+====================
+\"I've already got a bad feeling about this.\"
+====================
+
+====================
+index 41
+offset 8422
+name Kanako
+length 33
+====================
+\"Hire me as a scenario writer.\"
+====================
+\"Hire me as a scenario writer.\"
+====================
+
+====================
+index 42
+offset 8779
+name Takafumi
+length 28
+====================
+\"You want me to pay you?!\"
+====================
+\"You want me to pay you?!\"
+====================
+
+====================
+index 43
+offset 9130
+name Kanako
+length 91
+====================
+\"It'll definitely be interesting, so it'll sell, and blow Dragon Quest out of the water.\"
+====================
+\"It'll definitely be interesting, so it'll sell, and blow Dragon Quest out of the water.\"
+====================
+
+====================
+index 44
+offset 9545
+name Takafumi
+length 102
+====================
+\"I get the feeling you'll definitely write something completely nonsensical that only we would get.\"
+====================
+\"I get the feeling you'll definitely write something completely nonsensical that only we would get.\"
+====================
+
+====================
+index 45
+offset 9970
+name Kanako
+length 157
+====================
+\"That's not true. I write major works. To the extent that I'm known for making the people of Shikoku, who people wondered if they were capable of it, cry!\"
+====================
+\"That's not true. I write major works. To the extent that I'm known for making the people of Shikoku, who people wondered if they were capable of it, cry!\"
+====================
+
+====================
+index 46
+offset 10209
+name Takafumi
+length 39
+====================
+\"Why so geographically specific....?\"
+====================
+\"Why so geographically specific....?\"
+====================
+
+====================
+index 47
+offset 10571
+name Kanako
+length 17
+====================
+\"Come on, RPG!\"
+====================
+\"Come on, RPG!\"
+====================
+
+====================
+index 48
+offset 10912
+name Takafumi
+length 9
+====================
+\"Um...\"
+====================
+\"Um...\"
+====================
+
+====================
+index 49
+offset 11244
+name Kanako
+length 32
+====================
+\"You want to play too, right?\"
+====================
+\"You want to play too, right?\"
+====================
+
+====================
+index 50
+offset 11292
+name NULL
+length 68
+====================
+She turns to me with a shining face and tries to get me on her side.
+====================
+She turns to me with a shining face and tries to get me on her side.
+====================
+
+====================
+index 51
+offset 11399
+name NULL
+length 4
+====================
+I do
+====================
+I do
+====================
+
+====================
+index 52
+offset 11408
+name NULL
+length 7
+====================
+I don't
+====================
+I don't
+====================
+
+====================
+index 53
+offset 11521
+name Tomoya
+length 9
+====================
+\"I do.\"
+====================
+\"I do.\"
+====================
+
+====================
+index 54
+offset 11852
+name Kanako
+length 51
+====================
+\"See, look!! Everyone wants to play, you idiot!!\"
+====================
+\"See, look!! Everyone wants to play, you idiot!!\"
+====================
+
+====================
+index 55
+offset 12227
+name Takafumi
+length 132
+====================
+\"I don't understand why you have to speak so badly of me, but if Nii-chan says he wants to as well, I guess I've got no choice...\"
+====================
+\"I don't understand why you have to speak so badly of me, but if Nii-chan says he wants to as well, I guess I've got no choice...\"
+====================
+
+====================
+index 56
+offset 12682
+name Kanako
+length 30
+====================
+\"All right, to the dungeon!\"
+====================
+\"All right, to the dungeon!\"
+====================
+
+====================
+index 57
+offset 12764
+name Takafumi
+length 27
+====================
+\"No, it's not ready yet.\"
+====================
+\"No, it's not ready yet.\"
+====================
+
+====================
+index 58
+offset 12916
+name Tomoya
+length 12
+====================
+\"I don't.\"
+====================
+\"I don't.\"
+====================
+
+====================
+index 59
+offset 13251
+name Kanako
+length 29
+====================
+\"Why? RPGs are great. RPG.\"
+====================
+\"Why? RPGs are great. RPG.\"
+====================
+
+====================
+index 60
+offset 13600
+name Tomoya
+length 33
+====================
+\"Why is she fixated on an RPG?\"
+====================
+\"Why is she fixated on an RPG?\"
+====================
+
+====================
+index 61
+offset 13649
+name NULL
+length 15
+====================
+I ask Takafumi.
+====================
+I ask Takafumi.
+====================
+
+====================
+index 62
+offset 13988
+name Takafumi
+length 86
+====================
+\"She's not really fixated. If you just want to play, isn't Minesweeper good enough?\"
+====================
+\"She's not really fixated. If you just want to play, isn't Minesweeper good enough?\"
+====================
+
+====================
+index 63
+offset 14397
+name Kanako
+length 47
+====================
+\"Minesweeper? That's good too! Mwhahahahaha.\"
+====================
+\"Minesweeper? That's good too! Mwhahahahaha.\"
+====================
+
+====================
+index 64
+offset 14823
+name Kanako
+length 28
+====================
+\"All right, to the beach!\"
+====================
+\"All right, to the beach!\"
+====================
+
+====================
+index 65
+offset 14867
+name NULL
+length 24
+====================
+Kanako suddenly cuts in.
+====================
+Kanako suddenly cuts in.
+====================
+
+====================
+index 66
+offset 14907
+name NULL
+length 60
+====================
+Takafumi and I simultaneously look at Kanako and go \"huh?\"
+====================
+Takafumi and I simultaneously look at Kanako and go \"huh?\"
+====================
+
+====================
+index 67
+offset 15290
+name Kanako
+length 81
+====================
+\"It's summer vacation. What else is there to do other than going to the beach?\"
+====================
+\"It's summer vacation. What else is there to do other than going to the beach?\"
+====================
+
+====================
+index 68
+offset 15421
+name Tomoya
+length 37
+====================
+\"Well, there are plenty of things.\"
+====================
+\"Well, there are plenty of things.\"
+====================
+
+====================
+index 69
+offset 15781
+name Kanako
+length 39
+====================
+\"Why? The beach is great. The beach.\"
+====================
+\"Why? The beach is great. The beach.\"
+====================
+
+====================
+index 70
+offset 16140
+name Tomoya
+length 36
+====================
+\"Why is she fixated on the beach?\"
+====================
+\"Why is she fixated on the beach?\"
+====================
+
+====================
+index 71
+offset 16192
+name NULL
+length 15
+====================
+I ask Takafumi.
+====================
+I ask Takafumi.
+====================
+
+====================
+index 72
+offset 16531
+name Takafumi
+length 89
+====================
+\"She's not really fixated. If you just want to play, aren't the mountains good enough?\"
+====================
+\"She's not really fixated. If you just want to play, aren't the mountains good enough?\"
+====================
+
+====================
+index 73
+offset 16943
+name Kanako
+length 49
+====================
+\"The mountains? That's good too! Mwhahahahaha.\"
+====================
+\"The mountains? That's good too! Mwhahahahaha.\"
+====================
+
+====================
+index 74
+offset 17322
+name Takafumi
+length 8
+====================
+\"See.\"
+====================
+\"See.\"
+====================
+
+====================
+index 75
+offset 17380
+name Tomoya
+length 42
+====================
+\"So basically she just wants to play...\"
+====================
+\"So basically she just wants to play...\"
+====================
+
+====================
+index 76
+offset 17745
+name Kanako
+length 96
+====================
+\"You want to play too, don't you? How do you feel like passing the long summer vacation? Hmm?\"
+====================
+\"You want to play too, don't you? How do you feel like passing the long summer vacation? Hmm?\"
+====================
+
+====================
+index 77
+offset 17891
+name Tomoya
+length 41
+====================
+\"I'll pass it working as I usually do.\"
+====================
+\"I'll pass it working as I usually do.\"
+====================
+
+====================
+index 78
+offset 18254
+name Kanako
+length 53
+====================
+\"Eh, a part-time job? Is there something you want?\"
+====================
+\"Eh, a part-time job? Is there something you want?\"
+====================
+
+====================
+index 79
+offset 18357
+name Tomoya
+length 26
+====================
+\"No, I'm a working man.\"
+====================
+\"No, I'm a working man.\"
+====================
+
+====================
+index 80
+offset 18705
+name Kanako
+length 10
+====================
+\"Eh...?\"
+====================
+\"Eh...?\"
+====================
+
+====================
+index 81
+offset 19037
+name Kanako
+length 34
+====================
+\"Uwah! You're a working adult!!\"
+====================
+\"Uwah! You're a working adult!!\"
+====================
+
+====================
+index 82
+offset 19121
+name Tomoya
+length 53
+====================
+\"I'm the one who's surprised you didn't know that.\"
+====================
+\"I'm the one who's surprised you didn't know that.\"
+====================
+
+====================
+index 83
+offset 19496
+name Kanako
+length 80
+====================
+\"I see. What the heck. That means not everyone is on vacation starting today.\"
+====================
+\"I see. What the heck. That means not everyone is on vacation starting today.\"
+====================
+
+====================
+index 84
+offset 19592
+name NULL
+length 56
+====================
+She says it kind of sadly, which makes me kind of happy.
+====================
+She says it kind of sadly, which makes me kind of happy.
+====================
+
+====================
+index 85
+offset 19970
+name Kanako
+length 24
+====================
+\"Aah, is working fun?\"
+====================
+\"Aah, is working fun?\"
+====================
+
+====================
+index 86
+offset 20044
+name Tomoya
+length 56
+====================
+\"It's not that fun, but I get a sense of fulfillment.\"
+====================
+\"It's not that fun, but I get a sense of fulfillment.\"
+====================
+
+====================
+index 87
+offset 20150
+name Tomoya
+length 47
+====================
+\"What about you? Do you enjoy being so lazy?\"
+====================
+\"What about you? Do you enjoy being so lazy?\"
+====================
+
+====================
+index 88
+offset 20521
+name Takafumi
+length 63
+====================
+\"He's right. You've got time, so work. Find a part-time job.\"
+====================
+\"He's right. You've got time, so work. Find a part-time job.\"
+====================
+
+====================
+index 89
+offset 20907
+name Kanako
+length 40
+====================
+\"It's not like you're working either.\"
+====================
+\"It's not like you're working either.\"
+====================
+
+====================
+index 90
+offset 21271
+name Takafumi
+length 94
+====================
+\"I've had a part-time job since before vacation started. It's SE work, so I can do it here.\"
+====================
+\"I've had a part-time job since before vacation started. It's SE work, so I can do it here.\"
+====================
+
+====================
+index 91
+offset 21688
+name Kanako
+length 46
+====================
+\"What's that? Sounds easy. Can I do it too?\"
+====================
+\"What's that? Sounds easy. Can I do it too?\"
+====================
+
+====================
+index 92
+offset 21786
+name Takafumi
+length 15
+====================
+\"Impossible.\"
+====================
+\"Impossible.\"
+====================
+
+====================
+index 93
+offset 22123
+name Kanako
+length 45
+====================
+\"I wouldn't do it even if you asked me to!\"
+====================
+\"I wouldn't do it even if you asked me to!\"
+====================
+
+====================
+index 94
+offset 22218
+name Tomoya
+length 34
+====================
+\"What kind of work do you want?\"
+====================
+\"What kind of work do you want?\"
+====================
+
+====================
+index 95
+offset 22575
+name Kanako
+length 7
+====================
+\"SE.\"
+====================
+\"SE.\"
+====================
+
+====================
+index 96
+offset 22906
+name Takafumi
+length 27
+====================
+\"What does it stand for?\"
+====================
+\"What does it stand for?\"
+====================
+
+====================
+index 97
+offset 23256
+name Kanako
+length 30
+====================
+\"Su... Super... Electric...\"
+====================
+\"Su... Super... Electric...\"
+====================
+
+====================
+index 98
+offset 23610
+name Takafumi
+length 50
+====================
+\"Eh... there's more? You've run out of letters.\"
+====================
+\"Eh... there's more? You've run out of letters.\"
+====================
+
+====================
+index 99
+offset 23983
+name Kanako
+length 14
+====================
+\"That's it.\"
+====================
+\"That's it.\"
+====================
+
+====================
+index 100
+offset 24320
+name Kanako
+length 19
+====================
+\"Super Electric.\"
+====================
+\"Super Electric.\"
+====================
+
+====================
+index 101
+offset 24391
+name Takafumi
+length 10
+====================
+\"Wrong.\"
+====================
+\"Wrong.\"
+====================
+
+====================
+index 102
+offset 24723
+name Kanako
+length 29
+====================
+\"Then I withdraw my offer!\"
+====================
+\"Then I withdraw my offer!\"
+====================
+
+====================
+index 103
+offset 25364
+name Tomoyo
+length 38
+====================
+\"Guys, I can hear you from outside.\"
+====================
+\"Guys, I can hear you from outside.\"
+====================
+
+====================
+index 104
+offset 25418
+name NULL
+length 66
+====================
+Tomoyo and Tomo are standing in the doorway holding shopping bags.
+====================
+Tomoyo and Tomo are standing in the doorway holding shopping bags.
+====================
+
+====================
+index 105
+offset 25829
+name Takafumi
+length 23
+====================
+\"It's mostly Kanako.\"
+====================
+\"It's mostly Kanako.\"
+====================
+
+====================
+index 106
+offset 25902
+name Tomoya
+length 55
+====================
+\"It's summer vacation, so she's unusually excitable.\"
+====================
+\"It's summer vacation, so she's unusually excitable.\"
+====================
+
+====================
+index 107
+offset 26279
+name Kanako
+length 36
+====================
+\"Don't treat me like I'm a child.\"
+====================
+\"Don't treat me like I'm a child.\"
+====================
+
+====================
+index 108
+offset 26365
+name Tomoya
+length 52
+====================
+\"You are a child. You just play around every day.\"
+====================
+\"You are a child. You just play around every day.\"
+====================
+
+====================
+index 109
+offset 26739
+name Kanako
+length 89
+====================
+\"The moment it comes to light that you're a working adult, you start acting big, shit.\"
+====================
+\"The moment it comes to light that you're a working adult, you start acting big, shit.\"
+====================
+
+====================
+index 110
+offset 26878
+name Tomoya
+length 27
+====================
+\"No, I wasn't hiding it.\"
+====================
+\"No, I wasn't hiding it.\"
+====================
+
+====================
+index 111
+offset 27228
+name Tomoyo
+length 48
+====================
+\"Kanako, there's something I want to say too.\"
+====================
+\"Kanako, there's something I want to say too.\"
+====================
+
+====================
+index 112
+offset 27562
+name NULL
+length 45
+====================
+Tomoyo sits down directly in front of Kanako.
+====================
+Tomoyo sits down directly in front of Kanako.
+====================
+
+====================
+index 113
+offset 27930
+name Kanako
+length 8
+====================
+\"Heh?\"
+====================
+\"Heh?\"
+====================
+
+====================
+index 114
+offset 28261
+name Tomoyo
+length 11
+====================
+\"Kanako.\"
+====================
+\"Kanako.\"
+====================
+
+====================
+index 115
+offset 28288
+name NULL
+length 46
+====================
+She says her name again and turns to face her.
+====================
+She says her name again and turns to face her.
+====================
+
+====================
+index 116
+offset 28384
+name Tomoyo
+length 56
+====================
+\"If you just idly pass the time, nothing will change.\"
+====================
+\"If you just idly pass the time, nothing will change.\"
+====================
+
+====================
+index 117
+offset 28490
+name Tomoyo
+length 45
+====================
+\"Isn't it important to smooth things over?\"
+====================
+\"Isn't it important to smooth things over?\"
+====================
+
+====================
+index 118
+offset 28857
+name Kanako
+length 23
+====================
+\"Smooth things over?\"
+====================
+\"Smooth things over?\"
+====================
+
+====================
+index 119
+offset 29202
+name Kanako
+length 63
+====================
+\"Hm, okay, will you convince my mother to not get remarried?\"
+====================
+\"Hm, okay, will you convince my mother to not get remarried?\"
+====================
+
+====================
+index 120
+offset 29281
+name NULL
+length 102
+====================
+That's right. I'd forgotten, but her mother's remarriage was the original reason for her staying here.
+====================
+That's right. I'd forgotten, but her mother's remarriage was the original reason for her staying here.
+====================
+
+====================
+index 121
+offset 29706
+name Tomoyo
+length 32
+====================
+\"I have no say in the matter.\"
+====================
+\"I have no say in the matter.\"
+====================
+
+====================
+index 122
+offset 29788
+name Tomoyo
+length 98
+====================
+\"But if you talk to her and get to better understand each other's feelings, I think it'll help.\"
+====================
+\"But if you talk to her and get to better understand each other's feelings, I think it'll help.\"
+====================
+
+====================
+index 123
+offset 30208
+name Kanako
+length 34
+====================
+\"Wow, what a textbook response.\"
+====================
+\"Wow, what a textbook response.\"
+====================
+
+====================
+index 124
+offset 30292
+name Tomoya
+length 53
+====================
+\"Are you that opposed to your mother's remarriage?\"
+====================
+\"Are you that opposed to your mother's remarriage?\"
+====================
+
+====================
+index 125
+offset 30667
+name Kanako
+length 8
+====================
+\"Yes.\"
+====================
+\"Yes.\"
+====================
+
+====================
+index 126
+offset 30725
+name Tomoya
+length 31
+====================
+\"This is hard to say, but...\"
+====================
+\"This is hard to say, but...\"
+====================
+
+====================
+index 127
+offset 30806
+name Tomoya
+length 46
+====================
+\"Are you still hung up on your dead father?\"
+====================
+\"Are you still hung up on your dead father?\"
+====================
+
+====================
+index 128
+offset 31174
+name Kanako
+length 31
+====================
+\"Of course there's that too.\"
+====================
+\"Of course there's that too.\"
+====================
+
+====================
+index 129
+offset 31528
+name Kanako
+length 37
+====================
+\"But this... symbolizes something.\"
+====================
+\"But this... symbolizes something.\"
+====================
+
+====================
+index 130
+offset 31615
+name Kanako
+length 65
+====================
+\"That the never ending love that he believed in doesn't exist.\"
+====================
+\"That the never ending love that he believed in doesn't exist.\"
+====================
+
+====================
+index 131
+offset 31730
+name Tomoyo
+length 13
+====================
+\".........\"
+====================
+\".........\"
+====================
+
+====================
+index 132
+offset 31793
+name Kanako
+length 43
+====================
+\"If something like that doesn't exist...\"
+====================
+\"If something like that doesn't exist...\"
+====================
+
+====================
+index 133
+offset 32159
+name Kanako
+length 49
+====================
+\"It's better to enjoy life as much as you can.\"
+====================
+\"It's better to enjoy life as much as you can.\"
+====================
+
+====================
+index 134
+offset 32258
+name Kanako
+length 31
+====================
+\"I... like living here idly.\"
+====================
+\"I... like living here idly.\"
+====================
+
+====================
+index 135
+offset 32339
+name Kanako
+length 13
+====================
+\"It's fun.\"
+====================
+\"It's fun.\"
+====================
+
+====================
+index 136
+offset 32402
+name Kanako
+length 28
+====================
+\"Nothing here is painful.\"
+====================
+\"Nothing here is painful.\"
+====================
+
+====================
+index 137
+offset 32716
+name NULL
+length 58
+====================
+Her words sound pretty sincere and leave me with no reply.
+====================
+Her words sound pretty sincere and leave me with no reply.
+====================
+
+====================
+index 138
+offset 32790
+name NULL
+length 63
+====================
+It seems the same goes for Tomoyo, and we sit there in silence.
+====================
+It seems the same goes for Tomoyo, and we sit there in silence.
+====================
+
+====================
+index 139
+offset 32869
+name NULL
+length 86
+====================
+Only Tomo seems confused and looks around at everyone with an unreserved restlessness.
+====================
+Only Tomo seems confused and looks around at everyone with an unreserved restlessness.
+====================
+
+====================
+index 140
+offset 33277
+name Kanako
+length 70
+====================
+\"Ah, I've brought everyone down even though it's summer vacation...\"
+====================
+\"Ah, I've brought everyone down even though it's summer vacation...\"
+====================
+
+====================
+index 141
+offset 33397
+name Kanako
+length 26
+====================
+\"I'll go buy ice cream.\"
+====================
+\"I'll go buy ice cream.\"
+====================
+
+====================
+index 142
+offset 33743
+name Tomoya
+length 66
+====================
+\"See, you really were excited because it was summer vacation...\"
+====================
+\"See, you really were excited because it was summer vacation...\"
+====================
+
+====================
+index 143
+offset 33850
+name NULL
+length 43
+====================
+Kanako stands up alone and leaves the room.
+====================
+Kanako stands up alone and leaves the room.
+====================
+
+====================
+index 144
+offset 33943
+name Tomoyo
+length 13
+====================
+\"Kanako...\"
+====================
+\"Kanako...\"
+====================
+
+====================
+index 145
+offset 33972
+name NULL
+length 68
+====================
+After hearing the sound of the door closing, Tomoyo speaks her name.
+====================
+After hearing the sound of the door closing, Tomoyo speaks her name.
+====================
+
+====================
+index 146
+offset 34364
+name Tomoyo
+length 54
+====================
+\"Despite what she says, she's suffering, isn't she?\"
+====================
+\"Despite what she says, she's suffering, isn't she?\"
+====================
+
+====================
+index 147
+offset 34493
+name Tomoyo
+length 53
+====================
+\"Somehow... she looks like she's looking for help.\"
+====================
+\"Somehow... she looks like she's looking for help.\"
+====================
+
+====================
+index 148
+offset 34634
+name Tomoya
+length 15
+====================
+\"Eh? Really?\"
+====================
+\"Eh? Really?\"
+====================
+
+====================
+index 149
+offset 34972
+name Tomoyo
+length 46
+====================
+\"What..? It didn't look that way to you...?\"
+====================
+\"What..? It didn't look that way to you...?\"
+====================
+
+====================
+index 150
+offset 35341
+name Tomoyo
+length 83
+====================
+\"It was obvious enough that I could tell even though I don't know her that well.\"
+====================
+\"It was obvious enough that I could tell even though I don't know her that well.\"
+====================
+
+====================
+index 151
+offset 35474
+name Tomoyo
+length 39
+====================
+\"I thought you would have noticed...\"
+====================
+\"I thought you would have noticed...\"
+====================
+
+====================
+index 152
+offset 35563
+name Tomoya
+length 47
+====================
+\"My relationship with her is even shallower.\"
+====================
+\"My relationship with her is even shallower.\"
+====================
+
+====================
+index 153
+offset 35660
+name Tomoyo
+length 66
+====================
+\"If you mean how long you've known each other, then yes, but...\"
+====================
+\"If you mean how long you've known each other, then yes, but...\"
+====================
+
+====================
+index 154
+offset 36049
+name Tomoyo
+length 19
+====================
+\"Well, whatever.\"
+====================
+\"Well, whatever.\"
+====================
+
+====================
+index 155
+offset 36118
+name Tomoyo
+length 35
+====================
+\"I want to do something for her.\"
+====================
+\"I want to do something for her.\"
+====================
+
+====================
+index 156
+offset 36169
+name NULL
+length 70
+====================
+The sound of Takafumi tapping away at the keys gets noticeably louder.
+====================
+The sound of Takafumi tapping away at the keys gets noticeably louder.
+====================
+
+====================
+index 157
+offset 36289
+name Tomoyo
+length 13
+====================
+\"Let's go.\"
+====================
+\"Let's go.\"
+====================
+
+====================
+index 158
+offset 36588
+name NULL
+length 26
+====================
+She prompts and stands up.
+====================
+She prompts and stands up.
+====================
+
+====================
+index 159
+offset 37809
+name Tomoyo
+length 40
+====================
+\"I think Kanako still loves Takafumi.\"
+====================
+\"I think Kanako still loves Takafumi.\"
+====================
+
+====================
+index 160
+offset 37899
+name Tomoya
+length 11
+====================
+\"Really?\"
+====================
+\"Really?\"
+====================
+
+====================
+index 161
+offset 37960
+name Tomoyo
+length 51
+====================
+\"Wasn't her goal from the start to see Takafumi?\"
+====================
+\"Wasn't her goal from the start to see Takafumi?\"
+====================
+
+====================
+index 162
+offset 38061
+name Tomoya
+length 69
+====================
+\"No, didn't she leave because she opposed her mother's remarriage?\"
+====================
+\"No, didn't she leave because she opposed her mother's remarriage?\"
+====================
+
+====================
+index 163
+offset 38453
+name Tomoyo
+length 38
+====================
+\"I think that was just the impetus.\"
+====================
+\"I think that was just the impetus.\"
+====================
+
+====================
+index 164
+offset 38541
+name Tomoyo
+length 54
+====================
+\"I think she came to ascertain Takafumi's feelings.\"
+====================
+\"I think she came to ascertain Takafumi's feelings.\"
+====================
+
+====================
+index 165
+offset 38645
+name Tomoya
+length 47
+====================
+\"But Takafumi doesn't seem to be interested.\"
+====================
+\"But Takafumi doesn't seem to be interested.\"
+====================
+
+====================
+index 166
+offset 39015
+name Tomoyo
+length 11
+====================
+\"Really?\"
+====================
+\"Really?\"
+====================
+
+====================
+index 167
+offset 39076
+name Tomoya
+length 32
+====================
+\"Eh? Isn't that how it looks?\"
+====================
+\"Eh? Isn't that how it looks?\"
+====================
+
+====================
+index 168
+offset 39431
+name Tomoyo
+length 65
+====================
+\"Yes... it is. I'm his sister, so I can say that definitively.\"
+====================
+\"Yes... it is. I'm his sister, so I can say that definitively.\"
+====================
+
+====================
+index 169
+offset 39546
+name Tomoya
+length 41
+====================
+\"So, why don't they get back together?\"
+====================
+\"So, why don't they get back together?\"
+====================
+
+====================
+index 170
+offset 39637
+name Tomoya
+length 47
+====================
+\"Just because there hasn't been a reason to?\"
+====================
+\"Just because there hasn't been a reason to?\"
+====================
+
+====================
+index 171
+offset 40007
+name Tomoyo
+length 65
+====================
+\"I think something happened that we probably don't know about.\"
+====================
+\"I think something happened that we probably don't know about.\"
+====================
+
+====================
+index 172
+offset 40122
+name Tomoya
+length 45
+====================
+\"If so... it'd be from when they broke up.\"
+====================
+\"If so... it'd be from when they broke up.\"
+====================
+
+====================
+index 173
+offset 40217
+name Tomoya
+length 49
+====================
+\"Something must have happened three years ago.\"
+====================
+\"Something must have happened three years ago.\"
+====================
+
+====================
+index 174
+offset 40589
+name Tomoyo
+length 22
+====================
+\"Three years ago...\"
+====================
+\"Three years ago...\"
+====================
+
+====================
+index 175
+offset 40627
+name NULL
+length 33
+====================
+Tomoyo suddenly narrows her eyes.
+====================
+Tomoyo suddenly narrows her eyes.
+====================
+
+====================
+index 176
+offset 40710
+name Tomoyo
+length 49
+====================
+\"Takafumi jumped into traffic three years ago.\"
+====================
+\"Takafumi jumped into traffic three years ago.\"
+====================
+
+====================
+index 177
+offset 40809
+name Tomoyo
+length 41
+====================
+\"Kanako's father died three years ago.\"
+====================
+\"Kanako's father died three years ago.\"
+====================
+
+====================
+index 178
+offset 40900
+name Tomoyo
+length 38
+====================
+\"And they broke up three years ago.\"
+====================
+\"And they broke up three years ago.\"
+====================
+
+====================
+index 179
+offset 40954
+name NULL
+length 24
+====================
+She's quiet for a while.
+====================
+She's quiet for a while.
+====================
+
+====================
+index 180
+offset 41028
+name Tomoya
+length 17
+====================
+\"What's wrong?\"
+====================
+\"What's wrong?\"
+====================
+
+====================
+index 181
+offset 41368
+name Tomoyo
+length 11
+====================
+\"Well...\"
+====================
+\"Well...\"
+====================
+
+====================
+index 182
+offset 41429
+name Tomoya
+length 31
+====================
+\"Do you know something else?\"
+====================
+\"Do you know something else?\"
+====================
+
+====================
+index 183
+offset 41510
+name Tomoyo
+length 16
+====================
+\"No, I don't.\"
+====================
+\"No, I don't.\"
+====================
+
+====================
+index 184
+offset 41576
+name Tomoya
+length 41
+====================
+\"Then I'll ask Takafumi himself later.\"
+====================
+\"Then I'll ask Takafumi himself later.\"
+====================
+
+====================
+index 185
+offset 41940
+name Tomoyo
+length 82
+====================
+\"That won't be easy. I'm his older sister, and I don't even know much about it.\"
+====================
+\"That won't be easy. I'm his older sister, and I don't even know much about it.\"
+====================
+
+====================
+index 186
+offset 42072
+name Tomoya
+length 9
+====================
+\"True.\"
+====================
+\"True.\"
+====================
+
+====================
+index 187
+offset 42404
+name Tomoyo
+length 30
+====================
+\"What do you plan on doing?\"
+====================
+\"What do you plan on doing?\"
+====================
+
+====================
+index 188
+offset 42484
+name Tomoya
+length 33
+====================
+\"I'll try asking him directly.\"
+====================
+\"I'll try asking him directly.\"
+====================
+
+====================
+index 189
+offset 42840
+name Tomoyo
+length 26
+====================
+\"You shouldn't do that.\"
+====================
+\"You shouldn't do that.\"
+====================
+
+====================
+index 190
+offset 42916
+name Tomoyo
+length 22
+====================
+\"This is a warning.\"
+====================
+\"This is a warning.\"
+====================
+
+====================
+index 191
+offset 42988
+name Tomoyo
+length 81
+====================
+\"Don't think you can simply get it out of him. You'll end up losing his trust.\"
+====================
+\"Don't think you can simply get it out of him. You'll end up losing his trust.\"
+====================
+
+====================
+index 192
+offset 43190
+name Tomoya
+length 39
+====================
+\"I was just thinking the same thing.\"
+====================
+\"I was just thinking the same thing.\"
+====================
+
+====================
+index 193
+offset 43279
+name Tomoyo
+length 23
+====================
+\"I want to help her.\"
+====================
+\"I want to help her.\"
+====================
+
+====================
+index 194
+offset 43318
+name NULL
+length 70
+====================
+The sound of Takafumi tapping away at the keys gets noticeably louder.
+====================
+The sound of Takafumi tapping away at the keys gets noticeably louder.
+====================
+
+====================
+index 195
+offset 43404
+name NULL
+length 62
+====================
+I give Tomoyo a look that says \"let's go outside for a bit\".
+====================
+I give Tomoyo a look that says \"let's go outside for a bit\".
+====================
+
+====================
+index 196
+offset 44400
+name Tomoya
+length 35
+====================
+\"If Kanako wants to be helped...\"
+====================
+\"If Kanako wants to be helped...\"
+====================
+
+====================
+index 197
+offset 44485
+name Tomoya
+length 28
+====================
+\"It would be by Takafumi.\"
+====================
+\"It would be by Takafumi.\"
+====================
+
+====================
+index 198
+offset 44529
+name NULL
+length 21
+====================
+I talk while walking.
+====================
+I talk while walking.
+====================
+
+====================
+index 199
+offset 44600
+name Tomoya
+length 48
+====================
+\"It was her goal from the start to see him...\"
+====================
+\"It was her goal from the start to see him...\"
+====================
+
+====================
+index 200
+offset 44698
+name Tomoya
+length 40
+====================
+\"I think Kanako still loves Takafumi.\"
+====================
+\"I think Kanako still loves Takafumi.\"
+====================
+
+====================
+index 201
+offset 44788
+name Tomoya
+length 63
+====================
+\"I don't know what happened between those two in the past...\"
+====================
+\"I don't know what happened between those two in the past...\"
+====================
+
+====================
+index 202
+offset 44901
+name Tomoya
+length 34
+====================
+\"But Kanako came here to see...\"
+====================
+\"But Kanako came here to see...\"
+====================
+
+====================
+index 203
+offset 44985
+name Tomoya
+length 51
+====================
+\"...whether or not Takafumi still loves her too.\"
+====================
+\"...whether or not Takafumi still loves her too.\"
+====================
+
+====================
+index 204
+offset 45359
+name Tomoyo
+length 41
+====================
+\"Yeah... you're right. I think so too.\"
+====================
+\"Yeah... you're right. I think so too.\"
+====================
+
+====================
+index 205
+offset 45450
+name Tomoyo
+length 53
+====================
+\"One way or another, those two make a good couple.\"
+====================
+\"One way or another, those two make a good couple.\"
+====================
+
+====================
+index 206
+offset 45553
+name Tomoyo
+length 35
+====================
+\"Seriously, they're so contrary.\"
+====================
+\"Seriously, they're so contrary.\"
+====================
+
+====================
+index 207
+offset 45638
+name Tomoya
+length 85
+====================
+\"If he's not willing to talk about it, then there is something keeping them apart.\"
+====================
+\"If he's not willing to talk about it, then there is something keeping them apart.\"
+====================
+
+====================
+index 208
+offset 46046
+name Tomoyo
+length 14
+====================
+\"Really...?\"
+====================
+\"Really...?\"
+====================
+
+====================
+index 209
+offset 46110
+name Tomoya
+length 13
+====================
+\"Probably.\"
+====================
+\"Probably.\"
+====================
+
+====================
+index 210
+offset 46173
+name Tomoya
+length 42
+====================
+\"Three years ago, when they broke up...\"
+====================
+\"Three years ago, when they broke up...\"
+====================
+
+====================
+index 211
+offset 46265
+name Tomoya
+length 43
+====================
+\"...it's very likely something happened.\"
+====================
+\"...it's very likely something happened.\"
+====================
+
+====================
+index 212
+offset 46631
+name Tomoyo
+length 23
+====================
+\"Three years ago...?\"
+====================
+\"Three years ago...?\"
+====================
+
+====================
+index 213
+offset 46670
+name NULL
+length 33
+====================
+Tomoyo suddenly narrows her eyes.
+====================
+Tomoyo suddenly narrows her eyes.
+====================
+
+====================
+index 214
+offset 46753
+name Tomoya
+length 49
+====================
+\"Takafumi jumped into traffic three years ago.\"
+====================
+\"Takafumi jumped into traffic three years ago.\"
+====================
+
+====================
+index 215
+offset 46852
+name Tomoya
+length 41
+====================
+\"Kanako's father died three years ago.\"
+====================
+\"Kanako's father died three years ago.\"
+====================
+
+====================
+index 216
+offset 46943
+name Tomoya
+length 38
+====================
+\"And they broke up three years ago.\"
+====================
+\"And they broke up three years ago.\"
+====================
+
+====================
+index 217
+offset 47031
+name Tomoya
+length 18
+====================
+\"Right, Tomoyo?\"
+====================
+\"Right, Tomoyo?\"
+====================
+
+====================
+index 218
+offset 47099
+name Tomoya
+length 85
+====================
+\"What happened three years ago... whatever you know is fine, so could you tell me?\"
+====================
+\"What happened three years ago... whatever you know is fine, so could you tell me?\"
+====================
+
+====================
+index 219
+offset 47474
+name NULL
+length 24
+====================
+After a short silence...
+====================
+After a short silence...
+====================
+
+====================
+index 220
+offset 47548
+name Tomoyo
+length 11
+====================
+\"Yeah...\"
+====================
+\"Yeah...\"
+====================
+
+====================
+index 221
+offset 47575
+name NULL
+length 9
+====================
+She nods.
+====================
+She nods.
+====================
+
+====================
+index 222
+offset 48479
+name Tomoyo
+length 63
+====================
+\"Kanako's father was the coach for the track and field team.\"
+====================
+\"Kanako's father was the coach for the track and field team.\"
+====================
+
+====================
+index 223
+offset 48592
+name Tomoyo
+length 56
+====================
+\"Takafumi idolized him and was doing track and field.\"
+====================
+\"Takafumi idolized him and was doing track and field.\"
+====================
+
+====================
+index 224
+offset 48698
+name Tomoyo
+length 34
+====================
+\"He was a long-distance runner.\"
+====================
+\"He was a long-distance runner.\"
+====================
+
+====================
+index 225
+offset 48782
+name Tomoyo
+length 71
+====================
+\"Her father died... three months after Takafumi jumped into traffic.\"
+====================
+\"Her father died... three months after Takafumi jumped into traffic.\"
+====================
+
+====================
+index 226
+offset 48903
+name Tomoyo
+length 46
+====================
+\"It was shortly after he left the hospital.\"
+====================
+\"It was shortly after he left the hospital.\"
+====================
+
+====================
+index 227
+offset 48999
+name Tomoyo
+length 79
+====================
+\"Her father had a weak heart... and he collapsed from a heart attack, and...\"
+====================
+\"Her father had a weak heart... and he collapsed from a heart attack, and...\"
+====================
+
+====================
+index 228
+offset 49128
+name Tomoyo
+length 11
+====================
+\"Then...\"
+====================
+\"Then...\"
+====================
+
+====================
+index 229
+offset 49189
+name Tomoyo
+length 55
+====================
+\"After that... Takafumi and Kanako became estranged.\"
+====================
+\"After that... Takafumi and Kanako became estranged.\"
+====================
+
+====================
+index 230
+offset 49294
+name Tomoyo
+length 22
+====================
+\"That's all I know.\"
+====================
+\"That's all I know.\"
+====================
+
+====================
+index 231
+offset 49366
+name Tomoyo
+length 19
+====================
+\"Isn't that sad?\"
+====================
+\"Isn't that sad?\"
+====================
+
+====================
+index 232
+offset 49438
+name Tomoya
+length 26
+====================
+\"Thanks, that's enough.\"
+====================
+\"Thanks, that's enough.\"
+====================
+
+====================
+index 233
+offset 49514
+name Tomoya
+length 37
+====================
+\"Later, I'll ask Takafumi himself.\"
+====================
+\"Later, I'll ask Takafumi himself.\"
+====================
+
+====================
+index 234
+offset 49874
+name Tomoyo
+length 23
+====================
+\"That won't be easy.\"
+====================
+\"That won't be easy.\"
+====================
+
+====================
+index 235
+offset 49947
+name Tomoya
+length 17
+====================
+\"Probably not.\"
+====================
+\"Probably not.\"
+====================
+
+====================
+index 236
+offset 50014
+name Tomoyo
+length 30
+====================
+\"What do you plan on doing?\"
+====================
+\"What do you plan on doing?\"
+====================
+
+====================
+index 237
+offset 50083
+name NULL
+length 16
+====================
+Ask him directly
+====================
+Ask him directly
+====================
+
+====================
+index 238
+offset 50104
+name NULL
+length 25
+====================
+Avoid asking him directly
+====================
+Avoid asking him directly
+====================
+
+====================
+index 239
+offset 50235
+name Tomoya
+length 33
+====================
+\"I'll try asking him directly.\"
+====================
+\"I'll try asking him directly.\"
+====================
+
+====================
+index 240
+offset 50591
+name Tomoyo
+length 26
+====================
+\"You shouldn't do that.\"
+====================
+\"You shouldn't do that.\"
+====================
+
+====================
+index 241
+offset 50667
+name Tomoyo
+length 22
+====================
+\"This is a warning.\"
+====================
+\"This is a warning.\"
+====================
+
+====================
+index 242
+offset 50739
+name Tomoyo
+length 81
+====================
+\"Don't think you can simply get it out of him. You'll end up losing his trust.\"
+====================
+\"Don't think you can simply get it out of him. You'll end up losing his trust.\"
+====================
+
+====================
+index 243
+offset 50859
+name NULL
+length 16
+====================
+Heed her warning
+====================
+Heed her warning
+====================
+
+====================
+index 244
+offset 50880
+name NULL
+length 9
+====================
+Ignore it
+====================
+Ignore it
+====================
+
+====================
+index 245
+offset 50995
+name Tomoya
+length 52
+====================
+\"In that case, I'll try and think of another way.\"
+====================
+\"In that case, I'll try and think of another way.\"
+====================
+
+====================
+index 246
+offset 51370
+name Tomoyo
+length 9
+====================
+\"Okay.\"
+====================
+\"Okay.\"
+====================
+
+====================
+index 247
+offset 51491
+name Tomoya
+length 44
+====================
+\"Everything is a straight-forward battle.\"
+====================
+\"Everything is a straight-forward battle.\"
+====================
+
+====================
+index 248
+offset 51858
+name Tomoyo
+length 57
+====================
+\"I see... it looks like it'd be pointless to stop you.\"
+====================
+\"I see... it looks like it'd be pointless to stop you.\"
+====================
+
+====================
+index 249
+offset 52816
+name Tomoya
+length 18
+====================
+\"Hey, Takafumi.\"
+====================
+\"Hey, Takafumi.\"
+====================
+
+====================
+index 250
+offset 52850
+name NULL
+length 56
+====================
+I follow Takafumi as he's on his way home and catch him.
+====================
+I follow Takafumi as he's on his way home and catch him.
+====================
+
+====================
+index 251
+offset 53230
+name Takafumi
+length 35
+====================
+\"Why are you standing in my way?\"
+====================
+\"Why are you standing in my way?\"
+====================
+
+====================
+index 252
+offset 53315
+name Tomoya
+length 20
+====================
+\"We need to talk.\"
+====================
+\"We need to talk.\"
+====================
+
+====================
+index 253
+offset 53387
+name Takafumi
+length 15
+====================
+\"About what?\"
+====================
+\"About what?\"
+====================
+
+====================
+index 254
+offset 53452
+name Tomoya
+length 46
+====================
+\"What happened with Kanako three years ago?\"
+====================
+\"What happened with Kanako three years ago?\"
+====================
+
+====================
+index 255
+offset 53514
+name NULL
+length 23
+====================
+I ask him straight out.
+====================
+I ask him straight out.
+====================
+
+====================
+index 256
+offset 53861
+name Takafumi
+length 28
+====================
+\"...I've told you before.\"
+====================
+\"...I've told you before.\"
+====================
+
+====================
+index 257
+offset 53939
+name Tomoya
+length 40
+====================
+\"Yeah, that you jumped into the road.\"
+====================
+\"Yeah, that you jumped into the road.\"
+====================
+
+====================
+index 258
+offset 54303
+name Takafumi
+length 14
+====================
+\"That's it.\"
+====================
+\"That's it.\"
+====================
+
+====================
+index 259
+offset 54367
+name Tomoya
+length 54
+====================
+\"That's not enough. Something happened with Kanako.\"
+====================
+\"That's not enough. Something happened with Kanako.\"
+====================
+
+====================
+index 260
+offset 54745
+name Takafumi
+length 34
+====================
+\"It has nothing to do with you.\"
+====================
+\"It has nothing to do with you.\"
+====================
+
+====================
+index 261
+offset 54829
+name Tomoya
+length 12
+====================
+\"It does.\"
+====================
+\"It does.\"
+====================
+
+====================
+index 262
+offset 55165
+name Takafumi
+length 13
+====================
+\".........\"
+====================
+\".........\"
+====================
+
+====================
+index 263
+offset 55502
+name Takafumi
+length 43
+====================
+\"...we were just going out and broke up.\"
+====================
+\"...we were just going out and broke up.\"
+====================
+
+====================
+index 264
+offset 55597
+name Takafumi
+length 70
+====================
+\"I've said it plenty of times, but me and Kanako are through, okay?\"
+====================
+\"I've said it plenty of times, but me and Kanako are through, okay?\"
+====================
+
+====================
+index 265
+offset 55719
+name Takafumi
+length 24
+====================
+\"It's a common story.\"
+====================
+\"It's a common story.\"
+====================
+
+====================
+index 266
+offset 55793
+name Tomoya
+length 37
+====================
+\"Okay, what about track and field?\"
+====================
+\"Okay, what about track and field?\"
+====================
+
+====================
+index 267
+offset 55846
+name NULL
+length 53
+====================
+I decide to change the direction of the conversation.
+====================
+I decide to change the direction of the conversation.
+====================
+
+====================
+index 268
+offset 55949
+name Tomoya
+length 41
+====================
+\"Won't you tell me about your teacher?\"
+====================
+\"Won't you tell me about your teacher?\"
+====================
+
+====================
+index 269
+offset 56314
+name Takafumi
+length 29
+====================
+\"I know of no such person.\"
+====================
+\"I know of no such person.\"
+====================
+
+====================
+index 270
+offset 56393
+name Tomoya
+length 32
+====================
+\"You do. I heard from Tomoyo.\"
+====================
+\"You do. I heard from Tomoyo.\"
+====================
+
+====================
+index 271
+offset 56477
+name Takafumi
+length 68
+====================
+\"Gossiping like that... even though it's none of your business...\"
+====================
+\"Gossiping like that... even though it's none of your business...\"
+====================
+
+====================
+index 272
+offset 56869
+name Takafumi
+length 25
+====================
+\"You know, Nii-chan...\"
+====================
+\"You know, Nii-chan...\"
+====================
+
+====================
+index 273
+offset 56946
+name Takafumi
+length 50
+====================
+\"Even I have things I don't want to talk about.\"
+====================
+\"Even I have things I don't want to talk about.\"
+====================
+
+====================
+index 274
+offset 57048
+name Takafumi
+length 37
+====================
+\"And there are times I get pissed.\"
+====================
+\"And there are times I get pissed.\"
+====================
+
+====================
+index 275
+offset 57137
+name Takafumi
+length 21
+====================
+\"Like right now...\"
+====================
+\"Like right now...\"
+====================
+
+====================
+index 276
+offset 57208
+name Tomoya
+length 42
+====================
+\"...what do you plan on doing about it?\"
+====================
+\"...what do you plan on doing about it?\"
+====================
+
+====================
+index 277
+offset 57574
+name Takafumi
+length 9
+====================
+\"This!\"
+====================
+\"This!\"
+====================
+
+====================
+index 278
+offset 57905
+name NULL
+length 7
+====================
+*Whack*
+====================
+*Whack*
+====================
+
+====================
+index 279
+offset 57928
+name NULL
+length 65
+====================
+My face is pushed far to the side as Takafumi lands a hard punch.
+====================
+My face is pushed far to the side as Takafumi lands a hard punch.
+====================
+
+====================
+index 280
+offset 58043
+name Tomoya
+length 27
+====================
+\"That hurts... you punk!\"
+====================
+\"That hurts... you punk!\"
+====================
+
+====================
+index 281
+offset 58086
+name NULL
+length 55
+====================
+I move to return the blow, but that's not what happens.
+====================
+I move to return the blow, but that's not what happens.
+====================
+
+====================
+index 282
+offset 58464
+name Tomoyo
+length 12
+====================
+\"Stop it.\"
+====================
+\"Stop it.\"
+====================
+
+====================
+index 283
+offset 58492
+name NULL
+length 26
+====================
+Tomoyo is holding my fist.
+====================
+Tomoyo is holding my fist.
+====================
+
+====================
+index 284
+offset 58841
+name Tomoyo
+length 26
+====================
+\"You shouldn't fight...\"
+====================
+\"You shouldn't fight...\"
+====================
+
+====================
+index 285
+offset 58917
+name Tomoyo
+length 43
+====================
+\"Haven't you two always gotten along...?\"
+====================
+\"Haven't you two always gotten along...?\"
+====================
+
+====================
+index 286
+offset 59010
+name Tomoyo
+length 31
+====================
+\"How did it come to this...?\"
+====================
+\"How did it come to this...?\"
+====================
+
+====================
+index 287
+offset 59057
+name NULL
+length 54
+====================
+Hearing her poignant voice, we finally cool our heads.
+====================
+Hearing her poignant voice, we finally cool our heads.
+====================
+
+====================
+index 288
+offset 59435
+name Takafumi
+length 52
+====================
+\"...it's fine, as long as everyone is having fun.\"
+====================
+\"...it's fine, as long as everyone is having fun.\"
+====================
+
+====================
+index 289
+offset 59539
+name Takafumi
+length 13
+====================
+\"Right...?\"
+====================
+\"Right...?\"
+====================
+
+====================
+index 290
+offset 59875
+name Tomoyo
+length 14
+====================
+\"Of course.\"
+====================
+\"Of course.\"
+====================
+
+====================
+index 291
+offset 60213
+name Takafumi
+length 36
+====================
+\"Then let's keep going as we are.\"
+====================
+\"Then let's keep going as we are.\"
+====================
+
+====================
+index 292
+offset 60301
+name Takafumi
+length 21
+====================
+\"That'd be fine...\"
+====================
+\"That'd be fine...\"
+====================
+
+====================
+index 293
+offset 60608
+name NULL
+length 20
+====================
+Takafumi turns away.
+====================
+Takafumi turns away.
+====================
+
+====================
+index 294
+offset 60680
+name Takafumi
+length 11
+====================
+\"See ya.\"
+====================
+\"See ya.\"
+====================
+
+====================
+index 295
+offset 60707
+name NULL
+length 29
+====================
+And like that, he walks away.
+====================
+And like that, he walks away.
+====================
+
+====================
+index 296
+offset 61059
+name Tomoyo
+length 52
+====================
+\"Tomoya, you need to reflect on what you've done.\"
+====================
+\"Tomoya, you need to reflect on what you've done.\"
+====================
+
+====================
+index 297
+offset 61161
+name Tomoya
+length 18
+====================
+\"Yeah, sorry...\"
+====================
+\"Yeah, sorry...\"
+====================
+
+====================
+index 298
+offset 61651
+name NULL
+length 7
+====================
+BAD END
+====================
+BAD END
+====================
+
+====================
+index 299
+offset 62093
+name NULL
+length 61
+====================
+Every day or so, I would throw the same question at Takafumi.
+====================
+Every day or so, I would throw the same question at Takafumi.
+====================
+
+====================
+index 300
+offset 62170
+name NULL
+length 65
+====================
+Even so, Takafumi was stubborn and continued to refuse to answer.
+====================
+Even so, Takafumi was stubborn and continued to refuse to answer.
+====================
+
+====================
+index 301
+offset 62251
+name NULL
+length 40
+====================
+Gradually, Takafumi stopped coming over.
+====================
+Gradually, Takafumi stopped coming over.
+====================
+
+====================
+index 302
+offset 62307
+name NULL
+length 61
+====================
+Even if I tried to call him over through Tomoyo, he wouldn't.
+====================
+Even if I tried to call him over through Tomoyo, he wouldn't.
+====================
+
+====================
+index 303
+offset 63533
+name Tomoyo
+length 34
+====================
+\"You should give him some time.\"
+====================
+\"You should give him some time.\"
+====================
+
+====================
+index 304
+offset 63617
+name Tomoyo
+length 35
+====================
+\"Could you leave him be for now?\"
+====================
+\"Could you leave him be for now?\"
+====================
+
+====================
+index 305
+offset 63702
+name Tomoya
+length 26
+====================
+\"...yeah, I understand.\"
+====================
+\"...yeah, I understand.\"
+====================
+
+====================
+index 306
+offset 63744
+name NULL
+length 85
+====================
+Tomoyo isn't blaming me, but it's a fact that me setting Takafumi off is hurting her.
+====================
+Tomoyo isn't blaming me, but it's a fact that me setting Takafumi off is hurting her.
+====================
+
+====================
+index 307
+offset 63845
+name NULL
+length 43
+====================
+If only I hadn't meddled in his business...
+====================
+If only I hadn't meddled in his business...
+====================
+
+====================
+index 308
+offset 64028
+name Tomoya
+length 60
+====================
+\"Even if I ask him directly, he probably won't tell me...\"
+====================
+\"Even if I ask him directly, he probably won't tell me...\"
+====================
+
+====================
+index 309
+offset 64138
+name Tomoya
+length 35
+====================
+\"I'll try thinking of something.\"
+====================
+\"I'll try thinking of something.\"
+====================
+
+====================
+index 310
+offset 64496
+name Tomoyo
+length 9
+====================
+\"Okay.\"
+====================
+\"Okay.\"
+====================
+
+====================
+index 311
+offset 64838
+name Tomoyo
+length 24
+====================
+\"Takafumi trusts you.\"
+====================
+\"Takafumi trusts you.\"
+====================
+
+====================
+index 312
+offset 64912
+name Tomoyo
+length 17
+====================
+\"He loves you.\"
+====================
+\"He loves you.\"
+====================
+
+====================
+index 313
+offset 64979
+name Tomoyo
+length 47
+====================
+\"I want you to let it stay that way forever.\"
+====================
+\"I want you to let it stay that way forever.\"
+====================
+
+====================
+index 314
+offset 65076
+name Tomoyo
+length 19
+====================
+\"That's my hope.\"
+====================
+\"That's my hope.\"
+====================
+
+====================
+index 315
+offset 65145
+name Tomoya
+length 9
+====================
+\"Yeah.\"
+====================
+\"Yeah.\"
+====================

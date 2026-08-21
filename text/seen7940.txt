@@ -1,0 +1,1300 @@
+type seen7940
+count 118
+
+====================
+index 1
+offset 2443
+name Takafumi
+length 83
+====================
+\"Hey, welcome back. Looks like you were beaten up pretty badly. You should rest.\"
+====================
+\"Hey, welcome back. Looks like you were beaten up pretty badly. You should rest.\"
+====================
+
+====================
+index 2
+offset 2578
+name Takafumi
+length 142
+====================
+\"Your skills and physical strength will recover when you're on the ground level. We also have an unlimited supply of recovery potions here.\"
+====================
+\"Your skills and physical strength will recover when you're on the ground level. We also have an unlimited supply of recovery potions here.\"
+====================
+
+====================
+index 3
+offset 2772
+name Takafumi
+length 55
+====================
+\"However, recovery potions are very heavy by design.\"
+====================
+\"However, recovery potions are very heavy by design.\"
+====================
+
+====================
+index 4
+offset 2879
+name Takafumi
+length 95
+====================
+\"For now, take as many as you can. If you want to take more, you'll have to drop some items.\"
+====================
+\"For now, take as many as you can. If you want to take more, you'll have to drop some items.\"
+====================
+
+====================
+index 5
+offset 3147
+name Takafumi
+length 39
+====================
+\"Hey, welcome back. You should rest.\"
+====================
+\"Hey, welcome back. You should rest.\"
+====================
+
+====================
+index 6
+offset 3238
+name Takafumi
+length 106
+====================
+\"If none of you attack the enemy and use only 'Search' or 'Run', then you definitely won't beat them...\"
+====================
+\"If none of you attack the enemy and use only 'Search' or 'Run', then you definitely won't beat them...\"
+====================
+
+====================
+index 7
+offset 3396
+name Takafumi
+length 131
+====================
+\"In particular, if you don't clear the floor, you can't get the items you found by using 'Search', and it will all be in vain...\"
+====================
+\"In particular, if you don't clear the floor, you can't get the items you found by using 'Search', and it will all be in vain...\"
+====================
+
+====================
+index 8
+offset 3700
+name Takafumi
+length 39
+====================
+\"Hey, welcome back. You should rest.\"
+====================
+\"Hey, welcome back. You should rest.\"
+====================
+
+====================
+index 9
+offset 3952
+name Takafumi
+length 66
+====================
+\"Hey, welcome back. Haha, you actually came back. That's funny.\"
+====================
+\"Hey, welcome back. Haha, you actually came back. That's funny.\"
+====================
+
+====================
+index 10
+offset 4070
+name Takafumi
+length 103
+====================
+\"Unless your character equips the right weapon, skills that rely on a weapon type will not function.\"
+====================
+\"Unless your character equips the right weapon, skills that rely on a weapon type will not function.\"
+====================
+
+====================
+index 11
+offset 4225
+name Takafumi
+length 136
+====================
+\"However, there are a limited number of weapons you can carry within the weight limit, especially when it comes to two-handed swords.\"
+====================
+\"However, there are a limited number of weapons you can carry within the weight limit, especially when it comes to two-handed swords.\"
+====================
+
+====================
+index 12
+offset 4413
+name Takafumi
+length 166
+====================
+\"At times like that, you should exchange weapons with other characters before each floor so that you can use skills effectively with the least amount of equipment.\"
+====================
+\"At times like that, you should exchange weapons with other characters before each floor so that you can use skills effectively with the least amount of equipment.\"
+====================
+
+====================
+index 13
+offset 4631
+name Takafumi
+length 181
+====================
+\"That's important if you want to beat the game, so you should do it even though it's kind of troublesome. That said, I should have probably made the interface more user-friendly!\"
+====================
+\"That's important if you want to beat the game, so you should do it even though it's kind of troublesome. That said, I should have probably made the interface more user-friendly!\"
+====================
+
+====================
+index 14
+offset 4862
+name Tomoya
+length 24
+====================
+\"Nobody's laughing...\"
+====================
+\"Nobody's laughing...\"
+====================
+
+====================
+index 15
+offset 5059
+name Takafumi
+length 61
+====================
+\"Hey, welcome back. Haha, you're back again. That's funny.\"
+====================
+\"Hey, welcome back. Haha, you're back again. That's funny.\"
+====================
+
+====================
+index 16
+offset 5172
+name Takafumi
+length 86
+====================
+\"Raising a specific stat based on your job's characteristics is part of the basics.\"
+====================
+\"Raising a specific stat based on your job's characteristics is part of the basics.\"
+====================
+
+====================
+index 17
+offset 5310
+name Takafumi
+length 128
+====================
+\"If you obtain a strong weapon, you can then focus on raising defense and other stats accordingly, making it easy to advance.\"
+====================
+\"If you obtain a strong weapon, you can then focus on raising defense and other stats accordingly, making it easy to advance.\"
+====================
+
+====================
+index 18
+offset 5611
+name Takafumi
+length 61
+====================
+\"Hey, welcome back. Haha, you're back again. That's funny.\"
+====================
+\"Hey, welcome back. Haha, you're back again. That's funny.\"
+====================
+
+====================
+index 19
+offset 5724
+name Takafumi
+length 104
+====================
+\"It's pretty effective to equip shields when gathering enemies with techniques such as 'Panty Flash'.\"
+====================
+\"It's pretty effective to equip shields when gathering enemies with techniques such as 'Panty Flash'.\"
+====================
+
+====================
+index 20
+offset 5880
+name Takafumi
+length 95
+====================
+\"Setting your magician to do things like 'Rush' and join in on the attack is also effective.\"
+====================
+\"Setting your magician to do things like 'Rush' and join in on the attack is also effective.\"
+====================
+
+====================
+index 21
+offset 6027
+name Takafumi
+length 71
+====================
+\"DO NOT FORGET to set your last action to 'Run' or 'Search' if you do!
+====================
+\"DO NOT FORGET to set your last action to 'Run' or 'Search' if you do!
+====================
+
+====================
+index 23
+offset 6102
+name NULL
+length 2
+====================
+\"
+====================
+\"
+====================
+
+====================
+index 24
+offset 6277
+name Takafumi
+length 61
+====================
+\"Hey, welcome back. Haha, you're back again. That's funny.\"
+====================
+\"Hey, welcome back. Haha, you're back again. That's funny.\"
+====================
+
+====================
+index 25
+offset 6390
+name Takafumi
+length 81
+====================
+\"When you encounter a large number of enemies, 'Earthquake' is very effective.\"
+====================
+\"When you encounter a large number of enemies, 'Earthquake' is very effective.\"
+====================
+
+====================
+index 26
+offset 6523
+name Takafumi
+length 74
+====================
+\"'Sleep' is also effective, but you need to time it by using 'Standby'.\"
+====================
+\"'Sleep' is also effective, but you need to time it by using 'Standby'.\"
+====================
+
+====================
+index 27
+offset 6647
+name Tomoya
+length 17
+====================
+\"Is that so...\"
+====================
+\"Is that so...\"
+====================
+
+====================
+index 28
+offset 6837
+name Takafumi
+length 92
+====================
+\"Welcome back. Haha, you still haven't passed the 10th floor. Funny. That's unbelievable.\"
+====================
+\"Welcome back. Haha, you still haven't passed the 10th floor. Funny. That's unbelievable.\"
+====================
+
+====================
+index 29
+offset 7142
+name Takafumi
+length 29
+====================
+\"Eh, you're back already?!\"
+====================
+\"Eh, you're back already?!\"
+====================
+
+====================
+index 30
+offset 7223
+name Takafumi
+length 143
+====================
+\"If you set your characters to rush in after using skills such as 'Spear User' and 'Wild Attack', then you may end up hitting more enemies?!\"
+====================
+\"If you set your characters to rush in after using skills such as 'Spear User' and 'Wild Attack', then you may end up hitting more enemies?!\"
+====================
+
+====================
+index 31
+offset 7416
+name Tomoya
+length 47
+====================
+\"Are you telling us that? Or are you asking?\"
+====================
+\"Are you telling us that? Or are you asking?\"
+====================
+
+====================
+index 32
+offset 7636
+name Takafumi
+length 29
+====================
+\"Eh, you're back already!?\"
+====================
+\"Eh, you're back already!?\"
+====================
+
+====================
+index 33
+offset 7717
+name Takafumi
+length 139
+====================
+\"If you use an Area of Effect-based weapon in conjunction with a skill that increases your Attack, it should be effective or something!?\"
+====================
+\"If you use an Area of Effect-based weapon in conjunction with a skill that increases your Attack, it should be effective or something!?\"
+====================
+
+====================
+index 34
+offset 7906
+name Tomoya
+length 47
+====================
+\"Are you telling us that? Or are you asking?\"
+====================
+\"Are you telling us that? Or are you asking?\"
+====================
+
+====================
+index 35
+offset 8126
+name Takafumi
+length 29
+====================
+\"Eh, you're back already?!\"
+====================
+\"Eh, you're back already?!\"
+====================
+
+====================
+index 36
+offset 8207
+name Takafumi
+length 77
+====================
+\"You understand the differences between active and passive skills, right?!\"
+====================
+\"You understand the differences between active and passive skills, right?!\"
+====================
+
+====================
+index 37
+offset 8336
+name Takafumi
+length 115
+====================
+\"If you do, don't you think it would be more efficient in longer battles if you activate passive skills first...\"
+====================
+\"If you do, don't you think it would be more efficient in longer battles if you activate passive skills first...\"
+====================
+
+====================
+index 38
+offset 8503
+name Takafumi
+length 45
+====================
+\"...and then use active skills afterwards?\"
+====================
+\"...and then use active skills afterwards?\"
+====================
+
+====================
+index 39
+offset 8598
+name Tomoya
+length 31
+====================
+\"You really are asking me...\"
+====================
+\"You really are asking me...\"
+====================
+
+====================
+index 40
+offset 8802
+name Takafumi
+length 10
+====================
+\"Wow...\"
+====================
+\"Wow...\"
+====================
+
+====================
+index 41
+offset 8864
+name Takafumi
+length 13
+====================
+\".........\"
+====================
+\".........\"
+====================
+
+====================
+index 42
+offset 8927
+name Tomoya
+length 33
+====================
+\"What are you surprised about?\"
+====================
+\"What are you surprised about?\"
+====================
+
+====================
+index 43
+offset 9173
+name Takafumi
+length 25
+====================
+\"Ugh, this is awful...\"
+====================
+\"Ugh, this is awful...\"
+====================
+
+====================
+index 44
+offset 9250
+name Takafumi
+length 106
+====================
+\"If you dual-wield weapons, the weapon you hold in your left hand will only deal half as much damage...\"
+====================
+\"If you dual-wield weapons, the weapon you hold in your left hand will only deal half as much damage...\"
+====================
+
+====================
+index 45
+offset 9408
+name Takafumi
+length 111
+====================
+\"So you should equip your stronger weapons to your right hand. This guy might snap if I tell him this now...\"
+====================
+\"So you should equip your stronger weapons to your right hand. This guy might snap if I tell him this now...\"
+====================
+
+====================
+index 46
+offset 9569
+name Tomoya
+length 19
+====================
+\"I heard that...\"
+====================
+\"I heard that...\"
+====================
+
+====================
+index 47
+offset 9761
+name Takafumi
+length 25
+====================
+\"Ugh, this is awful...\"
+====================
+\"Ugh, this is awful...\"
+====================
+
+====================
+index 48
+offset 9838
+name Takafumi
+length 110
+====================
+\"You can change your job in the status screen on the ground level. I wonder if this guy knows about that...\"
+====================
+\"You can change your job in the status screen on the ground level. I wonder if this guy knows about that...\"
+====================
+
+====================
+index 49
+offset 10000
+name Takafumi
+length 77
+====================
+\"If you meet a job's stat requirements, your level should be irrelevant...\"
+====================
+\"If you meet a job's stat requirements, your level should be irrelevant...\"
+====================
+
+====================
+index 50
+offset 10129
+name Takafumi
+length 88
+====================
+\"You can also revert to a lower-level job, or quickly switch to a higher-level job...\"
+====================
+\"You can also revert to a lower-level job, or quickly switch to a higher-level job...\"
+====================
+
+====================
+index 51
+offset 10269
+name Takafumi
+length 44
+====================
+\"You don't know, do you... How pitiful...\"
+====================
+\"You don't know, do you... How pitiful...\"
+====================
+
+====================
+index 52
+offset 10363
+name Tomoya
+length 23
+====================
+\"I heard all that...\"
+====================
+\"I heard all that...\"
+====================
+
+====================
+index 53
+offset 10559
+name Takafumi
+length 44
+====================
+\"Ugh, you came back again... This is bad.\"
+====================
+\"Ugh, you came back again... This is bad.\"
+====================
+
+====================
+index 54
+offset 10653
+name Tomoya
+length 18
+====================
+\"What is it...?\"
+====================
+\"What is it...?\"
+====================
+
+====================
+index 55
+offset 10723
+name Takafumi
+length 125
+====================
+\"It would be a convenient strategy to place your archers such that the enemies are just in range at the start of combat...\"
+====================
+\"It would be a convenient strategy to place your archers such that the enemies are just in range at the start of combat...\"
+====================
+
+====================
+index 56
+offset 10900
+name Takafumi
+length 77
+====================
+\"And have them defeat the enemy before they get closer by using 'Standby'.\"
+====================
+\"And have them defeat the enemy before they get closer by using 'Standby'.\"
+====================
+
+====================
+index 57
+offset 11029
+name Takafumi
+length 63
+====================
+\"You can still attack the enemy even when you use 'Standby'.\"
+====================
+\"You can still attack the enemy even when you use 'Standby'.\"
+====================
+
+====================
+index 58
+offset 11144
+name Takafumi
+length 29
+====================
+\"So let me off the hook...\"
+====================
+\"So let me off the hook...\"
+====================
+
+====================
+index 59
+offset 11223
+name Tomoya
+length 18
+====================
+\"Off what hook?\"
+====================
+\"Off what hook?\"
+====================
+
+====================
+index 60
+offset 11414
+name Takafumi
+length 36
+====================
+\"Ugh, this is definitely awful...\"
+====================
+\"Ugh, this is definitely awful...\"
+====================
+
+====================
+index 61
+offset 11500
+name Tomoya
+length 17
+====================
+\"What is it...\"
+====================
+\"What is it...\"
+====================
+
+====================
+index 62
+offset 11569
+name Takafumi
+length 132
+====================
+\"When your party members are split 2:1, it's a good idea to let the lone character use skills like 'Counterattack' and 'Parry'...\"
+====================
+\"When your party members are split 2:1, it's a good idea to let the lone character use skills like 'Counterattack' and 'Parry'...\"
+====================
+
+====================
+index 63
+offset 11753
+name Takafumi
+length 101
+====================
+\"And let him equip the better armor. It'll also be very helpful if you let him or her equip a bow.\"
+====================
+\"And let him equip the better armor. It'll also be very helpful if you let him or her equip a bow.\"
+====================
+
+====================
+index 64
+offset 11906
+name Takafumi
+length 27
+====================
+\"Just give me a break...\"
+====================
+\"Just give me a break...\"
+====================
+
+====================
+index 65
+offset 11983
+name Tomoya
+length 14
+====================
+\"From what?\"
+====================
+\"From what?\"
+====================
+
+====================
+index 66
+offset 12170
+name Takafumi
+length 49
+====================
+\"This is bad... I might have been found out...\"
+====================
+\"This is bad... I might have been found out...\"
+====================
+
+====================
+index 67
+offset 12269
+name Tomoya
+length 24
+====================
+\"What are you hiding?\"
+====================
+\"What are you hiding?\"
+====================
+
+====================
+index 68
+offset 12506
+name Takafumi
+length 19
+====================
+\"Ah! Here he is!\"
+====================
+\"Ah! Here he is!\"
+====================
+
+====================
+index 69
+offset 12575
+name Tomoya
+length 30
+====================
+\"Don't talk like the enemy.\"
+====================
+\"Don't talk like the enemy.\"
+====================
+
+====================
+index 70
+offset 12657
+name Takafumi
+length 74
+====================
+\"Using a personal Area of Effect skill by itself is not very effective.\"
+====================
+\"Using a personal Area of Effect skill by itself is not very effective.\"
+====================
+
+====================
+index 71
+offset 12783
+name Takafumi
+length 104
+====================
+\"Activate various skills and show off your true strength for the first time. Use them and boooooooom!\"
+====================
+\"Activate various skills and show off your true strength for the first time. Use them and boooooooom!\"
+====================
+
+====================
+index 72
+offset 12937
+name Tomoya
+length 47
+====================
+\"I have no idea what you're trying to say...\"
+====================
+\"I have no idea what you're trying to say...\"
+====================
+
+====================
+index 73
+offset 13157
+name Takafumi
+length 24
+====================
+\"Here he comes again!\"
+====================
+\"Here he comes again!\"
+====================
+
+====================
+index 74
+offset 13231
+name Tomoya
+length 30
+====================
+\"Don't talk like the enemy.\"
+====================
+\"Don't talk like the enemy.\"
+====================
+
+====================
+index 75
+offset 13313
+name Takafumi
+length 54
+====================
+\"First, raise your attack power with your skills...\"
+====================
+\"First, raise your attack power with your skills...\"
+====================
+
+====================
+index 76
+offset 13419
+name Takafumi
+length 130
+====================
+\"Then by going from 'Rush' to 'Standby', you will attract the enemy into your attack range, then cast an AoE skill and booooom!\"
+====================
+\"Then by going from 'Rush' to 'Standby', you will attract the enemy into your attack range, then cast an AoE skill and booooom!\"
+====================
+
+====================
+index 77
+offset 13599
+name Tomoya
+length 55
+====================
+\"I have no idea what you're trying to say anymore...\"
+====================
+\"I have no idea what you're trying to say anymore...\"
+====================
+
+====================
+index 78
+offset 13827
+name Takafumi
+length 21
+====================
+\"Here he is again!\"
+====================
+\"Here he is again!\"
+====================
+
+====================
+index 79
+offset 13900
+name Takafumi
+length 66
+====================
+\"If you happen to take damage and can't recover with potions...\"
+====================
+\"If you happen to take damage and can't recover with potions...\"
+====================
+
+====================
+index 80
+offset 14018
+name Takafumi
+length 146
+====================
+\"Have your character equip the best armor in the party, and with all the damage concentrated on him, which he will unexpectedly endure, boooom!\"
+====================
+\"Have your character equip the best armor in the party, and with all the damage concentrated on him, which he will unexpectedly endure, boooom!\"
+====================
+
+====================
+index 81
+offset 14214
+name Tomoya
+length 47
+====================
+\"I have no idea what you're trying to say...\"
+====================
+\"I have no idea what you're trying to say...\"
+====================
+
+====================
+index 82
+offset 14434
+name Takafumi
+length 22
+====================
+\"He lost at Uehara!\"
+====================
+\"He lost at Uehara!\"
+====================
+
+====================
+index 83
+offset 14506
+name Tomoya
+length 47
+====================
+\"What are you carelessly looking around for?\"
+====================
+\"What are you carelessly looking around for?\"
+====================
+
+====================
+index 84
+offset 14767
+name Takafumi
+length 17
+====================
+\"Welcome back.\"
+====================
+\"Welcome back.\"
+====================
+
+====================
+index 85
+offset 14834
+name Tomoya
+length 30
+====================
+\"Aaah, what's up with him!?\"
+====================
+\"Aaah, what's up with him!?\"
+====================
+
+====================
+index 86
+offset 15007
+name Takafumi
+length 96
+====================
+\"You're quite lucky now, aren't you?! This is lucky Takafumi! I haven't even seen him before.\"
+====================
+\"You're quite lucky now, aren't you?! This is lucky Takafumi! I haven't even seen him before.\"
+====================
+
+====================
+index 87
+offset 15247
+name Takafumi
+length 108
+====================
+\"The very survival of mankind rests on the outcome of this special mission, so I came here for good luck.\"
+====================
+\"The very survival of mankind rests on the outcome of this special mission, so I came here for good luck.\"
+====================
+
+====================
+index 88
+offset 15407
+name Takafumi
+length 37
+====================
+\"Congratulations on having met me.\"
+====================
+\"Congratulations on having met me.\"
+====================
+
+====================
+index 89
+offset 15494
+name Tomoya
+length 65
+====================
+\"I have a feeling my luck will be pointlessly wasted by you...\"
+====================
+\"I have a feeling my luck will be pointlessly wasted by you...\"
+====================
+
+====================
+index 90
+offset 15611
+name Takafumi
+length 92
+====================
+\"When you cast skills that directly affect the enemy, only the last one will take effect.\"
+====================
+\"When you cast skills that directly affect the enemy, only the last one will take effect.\"
+====================
+
+====================
+index 91
+offset 15755
+name Takafumi
+length 117
+====================
+\"For example, if you invoke 'Panty Flash' immediately following a game of 'Tag', the enemy will go towards Tomoyo.\"
+====================
+\"For example, if you invoke 'Panty Flash' immediately following a game of 'Tag', the enemy will go towards Tomoyo.\"
+====================
+
+====================
+index 92
+offset 15924
+name Takafumi
+length 93
+====================
+\"This rule also works on any skills that drive enemies away, such as 'Kiss of Friendship'.\"
+====================
+\"This rule also works on any skills that drive enemies away, such as 'Kiss of Friendship'.\"
+====================
+
+====================
+index 93
+offset 16069
+name Takafumi
+length 90
+====================
+\"If you use 'Tag' and then 'Kiss of Friendship', the effect of 'Tag' will be nullified.\"
+====================
+\"If you use 'Tag' and then 'Kiss of Friendship', the effect of 'Tag' will be nullified.\"
+====================
+
+====================
+index 94
+offset 16211
+name Takafumi
+length 128
+====================
+\"You can't use skills to create a situation where you pull the enemies in without getting attacked, so use them with caution.\"
+====================
+\"You can't use skills to create a situation where you pull the enemies in without getting attacked, so use them with caution.\"
+====================
+
+====================
+index 95
+offset 16391
+name Takafumi
+length 22
+====================
+\"Look at me, Lucky.\"
+====================
+\"Look at me, Lucky.\"
+====================
+
+====================
+index 96
+offset 16463
+name Tomoya
+length 37
+====================
+\"Don't just talk about yourself...\"
+====================
+\"Don't just talk about yourself...\"
+====================
+
+====================
+index 97
+offset 16728
+name Takafumi
+length 25
+====================
+\"Lucky! It's me again.\"
+====================
+\"Lucky! It's me again.\"
+====================
+
+====================
+index 98
+offset 16803
+name Tomoya
+length 50
+====================
+\"It feels as if my luck is being sucked away...\"
+====================
+\"It feels as if my luck is being sucked away...\"
+====================
+
+====================
+index 99
+offset 16920
+name Takafumi
+length 93
+====================
+\"You do know that the 'DAY' at the lower right displays the number of days elapsed, right?\"
+====================
+\"You do know that the 'DAY' at the lower right displays the number of days elapsed, right?\"
+====================
+
+====================
+index 100
+offset 17074
+name Takafumi
+length 124
+====================
+\"The fewer days it takes you to finish, the more difficult it will be. However, your final score will be higher, as well.\"
+====================
+\"The fewer days it takes you to finish, the more difficult it will be. However, your final score will be higher, as well.\"
+====================
+
+====================
+index 101
+offset 17250
+name Takafumi
+length 123
+====================
+\"If you want to go through the game quickly, you can play as a knight because of how powerful its 'Spear User' skill is.\"
+====================
+\"If you want to go through the game quickly, you can play as a knight because of how powerful its 'Spear User' skill is.\"
+====================
+
+====================
+index 102
+offset 17425
+name Takafumi
+length 143
+====================
+\"Nevertheless, since the higher-ranking jobs' final skills are not only strong, but also look kinda cool, you should consider changing jobs.\"
+====================
+\"Nevertheless, since the higher-ranking jobs' final skills are not only strong, but also look kinda cool, you should consider changing jobs.\"
+====================
+
+====================
+index 103
+offset 17620
+name Takafumi
+length 22
+====================
+\"Look at me, Lucky.\"
+====================
+\"Look at me, Lucky.\"
+====================
+
+====================
+index 104
+offset 17692
+name Tomoya
+length 37
+====================
+\"Don't just talk about yourself...\"
+====================
+\"Don't just talk about yourself...\"
+====================
+
+====================
+index 105
+offset 17903
+name Takafumi
+length 25
+====================
+\"Lucky! It's me again.\"
+====================
+\"Lucky! It's me again.\"
+====================
+
+====================
+index 106
+offset 17980
+name Takafumi
+length 184
+====================
+\"It's quite risky to change to a higher-level job, as they don't have a lot of skills. Just to be safe, you should retreat repeatedly and raise your level before you go any further.\"
+====================
+\"It's quite risky to change to a higher-level job, as they don't have a lot of skills. Just to be safe, you should retreat repeatedly and raise your level before you go any further.\"
+====================
+
+====================
+index 107
+offset 18216
+name Takafumi
+length 22
+====================
+\"Look at me, Lucky.\"
+====================
+\"Look at me, Lucky.\"
+====================
+
+====================
+index 108
+offset 18288
+name Tomoya
+length 16
+====================
+\"Ah, Lucky...\"
+====================
+\"Ah, Lucky...\"
+====================
+
+====================
+index 109
+offset 18478
+name Takafumi
+length 25
+====================
+\"Lucky! It's me again.\"
+====================
+\"Lucky! It's me again.\"
+====================
+
+====================
+index 110
+offset 18553
+name Tomoya
+length 50
+====================
+\"It feels as if my luck is being sucked away...\"
+====================
+\"It feels as if my luck is being sucked away...\"
+====================
+
+====================
+index 111
+offset 18816
+name Takafumi
+length 19
+====================
+\"Welcome back...\"
+====================
+\"Welcome back...\"
+====================
+
+====================
+index 112
+offset 18885
+name Tomoya
+length 48
+====================
+\"Oh, this brings back memories. It's No. 068.\"
+====================
+\"Oh, this brings back memories. It's No. 068.\"
+====================
+
+====================
+index 113
+offset 19068
+name Kanako
+length 57
+====================
+\"This isn't lucky Takafumi... something seems ominous.\"
+====================
+\"This isn't lucky Takafumi... something seems ominous.\"
+====================
+
+====================
+index 114
+offset 19234
+name Kanako
+length 31
+====================
+\"...something seems ominous.\"
+====================
+\"...something seems ominous.\"
+====================
+
+====================
+index 115
+offset 19370
+name Takafumi
+length 47
+====================
+\"What? It's as if I'm a pest or something...\"
+====================
+\"What? It's as if I'm a pest or something...\"
+====================
+
+====================
+index 116
+offset 19590
+name Takafumi
+length 19
+====================
+\"Welcome back...\"
+====================
+\"Welcome back...\"
+====================
+
+====================
+index 117
+offset 19784
+name Takafumi
+length 19
+====================
+\"Welcome back...\"
+====================
+\"Welcome back...\"
+====================
+
+====================
+index 118
+offset 19975
+name Takafumi
+length 19
+====================
+\"Welcome back...\"
+====================
+\"Welcome back...\"
+====================
+
+====================
+index 119
+offset 20166
+name Takafumi
+length 19
+====================
+\"Welcome back...\"
+====================
+\"Welcome back...\"
+====================

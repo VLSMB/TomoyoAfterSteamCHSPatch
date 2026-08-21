@@ -1,0 +1,255 @@
+type seen808
+count 23
+
+====================
+index 1
+offset 263
+name NULL
+length 16
+====================
+August 8th (Sun)
+====================
+August 8th (Sun)
+====================
+
+====================
+index 2
+offset 715
+name NULL
+length 67
+====================
+I went to the library and checked out more books the following day.
+====================
+I went to the library and checked out more books the following day.
+====================
+
+====================
+index 3
+offset 798
+name NULL
+length 82
+====================
+With the librarian's help, I found several books that contained a lot of pictures.
+====================
+With the librarian's help, I found several books that contained a lot of pictures.
+====================
+
+====================
+index 4
+offset 1203
+name Kanako
+length 21
+====================
+\"Working hard, eh?\"
+====================
+\"Working hard, eh?\"
+====================
+
+====================
+index 5
+offset 1240
+name NULL
+length 79
+====================
+With an ice cream bar hanging out of her mouth, Kanako quickly flips the pages.
+====================
+With an ice cream bar hanging out of her mouth, Kanako quickly flips the pages.
+====================
+
+====================
+index 6
+offset 1369
+name Tomoya
+length 32
+====================
+\"What? Are you going to help?\"
+====================
+\"What? Are you going to help?\"
+====================
+
+====================
+index 7
+offset 1724
+name Kanako
+length 114
+====================
+\"How about this one? Does it look the same? It's correct, no? Hell, it has to be correct. I said it, after all.\"
+====================
+\"How about this one? Does it look the same? It's correct, no? Hell, it has to be correct. I said it, after all.\"
+====================
+
+====================
+index 8
+offset 1854
+name NULL
+length 46
+====================
+Kanako points at a page from one of the books.
+====================
+Kanako points at a page from one of the books.
+====================
+
+====================
+index 9
+offset 2220
+name Tomoya
+length 73
+====================
+\"No. I'd say that's Chinese calligraphy. Likely from the Qing Dynasty.\"
+====================
+\"No. I'd say that's Chinese calligraphy. Likely from the Qing Dynasty.\"
+====================
+
+====================
+index 10
+offset 2309
+name NULL
+length 49
+====================
+I hate to admit, but I recognize it on sight now.
+====================
+I hate to admit, but I recognize it on sight now.
+====================
+
+====================
+index 11
+offset 2680
+name Kanako
+length 51
+====================
+\"What's with you? You sounded like you're smart.\"
+====================
+\"What's with you? You sounded like you're smart.\"
+====================
+
+====================
+index 12
+offset 2781
+name Tomoya
+length 52
+====================
+\"Well, I've been researching this the whole time.\"
+====================
+\"Well, I've been researching this the whole time.\"
+====================
+
+====================
+index 13
+offset 3727
+name Tomoya
+length 20
+====================
+\"...it's no good.\"
+====================
+\"...it's no good.\"
+====================
+
+====================
+index 14
+offset 3763
+name NULL
+length 35
+====================
+I throw the book away and lie down.
+====================
+I throw the book away and lie down.
+====================
+
+====================
+index 15
+offset 3814
+name NULL
+length 99
+====================
+I found that there are several styles that look similar, but haven't made any progress beyond that.
+====================
+I found that there are several styles that look similar, but haven't made any progress beyond that.
+====================
+
+====================
+index 16
+offset 3929
+name NULL
+length 38
+====================
+I wonder if there are any other clues.
+====================
+I wonder if there are any other clues.
+====================
+
+====================
+index 17
+offset 4289
+name Kanako
+length 49
+====================
+\"There's no point thinking about it all alone.\"
+====================
+\"There's no point thinking about it all alone.\"
+====================
+
+====================
+index 18
+offset 4661
+name Kanako
+length 36
+====================
+\"How about you try talking to me?\"
+====================
+\"How about you try talking to me?\"
+====================
+
+====================
+index 19
+offset 4747
+name Tomoya
+length 35
+====================
+\"That'd just be a waste of time.\"
+====================
+\"That'd just be a waste of time.\"
+====================
+
+====================
+index 20
+offset 5105
+name Kanako
+length 55
+====================
+\"Oh, come on! And I was trying to help you out here!\"
+====================
+\"Oh, come on! And I was trying to help you out here!\"
+====================
+
+====================
+index 21
+offset 5210
+name Tomoya
+length 73
+====================
+\"Yeah, yeah. Okay. I appreciate the sentiment. And only the sentiment.\"
+====================
+\"Yeah, yeah. Okay. I appreciate the sentiment. And only the sentiment.\"
+====================
+
+====================
+index 22
+offset 5569
+name NULL
+length 68
+====================
+I sit back up, and just when I am about to flip open a book, I stop.
+====================
+I sit back up, and just when I am about to flip open a book, I stop.
+====================
+
+====================
+index 23
+offset 5687
+name Tomoya
+length 70
+====================
+\"...that's right. There's nothing stopping me from asking for help.\"
+====================
+\"...that's right. There's nothing stopping me from asking for help.\"
+====================

@@ -1,0 +1,178 @@
+type seen5010
+count 16
+
+====================
+index 1
+offset 466
+name NULL
+length 18
+====================
+Several days later
+====================
+Several days later
+====================
+
+====================
+index 2
+offset 919
+name NULL
+length 19
+====================
+Several days later.
+====================
+Several days later.
+====================
+
+====================
+index 3
+offset 1261
+name Kanako
+length 46
+====================
+\"All right! Now, let's head to the dungeon!\"
+====================
+\"All right! Now, let's head to the dungeon!\"
+====================
+
+====================
+index 4
+offset 1323
+name NULL
+length 50
+====================
+Kanako gathers everyone around and says excitedly.
+====================
+Kanako gathers everyone around and says excitedly.
+====================
+
+====================
+index 5
+offset 1423
+name Tomoya
+length 39
+====================
+\"Oh, that's awesome. Is it finished?\"
+====================
+\"Oh, that's awesome. Is it finished?\"
+====================
+
+====================
+index 6
+offset 1786
+name Takafumi
+length 14
+====================
+\"Kind of...\"
+====================
+\"Kind of...\"
+====================
+
+====================
+index 7
+offset 1816
+name NULL
+length 43
+====================
+Takafumi leans against the wall, exhausted.
+====================
+Takafumi leans against the wall, exhausted.
+====================
+
+====================
+index 8
+offset 1875
+name NULL
+length 57
+====================
+He evidently hasn't had enough sleep these last few days.
+====================
+He evidently hasn't had enough sleep these last few days.
+====================
+
+====================
+index 9
+offset 2255
+name Kanako
+length 79
+====================
+\"Look, I turned all five of us into characters, so that we can all have fun!\"
+====================
+\"Look, I turned all five of us into characters, so that we can all have fun!\"
+====================
+
+====================
+index 10
+offset 2350
+name NULL
+length 44
+====================
+...she makes inside jokes however she wants!
+====================
+...she makes inside jokes however she wants!
+====================
+
+====================
+index 11
+offset 2410
+name NULL
+length 57
+====================
+She probably ignored Takafumi's opinions the entire time.
+====================
+She probably ignored Takafumi's opinions the entire time.
+====================
+
+====================
+index 12
+offset 2517
+name Kanako
+length 41
+====================
+\"That's why you're fighting too, Tomo.\"
+====================
+\"That's why you're fighting too, Tomo.\"
+====================
+
+====================
+index 13
+offset 2878
+name Tomo
+length 30
+====================
+\"Eh, I can fight too? Cool!\"
+====================
+\"Eh, I can fight too? Cool!\"
+====================
+
+====================
+index 14
+offset 3231
+name Kanako
+length 111
+====================
+\"Presented to you by Kanako, game designer and writer; Takafumi, programmer; and other people from overseas!\"
+====================
+\"Presented to you by Kanako, game designer and writer; Takafumi, programmer; and other people from overseas!\"
+====================
+
+====================
+index 15
+offset 3665
+name Kanako
+length 32
+====================
+\"Dungeons & Takafumis, start!\"
+====================
+\"Dungeons & Takafumis, start!\"
+====================
+
+====================
+index 16
+offset 3713
+name NULL
+length 43
+====================
+Kanako commands Takafumi to start the game.
+====================
+Kanako commands Takafumi to start the game.
+====================

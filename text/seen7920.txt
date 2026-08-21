@@ -1,0 +1,750 @@
+type seen7920
+count 68
+
+====================
+index 1
+offset 1862
+name Takafumi
+length 49
+====================
+\"This is the battlefield, an underground maze.\"
+====================
+\"This is the battlefield, an underground maze.\"
+====================
+
+====================
+index 2
+offset 1963
+name Takafumi
+length 66
+====================
+\"What's the matter? Are you shaking? Are you terrified by this?\"
+====================
+\"What's the matter? Are you shaking? Are you terrified by this?\"
+====================
+
+====================
+index 3
+offset 2079
+name Tomoya
+length 50
+====================
+\"Nobody's scared, so just hurry up and explain.\"
+====================
+\"Nobody's scared, so just hurry up and explain.\"
+====================
+
+====================
+index 4
+offset 2181
+name Takafumi
+length 151
+====================
+\"The battle takes place in this dark, underground arena. Once the battle heats up, you won't be able to relay commands to your characters very well.\"
+====================
+\"The battle takes place in this dark, underground arena. Once the battle heats up, you won't be able to relay commands to your characters very well.\"
+====================
+
+====================
+index 5
+offset 2384
+name Takafumi
+length 92
+====================
+\"Because of this, you must decide their actions before you start each floor in this game.\"
+====================
+\"Because of this, you must decide their actions before you start each floor in this game.\"
+====================
+
+====================
+index 6
+offset 2528
+name Takafumi
+length 77
+====================
+\"Once the battle starts, you can't do anything about combat on that floor.\"
+====================
+\"Once the battle starts, you can't do anything about combat on that floor.\"
+====================
+
+====================
+index 7
+offset 2657
+name Takafumi
+length 71
+====================
+\"You can only watch your characters enacting the plans you laid out.\"
+====================
+\"You can only watch your characters enacting the plans you laid out.\"
+====================
+
+====================
+index 8
+offset 2780
+name Takafumi
+length 80
+====================
+\"Unfortunately, they're not that bright, so you can only set simple commands.\"
+====================
+\"Unfortunately, they're not that bright, so you can only set simple commands.\"
+====================
+
+====================
+index 9
+offset 2912
+name Takafumi
+length 62
+====================
+\"You can't even choose which enemies you want to challenge.\"
+====================
+\"You can't even choose which enemies you want to challenge.\"
+====================
+
+====================
+index 10
+offset 3026
+name Takafumi
+length 142
+====================
+\"The creator, Takafumi, would like me to emphasize that this is definitely not because he was lazy, but instead is how it's supposed to be.\"
+====================
+\"The creator, Takafumi, would like me to emphasize that this is definitely not because he was lazy, but instead is how it's supposed to be.\"
+====================
+
+====================
+index 11
+offset 3218
+name Tomoya
+length 30
+====================
+\"Enough with the charade...\"
+====================
+\"Enough with the charade...\"
+====================
+
+====================
+index 12
+offset 3300
+name Takafumi
+length 160
+====================
+\"However, since you have less control, if the skills you set beforehand come in handy and lead to your victory, you'll feel a greater amount of satisfaction.\"
+====================
+\"However, since you have less control, if the skills you set beforehand come in handy and lead to your victory, you'll feel a greater amount of satisfaction.\"
+====================
+
+====================
+index 13
+offset 3512
+name Takafumi
+length 53
+====================
+\"This will also lead to unexpected drama at times.\"
+====================
+\"This will also lead to unexpected drama at times.\"
+====================
+
+====================
+index 14
+offset 3617
+name Takafumi
+length 59
+====================
+\"That's something you can expect... and look forward to.\"
+====================
+\"That's something you can expect... and look forward to.\"
+====================
+
+====================
+index 15
+offset 3726
+name Tomoya
+length 50
+====================
+\"You're being quite forceful with your users...\"
+====================
+\"You're being quite forceful with your users...\"
+====================
+
+====================
+index 16
+offset 3843
+name Takafumi
+length 67
+====================
+\"Now, let's move onto an overview for you beginners. Click on the 
+====================
+\"Now, let's move onto an overview for you beginners. Click on the 
+====================
+
+====================
+index 17
+offset 3912
+name NULL
+length 5
+====================
+Help 
+====================
+Help 
+====================
+
+====================
+index 18
+offset 3919
+name NULL
+length 53
+====================
+button and read the online manual for more details.\"
+====================
+button and read the online manual for more details.\"
+====================
+
+====================
+index 19
+offset 4030
+name Takafumi
+length 50
+====================
+\"First off, the positioning of your characters.\"
+====================
+\"First off, the positioning of your characters.\"
+====================
+
+====================
+index 20
+offset 4147
+name Takafumi
+length 83
+====================
+\"If you click on an enemy on the screen, you can see his movement range in blue.\"
+====================
+\"If you click on an enemy on the screen, you can see his movement range in blue.\"
+====================
+
+====================
+index 21
+offset 4288
+name Takafumi
+length 117
+====================
+\"The bar on the top right, where there are a bunch of characters lined up, shows the characters' order of actions.\"
+====================
+\"The bar on the top right, where there are a bunch of characters lined up, shows the characters' order of actions.\"
+====================
+
+====================
+index 22
+offset 4457
+name Takafumi
+length 109
+====================
+\"You should try to position your characters to attack your enemies preemptively based on this information.\"
+====================
+\"You should try to position your characters to attack your enemies preemptively based on this information.\"
+====================
+
+====================
+index 23
+offset 4618
+name Takafumi
+length 80
+====================
+\"Using 'Standby' on your turn is useful for drawing your enemies towards you.\"
+====================
+\"Using 'Standby' on your turn is useful for drawing your enemies towards you.\"
+====================
+
+====================
+index 24
+offset 4750
+name Takafumi
+length 111
+====================
+\"When it comes to skills... everybody knows one, but you should be able to win without using them this time.\"
+====================
+\"When it comes to skills... everybody knows one, but you should be able to win without using them this time.\"
+====================
+
+====================
+index 25
+offset 4913
+name Takafumi
+length 23
+====================
+\"You should leave the 
+====================
+\"You should leave the 
+====================
+
+====================
+index 26
+offset 4938
+name NULL
+length 4
+====================
+LAST
+====================
+LAST
+====================
+
+====================
+index 28
+offset 4947
+name NULL
+length 7
+====================
+ACTION 
+====================
+ACTION 
+====================
+
+====================
+index 29
+offset 4956
+name NULL
+length 26
+====================
+as the default 'Attack'.\"
+====================
+as the default 'Attack'.\"
+====================
+
+====================
+index 30
+offset 5034
+name Takafumi
+length 114
+====================
+\"As for equipment and items, since you don't have anything yet, don't worry about it and choose 'Start battle'.\"
+====================
+\"As for equipment and items, since you don't have anything yet, don't worry about it and choose 'Start battle'.\"
+====================
+
+====================
+index 31
+offset 5203
+name Takafumi
+length 89
+====================
+\"Even if your characters die, they will be resurrected with 1 health after the battle.\"
+====================
+\"Even if your characters die, they will be resurrected with 1 health after the battle.\"
+====================
+
+====================
+index 32
+offset 5344
+name Takafumi
+length 149
+====================
+\"There aren't any penalties, but you won't earn any experience points either. Don't let one of your characters' level fall behind because of this.\"
+====================
+\"There aren't any penalties, but you won't earn any experience points either. Don't let one of your characters' level fall behind because of this.\"
+====================
+
+====================
+index 33
+offset 5545
+name Takafumi
+length 37
+====================
+\"And that's all for this tutorial.\"
+====================
+\"And that's all for this tutorial.\"
+====================
+
+====================
+index 34
+offset 5634
+name Takafumi
+length 81
+====================
+\"Now, go forth, brave souls, and fulfill the destiny given to you by Takafumi!\"
+====================
+\"Now, go forth, brave souls, and fulfill the destiny given to you by Takafumi!\"
+====================
+
+====================
+index 35
+offset 5887
+name Takafumi
+length 11
+====================
+\"Vnnnng.\"
+====================
+\"Vnnnng.\"
+====================
+
+====================
+index 36
+offset 5950
+name Takafumi
+length 12
+====================
+\"Hold on.\"
+====================
+\"Hold on.\"
+====================
+
+====================
+index 37
+offset 6012
+name Tomoya
+length 52
+====================
+\"This guy just made a sound effect for himself...\"
+====================
+\"This guy just made a sound effect for himself...\"
+====================
+
+====================
+index 38
+offset 6116
+name Takafumi
+length 56
+====================
+\"They have a Golem waiting for you every five floors.\"
+====================
+\"They have a Golem waiting for you every five floors.\"
+====================
+
+====================
+index 39
+offset 6224
+name Takafumi
+length 44
+====================
+\"They're there to slay invaders like you.\"
+====================
+\"They're there to slay invaders like you.\"
+====================
+
+====================
+index 40
+offset 6320
+name Takafumi
+length 98
+====================
+\"Of course, they were also made with almond tofu pudding, but don't look down on them for that.\"
+====================
+\"Of course, they were also made with almond tofu pudding, but don't look down on them for that.\"
+====================
+
+====================
+index 41
+offset 6470
+name Takafumi
+length 102
+====================
+\"They're actually bosses. No, to be exact, mid-bosses. Oh, I let out the existence of a final boss!\"
+====================
+\"They're actually bosses. No, to be exact, mid-bosses. Oh, I let out the existence of a final boss!\"
+====================
+
+====================
+index 42
+offset 6622
+name Tomoya
+length 17
+====================
+\"I don't care.\"
+====================
+\"I don't care.\"
+====================
+
+====================
+index 43
+offset 6691
+name Takafumi
+length 73
+====================
+\"Anyway, they're hard to deal with. Don't hesitate to use your skills.\"
+====================
+\"Anyway, they're hard to deal with. Don't hesitate to use your skills.\"
+====================
+
+====================
+index 44
+offset 6816
+name Takafumi
+length 81
+====================
+\"Now, go forth, brave souls, and fulfill the destiny given to you by Takafumi!\"
+====================
+\"Now, go forth, brave souls, and fulfill the destiny given to you by Takafumi!\"
+====================
+
+====================
+index 45
+offset 7069
+name Takafumi
+length 39
+====================
+\"Hold on! What's that thing in red?!\"
+====================
+\"Hold on! What's that thing in red?!\"
+====================
+
+====================
+index 46
+offset 7158
+name Tomoya
+length 37
+====================
+\"How about you explain that to me?\"
+====================
+\"How about you explain that to me?\"
+====================
+
+====================
+index 47
+offset 7247
+name Takafumi
+length 27
+====================
+\"Yeah, I guess I should.\"
+====================
+\"Yeah, I guess I should.\"
+====================
+
+====================
+index 48
+offset 7326
+name Takafumi
+length 21
+====================
+\"Whoa, it's red...\"
+====================
+\"Whoa, it's red...\"
+====================
+
+====================
+index 49
+offset 7399
+name Takafumi
+length 13
+====================
+\".........\"
+====================
+\".........\"
+====================
+
+====================
+index 50
+offset 7462
+name Tomoya
+length 55
+====================
+\"Stop looking at it and get on with the explanation.\"
+====================
+\"Stop looking at it and get on with the explanation.\"
+====================
+
+====================
+index 51
+offset 7569
+name Takafumi
+length 68
+====================
+\"Yeah, sorry. That's a red beastman. Its attacks aren't half bad!\"
+====================
+\"Yeah, sorry. That's a red beastman. Its attacks aren't half bad!\"
+====================
+
+====================
+index 52
+offset 7687
+name Tomoya
+length 41
+====================
+\"That sounds like a pain to deal with.\"
+====================
+\"That sounds like a pain to deal with.\"
+====================
+
+====================
+index 53
+offset 7780
+name Takafumi
+length 13
+====================
+\".........\"
+====================
+\".........\"
+====================
+
+====================
+index 54
+offset 7845
+name Takafumi
+length 24
+====================
+\"Besides, it's red...\"
+====================
+\"Besides, it's red...\"
+====================
+
+====================
+index 55
+offset 7919
+name Tomoya
+length 44
+====================
+\"How long do you have to keep that up...?\"
+====================
+\"How long do you have to keep that up...?\"
+====================
+
+====================
+index 56
+offset 8135
+name Takafumi
+length 27
+====================
+\"Whoa... this is blue...\"
+====================
+\"Whoa... this is blue...\"
+====================
+
+====================
+index 57
+offset 8212
+name Tomoya
+length 12
+====================
+\"What is?\"
+====================
+\"What is?\"
+====================
+
+====================
+index 58
+offset 8276
+name Takafumi
+length 61
+====================
+\"Look, there's a blue beastman. This isn't looking good...\"
+====================
+\"Look, there's a blue beastman. This isn't looking good...\"
+====================
+
+====================
+index 59
+offset 8387
+name Tomoya
+length 65
+====================
+\"What's wrong with that? What's special about these blue ones?\"
+====================
+\"What's wrong with that? What's special about these blue ones?\"
+====================
+
+====================
+index 60
+offset 8504
+name Takafumi
+length 81
+====================
+\"The blue ones are dangerous. Put those together, and you get 'bluangerous'...\"
+====================
+\"The blue ones are dangerous. Put those together, and you get 'bluangerous'...\"
+====================
+
+====================
+index 61
+offset 8635
+name Tomoya
+length 28
+====================
+\"Hurry up and explain it!\"
+====================
+\"Hurry up and explain it!\"
+====================
+
+====================
+index 62
+offset 8715
+name Takafumi
+length 61
+====================
+\"Crap. Looks like he'll snap if I don't explain it soon...\"
+====================
+\"Crap. Looks like he'll snap if I don't explain it soon...\"
+====================
+
+====================
+index 63
+offset 8826
+name Tomoya
+length 19
+====================
+\"I already have!\"
+====================
+\"I already have!\"
+====================
+
+====================
+index 64
+offset 8897
+name Takafumi
+length 33
+====================
+\"The blue ones... let's see...\"
+====================
+\"The blue ones... let's see...\"
+====================
+
+====================
+index 65
+offset 8982
+name Takafumi
+length 68
+====================
+\"He may snap again if I stay quiet here... Let's give that a try.\"
+====================
+\"He may snap again if I stay quiet here... Let's give that a try.\"
+====================
+
+====================
+index 66
+offset 9080
+name Takafumi
+length 13
+====================
+\".........\"
+====================
+\".........\"
+====================
+
+====================
+index 67
+offset 9143
+name Tomoya
+length 17
+====================
+\"Don't try me!\"
+====================
+\"Don't try me!\"
+====================
+
+====================
+index 68
+offset 9212
+name Takafumi
+length 148
+====================
+\"Well, the blue ones have high agility, and they go after characters with low defense. They're a threat to you, but to be honest, you're scarier.\"
+====================
+\"Well, the blue ones have high agility, and they go after characters with low defense. They're a threat to you, but to be honest, you're scarier.\"
+====================
+
+====================
+index 69
+offset 9410
+name Tomoya
+length 26
+====================
+\"Well, thanks for that!\"
+====================
+\"Well, thanks for that!\"
+====================

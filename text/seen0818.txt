@@ -1,0 +1,486 @@
+type seen818
+count 44
+
+====================
+index 1
+offset 263
+name NULL
+length 17
+====================
+August 18th (Wed)
+====================
+August 18th (Wed)
+====================
+
+====================
+index 2
+offset 1499
+name Tomoyo
+length 40
+====================
+\"Hey, here's something I heard about.\"
+====================
+\"Hey, here's something I heard about.\"
+====================
+
+====================
+index 3
+offset 1589
+name Tomoyo
+length 98
+====================
+\"It seems that it's dangerous here during the fall since that's when bears frequent this place.\"
+====================
+\"It seems that it's dangerous here during the fall since that's when bears frequent this place.\"
+====================
+
+====================
+index 4
+offset 1703
+name NULL
+length 87
+====================
+Tomoyo brings up a different topic for the first time since that accident this morning.
+====================
+Tomoyo brings up a different topic for the first time since that accident this morning.
+====================
+
+====================
+index 5
+offset 1840
+name Tomoyo
+length 73
+====================
+\"That's because they're gathering food in preparation for hibernation.\"
+====================
+\"That's because they're gathering food in preparation for hibernation.\"
+====================
+
+====================
+index 6
+offset 1963
+name Tomoya
+length 34
+====================
+\"But it's the summer right now.\"
+====================
+\"But it's the summer right now.\"
+====================
+
+====================
+index 7
+offset 2047
+name Tomoyo
+length 53
+====================
+\"Yeah. That's why I think it's safe to go outside.\"
+====================
+\"Yeah. That's why I think it's safe to go outside.\"
+====================
+
+====================
+index 8
+offset 2150
+name Tomoya
+length 55
+====================
+\"Nah, before that, they wouldn't even come out here.\"
+====================
+\"Nah, before that, they wouldn't even come out here.\"
+====================
+
+====================
+index 9
+offset 2527
+name Tomoyo
+length 66
+====================
+\"They won't come out here? Can you really say that for certain?\"
+====================
+\"They won't come out here? Can you really say that for certain?\"
+====================
+
+====================
+index 10
+offset 2643
+name Tomoya
+length 40
+====================
+\"Well, I can't really say for sure...\"
+====================
+\"Well, I can't really say for sure...\"
+====================
+
+====================
+index 11
+offset 2733
+name Tomoya
+length 60
+====================
+\"You kind of sound like you want them to show up, though.\"
+====================
+\"You kind of sound like you want them to show up, though.\"
+====================
+
+====================
+index 12
+offset 3115
+name Tomoyo
+length 18
+====================
+\"Of course not.\"
+====================
+\"Of course not.\"
+====================
+
+====================
+index 13
+offset 3419
+name NULL
+length 75
+====================
+All she did was bring up a weird subject. She says nothing other than that.
+====================
+All she did was bring up a weird subject. She says nothing other than that.
+====================
+
+====================
+index 14
+offset 4386
+name NULL
+length 74
+====================
+Tomoyo and I carefully lay down a plastic sheet in the shade and sit down.
+====================
+Tomoyo and I carefully lay down a plastic sheet in the shade and sit down.
+====================
+
+====================
+index 15
+offset 4476
+name NULL
+length 49
+====================
+An injured person and his attendant, so to speak.
+====================
+An injured person and his attendant, so to speak.
+====================
+
+====================
+index 16
+offset 4541
+name NULL
+length 152
+====================
+The house is now so beautiful that it can no longer be called abandoned. The villagers come and go to work on their jobs, occasionally looking this way.
+====================
+The house is now so beautiful that it can no longer be called abandoned. The villagers come and go to work on their jobs, occasionally looking this way.
+====================
+
+====================
+index 17
+offset 4709
+name NULL
+length 38
+====================
+I couldn't feel any more out of place.
+====================
+I couldn't feel any more out of place.
+====================
+
+====================
+index 18
+offset 4763
+name NULL
+length 149
+====================
+I thought about returning to my room for some rest because of that, but since the villagers occasionally come to me for instructions, I have to stay.
+====================
+I thought about returning to my room for some rest because of that, but since the villagers occasionally come to me for instructions, I have to stay.
+====================
+
+====================
+index 19
+offset 4962
+name Tomoya
+length 55
+====================
+\"I suppose I couldn't possibly have finished it all.\"
+====================
+\"I suppose I couldn't possibly have finished it all.\"
+====================
+
+====================
+index 20
+offset 5339
+name Tomoyo
+length 25
+====================
+\"Hm? What do you mean?\"
+====================
+\"Hm? What do you mean?\"
+====================
+
+====================
+index 21
+offset 5414
+name Tomoya
+length 49
+====================
+\"There is only so much that I can actually do.\"
+====================
+\"There is only so much that I can actually do.\"
+====================
+
+====================
+index 22
+offset 5513
+name Tomoya
+length 63
+====================
+\"Well, I did work my ass off studying all about electricity.\"
+====================
+\"Well, I did work my ass off studying all about electricity.\"
+====================
+
+====================
+index 23
+offset 5626
+name Tomoya
+length 95
+====================
+\"But I only know enough about what an electrician does to do repairs and apply it to my job.\"
+====================
+\"But I only know enough about what an electrician does to do repairs and apply it to my job.\"
+====================
+
+====================
+index 24
+offset 5771
+name Tomoya
+length 85
+====================
+\"To rebuild a house or install a blackboard like that? There's no way I can do it.\"
+====================
+\"To rebuild a house or install a blackboard like that? There's no way I can do it.\"
+====================
+
+====================
+index 25
+offset 5906
+name Tomoya
+length 22
+====================
+\"It's not my field.\"
+====================
+\"It's not my field.\"
+====================
+
+====================
+index 26
+offset 6214
+name NULL
+length 61
+====================
+However, there are some astonishingly skilled villagers here.
+====================
+However, there are some astonishingly skilled villagers here.
+====================
+
+====================
+index 27
+offset 6291
+name NULL
+length 59
+====================
+Perhaps they did this for a living back before coming here.
+====================
+Perhaps they did this for a living back before coming here.
+====================
+
+====================
+index 28
+offset 6366
+name NULL
+length 42
+====================
+I gaze on idly until a lady approaches us.
+====================
+I gaze on idly until a lady approaches us.
+====================
+
+====================
+index 29
+offset 6424
+name NULL
+length 39
+====================
+It's the lady in charge of the laundry.
+====================
+It's the lady in charge of the laundry.
+====================
+
+====================
+index 30
+offset 6512
+name Woman
+length 47
+====================
+\"...it's hot out here. Have some barley tea.\"
+====================
+\"...it's hot out here. Have some barley tea.\"
+====================
+
+====================
+index 31
+offset 6575
+name NULL
+length 55
+====================
+She pours the tea into paper cups and hands them to us.
+====================
+She pours the tea into paper cups and hands them to us.
+====================
+
+====================
+index 32
+offset 6680
+name Tomoya
+length 11
+====================
+\"Thanks.\"
+====================
+\"Thanks.\"
+====================
+
+====================
+index 33
+offset 7013
+name Tomoyo
+length 14
+====================
+\"Thank you.\"
+====================
+\"Thank you.\"
+====================
+
+====================
+index 34
+offset 7076
+name Woman
+length 25
+====================
+\"...you're... welcome.\"
+====================
+\"...you're... welcome.\"
+====================
+
+====================
+index 35
+offset 7117
+name NULL
+length 19
+====================
+She faintly smiles.
+====================
+She faintly smiles.
+====================
+
+====================
+index 36
+offset 7456
+name Tomoya
+length 30
+====================
+\"...thanks for helping out.\"
+====================
+\"...thanks for helping out.\"
+====================
+
+====================
+index 37
+offset 7502
+name NULL
+length 95
+====================
+It may be a little late, but I still thank her, although it makes me feel a little embarrassed.
+====================
+It may be a little late, but I still thank her, although it makes me feel a little embarrassed.
+====================
+
+====================
+index 38
+offset 7646
+name Woman
+length 64
+====================
+\"...not at all. I'll only be helping out after it is built...\"
+====================
+\"...not at all. I'll only be helping out after it is built...\"
+====================
+
+====================
+index 39
+offset 7759
+name Woman
+length 43
+====================
+\"I was... a teacher... until recently...\"
+====================
+\"I was... a teacher... until recently...\"
+====================
+
+====================
+index 40
+offset 7851
+name Woman
+length 57
+====================
+\"It was tough... and I was helpless... so I came here.\"
+====================
+\"It was tough... and I was helpless... so I came here.\"
+====================
+
+====================
+index 41
+offset 7957
+name Woman
+length 51
+====================
+\"But... I think I want to give it another try...\"
+====================
+\"But... I think I want to give it another try...\"
+====================
+
+====================
+index 42
+offset 8057
+name Woman
+length 24
+====================
+\"That's what I think.\"
+====================
+\"That's what I think.\"
+====================
+
+====================
+index 43
+offset 8131
+name Tomoya
+length 13
+====================
+\"...I see.\"
+====================
+\"...I see.\"
+====================
+
+====================
+index 44
+offset 8193
+name Woman
+length 33
+====================
+\"So that's why... thank you...\"
+====================
+\"So that's why... thank you...\"
+====================

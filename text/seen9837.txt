@@ -1,0 +1,673 @@
+type seen9837
+count 61
+
+====================
+index 1
+offset 494
+name NULL
+length 14
+====================
+Term unlocked:
+====================
+Term unlocked:
+====================
+
+====================
+index 3
+offset 554
+name NULL
+length 2
+====================
+\"
+====================
+\"
+====================
+
+====================
+index 4
+offset 584
+name NULL
+length 2
+====================
+\"
+====================
+\"
+====================
+
+====================
+index 5
+offset 1035
+name NULL
+length 6
+====================
+Aikido
+====================
+Aikido
+====================
+
+====================
+index 6
+offset 1066
+name NULL
+length 273
+====================
+Aikido is a Japanese martial art that can roughly be translated as \"the way of harmonious spirit\". It was crafted by Morihei Ueshiba during 1920s and 1930s. The central idea behind Aikido is that it can be used to defend oneself effectively without injuring the attacker.
+====================
+Aikido is a Japanese martial art that can roughly be translated as \"the way of harmonious spirit\". It was crafted by Morihei Ueshiba during 1920s and 1930s. The central idea behind Aikido is that it can be used to defend oneself effectively without injuring the attacker.
+====================
+
+====================
+index 7
+offset 1379
+name NULL
+length 11
+====================
+Almond Tofu
+====================
+Almond Tofu
+====================
+
+====================
+index 8
+offset 1415
+name NULL
+length 226
+====================
+Almond tofu is a type of pudding made with almonds that originated in China. Despite what its name implies, it does not actually contain any tofu or soy products. It is called Almond tofu due to its appearance and consistency.
+====================
+Almond tofu is a type of pudding made with almonds that originated in China. Despite what its name implies, it does not actually contain any tofu or soy products. It is called Almond tofu due to its appearance and consistency.
+====================
+
+====================
+index 9
+offset 1681
+name NULL
+length 5
+====================
+Astro
+====================
+Astro
+====================
+
+====================
+index 10
+offset 1711
+name NULL
+length 108
+====================
+Astro is the main character of the manga/anime Astro Boy. He is a child robot with superhero-like abilities.
+====================
+Astro is the main character of the manga/anime Astro Boy. He is a child robot with superhero-like abilities.
+====================
+
+====================
+index 11
+offset 1859
+name NULL
+length 12
+====================
+Bon Festival
+====================
+Bon Festival
+====================
+
+====================
+index 12
+offset 1896
+name NULL
+length 382
+====================
+The Bon Festival is an annual Buddhist holiday that takes place during a three day period around August 15th. During the festival, Japanese people visit their ancestors' graves as it is believed that the spirits of the ancestors visit their altars during those days. As part of the celebration, the bon odori (or bon dance) is performed in neighborhood festivals during the holiday.
+====================
+The Bon Festival is an annual Buddhist holiday that takes place during a three day period around August 15th. During the festival, Japanese people visit their ancestors' graves as it is believed that the spirits of the ancestors visit their altars during those days. As part of the celebration, the bon odori (or bon dance) is performed in neighborhood festivals during the holiday.
+====================
+
+====================
+index 13
+offset 2318
+name NULL
+length 5
+====================
+Dango
+====================
+Dango
+====================
+
+====================
+index 14
+offset 2348
+name NULL
+length 311
+====================
+Dango is a kind of Japanese dumpling made with glutinous rice flour. It is typically sweet and can be flavored or coated with pastes, though savory variants exist as well. Dango is commonly served on a skewer as a snack and consumed with green tea. You might have heard about it before in anime such as Clannad.
+====================
+Dango is a kind of Japanese dumpling made with glutinous rice flour. It is typically sweet and can be flavored or coated with pastes, though savory variants exist as well. Dango is commonly served on a skewer as a snack and consumed with green tea. You might have heard about it before in anime such as Clannad.
+====================
+
+====================
+index 15
+offset 2699
+name NULL
+length 8
+====================
+Doraemon
+====================
+Doraemon
+====================
+
+====================
+index 16
+offset 2732
+name NULL
+length 217
+====================
+Doraemon is the titular character in the manga/anime series Doraemon. In the series, the protagonist Nobita regularly asks Doraemon, who is a cat robot from the future, to use futuristic gadgets to solve his problems.
+====================
+Doraemon is the titular character in the manga/anime series Doraemon. In the series, the protagonist Nobita regularly asks Doraemon, who is a cat robot from the future, to use futuristic gadgets to solve his problems.
+====================
+
+====================
+index 17
+offset 2989
+name NULL
+length 6
+====================
+Dorami
+====================
+Dorami
+====================
+
+====================
+index 18
+offset 3020
+name NULL
+length 129
+====================
+Dorami is the sister of Doraemon in the manga/anime series Doraemon. She occasionally appears in the series as a minor character.
+====================
+Dorami is the sister of Doraemon in the manga/anime series Doraemon. She occasionally appears in the series as a minor character.
+====================
+
+====================
+index 19
+offset 3189
+name NULL
+length 14
+====================
+Flower viewing
+====================
+Flower viewing
+====================
+
+====================
+index 20
+offset 3228
+name NULL
+length 321
+====================
+During the blooming season of sakura (or cherry blossoms) in Japan, it is customary for friends and family to gather and enjoy the sight of the blooming sakura in outdoor gatherings. Common activities during flower viewing gatherings include picnicking, karaoke singing, and the wanton consumption of alcoholic beverages.
+====================
+During the blooming season of sakura (or cherry blossoms) in Japan, it is customary for friends and family to gather and enjoy the sight of the blooming sakura in outdoor gatherings. Common activities during flower viewing gatherings include picnicking, karaoke singing, and the wanton consumption of alcoholic beverages.
+====================
+
+====================
+index 21
+offset 3589
+name NULL
+length 8
+====================
+Fundoshi
+====================
+Fundoshi
+====================
+
+====================
+index 22
+offset 3622
+name NULL
+length 181
+====================
+A type of traditional Japanese loincloth for males that commonly consists of a strip of cotton cloth. They are most frequently worn by men at hadaka matsuri, or \"naked festivals\".
+====================
+A type of traditional Japanese loincloth for males that commonly consists of a strip of cotton cloth. They are most frequently worn by men at hadaka matsuri, or \"naked festivals\".
+====================
+
+====================
+index 23
+offset 3843
+name NULL
+length 5
+====================
+Futon
+====================
+Futon
+====================
+
+====================
+index 24
+offset 3873
+name NULL
+length 254
+====================
+Futon is a type of Japanese bedding that is traditionally laid on the floor. It comprises a mattress that's laid down on the floor and a blanket. It is lightweight and generally made of cotton or wool, and it can be folded and stored away during the day.
+====================
+Futon is a type of Japanese bedding that is traditionally laid on the floor. It comprises a mattress that's laid down on the floor and a blanket. It is lightweight and generally made of cotton or wool, and it can be folded and stored away during the day.
+====================
+
+====================
+index 25
+offset 4167
+name NULL
+length 5
+====================
+Gampi
+====================
+Gampi
+====================
+
+====================
+index 26
+offset 4197
+name NULL
+length 189
+====================
+A group of shrubs that can be found in Asia. In Japan, gampi has been used in paper production since the 8th century to produce a high quality Japanese-style paper otherwise known as washi.
+====================
+A group of shrubs that can be found in Asia. In Japan, gampi has been used in paper production since the 8th century to produce a high quality Japanese-style paper otherwise known as washi.
+====================
+
+====================
+index 27
+offset 4426
+name NULL
+length 14
+====================
+Honorifics (1)
+====================
+Honorifics (1)
+====================
+
+====================
+index 28
+offset 4465
+name NULL
+length 203
+====================
+Japanese people use honorific suffixes when addressing or refering to one another. The specific honorific used depends on the speaker's relationship with the person he or she is referring to.#D#D(cont'd)
+====================
+Japanese people use honorific suffixes when addressing or refering to one another. The specific honorific used depends on the speaker's relationship with the person he or she is referring to.#D#D(cont'd)
+====================
+
+====================
+index 29
+offset 4708
+name NULL
+length 14
+====================
+Honorifics (2)
+====================
+Honorifics (2)
+====================
+
+====================
+index 30
+offset 4747
+name NULL
+length 583
+====================
+Commonly used honorifics include: \"-san\", which is gender neutral and used between equals; \"-chan\", commonly used to refer to younger females or children; \"-kun\", used to refer to men of equal or lesser age; \"-sama\", used to respectfully address those of higher importance or station; \"-senpai\", used to refer to senior colleagues in school or workplace; and \"-sensei\" for teachers and doctors. Similarly, honorifics can be used to address family members. Examples include \"Onii-chan\" and \"Onee-chan\", which respectively refers to one's older brother or older sister.
+====================
+Commonly used honorifics include: \"-san\", which is gender neutral and used between equals; \"-chan\", commonly used to refer to younger females or children; \"-kun\", used to refer to men of equal or lesser age; \"-sama\", used to respectfully address those of higher importance or station; \"-senpai\", used to refer to senior colleagues in school or workplace; and \"-sensei\" for teachers and doctors. Similarly, honorifics can be used to address family members. Examples include \"Onii-chan\" and \"Onee-chan\", which respectively refers to one's older brother or older sister.
+====================
+
+====================
+index 31
+offset 5370
+name NULL
+length 15
+====================
+Kazuhiro Sasaki
+====================
+Kazuhiro Sasaki
+====================
+
+====================
+index 32
+offset 5410
+name NULL
+length 169
+====================
+A famous former professional baseball player both in Japan and America. Played for Yokohama from 1990-1999 and 2004-2005. Played for the Seattle Mariners from 2000-2003.
+====================
+A famous former professional baseball player both in Japan and America. Played for Yokohama from 1990-1999 and 2004-2005. Played for the Seattle Mariners from 2000-2003.
+====================
+
+====================
+index 33
+offset 5619
+name NULL
+length 7
+====================
+Kendama
+====================
+Kendama
+====================
+
+====================
+index 34
+offset 5651
+name NULL
+length 287
+====================
+Kendama is a Japanese toy made up of a wooden ball connected to a base with a string. The base has three cups and a spike which are used to catch the ball. There are well over a hundred kendama juggling tricks, and the game and rankings are regulated by the Japanese Kendama Association.
+====================
+Kendama is a Japanese toy made up of a wooden ball connected to a base with a string. The base has three cups and a spike which are used to catch the ball. There are well over a hundred kendama juggling tricks, and the game and rankings are regulated by the Japanese Kendama Association.
+====================
+
+====================
+index 35
+offset 5978
+name NULL
+length 5
+====================
+Kendo
+====================
+Kendo
+====================
+
+====================
+index 36
+offset 6008
+name NULL
+length 367
+====================
+Kendo, literally the \"way of the sword\", is a Japanese martial art using bamboo swords. In kendo matches, two swordsmen duel one another in protective armor. Points are awarded for accurately striking targets on the opponent and assuming the correct posture as judged by three referees. The first contestant to earn two points in a three point match wins the match.
+====================
+Kendo, literally the \"way of the sword\", is a Japanese martial art using bamboo swords. In kendo matches, two swordsmen duel one another in protective armor. Points are awarded for accurately striking targets on the opponent and assuming the correct posture as judged by three referees. The first contestant to earn two points in a three point match wins the match.
+====================
+
+====================
+index 37
+offset 6415
+name NULL
+length 6
+====================
+Kyushu
+====================
+Kyushu
+====================
+
+====================
+index 38
+offset 6446
+name NULL
+length 192
+====================
+The southernmost of the four main islands of Japan. It is home to major cities such as Fukuoka and Nagasaki and the volcano Mt. Aso. The island fended off Mongolian invasions in 1274 and 1281.
+====================
+The southernmost of the four main islands of Japan. It is home to major cities such as Fukuoka and Nagasaki and the volcano Mt. Aso. The island fended off Mongolian invasions in 1274 and 1281.
+====================
+
+====================
+index 39
+offset 6678
+name NULL
+length 12
+====================
+Niigata City
+====================
+Niigata City
+====================
+
+====================
+index 40
+offset 6715
+name NULL
+length 84
+====================
+The capital of Niigata prefecture. It is the largest city on the Sea of Japan coast.
+====================
+The capital of Niigata prefecture. It is the largest city on the Sea of Japan coast.
+====================
+
+====================
+index 41
+offset 6839
+name NULL
+length 12
+====================
+Osaka Castle
+====================
+Osaka Castle
+====================
+
+====================
+index 42
+offset 6876
+name NULL
+length 334
+====================
+A historic Japanese castle located in Osaka first commissioned by Toyotomi Hideyoshi in 1583. The castle was greatly expanded in 1620 after it fell to the Tokugawa clan, and in 1662, the main tower was struck by lightning and razed in fire. The current Osaka Castle was reconstructed in 1930, and is the third iteration of the castle.
+====================
+A historic Japanese castle located in Osaka first commissioned by Toyotomi Hideyoshi in 1583. The castle was greatly expanded in 1620 after it fell to the Tokugawa clan, and in 1662, the main tower was struck by lightning and razed in fire. The current Osaka Castle was reconstructed in 1930, and is the third iteration of the castle.
+====================
+
+====================
+index 43
+offset 7250
+name NULL
+length 6
+====================
+Papico
+====================
+Papico
+====================
+
+====================
+index 44
+offset 7281
+name NULL
+length 176
+====================
+Papico is a brand of ice cream and freeze pop that is sold in soft plastic bottles. As they are generally sold in sets of two, they can be snapped apart and shared with others.
+====================
+Papico is a brand of ice cream and freeze pop that is sold in soft plastic bottles. As they are generally sold in sets of two, they can be snapped apart and shared with others.
+====================
+
+====================
+index 45
+offset 7497
+name NULL
+length 19
+====================
+Photo sticker booth
+====================
+Photo sticker booth
+====================
+
+====================
+index 46
+offset 7541
+name NULL
+length 462
+====================
+Photo sticker booths (or purikura as they are frequently called in Japanese) are photo booths that are frequently found in Japanese game arcades. Unlike photo booths designed for taking passport photos, these booths' primary purpose is entertainment, and users may customize their pictures with tools and artwork prior to printing them. They are popular among school-aged girls, but their popularity has been dwindling in recent years due to the rise of selfies.
+====================
+Photo sticker booths (or purikura as they are frequently called in Japanese) are photo booths that are frequently found in Japanese game arcades. Unlike photo booths designed for taking passport photos, these booths' primary purpose is entertainment, and users may customize their pictures with tools and artwork prior to printing them. They are popular among school-aged girls, but their popularity has been dwindling in recent years due to the rise of selfies.
+====================
+
+====================
+index 47
+offset 8043
+name NULL
+length 12
+====================
+Rainy season
+====================
+Rainy season
+====================
+
+====================
+index 48
+offset 8080
+name NULL
+length 312
+====================
+The rainy season in Japan typically lasts from June to July for mainland Japan and May to June for Okinawa. During this period, Japan typically experiences heavy rainfall and high humidity. The rainy season is called Tsuyu, literally \"plum rain\", in Japanese because it coincides with when plums are in season.
+====================
+The rainy season in Japan typically lasts from June to July for mainland Japan and May to June for Okinawa. During this period, Japan typically experiences heavy rainfall and high humidity. The rainy season is called Tsuyu, literally \"plum rain\", in Japanese because it coincides with when plums are in season.
+====================
+
+====================
+index 49
+offset 8432
+name NULL
+length 6
+====================
+Sakura
+====================
+Sakura
+====================
+
+====================
+index 50
+offset 8463
+name NULL
+length 418
+====================
+Sakura is the Japanese name for cherry blossom, the flower of cherry trees. It is a significant cultural icon in Japan, and it typically blooms at the end of March or early April. Because of the timing of its blooming season, it carries the symbolism of spring and hope. It is also associated with graduation and new beginnings as it also coincides with the Japanese graduation season, which typically occurs in March.
+====================
+Sakura is the Japanese name for cherry blossom, the flower of cherry trees. It is a significant cultural icon in Japan, and it typically blooms at the end of March or early April. Because of the timing of its blooming season, it carries the symbolism of spring and hope. It is also associated with graduation and new beginnings as it also coincides with the Japanese graduation season, which typically occurs in March.
+====================
+
+====================
+index 51
+offset 8921
+name NULL
+length 7
+====================
+Shikoku
+====================
+Shikoku
+====================
+
+====================
+index 52
+offset 8953
+name NULL
+length 433
+====================
+One of the four major islands of Japan. Its name means \"four countries\" in reference to its four prefectures. Although American air raids damaged the region during the Second World War, its cultural sites have survived, and it is the home to four ancient castles. The famous 88 Buddhist temple pilgrimage also takes place entirely on this island. There are no major cities or bullet trains on the island, so it is rarely spoken of.
+====================
+One of the four major islands of Japan. Its name means \"four countries\" in reference to its four prefectures. Although American air raids damaged the region during the Second World War, its cultural sites have survived, and it is the home to four ancient castles. The famous 88 Buddhist temple pilgrimage also takes place entirely on this island. There are no major cities or bullet trains on the island, so it is rarely spoken of.
+====================
+
+====================
+index 53
+offset 9426
+name NULL
+length 6
+====================
+Tatami
+====================
+Tatami
+====================
+
+====================
+index 54
+offset 9457
+name NULL
+length 308
+====================
+Tatami is a kind of rice straw mat that is typically used as flooring in traditional Japanese houses and rooms. Dimensions can vary, but each mat typically measures 0.91m by 1.82m. In Japan, rooms and apartments are typically measured by the number of tatami mats; a typical studio apartment is six mats big.
+====================
+Tatami is a kind of rice straw mat that is typically used as flooring in traditional Japanese houses and rooms. Dimensions can vary, but each mat typically measures 0.91m by 1.82m. In Japan, rooms and apartments are typically measured by the number of tatami mats; a typical studio apartment is six mats big.
+====================
+
+====================
+index 55
+offset 9805
+name NULL
+length 4
+====================
+Toto
+====================
+Toto
+====================
+
+====================
+index 56
+offset 9834
+name NULL
+length 196
+====================
+A toilet manufacturer known for their line of toilets with amenities such as heated toilet seats, bidets, and air dryers for your rear. Check next time you're at a urinal. It too may be Toto-made.
+====================
+A toilet manufacturer known for their line of toilets with amenities such as heated toilet seats, bidets, and air dryers for your rear. Check next time you're at a urinal. It too may be Toto-made.
+====================
+
+====================
+index 57
+offset 10070
+name NULL
+length 8
+====================
+Tsundere
+====================
+Tsundere
+====================
+
+====================
+index 58
+offset 10103
+name NULL
+length 104
+====================
+Someone who is cold or mean to someone whom they actually like. This is usually caused by embarrassment.
+====================
+Someone who is cold or mean to someone whom they actually like. This is usually caused by embarrassment.
+====================
+
+====================
+index 59
+offset 10247
+name NULL
+length 8
+====================
+Yokohama
+====================
+Yokohama
+====================
+
+====================
+index 60
+offset 10280
+name NULL
+length 189
+====================
+The capital of Kanagawa prefecture. It is the second most populated city in Japan behind Tokyo. Considered part of the Greater Tokyo Area. Their baseball team is the Yokohama DeNA BayStars.
+====================
+The capital of Kanagawa prefecture. It is the second most populated city in Japan behind Tokyo. Considered part of the Greater Tokyo Area. Their baseball team is the Yokohama DeNA BayStars.
+====================
+
+====================
+index 61
+offset 10509
+name NULL
+length 11
+====================
+!UNDEFINED!
+====================
+!UNDEFINED!
+====================
+
+====================
+index 62
+offset 10545
+name NULL
+length 25
+====================
+This term does not exist.
+====================
+This term does not exist.
+====================

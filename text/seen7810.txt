@@ -1,0 +1,2301 @@
+type seen7810
+count 209
+
+====================
+index 1
+offset 246
+name NULL
+length 15
+====================
+Tomoya attacks!
+====================
+Tomoya attacks!
+====================
+
+====================
+index 2
+offset 413
+name NULL
+length 15
+====================
+Tomoya attacks!
+====================
+Tomoya attacks!
+====================
+
+====================
+index 3
+offset 473
+name NULL
+length 15
+====================
+Tomoyo attacks!
+====================
+Tomoyo attacks!
+====================
+
+====================
+index 4
+offset 640
+name NULL
+length 15
+====================
+Tomoyo attacks!
+====================
+Tomoyo attacks!
+====================
+
+====================
+index 5
+offset 700
+name NULL
+length 15
+====================
+Kanako attacks!
+====================
+Kanako attacks!
+====================
+
+====================
+index 6
+offset 867
+name NULL
+length 15
+====================
+Kanako attacks!
+====================
+Kanako attacks!
+====================
+
+====================
+index 7
+offset 927
+name NULL
+length 13
+====================
+Tomo attacks!
+====================
+Tomo attacks!
+====================
+
+====================
+index 8
+offset 1092
+name NULL
+length 13
+====================
+Tomo attacks!
+====================
+Tomo attacks!
+====================
+
+====================
+index 9
+offset 1150
+name NULL
+length 13
+====================
+Fuko attacks!
+====================
+Fuko attacks!
+====================
+
+====================
+index 10
+offset 1315
+name NULL
+length 13
+====================
+Fuko attacks!
+====================
+Fuko attacks!
+====================
+
+====================
+index 11
+offset 1594
+name NULL
+length 21
+====================
+Red beastman attacks!
+====================
+Red beastman attacks!
+====================
+
+====================
+index 12
+offset 1767
+name NULL
+length 21
+====================
+Red beastman attacks!
+====================
+Red beastman attacks!
+====================
+
+====================
+index 13
+offset 1833
+name NULL
+length 17
+====================
+Beastman attacks!
+====================
+Beastman attacks!
+====================
+
+====================
+index 14
+offset 2002
+name NULL
+length 17
+====================
+Beastman attacks!
+====================
+Beastman attacks!
+====================
+
+====================
+index 15
+offset 2064
+name NULL
+length 22
+====================
+Blue beastman attacks!
+====================
+Blue beastman attacks!
+====================
+
+====================
+index 16
+offset 2238
+name NULL
+length 22
+====================
+Blue beastman attacks!
+====================
+Blue beastman attacks!
+====================
+
+====================
+index 17
+offset 2305
+name NULL
+length 17
+====================
+Beastman attacks!
+====================
+Beastman attacks!
+====================
+
+====================
+index 18
+offset 2474
+name NULL
+length 17
+====================
+Beastman attacks!
+====================
+Beastman attacks!
+====================
+
+====================
+index 19
+offset 2536
+name NULL
+length 17
+====================
+Beastman attacks!
+====================
+Beastman attacks!
+====================
+
+====================
+index 20
+offset 2705
+name NULL
+length 17
+====================
+Beastman attacks!
+====================
+Beastman attacks!
+====================
+
+====================
+index 21
+offset 2767
+name NULL
+length 14
+====================
+Golem attacks!
+====================
+Golem attacks!
+====================
+
+====================
+index 22
+offset 2933
+name NULL
+length 14
+====================
+Golem attacks!
+====================
+Golem attacks!
+====================
+
+====================
+index 23
+offset 2992
+name NULL
+length 18
+====================
+Last Boss attacks!
+====================
+Last Boss attacks!
+====================
+
+====================
+index 24
+offset 3162
+name NULL
+length 18
+====================
+Last Boss attacks!
+====================
+Last Boss attacks!
+====================
+
+====================
+index 25
+offset 3420
+name NULL
+length 14
+====================
+Tomoya dodges!
+====================
+Tomoya dodges!
+====================
+
+====================
+index 26
+offset 3586
+name NULL
+length 14
+====================
+Tomoya dodges!
+====================
+Tomoya dodges!
+====================
+
+====================
+index 27
+offset 3645
+name NULL
+length 14
+====================
+Tomoyo dodges!
+====================
+Tomoyo dodges!
+====================
+
+====================
+index 28
+offset 3811
+name NULL
+length 14
+====================
+Tomoyo dodges!
+====================
+Tomoyo dodges!
+====================
+
+====================
+index 29
+offset 3870
+name NULL
+length 14
+====================
+Kanako dodges!
+====================
+Kanako dodges!
+====================
+
+====================
+index 30
+offset 4036
+name NULL
+length 14
+====================
+Kanako dodges!
+====================
+Kanako dodges!
+====================
+
+====================
+index 31
+offset 4095
+name NULL
+length 12
+====================
+Tomo dodges!
+====================
+Tomo dodges!
+====================
+
+====================
+index 32
+offset 4259
+name NULL
+length 12
+====================
+Tomo dodges!
+====================
+Tomo dodges!
+====================
+
+====================
+index 33
+offset 4316
+name NULL
+length 12
+====================
+Fuko dodges!
+====================
+Fuko dodges!
+====================
+
+====================
+index 34
+offset 4480
+name NULL
+length 12
+====================
+Fuko dodges!
+====================
+Fuko dodges!
+====================
+
+====================
+index 35
+offset 4771
+name NULL
+length 20
+====================
+Red beastman dodges!
+====================
+Red beastman dodges!
+====================
+
+====================
+index 36
+offset 4943
+name NULL
+length 20
+====================
+Red beastman dodges!
+====================
+Red beastman dodges!
+====================
+
+====================
+index 37
+offset 5008
+name NULL
+length 16
+====================
+Beastman dodges!
+====================
+Beastman dodges!
+====================
+
+====================
+index 38
+offset 5176
+name NULL
+length 16
+====================
+Beastman dodges!
+====================
+Beastman dodges!
+====================
+
+====================
+index 39
+offset 5237
+name NULL
+length 21
+====================
+Blue beastman dodges!
+====================
+Blue beastman dodges!
+====================
+
+====================
+index 40
+offset 5410
+name NULL
+length 21
+====================
+Blue beastman dodges!
+====================
+Blue beastman dodges!
+====================
+
+====================
+index 41
+offset 5476
+name NULL
+length 16
+====================
+Beastman dodges!
+====================
+Beastman dodges!
+====================
+
+====================
+index 42
+offset 5644
+name NULL
+length 16
+====================
+Beastman dodges!
+====================
+Beastman dodges!
+====================
+
+====================
+index 43
+offset 5705
+name NULL
+length 16
+====================
+Beastman dodges!
+====================
+Beastman dodges!
+====================
+
+====================
+index 44
+offset 5873
+name NULL
+length 16
+====================
+Beastman dodges!
+====================
+Beastman dodges!
+====================
+
+====================
+index 45
+offset 5934
+name NULL
+length 13
+====================
+Golem dodges!
+====================
+Golem dodges!
+====================
+
+====================
+index 46
+offset 6099
+name NULL
+length 13
+====================
+Golem dodges!
+====================
+Golem dodges!
+====================
+
+====================
+index 47
+offset 6157
+name NULL
+length 17
+====================
+Last Boss dodges!
+====================
+Last Boss dodges!
+====================
+
+====================
+index 48
+offset 6326
+name NULL
+length 17
+====================
+Last Boss dodges!
+====================
+Last Boss dodges!
+====================
+
+====================
+index 49
+offset 6618
+name NULL
+length 13
+====================
+Tomoya takes 
+====================
+Tomoya takes 
+====================
+
+====================
+index 50
+offset 6668
+name NULL
+length 13
+====================
+Tomoyo takes 
+====================
+Tomoyo takes 
+====================
+
+====================
+index 51
+offset 6718
+name NULL
+length 13
+====================
+Kanako takes 
+====================
+Kanako takes 
+====================
+
+====================
+index 52
+offset 6768
+name NULL
+length 11
+====================
+Tomo takes 
+====================
+Tomo takes 
+====================
+
+====================
+index 53
+offset 6816
+name NULL
+length 11
+====================
+Fuko takes 
+====================
+Fuko takes 
+====================
+
+====================
+index 54
+offset 7098
+name NULL
+length 19
+====================
+Red beastman takes 
+====================
+Red beastman takes 
+====================
+
+====================
+index 55
+offset 7154
+name NULL
+length 15
+====================
+Beastman takes 
+====================
+Beastman takes 
+====================
+
+====================
+index 56
+offset 7206
+name NULL
+length 20
+====================
+Blue beastman takes 
+====================
+Blue beastman takes 
+====================
+
+====================
+index 57
+offset 7263
+name NULL
+length 15
+====================
+Beastman takes 
+====================
+Beastman takes 
+====================
+
+====================
+index 58
+offset 7315
+name NULL
+length 15
+====================
+Beastman takes 
+====================
+Beastman takes 
+====================
+
+====================
+index 59
+offset 7367
+name NULL
+length 12
+====================
+Golem takes 
+====================
+Golem takes 
+====================
+
+====================
+index 60
+offset 7416
+name NULL
+length 16
+====================
+Last Boss takes 
+====================
+Last Boss takes 
+====================
+
+====================
+index 61
+offset 7617
+name NULL
+length 8
+====================
+ damage!
+====================
+ damage!
+====================
+
+====================
+index 62
+offset 7926
+name NULL
+length 13
+====================
+Critical hit!
+====================
+Critical hit!
+====================
+
+====================
+index 63
+offset 8091
+name NULL
+length 13
+====================
+Critical hit!
+====================
+Critical hit!
+====================
+
+====================
+index 64
+offset 8279
+name NULL
+length 13
+====================
+Tomoya takes 
+====================
+Tomoya takes 
+====================
+
+====================
+index 65
+offset 8329
+name NULL
+length 13
+====================
+Tomoyo takes 
+====================
+Tomoyo takes 
+====================
+
+====================
+index 66
+offset 8379
+name NULL
+length 13
+====================
+Kanako takes 
+====================
+Kanako takes 
+====================
+
+====================
+index 67
+offset 8429
+name NULL
+length 11
+====================
+Tomo takes 
+====================
+Tomo takes 
+====================
+
+====================
+index 68
+offset 8477
+name NULL
+length 11
+====================
+Fuko takes 
+====================
+Fuko takes 
+====================
+
+====================
+index 69
+offset 8759
+name NULL
+length 19
+====================
+Red beastman takes 
+====================
+Red beastman takes 
+====================
+
+====================
+index 70
+offset 8815
+name NULL
+length 15
+====================
+Beastman takes 
+====================
+Beastman takes 
+====================
+
+====================
+index 71
+offset 8867
+name NULL
+length 20
+====================
+Blue beastman takes 
+====================
+Blue beastman takes 
+====================
+
+====================
+index 72
+offset 8924
+name NULL
+length 15
+====================
+Beastman takes 
+====================
+Beastman takes 
+====================
+
+====================
+index 73
+offset 8976
+name NULL
+length 15
+====================
+Beastman takes 
+====================
+Beastman takes 
+====================
+
+====================
+index 74
+offset 9028
+name NULL
+length 12
+====================
+Golem takes 
+====================
+Golem takes 
+====================
+
+====================
+index 75
+offset 9077
+name NULL
+length 16
+====================
+Last Boss takes 
+====================
+Last Boss takes 
+====================
+
+====================
+index 76
+offset 9278
+name NULL
+length 8
+====================
+ damage!
+====================
+ damage!
+====================
+
+====================
+index 77
+offset 9691
+name NULL
+length 23
+====================
+Instant kill by Tomoya!
+====================
+Instant kill by Tomoya!
+====================
+
+====================
+index 78
+offset 9866
+name NULL
+length 23
+====================
+Instant kill by Tomoya!
+====================
+Instant kill by Tomoya!
+====================
+
+====================
+index 79
+offset 9934
+name NULL
+length 23
+====================
+Instant kill by Tomoyo!
+====================
+Instant kill by Tomoyo!
+====================
+
+====================
+index 80
+offset 10109
+name NULL
+length 23
+====================
+Instant kill by Tomoyo!
+====================
+Instant kill by Tomoyo!
+====================
+
+====================
+index 81
+offset 10177
+name NULL
+length 23
+====================
+Instant kill by Kanako!
+====================
+Instant kill by Kanako!
+====================
+
+====================
+index 82
+offset 10352
+name NULL
+length 23
+====================
+Instant kill by Kanako!
+====================
+Instant kill by Kanako!
+====================
+
+====================
+index 83
+offset 10420
+name NULL
+length 21
+====================
+Instant kill by Tomo!
+====================
+Instant kill by Tomo!
+====================
+
+====================
+index 84
+offset 10593
+name NULL
+length 21
+====================
+Instant kill by Tomo!
+====================
+Instant kill by Tomo!
+====================
+
+====================
+index 85
+offset 10659
+name NULL
+length 21
+====================
+Instant kill by Fuko!
+====================
+Instant kill by Fuko!
+====================
+
+====================
+index 86
+offset 10832
+name NULL
+length 21
+====================
+Instant kill by Fuko!
+====================
+Instant kill by Fuko!
+====================
+
+====================
+index 87
+offset 11132
+name NULL
+length 29
+====================
+Instant kill by Red beastman!
+====================
+Instant kill by Red beastman!
+====================
+
+====================
+index 88
+offset 11313
+name NULL
+length 29
+====================
+Instant kill by Red beastman!
+====================
+Instant kill by Red beastman!
+====================
+
+====================
+index 89
+offset 11387
+name NULL
+length 25
+====================
+Instant kill by Beastman!
+====================
+Instant kill by Beastman!
+====================
+
+====================
+index 90
+offset 11564
+name NULL
+length 25
+====================
+Instant kill by Beastman!
+====================
+Instant kill by Beastman!
+====================
+
+====================
+index 91
+offset 11634
+name NULL
+length 30
+====================
+Instant kill by Blue beastman!
+====================
+Instant kill by Blue beastman!
+====================
+
+====================
+index 92
+offset 11816
+name NULL
+length 30
+====================
+Instant kill by Blue beastman!
+====================
+Instant kill by Blue beastman!
+====================
+
+====================
+index 93
+offset 11891
+name NULL
+length 25
+====================
+Instant kill by Beastman!
+====================
+Instant kill by Beastman!
+====================
+
+====================
+index 94
+offset 12068
+name NULL
+length 25
+====================
+Instant kill by Beastman!
+====================
+Instant kill by Beastman!
+====================
+
+====================
+index 95
+offset 12138
+name NULL
+length 25
+====================
+Instant kill by Beastman!
+====================
+Instant kill by Beastman!
+====================
+
+====================
+index 96
+offset 12315
+name NULL
+length 25
+====================
+Instant kill by Beastman!
+====================
+Instant kill by Beastman!
+====================
+
+====================
+index 97
+offset 12385
+name NULL
+length 22
+====================
+Instant kill by Golem!
+====================
+Instant kill by Golem!
+====================
+
+====================
+index 98
+offset 12559
+name NULL
+length 22
+====================
+Instant kill by Golem!
+====================
+Instant kill by Golem!
+====================
+
+====================
+index 99
+offset 12626
+name NULL
+length 26
+====================
+Instant kill by Last Boss!
+====================
+Instant kill by Last Boss!
+====================
+
+====================
+index 100
+offset 12804
+name NULL
+length 26
+====================
+Instant kill by Last Boss!
+====================
+Instant kill by Last Boss!
+====================
+
+====================
+index 101
+offset 13070
+name NULL
+length 19
+====================
+Tomoya is defeated!
+====================
+Tomoya is defeated!
+====================
+
+====================
+index 102
+offset 13241
+name NULL
+length 19
+====================
+Tomoya is defeated!
+====================
+Tomoya is defeated!
+====================
+
+====================
+index 103
+offset 13305
+name NULL
+length 19
+====================
+Tomoyo is defeated!
+====================
+Tomoyo is defeated!
+====================
+
+====================
+index 104
+offset 13476
+name NULL
+length 19
+====================
+Tomoyo is defeated!
+====================
+Tomoyo is defeated!
+====================
+
+====================
+index 105
+offset 13540
+name NULL
+length 19
+====================
+Kanako is defeated!
+====================
+Kanako is defeated!
+====================
+
+====================
+index 106
+offset 13711
+name NULL
+length 19
+====================
+Kanako is defeated!
+====================
+Kanako is defeated!
+====================
+
+====================
+index 107
+offset 13775
+name NULL
+length 17
+====================
+Tomo is defeated!
+====================
+Tomo is defeated!
+====================
+
+====================
+index 108
+offset 13944
+name NULL
+length 17
+====================
+Tomo is defeated!
+====================
+Tomo is defeated!
+====================
+
+====================
+index 109
+offset 14006
+name NULL
+length 17
+====================
+Fuko is defeated!
+====================
+Fuko is defeated!
+====================
+
+====================
+index 110
+offset 14175
+name NULL
+length 17
+====================
+Fuko is defeated!
+====================
+Fuko is defeated!
+====================
+
+====================
+index 111
+offset 14471
+name NULL
+length 25
+====================
+Red beastman is defeated!
+====================
+Red beastman is defeated!
+====================
+
+====================
+index 112
+offset 14648
+name NULL
+length 25
+====================
+Red beastman is defeated!
+====================
+Red beastman is defeated!
+====================
+
+====================
+index 113
+offset 14718
+name NULL
+length 21
+====================
+Beastman is defeated!
+====================
+Beastman is defeated!
+====================
+
+====================
+index 114
+offset 14891
+name NULL
+length 21
+====================
+Beastman is defeated!
+====================
+Beastman is defeated!
+====================
+
+====================
+index 115
+offset 14957
+name NULL
+length 26
+====================
+Blue beastman is defeated!
+====================
+Blue beastman is defeated!
+====================
+
+====================
+index 116
+offset 15135
+name NULL
+length 26
+====================
+Blue beastman is defeated!
+====================
+Blue beastman is defeated!
+====================
+
+====================
+index 117
+offset 15206
+name NULL
+length 21
+====================
+Beastman is defeated!
+====================
+Beastman is defeated!
+====================
+
+====================
+index 118
+offset 15379
+name NULL
+length 21
+====================
+Beastman is defeated!
+====================
+Beastman is defeated!
+====================
+
+====================
+index 119
+offset 15445
+name NULL
+length 21
+====================
+Beastman is defeated!
+====================
+Beastman is defeated!
+====================
+
+====================
+index 120
+offset 15618
+name NULL
+length 21
+====================
+Beastman is defeated!
+====================
+Beastman is defeated!
+====================
+
+====================
+index 121
+offset 15684
+name NULL
+length 18
+====================
+Golem is defeated!
+====================
+Golem is defeated!
+====================
+
+====================
+index 122
+offset 15854
+name NULL
+length 18
+====================
+Golem is defeated!
+====================
+Golem is defeated!
+====================
+
+====================
+index 123
+offset 15917
+name NULL
+length 22
+====================
+Last Boss is defeated!
+====================
+Last Boss is defeated!
+====================
+
+====================
+index 124
+offset 16091
+name NULL
+length 22
+====================
+Last Boss is defeated!
+====================
+Last Boss is defeated!
+====================
+
+====================
+index 125
+offset 16340
+name NULL
+length 26
+====================
+Tomoya starts searching...
+====================
+Tomoya starts searching...
+====================
+
+====================
+index 126
+offset 16518
+name NULL
+length 26
+====================
+Tomoya starts searching...
+====================
+Tomoya starts searching...
+====================
+
+====================
+index 127
+offset 16589
+name NULL
+length 26
+====================
+Tomoyo starts searching...
+====================
+Tomoyo starts searching...
+====================
+
+====================
+index 128
+offset 16767
+name NULL
+length 26
+====================
+Tomoyo starts searching...
+====================
+Tomoyo starts searching...
+====================
+
+====================
+index 129
+offset 16838
+name NULL
+length 26
+====================
+Kanako starts searching...
+====================
+Kanako starts searching...
+====================
+
+====================
+index 130
+offset 17016
+name NULL
+length 26
+====================
+Kanako starts searching...
+====================
+Kanako starts searching...
+====================
+
+====================
+index 131
+offset 17087
+name NULL
+length 24
+====================
+Tomo starts searching...
+====================
+Tomo starts searching...
+====================
+
+====================
+index 132
+offset 17263
+name NULL
+length 24
+====================
+Tomo starts searching...
+====================
+Tomo starts searching...
+====================
+
+====================
+index 133
+offset 17332
+name NULL
+length 24
+====================
+Fuko starts searching...
+====================
+Fuko starts searching...
+====================
+
+====================
+index 134
+offset 17508
+name NULL
+length 24
+====================
+Fuko starts searching...
+====================
+Fuko starts searching...
+====================
+
+====================
+index 135
+offset 17615
+name NULL
+length 14
+====================
+Found an item!
+====================
+Found an item!
+====================
+
+====================
+index 136
+offset 17781
+name NULL
+length 14
+====================
+Found an item!
+====================
+Found an item!
+====================
+
+====================
+index 137
+offset 17863
+name NULL
+length 14
+====================
+Found nothing.
+====================
+Found nothing.
+====================
+
+====================
+index 138
+offset 18029
+name NULL
+length 14
+====================
+Found nothing.
+====================
+Found nothing.
+====================
+
+====================
+index 139
+offset 18287
+name NULL
+length 13
+====================
+Tomoya waits.
+====================
+Tomoya waits.
+====================
+
+====================
+index 140
+offset 18452
+name NULL
+length 13
+====================
+Tomoya waits.
+====================
+Tomoya waits.
+====================
+
+====================
+index 141
+offset 18510
+name NULL
+length 13
+====================
+Tomoyo waits.
+====================
+Tomoyo waits.
+====================
+
+====================
+index 142
+offset 18675
+name NULL
+length 13
+====================
+Tomoyo waits.
+====================
+Tomoyo waits.
+====================
+
+====================
+index 143
+offset 18733
+name NULL
+length 13
+====================
+Kanako waits.
+====================
+Kanako waits.
+====================
+
+====================
+index 144
+offset 18898
+name NULL
+length 13
+====================
+Kanako waits.
+====================
+Kanako waits.
+====================
+
+====================
+index 145
+offset 18956
+name NULL
+length 11
+====================
+Tomo waits.
+====================
+Tomo waits.
+====================
+
+====================
+index 146
+offset 19119
+name NULL
+length 11
+====================
+Tomo waits.
+====================
+Tomo waits.
+====================
+
+====================
+index 147
+offset 19175
+name NULL
+length 11
+====================
+Fuko waits.
+====================
+Fuko waits.
+====================
+
+====================
+index 148
+offset 19338
+name NULL
+length 11
+====================
+Fuko waits.
+====================
+Fuko waits.
+====================
+
+====================
+index 149
+offset 19615
+name NULL
+length 19
+====================
+Red beastman waits.
+====================
+Red beastman waits.
+====================
+
+====================
+index 150
+offset 19786
+name NULL
+length 19
+====================
+Red beastman waits.
+====================
+Red beastman waits.
+====================
+
+====================
+index 151
+offset 19850
+name NULL
+length 15
+====================
+Beastman waits.
+====================
+Beastman waits.
+====================
+
+====================
+index 152
+offset 20017
+name NULL
+length 15
+====================
+Beastman waits.
+====================
+Beastman waits.
+====================
+
+====================
+index 153
+offset 20077
+name NULL
+length 20
+====================
+Blue beastman waits.
+====================
+Blue beastman waits.
+====================
+
+====================
+index 154
+offset 20249
+name NULL
+length 20
+====================
+Blue beastman waits.
+====================
+Blue beastman waits.
+====================
+
+====================
+index 155
+offset 20314
+name NULL
+length 15
+====================
+Beastman waits.
+====================
+Beastman waits.
+====================
+
+====================
+index 156
+offset 20481
+name NULL
+length 15
+====================
+Beastman waits.
+====================
+Beastman waits.
+====================
+
+====================
+index 157
+offset 20541
+name NULL
+length 15
+====================
+Beastman waits.
+====================
+Beastman waits.
+====================
+
+====================
+index 158
+offset 20708
+name NULL
+length 15
+====================
+Beastman waits.
+====================
+Beastman waits.
+====================
+
+====================
+index 159
+offset 20768
+name NULL
+length 12
+====================
+Golem waits.
+====================
+Golem waits.
+====================
+
+====================
+index 160
+offset 20932
+name NULL
+length 12
+====================
+Golem waits.
+====================
+Golem waits.
+====================
+
+====================
+index 161
+offset 20989
+name NULL
+length 16
+====================
+Last Boss waits.
+====================
+Last Boss waits.
+====================
+
+====================
+index 162
+offset 21157
+name NULL
+length 16
+====================
+Last Boss waits.
+====================
+Last Boss waits.
+====================
+
+====================
+index 163
+offset 21435
+name NULL
+length 34
+====================
+Tomoya rushes the enemy formation.
+====================
+Tomoya rushes the enemy formation.
+====================
+
+====================
+index 164
+offset 21621
+name NULL
+length 34
+====================
+Tomoya rushes the enemy formation.
+====================
+Tomoya rushes the enemy formation.
+====================
+
+====================
+index 165
+offset 21700
+name NULL
+length 34
+====================
+Tomoyo rushes the enemy formation.
+====================
+Tomoyo rushes the enemy formation.
+====================
+
+====================
+index 166
+offset 21886
+name NULL
+length 34
+====================
+Tomoyo rushes the enemy formation.
+====================
+Tomoyo rushes the enemy formation.
+====================
+
+====================
+index 167
+offset 21965
+name NULL
+length 34
+====================
+Kanako rushes the enemy formation.
+====================
+Kanako rushes the enemy formation.
+====================
+
+====================
+index 168
+offset 22151
+name NULL
+length 34
+====================
+Kanako rushes the enemy formation.
+====================
+Kanako rushes the enemy formation.
+====================
+
+====================
+index 169
+offset 22230
+name NULL
+length 32
+====================
+Tomo rushes the enemy formation.
+====================
+Tomo rushes the enemy formation.
+====================
+
+====================
+index 170
+offset 22414
+name NULL
+length 32
+====================
+Tomo rushes the enemy formation.
+====================
+Tomo rushes the enemy formation.
+====================
+
+====================
+index 171
+offset 22491
+name NULL
+length 32
+====================
+Fuko rushes the enemy formation.
+====================
+Fuko rushes the enemy formation.
+====================
+
+====================
+index 172
+offset 22675
+name NULL
+length 32
+====================
+Fuko rushes the enemy formation.
+====================
+Fuko rushes the enemy formation.
+====================
+
+====================
+index 173
+offset 22969
+name NULL
+length 30
+====================
+Tomoya has finished attacking.
+====================
+Tomoya has finished attacking.
+====================
+
+====================
+index 174
+offset 23151
+name NULL
+length 30
+====================
+Tomoya has finished attacking.
+====================
+Tomoya has finished attacking.
+====================
+
+====================
+index 175
+offset 23226
+name NULL
+length 30
+====================
+Tomoyo has finished attacking.
+====================
+Tomoyo has finished attacking.
+====================
+
+====================
+index 176
+offset 23408
+name NULL
+length 30
+====================
+Tomoyo has finished attacking.
+====================
+Tomoyo has finished attacking.
+====================
+
+====================
+index 177
+offset 23483
+name NULL
+length 30
+====================
+Kanako has finished attacking.
+====================
+Kanako has finished attacking.
+====================
+
+====================
+index 178
+offset 23665
+name NULL
+length 30
+====================
+Kanako has finished attacking.
+====================
+Kanako has finished attacking.
+====================
+
+====================
+index 179
+offset 23740
+name NULL
+length 28
+====================
+Tomo has finished attacking.
+====================
+Tomo has finished attacking.
+====================
+
+====================
+index 180
+offset 23920
+name NULL
+length 28
+====================
+Tomo has finished attacking.
+====================
+Tomo has finished attacking.
+====================
+
+====================
+index 181
+offset 23993
+name NULL
+length 28
+====================
+Fuko has finished attacking.
+====================
+Fuko has finished attacking.
+====================
+
+====================
+index 182
+offset 24173
+name NULL
+length 28
+====================
+Fuko has finished attacking.
+====================
+Fuko has finished attacking.
+====================
+
+====================
+index 183
+offset 24505
+name NULL
+length 19
+====================
+Red beastman flees.
+====================
+Red beastman flees.
+====================
+
+====================
+index 184
+offset 24676
+name NULL
+length 19
+====================
+Red beastman flees.
+====================
+Red beastman flees.
+====================
+
+====================
+index 185
+offset 24740
+name NULL
+length 15
+====================
+Beastman flees.
+====================
+Beastman flees.
+====================
+
+====================
+index 186
+offset 24907
+name NULL
+length 15
+====================
+Beastman flees.
+====================
+Beastman flees.
+====================
+
+====================
+index 187
+offset 24967
+name NULL
+length 20
+====================
+Blue beastman flees.
+====================
+Blue beastman flees.
+====================
+
+====================
+index 188
+offset 25139
+name NULL
+length 20
+====================
+Blue beastman flees.
+====================
+Blue beastman flees.
+====================
+
+====================
+index 189
+offset 25204
+name NULL
+length 15
+====================
+Beastman flees.
+====================
+Beastman flees.
+====================
+
+====================
+index 190
+offset 25371
+name NULL
+length 15
+====================
+Beastman flees.
+====================
+Beastman flees.
+====================
+
+====================
+index 191
+offset 25431
+name NULL
+length 15
+====================
+Beastman flees.
+====================
+Beastman flees.
+====================
+
+====================
+index 192
+offset 25598
+name NULL
+length 15
+====================
+Beastman flees.
+====================
+Beastman flees.
+====================
+
+====================
+index 193
+offset 25658
+name NULL
+length 12
+====================
+Golem flees.
+====================
+Golem flees.
+====================
+
+====================
+index 194
+offset 25822
+name NULL
+length 12
+====================
+Golem flees.
+====================
+Golem flees.
+====================
+
+====================
+index 195
+offset 25879
+name NULL
+length 16
+====================
+Last Boss flees.
+====================
+Last Boss flees.
+====================
+
+====================
+index 196
+offset 26047
+name NULL
+length 16
+====================
+Last Boss flees.
+====================
+Last Boss flees.
+====================
+
+====================
+index 197
+offset 26335
+name NULL
+length 16
+====================
+Tomoya recovers 
+====================
+Tomoya recovers 
+====================
+
+====================
+index 198
+offset 26388
+name NULL
+length 16
+====================
+Tomoyo recovers 
+====================
+Tomoyo recovers 
+====================
+
+====================
+index 199
+offset 26441
+name NULL
+length 16
+====================
+Kanako recovers 
+====================
+Kanako recovers 
+====================
+
+====================
+index 200
+offset 26494
+name NULL
+length 14
+====================
+Tomo recovers 
+====================
+Tomo recovers 
+====================
+
+====================
+index 201
+offset 26545
+name NULL
+length 14
+====================
+Fuko recovers 
+====================
+Fuko recovers 
+====================
+
+====================
+index 202
+offset 26830
+name NULL
+length 22
+====================
+Red beastman recovers 
+====================
+Red beastman recovers 
+====================
+
+====================
+index 203
+offset 26889
+name NULL
+length 18
+====================
+Beastman recovers 
+====================
+Beastman recovers 
+====================
+
+====================
+index 204
+offset 26944
+name NULL
+length 23
+====================
+Blue beastman recovers 
+====================
+Blue beastman recovers 
+====================
+
+====================
+index 205
+offset 27004
+name NULL
+length 18
+====================
+Beastman recovers 
+====================
+Beastman recovers 
+====================
+
+====================
+index 206
+offset 27059
+name NULL
+length 18
+====================
+Beastman recovers 
+====================
+Beastman recovers 
+====================
+
+====================
+index 207
+offset 27114
+name NULL
+length 15
+====================
+Golem recovers 
+====================
+Golem recovers 
+====================
+
+====================
+index 208
+offset 27166
+name NULL
+length 19
+====================
+Last Boss recovers 
+====================
+Last Boss recovers 
+====================
+
+====================
+index 209
+offset 27370
+name NULL
+length 4
+====================
+ HP.
+====================
+ HP.
+====================

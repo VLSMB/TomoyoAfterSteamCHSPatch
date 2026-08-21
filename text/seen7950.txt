@@ -1,0 +1,1784 @@
+type seen7950
+count 162
+
+====================
+index 1
+offset 360
+name NULL
+length 12
+====================
+They left...
+====================
+They left...
+====================
+
+====================
+index 2
+offset 388
+name NULL
+length 45
+====================
+Those ten long seconds felt like an eternity.
+====================
+Those ten long seconds felt like an eternity.
+====================
+
+====================
+index 3
+offset 449
+name NULL
+length 34
+====================
+The world... didn't change at all.
+====================
+The world... didn't change at all.
+====================
+
+====================
+index 4
+offset 502
+name NULL
+length 32
+====================
+Humans still rule the continent.
+====================
+Humans still rule the continent.
+====================
+
+====================
+index 5
+offset 550
+name NULL
+length 41
+====================
+There are no traces of the beastmen left.
+====================
+There are no traces of the beastmen left.
+====================
+
+====================
+index 6
+offset 610
+name NULL
+length 47
+====================
+And Takafumi has also vanished from this world.
+====================
+And Takafumi has also vanished from this world.
+====================
+
+====================
+index 7
+offset 676
+name NULL
+length 59
+====================
+After that, I learned a few facts from an old history book.
+====================
+After that, I learned a few facts from an old history book.
+====================
+
+====================
+index 8
+offset 1346
+name NULL
+length 88
+====================
+Long ago, a race known as the beastmen appeared in the central region of the continent. 
+====================
+Long ago, a race known as the beastmen appeared in the central region of the continent. 
+====================
+
+====================
+index 9
+offset 1450
+name NULL
+length 24
+====================
+Their origin is unknown.
+====================
+Their origin is unknown.
+====================
+
+====================
+index 10
+offset 1490
+name NULL
+length 126
+====================
+Some say that they suddenly evolved from humans, while others say they evolved from some other species, but nobody is certain.
+====================
+Some say that they suddenly evolved from humans, while others say they evolved from some other species, but nobody is certain.
+====================
+
+====================
+index 11
+offset 1652
+name NULL
+length 151
+====================
+About a thousand years ago, there was a great struggle between the beastmen and mankind, and this struggle brought mankind to the brink of destruction.
+====================
+About a thousand years ago, there was a great struggle between the beastmen and mankind, and this struggle brought mankind to the brink of destruction.
+====================
+
+====================
+index 12
+offset 1819
+name NULL
+length 83
+====================
+The beastmen took over the central and eastern regions of the continent in a flash.
+====================
+The beastmen took over the central and eastern regions of the continent in a flash.
+====================
+
+====================
+index 13
+offset 1918
+name NULL
+length 97
+====================
+Only the western region, the center of human civilization at the time, narrowly escaped conquest.
+====================
+Only the western region, the center of human civilization at the time, narrowly escaped conquest.
+====================
+
+====================
+index 14
+offset 2051
+name NULL
+length 171
+====================
+In the midst of their constant victories over the forces from different human countries, the beastmen were halted by an army of volunteers at a port in the western region.
+====================
+In the midst of their constant victories over the forces from different human countries, the beastmen were halted by an army of volunteers at a port in the western region.
+====================
+
+====================
+index 15
+offset 2238
+name NULL
+length 91
+====================
+Despite everyone's expectation of total defeat, the volunteer army fought off the beastmen.
+====================
+Despite everyone's expectation of total defeat, the volunteer army fought off the beastmen.
+====================
+
+====================
+index 16
+offset 2345
+name NULL
+length 58
+====================
+That battle marked the first tactical triumph for mankind.
+====================
+That battle marked the first tactical triumph for mankind.
+====================
+
+====================
+index 17
+offset 2439
+name NULL
+length 112
+====================
+Driven by their recent victory, the volunteer army invaded a metropolis to the south and reclaimed it in a week.
+====================
+Driven by their recent victory, the volunteer army invaded a metropolis to the south and reclaimed it in a week.
+====================
+
+====================
+index 18
+offset 2567
+name NULL
+length 88
+====================
+From there, they marched eastwards, constructed a base, and began mankind's retaliation.
+====================
+From there, they marched eastwards, constructed a base, and began mankind's retaliation.
+====================
+
+====================
+index 19
+offset 2691
+name NULL
+length 72
+====================
+The volunteer army met with the king before resuming their tour of duty.
+====================
+The volunteer army met with the king before resuming their tour of duty.
+====================
+
+====================
+index 20
+offset 2779
+name NULL
+length 149
+====================
+Only the names of four combatants have survived in the records. They rejected all reinforcements and fought only with the forces under their command.
+====================
+Only the names of four combatants have survived in the records. They rejected all reinforcements and fought only with the forces under their command.
+====================
+
+====================
+index 21
+offset 2944
+name NULL
+length 77
+====================
+Besides, the forces that still remained did not possess any fighting ability.
+====================
+Besides, the forces that still remained did not possess any fighting ability.
+====================
+
+====================
+index 22
+offset 3057
+name NULL
+length 121
+====================
+The magus \"Tomo\" was the volunteer army's leader, and she produced a tremendous number of \"Takafumis\" with her magic.
+====================
+The magus \"Tomo\" was the volunteer army's leader, and she produced a tremendous number of \"Takafumis\" with her magic.
+====================
+
+====================
+index 23
+offset 3194
+name NULL
+length 121
+====================
+The original \"Takafumi\", the first one created, was appointed commander of the army and proved to be a peerless leader.
+====================
+The original \"Takafumi\", the first one created, was appointed commander of the army and proved to be a peerless leader.
+====================
+
+====================
+index 24
+offset 3331
+name NULL
+length 205
+====================
+The natives and other volunteer troops were at first skeptical about the \"Takafumis\", who all looked the same. However, their suspicions faded as they learned about the Takafumis' active role in the war.
+====================
+The natives and other volunteer troops were at first skeptical about the \"Takafumis\", who all looked the same. However, their suspicions faded as they learned about the Takafumis' active role in the war.
+====================
+
+====================
+index 25
+offset 3552
+name NULL
+length 52
+====================
+\"Takifumi\" was greeted with jubilation everywhere.
+====================
+\"Takifumi\" was greeted with jubilation everywhere.
+====================
+
+====================
+index 26
+offset 3640
+name NULL
+length 93
+====================
+There were two others, an imperial knight and a squadron commander, who guarded \"Takafumi\".
+====================
+There were two others, an imperial knight and a squadron commander, who guarded \"Takafumi\".
+====================
+
+====================
+index 27
+offset 3787
+name NULL
+length 43
+====================
+Their names were \"Tomoyo\" and \"Tomoya\".
+====================
+Their names were \"Tomoyo\" and \"Tomoya\".
+====================
+
+====================
+index 28
+offset 3896
+name NULL
+length 43
+====================
+Their names were \"Tomoyo\" and \"Tomoya\".
+====================
+Their names were \"Tomoyo\" and \"Tomoya\".
+====================
+
+====================
+index 29
+offset 3955
+name NULL
+length 77
+====================
+It is said that while Tomoya was a human, he was loyally followed by a demon.
+====================
+It is said that while Tomoya was a human, he was loyally followed by a demon.
+====================
+
+====================
+index 30
+offset 4071
+name NULL
+length 63
+====================
+After about six months, the bloodiest part of the war was over.
+====================
+After about six months, the bloodiest part of the war was over.
+====================
+
+====================
+index 31
+offset 4150
+name NULL
+length 118
+====================
+The Takafumis that were created through magic strengthened the front lines and managed to hold back the beastmen army.
+====================
+The Takafumis that were created through magic strengthened the front lines and managed to hold back the beastmen army.
+====================
+
+====================
+index 32
+offset 4284
+name NULL
+length 139
+====================
+Understanding that a total victory was not necessary as long as they were not destroyed, the \"Takafumi\" switched to a defensive strategy.
+====================
+Understanding that a total victory was not necessary as long as they were not destroyed, the \"Takafumi\" switched to a defensive strategy.
+====================
+
+====================
+index 33
+offset 4439
+name NULL
+length 135
+====================
+The two proponents of this new strategy were \"Tomoyo\" and \"Tomoya\". The two of them toured everywhere and took charge of the front.
+====================
+The two proponents of this new strategy were \"Tomoyo\" and \"Tomoya\". The two of them toured everywhere and took charge of the front.
+====================
+
+====================
+index 34
+offset 4610
+name NULL
+length 20
+====================
+Another year lapsed.
+====================
+Another year lapsed.
+====================
+
+====================
+index 35
+offset 4646
+name NULL
+length 108
+====================
+Due to their solid defense, the strength of mankind at this point well exceeded the strength of their enemy.
+====================
+Due to their solid defense, the strength of mankind at this point well exceeded the strength of their enemy.
+====================
+
+====================
+index 36
+offset 4790
+name NULL
+length 77
+====================
+In response, the beastmen reinforced their strongholds with even more troops.
+====================
+In response, the beastmen reinforced their strongholds with even more troops.
+====================
+
+====================
+index 37
+offset 4883
+name NULL
+length 123
+====================
+The Takafumis' main squadron plotted to attack the enemy bases one by one in order to recapture their occupied territories.
+====================
+The Takafumis' main squadron plotted to attack the enemy bases one by one in order to recapture their occupied territories.
+====================
+
+====================
+index 38
+offset 5022
+name NULL
+length 169
+====================
+Takafumi's strategies, and the courage and valor displayed by Tomoyo and Tomoya in executing them on the battlefield, were celebrated by bards and minstrels of the time.
+====================
+Takafumi's strategies, and the courage and valor displayed by Tomoyo and Tomoya in executing them on the battlefield, were celebrated by bards and minstrels of the time.
+====================
+
+====================
+index 39
+offset 5227
+name NULL
+length 142
+====================
+The most intense battles at the time were most likely raging in the southwestern region of the continent and the plains of the central region.
+====================
+The most intense battles at the time were most likely raging in the southwestern region of the continent and the plains of the central region.
+====================
+
+====================
+index 40
+offset 5385
+name NULL
+length 165
+====================
+Several years after their formation, after many advances and retreats, the volunteer army finally succeeded in establishing a base in the continent's central region.
+====================
+Several years after their formation, after many advances and retreats, the volunteer army finally succeeded in establishing a base in the continent's central region.
+====================
+
+====================
+index 41
+offset 5586
+name NULL
+length 68
+====================
+In response, the beastmen withdrew its eastern expeditionary forces.
+====================
+In response, the beastmen withdrew its eastern expeditionary forces.
+====================
+
+====================
+index 42
+offset 5670
+name NULL
+length 98
+====================
+They began gathering all of their forces in preparation for a counterattack in the western region.
+====================
+They began gathering all of their forces in preparation for a counterattack in the western region.
+====================
+
+====================
+index 43
+offset 5784
+name NULL
+length 139
+====================
+Having assembled an army larger than had ever been seen before, the beastmen waited patiently for an opportunity to launch a counterattack.
+====================
+Having assembled an army larger than had ever been seen before, the beastmen waited patiently for an opportunity to launch a counterattack.
+====================
+
+====================
+index 44
+offset 5959
+name NULL
+length 93
+====================
+When Takafumi found out, he immediately launched an extensive offensive against the beastmen.
+====================
+When Takafumi found out, he immediately launched an extensive offensive against the beastmen.
+====================
+
+====================
+index 45
+offset 6088
+name NULL
+length 58
+====================
+This ultimately concluded in a narrow victory for mankind.
+====================
+This ultimately concluded in a narrow victory for mankind.
+====================
+
+====================
+index 46
+offset 6162
+name NULL
+length 132
+====================
+This was only possible because the volunteer army had successfully sealed the magical vessels set up at the beastmen's headquarters.
+====================
+This was only possible because the volunteer army had successfully sealed the magical vessels set up at the beastmen's headquarters.
+====================
+
+====================
+index 47
+offset 6310
+name NULL
+length 82
+====================
+As a result, the beastmen lost access to the spell used to provide reinforcements.
+====================
+As a result, the beastmen lost access to the spell used to provide reinforcements.
+====================
+
+====================
+index 48
+offset 6408
+name NULL
+length 100
+====================
+The beastmen's main regiment had also been destroyed through mankind's relentless attrition warfare.
+====================
+The beastmen's main regiment had also been destroyed through mankind's relentless attrition warfare.
+====================
+
+====================
+index 49
+offset 6524
+name NULL
+length 160
+====================
+Having lost the majority of its leaders, the beastmen army scattered. Each segment was attacked and annihilated by different countries' slowly resurging armies.
+====================
+Having lost the majority of its leaders, the beastmen army scattered. Each segment was attacked and annihilated by different countries' slowly resurging armies.
+====================
+
+====================
+index 50
+offset 6720
+name NULL
+length 88
+====================
+Takafumis' corps, having lost almost all of its forces, was not able to reform itself...
+====================
+Takafumis' corps, having lost almost all of its forces, was not able to reform itself...
+====================
+
+====================
+index 51
+offset 6824
+name NULL
+length 58
+====================
+...because the original \"Takafumi\" was killed in battle.
+====================
+...because the original \"Takafumi\" was killed in battle.
+====================
+
+====================
+index 52
+offset 6918
+name NULL
+length 156
+====================
+Even though Takafumi had drafted the plans for both the strategy of attrition and the offensive, he did not want there to be any mistakes in its execution. 
+====================
+Even though Takafumi had drafted the plans for both the strategy of attrition and the offensive, he did not want there to be any mistakes in its execution. 
+====================
+
+====================
+index 53
+offset 7090
+name NULL
+length 120
+====================
+For that reason, the original spearheaded the assault out of necessity, even though he normally commanded from the rear.
+====================
+For that reason, the original spearheaded the assault out of necessity, even though he normally commanded from the rear.
+====================
+
+====================
+index 54
+offset 7226
+name NULL
+length 65
+====================
+As a result, the operation succeeded, however, he died in battle.
+====================
+As a result, the operation succeeded, however, he died in battle.
+====================
+
+====================
+index 55
+offset 7327
+name NULL
+length 63
+====================
+Tomoyo and Tomoya were also killed in the midst of this battle.
+====================
+Tomoyo and Tomoya were also killed in the midst of this battle.
+====================
+
+====================
+index 56
+offset 7406
+name NULL
+length 126
+====================
+Allegedly, Tomoyo and Tomoya, who always stood on the front lines, were shrouded in the grief and gratitude of the Takafumis. 
+====================
+Allegedly, Tomoyo and Tomoya, who always stood on the front lines, were shrouded in the grief and gratitude of the Takafumis. 
+====================
+
+====================
+index 57
+offset 7606
+name NULL
+length 91
+====================
+The demon, having lost its master, ravaged the battlefield in revenge, and barely survived.
+====================
+The demon, having lost its master, ravaged the battlefield in revenge, and barely survived.
+====================
+
+====================
+index 58
+offset 7713
+name NULL
+length 69
+====================
+After the war, the demon was ushered in as a hero of all the nations.
+====================
+After the war, the demon was ushered in as a hero of all the nations.
+====================
+
+====================
+index 59
+offset 7798
+name NULL
+length 137
+====================
+However, it is said that after it had placed its weapon and armor next to the tomb honoring Tomoya's achievements, the demon disappeared.
+====================
+However, it is said that after it had placed its weapon and armor next to the tomb honoring Tomoya's achievements, the demon disappeared.
+====================
+
+====================
+index 60
+offset 7951
+name NULL
+length 88
+====================
+Even though the magical power has faded, the star-shaped armour is still there even now.
+====================
+Even though the magical power has faded, the star-shaped armour is still there even now.
+====================
+
+====================
+index 61
+offset 8081
+name NULL
+length 102
+====================
+For the next several decades, the \"Beastmen Hunting\" period continued and the beastmen went extinct.
+====================
+For the next several decades, the \"Beastmen Hunting\" period continued and the beastmen went extinct.
+====================
+
+====================
+index 62
+offset 8199
+name NULL
+length 58
+====================
+There have been no new sightings of beastmen ever since.  
+====================
+There have been no new sightings of beastmen ever since.  
+====================
+
+====================
+index 63
+offset 8296
+name NULL
+length 59
+====================
+Very few of the \"Takafumis\" who saved the world survived.
+====================
+Very few of the \"Takafumis\" who saved the world survived.
+====================
+
+====================
+index 64
+offset 8371
+name NULL
+length 106
+====================
+After the war ended, the Takafumis were imprisoned by the many nations' wizards or high ranking officials.
+====================
+After the war ended, the Takafumis were imprisoned by the many nations' wizards or high ranking officials.
+====================
+
+====================
+index 65
+offset 8493
+name NULL
+length 37
+====================
+Their goal was to reproduce Takafumi.
+====================
+Their goal was to reproduce Takafumi.
+====================
+
+====================
+index 66
+offset 8566
+name NULL
+length 167
+====================
+Lusting after more power and afraid that others would beat them to it, the wizards studied the Takafumis who had succeeded in eradicating the beastmen like no other.  
+====================
+Lusting after more power and afraid that others would beat them to it, the wizards studied the Takafumis who had succeeded in eradicating the beastmen like no other.  
+====================
+
+====================
+index 67
+offset 8749
+name NULL
+length 30
+====================
+However, they did not succeed.
+====================
+However, they did not succeed.
+====================
+
+====================
+index 68
+offset 8795
+name NULL
+length 133
+====================
+When Tomo silently left the country and went into hiding, the specialized magic she had used to create Takafumi disappeared with her.
+====================
+When Tomo silently left the country and went into hiding, the specialized magic she had used to create Takafumi disappeared with her.
+====================
+
+====================
+index 69
+offset 8964
+name NULL
+length 65
+====================
+Furthermore, there were whispered rumors about her true identity.
+====================
+Furthermore, there were whispered rumors about her true identity.
+====================
+
+====================
+index 70
+offset 9045
+name NULL
+length 83
+====================
+According to local folklore and records, she had the appearance of a five year old.
+====================
+According to local folklore and records, she had the appearance of a five year old.
+====================
+
+====================
+index 71
+offset 9144
+name NULL
+length 163
+====================
+There was no doubt that she had the tremendous magical abilities capable of creating the Takafumis and annihilating the beastmen, but little was known beyond that.
+====================
+There was no doubt that she had the tremendous magical abilities capable of creating the Takafumis and annihilating the beastmen, but little was known beyond that.
+====================
+
+====================
+index 72
+offset 9326
+name NULL
+length 80
+====================
+It is said that she only told people she trusted about how she created Takafumi.
+====================
+It is said that she only told people she trusted about how she created Takafumi.
+====================
+
+====================
+index 73
+offset 9442
+name NULL
+length 85
+====================
+Even so, they tried to carry out their research with the little information they had.
+====================
+Even so, they tried to carry out their research with the little information they had.
+====================
+
+====================
+index 74
+offset 9543
+name NULL
+length 84
+====================
+However, the Takafumi that they eventually created was just a doll without emotions.
+====================
+However, the Takafumi that they eventually created was just a doll without emotions.
+====================
+
+====================
+index 75
+offset 9643
+name NULL
+length 110
+====================
+Further study by the increasingly frustrated researchers led nowhere; the cloning technology was lost forever.
+====================
+Further study by the increasingly frustrated researchers led nowhere; the cloning technology was lost forever.
+====================
+
+====================
+index 76
+offset 9789
+name NULL
+length 64
+====================
+Now, there are only a few Takafumi clones left on the continent.
+====================
+Now, there are only a few Takafumi clones left on the continent.
+====================
+
+====================
+index 77
+offset 9869
+name NULL
+length 77
+====================
+And they are no more than artifacts used to showcase the culture of the time.
+====================
+And they are no more than artifacts used to showcase the culture of the time.
+====================
+
+====================
+index 78
+offset 10481
+name NULL
+length 50
+====================
+I've earnestly read history books ever since then.
+====================
+I've earnestly read history books ever since then.
+====================
+
+====================
+index 79
+offset 10547
+name NULL
+length 93
+====================
+As a result, knowing all about the past and seeing that there was work to be done, I changed.
+====================
+As a result, knowing all about the past and seeing that there was work to be done, I changed.
+====================
+
+====================
+index 80
+offset 10659
+name NULL
+length 68
+====================
+First, I stopped trying to find excuses to run away from the office.
+====================
+First, I stopped trying to find excuses to run away from the office.
+====================
+
+====================
+index 81
+offset 10743
+name NULL
+length 95
+====================
+And whenever I would find myself against a brick wall, I'd beg for the wisdom of our ancestors.
+====================
+And whenever I would find myself against a brick wall, I'd beg for the wisdom of our ancestors.
+====================
+
+====================
+index 82
+offset 10854
+name NULL
+length 100
+====================
+I was strict with myself, and I tried to cultivate better judgement and a discerning eye for people.
+====================
+I was strict with myself, and I tried to cultivate better judgement and a discerning eye for people.
+====================
+
+====================
+index 83
+offset 10970
+name NULL
+length 63
+====================
+I always thought about what it meant to be fair before I acted.
+====================
+I always thought about what it meant to be fair before I acted.
+====================
+
+====================
+index 84
+offset 11049
+name NULL
+length 71
+====================
+These were all necessary for me to lead my country and achieve my goal.
+====================
+These were all necessary for me to lead my country and achieve my goal.
+====================
+
+====================
+index 85
+offset 11139
+name NULL
+length 83
+====================
+In order to earn the support of the citizens and soldiers, I fought from the front.
+====================
+In order to earn the support of the citizens and soldiers, I fought from the front.
+====================
+
+====================
+index 86
+offset 11238
+name NULL
+length 77
+====================
+Focusing on education, I was also successful at enhancing our national power.
+====================
+Focusing on education, I was also successful at enhancing our national power.
+====================
+
+====================
+index 87
+offset 11331
+name NULL
+length 107
+====================
+Even those who thought that my actions were just the whims of a princess eventually came to acknowledge me.
+====================
+Even those who thought that my actions were just the whims of a princess eventually came to acknowledge me.
+====================
+
+====================
+index 88
+offset 11457
+name NULL
+length 55
+====================
+A few years later, my father entrusted his title to me.
+====================
+A few years later, my father entrusted his title to me.
+====================
+
+====================
+index 89
+offset 11528
+name NULL
+length 33
+====================
+No one objected to my succession.
+====================
+No one objected to my succession.
+====================
+
+====================
+index 90
+offset 11577
+name NULL
+length 72
+====================
+Everyone was delighted to see that I had grown up, and they accepted me.
+====================
+Everyone was delighted to see that I had grown up, and they accepted me.
+====================
+
+====================
+index 91
+offset 11665
+name NULL
+length 37
+====================
+However, that gave me little comfort.
+====================
+However, that gave me little comfort.
+====================
+
+====================
+index 92
+offset 11721
+name NULL
+length 91
+====================
+I started to plan out the construction of the Royal Museum which I had been thinking about.
+====================
+I started to plan out the construction of the Royal Museum which I had been thinking about.
+====================
+
+====================
+index 93
+offset 11828
+name NULL
+length 69
+====================
+The seeds I had spread when I was a princess easily came to fruition.
+====================
+The seeds I had spread when I was a princess easily came to fruition.
+====================
+
+====================
+index 94
+offset 11916
+name NULL
+length 119
+====================
+Spearheading the effort, I negotiated with each country, and collected and excavated artworks and valuable furnishings.
+====================
+Spearheading the effort, I negotiated with each country, and collected and excavated artworks and valuable furnishings.
+====================
+
+====================
+index 95
+offset 12051
+name NULL
+length 80
+====================
+Leaving the country and going to excavation sites became a daily routine for me.
+====================
+Leaving the country and going to excavation sites became a daily routine for me.
+====================
+
+====================
+index 96
+offset 12150
+name NULL
+length 81
+====================
+About a year after I proposed the plan, I thought I had finally achieved my goal.
+====================
+About a year after I proposed the plan, I thought I had finally achieved my goal.
+====================
+
+====================
+index 97
+offset 12247
+name NULL
+length 117
+====================
+I finally discovered what I was looking for in a destroyed fort of a neighboring country, being worshiped as a relic.
+====================
+I finally discovered what I was looking for in a destroyed fort of a neighboring country, being worshiped as a relic.
+====================
+
+====================
+index 98
+offset 12380
+name NULL
+length 16
+====================
+It was Takafumi.
+====================
+It was Takafumi.
+====================
+
+====================
+index 99
+offset 12415
+name NULL
+length 45
+====================
+The goal of all of this was to find Takafumi.
+====================
+The goal of all of this was to find Takafumi.
+====================
+
+====================
+index 100
+offset 12476
+name NULL
+length 61
+====================
+For that goal, I had gritted my teeth and endured everything.
+====================
+For that goal, I had gritted my teeth and endured everything.
+====================
+
+====================
+index 101
+offset 12553
+name NULL
+length 10
+====================
+However...
+====================
+However...
+====================
+
+====================
+index 102
+offset 13040
+name Attendant
+length 27
+====================
+\"He's already... dead...\"
+====================
+\"He's already... dead...\"
+====================
+
+====================
+index 103
+offset 13117
+name Kanako
+length 20
+====================
+\"That can't be...\"
+====================
+\"That can't be...\"
+====================
+
+====================
+index 104
+offset 13153
+name NULL
+length 20
+====================
+Takafumi won't move.
+====================
+Takafumi won't move.
+====================
+
+====================
+index 105
+offset 13189
+name NULL
+length 49
+====================
+He's as silent as a doll, and he is rotting away.
+====================
+He's as silent as a doll, and he is rotting away.
+====================
+
+====================
+index 106
+offset 13677
+name NULL
+length 58
+====================
+Nevertheless, refusing to lose hope, I continue to search.
+====================
+Nevertheless, refusing to lose hope, I continue to search.
+====================
+
+====================
+index 107
+offset 13751
+name NULL
+length 44
+====================
+From then on, I found many of the Takafumis,
+====================
+From then on, I found many of the Takafumis,
+====================
+
+====================
+index 108
+offset 13811
+name NULL
+length 23
+====================
+but they were all dead.
+====================
+but they were all dead.
+====================
+
+====================
+index 109
+offset 13853
+name NULL
+length 149
+====================
+Before I knew it, the Royal Museum had stared to attract visitors from every country; all of them coming to catch a glimpse of how much it had grown.
+====================
+Before I knew it, the Royal Museum had stared to attract visitors from every country; all of them coming to catch a glimpse of how much it had grown.
+====================
+
+====================
+index 110
+offset 14018
+name NULL
+length 96
+====================
+My worried aide suggests that we put an end to our search for Takafumi, but I stubbornly refuse.
+====================
+My worried aide suggests that we put an end to our search for Takafumi, but I stubbornly refuse.
+====================
+
+====================
+index 111
+offset 14130
+name NULL
+length 114
+====================
+There are even conversations about finding somebody for me to marry, but I silence them with a wave of my sword.  
+====================
+There are even conversations about finding somebody for me to marry, but I silence them with a wave of my sword.  
+====================
+
+====================
+index 112
+offset 14263
+name NULL
+length 67
+====================
+Still, it is exhausting to only be supported by my own strong will.
+====================
+Still, it is exhausting to only be supported by my own strong will.
+====================
+
+====================
+index 113
+offset 14349
+name NULL
+length 114
+====================
+But then, we receive information that a body very similar to Takafumi's was found in a small country to the west. 
+====================
+But then, we receive information that a body very similar to Takafumi's was found in a small country to the west. 
+====================
+
+====================
+index 114
+offset 14479
+name NULL
+length 84
+====================
+I order the cavalry commander to go there, and I rush there faster than anyone else.
+====================
+I order the cavalry commander to go there, and I rush there faster than anyone else.
+====================
+
+====================
+index 115
+offset 15003
+name NULL
+length 26
+====================
+It's like a paradise here.
+====================
+It's like a paradise here.
+====================
+
+====================
+index 116
+offset 15045
+name NULL
+length 33
+====================
+Lush greenery; the air is serene.
+====================
+Lush greenery; the air is serene.
+====================
+
+====================
+index 117
+offset 15094
+name NULL
+length 100
+====================
+I look up and see a pure white bird. Beyond that are the ruins of what were once towering buildings.
+====================
+I look up and see a pure white bird. Beyond that are the ruins of what were once towering buildings.
+====================
+
+====================
+index 118
+offset 15210
+name NULL
+length 104
+====================
+With densely grown moss and ivy covering the building, it looked like it was nurtured by nature itself. 
+====================
+With densely grown moss and ivy covering the building, it looked like it was nurtured by nature itself. 
+====================
+
+====================
+index 119
+offset 15330
+name NULL
+length 57
+====================
+As I approach them, the small birds take off all at once.
+====================
+As I approach them, the small birds take off all at once.
+====================
+
+====================
+index 120
+offset 15403
+name NULL
+length 68
+====================
+Beyond that, the figure of a person is leaning against a large tree.
+====================
+Beyond that, the figure of a person is leaning against a large tree.
+====================
+
+====================
+index 121
+offset 15535
+name NULL
+length 48
+====================
+It is... the person I had always wanted to meet.
+====================
+It is... the person I had always wanted to meet.
+====================
+
+====================
+index 122
+offset 15599
+name NULL
+length 80
+====================
+I ask the cavalry commander to clear the area; I want to be alone with Takafumi.
+====================
+I ask the cavalry commander to clear the area; I want to be alone with Takafumi.
+====================
+
+====================
+index 123
+offset 15695
+name NULL
+length 67
+====================
+Cutting Takafumi free from the ivy with a knife, I shake him awake.
+====================
+Cutting Takafumi free from the ivy with a knife, I shake him awake.
+====================
+
+====================
+index 124
+offset 15812
+name Kanako
+length 10
+====================
+\"Hey...\"
+====================
+\"Hey...\"
+====================
+
+====================
+index 125
+offset 15872
+name Kanako
+length 14
+====================
+\"Wake up...\"
+====================
+\"Wake up...\"
+====================
+
+====================
+index 126
+offset 16075
+name Takafumi
+length 13
+====================
+\".........\"
+====================
+\".........\"
+====================
+
+====================
+index 127
+offset 16104
+name NULL
+length 14
+====================
+His eyes open.
+====================
+His eyes open.
+====================
+
+====================
+index 128
+offset 16134
+name NULL
+length 29
+====================
+But his eyes aren't in focus.
+====================
+But his eyes aren't in focus.
+====================
+
+====================
+index 129
+offset 16179
+name NULL
+length 18
+====================
+Can he... not see?
+====================
+Can he... not see?
+====================
+
+====================
+index 130
+offset 16247
+name Kanako
+length 26
+====================
+\"Do you... remember me?\"
+====================
+\"Do you... remember me?\"
+====================
+
+====================
+index 131
+offset 16289
+name NULL
+length 6
+====================
+I ask.
+====================
+I ask.
+====================
+
+====================
+index 132
+offset 16347
+name Takafumi
+length 13
+====================
+\".........\"
+====================
+\".........\"
+====================
+
+====================
+index 133
+offset 16412
+name Takafumi
+length 62
+====================
+\"Sorry to disappoint you... but I have no idea who you are.\"
+====================
+\"Sorry to disappoint you... but I have no idea who you are.\"
+====================
+
+====================
+index 134
+offset 16524
+name Kanako
+length 40
+====================
+\"Surely that's because you can't see.\"
+====================
+\"Surely that's because you can't see.\"
+====================
+
+====================
+index 135
+offset 16614
+name Kanako
+length 46
+====================
+\"If you could see, then you would remember.\"
+====================
+\"If you could see, then you would remember.\"
+====================
+
+====================
+index 136
+offset 16712
+name Takafumi
+length 66
+====================
+\"I'm sorry to disappoint you... but I have no idea who you are.\"
+====================
+\"I'm sorry to disappoint you... but I have no idea who you are.\"
+====================
+
+====================
+index 137
+offset 16828
+name Kanako
+length 17
+====================
+\"I'm Kanako...\"
+====================
+\"I'm Kanako...\"
+====================
+
+====================
+index 138
+offset 16895
+name Kanako
+length 34
+====================
+\"Do you really... not remember?\"
+====================
+\"Do you really... not remember?\"
+====================
+
+====================
+index 139
+offset 16981
+name Takafumi
+length 18
+====================
+\"I'm afraid so.\"
+====================
+\"I'm afraid so.\"
+====================
+
+====================
+index 140
+offset 17049
+name Kanako
+length 12
+====================
+\"I see...\"
+====================
+\"I see...\"
+====================
+
+====================
+index 141
+offset 17113
+name Takafumi
+length 90
+====================
+\"However, there is something I should say on behalf of someone else who shares my name.\"
+====================
+\"However, there is something I should say on behalf of someone else who shares my name.\"
+====================
+
+====================
+index 142
+offset 17278
+name Kanako
+length 10
+====================
+\"Eh...?\"
+====================
+\"Eh...?\"
+====================
+
+====================
+index 143
+offset 17340
+name Takafumi
+length 19
+====================
+\"Just one thing.\"
+====================
+\"Just one thing.\"
+====================
+
+====================
+index 144
+offset 17435
+name Takafumi
+length 13
+====================
+\"I'm home.\"
+====================
+\"I'm home.\"
+====================
+
+====================
+index 145
+offset 17464
+name NULL
+length 32
+====================
+It feels as if time had stopped.
+====================
+It feels as if time had stopped.
+====================
+
+====================
+index 146
+offset 17512
+name NULL
+length 38
+====================
+It feels just like it did back then...
+====================
+It feels just like it did back then...
+====================
+
+====================
+index 147
+offset 17566
+name NULL
+length 81
+====================
+Right now, Takafumi is right beside me... It feels as if it has been an eternity.
+====================
+Right now, Takafumi is right beside me... It feels as if it has been an eternity.
+====================
+
+====================
+index 148
+offset 17663
+name NULL
+length 55
+====================
+However, he sacrificed himself for 'the present world',
+====================
+However, he sacrificed himself for 'the present world',
+====================
+
+====================
+index 149
+offset 17734
+name NULL
+length 21
+====================
+so I have to move on.
+====================
+so I have to move on.
+====================
+
+====================
+index 150
+offset 17805
+name Kanako
+length 27
+====================
+\"Welcome back, Takafumi.\"
+====================
+\"Welcome back, Takafumi.\"
+====================
+
+====================
+index 151
+offset 17882
+name Kanako
+length 46
+====================
+\"Thanks for waiting for me this whole time.\"
+====================
+\"Thanks for waiting for me this whole time.\"
+====================
+
+====================
+index 152
+offset 17978
+name Kanako
+length 33
+====================
+\"Also... thanks for your help.\"
+====================
+\"Also... thanks for your help.\"
+====================
+
+====================
+index 153
+offset 18061
+name Kanako
+length 24
+====================
+\"It's all over now...\"
+====================
+\"It's all over now...\"
+====================
+
+====================
+index 154
+offset 18135
+name Kanako
+length 37
+====================
+\"You don't need to wait anymore...\"
+====================
+\"You don't need to wait anymore...\"
+====================
+
+====================
+index 155
+offset 18222
+name Kanako
+length 45
+====================
+\"From now on, I will always be near you...\"
+====================
+\"From now on, I will always be near you...\"
+====================
+
+====================
+index 156
+offset 18317
+name Kanako
+length 11
+====================
+\"Okay...\"
+====================
+\"Okay...\"
+====================
+
+====================
+index 157
+offset 18403
+name Kanako
+length 28
+====================
+\"So, everything's okay...\"
+====================
+\"So, everything's okay...\"
+====================
+
+====================
+index 158
+offset 18481
+name Kanako
+length 17
+====================
+\"That's why...\"
+====================
+\"That's why...\"
+====================
+
+====================
+index 159
+offset 18548
+name Kanako
+length 28
+====================
+\"...good night, Takafumi.\"
+====================
+\"...good night, Takafumi.\"
+====================
+
+====================
+index 160
+offset 19468
+name Kanako
+length 44
+====================
+\"How's that, isn't this my greatest work?\"
+====================
+\"How's that, isn't this my greatest work?\"
+====================
+
+====================
+index 161
+offset 19834
+name Kanako
+length 25
+====================
+\"Wha- Everybody left?!\"
+====================
+\"Wha- Everybody left?!\"
+====================
+
+====================
+index 162
+offset 19909
+name Tomoya
+length 93
+====================
+\"That's because no one else has the time to clear the game from start to finish in one go.\"
+====================
+\"That's because no one else has the time to clear the game from start to finish in one go.\"
+====================

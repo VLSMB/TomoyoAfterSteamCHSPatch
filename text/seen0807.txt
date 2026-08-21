@@ -1,0 +1,145 @@
+type seen807
+count 13
+
+====================
+index 1
+offset 263
+name NULL
+length 16
+====================
+August 7th (Sat)
+====================
+August 7th (Sat)
+====================
+
+====================
+index 2
+offset 1189
+name NULL
+length 71
+====================
+Due to Kanako's comment, I decided to follow the lead about the letter.
+====================
+Due to Kanako's comment, I decided to follow the lead about the letter.
+====================
+
+====================
+index 3
+offset 1276
+name NULL
+length 107
+====================
+Pouring into the books I checked out from the library, I look for anything that might lead me to something.
+====================
+Pouring into the books I checked out from the library, I look for anything that might lead me to something.
+====================
+
+====================
+index 4
+offset 1706
+name Tomoyo
+length 25
+====================
+\"What are you reading?\"
+====================
+\"What are you reading?\"
+====================
+
+====================
+index 5
+offset 1781
+name Tomoya
+length 32
+====================
+\"...a book about calligraphy.\"
+====================
+\"...a book about calligraphy.\"
+====================
+
+====================
+index 6
+offset 1863
+name Tomoya
+length 81
+====================
+\"Kanako was wondering why the letter was written with brush drawn calligraphy.\"
+====================
+\"Kanako was wondering why the letter was written with brush drawn calligraphy.\"
+====================
+
+====================
+index 7
+offset 1994
+name Tomoya
+length 59
+====================
+\"So, well, I thought it might lead to some sort of hint.\"
+====================
+\"So, well, I thought it might lead to some sort of hint.\"
+====================
+
+====================
+index 8
+offset 2069
+name NULL
+length 41
+====================
+I say without looking away from the book.
+====================
+I say without looking away from the book.
+====================
+
+====================
+index 9
+offset 2160
+name Tomoyo
+length 28
+====================
+\"Have you found anything?\"
+====================
+\"Have you found anything?\"
+====================
+
+====================
+index 10
+offset 2238
+name Tomoya
+length 28
+====================
+\"...Not in the slightest.\"
+====================
+\"...Not in the slightest.\"
+====================
+
+====================
+index 11
+offset 2552
+name NULL
+length 104
+====================
+To tell the truth, all the examples of the different calligraphy styles in the book look the same to me.
+====================
+To tell the truth, all the examples of the different calligraphy styles in the book look the same to me.
+====================
+
+====================
+index 12
+offset 2672
+name NULL
+length 134
+====================
+I thought if her handwriting had something unique to it, I would perhaps learn something, but there is nothing I can decipher from it.
+====================
+I thought if her handwriting had something unique to it, I would perhaps learn something, but there is nothing I can decipher from it.
+====================
+
+====================
+index 13
+offset 2822
+name NULL
+length 85
+====================
+It may feel like a waste of time, but I keep flipping through the pages relentlessly.
+====================
+It may feel like a waste of time, but I keep flipping through the pages relentlessly.
+====================

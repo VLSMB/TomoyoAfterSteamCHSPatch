@@ -1,0 +1,68 @@
+type seen7400
+count 6
+
+====================
+index 1
+offset 3552
+name NULL
+length 30
+====================
+The enemy has started to flee!
+====================
+The enemy has started to flee!
+====================
+
+====================
+index 2
+offset 3734
+name NULL
+length 30
+====================
+The enemy has started to flee!
+====================
+The enemy has started to flee!
+====================
+
+====================
+index 3
+offset 3797
+name NULL
+length 28
+====================
+Entering extermination mode.
+====================
+Entering extermination mode.
+====================
+
+====================
+index 4
+offset 3977
+name NULL
+length 28
+====================
+Entering extermination mode.
+====================
+Entering extermination mode.
+====================
+
+====================
+index 5
+offset 23507
+name NULL
+length 39
+====================
+Retreat and return to the ground level.
+====================
+Retreat and return to the ground level.
+====================
+
+====================
+index 6
+offset 23698
+name NULL
+length 39
+====================
+Retreat and return to the ground level.
+====================
+Retreat and return to the ground level.
+====================

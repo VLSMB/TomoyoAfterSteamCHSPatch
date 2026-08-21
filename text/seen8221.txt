@@ -1,0 +1,90 @@
+type seen8221
+count 8
+
+====================
+index 1
+offset 2018
+name NULL
+length 12
+====================
+Red beastman
+====================
+Red beastman
+====================
+
+====================
+index 2
+offset 2076
+name NULL
+length 8
+====================
+Beastman
+====================
+Beastman
+====================
+
+====================
+index 3
+offset 2130
+name NULL
+length 13
+====================
+Blue beastman
+====================
+Blue beastman
+====================
+
+====================
+index 4
+offset 2189
+name NULL
+length 8
+====================
+Beastman
+====================
+Beastman
+====================
+
+====================
+index 5
+offset 2243
+name NULL
+length 8
+====================
+Beastman
+====================
+Beastman
+====================
+
+====================
+index 6
+offset 2297
+name NULL
+length 5
+====================
+Golem
+====================
+Golem
+====================
+
+====================
+index 7
+offset 2348
+name NULL
+length 9
+====================
+Last Boss
+====================
+Last Boss
+====================
+
+====================
+index 8
+offset 2403
+name NULL
+length 19
+====================
+ has been confused!
+====================
+ has been confused!
+====================

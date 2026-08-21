@@ -1,0 +1,57 @@
+type seen724
+count 5
+
+====================
+index 1
+offset 263
+name NULL
+length 15
+====================
+July 24th (Sat)
+====================
+July 24th (Sat)
+====================
+
+====================
+index 2
+offset 714
+name NULL
+length 44
+====================
+Even during work, I continue image training.
+====================
+Even during work, I continue image training.
+====================
+
+====================
+index 3
+offset 774
+name NULL
+length 73
+====================
+I can already remember the keys' positions even without the keyboard now.
+====================
+I can already remember the keys' positions even without the keyboard now.
+====================
+
+====================
+index 4
+offset 897
+name Tomoya
+length 70
+====================
+(I keep mastering abilities that have absolutely no use for my job...)
+====================
+(I keep mastering abilities that have absolutely no use for my job...)
+====================
+
+====================
+index 5
+offset 1406
+name NULL
+length 51
+====================
+Even on my day off, I spend all my time practicing.
+====================
+Even on my day off, I spend all my time practicing.
+====================

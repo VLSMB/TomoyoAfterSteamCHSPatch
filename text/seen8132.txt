@@ -1,0 +1,90 @@
+type seen8132
+count 8
+
+====================
+index 1
+offset 1521
+name NULL
+length 12
+====================
+Red beastman
+====================
+Red beastman
+====================
+
+====================
+index 2
+offset 1579
+name NULL
+length 8
+====================
+Beastman
+====================
+Beastman
+====================
+
+====================
+index 3
+offset 1633
+name NULL
+length 13
+====================
+Blue beastman
+====================
+Blue beastman
+====================
+
+====================
+index 4
+offset 1692
+name NULL
+length 8
+====================
+Beastman
+====================
+Beastman
+====================
+
+====================
+index 5
+offset 1746
+name NULL
+length 8
+====================
+Beastman
+====================
+Beastman
+====================
+
+====================
+index 6
+offset 1800
+name NULL
+length 5
+====================
+Golem
+====================
+Golem
+====================
+
+====================
+index 7
+offset 1851
+name NULL
+length 9
+====================
+Last Boss
+====================
+Last Boss
+====================
+
+====================
+index 8
+offset 1906
+name NULL
+length 19
+====================
+ has fallen asleep!
+====================
+ has fallen asleep!
+====================

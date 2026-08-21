@@ -1,0 +1,552 @@
+type seen1
+count 50
+
+====================
+index 1
+offset 357
+name NULL
+length 24
+====================
+DUNGEONS&TAKAFUMIS START
+====================
+DUNGEONS&TAKAFUMIS START
+====================
+
+====================
+index 2
+offset 386
+name NULL
+length 16
+====================
+Main story START
+====================
+Main story START
+====================
+
+====================
+index 3
+offset 407
+name NULL
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 4
+offset 425
+name NULL
+length 23
+====================
+- Test Sentence - 3 4 5
+====================
+- Test Sentence - 3 4 5
+====================
+
+====================
+index 5
+offset 453
+name NULL
+length 25
+====================
+- Test Sentence - 3 4 ...
+====================
+- Test Sentence - 3 4 ...
+====================
+
+====================
+index 6
+offset 483
+name NULL
+length 23
+====================
+- Test Sentence - 3 5 5
+====================
+- Test Sentence - 3 5 5
+====================
+
+====================
+index 7
+offset 1159
+name Tomoya
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 8
+offset 1198
+name Tomo
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 9
+offset 1253
+name Old mysterious woman
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 10
+offset 1307
+name Calligraphy teacher
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 11
+offset 1355
+name Tomoyo,Tomoya
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 12
+offset 1403
+name Elderly woman
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 13
+offset 1450
+name Girl student
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 14
+offset 1496
+name Housewife A
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 15
+offset 1542
+name Housewife B
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 16
+offset 1588
+name Dark figure
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 17
+offset 1634
+name Elderly man
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 18
+offset 1680
+name Boy student
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 19
+offset 1726
+name Little girl
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 20
+offset 1770
+name Old woman
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 21
+offset 1814
+name Housewife
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 22
+offset 1858
+name Caretaker
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 23
+offset 1901
+name Villager
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 24
+offset 1944
+name Takafumi
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 25
+offset 1986
+name Naoyuki
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 26
+offset 2028
+name Teacher
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 27
+offset 2070
+name Captain
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 28
+offset 2111
+name Tomoyo
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 29
+offset 2152
+name Tomoya
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 30
+offset 2193
+name Kanako
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 31
+offset 2233
+name Ogawa
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 32
+offset 2273
+name Panda
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 33
+offset 2312
+name Tomo
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 34
+offset 2351
+name Girl
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 35
+offset 2389
+name Man
+length 13
+====================
+- Test Name -
+====================
+- Test Name -
+====================
+
+====================
+index 36
+offset 3326
+name Tomoya
+length 53
+====================
+\"I'm finally allowed to make the rounds by myself.\"
+====================
+\"I'm finally allowed to make the rounds by myself.\"
+====================
+
+====================
+index 37
+offset 3461
+name Takafumi
+length 173
+====================
+\"Earlier, there was an earthquake. When that kind of danger approaches, the disaster prevention equipment activates and makes it so that the apartment can fly in the sky.\"
+====================
+\"Earlier, there was an earthquake. When that kind of danger approaches, the disaster prevention equipment activates and makes it so that the apartment can fly in the sky.\"
+====================
+
+====================
+index 38
+offset 3752
+name Kanako
+length 263
+====================
+\"Be sure to rename this village Kanakoville, build a bronze statue of me, and sing the praises of the cute girl who fell battling the strongest bear in the world to all the sightseers who ever visit, and then pass this legend down for about a thousand years...\"
+====================
+\"Be sure to rename this village Kanakoville, build a bronze statue of me, and sing the praises of the cute girl who fell battling the strongest bear in the world to all the sightseers who ever visit, and then pass this legend down for about a thousand years...\"
+====================
+
+====================
+index 39
+offset 4966
+name Tomoya
+length 53
+====================
+\"I'm finally allowed to make the rounds by myself.\"
+====================
+\"I'm finally allowed to make the rounds by myself.\"
+====================
+
+====================
+index 40
+offset 5101
+name Takafumi
+length 173
+====================
+\"Earlier, there was an earthquake. When that kind of danger approaches, the disaster prevention equipment activates and makes it so that the apartment can fly in the sky.\"
+====================
+\"Earlier, there was an earthquake. When that kind of danger approaches, the disaster prevention equipment activates and makes it so that the apartment can fly in the sky.\"
+====================
+
+====================
+index 41
+offset 5339
+name NULL
+length 150
+====================
+He tells us there's only one path so we don't need to worry about getting lost, but then sympathizes with us over just how much further we have to go.
+====================
+He tells us there's only one path so we don't need to worry about getting lost, but then sympathizes with us over just how much further we have to go.
+====================
+
+====================
+index 42
+offset 5554
+name NULL
+length 175
+====================
+So much that it makes me think that, even though this place looks like a hospital, perhaps this is just a stage, and they are all just actors putting on a play to toy with me.
+====================
+So much that it makes me think that, even though this place looks like a hospital, perhaps this is just a stage, and they are all just actors putting on a play to toy with me.
+====================
+
+====================
+index 43
+offset 5794
+name NULL
+length 173
+====================
+Now that she's resigned as student council president, that skill is focused solely on me, but if she uses the Internet, it can reach a lot of people. More than before, even.
+====================
+Now that she's resigned as student council president, that skill is focused solely on me, but if she uses the Internet, it can reach a lot of people. More than before, even.
+====================
+
+====================
+index 44
+offset 6066
+name Kanako
+length 195
+====================
+\"Don't you know that I was a candidate for student council president, won after my speech that was all jokes and no platform was a big hit, and then had my position revoked in a staff meeting?\"
+====================
+\"Don't you know that I was a candidate for student council president, won after my speech that was all jokes and no platform was a big hit, and then had my position revoked in a staff meeting?\"
+====================
+
+====================
+index 45
+offset 6360
+name Kanako
+length 188
+====================
+\"I thought she was taking too long when she went in and didn't come out for like ten minutes, so I knocked on the door, but she didn't answer. And when I peeked in on her, she was gone.\"
+====================
+\"I thought she was taking too long when she went in and didn't come out for like ten minutes, so I knocked on the door, but she didn't answer. And when I peeked in on her, she was gone.\"
+====================
+
+====================
+index 46
+offset 6649
+name Takafumi
+length 173
+====================
+\"That aside, even though you told us to use it in moderation, you got pretty addicted to the Internet yourself, Nee-chan. You are even saying things like sites and posts.\"
+====================
+\"That aside, even though you told us to use it in moderation, you got pretty addicted to the Internet yourself, Nee-chan. You are even saying things like sites and posts.\"
+====================
+
+====================
+index 47
+offset 6887
+name NULL
+length 203
+====================
+If I can't remember the apartment I live in, the school that I attended for three years, or even the girl whom I've always dated, it's not surprising that I can't recall anything by looking at this dorm.
+====================
+If I can't remember the apartment I live in, the school that I attended for three years, or even the girl whom I've always dated, it's not surprising that I can't recall anything by looking at this dorm.
+====================
+
+====================
+index 48
+offset 8033
+name Tomoya
+length 53
+====================
+\"I'm finally allowed to make the rounds by myself.\"
+====================
+\"I'm finally allowed to make the rounds by myself.\"
+====================
+
+====================
+index 49
+offset 8185
+name Kanako
+length 263
+====================
+\"Be sure to rename this village Kanakoville, build a bronze statue of me, and sing the praises of the cute girl who fell battling the strongest bear in the world to all the sightseers who ever visit, and then pass this legend down for about a thousand years...\"
+====================
+\"Be sure to rename this village Kanakoville, build a bronze statue of me, and sing the praises of the cute girl who fell battling the strongest bear in the world to all the sightseers who ever visit, and then pass this legend down for about a thousand years...\"
+====================
+
+====================
+index 50
+offset 8555
+name Kanako
+length 280
+====================
+\"This is the story about the attractive detective Tomo, who has been turned into a child by medicine created by the Organization of Darkness. Despite that, she retains her intelligence and puts adults to shame as a mystery detective by solving one difficult case after another.\"
+====================
+\"This is the story about the attractive detective Tomo, who has been turned into a child by medicine created by the Organization of Darkness. Despite that, she retains her intelligence and puts adults to shame as a mystery detective by solving one difficult case after another.\"
+====================

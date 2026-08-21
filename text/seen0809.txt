@@ -1,0 +1,464 @@
+type seen809
+count 42
+
+====================
+index 1
+offset 263
+name NULL
+length 16
+====================
+August 9th (Mon)
+====================
+August 9th (Mon)
+====================
+
+====================
+index 2
+offset 716
+name NULL
+length 62
+====================
+The next day, I visit each of the calligraphy schools in town.
+====================
+The next day, I visit each of the calligraphy schools in town.
+====================
+
+====================
+index 3
+offset 794
+name NULL
+length 139
+====================
+Now that I've gone through the books, I realize that the calligraphy used in the letter are comparable to the strokes in the illustrations.
+====================
+Now that I've gone through the books, I realize that the calligraphy used in the letter are comparable to the strokes in the illustrations.
+====================
+
+====================
+index 4
+offset 949
+name NULL
+length 75
+====================
+Since she used to live in this town, I thought perhaps somebody would know.
+====================
+Since she used to live in this town, I thought perhaps somebody would know.
+====================
+
+====================
+index 5
+offset 1040
+name NULL
+length 124
+====================
+Even though it's only a hunch, I thought it's still better than going about it without the slightest clue of what I'm doing.
+====================
+Even though it's only a hunch, I thought it's still better than going about it without the slightest clue of what I'm doing.
+====================
+
+====================
+index 6
+offset 1180
+name NULL
+length 27
+====================
+There isn't much time left.
+====================
+There isn't much time left.
+====================
+
+====================
+index 7
+offset 1223
+name NULL
+length 50
+====================
+Once the sun sets, it'd be hard to visit any more.
+====================
+Once the sun sets, it'd be hard to visit any more.
+====================
+
+====================
+index 8
+offset 1292
+name NULL
+length 50
+====================
+This is the last calligraphy school that I picked.
+====================
+This is the last calligraphy school that I picked.
+====================
+
+====================
+index 9
+offset 1405
+name Calligraphy teacher
+length 63
+====================
+\"...you don't see paper made of gampi used often these days.\"
+====================
+\"...you don't see paper made of gampi used often these days.\"
+====================
+
+====================
+index 10
+offset 1514
+name NULL
+length 52
+====================
+At last, I found a clue that actually may be a lead.
+====================
+At last, I found a clue that actually may be a lead.
+====================
+
+====================
+index 11
+offset 2514
+name Tomoya
+length 83
+====================
+\"Earlier today, a guy told me that this type of letter paper is pretty rare now.\"
+====================
+\"Earlier today, a guy told me that this type of letter paper is pretty rare now.\"
+====================
+
+====================
+index 12
+offset 2647
+name Tomoya
+length 39
+====================
+\"Apparently it's called gampi paper.\"
+====================
+\"Apparently it's called gampi paper.\"
+====================
+
+====================
+index 13
+offset 3010
+name Takafumi
+length 97
+====================
+\"Let me see what I can find. If I search for that along with the other search terms we used...\"
+====================
+\"Let me see what I can find. If I search for that along with the other search terms we used...\"
+====================
+
+====================
+index 14
+offset 3393
+name NULL
+length 31
+====================
+Takafumi turns to the keyboard.
+====================
+Takafumi turns to the keyboard.
+====================
+
+====================
+index 15
+offset 3747
+name Kanako
+length 18
+====================
+\"I'll help too!\"
+====================
+\"I'll help too!\"
+====================
+
+====================
+index 16
+offset 3781
+name NULL
+length 109
+====================
+Kanako leans up against his back, and the two of them start typing away. Aw, look at how well they get along.
+====================
+Kanako leans up against his back, and the two of them start typing away. Aw, look at how well they get along.
+====================
+
+====================
+index 17
+offset 4214
+name Takafumi
+length 33
+====================
+\"Okay, let's give this a go...\"
+====================
+\"Okay, let's give this a go...\"
+====================
+
+====================
+index 18
+offset 4571
+name Takafumi
+length 10
+====================
+\"Whoa... 
+====================
+\"Whoa... 
+====================
+
+====================
+index 19
+offset 4849
+name NULL
+length 12
+====================
+we did it!\"
+====================
+we did it!\"
+====================
+
+====================
+index 20
+offset 4913
+name Takafumi
+length 50
+====================
+\"We got one hit! We narrowed it down perfectly!\"
+====================
+\"We got one hit! We narrowed it down perfectly!\"
+====================
+
+====================
+index 21
+offset 5287
+name Takafumi
+length 53
+====================
+\"Wait... huh? There's more than what I typed in...\"
+====================
+\"Wait... huh? There's more than what I typed in...\"
+====================
+
+====================
+index 22
+offset 5392
+name Takafumi
+length 13
+====================
+\"...sakura, 
+====================
+\"...sakura, 
+====================
+
+====================
+index 23
+offset 5440
+name NULL
+length 10
+====================
+mountain, 
+====================
+mountain, 
+====================
+
+====================
+index 24
+offset 5485
+name NULL
+length 13
+====================
+gampi paper, 
+====================
+gampi paper, 
+====================
+
+====================
+index 25
+offset 5533
+name NULL
+length 7
+====================
+shit.\"
+====================
+shit.\"
+====================
+
+====================
+index 26
+offset 5864
+name Takafumi
+length 32
+====================
+\"Aaaaarrrrrrggggghhhhhhhhhh!!\"
+====================
+\"Aaaaarrrrrrggggghhhhhhhhhh!!\"
+====================
+
+====================
+index 27
+offset 6220
+name Takafumi
+length 78
+====================
+\"How the hell did you come up with the word 'shit' from the clues we have?!\"
+====================
+\"How the hell did you come up with the word 'shit' from the clues we have?!\"
+====================
+
+====================
+index 28
+offset 6621
+name Kanako
+length 40
+====================
+\"I didn't. I just went with the flow.\"
+====================
+\"I didn't. I just went with the flow.\"
+====================
+
+====================
+index 29
+offset 6985
+name Takafumi
+length 154
+====================
+\"What do you mean you went with the flow? Like 'shit'? How the hell did that get you to 'shit'?! Hell, what does 'shit' have anything to do with this?!\"
+====================
+\"What do you mean you went with the flow? Like 'shit'? How the hell did that get you to 'shit'?! Hell, what does 'shit' have anything to do with this?!\"
+====================
+
+====================
+index 30
+offset 7462
+name Tomoyo
+length 43
+====================
+\"Takafumi, stop saying things like that.\"
+====================
+\"Takafumi, stop saying things like that.\"
+====================
+
+====================
+index 31
+offset 7829
+name Takafumi
+length 46
+====================
+\"Well, she added 'shit' to my search terms!\"
+====================
+\"Well, she added 'shit' to my search terms!\"
+====================
+
+====================
+index 32
+offset 8198
+name Tomoyo
+length 83
+====================
+\"I don't really understand how it works, but can't you just search for it again?\"
+====================
+\"I don't really understand how it works, but can't you just search for it again?\"
+====================
+
+====================
+index 33
+offset 8605
+name Takafumi
+length 60
+====================
+\"I can... but what about the moment of joy I just had...?\"
+====================
+\"I can... but what about the moment of joy I just had...?\"
+====================
+
+====================
+index 34
+offset 8988
+name Kanako
+length 105
+====================
+\"Get a load of this guy. He's pumping his fist because of shit! He's just like a kid; that's so funny.\"
+====================
+\"Get a load of this guy. He's pumping his fist because of shit! He's just like a kid; that's so funny.\"
+====================
+
+====================
+index 35
+offset 9417
+name Takafumi
+length 57
+====================
+\"Damn it! I'm taking 'shit' out and searching again...\"
+====================
+\"Damn it! I'm taking 'shit' out and searching again...\"
+====================
+
+====================
+index 36
+offset 9798
+name Takafumi
+length 37
+====================
+\"Whoa, there's a whole lot more...\"
+====================
+\"Whoa, there's a whole lot more...\"
+====================
+
+====================
+index 37
+offset 9885
+name Tomoya
+length 33
+====================
+\"Damn, 'shit' sure is amazing.\"
+====================
+\"Damn, 'shit' sure is amazing.\"
+====================
+
+====================
+index 38
+offset 10241
+name Tomoyo
+length 22
+====================
+\"Is it not working?\"
+====================
+\"Is it not working?\"
+====================
+
+====================
+index 39
+offset 10587
+name Takafumi
+length 72
+====================
+\"There are way too many results... we need to narrow it down somehow.\"
+====================
+\"There are way too many results... we need to narrow it down somehow.\"
+====================
+
+====================
+index 40
+offset 10709
+name Tomoya
+length 39
+====================
+\"How about the postmark from before?\"
+====================
+\"How about the postmark from before?\"
+====================
+
+====================
+index 41
+offset 10803
+name Takafumi
+length 119
+====================
+\"That still didn't help a whole lot. It gave me things like large stationery stores and culture schools in the area.\"
+====================
+\"That still didn't help a whole lot. It gave me things like large stationery stores and culture schools in the area.\"
+====================
+
+====================
+index 42
+offset 11246
+name Takafumi
+length 70
+====================
+\"I guess we have to figure out the name of the location... damn it!\"
+====================
+\"I guess we have to figure out the name of the location... damn it!\"
+====================

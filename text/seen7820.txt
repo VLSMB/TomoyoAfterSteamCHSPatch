@@ -1,0 +1,11728 @@
+type seen7820
+count 1066
+
+====================
+index 1
+offset 5955
+name NULL
+length 19
+====================
+Tomoya uses [Guts]!
+====================
+Tomoya uses [Guts]!
+====================
+
+====================
+index 2
+offset 6126
+name NULL
+length 19
+====================
+Tomoya uses [Guts]!
+====================
+Tomoya uses [Guts]!
+====================
+
+====================
+index 3
+offset 6196
+name NULL
+length 36
+====================
+Tomoya's attack power has increased!
+====================
+Tomoya's attack power has increased!
+====================
+
+====================
+index 4
+offset 6384
+name NULL
+length 36
+====================
+Tomoya's attack power has increased!
+====================
+Tomoya's attack power has increased!
+====================
+
+====================
+index 5
+offset 6471
+name NULL
+length 31
+====================
+The effects of [Guts] wear off.
+====================
+The effects of [Guts] wear off.
+====================
+
+====================
+index 6
+offset 6654
+name NULL
+length 31
+====================
+The effects of [Guts] wear off.
+====================
+The effects of [Guts] wear off.
+====================
+
+====================
+index 7
+offset 6814
+name NULL
+length 32
+====================
+Tomoya uses [6 Mat Room Attack]!
+====================
+Tomoya uses [6 Mat Room Attack]!
+====================
+
+====================
+index 8
+offset 6998
+name NULL
+length 32
+====================
+Tomoya uses [6 Mat Room Attack]!
+====================
+Tomoya uses [6 Mat Room Attack]!
+====================
+
+====================
+index 11
+offset 7385
+name NULL
+length 20
+====================
+No enemies in range.
+====================
+No enemies in range.
+====================
+
+====================
+index 12
+offset 7557
+name NULL
+length 20
+====================
+No enemies in range.
+====================
+No enemies in range.
+====================
+
+====================
+index 13
+offset 7724
+name NULL
+length 25
+====================
+Tomoya uses [Leadership]!
+====================
+Tomoya uses [Leadership]!
+====================
+
+====================
+index 14
+offset 7901
+name NULL
+length 25
+====================
+Tomoya uses [Leadership]!
+====================
+Tomoya uses [Leadership]!
+====================
+
+====================
+index 15
+offset 8048
+name NULL
+length 36
+====================
+Tomoyo's attack power has increased!
+====================
+Tomoyo's attack power has increased!
+====================
+
+====================
+index 16
+offset 8236
+name NULL
+length 36
+====================
+Tomoyo's attack power has increased!
+====================
+Tomoyo's attack power has increased!
+====================
+
+====================
+index 17
+offset 8355
+name NULL
+length 34
+====================
+Tomo's attack power has increased!
+====================
+Tomo's attack power has increased!
+====================
+
+====================
+index 18
+offset 8541
+name NULL
+length 34
+====================
+Tomo's attack power has increased!
+====================
+Tomo's attack power has increased!
+====================
+
+====================
+index 19
+offset 8658
+name NULL
+length 34
+====================
+Fuko's attack power has increased!
+====================
+Fuko's attack power has increased!
+====================
+
+====================
+index 20
+offset 8844
+name NULL
+length 34
+====================
+Fuko's attack power has increased!
+====================
+Fuko's attack power has increased!
+====================
+
+====================
+index 21
+offset 8946
+name NULL
+length 28
+====================
+Kanako is the only one left.
+====================
+Kanako is the only one left.
+====================
+
+====================
+index 22
+offset 9126
+name NULL
+length 28
+====================
+Kanako is the only one left.
+====================
+Kanako is the only one left.
+====================
+
+====================
+index 25
+offset 9403
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 26
+offset 9565
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 27
+offset 9629
+name NULL
+length 37
+====================
+The effects of [Leadership] wear off.
+====================
+The effects of [Leadership] wear off.
+====================
+
+====================
+index 28
+offset 9818
+name NULL
+length 37
+====================
+The effects of [Leadership] wear off.
+====================
+The effects of [Leadership] wear off.
+====================
+
+====================
+index 29
+offset 9987
+name NULL
+length 37
+====================
+Tomoya uses [Poisonous Dango Attack]!
+====================
+Tomoya uses [Poisonous Dango Attack]!
+====================
+
+====================
+index 30
+offset 10176
+name NULL
+length 37
+====================
+Tomoya uses [Poisonous Dango Attack]!
+====================
+Tomoya uses [Poisonous Dango Attack]!
+====================
+
+====================
+index 33
+offset 10565
+name NULL
+length 20
+====================
+No enemies in range.
+====================
+No enemies in range.
+====================
+
+====================
+index 34
+offset 10737
+name NULL
+length 20
+====================
+No enemies in range.
+====================
+No enemies in range.
+====================
+
+====================
+index 35
+offset 10904
+name NULL
+length 26
+====================
+Tomoya uses [Summon Fuko]!
+====================
+Tomoya uses [Summon Fuko]!
+====================
+
+====================
+index 36
+offset 11082
+name NULL
+length 26
+====================
+Tomoya uses [Summon Fuko]!
+====================
+Tomoya uses [Summon Fuko]!
+====================
+
+====================
+index 37
+offset 11194
+name NULL
+length 13
+====================
+Fuko appears!
+====================
+Fuko appears!
+====================
+
+====================
+index 38
+offset 11359
+name NULL
+length 13
+====================
+Fuko appears!
+====================
+Fuko appears!
+====================
+
+====================
+index 39
+offset 11455
+name NULL
+length 31
+====================
+Fuko has already been summoned.
+====================
+Fuko has already been summoned.
+====================
+
+====================
+index 40
+offset 11638
+name NULL
+length 31
+====================
+Fuko has already been summoned.
+====================
+Fuko has already been summoned.
+====================
+
+====================
+index 41
+offset 11702
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 42
+offset 11864
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 43
+offset 12021
+name NULL
+length 28
+====================
+Tomoya uses [Porn Magazine]!
+====================
+Tomoya uses [Porn Magazine]!
+====================
+
+====================
+index 44
+offset 12201
+name NULL
+length 28
+====================
+Tomoya uses [Porn Magazine]!
+====================
+Tomoya uses [Porn Magazine]!
+====================
+
+====================
+index 45
+offset 12280
+name NULL
+length 30
+====================
+The enemy is targeting Tomoya!
+====================
+The enemy is targeting Tomoya!
+====================
+
+====================
+index 46
+offset 12462
+name NULL
+length 30
+====================
+The enemy is targeting Tomoya!
+====================
+The enemy is targeting Tomoya!
+====================
+
+====================
+index 47
+offset 12543
+name NULL
+length 40
+====================
+The effects of [Porn Magazine] wear off.
+====================
+The effects of [Porn Magazine] wear off.
+====================
+
+====================
+index 48
+offset 12735
+name NULL
+length 40
+====================
+The effects of [Porn Magazine] wear off.
+====================
+The effects of [Porn Magazine] wear off.
+====================
+
+====================
+index 49
+offset 12826
+name NULL
+length 26
+====================
+Tomoya remains on standby.
+====================
+Tomoya remains on standby.
+====================
+
+====================
+index 50
+offset 13004
+name NULL
+length 26
+====================
+Tomoya remains on standby.
+====================
+Tomoya remains on standby.
+====================
+
+====================
+index 51
+offset 13144
+name NULL
+length 31
+====================
+Tomoya uses [Sweet Atmosphere]!
+====================
+Tomoya uses [Sweet Atmosphere]!
+====================
+
+====================
+index 52
+offset 13327
+name NULL
+length 31
+====================
+Tomoya uses [Sweet Atmosphere]!
+====================
+Tomoya uses [Sweet Atmosphere]!
+====================
+
+====================
+index 53
+offset 13486
+name NULL
+length 36
+====================
+Tomoya's attack power has increased!
+====================
+Tomoya's attack power has increased!
+====================
+
+====================
+index 54
+offset 13674
+name NULL
+length 36
+====================
+Tomoya's attack power has increased!
+====================
+Tomoya's attack power has increased!
+====================
+
+====================
+index 55
+offset 13743
+name NULL
+length 36
+====================
+Tomoyo's attack power has increased!
+====================
+Tomoyo's attack power has increased!
+====================
+
+====================
+index 56
+offset 13931
+name NULL
+length 36
+====================
+Tomoyo's attack power has increased!
+====================
+Tomoyo's attack power has increased!
+====================
+
+====================
+index 57
+offset 14038
+name NULL
+length 25
+====================
+Tomoyo is no longer here.
+====================
+Tomoyo is no longer here.
+====================
+
+====================
+index 58
+offset 14215
+name NULL
+length 25
+====================
+Tomoyo is no longer here.
+====================
+Tomoyo is no longer here.
+====================
+
+====================
+index 59
+offset 14273
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 60
+offset 14435
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 61
+offset 14499
+name NULL
+length 43
+====================
+The effects of [Sweet Atmosphere] wear off.
+====================
+The effects of [Sweet Atmosphere] wear off.
+====================
+
+====================
+index 62
+offset 14694
+name NULL
+length 43
+====================
+The effects of [Sweet Atmosphere] wear off.
+====================
+The effects of [Sweet Atmosphere] wear off.
+====================
+
+====================
+index 63
+offset 14866
+name NULL
+length 25
+====================
+Tomoya uses [Fuko Decoy]!
+====================
+Tomoya uses [Fuko Decoy]!
+====================
+
+====================
+index 64
+offset 15043
+name NULL
+length 25
+====================
+Tomoya uses [Fuko Decoy]!
+====================
+Tomoya uses [Fuko Decoy]!
+====================
+
+====================
+index 67
+offset 15367
+name NULL
+length 13
+====================
+Fuko appears!
+====================
+Fuko appears!
+====================
+
+====================
+index 68
+offset 15532
+name NULL
+length 13
+====================
+Fuko appears!
+====================
+Fuko appears!
+====================
+
+====================
+index 69
+offset 15578
+name NULL
+length 28
+====================
+The enemy is targeting Fuko!
+====================
+The enemy is targeting Fuko!
+====================
+
+====================
+index 70
+offset 15758
+name NULL
+length 28
+====================
+The enemy is targeting Fuko!
+====================
+The enemy is targeting Fuko!
+====================
+
+====================
+index 71
+offset 15869
+name NULL
+length 31
+====================
+Fuko has already been summoned.
+====================
+Fuko has already been summoned.
+====================
+
+====================
+index 72
+offset 16052
+name NULL
+length 31
+====================
+Fuko has already been summoned.
+====================
+Fuko has already been summoned.
+====================
+
+====================
+index 73
+offset 16116
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 74
+offset 16278
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 75
+offset 16435
+name NULL
+length 40
+====================
+Tomoya uses [Kanako's Killer Technique]!
+====================
+Tomoya uses [Kanako's Killer Technique]!
+====================
+
+====================
+index 76
+offset 16627
+name NULL
+length 40
+====================
+Tomoya uses [Kanako's Killer Technique]!
+====================
+Tomoya uses [Kanako's Killer Technique]!
+====================
+
+====================
+index 81
+offset 17179
+name NULL
+length 36
+====================
+Tomoya's attack power has increased!
+====================
+Tomoya's attack power has increased!
+====================
+
+====================
+index 82
+offset 17367
+name NULL
+length 36
+====================
+Tomoya's attack power has increased!
+====================
+Tomoya's attack power has increased!
+====================
+
+====================
+index 83
+offset 17436
+name NULL
+length 37
+====================
+Tomoya's killing power has increased!
+====================
+Tomoya's killing power has increased!
+====================
+
+====================
+index 84
+offset 17625
+name NULL
+length 37
+====================
+Tomoya's killing power has increased!
+====================
+Tomoya's killing power has increased!
+====================
+
+====================
+index 85
+offset 17745
+name NULL
+length 22
+====================
+Tomoya is not unarmed.
+====================
+Tomoya is not unarmed.
+====================
+
+====================
+index 86
+offset 17919
+name NULL
+length 22
+====================
+Tomoya is not unarmed.
+====================
+Tomoya is not unarmed.
+====================
+
+====================
+index 87
+offset 17974
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 88
+offset 18136
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 89
+offset 18200
+name NULL
+length 42
+====================
+The effects of [Kanako's Killer Technique]
+====================
+The effects of [Kanako's Killer Technique]
+====================
+
+====================
+index 90
+offset 18394
+name NULL
+length 42
+====================
+The effects of [Kanako's Killer Technique]
+====================
+The effects of [Kanako's Killer Technique]
+====================
+
+====================
+index 91
+offset 18497
+name NULL
+length 9
+====================
+wear off.
+====================
+wear off.
+====================
+
+====================
+index 92
+offset 18658
+name NULL
+length 9
+====================
+wear off.
+====================
+wear off.
+====================
+
+====================
+index 95
+offset 19009
+name NULL
+length 31
+====================
+Tomoya uses [Will of the Town]!
+====================
+Tomoya uses [Will of the Town]!
+====================
+
+====================
+index 96
+offset 19192
+name NULL
+length 31
+====================
+Tomoya uses [Will of the Town]!
+====================
+Tomoya uses [Will of the Town]!
+====================
+
+====================
+index 97
+offset 19362
+name NULL
+length 20
+====================
+No enemies in range.
+====================
+No enemies in range.
+====================
+
+====================
+index 98
+offset 19534
+name NULL
+length 20
+====================
+No enemies in range.
+====================
+No enemies in range.
+====================
+
+====================
+index 99
+offset 19716
+name NULL
+length 26
+====================
+Tomoyo uses [Seriousness]!
+====================
+Tomoyo uses [Seriousness]!
+====================
+
+====================
+index 100
+offset 19894
+name NULL
+length 26
+====================
+Tomoyo uses [Seriousness]!
+====================
+Tomoyo uses [Seriousness]!
+====================
+
+====================
+index 101
+offset 19971
+name NULL
+length 36
+====================
+Tomoyo's attack power has increased!
+====================
+Tomoyo's attack power has increased!
+====================
+
+====================
+index 102
+offset 20159
+name NULL
+length 36
+====================
+Tomoyo's attack power has increased!
+====================
+Tomoyo's attack power has increased!
+====================
+
+====================
+index 103
+offset 20246
+name NULL
+length 38
+====================
+The effects of [Seriousness] wear off.
+====================
+The effects of [Seriousness] wear off.
+====================
+
+====================
+index 104
+offset 20436
+name NULL
+length 38
+====================
+The effects of [Seriousness] wear off.
+====================
+The effects of [Seriousness] wear off.
+====================
+
+====================
+index 105
+offset 20603
+name NULL
+length 30
+====================
+Tomoyo uses [Full Power Kick]!
+====================
+Tomoyo uses [Full Power Kick]!
+====================
+
+====================
+index 106
+offset 20785
+name NULL
+length 30
+====================
+Tomoyo uses [Full Power Kick]!
+====================
+Tomoyo uses [Full Power Kick]!
+====================
+
+====================
+index 107
+offset 20954
+name NULL
+length 20
+====================
+No enemies in range.
+====================
+No enemies in range.
+====================
+
+====================
+index 108
+offset 21126
+name NULL
+length 20
+====================
+No enemies in range.
+====================
+No enemies in range.
+====================
+
+====================
+index 109
+offset 21293
+name NULL
+length 26
+====================
+Tomoyo uses [Panty Flash]!
+====================
+Tomoyo uses [Panty Flash]!
+====================
+
+====================
+index 110
+offset 21471
+name NULL
+length 26
+====================
+Tomoyo uses [Panty Flash]!
+====================
+Tomoyo uses [Panty Flash]!
+====================
+
+====================
+index 111
+offset 21548
+name NULL
+length 30
+====================
+The enemy is targeting Tomoyo!
+====================
+The enemy is targeting Tomoyo!
+====================
+
+====================
+index 112
+offset 21730
+name NULL
+length 30
+====================
+The enemy is targeting Tomoyo!
+====================
+The enemy is targeting Tomoyo!
+====================
+
+====================
+index 113
+offset 21814
+name NULL
+length 38
+====================
+The effects of [Panty Flash] wear off.
+====================
+The effects of [Panty Flash] wear off.
+====================
+
+====================
+index 114
+offset 22004
+name NULL
+length 38
+====================
+The effects of [Panty Flash] wear off.
+====================
+The effects of [Panty Flash] wear off.
+====================
+
+====================
+index 115
+offset 22093
+name NULL
+length 24
+====================
+[Panty Flash]'s effects:
+====================
+[Panty Flash]'s effects:
+====================
+
+====================
+index 116
+offset 22269
+name NULL
+length 24
+====================
+[Panty Flash]'s effects:
+====================
+[Panty Flash]'s effects:
+====================
+
+====================
+index 117
+offset 22413
+name NULL
+length 22
+====================
+Tomoyo uses [Babysit]!
+====================
+Tomoyo uses [Babysit]!
+====================
+
+====================
+index 118
+offset 22587
+name NULL
+length 22
+====================
+Tomoyo uses [Babysit]!
+====================
+Tomoyo uses [Babysit]!
+====================
+
+====================
+index 119
+offset 22731
+name NULL
+length 30
+====================
+Tomoyo fights to protect Tomo!
+====================
+Tomoyo fights to protect Tomo!
+====================
+
+====================
+index 120
+offset 22913
+name NULL
+length 30
+====================
+Tomoyo fights to protect Tomo!
+====================
+Tomoyo fights to protect Tomo!
+====================
+
+====================
+index 121
+offset 23011
+name NULL
+length 23
+====================
+Tomo is no longer here.
+====================
+Tomo is no longer here.
+====================
+
+====================
+index 122
+offset 23186
+name NULL
+length 23
+====================
+Tomo is no longer here.
+====================
+Tomo is no longer here.
+====================
+
+====================
+index 123
+offset 23242
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 124
+offset 23404
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 125
+offset 23468
+name NULL
+length 34
+====================
+The effects of [Babysit] wear off.
+====================
+The effects of [Babysit] wear off.
+====================
+
+====================
+index 126
+offset 23654
+name NULL
+length 34
+====================
+The effects of [Babysit] wear off.
+====================
+The effects of [Babysit] wear off.
+====================
+
+====================
+index 127
+offset 23817
+name NULL
+length 27
+====================
+Tomoyo uses [Gravity Jump]!
+====================
+Tomoyo uses [Gravity Jump]!
+====================
+
+====================
+index 128
+offset 23996
+name NULL
+length 27
+====================
+Tomoyo uses [Gravity Jump]!
+====================
+Tomoyo uses [Gravity Jump]!
+====================
+
+====================
+index 129
+offset 24162
+name NULL
+length 20
+====================
+No enemies in range.
+====================
+No enemies in range.
+====================
+
+====================
+index 130
+offset 24334
+name NULL
+length 20
+====================
+No enemies in range.
+====================
+No enemies in range.
+====================
+
+====================
+index 131
+offset 24501
+name NULL
+length 25
+====================
+Tomoyo uses [Remove Bra]!
+====================
+Tomoyo uses [Remove Bra]!
+====================
+
+====================
+index 132
+offset 24678
+name NULL
+length 25
+====================
+Tomoyo uses [Remove Bra]!
+====================
+Tomoyo uses [Remove Bra]!
+====================
+
+====================
+index 133
+offset 24754
+name NULL
+length 30
+====================
+The enemy is targeting Tomoyo!
+====================
+The enemy is targeting Tomoyo!
+====================
+
+====================
+index 134
+offset 24936
+name NULL
+length 30
+====================
+The enemy is targeting Tomoyo!
+====================
+The enemy is targeting Tomoyo!
+====================
+
+====================
+index 135
+offset 25020
+name NULL
+length 37
+====================
+The effects of [Remove Bra] wear off.
+====================
+The effects of [Remove Bra] wear off.
+====================
+
+====================
+index 136
+offset 25209
+name NULL
+length 37
+====================
+The effects of [Remove Bra] wear off.
+====================
+The effects of [Remove Bra] wear off.
+====================
+
+====================
+index 137
+offset 25297
+name NULL
+length 23
+====================
+[Remove Bra]'s effects:
+====================
+[Remove Bra]'s effects:
+====================
+
+====================
+index 138
+offset 25472
+name NULL
+length 23
+====================
+[Remove Bra]'s effects:
+====================
+[Remove Bra]'s effects:
+====================
+
+====================
+index 139
+offset 25615
+name NULL
+length 19
+====================
+Tomoyo uses [Yell]!
+====================
+Tomoyo uses [Yell]!
+====================
+
+====================
+index 140
+offset 25786
+name NULL
+length 19
+====================
+Tomoyo uses [Yell]!
+====================
+Tomoyo uses [Yell]!
+====================
+
+====================
+index 141
+offset 25856
+name NULL
+length 30
+====================
+All enemies are taking refuge!
+====================
+All enemies are taking refuge!
+====================
+
+====================
+index 142
+offset 26038
+name NULL
+length 30
+====================
+All enemies are taking refuge!
+====================
+All enemies are taking refuge!
+====================
+
+====================
+index 143
+offset 26119
+name NULL
+length 31
+====================
+The effects of [Yell] wear off.
+====================
+The effects of [Yell] wear off.
+====================
+
+====================
+index 144
+offset 26302
+name NULL
+length 31
+====================
+The effects of [Yell] wear off.
+====================
+The effects of [Yell] wear off.
+====================
+
+====================
+index 145
+offset 26462
+name NULL
+length 28
+====================
+Tomoyo uses [Power of Love]!
+====================
+Tomoyo uses [Power of Love]!
+====================
+
+====================
+index 146
+offset 26642
+name NULL
+length 28
+====================
+Tomoyo uses [Power of Love]!
+====================
+Tomoyo uses [Power of Love]!
+====================
+
+====================
+index 147
+offset 26721
+name NULL
+length 43
+====================
+Counterattack each time an enemy attacks an
+====================
+Counterattack each time an enemy attacks an
+====================
+
+====================
+index 148
+offset 26916
+name NULL
+length 43
+====================
+Counterattack each time an enemy attacks an
+====================
+Counterattack each time an enemy attacks an
+====================
+
+====================
+index 149
+offset 27020
+name NULL
+length 5
+====================
+ally.
+====================
+ally.
+====================
+
+====================
+index 150
+offset 27177
+name NULL
+length 5
+====================
+ally.
+====================
+ally.
+====================
+
+====================
+index 151
+offset 27233
+name NULL
+length 40
+====================
+The effects of [Power of Love] wear off.
+====================
+The effects of [Power of Love] wear off.
+====================
+
+====================
+index 152
+offset 27425
+name NULL
+length 40
+====================
+The effects of [Power of Love] wear off.
+====================
+The effects of [Power of Love] wear off.
+====================
+
+====================
+index 153
+offset 27551
+name NULL
+length 26
+====================
+Tomoyo remains on standby.
+====================
+Tomoyo remains on standby.
+====================
+
+====================
+index 154
+offset 27729
+name NULL
+length 26
+====================
+Tomoyo remains on standby.
+====================
+Tomoyo remains on standby.
+====================
+
+====================
+index 155
+offset 27838
+name NULL
+length 26
+====================
+[Power of Love]'s effects:
+====================
+[Power of Love]'s effects:
+====================
+
+====================
+index 156
+offset 28016
+name NULL
+length 26
+====================
+[Power of Love]'s effects:
+====================
+[Power of Love]'s effects:
+====================
+
+====================
+index 157
+offset 28165
+name NULL
+length 28
+====================
+Tomoyo uses [10-Kick Combo]!
+====================
+Tomoyo uses [10-Kick Combo]!
+====================
+
+====================
+index 158
+offset 28345
+name NULL
+length 28
+====================
+Tomoyo uses [10-Kick Combo]!
+====================
+Tomoyo uses [10-Kick Combo]!
+====================
+
+====================
+index 159
+offset 28512
+name NULL
+length 20
+====================
+No enemies in range.
+====================
+No enemies in range.
+====================
+
+====================
+index 160
+offset 28684
+name NULL
+length 20
+====================
+No enemies in range.
+====================
+No enemies in range.
+====================
+
+====================
+index 161
+offset 28851
+name NULL
+length 42
+====================
+Tomoyo uses [Tomoyo, The Ultimate Weapon]!
+====================
+Tomoyo uses [Tomoyo, The Ultimate Weapon]!
+====================
+
+====================
+index 162
+offset 29045
+name NULL
+length 42
+====================
+Tomoyo uses [Tomoyo, The Ultimate Weapon]!
+====================
+Tomoyo uses [Tomoyo, The Ultimate Weapon]!
+====================
+
+====================
+index 165
+offset 29351
+name NULL
+length 42
+====================
+All of Tomoyo's attributes have increased!
+====================
+All of Tomoyo's attributes have increased!
+====================
+
+====================
+index 166
+offset 29545
+name NULL
+length 42
+====================
+All of Tomoyo's attributes have increased!
+====================
+All of Tomoyo's attributes have increased!
+====================
+
+====================
+index 167
+offset 29638
+name NULL
+length 44
+====================
+The effects of [Tomoyo, The Ultimate Weapon]
+====================
+The effects of [Tomoyo, The Ultimate Weapon]
+====================
+
+====================
+index 168
+offset 29834
+name NULL
+length 44
+====================
+The effects of [Tomoyo, The Ultimate Weapon]
+====================
+The effects of [Tomoyo, The Ultimate Weapon]
+====================
+
+====================
+index 169
+offset 29939
+name NULL
+length 9
+====================
+wear off.
+====================
+wear off.
+====================
+
+====================
+index 170
+offset 30100
+name NULL
+length 9
+====================
+wear off.
+====================
+wear off.
+====================
+
+====================
+index 171
+offset 30253
+name NULL
+length 27
+====================
+Kanako uses [High Tension]!
+====================
+Kanako uses [High Tension]!
+====================
+
+====================
+index 172
+offset 30432
+name NULL
+length 27
+====================
+Kanako uses [High Tension]!
+====================
+Kanako uses [High Tension]!
+====================
+
+====================
+index 173
+offset 30510
+name NULL
+length 43
+====================
+Kanako's critical hit chance has increased!
+====================
+Kanako's critical hit chance has increased!
+====================
+
+====================
+index 174
+offset 30705
+name NULL
+length 43
+====================
+Kanako's critical hit chance has increased!
+====================
+Kanako's critical hit chance has increased!
+====================
+
+====================
+index 175
+offset 30799
+name NULL
+length 39
+====================
+The effects of [High Tension] wear off.
+====================
+The effects of [High Tension] wear off.
+====================
+
+====================
+index 176
+offset 30990
+name NULL
+length 39
+====================
+The effects of [High Tension] wear off.
+====================
+The effects of [High Tension] wear off.
+====================
+
+====================
+index 177
+offset 31158
+name NULL
+length 19
+====================
+Kanako uses [Spit]!
+====================
+Kanako uses [Spit]!
+====================
+
+====================
+index 178
+offset 31329
+name NULL
+length 19
+====================
+Kanako uses [Spit]!
+====================
+Kanako uses [Spit]!
+====================
+
+====================
+index 179
+offset 31464
+name NULL
+length 20
+====================
+No enemies in range.
+====================
+No enemies in range.
+====================
+
+====================
+index 180
+offset 31636
+name NULL
+length 20
+====================
+No enemies in range.
+====================
+No enemies in range.
+====================
+
+====================
+index 181
+offset 31710
+name NULL
+length 31
+====================
+The effects of [Spit] wear off.
+====================
+The effects of [Spit] wear off.
+====================
+
+====================
+index 182
+offset 31893
+name NULL
+length 31
+====================
+The effects of [Spit] wear off.
+====================
+The effects of [Spit] wear off.
+====================
+
+====================
+index 183
+offset 31975
+name NULL
+length 17
+====================
+[Spit]'s effects:
+====================
+[Spit]'s effects:
+====================
+
+====================
+index 184
+offset 32144
+name NULL
+length 17
+====================
+[Spit]'s effects:
+====================
+[Spit]'s effects:
+====================
+
+====================
+index 185
+offset 32505
+name NULL
+length 12
+====================
+Red beastman
+====================
+Red beastman
+====================
+
+====================
+index 186
+offset 32563
+name NULL
+length 8
+====================
+Beastman
+====================
+Beastman
+====================
+
+====================
+index 187
+offset 32617
+name NULL
+length 13
+====================
+Blue beastman
+====================
+Blue beastman
+====================
+
+====================
+index 188
+offset 32676
+name NULL
+length 8
+====================
+Beastman
+====================
+Beastman
+====================
+
+====================
+index 189
+offset 32730
+name NULL
+length 8
+====================
+Beastman
+====================
+Beastman
+====================
+
+====================
+index 190
+offset 32784
+name NULL
+length 5
+====================
+Golem
+====================
+Golem
+====================
+
+====================
+index 191
+offset 32835
+name NULL
+length 9
+====================
+Last Boss
+====================
+Last Boss
+====================
+
+====================
+index 192
+offset 32890
+name NULL
+length 35
+====================
+ has been paralyzed and can't move!
+====================
+ has been paralyzed and can't move!
+====================
+
+====================
+index 193
+offset 33248
+name NULL
+length 32
+====================
+Kanako uses [Friendly Thoughts]!
+====================
+Kanako uses [Friendly Thoughts]!
+====================
+
+====================
+index 194
+offset 33432
+name NULL
+length 32
+====================
+Kanako uses [Friendly Thoughts]!
+====================
+Kanako uses [Friendly Thoughts]!
+====================
+
+====================
+index 195
+offset 33586
+name NULL
+length 30
+====================
+Kanako fights to protect Tomo!
+====================
+Kanako fights to protect Tomo!
+====================
+
+====================
+index 196
+offset 33768
+name NULL
+length 30
+====================
+Kanako fights to protect Tomo!
+====================
+Kanako fights to protect Tomo!
+====================
+
+====================
+index 197
+offset 33866
+name NULL
+length 23
+====================
+Tomo is no longer here.
+====================
+Tomo is no longer here.
+====================
+
+====================
+index 198
+offset 34041
+name NULL
+length 23
+====================
+Tomo is no longer here.
+====================
+Tomo is no longer here.
+====================
+
+====================
+index 199
+offset 34097
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 200
+offset 34259
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 201
+offset 34323
+name NULL
+length 44
+====================
+The effects of [Friendly Thoughts] wear off.
+====================
+The effects of [Friendly Thoughts] wear off.
+====================
+
+====================
+index 202
+offset 34519
+name NULL
+length 44
+====================
+The effects of [Friendly Thoughts] wear off.
+====================
+The effects of [Friendly Thoughts] wear off.
+====================
+
+====================
+index 203
+offset 34692
+name NULL
+length 26
+====================
+Kanako uses [Gust Strike]!
+====================
+Kanako uses [Gust Strike]!
+====================
+
+====================
+index 204
+offset 34870
+name NULL
+length 26
+====================
+Kanako uses [Gust Strike]!
+====================
+Kanako uses [Gust Strike]!
+====================
+
+====================
+index 205
+offset 35035
+name NULL
+length 20
+====================
+No enemies in range.
+====================
+No enemies in range.
+====================
+
+====================
+index 206
+offset 35207
+name NULL
+length 20
+====================
+No enemies in range.
+====================
+No enemies in range.
+====================
+
+====================
+index 207
+offset 35374
+name NULL
+length 21
+====================
+Kanako uses [Papico]!
+====================
+Kanako uses [Papico]!
+====================
+
+====================
+index 208
+offset 35547
+name NULL
+length 21
+====================
+Kanako uses [Papico]!
+====================
+Kanako uses [Papico]!
+====================
+
+====================
+index 209
+offset 35619
+name NULL
+length 23
+====================
+Kanako has been healed!
+====================
+Kanako has been healed!
+====================
+
+====================
+index 210
+offset 35794
+name NULL
+length 23
+====================
+Kanako has been healed!
+====================
+Kanako has been healed!
+====================
+
+====================
+index 211
+offset 35868
+name NULL
+length 33
+====================
+The effects of [Papico] wear off.
+====================
+The effects of [Papico] wear off.
+====================
+
+====================
+index 212
+offset 36053
+name NULL
+length 33
+====================
+The effects of [Papico] wear off.
+====================
+The effects of [Papico] wear off.
+====================
+
+====================
+index 213
+offset 36137
+name NULL
+length 19
+====================
+[Papico]'s effects:
+====================
+[Papico]'s effects:
+====================
+
+====================
+index 214
+offset 36308
+name NULL
+length 19
+====================
+[Papico]'s effects:
+====================
+[Papico]'s effects:
+====================
+
+====================
+index 215
+offset 36447
+name NULL
+length 37
+====================
+Kanako uses [Self-imposed Challenge]!
+====================
+Kanako uses [Self-imposed Challenge]!
+====================
+
+====================
+index 216
+offset 36636
+name NULL
+length 37
+====================
+Kanako uses [Self-imposed Challenge]!
+====================
+Kanako uses [Self-imposed Challenge]!
+====================
+
+====================
+index 217
+offset 36724
+name NULL
+length 30
+====================
+The enemy is targeting Kanako!
+====================
+The enemy is targeting Kanako!
+====================
+
+====================
+index 218
+offset 36906
+name NULL
+length 30
+====================
+The enemy is targeting Kanako!
+====================
+The enemy is targeting Kanako!
+====================
+
+====================
+index 219
+offset 36987
+name NULL
+length 39
+====================
+The effects of [Self-imposed Challenge]
+====================
+The effects of [Self-imposed Challenge]
+====================
+
+====================
+index 220
+offset 37178
+name NULL
+length 39
+====================
+The effects of [Self-imposed Challenge]
+====================
+The effects of [Self-imposed Challenge]
+====================
+
+====================
+index 221
+offset 37278
+name NULL
+length 9
+====================
+wear off.
+====================
+wear off.
+====================
+
+====================
+index 222
+offset 37439
+name NULL
+length 9
+====================
+wear off.
+====================
+wear off.
+====================
+
+====================
+index 223
+offset 37577
+name NULL
+length 30
+====================
+Kanako uses [High-speed Rush]!
+====================
+Kanako uses [High-speed Rush]!
+====================
+
+====================
+index 224
+offset 37759
+name NULL
+length 30
+====================
+Kanako uses [High-speed Rush]!
+====================
+Kanako uses [High-speed Rush]!
+====================
+
+====================
+index 225
+offset 37875
+name NULL
+length 38
+====================
+Number of sword attacks has increased!
+====================
+Number of sword attacks has increased!
+====================
+
+====================
+index 226
+offset 38065
+name NULL
+length 38
+====================
+Number of sword attacks has increased!
+====================
+Number of sword attacks has increased!
+====================
+
+====================
+index 227
+offset 38186
+name NULL
+length 28
+====================
+Kanako doesn't have a sword.
+====================
+Kanako doesn't have a sword.
+====================
+
+====================
+index 228
+offset 38366
+name NULL
+length 28
+====================
+Kanako doesn't have a sword.
+====================
+Kanako doesn't have a sword.
+====================
+
+====================
+index 229
+offset 38427
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 230
+offset 38589
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 231
+offset 38653
+name NULL
+length 42
+====================
+The effects of [High-speed Rush] wear off.
+====================
+The effects of [High-speed Rush] wear off.
+====================
+
+====================
+index 232
+offset 38847
+name NULL
+length 42
+====================
+The effects of [High-speed Rush] wear off.
+====================
+The effects of [High-speed Rush] wear off.
+====================
+
+====================
+index 233
+offset 39018
+name NULL
+length 33
+====================
+Kanako uses [Super High Tension]!
+====================
+Kanako uses [Super High Tension]!
+====================
+
+====================
+index 234
+offset 39203
+name NULL
+length 33
+====================
+Kanako uses [Super High Tension]!
+====================
+Kanako uses [Super High Tension]!
+====================
+
+====================
+index 235
+offset 39287
+name NULL
+length 43
+====================
+Kanako's critical hit chance has increased!
+====================
+Kanako's critical hit chance has increased!
+====================
+
+====================
+index 236
+offset 39482
+name NULL
+length 43
+====================
+Kanako's critical hit chance has increased!
+====================
+Kanako's critical hit chance has increased!
+====================
+
+====================
+index 237
+offset 39576
+name NULL
+length 45
+====================
+The effects of [Super High Tension] wear off.
+====================
+The effects of [Super High Tension] wear off.
+====================
+
+====================
+index 238
+offset 39773
+name NULL
+length 45
+====================
+The effects of [Super High Tension] wear off.
+====================
+The effects of [Super High Tension] wear off.
+====================
+
+====================
+index 239
+offset 39947
+name NULL
+length 26
+====================
+Kanako uses [Omega Drive]!
+====================
+Kanako uses [Omega Drive]!
+====================
+
+====================
+index 240
+offset 40125
+name NULL
+length 26
+====================
+Kanako uses [Omega Drive]!
+====================
+Kanako uses [Omega Drive]!
+====================
+
+====================
+index 241
+offset 40290
+name NULL
+length 20
+====================
+No enemies in range.
+====================
+No enemies in range.
+====================
+
+====================
+index 242
+offset 40462
+name NULL
+length 20
+====================
+No enemies in range.
+====================
+No enemies in range.
+====================
+
+====================
+index 243
+offset 40629
+name NULL
+length 27
+====================
+Kanako uses [One-man Show]!
+====================
+Kanako uses [One-man Show]!
+====================
+
+====================
+index 244
+offset 40808
+name NULL
+length 27
+====================
+Kanako uses [One-man Show]!
+====================
+Kanako uses [One-man Show]!
+====================
+
+====================
+index 245
+offset 40921
+name NULL
+length 36
+====================
+Kanako's attack power has increased!
+====================
+Kanako's attack power has increased!
+====================
+
+====================
+index 246
+offset 41109
+name NULL
+length 36
+====================
+Kanako's attack power has increased!
+====================
+Kanako's attack power has increased!
+====================
+
+====================
+index 247
+offset 41178
+name NULL
+length 37
+====================
+Kanako's killing power has increased!
+====================
+Kanako's killing power has increased!
+====================
+
+====================
+index 248
+offset 41367
+name NULL
+length 37
+====================
+Kanako's killing power has increased!
+====================
+Kanako's killing power has increased!
+====================
+
+====================
+index 249
+offset 41487
+name NULL
+length 22
+====================
+Kanako is not unarmed.
+====================
+Kanako is not unarmed.
+====================
+
+====================
+index 250
+offset 41661
+name NULL
+length 22
+====================
+Kanako is not unarmed.
+====================
+Kanako is not unarmed.
+====================
+
+====================
+index 251
+offset 41716
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 252
+offset 41878
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 253
+offset 41942
+name NULL
+length 39
+====================
+The effects of [One-man Show] wear off.
+====================
+The effects of [One-man Show] wear off.
+====================
+
+====================
+index 254
+offset 42133
+name NULL
+length 39
+====================
+The effects of [One-man Show] wear off.
+====================
+The effects of [One-man Show] wear off.
+====================
+
+====================
+index 255
+offset 42316
+name NULL
+length 20
+====================
+Tomo casts [Attack]!
+====================
+Tomo casts [Attack]!
+====================
+
+====================
+index 256
+offset 42488
+name NULL
+length 20
+====================
+Tomo casts [Attack]!
+====================
+Tomo casts [Attack]!
+====================
+
+====================
+index 257
+offset 42591
+name NULL
+length 36
+====================
+Tomoya's attack power has increased!
+====================
+Tomoya's attack power has increased!
+====================
+
+====================
+index 258
+offset 42779
+name NULL
+length 36
+====================
+Tomoya's attack power has increased!
+====================
+Tomoya's attack power has increased!
+====================
+
+====================
+index 259
+offset 42880
+name NULL
+length 36
+====================
+Tomoyo's attack power has increased!
+====================
+Tomoyo's attack power has increased!
+====================
+
+====================
+index 260
+offset 43068
+name NULL
+length 36
+====================
+Tomoyo's attack power has increased!
+====================
+Tomoyo's attack power has increased!
+====================
+
+====================
+index 261
+offset 43169
+name NULL
+length 36
+====================
+Kanako's attack power has increased!
+====================
+Kanako's attack power has increased!
+====================
+
+====================
+index 262
+offset 43357
+name NULL
+length 36
+====================
+Kanako's attack power has increased!
+====================
+Kanako's attack power has increased!
+====================
+
+====================
+index 263
+offset 43458
+name NULL
+length 34
+====================
+Tomo's attack power has increased!
+====================
+Tomo's attack power has increased!
+====================
+
+====================
+index 264
+offset 43644
+name NULL
+length 34
+====================
+Tomo's attack power has increased!
+====================
+Tomo's attack power has increased!
+====================
+
+====================
+index 265
+offset 43743
+name NULL
+length 34
+====================
+Fuko's attack power has increased!
+====================
+Fuko's attack power has increased!
+====================
+
+====================
+index 266
+offset 43929
+name NULL
+length 34
+====================
+Fuko's attack power has increased!
+====================
+Fuko's attack power has increased!
+====================
+
+====================
+index 267
+offset 44014
+name NULL
+length 33
+====================
+The effects of [Attack] wear off.
+====================
+The effects of [Attack] wear off.
+====================
+
+====================
+index 268
+offset 44199
+name NULL
+length 33
+====================
+The effects of [Attack] wear off.
+====================
+The effects of [Attack] wear off.
+====================
+
+====================
+index 269
+offset 44361
+name NULL
+length 16
+====================
+Tomo uses [Cry]!
+====================
+Tomo uses [Cry]!
+====================
+
+====================
+index 270
+offset 44529
+name NULL
+length 16
+====================
+Tomo uses [Cry]!
+====================
+Tomo uses [Cry]!
+====================
+
+====================
+index 271
+offset 44667
+name NULL
+length 30
+====================
+Tomoya fights to protect Tomo!
+====================
+Tomoya fights to protect Tomo!
+====================
+
+====================
+index 272
+offset 44849
+name NULL
+length 30
+====================
+Tomoya fights to protect Tomo!
+====================
+Tomoya fights to protect Tomo!
+====================
+
+====================
+index 273
+offset 44962
+name NULL
+length 30
+====================
+Tomoyo fights to protect Tomo!
+====================
+Tomoyo fights to protect Tomo!
+====================
+
+====================
+index 274
+offset 45144
+name NULL
+length 30
+====================
+Tomoyo fights to protect Tomo!
+====================
+Tomoyo fights to protect Tomo!
+====================
+
+====================
+index 275
+offset 45257
+name NULL
+length 30
+====================
+Kanako fights to protect Tomo!
+====================
+Kanako fights to protect Tomo!
+====================
+
+====================
+index 276
+offset 45439
+name NULL
+length 30
+====================
+Kanako fights to protect Tomo!
+====================
+Kanako fights to protect Tomo!
+====================
+
+====================
+index 277
+offset 45552
+name NULL
+length 28
+====================
+Fuko fights to protect Tomo!
+====================
+Fuko fights to protect Tomo!
+====================
+
+====================
+index 278
+offset 45732
+name NULL
+length 28
+====================
+Fuko fights to protect Tomo!
+====================
+Fuko fights to protect Tomo!
+====================
+
+====================
+index 279
+offset 45828
+name NULL
+length 25
+====================
+There are no allies left.
+====================
+There are no allies left.
+====================
+
+====================
+index 280
+offset 46005
+name NULL
+length 25
+====================
+There are no allies left.
+====================
+There are no allies left.
+====================
+
+====================
+index 281
+offset 46063
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 282
+offset 46225
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 283
+offset 46289
+name NULL
+length 30
+====================
+The effects of [Cry] wear off.
+====================
+The effects of [Cry] wear off.
+====================
+
+====================
+index 284
+offset 46471
+name NULL
+length 30
+====================
+The effects of [Cry] wear off.
+====================
+The effects of [Cry] wear off.
+====================
+
+====================
+index 285
+offset 46630
+name NULL
+length 19
+====================
+Tomo casts [Sleep]!
+====================
+Tomo casts [Sleep]!
+====================
+
+====================
+index 286
+offset 46801
+name NULL
+length 19
+====================
+Tomo casts [Sleep]!
+====================
+Tomo casts [Sleep]!
+====================
+
+====================
+index 287
+offset 46901
+name NULL
+length 32
+====================
+The effects of [Sleep] wear off.
+====================
+The effects of [Sleep] wear off.
+====================
+
+====================
+index 288
+offset 47085
+name NULL
+length 32
+====================
+The effects of [Sleep] wear off.
+====================
+The effects of [Sleep] wear off.
+====================
+
+====================
+index 289
+offset 47168
+name NULL
+length 18
+====================
+[Sleep]'s effects:
+====================
+[Sleep]'s effects:
+====================
+
+====================
+index 290
+offset 47338
+name NULL
+length 18
+====================
+[Sleep]'s effects:
+====================
+[Sleep]'s effects:
+====================
+
+====================
+index 291
+offset 47700
+name NULL
+length 12
+====================
+Red beastman
+====================
+Red beastman
+====================
+
+====================
+index 292
+offset 47758
+name NULL
+length 8
+====================
+Beastman
+====================
+Beastman
+====================
+
+====================
+index 293
+offset 47812
+name NULL
+length 13
+====================
+Blue beastman
+====================
+Blue beastman
+====================
+
+====================
+index 294
+offset 47871
+name NULL
+length 8
+====================
+Beastman
+====================
+Beastman
+====================
+
+====================
+index 295
+offset 47925
+name NULL
+length 8
+====================
+Beastman
+====================
+Beastman
+====================
+
+====================
+index 296
+offset 47979
+name NULL
+length 5
+====================
+Golem
+====================
+Golem
+====================
+
+====================
+index 297
+offset 48030
+name NULL
+length 9
+====================
+Last Boss
+====================
+Last Boss
+====================
+
+====================
+index 298
+offset 48085
+name NULL
+length 11
+====================
+ is asleep!
+====================
+ is asleep!
+====================
+
+====================
+index 299
+offset 48419
+name NULL
+length 16
+====================
+Tomo uses [Tag]!
+====================
+Tomo uses [Tag]!
+====================
+
+====================
+index 300
+offset 48587
+name NULL
+length 16
+====================
+Tomo uses [Tag]!
+====================
+Tomo uses [Tag]!
+====================
+
+====================
+index 301
+offset 48654
+name NULL
+length 28
+====================
+The enemy is targeting Tomo!
+====================
+The enemy is targeting Tomo!
+====================
+
+====================
+index 302
+offset 48834
+name NULL
+length 28
+====================
+The enemy is targeting Tomo!
+====================
+The enemy is targeting Tomo!
+====================
+
+====================
+index 303
+offset 48913
+name NULL
+length 30
+====================
+The effects of [Tag] wear off.
+====================
+The effects of [Tag] wear off.
+====================
+
+====================
+index 304
+offset 49095
+name NULL
+length 30
+====================
+The effects of [Tag] wear off.
+====================
+The effects of [Tag] wear off.
+====================
+
+====================
+index 305
+offset 49254
+name NULL
+length 22
+====================
+Tomo casts [Teleport]!
+====================
+Tomo casts [Teleport]!
+====================
+
+====================
+index 306
+offset 49428
+name NULL
+length 22
+====================
+Tomo casts [Teleport]!
+====================
+Tomo casts [Teleport]!
+====================
+
+====================
+index 307
+offset 49572
+name NULL
+length 21
+====================
+Tomoya is teleported!
+====================
+Tomoya is teleported!
+====================
+
+====================
+index 308
+offset 49745
+name NULL
+length 21
+====================
+Tomoya is teleported!
+====================
+Tomoya is teleported!
+====================
+
+====================
+index 309
+offset 49849
+name NULL
+length 21
+====================
+Tomoyo is teleported!
+====================
+Tomoyo is teleported!
+====================
+
+====================
+index 310
+offset 50022
+name NULL
+length 21
+====================
+Tomoyo is teleported!
+====================
+Tomoyo is teleported!
+====================
+
+====================
+index 311
+offset 50126
+name NULL
+length 21
+====================
+Kanako is teleported!
+====================
+Kanako is teleported!
+====================
+
+====================
+index 312
+offset 50299
+name NULL
+length 21
+====================
+Kanako is teleported!
+====================
+Kanako is teleported!
+====================
+
+====================
+index 313
+offset 50403
+name NULL
+length 19
+====================
+Fuko is teleported!
+====================
+Fuko is teleported!
+====================
+
+====================
+index 314
+offset 50574
+name NULL
+length 19
+====================
+Fuko is teleported!
+====================
+Fuko is teleported!
+====================
+
+====================
+index 315
+offset 50661
+name NULL
+length 25
+====================
+There are no allies left.
+====================
+There are no allies left.
+====================
+
+====================
+index 316
+offset 50838
+name NULL
+length 25
+====================
+There are no allies left.
+====================
+There are no allies left.
+====================
+
+====================
+index 317
+offset 50896
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 318
+offset 51058
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 319
+offset 51215
+name NULL
+length 26
+====================
+Tomo uses [Friendly Kiss]!
+====================
+Tomo uses [Friendly Kiss]!
+====================
+
+====================
+index 320
+offset 51393
+name NULL
+length 26
+====================
+Tomo uses [Friendly Kiss]!
+====================
+Tomo uses [Friendly Kiss]!
+====================
+
+====================
+index 321
+offset 51470
+name NULL
+length 35
+====================
+The enemy is unable to attack Tomo!
+====================
+The enemy is unable to attack Tomo!
+====================
+
+====================
+index 322
+offset 51657
+name NULL
+length 35
+====================
+The enemy is unable to attack Tomo!
+====================
+The enemy is unable to attack Tomo!
+====================
+
+====================
+index 323
+offset 51743
+name NULL
+length 40
+====================
+The effects of [Friendly Kiss] wear off.
+====================
+The effects of [Friendly Kiss] wear off.
+====================
+
+====================
+index 324
+offset 51935
+name NULL
+length 40
+====================
+The effects of [Friendly Kiss] wear off.
+====================
+The effects of [Friendly Kiss] wear off.
+====================
+
+====================
+index 325
+offset 52104
+name NULL
+length 20
+====================
+Tomo casts [Shield]!
+====================
+Tomo casts [Shield]!
+====================
+
+====================
+index 326
+offset 52276
+name NULL
+length 20
+====================
+Tomo casts [Shield]!
+====================
+Tomo casts [Shield]!
+====================
+
+====================
+index 327
+offset 52379
+name NULL
+length 31
+====================
+Tomoya's defense has increased!
+====================
+Tomoya's defense has increased!
+====================
+
+====================
+index 328
+offset 52562
+name NULL
+length 31
+====================
+Tomoya's defense has increased!
+====================
+Tomoya's defense has increased!
+====================
+
+====================
+index 329
+offset 52658
+name NULL
+length 31
+====================
+Tomoyo's defense has increased!
+====================
+Tomoyo's defense has increased!
+====================
+
+====================
+index 330
+offset 52841
+name NULL
+length 31
+====================
+Tomoyo's defense has increased!
+====================
+Tomoyo's defense has increased!
+====================
+
+====================
+index 331
+offset 52937
+name NULL
+length 31
+====================
+Kanako's defense has increased!
+====================
+Kanako's defense has increased!
+====================
+
+====================
+index 332
+offset 53120
+name NULL
+length 31
+====================
+Kanako's defense has increased!
+====================
+Kanako's defense has increased!
+====================
+
+====================
+index 333
+offset 53216
+name NULL
+length 29
+====================
+Tomo's defense has increased!
+====================
+Tomo's defense has increased!
+====================
+
+====================
+index 334
+offset 53397
+name NULL
+length 29
+====================
+Tomo's defense has increased!
+====================
+Tomo's defense has increased!
+====================
+
+====================
+index 335
+offset 53491
+name NULL
+length 29
+====================
+Fuko's defense has increased!
+====================
+Fuko's defense has increased!
+====================
+
+====================
+index 336
+offset 53672
+name NULL
+length 29
+====================
+Fuko's defense has increased!
+====================
+Fuko's defense has increased!
+====================
+
+====================
+index 337
+offset 53752
+name NULL
+length 33
+====================
+The effects of [Shield] wear off.
+====================
+The effects of [Shield] wear off.
+====================
+
+====================
+index 338
+offset 53937
+name NULL
+length 33
+====================
+The effects of [Shield] wear off.
+====================
+The effects of [Shield] wear off.
+====================
+
+====================
+index 339
+offset 54099
+name NULL
+length 26
+====================
+Tomo uses [Hide and Seek]!
+====================
+Tomo uses [Hide and Seek]!
+====================
+
+====================
+index 340
+offset 54277
+name NULL
+length 26
+====================
+Tomo uses [Hide and Seek]!
+====================
+Tomo uses [Hide and Seek]!
+====================
+
+====================
+index 341
+offset 54354
+name NULL
+length 33
+====================
+The enemy has changed its target!
+====================
+The enemy has changed its target!
+====================
+
+====================
+index 342
+offset 54539
+name NULL
+length 33
+====================
+The enemy has changed its target!
+====================
+The enemy has changed its target!
+====================
+
+====================
+index 343
+offset 54623
+name NULL
+length 40
+====================
+The effects of [Hide and Seek] wear off.
+====================
+The effects of [Hide and Seek] wear off.
+====================
+
+====================
+index 344
+offset 54815
+name NULL
+length 40
+====================
+The effects of [Hide and Seek] wear off.
+====================
+The effects of [Hide and Seek] wear off.
+====================
+
+====================
+index 345
+offset 54984
+name NULL
+length 19
+====================
+Tomo casts [Speed]!
+====================
+Tomo casts [Speed]!
+====================
+
+====================
+index 346
+offset 55155
+name NULL
+length 19
+====================
+Tomo casts [Speed]!
+====================
+Tomo casts [Speed]!
+====================
+
+====================
+index 347
+offset 55257
+name NULL
+length 29
+====================
+Tomoya's speed has increased!
+====================
+Tomoya's speed has increased!
+====================
+
+====================
+index 348
+offset 55438
+name NULL
+length 29
+====================
+Tomoya's speed has increased!
+====================
+Tomoya's speed has increased!
+====================
+
+====================
+index 349
+offset 55532
+name NULL
+length 29
+====================
+Tomoyo's speed has increased!
+====================
+Tomoyo's speed has increased!
+====================
+
+====================
+index 350
+offset 55713
+name NULL
+length 29
+====================
+Tomoyo's speed has increased!
+====================
+Tomoyo's speed has increased!
+====================
+
+====================
+index 351
+offset 55807
+name NULL
+length 29
+====================
+Kanako's speed has increased!
+====================
+Kanako's speed has increased!
+====================
+
+====================
+index 352
+offset 55988
+name NULL
+length 29
+====================
+Kanako's speed has increased!
+====================
+Kanako's speed has increased!
+====================
+
+====================
+index 353
+offset 56082
+name NULL
+length 27
+====================
+Tomo's speed has increased!
+====================
+Tomo's speed has increased!
+====================
+
+====================
+index 354
+offset 56261
+name NULL
+length 27
+====================
+Tomo's speed has increased!
+====================
+Tomo's speed has increased!
+====================
+
+====================
+index 355
+offset 56353
+name NULL
+length 27
+====================
+Fuko's speed has increased!
+====================
+Fuko's speed has increased!
+====================
+
+====================
+index 356
+offset 56532
+name NULL
+length 27
+====================
+Fuko's speed has increased!
+====================
+Fuko's speed has increased!
+====================
+
+====================
+index 357
+offset 56610
+name NULL
+length 32
+====================
+The effects of [Speed] wear off.
+====================
+The effects of [Speed] wear off.
+====================
+
+====================
+index 358
+offset 56794
+name NULL
+length 32
+====================
+The effects of [Speed] wear off.
+====================
+The effects of [Speed] wear off.
+====================
+
+====================
+index 359
+offset 56955
+name NULL
+length 33
+====================
+Tomo uses [Adult Transformation]!
+====================
+Tomo uses [Adult Transformation]!
+====================
+
+====================
+index 360
+offset 57140
+name NULL
+length 33
+====================
+Tomo uses [Adult Transformation]!
+====================
+Tomo uses [Adult Transformation]!
+====================
+
+====================
+index 361
+offset 57224
+name NULL
+length 40
+====================
+All of Tomo's attributes have increased!
+====================
+All of Tomo's attributes have increased!
+====================
+
+====================
+index 362
+offset 57416
+name NULL
+length 40
+====================
+All of Tomo's attributes have increased!
+====================
+All of Tomo's attributes have increased!
+====================
+
+====================
+index 363
+offset 57507
+name NULL
+length 37
+====================
+The effects of [Adult Transformation]
+====================
+The effects of [Adult Transformation]
+====================
+
+====================
+index 364
+offset 57696
+name NULL
+length 37
+====================
+The effects of [Adult Transformation]
+====================
+The effects of [Adult Transformation]
+====================
+
+====================
+index 365
+offset 57794
+name NULL
+length 9
+====================
+wear off.
+====================
+wear off.
+====================
+
+====================
+index 366
+offset 57955
+name NULL
+length 9
+====================
+wear off.
+====================
+wear off.
+====================
+
+====================
+index 367
+offset 58455
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 368
+offset 58507
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 369
+offset 58559
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 370
+offset 58611
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 371
+offset 58661
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 372
+offset 58711
+name NULL
+length 22
+====================
+ uses [Counterattack]!
+====================
+ uses [Counterattack]!
+====================
+
+====================
+index 373
+offset 58966
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 374
+offset 59018
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 375
+offset 59070
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 376
+offset 59122
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 377
+offset 59172
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 378
+offset 59222
+name NULL
+length 24
+====================
+ will now counterattack!
+====================
+ will now counterattack!
+====================
+
+====================
+index 379
+offset 59297
+name NULL
+length 40
+====================
+The effects of [Counterattack] wear off.
+====================
+The effects of [Counterattack] wear off.
+====================
+
+====================
+index 380
+offset 59489
+name NULL
+length 40
+====================
+The effects of [Counterattack] wear off.
+====================
+The effects of [Counterattack] wear off.
+====================
+
+====================
+index 381
+offset 59580
+name NULL
+length 26
+====================
+[Counterattack]'s effects:
+====================
+[Counterattack]'s effects:
+====================
+
+====================
+index 382
+offset 59758
+name NULL
+length 26
+====================
+[Counterattack]'s effects:
+====================
+[Counterattack]'s effects:
+====================
+
+====================
+index 383
+offset 60086
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 384
+offset 60138
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 385
+offset 60190
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 386
+offset 60242
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 387
+offset 60292
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 388
+offset 60342
+name NULL
+length 30
+====================
+ uses [Two-handed Sword User]!
+====================
+ uses [Two-handed Sword User]!
+====================
+
+====================
+index 391
+offset 60671
+name NULL
+length 41
+====================
+The attack power of swords has increased!
+====================
+The attack power of swords has increased!
+====================
+
+====================
+index 392
+offset 60864
+name NULL
+length 41
+====================
+The attack power of swords has increased!
+====================
+The attack power of swords has increased!
+====================
+
+====================
+index 393
+offset 61170
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 394
+offset 61222
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 395
+offset 61274
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 396
+offset 61326
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 397
+offset 61376
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 398
+offset 61426
+name NULL
+length 33
+====================
+ doesn't have a two-handed sword.
+====================
+ doesn't have a two-handed sword.
+====================
+
+====================
+index 401
+offset 61705
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 402
+offset 61867
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 403
+offset 62206
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 404
+offset 62258
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 405
+offset 62310
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 406
+offset 62362
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 407
+offset 62412
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 408
+offset 62462
+name NULL
+length 24
+====================
+ uses [Dual Sword User]!
+====================
+ uses [Dual Sword User]!
+====================
+
+====================
+index 411
+offset 62785
+name NULL
+length 38
+====================
+Number of sword attacks has increased!
+====================
+Number of sword attacks has increased!
+====================
+
+====================
+index 412
+offset 62975
+name NULL
+length 38
+====================
+Number of sword attacks has increased!
+====================
+Number of sword attacks has increased!
+====================
+
+====================
+index 413
+offset 63278
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 414
+offset 63330
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 415
+offset 63382
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 416
+offset 63434
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 417
+offset 63484
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 418
+offset 63534
+name NULL
+length 36
+====================
+ doesn't have two one-handed swords.
+====================
+ doesn't have two one-handed swords.
+====================
+
+====================
+index 421
+offset 63816
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 422
+offset 63978
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 423
+offset 64317
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 424
+offset 64369
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 425
+offset 64421
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 426
+offset 64473
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 427
+offset 64523
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 428
+offset 64573
+name NULL
+length 14
+====================
+ uses [Parry]!
+====================
+ uses [Parry]!
+====================
+
+====================
+index 429
+offset 64855
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 430
+offset 64907
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 431
+offset 64959
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 432
+offset 65011
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 433
+offset 65061
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 434
+offset 65111
+name NULL
+length 30
+====================
+'s evasion rate has increased!
+====================
+'s evasion rate has increased!
+====================
+
+====================
+index 435
+offset 65406
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 436
+offset 65458
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 437
+offset 65510
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 438
+offset 65562
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 439
+offset 65612
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 440
+offset 65662
+name NULL
+length 22
+====================
+ doesn't have a sword.
+====================
+ doesn't have a sword.
+====================
+
+====================
+index 441
+offset 65717
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 442
+offset 65879
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 443
+offset 65943
+name NULL
+length 32
+====================
+The effects of [Parry] wear off.
+====================
+The effects of [Parry] wear off.
+====================
+
+====================
+index 444
+offset 66127
+name NULL
+length 32
+====================
+The effects of [Parry] wear off.
+====================
+The effects of [Parry] wear off.
+====================
+
+====================
+index 445
+offset 66470
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 446
+offset 66522
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 447
+offset 66574
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 448
+offset 66626
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 449
+offset 66676
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 450
+offset 66726
+name NULL
+length 20
+====================
+ uses [Sword Dance]!
+====================
+ uses [Sword Dance]!
+====================
+
+====================
+index 451
+offset 66920
+name NULL
+length 20
+====================
+No enemies in range.
+====================
+No enemies in range.
+====================
+
+====================
+index 452
+offset 67092
+name NULL
+length 20
+====================
+No enemies in range.
+====================
+No enemies in range.
+====================
+
+====================
+index 453
+offset 67380
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 454
+offset 67432
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 455
+offset 67484
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 456
+offset 67536
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 457
+offset 67586
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 458
+offset 67636
+name NULL
+length 22
+====================
+ doesn't have a sword.
+====================
+ doesn't have a sword.
+====================
+
+====================
+index 459
+offset 67691
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 460
+offset 67853
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 461
+offset 68207
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 462
+offset 68259
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 463
+offset 68311
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 464
+offset 68363
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 465
+offset 68413
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 466
+offset 68463
+name NULL
+length 30
+====================
+ uses [Two-handed Sword User]!
+====================
+ uses [Two-handed Sword User]!
+====================
+
+====================
+index 469
+offset 68792
+name NULL
+length 41
+====================
+The attack power of swords has increased!
+====================
+The attack power of swords has increased!
+====================
+
+====================
+index 470
+offset 68985
+name NULL
+length 41
+====================
+The attack power of swords has increased!
+====================
+The attack power of swords has increased!
+====================
+
+====================
+index 471
+offset 69291
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 472
+offset 69343
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 473
+offset 69395
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 474
+offset 69447
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 475
+offset 69497
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 476
+offset 69547
+name NULL
+length 33
+====================
+ doesn't have a two-handed sword.
+====================
+ doesn't have a two-handed sword.
+====================
+
+====================
+index 479
+offset 69826
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 480
+offset 69988
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 481
+offset 70327
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 482
+offset 70379
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 483
+offset 70431
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 484
+offset 70483
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 485
+offset 70533
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 486
+offset 70583
+name NULL
+length 24
+====================
+ uses [Dual Sword User]!
+====================
+ uses [Dual Sword User]!
+====================
+
+====================
+index 489
+offset 70906
+name NULL
+length 38
+====================
+Number of sword attacks has increased!
+====================
+Number of sword attacks has increased!
+====================
+
+====================
+index 490
+offset 71096
+name NULL
+length 38
+====================
+Number of sword attacks has increased!
+====================
+Number of sword attacks has increased!
+====================
+
+====================
+index 491
+offset 71399
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 492
+offset 71451
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 493
+offset 71503
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 494
+offset 71555
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 495
+offset 71605
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 496
+offset 71655
+name NULL
+length 36
+====================
+ doesn't have two one-handed swords.
+====================
+ doesn't have two one-handed swords.
+====================
+
+====================
+index 499
+offset 71937
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 500
+offset 72099
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 501
+offset 72438
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 502
+offset 72490
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 503
+offset 72542
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 504
+offset 72594
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 505
+offset 72644
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 506
+offset 72694
+name NULL
+length 19
+====================
+ uses [Spear User]!
+====================
+ uses [Spear User]!
+====================
+
+====================
+index 507
+offset 72799
+name NULL
+length 39
+====================
+The attack range of spears has changed!
+====================
+The attack range of spears has changed!
+====================
+
+====================
+index 508
+offset 72990
+name NULL
+length 39
+====================
+The attack range of spears has changed!
+====================
+The attack range of spears has changed!
+====================
+
+====================
+index 509
+offset 73294
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 510
+offset 73346
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 511
+offset 73398
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 512
+offset 73450
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 513
+offset 73500
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 514
+offset 73550
+name NULL
+length 22
+====================
+ doesn't have a spear.
+====================
+ doesn't have a spear.
+====================
+
+====================
+index 515
+offset 73605
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 516
+offset 73767
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 517
+offset 74106
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 518
+offset 74158
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 519
+offset 74210
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 520
+offset 74262
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 521
+offset 74312
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 522
+offset 74362
+name NULL
+length 14
+====================
+ uses [Parry]!
+====================
+ uses [Parry]!
+====================
+
+====================
+index 523
+offset 74644
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 524
+offset 74696
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 525
+offset 74748
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 526
+offset 74800
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 527
+offset 74850
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 528
+offset 74900
+name NULL
+length 30
+====================
+'s evasion rate has increased!
+====================
+'s evasion rate has increased!
+====================
+
+====================
+index 529
+offset 75195
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 530
+offset 75247
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 531
+offset 75299
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 532
+offset 75351
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 533
+offset 75401
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 534
+offset 75451
+name NULL
+length 22
+====================
+ doesn't have a sword.
+====================
+ doesn't have a sword.
+====================
+
+====================
+index 535
+offset 75506
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 536
+offset 75668
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 537
+offset 75732
+name NULL
+length 32
+====================
+The effects of [Parry] wear off.
+====================
+The effects of [Parry] wear off.
+====================
+
+====================
+index 538
+offset 75916
+name NULL
+length 32
+====================
+The effects of [Parry] wear off.
+====================
+The effects of [Parry] wear off.
+====================
+
+====================
+index 539
+offset 76259
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 540
+offset 76311
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 541
+offset 76363
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 542
+offset 76415
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 543
+offset 76465
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 544
+offset 76515
+name NULL
+length 20
+====================
+ uses [Spear Dance]!
+====================
+ uses [Spear Dance]!
+====================
+
+====================
+index 545
+offset 76709
+name NULL
+length 20
+====================
+No enemies in range.
+====================
+No enemies in range.
+====================
+
+====================
+index 546
+offset 76881
+name NULL
+length 20
+====================
+No enemies in range.
+====================
+No enemies in range.
+====================
+
+====================
+index 547
+offset 77169
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 548
+offset 77221
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 549
+offset 77273
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 550
+offset 77325
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 551
+offset 77375
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 552
+offset 77425
+name NULL
+length 22
+====================
+ doesn't have a spear.
+====================
+ doesn't have a spear.
+====================
+
+====================
+index 553
+offset 77480
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 554
+offset 77642
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 555
+offset 77996
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 556
+offset 78048
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 557
+offset 78100
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 558
+offset 78152
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 559
+offset 78202
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 560
+offset 78252
+name NULL
+length 19
+====================
+ uses [Sword User]!
+====================
+ uses [Sword User]!
+====================
+
+====================
+index 561
+offset 78357
+name NULL
+length 41
+====================
+The attack power of swords has increased!
+====================
+The attack power of swords has increased!
+====================
+
+====================
+index 562
+offset 78550
+name NULL
+length 41
+====================
+The attack power of swords has increased!
+====================
+The attack power of swords has increased!
+====================
+
+====================
+index 563
+offset 78856
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 564
+offset 78908
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 565
+offset 78960
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 566
+offset 79012
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 567
+offset 79062
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 568
+offset 79112
+name NULL
+length 22
+====================
+ doesn't have a sword.
+====================
+ doesn't have a sword.
+====================
+
+====================
+index 569
+offset 79167
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 570
+offset 79329
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 571
+offset 79668
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 572
+offset 79720
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 573
+offset 79772
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 574
+offset 79824
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 575
+offset 79874
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 576
+offset 79924
+name NULL
+length 17
+====================
+ casts [Heal x3]!
+====================
+ casts [Heal x3]!
+====================
+
+====================
+index 577
+offset 80174
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 578
+offset 80226
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 579
+offset 80278
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 580
+offset 80330
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 581
+offset 80380
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 582
+offset 80430
+name NULL
+length 17
+====================
+ has been healed!
+====================
+ has been healed!
+====================
+
+====================
+index 583
+offset 80498
+name NULL
+length 34
+====================
+The effects of [Heal x3] wear off.
+====================
+The effects of [Heal x3] wear off.
+====================
+
+====================
+index 584
+offset 80684
+name NULL
+length 34
+====================
+The effects of [Heal x3] wear off.
+====================
+The effects of [Heal x3] wear off.
+====================
+
+====================
+index 585
+offset 80769
+name NULL
+length 20
+====================
+[Heal x3]'s effects:
+====================
+[Heal x3]'s effects:
+====================
+
+====================
+index 586
+offset 80941
+name NULL
+length 20
+====================
+[Heal x3]'s effects:
+====================
+[Heal x3]'s effects:
+====================
+
+====================
+index 587
+offset 81263
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 588
+offset 81315
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 589
+offset 81367
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 590
+offset 81419
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 591
+offset 81469
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 592
+offset 81519
+name NULL
+length 29
+====================
+ uses [Supreme King's Sword]!
+====================
+ uses [Supreme King's Sword]!
+====================
+
+====================
+index 595
+offset 81847
+name NULL
+length 39
+====================
+The attack range of swords has changed!
+====================
+The attack range of swords has changed!
+====================
+
+====================
+index 596
+offset 82038
+name NULL
+length 39
+====================
+The attack range of swords has changed!
+====================
+The attack range of swords has changed!
+====================
+
+====================
+index 597
+offset 82342
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 598
+offset 82394
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 599
+offset 82446
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 600
+offset 82498
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 601
+offset 82548
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 602
+offset 82598
+name NULL
+length 22
+====================
+ doesn't have a sword.
+====================
+ doesn't have a sword.
+====================
+
+====================
+index 603
+offset 82653
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 604
+offset 82815
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 605
+offset 83154
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 606
+offset 83206
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 607
+offset 83258
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 608
+offset 83310
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 609
+offset 83360
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 610
+offset 83410
+name NULL
+length 14
+====================
+ uses [Parry]!
+====================
+ uses [Parry]!
+====================
+
+====================
+index 611
+offset 83692
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 612
+offset 83744
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 613
+offset 83796
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 614
+offset 83848
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 615
+offset 83898
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 616
+offset 83948
+name NULL
+length 30
+====================
+'s evasion rate has increased!
+====================
+'s evasion rate has increased!
+====================
+
+====================
+index 617
+offset 84243
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 618
+offset 84295
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 619
+offset 84347
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 620
+offset 84399
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 621
+offset 84449
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 622
+offset 84499
+name NULL
+length 22
+====================
+ doesn't have a sword.
+====================
+ doesn't have a sword.
+====================
+
+====================
+index 623
+offset 84554
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 624
+offset 84716
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 625
+offset 84780
+name NULL
+length 32
+====================
+The effects of [Parry] wear off.
+====================
+The effects of [Parry] wear off.
+====================
+
+====================
+index 626
+offset 84964
+name NULL
+length 32
+====================
+The effects of [Parry] wear off.
+====================
+The effects of [Parry] wear off.
+====================
+
+====================
+index 627
+offset 85307
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 628
+offset 85359
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 629
+offset 85411
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 630
+offset 85463
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 631
+offset 85513
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 632
+offset 85563
+name NULL
+length 19
+====================
+ uses [Sword Rush]!
+====================
+ uses [Sword Rush]!
+====================
+
+====================
+index 633
+offset 85756
+name NULL
+length 20
+====================
+No enemies in range.
+====================
+No enemies in range.
+====================
+
+====================
+index 634
+offset 85928
+name NULL
+length 20
+====================
+No enemies in range.
+====================
+No enemies in range.
+====================
+
+====================
+index 635
+offset 86216
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 636
+offset 86268
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 637
+offset 86320
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 638
+offset 86372
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 639
+offset 86422
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 640
+offset 86472
+name NULL
+length 22
+====================
+ doesn't have a sword.
+====================
+ doesn't have a sword.
+====================
+
+====================
+index 641
+offset 86527
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 642
+offset 86689
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 643
+offset 87043
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 644
+offset 87095
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 645
+offset 87147
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 646
+offset 87199
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 647
+offset 87249
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 648
+offset 87299
+name NULL
+length 29
+====================
+ uses [Hiding in the Leaves]!
+====================
+ uses [Hiding in the Leaves]!
+====================
+
+====================
+index 651
+offset 87774
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 652
+offset 87826
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 653
+offset 87878
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 654
+offset 87930
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 655
+offset 87980
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 656
+offset 88030
+name NULL
+length 30
+====================
+'s attack power has increased!
+====================
+'s attack power has increased!
+====================
+
+====================
+index 657
+offset 88275
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 658
+offset 88327
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 659
+offset 88379
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 660
+offset 88431
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 661
+offset 88481
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 662
+offset 88531
+name NULL
+length 25
+====================
+'s defense has decreased!
+====================
+'s defense has decreased!
+====================
+
+====================
+index 663
+offset 88882
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 664
+offset 88934
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 665
+offset 88986
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 666
+offset 89038
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 667
+offset 89088
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 668
+offset 89138
+name NULL
+length 29
+====================
+ uses [Two Swords Technique]!
+====================
+ uses [Two Swords Technique]!
+====================
+
+====================
+index 671
+offset 89466
+name NULL
+length 34
+====================
+Weapon attack power has increased!
+====================
+Weapon attack power has increased!
+====================
+
+====================
+index 672
+offset 89652
+name NULL
+length 34
+====================
+Weapon attack power has increased!
+====================
+Weapon attack power has increased!
+====================
+
+====================
+index 673
+offset 89951
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 674
+offset 90003
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 675
+offset 90055
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 676
+offset 90107
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 677
+offset 90157
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 678
+offset 90207
+name NULL
+length 37
+====================
+ doesn't have a weapon in both hands.
+====================
+ doesn't have a weapon in both hands.
+====================
+
+====================
+index 681
+offset 90490
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 682
+offset 90652
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 683
+offset 90991
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 684
+offset 91043
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 685
+offset 91095
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 686
+offset 91147
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 687
+offset 91197
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 688
+offset 91247
+name NULL
+length 30
+====================
+ uses [Secret Art of Healing]!
+====================
+ uses [Secret Art of Healing]!
+====================
+
+====================
+index 691
+offset 91723
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 692
+offset 91775
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 693
+offset 91827
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 694
+offset 91879
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 695
+offset 91929
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 696
+offset 91979
+name NULL
+length 17
+====================
+ has been healed!
+====================
+ has been healed!
+====================
+
+====================
+index 697
+offset 92047
+name NULL
+length 38
+====================
+The effects of [Secret Art of Healing]
+====================
+The effects of [Secret Art of Healing]
+====================
+
+====================
+index 698
+offset 92237
+name NULL
+length 38
+====================
+The effects of [Secret Art of Healing]
+====================
+The effects of [Secret Art of Healing]
+====================
+
+====================
+index 699
+offset 92336
+name NULL
+length 9
+====================
+wear off.
+====================
+wear off.
+====================
+
+====================
+index 700
+offset 92497
+name NULL
+length 9
+====================
+wear off.
+====================
+wear off.
+====================
+
+====================
+index 701
+offset 92557
+name NULL
+length 34
+====================
+[Secret Art of Healing]'s effects:
+====================
+[Secret Art of Healing]'s effects:
+====================
+
+====================
+index 702
+offset 92743
+name NULL
+length 34
+====================
+[Secret Art of Healing]'s effects:
+====================
+[Secret Art of Healing]'s effects:
+====================
+
+====================
+index 703
+offset 93091
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 704
+offset 93143
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 705
+offset 93195
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 706
+offset 93247
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 707
+offset 93297
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 708
+offset 93347
+name NULL
+length 26
+====================
+ uses [One Hit, One Kill]!
+====================
+ uses [One Hit, One Kill]!
+====================
+
+====================
+index 711
+offset 93819
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 712
+offset 93871
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 713
+offset 93923
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 714
+offset 93975
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 715
+offset 94025
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 716
+offset 94075
+name NULL
+length 30
+====================
+'s attack power has increased!
+====================
+'s attack power has increased!
+====================
+
+====================
+index 717
+offset 94156
+name NULL
+length 44
+====================
+The effects of [One Hit, One Kill] wear off.
+====================
+The effects of [One Hit, One Kill] wear off.
+====================
+
+====================
+index 718
+offset 94352
+name NULL
+length 44
+====================
+The effects of [One Hit, One Kill] wear off.
+====================
+The effects of [One Hit, One Kill] wear off.
+====================
+
+====================
+index 719
+offset 94707
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 720
+offset 94759
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 721
+offset 94811
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 722
+offset 94863
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 723
+offset 94913
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 724
+offset 94963
+name NULL
+length 30
+====================
+ uses [Japanese Sword Master]!
+====================
+ uses [Japanese Sword Master]!
+====================
+
+====================
+index 727
+offset 95292
+name NULL
+length 41
+====================
+The attack power of katana has increased!
+====================
+The attack power of katana has increased!
+====================
+
+====================
+index 728
+offset 95485
+name NULL
+length 41
+====================
+The attack power of katana has increased!
+====================
+The attack power of katana has increased!
+====================
+
+====================
+index 729
+offset 95791
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 730
+offset 95843
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 731
+offset 95895
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 732
+offset 95947
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 733
+offset 95997
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 734
+offset 96047
+name NULL
+length 23
+====================
+ doesn't have a katana.
+====================
+ doesn't have a katana.
+====================
+
+====================
+index 737
+offset 96316
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 738
+offset 96478
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 739
+offset 96832
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 740
+offset 96884
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 741
+offset 96936
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 742
+offset 96988
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 743
+offset 97038
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 744
+offset 97088
+name NULL
+length 23
+====================
+ uses [Discerning Eye]!
+====================
+ uses [Discerning Eye]!
+====================
+
+====================
+index 745
+offset 97344
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 746
+offset 97396
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 747
+offset 97448
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 748
+offset 97500
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 749
+offset 97550
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 750
+offset 97600
+name NULL
+length 38
+====================
+'s chance to find items has increased!
+====================
+'s chance to find items has increased!
+====================
+
+====================
+index 751
+offset 97964
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 752
+offset 98016
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 753
+offset 98068
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 754
+offset 98120
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 755
+offset 98170
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 756
+offset 98220
+name NULL
+length 20
+====================
+ uses [Dagger User]!
+====================
+ uses [Dagger User]!
+====================
+
+====================
+index 759
+offset 98539
+name NULL
+length 39
+====================
+Number of dagger attacks has increased!
+====================
+Number of dagger attacks has increased!
+====================
+
+====================
+index 760
+offset 98730
+name NULL
+length 39
+====================
+Number of dagger attacks has increased!
+====================
+Number of dagger attacks has increased!
+====================
+
+====================
+index 763
+offset 99247
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 764
+offset 99299
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 765
+offset 99351
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 766
+offset 99403
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 767
+offset 99453
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 768
+offset 99503
+name NULL
+length 23
+====================
+ doesn't have a dagger.
+====================
+ doesn't have a dagger.
+====================
+
+====================
+index 769
+offset 99559
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 770
+offset 99721
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 771
+offset 100060
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 772
+offset 100112
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 773
+offset 100164
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 774
+offset 100216
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 775
+offset 100266
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 776
+offset 100316
+name NULL
+length 20
+====================
+ uses [Wild Attack]!
+====================
+ uses [Wild Attack]!
+====================
+
+====================
+index 777
+offset 100422
+name NULL
+length 38
+====================
+The attack range of ranged weapons has
+====================
+The attack range of ranged weapons has
+====================
+
+====================
+index 778
+offset 100612
+name NULL
+length 38
+====================
+The attack range of ranged weapons has
+====================
+The attack range of ranged weapons has
+====================
+
+====================
+index 779
+offset 100711
+name NULL
+length 8
+====================
+changed!
+====================
+changed!
+====================
+
+====================
+index 780
+offset 100871
+name NULL
+length 8
+====================
+changed!
+====================
+changed!
+====================
+
+====================
+index 781
+offset 101144
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 782
+offset 101196
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 783
+offset 101248
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 784
+offset 101300
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 785
+offset 101350
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 786
+offset 101400
+name NULL
+length 30
+====================
+ doesn't have a ranged weapon.
+====================
+ doesn't have a ranged weapon.
+====================
+
+====================
+index 789
+offset 101676
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 790
+offset 101838
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 791
+offset 102177
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 792
+offset 102229
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 793
+offset 102281
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 794
+offset 102333
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 795
+offset 102383
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 796
+offset 102433
+name NULL
+length 19
+====================
+ uses [Swift Step]!
+====================
+ uses [Swift Step]!
+====================
+
+====================
+index 797
+offset 102685
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 798
+offset 102737
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 799
+offset 102789
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 800
+offset 102841
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 801
+offset 102891
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 802
+offset 102941
+name NULL
+length 23
+====================
+'s speed has increased!
+====================
+'s speed has increased!
+====================
+
+====================
+index 803
+offset 103290
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 804
+offset 103342
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 805
+offset 103394
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 806
+offset 103446
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 807
+offset 103496
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 808
+offset 103546
+name NULL
+length 23
+====================
+ uses [Aim for Vitals]!
+====================
+ uses [Aim for Vitals]!
+====================
+
+====================
+index 809
+offset 103802
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 810
+offset 103854
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 811
+offset 103906
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 812
+offset 103958
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 813
+offset 104008
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 814
+offset 104058
+name NULL
+length 37
+====================
+'s critical hit chance has increased!
+====================
+'s critical hit chance has increased!
+====================
+
+====================
+index 815
+offset 104436
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 816
+offset 104488
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 817
+offset 104540
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 818
+offset 104592
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 819
+offset 104642
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 820
+offset 104692
+name NULL
+length 20
+====================
+ uses [Dagger User]!
+====================
+ uses [Dagger User]!
+====================
+
+====================
+index 823
+offset 105011
+name NULL
+length 39
+====================
+Number of dagger attacks has increased!
+====================
+Number of dagger attacks has increased!
+====================
+
+====================
+index 824
+offset 105202
+name NULL
+length 39
+====================
+Number of dagger attacks has increased!
+====================
+Number of dagger attacks has increased!
+====================
+
+====================
+index 827
+offset 105719
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 828
+offset 105771
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 829
+offset 105823
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 830
+offset 105875
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 831
+offset 105925
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 832
+offset 105975
+name NULL
+length 23
+====================
+ doesn't have a dagger.
+====================
+ doesn't have a dagger.
+====================
+
+====================
+index 833
+offset 106031
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 834
+offset 106193
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 835
+offset 106532
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 836
+offset 106584
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 837
+offset 106636
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 838
+offset 106688
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 839
+offset 106738
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 840
+offset 106788
+name NULL
+length 20
+====================
+ uses [Wild Attack]!
+====================
+ uses [Wild Attack]!
+====================
+
+====================
+index 841
+offset 106894
+name NULL
+length 38
+====================
+The attack range of ranged weapons has
+====================
+The attack range of ranged weapons has
+====================
+
+====================
+index 842
+offset 107084
+name NULL
+length 38
+====================
+The attack range of ranged weapons has
+====================
+The attack range of ranged weapons has
+====================
+
+====================
+index 843
+offset 107183
+name NULL
+length 8
+====================
+changed!
+====================
+changed!
+====================
+
+====================
+index 844
+offset 107343
+name NULL
+length 8
+====================
+changed!
+====================
+changed!
+====================
+
+====================
+index 845
+offset 107616
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 846
+offset 107668
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 847
+offset 107720
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 848
+offset 107772
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 849
+offset 107822
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 850
+offset 107872
+name NULL
+length 30
+====================
+ doesn't have a ranged weapon.
+====================
+ doesn't have a ranged weapon.
+====================
+
+====================
+index 853
+offset 108148
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 854
+offset 108310
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 855
+offset 108649
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 856
+offset 108701
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 857
+offset 108753
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 858
+offset 108805
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 859
+offset 108855
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 860
+offset 108905
+name NULL
+length 19
+====================
+ uses [Swift Step]!
+====================
+ uses [Swift Step]!
+====================
+
+====================
+index 861
+offset 109157
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 862
+offset 109209
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 863
+offset 109261
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 864
+offset 109313
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 865
+offset 109363
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 866
+offset 109413
+name NULL
+length 23
+====================
+'s speed has increased!
+====================
+'s speed has increased!
+====================
+
+====================
+index 867
+offset 109762
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 868
+offset 109814
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 869
+offset 109866
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 870
+offset 109918
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 871
+offset 109968
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 872
+offset 110018
+name NULL
+length 22
+====================
+ uses [Covert Action]!
+====================
+ uses [Covert Action]!
+====================
+
+====================
+index 873
+offset 110091
+name NULL
+length 33
+====================
+The enemy has changed its target!
+====================
+The enemy has changed its target!
+====================
+
+====================
+index 874
+offset 110276
+name NULL
+length 33
+====================
+The enemy has changed its target!
+====================
+The enemy has changed its target!
+====================
+
+====================
+index 875
+offset 110360
+name NULL
+length 40
+====================
+The effects of [Covert Action] wear off.
+====================
+The effects of [Covert Action] wear off.
+====================
+
+====================
+index 876
+offset 110552
+name NULL
+length 40
+====================
+The effects of [Covert Action] wear off.
+====================
+The effects of [Covert Action] wear off.
+====================
+
+====================
+index 877
+offset 110903
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 878
+offset 110955
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 879
+offset 111007
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 880
+offset 111059
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 881
+offset 111109
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 882
+offset 111159
+name NULL
+length 23
+====================
+ uses [Aim for Vitals]!
+====================
+ uses [Aim for Vitals]!
+====================
+
+====================
+index 883
+offset 111415
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 884
+offset 111467
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 885
+offset 111519
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 886
+offset 111571
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 887
+offset 111621
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 888
+offset 111671
+name NULL
+length 37
+====================
+'s critical hit chance has increased!
+====================
+'s critical hit chance has increased!
+====================
+
+====================
+index 889
+offset 112049
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 890
+offset 112101
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 891
+offset 112153
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 892
+offset 112205
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 893
+offset 112255
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 894
+offset 112305
+name NULL
+length 20
+====================
+ uses [Dagger User]!
+====================
+ uses [Dagger User]!
+====================
+
+====================
+index 897
+offset 112624
+name NULL
+length 39
+====================
+Number of dagger attacks has increased!
+====================
+Number of dagger attacks has increased!
+====================
+
+====================
+index 898
+offset 112815
+name NULL
+length 39
+====================
+Number of dagger attacks has increased!
+====================
+Number of dagger attacks has increased!
+====================
+
+====================
+index 901
+offset 113332
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 902
+offset 113384
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 903
+offset 113436
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 904
+offset 113488
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 905
+offset 113538
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 906
+offset 113588
+name NULL
+length 23
+====================
+ doesn't have a dagger.
+====================
+ doesn't have a dagger.
+====================
+
+====================
+index 907
+offset 113644
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 908
+offset 113806
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 909
+offset 114145
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 910
+offset 114197
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 911
+offset 114249
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 912
+offset 114301
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 913
+offset 114351
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 914
+offset 114401
+name NULL
+length 19
+====================
+ uses [Swift Step]!
+====================
+ uses [Swift Step]!
+====================
+
+====================
+index 915
+offset 114653
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 916
+offset 114705
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 917
+offset 114757
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 918
+offset 114809
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 919
+offset 114859
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 920
+offset 114909
+name NULL
+length 23
+====================
+'s speed has increased!
+====================
+'s speed has increased!
+====================
+
+====================
+index 921
+offset 115258
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 922
+offset 115310
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 923
+offset 115362
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 924
+offset 115414
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 925
+offset 115464
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 926
+offset 115514
+name NULL
+length 22
+====================
+ uses [Covert Action]!
+====================
+ uses [Covert Action]!
+====================
+
+====================
+index 927
+offset 115587
+name NULL
+length 33
+====================
+The enemy has changed its target!
+====================
+The enemy has changed its target!
+====================
+
+====================
+index 928
+offset 115772
+name NULL
+length 33
+====================
+The enemy has changed its target!
+====================
+The enemy has changed its target!
+====================
+
+====================
+index 929
+offset 115856
+name NULL
+length 40
+====================
+The effects of [Covert Action] wear off.
+====================
+The effects of [Covert Action] wear off.
+====================
+
+====================
+index 930
+offset 116048
+name NULL
+length 40
+====================
+The effects of [Covert Action] wear off.
+====================
+The effects of [Covert Action] wear off.
+====================
+
+====================
+index 931
+offset 116399
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 932
+offset 116451
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 933
+offset 116503
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 934
+offset 116555
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 935
+offset 116605
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 936
+offset 116655
+name NULL
+length 23
+====================
+ uses [Aim for Vitals]!
+====================
+ uses [Aim for Vitals]!
+====================
+
+====================
+index 937
+offset 116911
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 938
+offset 116963
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 939
+offset 117015
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 940
+offset 117067
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 941
+offset 117117
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 942
+offset 117167
+name NULL
+length 37
+====================
+'s critical hit chance has increased!
+====================
+'s critical hit chance has increased!
+====================
+
+====================
+index 943
+offset 117530
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 944
+offset 117582
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 945
+offset 117634
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 946
+offset 117686
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 947
+offset 117736
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 948
+offset 117786
+name NULL
+length 22
+====================
+ uses [Assassination]!
+====================
+ uses [Assassination]!
+====================
+
+====================
+index 949
+offset 118041
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 950
+offset 118093
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 951
+offset 118145
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 952
+offset 118197
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 953
+offset 118247
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 954
+offset 118297
+name NULL
+length 31
+====================
+'s killing power has increased!
+====================
+'s killing power has increased!
+====================
+
+====================
+index 955
+offset 118379
+name NULL
+length 40
+====================
+The effects of [Assassination] wear off.
+====================
+The effects of [Assassination] wear off.
+====================
+
+====================
+index 956
+offset 118571
+name NULL
+length 40
+====================
+The effects of [Assassination] wear off.
+====================
+The effects of [Assassination] wear off.
+====================
+
+====================
+index 957
+offset 118937
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 958
+offset 118989
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 959
+offset 119041
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 960
+offset 119093
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 961
+offset 119143
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 962
+offset 119193
+name NULL
+length 18
+====================
+ casts [Fireball]!
+====================
+ casts [Fireball]!
+====================
+
+====================
+index 963
+offset 119558
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 964
+offset 119610
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 965
+offset 119662
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 966
+offset 119714
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 967
+offset 119764
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 968
+offset 119814
+name NULL
+length 20
+====================
+ casts [Earthquake]!
+====================
+ casts [Earthquake]!
+====================
+
+====================
+index 969
+offset 119915
+name NULL
+length 37
+====================
+The effects of [Earthquake] wear off.
+====================
+The effects of [Earthquake] wear off.
+====================
+
+====================
+index 970
+offset 120104
+name NULL
+length 37
+====================
+The effects of [Earthquake] wear off.
+====================
+The effects of [Earthquake] wear off.
+====================
+
+====================
+index 971
+offset 120192
+name NULL
+length 23
+====================
+[Earthquake]'s effects:
+====================
+[Earthquake]'s effects:
+====================
+
+====================
+index 972
+offset 120367
+name NULL
+length 23
+====================
+[Earthquake]'s effects:
+====================
+[Earthquake]'s effects:
+====================
+
+====================
+index 973
+offset 120734
+name NULL
+length 12
+====================
+Red beastman
+====================
+Red beastman
+====================
+
+====================
+index 974
+offset 120792
+name NULL
+length 8
+====================
+Beastman
+====================
+Beastman
+====================
+
+====================
+index 975
+offset 120846
+name NULL
+length 13
+====================
+Blue beastman
+====================
+Blue beastman
+====================
+
+====================
+index 976
+offset 120905
+name NULL
+length 8
+====================
+Beastman
+====================
+Beastman
+====================
+
+====================
+index 977
+offset 120959
+name NULL
+length 8
+====================
+Beastman
+====================
+Beastman
+====================
+
+====================
+index 978
+offset 121013
+name NULL
+length 5
+====================
+Golem
+====================
+Golem
+====================
+
+====================
+index 979
+offset 121064
+name NULL
+length 9
+====================
+Last Boss
+====================
+Last Boss
+====================
+
+====================
+index 980
+offset 121119
+name NULL
+length 19
+====================
+ has been confused!
+====================
+ has been confused!
+====================
+
+====================
+index 981
+offset 121437
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 982
+offset 121489
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 983
+offset 121541
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 984
+offset 121593
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 985
+offset 121643
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 986
+offset 121693
+name NULL
+length 17
+====================
+ casts [Thunder]!
+====================
+ casts [Thunder]!
+====================
+
+====================
+index 987
+offset 122057
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 988
+offset 122109
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 989
+offset 122161
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 990
+offset 122213
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 991
+offset 122263
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 992
+offset 122313
+name NULL
+length 21
+====================
+ casts [Fireball x3]!
+====================
+ casts [Fireball x3]!
+====================
+
+====================
+index 993
+offset 122406
+name NULL
+length 38
+====================
+The effects of [Fireball x3] wear off.
+====================
+The effects of [Fireball x3] wear off.
+====================
+
+====================
+index 994
+offset 122596
+name NULL
+length 38
+====================
+The effects of [Fireball x3] wear off.
+====================
+The effects of [Fireball x3] wear off.
+====================
+
+====================
+index 995
+offset 122945
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 996
+offset 122997
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 997
+offset 123049
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 998
+offset 123101
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 999
+offset 123151
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 1000
+offset 123201
+name NULL
+length 22
+====================
+ casts [Thunderstorm]!
+====================
+ casts [Thunderstorm]!
+====================
+
+====================
+index 1001
+offset 123585
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 1002
+offset 123637
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 1003
+offset 123689
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 1004
+offset 123741
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 1005
+offset 123791
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 1006
+offset 123841
+name NULL
+length 14
+====================
+ casts [Heal]!
+====================
+ casts [Heal]!
+====================
+
+====================
+index 1007
+offset 124088
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 1008
+offset 124140
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 1009
+offset 124192
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 1010
+offset 124244
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 1011
+offset 124294
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 1012
+offset 124344
+name NULL
+length 17
+====================
+ has been healed!
+====================
+ has been healed!
+====================
+
+====================
+index 1013
+offset 124412
+name NULL
+length 31
+====================
+The effects of [Heal] wear off.
+====================
+The effects of [Heal] wear off.
+====================
+
+====================
+index 1014
+offset 124595
+name NULL
+length 31
+====================
+The effects of [Heal] wear off.
+====================
+The effects of [Heal] wear off.
+====================
+
+====================
+index 1015
+offset 124677
+name NULL
+length 17
+====================
+[Heal]'s effects:
+====================
+[Heal]'s effects:
+====================
+
+====================
+index 1016
+offset 124846
+name NULL
+length 17
+====================
+[Heal]'s effects:
+====================
+[Heal]'s effects:
+====================
+
+====================
+index 1017
+offset 125165
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 1018
+offset 125217
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 1019
+offset 125269
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 1020
+offset 125321
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 1021
+offset 125371
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 1022
+offset 125421
+name NULL
+length 17
+====================
+ casts [Heal x3]!
+====================
+ casts [Heal x3]!
+====================
+
+====================
+index 1023
+offset 125671
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 1024
+offset 125723
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 1025
+offset 125775
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 1026
+offset 125827
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 1027
+offset 125877
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 1028
+offset 125927
+name NULL
+length 17
+====================
+ has been healed!
+====================
+ has been healed!
+====================
+
+====================
+index 1029
+offset 125995
+name NULL
+length 34
+====================
+The effects of [Heal x3] wear off.
+====================
+The effects of [Heal x3] wear off.
+====================
+
+====================
+index 1030
+offset 126181
+name NULL
+length 34
+====================
+The effects of [Heal x3] wear off.
+====================
+The effects of [Heal x3] wear off.
+====================
+
+====================
+index 1031
+offset 126266
+name NULL
+length 20
+====================
+[Heal x3]'s effects:
+====================
+[Heal x3]'s effects:
+====================
+
+====================
+index 1032
+offset 126438
+name NULL
+length 20
+====================
+[Heal x3]'s effects:
+====================
+[Heal x3]'s effects:
+====================
+
+====================
+index 1033
+offset 126760
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 1034
+offset 126812
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 1035
+offset 126864
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 1036
+offset 126916
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 1037
+offset 126966
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 1038
+offset 127016
+name NULL
+length 20
+====================
+ uses [Shield User]!
+====================
+ uses [Shield User]!
+====================
+
+====================
+index 1039
+offset 127122
+name NULL
+length 43
+====================
+The defense power of shields has increased!
+====================
+The defense power of shields has increased!
+====================
+
+====================
+index 1040
+offset 127317
+name NULL
+length 43
+====================
+The defense power of shields has increased!
+====================
+The defense power of shields has increased!
+====================
+
+====================
+index 1041
+offset 127625
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 1042
+offset 127677
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 1043
+offset 127729
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 1044
+offset 127781
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 1045
+offset 127831
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 1046
+offset 127881
+name NULL
+length 23
+====================
+ doesn't have a shield.
+====================
+ doesn't have a shield.
+====================
+
+====================
+index 1047
+offset 127937
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 1048
+offset 128099
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 1049
+offset 128438
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 1050
+offset 128490
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 1051
+offset 128542
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 1052
+offset 128594
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 1053
+offset 128644
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 1054
+offset 128694
+name NULL
+length 20
+====================
+ casts [Earthquake]!
+====================
+ casts [Earthquake]!
+====================
+
+====================
+index 1055
+offset 128795
+name NULL
+length 37
+====================
+The effects of [Earthquake] wear off.
+====================
+The effects of [Earthquake] wear off.
+====================
+
+====================
+index 1056
+offset 128984
+name NULL
+length 37
+====================
+The effects of [Earthquake] wear off.
+====================
+The effects of [Earthquake] wear off.
+====================
+
+====================
+index 1057
+offset 129072
+name NULL
+length 23
+====================
+[Earthquake]'s effects:
+====================
+[Earthquake]'s effects:
+====================
+
+====================
+index 1058
+offset 129247
+name NULL
+length 23
+====================
+[Earthquake]'s effects:
+====================
+[Earthquake]'s effects:
+====================
+
+====================
+index 1059
+offset 129614
+name NULL
+length 12
+====================
+Red beastman
+====================
+Red beastman
+====================
+
+====================
+index 1060
+offset 129672
+name NULL
+length 8
+====================
+Beastman
+====================
+Beastman
+====================
+
+====================
+index 1061
+offset 129726
+name NULL
+length 13
+====================
+Blue beastman
+====================
+Blue beastman
+====================
+
+====================
+index 1062
+offset 129785
+name NULL
+length 8
+====================
+Beastman
+====================
+Beastman
+====================
+
+====================
+index 1063
+offset 129839
+name NULL
+length 8
+====================
+Beastman
+====================
+Beastman
+====================
+
+====================
+index 1064
+offset 129893
+name NULL
+length 5
+====================
+Golem
+====================
+Golem
+====================
+
+====================
+index 1065
+offset 129944
+name NULL
+length 9
+====================
+Last Boss
+====================
+Last Boss
+====================
+
+====================
+index 1066
+offset 129999
+name NULL
+length 19
+====================
+ has been confused!
+====================
+ has been confused!
+====================
+
+====================
+index 1067
+offset 130317
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 1068
+offset 130369
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 1069
+offset 130421
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 1070
+offset 130473
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 1071
+offset 130523
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 1072
+offset 130573
+name NULL
+length 22
+====================
+ casts [Invisibility]!
+====================
+ casts [Invisibility]!
+====================
+
+====================
+index 1073
+offset 130678
+name NULL
+length 36
+====================
+Tomoya's evasion rate has increased!
+====================
+Tomoya's evasion rate has increased!
+====================
+
+====================
+index 1074
+offset 130866
+name NULL
+length 36
+====================
+Tomoya's evasion rate has increased!
+====================
+Tomoya's evasion rate has increased!
+====================
+
+====================
+index 1075
+offset 130967
+name NULL
+length 36
+====================
+Tomoyo's evasion rate has increased!
+====================
+Tomoyo's evasion rate has increased!
+====================
+
+====================
+index 1076
+offset 131155
+name NULL
+length 36
+====================
+Tomoyo's evasion rate has increased!
+====================
+Tomoyo's evasion rate has increased!
+====================
+
+====================
+index 1077
+offset 131256
+name NULL
+length 36
+====================
+Kanako's evasion rate has increased!
+====================
+Kanako's evasion rate has increased!
+====================
+
+====================
+index 1078
+offset 131444
+name NULL
+length 36
+====================
+Kanako's evasion rate has increased!
+====================
+Kanako's evasion rate has increased!
+====================
+
+====================
+index 1079
+offset 131545
+name NULL
+length 34
+====================
+Tomo's evasion rate has increased!
+====================
+Tomo's evasion rate has increased!
+====================
+
+====================
+index 1080
+offset 131731
+name NULL
+length 34
+====================
+Tomo's evasion rate has increased!
+====================
+Tomo's evasion rate has increased!
+====================
+
+====================
+index 1081
+offset 131830
+name NULL
+length 34
+====================
+Fuko's evasion rate has increased!
+====================
+Fuko's evasion rate has increased!
+====================
+
+====================
+index 1082
+offset 132016
+name NULL
+length 34
+====================
+Fuko's evasion rate has increased!
+====================
+Fuko's evasion rate has increased!
+====================
+
+====================
+index 1083
+offset 132101
+name NULL
+length 39
+====================
+The effects of [Invisibility] wear off.
+====================
+The effects of [Invisibility] wear off.
+====================
+
+====================
+index 1084
+offset 132292
+name NULL
+length 39
+====================
+The effects of [Invisibility] wear off.
+====================
+The effects of [Invisibility] wear off.
+====================
+
+====================
+index 1085
+offset 132657
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 1086
+offset 132709
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 1087
+offset 132761
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 1088
+offset 132813
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 1089
+offset 132863
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 1090
+offset 132913
+name NULL
+length 20
+====================
+ uses [Shield User]!
+====================
+ uses [Shield User]!
+====================
+
+====================
+index 1091
+offset 133019
+name NULL
+length 43
+====================
+The defense power of shields has increased!
+====================
+The defense power of shields has increased!
+====================
+
+====================
+index 1092
+offset 133214
+name NULL
+length 43
+====================
+The defense power of shields has increased!
+====================
+The defense power of shields has increased!
+====================
+
+====================
+index 1093
+offset 133522
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 1094
+offset 133574
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 1095
+offset 133626
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 1096
+offset 133678
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 1097
+offset 133728
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 1098
+offset 133778
+name NULL
+length 23
+====================
+ doesn't have a shield.
+====================
+ doesn't have a shield.
+====================
+
+====================
+index 1099
+offset 133834
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 1100
+offset 133996
+name NULL
+length 10
+====================
+No effect.
+====================
+No effect.
+====================
+
+====================
+index 1101
+offset 134335
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 1102
+offset 134387
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 1103
+offset 134439
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 1104
+offset 134491
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 1105
+offset 134541
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 1106
+offset 134591
+name NULL
+length 21
+====================
+ casts [Fireball x5]!
+====================
+ casts [Fireball x5]!
+====================
+
+====================
+index 1107
+offset 134684
+name NULL
+length 38
+====================
+The effects of [Fireball x5] wear off.
+====================
+The effects of [Fireball x5] wear off.
+====================
+
+====================
+index 1108
+offset 134874
+name NULL
+length 38
+====================
+The effects of [Fireball x5] wear off.
+====================
+The effects of [Fireball x5] wear off.
+====================
+
+====================
+index 1109
+offset 135223
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 1110
+offset 135275
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 1111
+offset 135327
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 1112
+offset 135379
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 1113
+offset 135429
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 1114
+offset 135479
+name NULL
+length 25
+====================
+ casts [Thunderstorm x2]!
+====================
+ casts [Thunderstorm x2]!
+====================
+
+====================
+index 1115
+offset 135576
+name NULL
+length 42
+====================
+The effects of [Thunderstorm x2] wear off.
+====================
+The effects of [Thunderstorm x2] wear off.
+====================
+
+====================
+index 1116
+offset 135770
+name NULL
+length 42
+====================
+The effects of [Thunderstorm x2] wear off.
+====================
+The effects of [Thunderstorm x2] wear off.
+====================
+
+====================
+index 1117
+offset 136123
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 1118
+offset 136175
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 1119
+offset 136227
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 1120
+offset 136279
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 1121
+offset 136329
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 1122
+offset 136379
+name NULL
+length 22
+====================
+ casts [Fireball x10]!
+====================
+ casts [Fireball x10]!
+====================
+
+====================
+index 1123
+offset 136473
+name NULL
+length 39
+====================
+The effects of [Fireball x10] wear off.
+====================
+The effects of [Fireball x10] wear off.
+====================
+
+====================
+index 1124
+offset 136664
+name NULL
+length 39
+====================
+The effects of [Fireball x10] wear off.
+====================
+The effects of [Fireball x10] wear off.
+====================
+
+====================
+index 1125
+offset 137014
+name NULL
+length 6
+====================
+Tomoya
+====================
+Tomoya
+====================
+
+====================
+index 1126
+offset 137066
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 1127
+offset 137118
+name NULL
+length 6
+====================
+Kanako
+====================
+Kanako
+====================
+
+====================
+index 1128
+offset 137170
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 1129
+offset 137220
+name NULL
+length 4
+====================
+Fuko
+====================
+Fuko
+====================
+
+====================
+index 1130
+offset 137270
+name NULL
+length 16
+====================
+ casts [Meteor]!
+====================
+ casts [Meteor]!
+====================

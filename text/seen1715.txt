@@ -1,0 +1,1597 @@
+type seen1715
+count 145
+
+====================
+index 1
+offset 522
+name Tomoyo
+length 25
+====================
+\"Are your wounds okay?\"
+====================
+\"Are your wounds okay?\"
+====================
+
+====================
+index 2
+offset 597
+name Tomoya
+length 9
+====================
+\"Yeah.\"
+====================
+\"Yeah.\"
+====================
+
+====================
+index 3
+offset 656
+name Tomoyo
+length 40
+====================
+\"Those are from a fight, aren't they?\"
+====================
+\"Those are from a fight, aren't they?\"
+====================
+
+====================
+index 4
+offset 746
+name Tomoya
+length 12
+====================
+\"Sort of.\"
+====================
+\"Sort of.\"
+====================
+
+====================
+index 5
+offset 1080
+name Tomoyo
+length 37
+====================
+\"I won't ask what happened, but...\"
+====================
+\"I won't ask what happened, but...\"
+====================
+
+====================
+index 6
+offset 1167
+name Tomoyo
+length 32
+====================
+\"Please, don't make me worry.\"
+====================
+\"Please, don't make me worry.\"
+====================
+
+====================
+index 7
+offset 1962
+name Tomoyo
+length 29
+====================
+\"What? Is something wrong?\"
+====================
+\"What? Is something wrong?\"
+====================
+
+====================
+index 8
+offset 2679
+name Tomo
+length 33
+====================
+\"Maybe he wants to kiss again?\"
+====================
+\"Maybe he wants to kiss again?\"
+====================
+
+====================
+index 9
+offset 3402
+name Tomoyo
+length 35
+====================
+\"I... I think you're mistaken...\"
+====================
+\"I... I think you're mistaken...\"
+====================
+
+====================
+index 10
+offset 4125
+name Tomo
+length 23
+====================
+\"Look, he's nodding.\"
+====================
+\"Look, he's nodding.\"
+====================
+
+====================
+index 11
+offset 4838
+name Tomoyo
+length 10
+====================
+\"Ngh...\"
+====================
+\"Ngh...\"
+====================
+
+====================
+index 12
+offset 4898
+name Tomoyo
+length 68
+====================
+\"...fine. I'll do it so much that he won't come back for a while.\"
+====================
+\"...fine. I'll do it so much that he won't come back for a while.\"
+====================
+
+====================
+index 13
+offset 5618
+name NULL
+length 44
+====================
+She says and locks my cheeks with her hands.
+====================
+She says and locks my cheeks with her hands.
+====================
+
+====================
+index 14
+offset 6314
+name NULL
+length 11
+====================
+And then...
+====================
+And then...
+====================
+
+====================
+index 15
+offset 6341
+name NULL
+length 7
+====================
+*Shake*
+====================
+*Shake*
+====================
+
+====================
+index 16
+offset 6369
+name NULL
+length 8
+====================
+ *Shake*
+====================
+ *Shake*
+====================
+
+====================
+index 17
+offset 6398
+name NULL
+length 8
+====================
+ *Shake*
+====================
+ *Shake*
+====================
+
+====================
+index 18
+offset 6427
+name NULL
+length 8
+====================
+ *Shake*
+====================
+ *Shake*
+====================
+
+====================
+index 19
+offset 6456
+name NULL
+length 8
+====================
+ *Shake*
+====================
+ *Shake*
+====================
+
+====================
+index 20
+offset 6485
+name NULL
+length 3
+====================
+...
+====================
+...
+====================
+
+====================
+index 21
+offset 6504
+name NULL
+length 59
+====================
+She shakes my head back and forth, and kisses me each time.
+====================
+She shakes my head back and forth, and kisses me each time.
+====================
+
+====================
+index 22
+offset 6579
+name NULL
+length 6
+====================
+*Kiss*
+====================
+*Kiss*
+====================
+
+====================
+index 23
+offset 6606
+name NULL
+length 7
+====================
+ *Kiss*
+====================
+ *Kiss*
+====================
+
+====================
+index 24
+offset 6634
+name NULL
+length 7
+====================
+ *Kiss*
+====================
+ *Kiss*
+====================
+
+====================
+index 25
+offset 6662
+name NULL
+length 7
+====================
+ *Kiss*
+====================
+ *Kiss*
+====================
+
+====================
+index 26
+offset 6690
+name NULL
+length 7
+====================
+ *Kiss*
+====================
+ *Kiss*
+====================
+
+====================
+index 27
+offset 6718
+name NULL
+length 7
+====================
+ *Kiss*
+====================
+ *Kiss*
+====================
+
+====================
+index 28
+offset 6746
+name NULL
+length 7
+====================
+ *Kiss*
+====================
+ *Kiss*
+====================
+
+====================
+index 29
+offset 6774
+name NULL
+length 7
+====================
+ *Kiss*
+====================
+ *Kiss*
+====================
+
+====================
+index 30
+offset 6802
+name NULL
+length 3
+====================
+...
+====================
+...
+====================
+
+====================
+index 31
+offset 6821
+name NULL
+length 7
+====================
+*Shake*
+====================
+*Shake*
+====================
+
+====================
+index 32
+offset 6849
+name NULL
+length 8
+====================
+ *Shake*
+====================
+ *Shake*
+====================
+
+====================
+index 33
+offset 6878
+name NULL
+length 8
+====================
+ *Shake*
+====================
+ *Shake*
+====================
+
+====================
+index 34
+offset 6907
+name NULL
+length 8
+====================
+ *Shake*
+====================
+ *Shake*
+====================
+
+====================
+index 35
+offset 6936
+name NULL
+length 12
+====================
+ *Shake* ...
+====================
+ *Shake* ...
+====================
+
+====================
+index 36
+offset 6964
+name NULL
+length 6
+====================
+*Kiss*
+====================
+*Kiss*
+====================
+
+====================
+index 37
+offset 6991
+name NULL
+length 7
+====================
+ *Kiss*
+====================
+ *Kiss*
+====================
+
+====================
+index 38
+offset 7019
+name NULL
+length 7
+====================
+ *Kiss*
+====================
+ *Kiss*
+====================
+
+====================
+index 39
+offset 7047
+name NULL
+length 7
+====================
+ *Kiss*
+====================
+ *Kiss*
+====================
+
+====================
+index 40
+offset 7075
+name NULL
+length 3
+====================
+...
+====================
+...
+====================
+
+====================
+index 41
+offset 7094
+name NULL
+length 3
+====================
+...
+====================
+...
+====================
+
+====================
+index 42
+offset 7118
+name NULL
+length 3
+====================
+...
+====================
+...
+====================
+
+====================
+index 43
+offset 7142
+name NULL
+length 3
+====================
+...
+====================
+...
+====================
+
+====================
+index 45
+offset 7182
+name NULL
+length 3
+====================
+...
+====================
+...
+====================
+
+====================
+index 46
+offset 7206
+name NULL
+length 3
+====================
+...
+====================
+...
+====================
+
+====================
+index 48
+offset 7916
+name Tomoyo
+length 21
+====================
+\"And, one hundred.\"
+====================
+\"And, one hundred.\"
+====================
+
+====================
+index 49
+offset 8623
+name Tomoyo
+length 81
+====================
+\"We must be a great couple to kiss a hundred times in a day. Isn't that great?\"
+====================
+\"We must be a great couple to kiss a hundred times in a day. Isn't that great?\"
+====================
+
+====================
+index 50
+offset 9024
+name Tomo
+length 17
+====================
+\"Good for you.\"
+====================
+\"Good for you.\"
+====================
+
+====================
+index 51
+offset 9339
+name Tomoya
+length 13
+====================
+\".........\"
+====================
+\".........\"
+====================
+
+====================
+index 52
+offset 9402
+name Tomoya
+length 13
+====================
+\"...bleug.\"
+====================
+\"...bleug.\"
+====================
+
+====================
+index 53
+offset 9431
+name NULL
+length 54
+====================
+She shook my head so many times that I'm feeling sick.
+====================
+She shook my head so many times that I'm feeling sick.
+====================
+
+====================
+index 54
+offset 10278
+name Tomoyo
+length 49
+====================
+\"What? Do you want to do it another 100 times?\"
+====================
+\"What? Do you want to do it another 100 times?\"
+====================
+
+====================
+index 55
+offset 10377
+name Tomoya
+length 17
+====================
+\"No, I'm good.\"
+====================
+\"No, I'm good.\"
+====================
+
+====================
+index 56
+offset 11157
+name Tomoyo
+length 25
+====================
+\"All right, come here.\"
+====================
+\"All right, come here.\"
+====================
+
+====================
+index 57
+offset 11232
+name Tomoya
+length 17
+====================
+\"No, I'm good.\"
+====================
+\"No, I'm good.\"
+====================
+
+====================
+index 58
+offset 11373
+name Tomoya
+length 17
+====================
+\"No, I'm good.\"
+====================
+\"No, I'm good.\"
+====================
+
+====================
+index 59
+offset 12076
+name Tomoyo
+length 32
+====================
+\"I haven't said anything yet.\"
+====================
+\"I haven't said anything yet.\"
+====================
+
+====================
+index 60
+offset 13599
+name Takafumi
+length 36
+====================
+\"Did you have any more questions?\"
+====================
+\"Did you have any more questions?\"
+====================
+
+====================
+index 61
+offset 13694
+name Tomoya
+length 57
+====================
+\"I got that 'OS' is Ultraman after his transformation.\"
+====================
+\"I got that 'OS' is Ultraman after his transformation.\"
+====================
+
+====================
+index 62
+offset 14078
+name Takafumi
+length 29
+====================
+\"No, you're already wrong.\"
+====================
+\"No, you're already wrong.\"
+====================
+
+====================
+index 63
+offset 14157
+name Tomoya
+length 31
+====================
+\"So how do you create an OS?\"
+====================
+\"So how do you create an OS?\"
+====================
+
+====================
+index 64
+offset 14512
+name Takafumi
+length 25
+====================
+\"Well, by programming.\"
+====================
+\"Well, by programming.\"
+====================
+
+====================
+index 65
+offset 14587
+name Tomoya
+length 23
+====================
+\"What's programming?\"
+====================
+\"What's programming?\"
+====================
+
+====================
+index 66
+offset 14934
+name Takafumi
+length 38
+====================
+\"I have to teach you again? Fine...\"
+====================
+\"I have to teach you again? Fine...\"
+====================
+
+====================
+index 67
+offset 15024
+name Takafumi
+length 83
+====================
+\"Programming is... an input of a sequence of instructions for data processing...\"
+====================
+\"Programming is... an input of a sequence of instructions for data processing...\"
+====================
+
+====================
+index 68
+offset 15123
+name NULL
+length 34
+====================
+CPU, machine language, assembly...
+====================
+CPU, machine language, assembly...
+====================
+
+====================
+index 69
+offset 15173
+name NULL
+length 54
+====================
+Takafumi spouts line after line of a foreign language.
+====================
+Takafumi spouts line after line of a foreign language.
+====================
+
+====================
+index 70
+offset 15243
+name NULL
+length 34
+====================
+It's starting to make me sleepy...
+====================
+It's starting to make me sleepy...
+====================
+
+====================
+index 71
+offset 15604
+name Takafumi
+length 15
+====================
+\"HAHAHAHAHA!\"
+====================
+\"HAHAHAHAHA!\"
+====================
+
+====================
+index 72
+offset 15635
+name NULL
+length 48
+====================
+Wow, Takafumi has turned into a foreigner again!
+====================
+Wow, Takafumi has turned into a foreigner again!
+====================
+
+====================
+index 73
+offset 15735
+name Takafumi
+length 47
+====================
+\"Oh! I've finally come to the land of Japan!\"
+====================
+\"Oh! I've finally come to the land of Japan!\"
+====================
+
+====================
+index 74
+offset 15834
+name Takafumi
+length 45
+====================
+\"I swam across the ocean with backstrokes!\"
+====================
+\"I swam across the ocean with backstrokes!\"
+====================
+
+====================
+index 75
+offset 15895
+name NULL
+length 17
+====================
+That's amazing...
+====================
+That's amazing...
+====================
+
+====================
+index 76
+offset 15964
+name Takafumi
+length 35
+====================
+\"Oh! Are you Ichiro? The Ichiro?\"
+====================
+\"Oh! Are you Ichiro? The Ichiro?\"
+====================
+
+====================
+index 77
+offset 16015
+name NULL
+length 15
+====================
+You're wrong...
+====================
+You're wrong...
+====================
+
+====================
+index 78
+offset 16082
+name Takafumi
+length 29
+====================
+\"Nomo? Are you Nomo, then?\"
+====================
+\"Nomo? Are you Nomo, then?\"
+====================
+
+====================
+index 79
+offset 16145
+name NULL
+length 15
+====================
+I'm not Nomo...
+====================
+I'm not Nomo...
+====================
+
+====================
+index 80
+offset 16212
+name Takafumi
+length 28
+====================
+\"Then you're Yawara-chan?\"
+====================
+\"Then you're Yawara-chan?\"
+====================
+
+====================
+index 81
+offset 16256
+name NULL
+length 12
+====================
+I'm a guy...
+====================
+I'm a guy...
+====================
+
+====================
+index 82
+offset 16323
+name Takafumi
+length 58
+====================
+\"Oh! You must be Ryoko Tani, THE Yawara-chan! HAHAHAHA!\"
+====================
+\"Oh! You must be Ryoko Tani, THE Yawara-chan! HAHAHAHA!\"
+====================
+
+====================
+index 83
+offset 16397
+name NULL
+length 12
+====================
+No, I'm not.
+====================
+No, I'm not.
+====================
+
+====================
+index 84
+offset 16733
+name Takafumi
+length 44
+====================
+\"Nii-chan, were you even listening to me?\"
+====================
+\"Nii-chan, were you even listening to me?\"
+====================
+
+====================
+index 85
+offset 16793
+name NULL
+length 23
+====================
+He finishes explaining.
+====================
+He finishes explaining.
+====================
+
+====================
+index 86
+offset 16875
+name Tomoya
+length 49
+====================
+\"Yeah, I was. It was about Yawara-chan, right?\"
+====================
+\"Yeah, I was. It was about Yawara-chan, right?\"
+====================
+
+====================
+index 87
+offset 17251
+name Takafumi
+length 39
+====================
+\"Wow, why did I even try to explain?\"
+====================
+\"Wow, why did I even try to explain?\"
+====================
+
+====================
+index 88
+offset 17429
+name Tomoya
+length 38
+====================
+\"Do I really look like Yawara-chan?\"
+====================
+\"Do I really look like Yawara-chan?\"
+====================
+
+====================
+index 89
+offset 18211
+name Takafumi
+length 36
+====================
+\"No, you look nothing like her...\"
+====================
+\"No, you look nothing like her...\"
+====================
+
+====================
+index 90
+offset 18374
+name Tomoya
+length 18
+====================
+\"You're Ichiro?\"
+====================
+\"You're Ichiro?\"
+====================
+
+====================
+index 91
+offset 19133
+name Takafumi
+length 21
+====================
+\"No, I'm Takafumi.\"
+====================
+\"No, I'm Takafumi.\"
+====================
+
+====================
+index 92
+offset 19281
+name Tomoya
+length 17
+====================
+\"Are you Nomo?\"
+====================
+\"Are you Nomo?\"
+====================
+
+====================
+index 93
+offset 20039
+name Takafumi
+length 21
+====================
+\"No, I'm Sakagami.\"
+====================
+\"No, I'm Sakagami.\"
+====================
+
+====================
+index 94
+offset 20110
+name Tomoya
+length 77
+====================
+\"You know, your full name, Sakagami Takafumi, is really hard to pronounce.\"
+====================
+\"You know, your full name, Sakagami Takafumi, is really hard to pronounce.\"
+====================
+
+====================
+index 95
+offset 20511
+name Takafumi
+length 11
+====================
+\"I know!\"
+====================
+\"I know!\"
+====================
+
+====================
+index 96
+offset 20615
+name NULL
+length 61
+====================
+Well, it seems he's getting pissed for real... I better stop.
+====================
+Well, it seems he's getting pissed for real... I better stop.
+====================
+
+====================
+index 97
+offset 21488
+name Tomoya
+length 54
+====================
+\"Are you reading one of those advertisements again?\"
+====================
+\"Are you reading one of those advertisements again?\"
+====================
+
+====================
+index 98
+offset 22281
+name Kanako
+length 22
+====================
+\"Yeah, pretty much.\"
+====================
+\"Yeah, pretty much.\"
+====================
+
+====================
+index 99
+offset 22353
+name Tomoya
+length 27
+====================
+\"Is it the naming again?\"
+====================
+\"Is it the naming again?\"
+====================
+
+====================
+index 100
+offset 22702
+name Kanako
+length 93
+====================
+\"No, this time I'm turning up the difficulty and thinking of new slogans or catch phrases.\"
+====================
+\"No, this time I'm turning up the difficulty and thinking of new slogans or catch phrases.\"
+====================
+
+====================
+index 101
+offset 22845
+name Tomoya
+length 10
+====================
+\"Huh...\"
+====================
+\"Huh...\"
+====================
+
+====================
+index 102
+offset 23178
+name Kanako
+length 80
+====================
+\"Let's see... a slogan for the Mt. Fuji environmental protection plan... huh.\"
+====================
+\"Let's see... a slogan for the Mt. Fuji environmental protection plan... huh.\"
+====================
+
+====================
+index 103
+offset 23584
+name Kanako
+length 29
+====================
+\"Me Mt. Fuji. You douchey.\"
+====================
+\"Me Mt. Fuji. You douchey.\"
+====================
+
+====================
+index 104
+offset 23935
+name Kanako
+length 15
+====================
+\"Okay, next.\"
+====================
+\"Okay, next.\"
+====================
+
+====================
+index 105
+offset 24000
+name Tomoya
+length 21
+====================
+\"Hold on a minute.\"
+====================
+\"Hold on a minute.\"
+====================
+
+====================
+index 106
+offset 24343
+name Kanako
+length 22
+====================
+\"Huh? What's wrong?\"
+====================
+\"Huh? What's wrong?\"
+====================
+
+====================
+index 107
+offset 24415
+name Tomoya
+length 50
+====================
+\"So much that I don't even know where to start.\"
+====================
+\"So much that I don't even know where to start.\"
+====================
+
+====================
+index 108
+offset 24515
+name Tomoya
+length 51
+====================
+\"Um, so that's what Mt. Fuji is saying, correct?\"
+====================
+\"Um, so that's what Mt. Fuji is saying, correct?\"
+====================
+
+====================
+index 109
+offset 24888
+name Kanako
+length 77
+====================
+\"Yup. That's what the mountain is saying to people from its point of view.\"
+====================
+\"Yup. That's what the mountain is saying to people from its point of view.\"
+====================
+
+====================
+index 110
+offset 25015
+name Tomoya
+length 38
+====================
+\"It's saying that they are douchey?\"
+====================
+\"It's saying that they are douchey?\"
+====================
+
+====================
+index 111
+offset 25103
+name Kanako
+length 38
+====================
+\"Yup, saying that they are douchey.\"
+====================
+\"Yup, saying that they are douchey.\"
+====================
+
+====================
+index 112
+offset 25191
+name Tomoya
+length 44
+====================
+\"Regardless if they are littering or not?\"
+====================
+\"Regardless if they are littering or not?\"
+====================
+
+====================
+index 113
+offset 25285
+name Kanako
+length 20
+====================
+\"Yup, regardless.\"
+====================
+\"Yup, regardless.\"
+====================
+
+====================
+index 114
+offset 25627
+name Kanako
+length 47
+====================
+\"Can't you imagine Mt. Fuji acting superior?\"
+====================
+\"Can't you imagine Mt. Fuji acting superior?\"
+====================
+
+====================
+index 115
+offset 25724
+name Tomoya
+length 42
+====================
+\"I can't imagine that, but good luck...\"
+====================
+\"I can't imagine that, but good luck...\"
+====================
+
+====================
+index 116
+offset 26582
+name Kanako
+length 25
+====================
+\"Let's see, next is...\"
+====================
+\"Let's see, next is...\"
+====================
+
+====================
+index 117
+offset 26657
+name Kanako
+length 54
+====================
+\"Requesting a catch phrase for Niigata City, huh...\"
+====================
+\"Requesting a catch phrase for Niigata City, huh...\"
+====================
+
+====================
+index 118
+offset 27067
+name Kanako
+length 38
+====================
+\"Me Niigata City. You kinda shitty.\"
+====================
+\"Me Niigata City. You kinda shitty.\"
+====================
+
+====================
+index 119
+offset 27427
+name Kanako
+length 15
+====================
+\"Okay, next.\"
+====================
+\"Okay, next.\"
+====================
+
+====================
+index 120
+offset 27492
+name Tomoya
+length 21
+====================
+\"Hold on a minute.\"
+====================
+\"Hold on a minute.\"
+====================
+
+====================
+index 121
+offset 27835
+name Kanako
+length 22
+====================
+\"Huh? What's wrong?\"
+====================
+\"Huh? What's wrong?\"
+====================
+
+====================
+index 122
+offset 27907
+name Tomoya
+length 50
+====================
+\"So much that I don't even know where to start.\"
+====================
+\"So much that I don't even know where to start.\"
+====================
+
+====================
+index 123
+offset 28007
+name Tomoya
+length 51
+====================
+\"Um, so that's what the city is saying, correct?\"
+====================
+\"Um, so that's what the city is saying, correct?\"
+====================
+
+====================
+index 124
+offset 28380
+name Kanako
+length 75
+====================
+\"Yup. That's what the city is saying to citizens from its point of view.\"
+====================
+\"Yup. That's what the city is saying to citizens from its point of view.\"
+====================
+
+====================
+index 125
+offset 28505
+name Tomoya
+length 43
+====================
+\"It's saying that they are kinda shitty?\"
+====================
+\"It's saying that they are kinda shitty?\"
+====================
+
+====================
+index 126
+offset 28598
+name Kanako
+length 43
+====================
+\"Yup, saying that they are kinda shitty.\"
+====================
+\"Yup, saying that they are kinda shitty.\"
+====================
+
+====================
+index 127
+offset 28691
+name Tomoya
+length 23
+====================
+\"Regardless of whom?\"
+====================
+\"Regardless of whom?\"
+====================
+
+====================
+index 128
+offset 28764
+name Kanako
+length 23
+====================
+\"Regardless of whom.\"
+====================
+\"Regardless of whom.\"
+====================
+
+====================
+index 129
+offset 29109
+name Kanako
+length 47
+====================
+\"Can't you imagine Niigata City being moody?\"
+====================
+\"Can't you imagine Niigata City being moody?\"
+====================
+
+====================
+index 130
+offset 29206
+name Tomoya
+length 42
+====================
+\"I can't imagine that, but good luck...\"
+====================
+\"I can't imagine that, but good luck...\"
+====================
+
+====================
+index 131
+offset 30064
+name Kanako
+length 25
+====================
+\"Let's see, next is...\"
+====================
+\"Let's see, next is...\"
+====================
+
+====================
+index 132
+offset 30139
+name Kanako
+length 79
+====================
+\"Requesting a catch phrase that expresses the charm of Kyushu Island, huh...\"
+====================
+\"Requesting a catch phrase that expresses the charm of Kyushu Island, huh...\"
+====================
+
+====================
+index 133
+offset 30574
+name Kanako
+length 45
+====================
+\"Me Kyushu. You pee-yew. Reek of honeydew.\"
+====================
+\"Me Kyushu. You pee-yew. Reek of honeydew.\"
+====================
+
+====================
+index 134
+offset 30941
+name Kanako
+length 15
+====================
+\"Okay, next.\"
+====================
+\"Okay, next.\"
+====================
+
+====================
+index 135
+offset 31006
+name Tomoya
+length 21
+====================
+\"Hold on a minute.\"
+====================
+\"Hold on a minute.\"
+====================
+
+====================
+index 136
+offset 31349
+name Kanako
+length 22
+====================
+\"Huh? What's wrong?\"
+====================
+\"Huh? What's wrong?\"
+====================
+
+====================
+index 137
+offset 31421
+name Tomoya
+length 50
+====================
+\"So much that I don't even know where to start.\"
+====================
+\"So much that I don't even know where to start.\"
+====================
+
+====================
+index 138
+offset 31521
+name Tomoya
+length 56
+====================
+\"Um, so that's what Kyushu Island is saying, correct?\"
+====================
+\"Um, so that's what Kyushu Island is saying, correct?\"
+====================
+
+====================
+index 139
+offset 31899
+name Kanako
+length 77
+====================
+\"Yup. That's what the island is saying to tourists from its point of view.\"
+====================
+\"Yup. That's what the island is saying to tourists from its point of view.\"
+====================
+
+====================
+index 140
+offset 32026
+name Tomoya
+length 38
+====================
+\"Saying that they reek of honeydew?\"
+====================
+\"Saying that they reek of honeydew?\"
+====================
+
+====================
+index 141
+offset 32114
+name Kanako
+length 12
+====================
+\"Yup yup.\"
+====================
+\"Yup yup.\"
+====================
+
+====================
+index 142
+offset 32176
+name Tomoya
+length 41
+====================
+\"What do you mean by reek of honeydew?\"
+====================
+\"What do you mean by reek of honeydew?\"
+====================
+
+====================
+index 143
+offset 32267
+name Kanako
+length 36
+====================
+\"I mean they smell like honeydew.\"
+====================
+\"I mean they smell like honeydew.\"
+====================
+
+====================
+index 144
+offset 32625
+name Kanako
+length 54
+====================
+\"Which must mean that it's sensitive to that smell.\"
+====================
+\"Which must mean that it's sensitive to that smell.\"
+====================
+
+====================
+index 145
+offset 32729
+name Tomoya
+length 42
+====================
+\"I can't imagine that, but good luck...\"
+====================
+\"I can't imagine that, but good luck...\"
+====================
+
+====================
+index 146
+offset 33590
+name Kanako
+length 14
+====================
+\"Next is...\"
+====================
+\"Next is...\"
+====================
+
+====================
+index 147
+offset 33620
+name NULL
+length 32
+====================
+I should just leave her alone...
+====================
+I should just leave her alone...
+====================

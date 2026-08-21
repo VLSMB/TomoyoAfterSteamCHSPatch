@@ -1,0 +1,13 @@
+type seen7010
+count 1
+
+====================
+index 1
+offset 132
+name NULL
+length 20
+====================
+DUNGEONS & TAKAFUMIS
+====================
+DUNGEONS & TAKAFUMIS
+====================

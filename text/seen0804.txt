@@ -1,0 +1,464 @@
+type seen804
+count 42
+
+====================
+index 1
+offset 263
+name NULL
+length 16
+====================
+August 4th (Wed)
+====================
+August 4th (Wed)
+====================
+
+====================
+index 2
+offset 1195
+name NULL
+length 77
+====================
+I had returned home while the sun was still up, and brought Tomo to the park.
+====================
+I had returned home while the sun was still up, and brought Tomo to the park.
+====================
+
+====================
+index 3
+offset 1288
+name NULL
+length 74
+====================
+There, I am letting Tomo play as she pleases while I take pictures of her.
+====================
+There, I am letting Tomo play as she pleases while I take pictures of her.
+====================
+
+====================
+index 4
+offset 1378
+name NULL
+length 40
+====================
+However, Tomo won't leave Tomoyo's side.
+====================
+However, Tomo won't leave Tomoyo's side.
+====================
+
+====================
+index 5
+offset 1738
+name Tomo
+length 52
+====================
+\"It's not gonna be fun if we don't play together!\"
+====================
+\"It's not gonna be fun if we don't play together!\"
+====================
+
+====================
+index 6
+offset 1806
+name NULL
+length 36
+====================
+She says, and pulls Tomoyo's sleeve.
+====================
+She says, and pulls Tomoyo's sleeve.
+====================
+
+====================
+index 7
+offset 2165
+name Tomoyo
+length 28
+====================
+\"No, I shouldn't be in...\"
+====================
+\"No, I shouldn't be in...\"
+====================
+
+====================
+index 8
+offset 2243
+name Tomoya
+length 24
+====================
+\"It's okay, isn't it?\"
+====================
+\"It's okay, isn't it?\"
+====================
+
+====================
+index 9
+offset 2590
+name Tomoyo
+length 74
+====================
+\"But... if you consider how she'll feel once she gets these pictures...\"
+====================
+\"But... if you consider how she'll feel once she gets these pictures...\"
+====================
+
+====================
+index 10
+offset 2714
+name Tomoyo
+length 39
+====================
+\"Don't you think she'll feel sad...?\"
+====================
+\"Don't you think she'll feel sad...?\"
+====================
+
+====================
+index 11
+offset 2803
+name Tomoya
+length 76
+====================
+\"If Tomo looks like she's having fun, that's going to be even better, no?\"
+====================
+\"If Tomo looks like she's having fun, that's going to be even better, no?\"
+====================
+
+====================
+index 12
+offset 3199
+name Tomo
+length 58
+====================
+\"Yeah! It's not gonna be fun if we don't play together!\"
+====================
+\"Yeah! It's not gonna be fun if we don't play together!\"
+====================
+
+====================
+index 13
+offset 3273
+name NULL
+length 80
+====================
+Oblivious to what's going on, Tomo innocently invites Tomoyo to be her playmate.
+====================
+Oblivious to what's going on, Tomo innocently invites Tomoyo to be her playmate.
+====================
+
+====================
+index 14
+offset 3676
+name Tomoyo
+length 18
+====================
+\"I see. Then...\"
+====================
+\"I see. Then...\"
+====================
+
+====================
+index 15
+offset 4070
+name Voice
+length 19
+====================
+\"Baaaaaaaaaamm!!\"
+====================
+\"Baaaaaaaaaamm!!\"
+====================
+
+====================
+index 16
+offset 4105
+name NULL
+length 105
+====================
+Before Tomoyo could finish her sentence, something strikes me hard in the back, and I fall to the ground.
+====================
+Before Tomoyo could finish her sentence, something strikes me hard in the back, and I fall to the ground.
+====================
+
+====================
+index 17
+offset 4283
+name Voice
+length 70
+====================
+\"Hey you there! Who the hell gave you permission to take pictures?!\"
+====================
+\"Hey you there! Who the hell gave you permission to take pictures?!\"
+====================
+
+====================
+index 18
+offset 4369
+name NULL
+length 36
+====================
+Said a guy with a threatening voice.
+====================
+Said a guy with a threatening voice.
+====================
+
+====================
+index 19
+offset 4729
+name Takafumi
+length 46
+====================
+\"You know that this is our turf, don't you?\"
+====================
+\"You know that this is our turf, don't you?\"
+====================
+
+====================
+index 20
+offset 4827
+name Takafumi
+length 83
+====================
+\"If you can't follow the rules here, you aren't going to live long, y'know? Huh?\"
+====================
+\"If you can't follow the rules here, you aren't going to live long, y'know? Huh?\"
+====================
+
+====================
+index 21
+offset 5229
+name Voice
+length 40
+====================
+\"What the hell's with all the ruckus?\"
+====================
+\"What the hell's with all the ruckus?\"
+====================
+
+====================
+index 22
+offset 5593
+name Takafumi
+length 13
+====================
+\"Kana-san!\"
+====================
+\"Kana-san!\"
+====================
+
+====================
+index 23
+offset 5658
+name Takafumi
+length 32
+====================
+\"Well actually, these guys...\"
+====================
+\"Well actually, these guys...\"
+====================
+
+====================
+index 24
+offset 6013
+name Kanako
+length 66
+====================
+\"Well, ain't that a cute li'l girl they have, Taka, let 'em go.\"
+====================
+\"Well, ain't that a cute li'l girl they have, Taka, let 'em go.\"
+====================
+
+====================
+index 25
+offset 6403
+name Takafumi
+length 54
+====================
+\"But we need to set an example for our young men...\"
+====================
+\"But we need to set an example for our young men...\"
+====================
+
+====================
+index 26
+offset 6802
+name Kanako
+length 35
+====================
+\"Alright, let's do this, then...\"
+====================
+\"Alright, let's do this, then...\"
+====================
+
+====================
+index 27
+offset 6887
+name Kanako
+length 31
+====================
+\"We'll join y'all and play... 
+====================
+\"We'll join y'all and play... 
+====================
+
+====================
+index 28
+offset 7217
+name NULL
+length 19
+====================
+and call it even!\"
+====================
+and call it even!\"
+====================
+
+====================
+index 29
+offset 7577
+name Tomo
+length 16
+====================
+\"Really? Yay!\"
+====================
+\"Really? Yay!\"
+====================
+
+====================
+index 30
+offset 7913
+name Tomoya
+length 100
+====================
+\"Hang on... you mean you kicked me to the ground with all your strength just for that stupid act?\"
+====================
+\"Hang on... you mean you kicked me to the ground with all your strength just for that stupid act?\"
+====================
+
+====================
+index 31
+offset 8337
+name Takafumi
+length 59
+====================
+\"By the way, it wasn't me who kicked you. It was Kanako.\"
+====================
+\"By the way, it wasn't me who kicked you. It was Kanako.\"
+====================
+
+====================
+index 32
+offset 8446
+name Tomoya
+length 66
+====================
+\"Yeah... I heard you go \"Baaam\" very courteously all right...\"
+====================
+\"Yeah... I heard you go \"Baaam\" very courteously all right...\"
+====================
+
+====================
+index 33
+offset 8832
+name Tomoya
+length 10
+====================
+\"Oww...\"
+====================
+\"Oww...\"
+====================
+
+====================
+index 34
+offset 9165
+name Tomoyo
+length 42
+====================
+\"Kanako's joke was rough. Are you okay?\"
+====================
+\"Kanako's joke was rough. Are you okay?\"
+====================
+
+====================
+index 35
+offset 9257
+name Tomoya
+length 19
+====================
+\"Yeah, I'm okay.\"
+====================
+\"Yeah, I'm okay.\"
+====================
+
+====================
+index 36
+offset 9562
+name NULL
+length 106
+====================
+I stand up, and already Kanako and Tomo are challenging each other to a race to the top on the jungle gym.
+====================
+I stand up, and already Kanako and Tomo are challenging each other to a race to the top on the jungle gym.
+====================
+
+====================
+index 37
+offset 9718
+name Tomoya
+length 76
+====================
+\"It just makes me think I should've brought them here in the first place.\"
+====================
+\"It just makes me think I should've brought them here in the first place.\"
+====================
+
+====================
+index 38
+offset 9810
+name NULL
+length 47
+====================
+Just looking at Tomo's smile makes me think so.
+====================
+Just looking at Tomo's smile makes me think so.
+====================
+
+====================
+index 39
+offset 9873
+name NULL
+length 52
+====================
+I walk up to her and press down the shutter release.
+====================
+I walk up to her and press down the shutter release.
+====================
+
+====================
+index 40
+offset 9941
+name NULL
+length 53
+====================
+In the end, Kanako is in every one of these pictures.
+====================
+In the end, Kanako is in every one of these pictures.
+====================
+
+====================
+index 41
+offset 10013
+name NULL
+length 80
+====================
+At the very end, I set the timer, and take a picture of all five of us together.
+====================
+At the very end, I set the timer, and take a picture of all five of us together.
+====================
+
+====================
+index 42
+offset 10109
+name NULL
+length 28
+====================
+As a momento of this summer.
+====================
+As a momento of this summer.
+====================

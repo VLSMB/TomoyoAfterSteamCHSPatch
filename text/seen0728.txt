@@ -1,0 +1,508 @@
+type seen728
+count 46
+
+====================
+index 1
+offset 266
+name NULL
+length 15
+====================
+July 28th (Wed)
+====================
+July 28th (Wed)
+====================
+
+====================
+index 2
+offset 1073
+name Tomoyo
+length 28
+====================
+\"And so, you're training.\"
+====================
+\"And so, you're training.\"
+====================
+
+====================
+index 3
+offset 1426
+name Takafumi
+length 29
+====================
+\"It's really hot though...\"
+====================
+\"It's really hot though...\"
+====================
+
+====================
+index 4
+offset 1778
+name Tomoyo
+length 41
+====================
+\"You have to get used to the heat too.\"
+====================
+\"You have to get used to the heat too.\"
+====================
+
+====================
+index 5
+offset 1869
+name Tomoyo
+length 57
+====================
+\"The course I just told you is about three kilometers.\"
+====================
+\"The course I just told you is about three kilometers.\"
+====================
+
+====================
+index 6
+offset 2246
+name Tomoya
+length 27
+====================
+\"Do your best, Takafumi.\"
+====================
+\"Do your best, Takafumi.\"
+====================
+
+====================
+index 7
+offset 2289
+name NULL
+length 30
+====================
+I cheer him on from the shade.
+====================
+I cheer him on from the shade.
+====================
+
+====================
+index 8
+offset 2644
+name Takafumi
+length 52
+====================
+\"And just whose fault is it that I'm doing this?!\"
+====================
+\"And just whose fault is it that I'm doing this?!\"
+====================
+
+====================
+index 9
+offset 3016
+name Tomoya
+length 58
+====================
+\"Tomo-san, Takafumi is irritated with me for no reason.\"
+====================
+\"Tomo-san, Takafumi is irritated with me for no reason.\"
+====================
+
+====================
+index 10
+offset 3090
+name NULL
+length 53
+====================
+I imitate Kanako and cling to Tomo, who's next to me.
+====================
+I imitate Kanako and cling to Tomo, who's next to me.
+====================
+
+====================
+index 11
+offset 3463
+name Tomo
+length 49
+====================
+\"Hey, Onii-chan, stop it. No getting iwatated.\"
+====================
+\"Hey, Onii-chan, stop it. No getting iwatated.\"
+====================
+
+====================
+index 12
+offset 3837
+name Takafumi
+length 85
+====================
+\"Don't hide behind a kid who can't even say irritated! And it's not for no reason!\"
+====================
+\"Don't hide behind a kid who can't even say irritated! And it's not for no reason!\"
+====================
+
+====================
+index 13
+offset 4244
+name Kanako
+length 33
+====================
+\"Uwah, it's hot again today...\"
+====================
+\"Uwah, it's hot again today...\"
+====================
+
+====================
+index 14
+offset 4293
+name NULL
+length 57
+====================
+Kanako comes out of the apartment with ice cream in hand.
+====================
+Kanako comes out of the apartment with ice cream in hand.
+====================
+
+====================
+index 15
+offset 4672
+name Kanako
+length 50
+====================
+\"What is everyone doing going outside together?\"
+====================
+\"What is everyone doing going outside together?\"
+====================
+
+====================
+index 16
+offset 5010
+name NULL
+length 60
+====================
+Then she follows Takafumi, who's running, with curious eyes.
+====================
+Then she follows Takafumi, who's running, with curious eyes.
+====================
+
+====================
+index 17
+offset 5120
+name Kanako
+length 22
+====================
+\"This a punishment?\"
+====================
+\"This a punishment?\"
+====================
+
+====================
+index 18
+offset 5192
+name Tomoya
+length 20
+====================
+\"It's love. Love.\"
+====================
+\"It's love. Love.\"
+====================
+
+====================
+index 19
+offset 5534
+name Kanako
+length 21
+====================
+\"Hm, love, huh...?\"
+====================
+\"Hm, love, huh...?\"
+====================
+
+====================
+index 20
+offset 6719
+name Tomoyo
+length 25
+====================
+\"He's not coming back.\"
+====================
+\"He's not coming back.\"
+====================
+
+====================
+index 21
+offset 6794
+name Tomoya
+length 20
+====================
+\"Go look for him.\"
+====================
+\"Go look for him.\"
+====================
+
+====================
+index 22
+offset 7100
+name NULL
+length 50
+====================
+I instruct her and she runs off after nodding yes.
+====================
+I instruct her and she runs off after nodding yes.
+====================
+
+====================
+index 23
+offset 8314
+name Tomoyo
+length 21
+====================
+\"He had collapsed.\"
+====================
+\"He had collapsed.\"
+====================
+
+====================
+index 24
+offset 8621
+name NULL
+length 83
+====================
+On her back when she returns is Takafumi with a hung head and fading consciousness.
+====================
+On her back when she returns is Takafumi with a hung head and fading consciousness.
+====================
+
+====================
+index 25
+offset 9026
+name Kanako
+length 22
+====================
+\"This a punishment?\"
+====================
+\"This a punishment?\"
+====================
+
+====================
+index 26
+offset 9098
+name Tomoya
+length 14
+====================
+\"It's love.\"
+====================
+\"It's love.\"
+====================
+
+====================
+index 27
+offset 9434
+name Kanako
+length 18
+====================
+\"A warped love.\"
+====================
+\"A warped love.\"
+====================
+
+====================
+index 28
+offset 10388
+name NULL
+length 93
+====================
+When I look at the pamphlet again, I notice that it says the course will be at a forest park.
+====================
+When I look at the pamphlet again, I notice that it says the course will be at a forest park.
+====================
+
+====================
+index 29
+offset 10531
+name Tomoya
+length 64
+====================
+\"The path is shaded by trees, so it seems like it'll be cool.\"
+====================
+\"The path is shaded by trees, so it seems like it'll be cool.\"
+====================
+
+====================
+index 30
+offset 10918
+name Tomoyo
+length 20
+====================
+\"Sorry, Takafumi.\"
+====================
+\"Sorry, Takafumi.\"
+====================
+
+====================
+index 31
+offset 10990
+name Takafumi
+length 29
+====================
+\"Can I stop running now...\"
+====================
+\"Can I stop running now...\"
+====================
+
+====================
+index 32
+offset 11035
+name NULL
+length 57
+====================
+Takafumi is lying down. There's a bag of ice on his head.
+====================
+Takafumi is lying down. There's a bag of ice on his head.
+====================
+
+====================
+index 33
+offset 11415
+name Tomoyo
+length 30
+====================
+\"Hey, don't pout like that.\"
+====================
+\"Hey, don't pout like that.\"
+====================
+
+====================
+index 34
+offset 11769
+name Takafumi
+length 64
+====================
+\"I'm not pouting. I'm saying it because of physical damage...\"
+====================
+\"I'm not pouting. I'm saying it because of physical damage...\"
+====================
+
+====================
+index 35
+offset 12156
+name Tomoyo
+length 50
+====================
+\"I'm sorry for that. I'm apologizing, aren't I?\"
+====================
+\"I'm sorry for that. I'm apologizing, aren't I?\"
+====================
+
+====================
+index 36
+offset 12256
+name Tomoyo
+length 25
+====================
+\"See, I'm nursing you.\"
+====================
+\"See, I'm nursing you.\"
+====================
+
+====================
+index 37
+offset 12604
+name Tomoyo
+length 57
+====================
+\"Hm? The ice has mostly melted. I'll go switch it out.\"
+====================
+\"Hm? The ice has mostly melted. I'll go switch it out.\"
+====================
+
+====================
+index 38
+offset 12947
+name NULL
+length 26
+====================
+Tomoyo stands at the sink.
+====================
+Tomoyo stands at the sink.
+====================
+
+====================
+index 39
+offset 13296
+name Kanako
+length 62
+====================
+\"What? Is everyone trying to reforge Takafumi's will-power?\"
+====================
+\"What? Is everyone trying to reforge Takafumi's will-power?\"
+====================
+
+====================
+index 40
+offset 13374
+name NULL
+length 33
+====================
+Kanako comes over to replace her.
+====================
+Kanako comes over to replace her.
+====================
+
+====================
+index 41
+offset 13457
+name Tomoya
+length 35
+====================
+\"He's sleeping, so keep it down.\"
+====================
+\"He's sleeping, so keep it down.\"
+====================
+
+====================
+index 42
+offset 13815
+name Kanako
+length 40
+====================
+\"I'm going to drip spit on your face.\"
+====================
+\"I'm going to drip spit on your face.\"
+====================
+
+====================
+index 43
+offset 14156
+name NULL
+length 49
+====================
+He jumps awake with incredible force and a shout.
+====================
+He jumps awake with incredible force and a shout.
+====================
+
+====================
+index 44
+offset 14529
+name Takafumi
+length 33
+====================
+\"Uwaaaaah, my head is ringing!\"
+====================
+\"Uwaaaaah, my head is ringing!\"
+====================
+
+====================
+index 45
+offset 14885
+name Kanako
+length 20
+====================
+\"Don't overdo it.\"
+====================
+\"Don't overdo it.\"
+====================
+
+====================
+index 46
+offset 15229
+name Takafumi
+length 45
+====================
+\"And just who is causing me to overdo it?!\"
+====================
+\"And just who is causing me to overdo it?!\"
+====================

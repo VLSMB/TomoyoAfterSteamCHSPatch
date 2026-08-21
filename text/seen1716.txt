@@ -1,0 +1,1245 @@
+type seen1716
+count 113
+
+====================
+index 1
+offset 551
+name Takafumi
+length 43
+====================
+\"Did you want to ask me something again?\"
+====================
+\"Did you want to ask me something again?\"
+====================
+
+====================
+index 2
+offset 653
+name Tomoya
+length 61
+====================
+\"For now, I know that Yawara-chan will do the programming.\"
+====================
+\"For now, I know that Yawara-chan will do the programming.\"
+====================
+
+====================
+index 3
+offset 1041
+name Takafumi
+length 31
+====================
+\"No, I don't think she will.\"
+====================
+\"No, I don't think she will.\"
+====================
+
+====================
+index 4
+offset 1122
+name Tomoya
+length 38
+====================
+\"You can create a game then, right?\"
+====================
+\"You can create a game then, right?\"
+====================
+
+====================
+index 5
+offset 1484
+name Takafumi
+length 18
+====================
+\"Well, sort of.\"
+====================
+\"Well, sort of.\"
+====================
+
+====================
+index 6
+offset 1554
+name Takafumi
+length 37
+====================
+\"But it'd be impossible by myself.\"
+====================
+\"But it'd be impossible by myself.\"
+====================
+
+====================
+index 7
+offset 1643
+name Takafumi
+length 75
+====================
+\"Furthermore, at the very least, we need someone to handle the graphics.\"
+====================
+\"Furthermore, at the very least, we need someone to handle the graphics.\"
+====================
+
+====================
+index 8
+offset 1777
+name Tomoya
+length 30
+====================
+\"Yawara-chan can't do that?\"
+====================
+\"Yawara-chan can't do that?\"
+====================
+
+====================
+index 9
+offset 1862
+name Takafumi
+length 31
+====================
+\"A programmer can't do that.\"
+====================
+\"A programmer can't do that.\"
+====================
+
+====================
+index 10
+offset 2217
+name Takafumi
+length 125
+====================
+\"In the past, you could have a single person handle multiple tasks, but you really need to distribute the work these days.\"
+====================
+\"In the past, you could have a single person handle multiple tasks, but you really need to distribute the work these days.\"
+====================
+
+====================
+index 11
+offset 2394
+name Takafumi
+length 58
+====================
+\"After all, hardware keeps getting better and better...\"
+====================
+\"After all, hardware keeps getting better and better...\"
+====================
+
+====================
+index 12
+offset 2471
+name NULL
+length 54
+====================
+Takafumi spouts line after line in a foreign language.
+====================
+Takafumi spouts line after line in a foreign language.
+====================
+
+====================
+index 13
+offset 2541
+name NULL
+length 34
+====================
+It's starting to make me sleepy...
+====================
+It's starting to make me sleepy...
+====================
+
+====================
+index 14
+offset 2902
+name Takafumi
+length 15
+====================
+\"HAHAHAHAHA!\"
+====================
+\"HAHAHAHAHA!\"
+====================
+
+====================
+index 15
+offset 2933
+name NULL
+length 49
+====================
+Whoa, Takafumi has turned into a foreigner again!
+====================
+Whoa, Takafumi has turned into a foreigner again!
+====================
+
+====================
+index 16
+offset 3034
+name Takafumi
+length 47
+====================
+\"Oh! I've finally come to the land of Japan!\"
+====================
+\"Oh! I've finally come to the land of Japan!\"
+====================
+
+====================
+index 17
+offset 3133
+name Takafumi
+length 52
+====================
+\"I got into the country with a handmade passport!\"
+====================
+\"I got into the country with a handmade passport!\"
+====================
+
+====================
+index 18
+offset 3201
+name NULL
+length 18
+====================
+Isn't that bad...?
+====================
+Isn't that bad...?
+====================
+
+====================
+index 19
+offset 3271
+name Takafumi
+length 23
+====================
+\"Oh! You Sony? Sony?\"
+====================
+\"Oh! You Sony? Sony?\"
+====================
+
+====================
+index 20
+offset 3310
+name NULL
+length 25
+====================
+No, that's not a human...
+====================
+No, that's not a human...
+====================
+
+====================
+index 21
+offset 3387
+name Takafumi
+length 30
+====================
+\"You, Panasonic? Panasonic?\"
+====================
+\"You, Panasonic? Panasonic?\"
+====================
+
+====================
+index 22
+offset 3433
+name NULL
+length 27
+====================
+I'm not Panasonic either...
+====================
+I'm not Panasonic either...
+====================
+
+====================
+index 23
+offset 3512
+name Takafumi
+length 36
+====================
+\"Then Toto? You Toto-made, right?\"
+====================
+\"Then Toto? You Toto-made, right?\"
+====================
+
+====================
+index 24
+offset 3594
+name NULL
+length 42
+====================
+You're saying that on purpose, aren't you?
+====================
+You're saying that on purpose, aren't you?
+====================
+
+====================
+index 25
+offset 3688
+name Takafumi
+length 41
+====================
+\"Oh! It was Toto, Toto-made! HAHAHAHA!\"
+====================
+\"Oh! It was Toto, Toto-made! HAHAHAHA!\"
+====================
+
+====================
+index 26
+offset 3745
+name NULL
+length 36
+====================
+He's definitely doing it on purpose.
+====================
+He's definitely doing it on purpose.
+====================
+
+====================
+index 27
+offset 4108
+name Takafumi
+length 44
+====================
+\"Nii-chan, were you even listening to me?\"
+====================
+\"Nii-chan, were you even listening to me?\"
+====================
+
+====================
+index 28
+offset 4168
+name NULL
+length 23
+====================
+He finishes explaining.
+====================
+He finishes explaining.
+====================
+
+====================
+index 29
+offset 4241
+name Tomoya
+length 54
+====================
+\"Yeah, I was. You said that on purpose, didn't you?\"
+====================
+\"Yeah, I was. You said that on purpose, didn't you?\"
+====================
+
+====================
+index 30
+offset 4619
+name Takafumi
+length 34
+====================
+\"Why is he getting all angry...\"
+====================
+\"Why is he getting all angry...\"
+====================
+
+====================
+index 31
+offset 4810
+name Tomoya
+length 27
+====================
+\"What, I look Toto-made?\"
+====================
+\"What, I look Toto-made?\"
+====================
+
+====================
+index 32
+offset 5321
+name Takafumi
+length 52
+====================
+\"No, I have no idea what you are talking about...\"
+====================
+\"No, I have no idea what you are talking about...\"
+====================
+
+====================
+index 33
+offset 5500
+name Tomoya
+length 31
+====================
+\"What, I look like a urinal?\"
+====================
+\"What, I look like a urinal?\"
+====================
+
+====================
+index 34
+offset 6015
+name Takafumi
+length 28
+====================
+\"No, I never said that...\"
+====================
+\"No, I never said that...\"
+====================
+
+====================
+index 35
+offset 6170
+name Tomoya
+length 19
+====================
+\"You, Toto-made?\"
+====================
+\"You, Toto-made?\"
+====================
+
+====================
+index 36
+offset 6673
+name Takafumi
+length 11
+====================
+\"No, no.\"
+====================
+\"No, no.\"
+====================
+
+====================
+index 37
+offset 6734
+name Tomoya
+length 67
+====================
+\"How is it? Being spoken to like that makes you feel bad, right?\"
+====================
+\"How is it? Being spoken to like that makes you feel bad, right?\"
+====================
+
+====================
+index 38
+offset 7125
+name Takafumi
+length 34
+====================
+\"What did I do to deserve this?\"
+====================
+\"What did I do to deserve this?\"
+====================
+
+====================
+index 39
+offset 7286
+name Tomoya
+length 19
+====================
+\"You, Toto-made?\"
+====================
+\"You, Toto-made?\"
+====================
+
+====================
+index 40
+offset 7789
+name Takafumi
+length 17
+====================
+\"You're wrong.\"
+====================
+\"You're wrong.\"
+====================
+
+====================
+index 41
+offset 8366
+name Tomoya
+length 45
+====================
+\"You reading some advertising guide again?\"
+====================
+\"You reading some advertising guide again?\"
+====================
+
+====================
+index 42
+offset 8893
+name Kanako
+length 18
+====================
+\"Yeah, sort of.\"
+====================
+\"Yeah, sort of.\"
+====================
+
+====================
+index 43
+offset 8961
+name Tomoya
+length 17
+====================
+\"Naming again?\"
+====================
+\"Naming again?\"
+====================
+
+====================
+index 44
+offset 9031
+name Kanako
+length 94
+====================
+\"No, this time I'm trying to do something more challenging and am writing a drama scenario.\"
+====================
+\"No, this time I'm trying to do something more challenging and am writing a drama scenario.\"
+====================
+
+====================
+index 45
+offset 9175
+name Tomoya
+length 37
+====================
+\"That's too much of an increase...\"
+====================
+\"That's too much of an increase...\"
+====================
+
+====================
+index 46
+offset 9262
+name Kanako
+length 38
+====================
+\"I finished the first part already.\"
+====================
+\"I finished the first part already.\"
+====================
+
+====================
+index 47
+offset 9623
+name Kanako
+length 63
+====================
+\"Say everyone, since we're all here, want to do it together?\"
+====================
+\"Say everyone, since we're all here, want to do it together?\"
+====================
+
+====================
+index 48
+offset 9736
+name Tomoya
+length 12
+====================
+\"Do what?\"
+====================
+\"Do what?\"
+====================
+
+====================
+index 49
+offset 10071
+name Kanako
+length 60
+====================
+\"The drama, of course. I already have the roles assigned.\"
+====================
+\"The drama, of course. I already have the roles assigned.\"
+====================
+
+====================
+index 50
+offset 10576
+name NULL
+length 71
+====================
+As she speaks, she distributes scraps of notebook paper to each person.
+====================
+As she speaks, she distributes scraps of notebook paper to each person.
+====================
+
+====================
+index 51
+offset 10663
+name NULL
+length 42
+====================
+The title is \"The Great Detective Tomo\".
+====================
+The title is \"The Great Detective Tomo\".
+====================
+
+====================
+index 52
+offset 11083
+name Kanako
+length 280
+====================
+\"This is the story about the attractive detective Tomo, who has been turned into a child by medicine created by the Organization of Darkness. Despite that, she retains her intelligence and puts adults to shame as a mystery detective by solving one difficult case after another.\"
+====================
+\"This is the story about the attractive detective Tomo, who has been turned into a child by medicine created by the Organization of Darkness. Despite that, she retains her intelligence and puts adults to shame as a mystery detective by solving one difficult case after another.\"
+====================
+
+====================
+index 53
+offset 11468
+name Tomoya
+length 35
+====================
+\"I've heard that story before...\"
+====================
+\"I've heard that story before...\"
+====================
+
+====================
+index 54
+offset 11865
+name Kanako
+length 186
+====================
+\"Tomo will be the protagonist, a detective who's been turned into a child. And you'll be an elite detective, Takafumi'll be an elite detecteive, and Senpai will be an elite detective.\"
+====================
+\"Tomo will be the protagonist, a detective who's been turned into a child. And you'll be an elite detective, Takafumi'll be an elite detecteive, and Senpai will be an elite detective.\"
+====================
+
+====================
+index 55
+offset 12101
+name Tomoya
+length 37
+====================
+\"Why do we all have the same role?\"
+====================
+\"Why do we all have the same role?\"
+====================
+
+====================
+index 56
+offset 12461
+name Kanako
+length 108
+====================
+\"You don't get it, do you? Being able to outwit all the other elite detectives is what makes her special.\"
+====================
+\"You don't get it, do you? Being able to outwit all the other elite detectives is what makes her special.\"
+====================
+
+====================
+index 57
+offset 12619
+name Tomoya
+length 33
+====================
+\"Oh, so that's how it works...\"
+====================
+\"Oh, so that's how it works...\"
+====================
+
+====================
+index 58
+offset 12975
+name Kanako
+length 60
+====================
+\"Ok, let's start from when we arrive at the murder scene!\"
+====================
+\"Ok, let's start from when we arrive at the murder scene!\"
+====================
+
+====================
+index 59
+offset 13974
+name Tomoya
+length 116
+====================
+\"Inspector, it seems that all the windows and doors inside were locked from the inside when the victim was found.\"
+====================
+\"Inspector, it seems that all the windows and doors inside were locked from the inside when the victim was found.\"
+====================
+
+====================
+index 60
+offset 14413
+name Tomoyo
+length 42
+====================
+\"What? In other words, it means that...\"
+====================
+\"What? In other words, it means that...\"
+====================
+
+====================
+index 61
+offset 14778
+name Tomoyo
+length 73
+====================
+\"What does it mean? I have no clue at all. What are you talking about?\"
+====================
+\"What does it mean? I have no clue at all. What are you talking about?\"
+====================
+
+====================
+index 62
+offset 15175
+name Takafumi
+length 41
+====================
+\"Inspector, we've got new information.\"
+====================
+\"Inspector, we've got new information.\"
+====================
+
+====================
+index 63
+offset 15268
+name Takafumi
+length 95
+====================
+\"It seems that two days ago, another member of the club the victim was in also went missing.\"
+====================
+\"It seems that two days ago, another member of the club the victim was in also went missing.\"
+====================
+
+====================
+index 64
+offset 15686
+name Tomoyo
+length 9
+====================
+\"What?\"
+====================
+\"What?\"
+====================
+
+====================
+index 65
+offset 16018
+name Tomoyo
+length 39
+====================
+\"Who are you? I have no clue at all.\"
+====================
+\"Who are you? I have no clue at all.\"
+====================
+
+====================
+index 66
+offset 16399
+name Tomoya
+length 21
+====================
+\"Hold on a minute.\"
+====================
+\"Hold on a minute.\"
+====================
+
+====================
+index 67
+offset 16764
+name Kanako
+length 37
+====================
+\"What is it? It was going so well.\"
+====================
+\"What is it? It was going so well.\"
+====================
+
+====================
+index 68
+offset 16851
+name Tomoya
+length 41
+====================
+\"Why is the elite detective so stupid?\"
+====================
+\"Why is the elite detective so stupid?\"
+====================
+
+====================
+index 69
+offset 16942
+name Tomoya
+length 78
+====================
+\"I mean, she's dumber even than your average person, let alone a detective.\"
+====================
+\"I mean, she's dumber even than your average person, let alone a detective.\"
+====================
+
+====================
+index 70
+offset 17343
+name Kanako
+length 93
+====================
+\"It'll make the play even more exciting, so we're going with it. You don't seem to get it.\"
+====================
+\"It'll make the play even more exciting, so we're going with it. You don't seem to get it.\"
+====================
+
+====================
+index 71
+offset 17486
+name Tomoya
+length 13
+====================
+\"Really...\"
+====================
+\"Really...\"
+====================
+
+====================
+index 72
+offset 18066
+name Tomoya
+length 92
+====================
+\"They need to do some investigating. Otherwise it won't feel like they've been outwitted.\"
+====================
+\"They need to do some investigating. Otherwise it won't feel like they've been outwitted.\"
+====================
+
+====================
+index 73
+offset 18641
+name Kanako
+length 51
+====================
+\"Hm, well then, how about something like this...\"
+====================
+\"Hm, well then, how about something like this...\"
+====================
+
+====================
+index 74
+offset 18978
+name NULL
+length 73
+====================
+She takes the ballpoint pen in her hand and quickly scribbles some notes.
+====================
+She takes the ballpoint pen in her hand and quickly scribbles some notes.
+====================
+
+====================
+index 75
+offset 19374
+name Kanako
+length 43
+====================
+\"Ok, finished. I'm counting on everyone.\"
+====================
+\"Ok, finished. I'm counting on everyone.\"
+====================
+
+====================
+index 76
+offset 19740
+name Kanako
+length 61
+====================
+\"Ok, let's start from when you arrive at the murder scene!\"
+====================
+\"Ok, let's start from when you arrive at the murder scene!\"
+====================
+
+====================
+index 77
+offset 21010
+name Tomoyo
+length 40
+====================
+\"A murder in a closed room, eh... Hm.\"
+====================
+\"A murder in a closed room, eh... Hm.\"
+====================
+
+====================
+index 78
+offset 21374
+name Takafumi
+length 35
+====================
+\"Inspector, please look at this.\"
+====================
+\"Inspector, please look at this.\"
+====================
+
+====================
+index 79
+offset 21733
+name Takafumi
+length 67
+====================
+\"Even when the front door is locked, there is still a small gap.\"
+====================
+\"Even when the front door is locked, there is still a small gap.\"
+====================
+
+====================
+index 80
+offset 22123
+name Tomoyo
+length 37
+====================
+\"What? In other words, it means...\"
+====================
+\"What? In other words, it means...\"
+====================
+
+====================
+index 81
+offset 22483
+name Tomoyo
+length 39
+====================
+\"It means the criminal is very thin.\"
+====================
+\"It means the criminal is very thin.\"
+====================
+
+====================
+index 82
+offset 22846
+name Takafumi
+length 60
+====================
+\"Yes, no doubt about it. We believe the criminal is thin.\"
+====================
+\"Yes, no doubt about it. We believe the criminal is thin.\"
+====================
+
+====================
+index 83
+offset 23226
+name Tomoya
+length 45
+====================
+\"What is it? Did you figure something out?\"
+====================
+\"What is it? Did you figure something out?\"
+====================
+
+====================
+index 84
+offset 23595
+name Takafumi
+length 57
+====================
+\"We know a defining feature of the culprit: he's thin.\"
+====================
+\"We know a defining feature of the culprit: he's thin.\"
+====================
+
+====================
+index 85
+offset 23975
+name Tomoyo
+length 75
+====================
+\"Expand the investigation to every thin person! Leave no stone unturned!\"
+====================
+\"Expand the investigation to every thin person! Leave no stone unturned!\"
+====================
+
+====================
+index 86
+offset 24392
+name Tomoya
+length 21
+====================
+\"Hold on a minute.\"
+====================
+\"Hold on a minute.\"
+====================
+
+====================
+index 87
+offset 24757
+name Kanako
+length 37
+====================
+\"What is it? It was going so well.\"
+====================
+\"What is it? It was going so well.\"
+====================
+
+====================
+index 88
+offset 24844
+name Tomoya
+length 60
+====================
+\"Your first script was stupid, but this one is no better.\"
+====================
+\"Your first script was stupid, but this one is no better.\"
+====================
+
+====================
+index 89
+offset 24957
+name Kanako
+length 62
+====================
+\"You do nothing but complain. Why don't you give it a try?!\"
+====================
+\"You do nothing but complain. Why don't you give it a try?!\"
+====================
+
+====================
+index 90
+offset 25069
+name Tomoya
+length 51
+====================
+\"No, I'm not looking to become a scriptwriter...\"
+====================
+\"No, I'm not looking to become a scriptwriter...\"
+====================
+
+====================
+index 91
+offset 25690
+name Tomoya
+length 103
+====================
+\"Also, if it's a detective story, you have to have some mystery in it. The last one was too obvious.\"
+====================
+\"Also, if it's a detective story, you have to have some mystery in it. The last one was too obvious.\"
+====================
+
+====================
+index 92
+offset 26276
+name Kanako
+length 51
+====================
+\"Hm, well then, how about something like this...\"
+====================
+\"Hm, well then, how about something like this...\"
+====================
+
+====================
+index 93
+offset 26613
+name NULL
+length 73
+====================
+She takes the ballpoint pen in her hand and quickly scribbles some notes.
+====================
+She takes the ballpoint pen in her hand and quickly scribbles some notes.
+====================
+
+====================
+index 94
+offset 27009
+name Kanako
+length 43
+====================
+\"Ok, finished. I'm counting on everyone.\"
+====================
+\"Ok, finished. I'm counting on everyone.\"
+====================
+
+====================
+index 95
+offset 27375
+name Kanako
+length 60
+====================
+\"Ok, let's start from when we arrive at the murder scene!\"
+====================
+\"Ok, let's start from when we arrive at the murder scene!\"
+====================
+
+====================
+index 96
+offset 28644
+name Tomoyo
+length 116
+====================
+\"This is the crime scene, eh... Oh... this is rather bad... I feel like puking... Or maybe it's morning sickness.\"
+====================
+\"This is the crime scene, eh... Oh... this is rather bad... I feel like puking... Or maybe it's morning sickness.\"
+====================
+
+====================
+index 97
+offset 29084
+name Takafumi
+length 20
+====================
+\"Congratulations.\"
+====================
+\"Congratulations.\"
+====================
+
+====================
+index 98
+offset 29427
+name Tomoyo
+length 74
+====================
+\"What an imprudent person you are. Okay, let's start the investigation.\"
+====================
+\"What an imprudent person you are. Okay, let's start the investigation.\"
+====================
+
+====================
+index 99
+offset 29821
+name Tomoya
+length 41
+====================
+\"Inspector, this is the murder weapon.\"
+====================
+\"Inspector, this is the murder weapon.\"
+====================
+
+====================
+index 100
+offset 30185
+name Tomoyo
+length 59
+====================
+\"A Japanese sword, huh? How mysterious. Let me see it...\"
+====================
+\"A Japanese sword, huh? How mysterious. Let me see it...\"
+====================
+
+====================
+index 101
+offset 30567
+name Tomoyo
+length 83
+====================
+\"Hm, it fits nicely in my hands. Let me grab it and get rid of the fingerprints.\"
+====================
+\"Hm, it fits nicely in my hands. Let me grab it and get rid of the fingerprints.\"
+====================
+
+====================
+index 102
+offset 30974
+name Takafumi
+length 49
+====================
+\"Don't do that! You'll ruin our investigation!\"
+====================
+\"Don't do that! You'll ruin our investigation!\"
+====================
+
+====================
+index 103
+offset 31346
+name Tomoyo
+length 87
+====================
+\"Isn't this interesting in its own way? Umph. Don't get in my way, or I'll kill you!\"
+====================
+\"Isn't this interesting in its own way? Umph. Don't get in my way, or I'll kill you!\"
+====================
+
+====================
+index 104
+offset 31795
+name Takafumi
+length 14
+====================
+\"Gya------!\"
+====================
+\"Gya------!\"
+====================
+
+====================
+index 105
+offset 32132
+name Tomoyo
+length 102
+====================
+\"Ah, look at that. I really killed him! I only wanted to grab the sword! I didn't mean to kill him!\"
+====================
+\"Ah, look at that. I really killed him! I only wanted to grab the sword! I didn't mean to kill him!\"
+====================
+
+====================
+index 106
+offset 32557
+name Tomoyo
+length 48
+====================
+\"But while I'm at it, you should die too----!\"
+====================
+\"But while I'm at it, you should die too----!\"
+====================
+
+====================
+index 107
+offset 33036
+name Tomoya
+length 21
+====================
+\"Hold on a minute.\"
+====================
+\"Hold on a minute.\"
+====================
+
+====================
+index 108
+offset 33401
+name Kanako
+length 37
+====================
+\"What is it? It was going so well.\"
+====================
+\"What is it? It was going so well.\"
+====================
+
+====================
+index 109
+offset 33488
+name Tomoya
+length 43
+====================
+\"The mystery is what this story even is.\"
+====================
+\"The mystery is what this story even is.\"
+====================
+
+====================
+index 110
+offset 33584
+name Kanako
+length 64
+====================
+\"You do nothing but complain. Do you want to try doing this?!\"
+====================
+\"You do nothing but complain. Do you want to try doing this?!\"
+====================
+
+====================
+index 111
+offset 33698
+name Tomoya
+length 51
+====================
+\"No, I'm not looking to become a scriptwriter...\"
+====================
+\"No, I'm not looking to become a scriptwriter...\"
+====================
+
+====================
+index 113
+offset 34775
+name Kanako
+length 68
+====================
+\"Since all you do is complain, I'm not going to show you anymore.\"
+====================
+\"Since all you do is complain, I'm not going to show you anymore.\"
+====================
+
+====================
+index 114
+offset 34893
+name Tomoya
+length 17
+====================
+\"Is that so...\"
+====================
+\"Is that so...\"
+====================

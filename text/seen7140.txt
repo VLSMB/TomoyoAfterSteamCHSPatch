@@ -1,0 +1,112 @@
+type seen7140
+count 10
+
+====================
+index 1
+offset 316
+name NULL
+length 28
+====================
+Cancel the selected command.
+====================
+Cancel the selected command.
+====================
+
+====================
+index 4
+offset 442
+name NULL
+length 22
+====================
+Attack nearby enemies.
+====================
+Attack nearby enemies.
+====================
+
+====================
+index 7
+offset 562
+name NULL
+length 14
+====================
+Avoid enemies.
+====================
+Avoid enemies.
+====================
+
+====================
+index 8
+offset 601
+name NULL
+length 16
+====================
+Will not attack.
+====================
+Will not attack.
+====================
+
+====================
+index 9
+offset 642
+name NULL
+length 44
+====================
+Defend when attacked, reducing damage taken.
+====================
+Defend when attacked, reducing damage taken.
+====================
+
+====================
+index 10
+offset 732
+name NULL
+length 40
+====================
+Search for items while avoiding enemies.
+====================
+Search for items while avoiding enemies.
+====================
+
+====================
+index 11
+offset 797
+name NULL
+length 16
+====================
+Will not attack.
+====================
+Will not attack.
+====================
+
+====================
+index 13
+offset 885
+name NULL
+length 38
+====================
+Wait for one turn on the current tile.
+====================
+Wait for one turn on the current tile.
+====================
+
+====================
+index 16
+offset 1021
+name NULL
+length 40
+====================
+Move towards the enemy's formation area.
+====================
+Move towards the enemy's formation area.
+====================
+
+====================
+index 17
+offset 1086
+name NULL
+length 33
+====================
+Attack enemies in range en route.
+====================
+Attack enemies in range en route.
+====================

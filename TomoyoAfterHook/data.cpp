@@ -138,6 +138,15 @@ EXTERN_C void DumpSeenData(RealLiveSeenData* in, SeenDumpData* out) {
 		nameArray.push_back(data);
 	}
 
+	textArray.erase(std::remove_if(textArray.begin(), textArray.end(), 
+		[](SeenPatchData& data) { 
+			if (data.length <= 1) {
+				FreeSeenPatchData(&data);
+				return true;
+			}
+			return false;
+		}),textArray.end());
+
 	out->textData.pointer = toArrayPointer(textArray);
 	out->textData.size = textArray.size();
 	out->nameData.pointer = toArrayPointer(nameArray);

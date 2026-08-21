@@ -1,0 +1,134 @@
+type seen819
+count 12
+
+====================
+index 1
+offset 263
+name NULL
+length 17
+====================
+August 19th (Thu)
+====================
+August 19th (Thu)
+====================
+
+====================
+index 2
+offset 716
+name NULL
+length 47
+====================
+Everyone gathered here again the following day.
+====================
+Everyone gathered here again the following day.
+====================
+
+====================
+index 3
+offset 779
+name NULL
+length 78
+====================
+The sounds of nails being struck by hammers faintly echo across the mountains.
+====================
+The sounds of nails being struck by hammers faintly echo across the mountains.
+====================
+
+====================
+index 4
+offset 873
+name NULL
+length 53
+====================
+Everyone's shouts gradually become louder and louder.
+====================
+Everyone's shouts gradually become louder and louder.
+====================
+
+====================
+index 5
+offset 942
+name NULL
+length 31
+====================
+There are new stacks of timber.
+====================
+There are new stacks of timber.
+====================
+
+====================
+index 6
+offset 989
+name NULL
+length 72
+====================
+It seems they'll be tearing down the old veranda and building a new one.
+====================
+It seems they'll be tearing down the old veranda and building a new one.
+====================
+
+====================
+index 7
+offset 1077
+name NULL
+length 55
+====================
+Just like yesterday, I am sitting on the plastic sheet.
+====================
+Just like yesterday, I am sitting on the plastic sheet.
+====================
+
+====================
+index 8
+offset 1148
+name NULL
+length 57
+====================
+Even then, I'm fixing all kinds of things I have on hand.
+====================
+Even then, I'm fixing all kinds of things I have on hand.
+====================
+
+====================
+index 9
+offset 1221
+name NULL
+length 49
+====================
+There are things that cannot be fixed, of course.
+====================
+There are things that cannot be fixed, of course.
+====================
+
+====================
+index 10
+offset 1286
+name NULL
+length 34
+====================
+So I strip them for parts instead.
+====================
+So I strip them for parts instead.
+====================
+
+====================
+index 11
+offset 1336
+name NULL
+length 41
+====================
+I think they will probably come in handy.
+====================
+I think they will probably come in handy.
+====================
+
+====================
+index 12
+offset 1393
+name NULL
+length 89
+====================
+Even if it's for just a little, it would be nice if it'll help the village in the future.
+====================
+Even if it's for just a little, it would be nice if it'll help the village in the future.
+====================

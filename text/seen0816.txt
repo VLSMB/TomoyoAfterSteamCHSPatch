@@ -1,0 +1,882 @@
+type seen816
+count 80
+
+====================
+index 1
+offset 263
+name NULL
+length 17
+====================
+August 16th (Mon)
+====================
+August 16th (Mon)
+====================
+
+====================
+index 2
+offset 1524
+name Kanako
+length 13
+====================
+\"Hey, hey.\"
+====================
+\"Hey, hey.\"
+====================
+
+====================
+index 3
+offset 1587
+name Kanako
+length 22
+====================
+\"Did she come here?\"
+====================
+\"Did she come here?\"
+====================
+
+====================
+index 4
+offset 1659
+name Tomoya
+length 36
+====================
+\"You mean Tomoyo? No, she didn't.\"
+====================
+\"You mean Tomoyo? No, she didn't.\"
+====================
+
+====================
+index 5
+offset 2019
+name Kanako
+length 29
+====================
+\"Huh? Where did she go...?\"
+====================
+\"Huh? Where did she go...?\"
+====================
+
+====================
+index 6
+offset 2098
+name Tomoya
+length 23
+====================
+\"What? You lost her?\"
+====================
+\"What? You lost her?\"
+====================
+
+====================
+index 7
+offset 2445
+name Kanako
+length 30
+====================
+\"That seems to be the case.\"
+====================
+\"That seems to be the case.\"
+====================
+
+====================
+index 8
+offset 2525
+name Tomoya
+length 29
+====================
+\"Just what were you doing?\"
+====================
+\"Just what were you doing?\"
+====================
+
+====================
+index 9
+offset 2878
+name Kanako
+length 19
+====================
+\"Nothing at all.\"
+====================
+\"Nothing at all.\"
+====================
+
+====================
+index 10
+offset 2947
+name Tomoya
+length 38
+====================
+\"Weren't you keeping an eye on her?\"
+====================
+\"Weren't you keeping an eye on her?\"
+====================
+
+====================
+index 11
+offset 3035
+name Kanako
+length 71
+====================
+\"Come on, didn't you tell me not to look when she's in the bathroom?\"
+====================
+\"Come on, didn't you tell me not to look when she's in the bathroom?\"
+====================
+
+====================
+index 12
+offset 3156
+name Tomoya
+length 16
+====================
+\"Bathroom...?\"
+====================
+\"Bathroom...?\"
+====================
+
+====================
+index 13
+offset 3277
+name Kanako
+length 188
+====================
+\"I thought she was taking too long when she went in and didn't come out for like ten minutes, so I knocked on the door, but she didn't answer. And when I peeked in on her, she was gone.\"
+====================
+\"I thought she was taking too long when she went in and didn't come out for like ten minutes, so I knocked on the door, but she didn't answer. And when I peeked in on her, she was gone.\"
+====================
+
+====================
+index 14
+offset 3570
+name Tomoya
+length 22
+====================
+\"Was there an exit?\"
+====================
+\"Was there an exit?\"
+====================
+
+====================
+index 15
+offset 3681
+name Kanako
+length 75
+====================
+\"There's a small window that you might be able to climb through somehow.\"
+====================
+\"There's a small window that you might be able to climb through somehow.\"
+====================
+
+====================
+index 16
+offset 3806
+name Tomoya
+length 28
+====================
+\"So she ran away, huh...?\"
+====================
+\"So she ran away, huh...?\"
+====================
+
+====================
+index 17
+offset 3884
+name Kanako
+length 17
+====================
+\"She sure did.\"
+====================
+\"She sure did.\"
+====================
+
+====================
+index 18
+offset 3960
+name Tomoya
+length 47
+====================
+\"Don't just stand there. Let's look for her!\"
+====================
+\"Don't just stand there. Let's look for her!\"
+====================
+
+====================
+index 19
+offset 4060
+name Kanako
+length 25
+====================
+\"Where should we look?\"
+====================
+\"Where should we look?\"
+====================
+
+====================
+index 20
+offset 4135
+name Tomoya
+length 87
+====================
+\"We're going back the way we came. She's probably thinking of going back by herself.\"
+====================
+\"We're going back the way we came. She's probably thinking of going back by herself.\"
+====================
+
+====================
+index 21
+offset 4546
+name Kanako
+length 42
+====================
+\"Oh, don't worry, then. She'll be back.\"
+====================
+\"Oh, don't worry, then. She'll be back.\"
+====================
+
+====================
+index 22
+offset 4638
+name Tomoya
+length 15
+====================
+\"Why's that?\"
+====================
+\"Why's that?\"
+====================
+
+====================
+index 23
+offset 4703
+name Kanako
+length 25
+====================
+\"I took this from her.\"
+====================
+\"I took this from her.\"
+====================
+
+====================
+index 24
+offset 4744
+name NULL
+length 61
+====================
+I recognize the wallet she's holding... It's Tomoyo's wallet.
+====================
+I recognize the wallet she's holding... It's Tomoyo's wallet.
+====================
+
+====================
+index 25
+offset 4855
+name Kanako
+length 85
+====================
+\"I also told everyone in the village not to lend her any money or give her a ride.\"
+====================
+\"I also told everyone in the village not to lend her any money or give her a ride.\"
+====================
+
+====================
+index 26
+offset 5264
+name Kanako
+length 25
+====================
+\"Look, here she comes.\"
+====================
+\"Look, here she comes.\"
+====================
+
+====================
+index 27
+offset 5575
+name NULL
+length 56
+====================
+I turn around and see Tomoyo walking straight toward us.
+====================
+I turn around and see Tomoyo walking straight toward us.
+====================
+
+====================
+index 28
+offset 5647
+name NULL
+length 101
+====================
+Her hair and clothes are very messy, so she must've had a hard time climbing through the tiny window.
+====================
+Her hair and clothes are very messy, so she must've had a hard time climbing through the tiny window.
+====================
+
+====================
+index 29
+offset 5764
+name NULL
+length 49
+====================
+Her appearance... tells me she's lost her sanity.
+====================
+Her appearance... tells me she's lost her sanity.
+====================
+
+====================
+index 30
+offset 6135
+name Tomoyo
+length 35
+====================
+\"Kanako, give me back my wallet.\"
+====================
+\"Kanako, give me back my wallet.\"
+====================
+
+====================
+index 31
+offset 6494
+name Kanako
+length 20
+====================
+\"And so she says.\"
+====================
+\"And so she says.\"
+====================
+
+====================
+index 32
+offset 6530
+name NULL
+length 28
+====================
+Kanako asks for my decision.
+====================
+Kanako asks for my decision.
+====================
+
+====================
+index 33
+offset 6878
+name Tomoya
+length 23
+====================
+\"Don't give it back.\"
+====================
+\"Don't give it back.\"
+====================
+
+====================
+index 34
+offset 7223
+name Tomoyo
+length 8
+====================
+\"Why?\"
+====================
+\"Why?\"
+====================
+
+====================
+index 35
+offset 7281
+name Tomoya
+length 58
+====================
+\"You're planning on going home by yourself, aren't you?\"
+====================
+\"You're planning on going home by yourself, aren't you?\"
+====================
+
+====================
+index 36
+offset 7661
+name Tomoyo
+length 13
+====================
+\".........\"
+====================
+\".........\"
+====================
+
+====================
+index 37
+offset 7724
+name Tomoya
+length 54
+====================
+\"If that's not the case, then go along with Kanako.\"
+====================
+\"If that's not the case, then go along with Kanako.\"
+====================
+
+====================
+index 38
+offset 8100
+name Tomoyo
+length 19
+====================
+\"Yeah... okay...\"
+====================
+\"Yeah... okay...\"
+====================
+
+====================
+index 39
+offset 8169
+name Tomoyo
+length 49
+====================
+\"I got it... so please give me my wallet back.\"
+====================
+\"I got it... so please give me my wallet back.\"
+====================
+
+====================
+index 40
+offset 8542
+name Kanako
+length 21
+====================
+\"What should I do?\"
+====================
+\"What should I do?\"
+====================
+
+====================
+index 41
+offset 8613
+name Tomoya
+length 46
+====================
+\"Don't give it back while we're still here.\"
+====================
+\"Don't give it back while we're still here.\"
+====================
+
+====================
+index 42
+offset 8981
+name Tomoyo
+length 28
+====================
+\"What is wrong with you?!\"
+====================
+\"What is wrong with you?!\"
+====================
+
+====================
+index 43
+offset 9059
+name Tomoyo
+length 41
+====================
+\"Don't go deciding things on your own!\"
+====================
+\"Don't go deciding things on your own!\"
+====================
+
+====================
+index 44
+offset 9116
+name NULL
+length 45
+====================
+She's upset, and more so than I've ever seen.
+====================
+She's upset, and more so than I've ever seen.
+====================
+
+====================
+index 45
+offset 9177
+name NULL
+length 82
+====================
+Or I suppose that's how Tomoyo used to be... The one that Kanako is familiar with.
+====================
+Or I suppose that's how Tomoyo used to be... The one that Kanako is familiar with.
+====================
+
+====================
+index 46
+offset 9581
+name Tomoyo
+length 29
+====================
+\"Kanako... give it back...\"
+====================
+\"Kanako... give it back...\"
+====================
+
+====================
+index 47
+offset 9626
+name NULL
+length 38
+====================
+She says in a deep, threatening voice.
+====================
+She says in a deep, threatening voice.
+====================
+
+====================
+index 48
+offset 9714
+name Kanako
+length 10
+====================
+\"Can't.\"
+====================
+\"Can't.\"
+====================
+
+====================
+index 49
+offset 9774
+name Tomoyo
+length 36
+====================
+\"That's enough... Give it back...\"
+====================
+\"That's enough... Give it back...\"
+====================
+
+====================
+index 50
+offset 9860
+name Kanako
+length 45
+====================
+\"I can't. That's what your boyfriend said.\"
+====================
+\"I can't. That's what your boyfriend said.\"
+====================
+
+====================
+index 51
+offset 10274
+name Tomoyo
+length 19
+====================
+\"Give it back...\"
+====================
+\"Give it back...\"
+====================
+
+====================
+index 52
+offset 10343
+name Tomoyo
+length 57
+====================
+\"If you don't... I'll have to take it back by force...\"
+====================
+\"If you don't... I'll have to take it back by force...\"
+====================
+
+====================
+index 53
+offset 10450
+name Tomoyo
+length 72
+====================
+\"If it comes to that... I can't guarantee you will leave unscathed...\"
+====================
+\"If it comes to that... I can't guarantee you will leave unscathed...\"
+====================
+
+====================
+index 54
+offset 10538
+name NULL
+length 70
+====================
+I can feel shivers run down my spine; my body temperature is dropping.
+====================
+I can feel shivers run down my spine; my body temperature is dropping.
+====================
+
+====================
+index 55
+offset 10658
+name Tomoyo
+length 39
+====================
+\"I'll give you three more seconds...\"
+====================
+\"I'll give you three more seconds...\"
+====================
+
+====================
+index 56
+offset 10773
+name Tomoyo
+length 12
+====================
+\"Three...\"
+====================
+\"Three...\"
+====================
+
+====================
+index 57
+offset 10835
+name Tomoyo
+length 10
+====================
+\"Two...\"
+====================
+\"Two...\"
+====================
+
+====================
+index 58
+offset 10895
+name Tomoyo
+length 10
+====================
+\"One...\"
+====================
+\"One...\"
+====================
+
+====================
+index 59
+offset 11242
+name Kanako
+length 9
+====================
+\"Pass!\"
+====================
+\"Pass!\"
+====================
+
+====================
+index 60
+offset 11537
+name NULL
+length 47
+====================
+Kanako suddenly throws the wallet into the air.
+====================
+Kanako suddenly throws the wallet into the air.
+====================
+
+====================
+index 61
+offset 11600
+name NULL
+length 68
+====================
+The wallet flys toward me, and I reach out and grab it in a fluster.
+====================
+The wallet flys toward me, and I reach out and grab it in a fluster.
+====================
+
+====================
+index 62
+offset 11684
+name NULL
+length 50
+====================
+At the same time, the oppressive atmosphere fades.
+====================
+At the same time, the oppressive atmosphere fades.
+====================
+
+====================
+index 63
+offset 12101
+name Tomoyo
+length 13
+====================
+\".........\"
+====================
+\".........\"
+====================
+
+====================
+index 64
+offset 12130
+name NULL
+length 37
+====================
+Tomoyo stands there hanging her head.
+====================
+Tomoyo stands there hanging her head.
+====================
+
+====================
+index 65
+offset 12217
+name Tomoya
+length 14
+====================
+\"Calm down.\"
+====================
+\"Calm down.\"
+====================
+
+====================
+index 66
+offset 12281
+name Tomoya
+length 42
+====================
+\"We'll leave this place together. Okay?\"
+====================
+\"We'll leave this place together. Okay?\"
+====================
+
+====================
+index 67
+offset 12339
+name NULL
+length 20
+====================
+She doesn't respond.
+====================
+She doesn't respond.
+====================
+
+====================
+index 68
+offset 12645
+name NULL
+length 66
+====================
+She walks away quickly, not even taking the time to lift her head.
+====================
+She walks away quickly, not even taking the time to lift her head.
+====================
+
+====================
+index 69
+offset 12761
+name Tomoya
+length 40
+====================
+\"Good job on riding that out, Kanako.\"
+====================
+\"Good job on riding that out, Kanako.\"
+====================
+
+====================
+index 70
+offset 12851
+name Kanako
+length 13
+====================
+\".........\"
+====================
+\".........\"
+====================
+
+====================
+index 71
+offset 12880
+name NULL
+length 27
+====================
+She doesn't respond either.
+====================
+She doesn't respond either.
+====================
+
+====================
+index 72
+offset 12957
+name Tomoya
+length 11
+====================
+\"Kanako?\"
+====================
+\"Kanako?\"
+====================
+
+====================
+index 73
+offset 13018
+name Kanako
+length 13
+====================
+\".........\"
+====================
+\".........\"
+====================
+
+====================
+index 74
+offset 13047
+name NULL
+length 24
+====================
+She's completely frozen.
+====================
+She's completely frozen.
+====================
+
+====================
+index 75
+offset 13087
+name NULL
+length 57
+====================
+I tap her back, and immediately, she takes a deep breath.
+====================
+I tap her back, and immediately, she takes a deep breath.
+====================
+
+====================
+index 76
+offset 13467
+name Kanako
+length 60
+====================
+\"Man... my legs are still shaking... That was so scary...\"
+====================
+\"Man... my legs are still shaking... That was so scary...\"
+====================
+
+====================
+index 77
+offset 13577
+name Tomoya
+length 34
+====================
+\"So you get scared too, huh...?\"
+====================
+\"So you get scared too, huh...?\"
+====================
+
+====================
+index 78
+offset 13661
+name Kanako
+length 48
+====================
+\"That shortened my life by a hundred years...\"
+====================
+\"That shortened my life by a hundred years...\"
+====================
+
+====================
+index 79
+offset 13759
+name Tomoya
+length 42
+====================
+\"How long were you planning to live...?\"
+====================
+\"How long were you planning to live...?\"
+====================
+
+====================
+index 80
+offset 14662
+name NULL
+length 57
+====================
+The sun has set, and thus brings my work today to an end.
+====================
+The sun has set, and thus brings my work today to an end.
+====================

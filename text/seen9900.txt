@@ -1,0 +1,1652 @@
+type seen9900
+count 150
+
+====================
+index 1
+offset 1866
+name NULL
+length 72
+====================
+0123456789 ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz ,.!?'\"
+====================
+0123456789 ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz ,.!?'\"
+====================
+
+====================
+index 2
+offset 1975
+name NULL
+length 33
+====================
+The story that I am about to tell
+====================
+The story that I am about to tell
+====================
+
+====================
+index 3
+offset 2045
+name NULL
+length 36
+====================
+is something that happened long ago.
+====================
+is something that happened long ago.
+====================
+
+====================
+index 4
+offset 2118
+name NULL
+length 9
+====================
+Even now,
+====================
+Even now,
+====================
+
+====================
+index 5
+offset 2164
+name NULL
+length 32
+====================
+it is still shining brilliantly.
+====================
+it is still shining brilliantly.
+====================
+
+====================
+index 6
+offset 2242
+name NULL
+length 27
+====================
+It was then when he decided
+====================
+It was then when he decided
+====================
+
+====================
+index 7
+offset 2306
+name NULL
+length 51
+====================
+that he would take on the role of the teacher next.
+====================
+that he would take on the role of the teacher next.
+====================
+
+====================
+index 8
+offset 2394
+name NULL
+length 46
+====================
+He would teach what his teacher had taught him
+====================
+He would teach what his teacher had taught him
+====================
+
+====================
+index 9
+offset 2477
+name NULL
+length 81
+====================
+to those children who are standing still, not having found their reasons to live.
+====================
+to those children who are standing still, not having found their reasons to live.
+====================
+
+====================
+index 10
+offset 2595
+name NULL
+length 39
+====================
+And she would be there, supporting him.
+====================
+And she would be there, supporting him.
+====================
+
+====================
+index 11
+offset 2680
+name NULL
+length 33
+====================
+The real story has not yet begun.
+====================
+The real story has not yet begun.
+====================
+
+====================
+index 12
+offset 2750
+name NULL
+length 49
+====================
+From here, they will stand still for a long time.
+====================
+From here, they will stand still for a long time.
+====================
+
+====================
+index 13
+offset 2836
+name NULL
+length 27
+====================
+At the bottom of that hill.
+====================
+At the bottom of that hill.
+====================
+
+====================
+index 14
+offset 2909
+name NULL
+length 34
+====================
+At last, they made their way here.
+====================
+At last, they made their way here.
+====================
+
+====================
+index 15
+offset 2983
+name NULL
+length 13
+====================
+That's right.
+====================
+That's right.
+====================
+
+====================
+index 16
+offset 3033
+name NULL
+length 27
+====================
+This is where it all began.
+====================
+This is where it all began.
+====================
+
+====================
+index 17
+offset 3097
+name NULL
+length 44
+====================
+I stood where \"she\" was standing long ago.
+====================
+I stood where \"she\" was standing long ago.
+====================
+
+====================
+index 18
+offset 3178
+name NULL
+length 81
+====================
+There was once a young girl who, abandoned by her mother, spent a summer with us.
+====================
+There was once a young girl who, abandoned by her mother, spent a summer with us.
+====================
+
+====================
+index 19
+offset 3296
+name NULL
+length 46
+====================
+The time we spent together was very enjoyable.
+====================
+The time we spent together was very enjoyable.
+====================
+
+====================
+index 20
+offset 3379
+name NULL
+length 62
+====================
+As long as she wished for it, it could have continued forever.
+====================
+As long as she wished for it, it could have continued forever.
+====================
+
+====================
+index 21
+offset 3478
+name NULL
+length 34
+====================
+However, having learned the truth,
+====================
+However, having learned the truth,
+====================
+
+====================
+index 22
+offset 3549
+name NULL
+length 33
+====================
+she chose to live with her mother
+====================
+she chose to live with her mother
+====================
+
+====================
+index 23
+offset 3619
+name NULL
+length 52
+====================
+together in the empty village deep in the mountains,
+====================
+together in the empty village deep in the mountains,
+====================
+
+====================
+index 24
+offset 3708
+name NULL
+length 53
+====================
+even though she knew her mother had little time left.
+====================
+even though she knew her mother had little time left.
+====================
+
+====================
+index 25
+offset 3798
+name NULL
+length 39
+====================
+On that day, I made a promise with her.
+====================
+On that day, I made a promise with her.
+====================
+
+====================
+index 26
+offset 3877
+name NULL
+length 70
+====================
+She is still living strongly in the faraway mountain village even now.
+====================
+She is still living strongly in the faraway mountain village even now.
+====================
+
+====================
+index 27
+offset 3984
+name NULL
+length 21
+====================
+I ran away by myself.
+====================
+I ran away by myself.
+====================
+
+====================
+index 28
+offset 4042
+name NULL
+length 41
+====================
+Even though our love continues, even now.
+====================
+Even though our love continues, even now.
+====================
+
+====================
+index 29
+offset 4120
+name NULL
+length 28
+====================
+And now, he proved it to me.
+====================
+And now, he proved it to me.
+====================
+
+====================
+index 30
+offset 4185
+name NULL
+length 31
+====================
+Which is why I made up my mind.
+====================
+Which is why I made up my mind.
+====================
+
+====================
+index 31
+offset 4253
+name NULL
+length 35
+====================
+I am determined to become stronger.
+====================
+I am determined to become stronger.
+====================
+
+====================
+index 32
+offset 4334
+name NULL
+length 5
+====================
+Yeah.
+====================
+Yeah.
+====================
+
+====================
+index 33
+offset 4376
+name NULL
+length 15
+====================
+I will be okay.
+====================
+I will be okay.
+====================
+
+====================
+index 34
+offset 4443
+name NULL
+length 32
+====================
+You don't need to worry anymore.
+====================
+You don't need to worry anymore.
+====================
+
+====================
+index 35
+offset 4518
+name NULL
+length 3
+====================
+Our
+====================
+Our
+====================
+
+====================
+index 36
+offset 4561
+name NULL
+length 4
+====================
+love
+====================
+love
+====================
+
+====================
+index 37
+offset 4602
+name NULL
+length 11
+====================
+is eternal.
+====================
+is eternal.
+====================
+
+====================
+index 38
+offset 4653
+name NULL
+length 27
+====================
+Right before the operation,
+====================
+Right before the operation,
+====================
+
+====================
+index 39
+offset 4717
+name NULL
+length 46
+====================
+there is one last person here to cheer for us.
+====================
+there is one last person here to cheer for us.
+====================
+
+====================
+index 40
+offset 4803
+name NULL
+length 40
+====================
+Her voice echoed throughout the hallway.
+====================
+Her voice echoed throughout the hallway.
+====================
+
+====================
+index 41
+offset 4880
+name NULL
+length 21
+====================
+She dashed toward us.
+====================
+She dashed toward us.
+====================
+
+====================
+index 42
+offset 4938
+name NULL
+length 55
+====================
+Her shadow has grown much larger compared to back then.
+====================
+Her shadow has grown much larger compared to back then.
+====================
+
+====================
+index 43
+offset 5030
+name NULL
+length 35
+====================
+It's a big shadow that I aimed for.
+====================
+It's a big shadow that I aimed for.
+====================
+
+====================
+index 44
+offset 5105
+name NULL
+length 64
+====================
+He is taken away on his bed; its wheels rattling along its path.
+====================
+He is taken away on his bed; its wheels rattling along its path.
+====================
+
+====================
+index 45
+offset 5206
+name NULL
+length 17
+====================
+I followed along.
+====================
+I followed along.
+====================
+
+====================
+index 46
+offset 5260
+name NULL
+length 53
+====================
+Ready to be reprimanded, I gently held onto his hand.
+====================
+Ready to be reprimanded, I gently held onto his hand.
+====================
+
+====================
+index 47
+offset 5350
+name NULL
+length 53
+====================
+Up until the door of the operating room separated us.
+====================
+Up until the door of the operating room separated us.
+====================
+
+====================
+index 48
+offset 5440
+name NULL
+length 51
+====================
+A long period of time was needed for the operation.
+====================
+A long period of time was needed for the operation.
+====================
+
+====================
+index 49
+offset 5528
+name NULL
+length 15
+====================
+I kept waiting.
+====================
+I kept waiting.
+====================
+
+====================
+index 50
+offset 5580
+name NULL
+length 39
+====================
+All the while, I firmly kept believing.
+====================
+All the while, I firmly kept believing.
+====================
+
+====================
+index 51
+offset 5656
+name NULL
+length 11
+====================
+In the end,
+====================
+In the end,
+====================
+
+====================
+index 52
+offset 5704
+name NULL
+length 30
+====================
+the operation did not go well.
+====================
+the operation did not go well.
+====================
+
+====================
+index 53
+offset 5771
+name NULL
+length 63
+====================
+However, if we were only concerned with regaining his memories,
+====================
+However, if we were only concerned with regaining his memories,
+====================
+
+====================
+index 54
+offset 5871
+name NULL
+length 31
+====================
+you could say it was a success.
+====================
+you could say it was a success.
+====================
+
+====================
+index 55
+offset 5939
+name NULL
+length 71
+====================
+It was two days after he was taken inside the ICU when I saw him again.
+====================
+It was two days after he was taken inside the ICU when I saw him again.
+====================
+
+====================
+index 56
+offset 6047
+name NULL
+length 28
+====================
+Although he could not speak,
+====================
+Although he could not speak,
+====================
+
+====================
+index 57
+offset 6112
+name NULL
+length 30
+====================
+I could hear him say one word.
+====================
+I could hear him say one word.
+====================
+
+====================
+index 58
+offset 6179
+name NULL
+length 15
+====================
+It was my name.
+====================
+It was my name.
+====================
+
+====================
+index 59
+offset 6231
+name NULL
+length 45
+====================
+I was overjoyed, and yelled out like a child.
+====================
+I was overjoyed, and yelled out like a child.
+====================
+
+====================
+index 60
+offset 6313
+name NULL
+length 54
+====================
+After a while, he was transferred to the general ward.
+====================
+After a while, he was transferred to the general ward.
+====================
+
+====================
+index 61
+offset 6404
+name NULL
+length 56
+====================
+The days that followed were committed to rehabilitation.
+====================
+The days that followed were committed to rehabilitation.
+====================
+
+====================
+index 62
+offset 6497
+name NULL
+length 57
+====================
+We lived and worked together through the difficult times.
+====================
+We lived and worked together through the difficult times.
+====================
+
+====================
+index 63
+offset 6591
+name NULL
+length 25
+====================
+We kept walking together.
+====================
+We kept walking together.
+====================
+
+====================
+index 64
+offset 6653
+name NULL
+length 33
+====================
+By the time we got to that point,
+====================
+By the time we got to that point,
+====================
+
+====================
+index 65
+offset 6723
+name NULL
+length 17
+====================
+we had no regrets
+====================
+we had no regrets
+====================
+
+====================
+index 66
+offset 6777
+name NULL
+length 40
+====================
+no matter what awaited us in the future.
+====================
+no matter what awaited us in the future.
+====================
+
+====================
+index 67
+offset 6854
+name NULL
+length 23
+====================
+I am confident of that.
+====================
+I am confident of that.
+====================
+
+====================
+index 68
+offset 6914
+name NULL
+length 10
+====================
+After all,
+====================
+After all,
+====================
+
+====================
+index 69
+offset 6961
+name NULL
+length 46
+====================
+we were able to find what was important to us.
+====================
+we were able to find what was important to us.
+====================
+
+====================
+index 70
+offset 7044
+name NULL
+length 9
+====================
+Even now,
+====================
+Even now,
+====================
+
+====================
+index 71
+offset 7090
+name NULL
+length 52
+====================
+I'll never forget that last scenery we saw together.
+====================
+I'll never forget that last scenery we saw together.
+====================
+
+====================
+index 72
+offset 7179
+name NULL
+length 59
+====================
+It was a sunset that extended outward endlessly in the sky.
+====================
+It was a sunset that extended outward endlessly in the sky.
+====================
+
+====================
+index 73
+offset 7275
+name NULL
+length 28
+====================
+We fondly gazed at the view.
+====================
+We fondly gazed at the view.
+====================
+
+====================
+index 74
+offset 7340
+name NULL
+length 64
+====================
+Up until then, we had never noticed how beautiful the world was.
+====================
+Up until then, we had never noticed how beautiful the world was.
+====================
+
+====================
+index 75
+offset 7441
+name NULL
+length 59
+====================
+Not just those days when we were still uneducated children,
+====================
+Not just those days when we were still uneducated children,
+====================
+
+====================
+index 76
+offset 7537
+name NULL
+length 66
+====================
+but also when we were right in the midst of despair and suffering.
+====================
+but also when we were right in the midst of despair and suffering.
+====================
+
+====================
+index 77
+offset 7640
+name NULL
+length 82
+====================
+Had we been unaware of the other colors in the world, we would never have noticed.
+====================
+Had we been unaware of the other colors in the world, we would never have noticed.
+====================
+
+====================
+index 78
+offset 7759
+name NULL
+length 26
+====================
+The view was so beautiful.
+====================
+The view was so beautiful.
+====================
+
+====================
+index 79
+offset 7822
+name NULL
+length 49
+====================
+Before I had realized, his eyes had already shut.
+====================
+Before I had realized, his eyes had already shut.
+====================
+
+====================
+index 80
+offset 7908
+name NULL
+length 38
+====================
+There was a radiant smile on his face.
+====================
+There was a radiant smile on his face.
+====================
+
+====================
+index 81
+offset 7983
+name NULL
+length 47
+====================
+Like that of a runner who had finished his run.
+====================
+Like that of a runner who had finished his run.
+====================
+
+====================
+index 82
+offset 8067
+name NULL
+length 46
+====================
+Just then, his mouth moved; he said something.
+====================
+Just then, his mouth moved; he said something.
+====================
+
+====================
+index 83
+offset 8150
+name NULL
+length 27
+====================
+It was a very quiet murmur.
+====================
+It was a very quiet murmur.
+====================
+
+====================
+index 84
+offset 8214
+name NULL
+length 40
+====================
+He might have been talking in his sleep.
+====================
+He might have been talking in his sleep.
+====================
+
+====================
+index 85
+offset 8291
+name NULL
+length 5
+====================
+Then,
+====================
+Then,
+====================
+
+====================
+index 86
+offset 8336
+name NULL
+length 28
+====================
+he fell into a deep slumber.
+====================
+he fell into a deep slumber.
+====================
+
+====================
+index 87
+offset 8401
+name NULL
+length 41
+====================
+Even so, every time I recall those words,
+====================
+Even so, every time I recall those words,
+====================
+
+====================
+index 88
+offset 8479
+name NULL
+length 44
+====================
+I know that he reached the same place I did.
+====================
+I know that he reached the same place I did.
+====================
+
+====================
+index 89
+offset 8560
+name NULL
+length 23
+====================
+That is what I believe.
+====================
+That is what I believe.
+====================
+
+====================
+index 90
+offset 8620
+name NULL
+length 27
+====================
+I will never again despair.
+====================
+I will never again despair.
+====================
+
+====================
+index 91
+offset 8684
+name NULL
+length 27
+====================
+We overcame many obstacles.
+====================
+We overcame many obstacles.
+====================
+
+====================
+index 92
+offset 8748
+name NULL
+length 28
+====================
+We believed in eternal love,
+====================
+We believed in eternal love,
+====================
+
+====================
+index 93
+offset 8813
+name NULL
+length 53
+====================
+and there were all those days that we lived together.
+====================
+and there were all those days that we lived together.
+====================
+
+====================
+index 94
+offset 8903
+name NULL
+length 19
+====================
+That is how I know.
+====================
+That is how I know.
+====================
+
+====================
+index 95
+offset 8959
+name NULL
+length 43
+====================
+That is a treasure that belongs only to me.
+====================
+That is a treasure that belongs only to me.
+====================
+
+====================
+index 96
+offset 9039
+name NULL
+length 32
+====================
+It is an irreplaceable treasure.
+====================
+It is an irreplaceable treasure.
+====================
+
+====================
+index 97
+offset 9111
+name NULL
+length 77
+====================
+There were times that were so hard to bear; my heart almost tore into pieces.
+====================
+There were times that were so hard to bear; my heart almost tore into pieces.
+====================
+
+====================
+index 98
+offset 9225
+name NULL
+length 45
+====================
+There were times when I cried out in sadness.
+====================
+There were times when I cried out in sadness.
+====================
+
+====================
+index 99
+offset 9307
+name NULL
+length 45
+====================
+But it is because I lived through those days,
+====================
+But it is because I lived through those days,
+====================
+
+====================
+index 100
+offset 9389
+name NULL
+length 37
+====================
+that everything is so dazzling today.
+====================
+that everything is so dazzling today.
+====================
+
+====================
+index 101
+offset 9463
+name NULL
+length 18
+====================
+The day I met him.
+====================
+The day I met him.
+====================
+
+====================
+index 102
+offset 9518
+name NULL
+length 35
+====================
+The days I spent together with him.
+====================
+The days I spent together with him.
+====================
+
+====================
+index 103
+offset 9590
+name NULL
+length 24
+====================
+The days I felt despair.
+====================
+The days I felt despair.
+====================
+
+====================
+index 104
+offset 9651
+name NULL
+length 23
+====================
+The days I cried alone.
+====================
+The days I cried alone.
+====================
+
+====================
+index 105
+offset 9711
+name NULL
+length 38
+====================
+The path that I will continue to walk.
+====================
+The path that I will continue to walk.
+====================
+
+====================
+index 106
+offset 9786
+name NULL
+length 9
+====================
+The past.
+====================
+The past.
+====================
+
+====================
+index 107
+offset 9832
+name NULL
+length 11
+====================
+The future.
+====================
+The future.
+====================
+
+====================
+index 108
+offset 9880
+name NULL
+length 9
+====================
+All of it
+====================
+All of it
+====================
+
+====================
+index 109
+offset 9926
+name NULL
+length 39
+====================
+is just like the sunset I saw that day,
+====================
+is just like the sunset I saw that day,
+====================
+
+====================
+index 110
+offset 10002
+name NULL
+length 9
+====================
+dazzling.
+====================
+dazzling.
+====================
+
+====================
+index 111
+offset 10063
+name NULL
+length 40
+====================
+I was able to find that glimmer in life.
+====================
+I was able to find that glimmer in life.
+====================
+
+====================
+index 112
+offset 10140
+name NULL
+length 51
+====================
+Which is why I want to help those who are afflicted
+====================
+Which is why I want to help those who are afflicted
+====================
+
+====================
+index 113
+offset 10228
+name NULL
+length 16
+====================
+like I once was.
+====================
+like I once was.
+====================
+
+====================
+index 114
+offset 10281
+name NULL
+length 38
+====================
+I kept walking forward just like that,
+====================
+I kept walking forward just like that,
+====================
+
+====================
+index 115
+offset 10356
+name NULL
+length 60
+====================
+and before I had realized, it had become my meaning of life.
+====================
+and before I had realized, it had become my meaning of life.
+====================
+
+====================
+index 116
+offset 10453
+name NULL
+length 66
+====================
+Which is why, to those of you who have found your meaning in life,
+====================
+Which is why, to those of you who have found your meaning in life,
+====================
+
+====================
+index 117
+offset 10556
+name NULL
+length 39
+====================
+please help others to find theirs next.
+====================
+please help others to find theirs next.
+====================
+
+====================
+index 118
+offset 10632
+name NULL
+length 62
+====================
+When the time comes, there should be nothing holding you back.
+====================
+When the time comes, there should be nothing holding you back.
+====================
+
+====================
+index 119
+offset 10731
+name NULL
+length 6
+====================
+You...
+====================
+You...
+====================
+
+====================
+index 120
+offset 10774
+name NULL
+length 40
+====================
+You will already have a meaning of life.
+====================
+You will already have a meaning of life.
+====================
+
+====================
+index 121
+offset 10851
+name NULL
+length 25
+====================
+What your treasure may be
+====================
+What your treasure may be
+====================
+
+====================
+index 122
+offset 10913
+name NULL
+length 25
+====================
+and how you can obtain it
+====================
+and how you can obtain it
+====================
+
+====================
+index 123
+offset 10975
+name NULL
+length 31
+====================
+is something that nobody knows,
+====================
+is something that nobody knows,
+====================
+
+====================
+index 124
+offset 11043
+name NULL
+length 36
+====================
+but you will surely find it someday.
+====================
+but you will surely find it someday.
+====================
+
+====================
+index 125
+offset 11116
+name NULL
+length 41
+====================
+So no matter how painful it is right now,
+====================
+So no matter how painful it is right now,
+====================
+
+====================
+index 126
+offset 11194
+name NULL
+length 45
+====================
+no matter how hard it is and how sad you are,
+====================
+no matter how hard it is and how sad you are,
+====================
+
+====================
+index 127
+offset 11276
+name NULL
+length 22
+====================
+even if you are angry,
+====================
+even if you are angry,
+====================
+
+====================
+index 128
+offset 11335
+name NULL
+length 18
+====================
+even if you smile,
+====================
+even if you smile,
+====================
+
+====================
+index 129
+offset 11390
+name NULL
+length 16
+====================
+even if you cry,
+====================
+even if you cry,
+====================
+
+====================
+index 130
+offset 11443
+name NULL
+length 20
+====================
+even if you cry out,
+====================
+even if you cry out,
+====================
+
+====================
+index 131
+offset 11500
+name NULL
+length 40
+====================
+no matter what, I want you to keep going
+====================
+no matter what, I want you to keep going
+====================
+
+====================
+index 132
+offset 11577
+name NULL
+length 41
+====================
+until the day you find your own treasure.
+====================
+until the day you find your own treasure.
+====================
+
+====================
+index 133
+offset 11655
+name NULL
+length 51
+====================
+If you, the person on the other side of the screen,
+====================
+If you, the person on the other side of the screen,
+====================
+
+====================
+index 134
+offset 11743
+name NULL
+length 41
+====================
+ever find yourself alone on your journey,
+====================
+ever find yourself alone on your journey,
+====================
+
+====================
+index 135
+offset 11821
+name NULL
+length 14
+====================
+it's all okay.
+====================
+it's all okay.
+====================
+
+====================
+index 136
+offset 11872
+name NULL
+length 18
+====================
+You are not alone.
+====================
+You are not alone.
+====================
+
+====================
+index 137
+offset 11927
+name NULL
+length 10
+====================
+I am here.
+====================
+I am here.
+====================
+
+====================
+index 138
+offset 11974
+name NULL
+length 33
+====================
+I will be there to accompany you.
+====================
+I will be there to accompany you.
+====================
+
+====================
+index 139
+offset 12047
+name NULL
+length 16
+====================
+So please relax.
+====================
+So please relax.
+====================
+
+====================
+index 140
+offset 12100
+name NULL
+length 25
+====================
+That is what I discovered
+====================
+That is what I discovered
+====================
+
+====================
+index 141
+offset 12162
+name NULL
+length 18
+====================
+together with him,
+====================
+together with him,
+====================
+
+====================
+index 142
+offset 12217
+name NULL
+length 22
+====================
+walking alongside him.
+====================
+walking alongside him.
+====================
+
+====================
+index 143
+offset 12276
+name NULL
+length 28
+====================
+Name: The Bear of the Forest
+====================
+Name: The Bear of the Forest
+====================
+
+====================
+index 144
+offset 12344
+name NULL
+length 14
+====================
+Now, let's go.
+====================
+Now, let's go.
+====================
+
+====================
+index 145
+offset 12395
+name NULL
+length 23
+====================
+The world is beautiful.
+====================
+The world is beautiful.
+====================
+
+====================
+index 146
+offset 12455
+name NULL
+length 3
+====================
+And
+====================
+And
+====================
+
+====================
+index 147
+offset 12495
+name NULL
+length 28
+====================
+life is ever so magnificent.
+====================
+life is ever so magnificent.
+====================
+
+====================
+index 148
+offset 12560
+name NULL
+length 22
+====================
+It's a wonderful life!
+====================
+It's a wonderful life!
+====================
+
+====================
+index 149
+offset 12619
+name NULL
+length 13
+====================
+??? UnDefine!
+====================
+??? UnDefine!
+====================
+
+====================
+index 220
+offset 20720
+name NULL
+length 2
+====================
+\"
+====================
+\"
+====================

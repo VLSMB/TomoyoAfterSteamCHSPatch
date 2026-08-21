@@ -1,0 +1,365 @@
+type seen725
+count 33
+
+====================
+index 1
+offset 263
+name NULL
+length 15
+====================
+July 25th (Sun)
+====================
+July 25th (Sun)
+====================
+
+====================
+index 2
+offset 1018
+name Tomoyo
+length 108
+====================
+\"When I'm watching you from the side, I can't see a difference between you and Takafumi hitting the keys.\"
+====================
+\"When I'm watching you from the side, I can't see a difference between you and Takafumi hitting the keys.\"
+====================
+
+====================
+index 3
+offset 1142
+name NULL
+length 42
+====================
+Taking what Tomoyo said, I prepare myself.
+====================
+Taking what Tomoyo said, I prepare myself.
+====================
+
+====================
+index 4
+offset 2108
+name Tomoya
+length 30
+====================
+\"This is revenge, Takafumi.\"
+====================
+\"This is revenge, Takafumi.\"
+====================
+
+====================
+index 5
+offset 2483
+name Takafumi
+length 66
+====================
+\"You remember that if you lose, you can't challenge me anymore?\"
+====================
+\"You remember that if you lose, you can't challenge me anymore?\"
+====================
+
+====================
+index 6
+offset 2599
+name Tomoya
+length 9
+====================
+\"Yeah.\"
+====================
+\"Yeah.\"
+====================
+
+====================
+index 7
+offset 2624
+name NULL
+length 63
+====================
+I expended all of my willpower, so that I could bet it on this.
+====================
+I expended all of my willpower, so that I could bet it on this.
+====================
+
+====================
+index 8
+offset 3011
+name Takafumi
+length 29
+====================
+\"Okay. Then I'll go first.\"
+====================
+\"Okay. Then I'll go first.\"
+====================
+
+====================
+index 9
+offset 3326
+name NULL
+length 82
+====================
+Takafumi starts up the typing practice software like he's been doing up until now.
+====================
+Takafumi starts up the typing practice software like he's been doing up until now.
+====================
+
+====================
+index 10
+offset 3424
+name NULL
+length 77
+====================
+He sets it to the highest difficulty and starts tapping away at the keyboard.
+====================
+He sets it to the highest difficulty and starts tapping away at the keyboard.
+====================
+
+====================
+index 11
+offset 3517
+name NULL
+length 13
+====================
+His result...
+====================
+His result...
+====================
+
+====================
+index 12
+offset 3854
+name Takafumi
+length 10
+====================
+\"Ngh...\"
+====================
+\"Ngh...\"
+====================
+
+====================
+index 13
+offset 3880
+name NULL
+length 37
+====================
+1428 characters entered. 18 mistakes.
+====================
+1428 characters entered. 18 mistakes.
+====================
+
+====================
+index 14
+offset 3933
+name NULL
+length 69
+====================
+Mistakes are subtracted from the total, so Takafumi's result is 1410.
+====================
+Mistakes are subtracted from the total, so Takafumi's result is 1410.
+====================
+
+====================
+index 15
+offset 4018
+name NULL
+length 46
+====================
+It's a lower score than he's had up until now.
+====================
+It's a lower score than he's had up until now.
+====================
+
+====================
+index 16
+offset 4388
+name Takafumi
+length 40
+====================
+\"But oh well, I should still be safe.\"
+====================
+\"But oh well, I should still be safe.\"
+====================
+
+====================
+index 17
+offset 4444
+name NULL
+length 100
+====================
+Like he says, even though that number doesn't reflect his actual level, it's one I've never reached.
+====================
+Like he says, even though that number doesn't reflect his actual level, it's one I've never reached.
+====================
+
+====================
+index 18
+offset 4560
+name NULL
+length 22
+====================
+But I've gotten close.
+====================
+But I've gotten close.
+====================
+
+====================
+index 19
+offset 4598
+name NULL
+length 41
+====================
+All that's left is for me to concentrate.
+====================
+All that's left is for me to concentrate.
+====================
+
+====================
+index 20
+offset 4925
+name NULL
+length 52
+====================
+I put my fingers on the keyboard and prepare myself.
+====================
+I put my fingers on the keyboard and prepare myself.
+====================
+
+====================
+index 21
+offset 4993
+name NULL
+length 46
+====================
+As it starts, characters appear on the screen.
+====================
+As it starts, characters appear on the screen.
+====================
+
+====================
+index 22
+offset 5055
+name NULL
+length 73
+====================
+My fingers move faster than my brain and I input the characters as shown.
+====================
+My fingers move faster than my brain and I input the characters as shown.
+====================
+
+====================
+index 23
+offset 5144
+name NULL
+length 26
+====================
+I'm different from before.
+====================
+I'm different from before.
+====================
+
+====================
+index 24
+offset 5609
+name NULL
+length 27
+====================
+I'm completely in the zone.
+====================
+I'm completely in the zone.
+====================
+
+====================
+index 25
+offset 5652
+name NULL
+length 101
+====================
+Before I know it, I've forgotten about the contest and find myself absorbed in just hitting the keys.
+====================
+Before I know it, I've forgotten about the contest and find myself absorbed in just hitting the keys.
+====================
+
+====================
+index 26
+offset 6195
+name NULL
+length 36
+====================
+The end sign comes up and it's over.
+====================
+The end sign comes up and it's over.
+====================
+
+====================
+index 27
+offset 6555
+name Takafumi
+length 36
+====================
+\"...you've improved like crazy...\"
+====================
+\"...you've improved like crazy...\"
+====================
+
+====================
+index 28
+offset 6607
+name NULL
+length 35
+====================
+Takafumi sounds like he's groaning.
+====================
+Takafumi sounds like he's groaning.
+====================
+
+====================
+index 29
+offset 6928
+name NULL
+length 26
+====================
+I hold my breath and wait.
+====================
+I hold my breath and wait.
+====================
+
+====================
+index 30
+offset 6970
+name NULL
+length 16
+====================
+The result is...
+====================
+The result is...
+====================
+
+====================
+index 31
+offset 7310
+name Takafumi
+length 9
+====================
+\"Uwah!\"
+====================
+\"Uwah!\"
+====================
+
+====================
+index 32
+offset 7360
+name NULL
+length 49
+====================
+1419 characters. 6 mistakes. For a total of 1413.
+====================
+1419 characters. 6 mistakes. For a total of 1413.
+====================
+
+====================
+index 33
+offset 7733
+name Takafumi
+length 33
+====================
+\"To think I've lost at this...\"
+====================
+\"To think I've lost at this...\"
+====================

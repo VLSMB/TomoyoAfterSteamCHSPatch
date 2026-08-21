@@ -1,0 +1,1256 @@
+type seen1710
+count 114
+
+====================
+index 1
+offset 263
+name NULL
+length 15
+====================
+July 10th (Sat)
+====================
+July 10th (Sat)
+====================
+
+====================
+index 2
+offset 1195
+name NULL
+length 52
+====================
+The next day is my first day off since Tomo arrived.
+====================
+The next day is my first day off since Tomo arrived.
+====================
+
+====================
+index 3
+offset 1266
+name NULL
+length 73
+====================
+After eating lunch, Tomoyo and I decide to take Tomo to the park to play.
+====================
+After eating lunch, Tomoyo and I decide to take Tomo to the park to play.
+====================
+
+====================
+index 4
+offset 1355
+name NULL
+length 85
+====================
+As we're getting ready to go out, Takafumi shows up as if he'd been waiting for that.
+====================
+As we're getting ready to go out, Takafumi shows up as if he'd been waiting for that.
+====================
+
+====================
+index 5
+offset 1764
+name Takafumi
+length 25
+====================
+\"Oh, you're going out.\"
+====================
+\"Oh, you're going out.\"
+====================
+
+====================
+index 6
+offset 1839
+name Tomoya
+length 42
+====================
+\"Yeah, to the park. Are you coming too?\"
+====================
+\"Yeah, to the park. Are you coming too?\"
+====================
+
+====================
+index 7
+offset 2205
+name Takafumi
+length 18
+====================
+\"No, I'll pass.\"
+====================
+\"No, I'll pass.\"
+====================
+
+====================
+index 8
+offset 2547
+name Takafumi
+length 54
+====================
+\"Oh, while you're gone, can I bring something over?\"
+====================
+\"Oh, while you're gone, can I bring something over?\"
+====================
+
+====================
+index 9
+offset 2651
+name Tomoya
+length 32
+====================
+\"Something? What do you mean?\"
+====================
+\"Something? What do you mean?\"
+====================
+
+====================
+index 10
+offset 3007
+name Takafumi
+length 15
+====================
+\"A computer.\"
+====================
+\"A computer.\"
+====================
+
+====================
+index 11
+offset 3072
+name Tomoya
+length 8
+====================
+\"Why?\"
+====================
+\"Why?\"
+====================
+
+====================
+index 12
+offset 3132
+name Takafumi
+length 31
+====================
+\"I want to use the Internet.\"
+====================
+\"I want to use the Internet.\"
+====================
+
+====================
+index 13
+offset 3213
+name Tomoya
+length 8
+====================
+\"Why?\"
+====================
+\"Why?\"
+====================
+
+====================
+index 14
+offset 3273
+name Takafumi
+length 12
+====================
+\"A hobby.\"
+====================
+\"A hobby.\"
+====================
+
+====================
+index 15
+offset 3335
+name Tomoya
+length 28
+====================
+\"Do it at your own house.\"
+====================
+\"Do it at your own house.\"
+====================
+
+====================
+index 16
+offset 3687
+name Takafumi
+length 16
+====================
+\"Well, I was.\"
+====================
+\"Well, I was.\"
+====================
+
+====================
+index 17
+offset 3755
+name Takafumi
+length 87
+====================
+\"But my parents said I'd end up neglecting my studies and banned them from my house.\"
+====================
+\"But my parents said I'd end up neglecting my studies and banned them from my house.\"
+====================
+
+====================
+index 18
+offset 4166
+name Takafumi
+length 41
+====================
+\"So I'll do it here. It's fine, right?\"
+====================
+\"So I'll do it here. It's fine, right?\"
+====================
+
+====================
+index 19
+offset 4257
+name Tomoya
+length 54
+====================
+\"You'll end up neglecting your studies. Give it up.\"
+====================
+\"You'll end up neglecting your studies. Give it up.\"
+====================
+
+====================
+index 20
+offset 4635
+name Takafumi
+length 61
+====================
+\"Don't say that without even giving it a moment's thought.\"
+====================
+\"Don't say that without even giving it a moment's thought.\"
+====================
+
+====================
+index 21
+offset 5020
+name Takafumi
+length 83
+====================
+\"Nii-chan, don't you think it'll be convenient for you to have the Internet too?\"
+====================
+\"Nii-chan, don't you think it'll be convenient for you to have the Internet too?\"
+====================
+
+====================
+index 22
+offset 5153
+name Tomoya
+length 30
+====================
+\"I'm not really interested.\"
+====================
+\"I'm not really interested.\"
+====================
+
+====================
+index 23
+offset 5505
+name Takafumi
+length 29
+====================
+\"What about you, Nee-chan?\"
+====================
+\"What about you, Nee-chan?\"
+====================
+
+====================
+index 24
+offset 5550
+name NULL
+length 55
+====================
+Takafumi spins around and directs his attack elsewhere.
+====================
+Takafumi spins around and directs his attack elsewhere.
+====================
+
+====================
+index 25
+offset 5928
+name Tomoyo
+length 54
+====================
+\"You'll end up neglecting your studies. Give it up.\"
+====================
+\"You'll end up neglecting your studies. Give it up.\"
+====================
+
+====================
+index 26
+offset 6309
+name Takafumi
+length 8
+====================
+\"Man.\"
+====================
+\"Man.\"
+====================
+
+====================
+index 27
+offset 6642
+name Tomoyo
+length 95
+====================
+\"Unlike him, I'm not just looking for an excuse. I'm seriously thinking about you, Takafumi.\"
+====================
+\"Unlike him, I'm not just looking for an excuse. I'm seriously thinking about you, Takafumi.\"
+====================
+
+====================
+index 28
+offset 6787
+name Tomoyo
+length 122
+====================
+\"Isn't the Internet one of those things that if you get caught up in it, you could wind up staying up late every night?\"
+====================
+\"Isn't the Internet one of those things that if you get caught up in it, you could wind up staying up late every night?\"
+====================
+
+====================
+index 29
+offset 7234
+name Tomoyo
+length 26
+====================
+\"I'm worried about you.\"
+====================
+\"I'm worried about you.\"
+====================
+
+====================
+index 30
+offset 7587
+name Takafumi
+length 30
+====================
+\"I'll use it in moderation.\"
+====================
+\"I'll use it in moderation.\"
+====================
+
+====================
+index 31
+offset 7944
+name Takafumi
+length 66
+====================
+\"Also Nee-chan, you should use this chance to check it out too.\"
+====================
+\"Also Nee-chan, you should use this chance to check it out too.\"
+====================
+
+====================
+index 32
+offset 8335
+name Tomoyo
+length 8
+====================
+\"Why?\"
+====================
+\"Why?\"
+====================
+
+====================
+index 33
+offset 8670
+name Takafumi
+length 36
+====================
+\"You two sure do ask 'why' a lot.\"
+====================
+\"You two sure do ask 'why' a lot.\"
+====================
+
+====================
+index 34
+offset 9033
+name Takafumi
+length 80
+====================
+\"You see, if you use it, Nee-chan, you might be able to help a lot of people.\"
+====================
+\"You see, if you use it, Nee-chan, you might be able to help a lot of people.\"
+====================
+
+====================
+index 35
+offset 9163
+name Tomoyo
+length 25
+====================
+\"Hm? What do you mean?\"
+====================
+\"Hm? What do you mean?\"
+====================
+
+====================
+index 36
+offset 9240
+name Takafumi
+length 73
+====================
+\"On the net, you can meet and interact with people all over the world.\"
+====================
+\"On the net, you can meet and interact with people all over the world.\"
+====================
+
+====================
+index 37
+offset 9365
+name Takafumi
+length 44
+====================
+\"There are a lot of people with problems.\"
+====================
+\"There are a lot of people with problems.\"
+====================
+
+====================
+index 38
+offset 9461
+name Takafumi
+length 44
+====================
+\"You can give advice to people like that.\"
+====================
+\"You can give advice to people like that.\"
+====================
+
+====================
+index 39
+offset 9830
+name Tomoyo
+length 51
+====================
+\"I wouldn't presume to do something so arrogant.\"
+====================
+\"I wouldn't presume to do something so arrogant.\"
+====================
+
+====================
+index 40
+offset 10208
+name Takafumi
+length 9
+====================
+\"Oh...\"
+====================
+\"Oh...\"
+====================
+
+====================
+index 41
+offset 10267
+name Tomoyo
+length 10
+====================
+\"But...\"
+====================
+\"But...\"
+====================
+
+====================
+index 42
+offset 10602
+name Tomoyo
+length 88
+====================
+\"Being able to meet and interact with different people... that could be a good thing.\"
+====================
+\"Being able to meet and interact with different people... that could be a good thing.\"
+====================
+
+====================
+index 43
+offset 11017
+name Takafumi
+length 22
+====================
+\"Yes! It's decided.\"
+====================
+\"Yes! It's decided.\"
+====================
+
+====================
+index 44
+offset 11364
+name Tomoyo
+length 78
+====================
+\"Hey, don't decide for yourself. Get permission from the owner of the room.\"
+====================
+\"Hey, don't decide for yourself. Get permission from the owner of the room.\"
+====================
+
+====================
+index 45
+offset 11766
+name Takafumi
+length 31
+====================
+\"It's fine, right, Nii-chan?\"
+====================
+\"It's fine, right, Nii-chan?\"
+====================
+
+====================
+index 46
+offset 11825
+name Tomoya
+length 13
+====================
+\".........\"
+====================
+\".........\"
+====================
+
+====================
+index 47
+offset 11854
+name NULL
+length 17
+====================
+I can only agree.
+====================
+I can only agree.
+====================
+
+====================
+index 48
+offset 12344
+name Tomoya
+length 64
+====================
+(And yet, I feel like I've been artfully tricked by Takafumi...)
+====================
+(And yet, I feel like I've been artfully tricked by Takafumi...)
+====================
+
+====================
+index 49
+offset 12458
+name Tomoya
+length 88
+====================
+(What's going to happen to the phone bill...? This is actually pretty bad, isn't it...?)
+====================
+(What's going to happen to the phone bill...? This is actually pretty bad, isn't it...?)
+====================
+
+====================
+index 50
+offset 13293
+name Tomo
+length 10
+====================
+\"Swing.\"
+====================
+\"Swing.\"
+====================
+
+====================
+index 51
+offset 13589
+name NULL
+length 54
+====================
+When we get to the park, Tomo runs over to the swings.
+====================
+When we get to the park, Tomo runs over to the swings.
+====================
+
+====================
+index 52
+offset 13693
+name Tomoya
+length 15
+====================
+\"Be careful.\"
+====================
+\"Be careful.\"
+====================
+
+====================
+index 53
+offset 14031
+name Tomoyo
+length 39
+====================
+\"It's okay, I'll get on it with her.\"
+====================
+\"It's okay, I'll get on it with her.\"
+====================
+
+====================
+index 54
+offset 14356
+name NULL
+length 58
+====================
+Tomoyo puts Tomo in her lap and start swinging vigorously.
+====================
+Tomoyo puts Tomo in her lap and start swinging vigorously.
+====================
+
+====================
+index 55
+offset 14430
+name NULL
+length 55
+====================
+They go so high it looks like they may go over the bar.
+====================
+They go so high it looks like they may go over the bar.
+====================
+
+====================
+index 56
+offset 14805
+name Tomo
+length 17
+====================
+\"Wow, awesome!\"
+====================
+\"Wow, awesome!\"
+====================
+
+====================
+index 57
+offset 15108
+name NULL
+length 53
+====================
+Not scared at all, Tomo yells from the shaking swing.
+====================
+Not scared at all, Tomo yells from the shaking swing.
+====================
+
+====================
+index 58
+offset 15177
+name NULL
+length 44
+====================
+I sit on a bench and watch them for a while.
+====================
+I sit on a bench and watch them for a while.
+====================
+
+====================
+index 59
+offset 15240
+name NULL
+length 61
+====================
+After that, we make mountains and dig tunnels in the sandbox.
+====================
+After that, we make mountains and dig tunnels in the sandbox.
+====================
+
+====================
+index 60
+offset 15317
+name NULL
+length 60
+====================
+Tomo is quite delighted when we hold hands through a tunnel.
+====================
+Tomo is quite delighted when we hold hands through a tunnel.
+====================
+
+====================
+index 61
+offset 15393
+name NULL
+length 76
+====================
+Tomoyo and I embrace our inner child, and the three of us have a great time.
+====================
+Tomoyo and I embrace our inner child, and the three of us have a great time.
+====================
+
+====================
+index 62
+offset 16415
+name Tomoya
+length 15
+====================
+\"We're back.\"
+====================
+\"We're back.\"
+====================
+
+====================
+index 63
+offset 16446
+name NULL
+length 68
+====================
+When we get home, there's a computer occupying a corner of the room.
+====================
+When we get home, there's a computer occupying a corner of the room.
+====================
+
+====================
+index 64
+offset 16530
+name NULL
+length 69
+====================
+Takafumi is sitting in front of it, lightly tapping away at the keys.
+====================
+Takafumi is sitting in front of it, lightly tapping away at the keys.
+====================
+
+====================
+index 65
+offset 16615
+name NULL
+length 54
+====================
+I peak at what's he's doing, but it's all Greek to me.
+====================
+I peak at what's he's doing, but it's all Greek to me.
+====================
+
+====================
+index 66
+offset 16993
+name Takafumi
+length 39
+====================
+\"Oh, welcome back. Did you have fun?\"
+====================
+\"Oh, welcome back. Did you have fun?\"
+====================
+
+====================
+index 67
+offset 17355
+name Tomoyo
+length 81
+====================
+\"We had fun playing outside, but you're like a gloomy, friendless kid in here.\"
+====================
+\"We had fun playing outside, but you're like a gloomy, friendless kid in here.\"
+====================
+
+====================
+index 68
+offset 17760
+name Takafumi
+length 93
+====================
+\"I can get out into the world plenty from here. I'm connected to lots of different people.\"
+====================
+\"I can get out into the world plenty from here. I'm connected to lots of different people.\"
+====================
+
+====================
+index 69
+offset 17905
+name Takafumi
+length 36
+====================
+\"Well, come here and take a look.\"
+====================
+\"Well, come here and take a look.\"
+====================
+
+====================
+index 70
+offset 18227
+name NULL
+length 40
+====================
+Takafumi stands up and vacates his seat.
+====================
+Takafumi stands up and vacates his seat.
+====================
+
+====================
+index 71
+offset 18283
+name NULL
+length 39
+====================
+Tomoyo, only half convinced, sits down.
+====================
+Tomoyo, only half convinced, sits down.
+====================
+
+====================
+index 72
+offset 18645
+name Tomoyo
+length 24
+====================
+\"I can't see it well.\"
+====================
+\"I can't see it well.\"
+====================
+
+====================
+index 73
+offset 18955
+name NULL
+length 66
+====================
+She takes her glasses case out of her bag and puts on her glasses.
+====================
+She takes her glasses case out of her bag and puts on her glasses.
+====================
+
+====================
+index 74
+offset 19037
+name NULL
+length 30
+====================
+She turns back to the monitor.
+====================
+She turns back to the monitor.
+====================
+
+====================
+index 75
+offset 19083
+name NULL
+length 32
+====================
+She sits in silence for a while.
+====================
+She sits in silence for a while.
+====================
+
+====================
+index 76
+offset 19131
+name NULL
+length 37
+====================
+She's completely absorbed in reading.
+====================
+She's completely absorbed in reading.
+====================
+
+====================
+index 77
+offset 19184
+name NULL
+length 51
+====================
+Is something that interesting really written there?
+====================
+Is something that interesting really written there?
+====================
+
+====================
+index 78
+offset 19558
+name Tomoyo
+length 21
+====================
+\"No, that's wrong.\"
+====================
+\"No, that's wrong.\"
+====================
+
+====================
+index 79
+offset 19629
+name Tomoyo
+length 69
+====================
+\"You're mistaken. You're not thinking about the people around you.\"
+====================
+\"You're mistaken. You're not thinking about the people around you.\"
+====================
+
+====================
+index 80
+offset 19714
+name NULL
+length 47
+====================
+She starts talking to the people on the screen.
+====================
+She starts talking to the people on the screen.
+====================
+
+====================
+index 81
+offset 20085
+name Takafumi
+length 36
+====================
+\"If so, why don't you write that?\"
+====================
+\"If so, why don't you write that?\"
+====================
+
+====================
+index 82
+offset 20444
+name Tomoyo
+length 29
+====================
+\"Write it? On this screen?\"
+====================
+\"Write it? On this screen?\"
+====================
+
+====================
+index 83
+offset 20797
+name Takafumi
+length 26
+====================
+\"No, with the keyboard.\"
+====================
+\"No, with the keyboard.\"
+====================
+
+====================
+index 84
+offset 21109
+name NULL
+length 47
+====================
+He starts patiently teaching her how to use it.
+====================
+He starts patiently teaching her how to use it.
+====================
+
+====================
+index 85
+offset 21172
+name NULL
+length 89
+====================
+She awkwardly taps keys as she looks back and forth between the monitor and the keyboard.
+====================
+She awkwardly taps keys as she looks back and forth between the monitor and the keyboard.
+====================
+
+====================
+index 86
+offset 21277
+name NULL
+length 50
+====================
+I quietly stand behind her and peek at the screen.
+====================
+I quietly stand behind her and peek at the screen.
+====================
+
+====================
+index 87
+offset 21343
+name NULL
+length 19
+====================
+Written there is...
+====================
+Written there is...
+====================
+
+====================
+index 88
+offset 21381
+name NULL
+length 16
+====================
+Please rtell me,
+====================
+Please rtell me,
+====================
+
+====================
+index 89
+offset 21413
+name NULL
+length 8
+====================
+wjsy tiu
+====================
+wjsy tiu
+====================
+
+====================
+index 90
+offset 21437
+name NULL
+length 12
+====================
+about tjhat.
+====================
+about tjhat.
+====================
+
+====================
+index 91
+offset 21772
+name Tomoyo
+length 18
+====================
+\"...how's that?\"
+====================
+\"...how's that?\"
+====================
+
+====================
+index 92
+offset 22113
+name Tomoyo
+length 30
+====================
+\"Wsjy tiu? What's wsjy tiu?\"
+====================
+\"Wsjy tiu? What's wsjy tiu?\"
+====================
+
+====================
+index 93
+offset 22467
+name Takafumi
+length 23
+====================
+\"It's a simple typo.\"
+====================
+\"It's a simple typo.\"
+====================
+
+====================
+index 94
+offset 22776
+name NULL
+length 67
+====================
+She re-types it in a panic. Her movements are clumsy this time too.
+====================
+She re-types it in a panic. Her movements are clumsy this time too.
+====================
+
+====================
+index 95
+offset 22859
+name NULL
+length 93
+====================
+She seems like she can do anything, so it's actually rather cute when she's bad at something.
+====================
+She seems like she can do anything, so it's actually rather cute when she's bad at something.
+====================
+
+====================
+index 96
+offset 23276
+name Takafumi
+length 15
+====================
+\"And, enter.\"
+====================
+\"And, enter.\"
+====================
+
+====================
+index 97
+offset 23614
+name Tomoyo
+length 17
+====================
+\"Is this good?\"
+====================
+\"Is this good?\"
+====================
+
+====================
+index 98
+offset 23955
+name Takafumi
+length 68
+====================
+\"Yeah. If you leave it alone, another reply will come eventually.\"
+====================
+\"Yeah. If you leave it alone, another reply will come eventually.\"
+====================
+
+====================
+index 99
+offset 24346
+name Tomoyo
+length 10
+====================
+\"Hah...\"
+====================
+\"Hah...\"
+====================
+
+====================
+index 100
+offset 24372
+name NULL
+length 40
+====================
+She takes off her glasses and stretches.
+====================
+She takes off her glasses and stretches.
+====================
+
+====================
+index 101
+offset 24462
+name Tomoya
+length 94
+====================
+\"It looks like you're the one who's getting into it and will end up neglecting her studies.\"
+====================
+\"It looks like you're the one who's getting into it and will end up neglecting her studies.\"
+====================
+
+====================
+index 102
+offset 24879
+name Tomoyo
+length 77
+====================
+\"Yeah, well, it was my first time, so I got absorbed in it. It's worrying.\"
+====================
+\"Yeah, well, it was my first time, so I got absorbed in it. It's worrying.\"
+====================
+
+====================
+index 103
+offset 25861
+name NULL
+length 69
+====================
+When it's time for dinner, Tomoyo starts preparing it and Tomo helps.
+====================
+When it's time for dinner, Tomoyo starts preparing it and Tomo helps.
+====================
+
+====================
+index 104
+offset 25946
+name NULL
+length 94
+====================
+They're small and oddly shaped, but she makes croquettes one by one with a serious expression.
+====================
+They're small and oddly shaped, but she makes croquettes one by one with a serious expression.
+====================
+
+====================
+index 105
+offset 26056
+name NULL
+length 83
+====================
+During dinner, she stabs one of the mini-croquettes with a fork and feeds it to me.
+====================
+During dinner, she stabs one of the mini-croquettes with a fork and feeds it to me.
+====================
+
+====================
+index 106
+offset 26155
+name NULL
+length 15
+====================
+It's delicious.
+====================
+It's delicious.
+====================
+
+====================
+index 107
+offset 26186
+name NULL
+length 76
+====================
+After dinner, we all have fun passing the time watching variety shows on TV.
+====================
+After dinner, we all have fun passing the time watching variety shows on TV.
+====================
+
+====================
+index 108
+offset 26586
+name Takafumi
+length 25
+====================
+\"Well, I'm going home.\"
+====================
+\"Well, I'm going home.\"
+====================
+
+====================
+index 109
+offset 26627
+name NULL
+length 49
+====================
+Takafumi switches off the computer and stands up.
+====================
+Takafumi switches off the computer and stands up.
+====================
+
+====================
+index 110
+offset 26962
+name NULL
+length 47
+====================
+It's also about the time for Tomo to go to bed.
+====================
+It's also about the time for Tomo to go to bed.
+====================
+
+====================
+index 111
+offset 27025
+name NULL
+length 77
+====================
+When Takafumi leaves, Tomo takes her bath and we start getting ready for bed.
+====================
+When Takafumi leaves, Tomo takes her bath and we start getting ready for bed.
+====================
+
+====================
+index 112
+offset 28004
+name Tomoya
+length 15
+====================
+\"Good night.\"
+====================
+\"Good night.\"
+====================
+
+====================
+index 113
+offset 28069
+name Tomoyo
+length 21
+====================
+\"Yeah, good night.\"
+====================
+\"Yeah, good night.\"
+====================
+
+====================
+index 114
+offset 28106
+name NULL
+length 40
+====================
+And with that, the day draws to a close.
+====================
+And with that, the day draws to a close.
+====================

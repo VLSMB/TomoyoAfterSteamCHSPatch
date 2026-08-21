@@ -1,0 +1,926 @@
+type seen7910
+count 84
+
+====================
+index 1
+offset 1932
+name Takafumi
+length 56
+====================
+\"Welcome to the magical castle in which we were born.\"
+====================
+\"Welcome to the magical castle in which we were born.\"
+====================
+
+====================
+index 2
+offset 2038
+name Tomoya
+length 66
+====================
+\"Is this fantasy-themed? That's quite a casual getup you're in.\"
+====================
+\"Is this fantasy-themed? That's quite a casual getup you're in.\"
+====================
+
+====================
+index 3
+offset 2156
+name Takafumi
+length 38
+====================
+\"We didn't have a good CG designer.\"
+====================
+\"We didn't have a good CG designer.\"
+====================
+
+====================
+index 4
+offset 2244
+name Tomoya
+length 31
+====================
+\"Don't just kill the mood...\"
+====================
+\"Don't just kill the mood...\"
+====================
+
+====================
+index 5
+offset 2327
+name Takafumi
+length 123
+====================
+\"Since long ago, this castle has been a laboratory for magicians who worked hard to develop better and better Takafumis.\"
+====================
+\"Since long ago, this castle has been a laboratory for magicians who worked hard to develop better and better Takafumis.\"
+====================
+
+====================
+index 6
+offset 2502
+name Takafumi
+length 100
+====================
+\"These days, Takafumis live among humans, helping them with chores such as cooking and laundry...\"
+====================
+\"These days, Takafumis live among humans, helping them with chores such as cooking and laundry...\"
+====================
+
+====================
+index 7
+offset 2654
+name Takafumi
+length 69
+====================
+\"At night, they are even well-loved by others as male prostitutes.\"
+====================
+\"At night, they are even well-loved by others as male prostitutes.\"
+====================
+
+====================
+index 8
+offset 2782
+name Tomoya
+length 18
+====================
+\"Urrrgggghhh...\"
+====================
+\"Urrrgggghhh...\"
+====================
+
+====================
+index 9
+offset 2855
+name Takafumi
+length 110
+====================
+\"No. 054, who was accidentally born under a contract with the devil, was when the project finally took off.\"
+====================
+\"No. 054, who was accidentally born under a contract with the devil, was when the project finally took off.\"
+====================
+
+====================
+index 10
+offset 3017
+name Takafumi
+length 61
+====================
+\"Starting with him, the Takafumis finally gained emotions.\"
+====================
+\"Starting with him, the Takafumis finally gained emotions.\"
+====================
+
+====================
+index 11
+offset 3130
+name Takafumi
+length 57
+====================
+\"By the way, the devil he made a contract with is gay.\"
+====================
+\"By the way, the devil he made a contract with is gay.\"
+====================
+
+====================
+index 12
+offset 3237
+name Tomoya
+length 18
+====================
+\"Urrrgggghhh...\"
+====================
+\"Urrrgggghhh...\"
+====================
+
+====================
+index 13
+offset 3307
+name Takafumi
+length 103
+====================
+\"After using No. 054 as the catalyst for their nurturing, today's Takafumis have reached prosperity.\"
+====================
+\"After using No. 054 as the catalyst for their nurturing, today's Takafumis have reached prosperity.\"
+====================
+
+====================
+index 14
+offset 3462
+name Takafumi
+length 60
+====================
+\"Without him, our history would have been very different.\"
+====================
+\"Without him, our history would have been very different.\"
+====================
+
+====================
+index 15
+offset 3574
+name Takafumi
+length 55
+====================
+\"However, ten days ago, on the night of the storm...\"
+====================
+\"However, ten days ago, on the night of the storm...\"
+====================
+
+====================
+index 16
+offset 3681
+name Takafumi
+length 49
+====================
+\"No. 054 suddenly disappeared without a trace.\"
+====================
+\"No. 054 suddenly disappeared without a trace.\"
+====================
+
+====================
+index 17
+offset 3782
+name Takafumi
+length 51
+====================
+\"The magicians tried their best to look for him.\"
+====================
+\"The magicians tried their best to look for him.\"
+====================
+
+====================
+index 18
+offset 3885
+name Takafumi
+length 74
+====================
+\"And the other Takafumis also banded together to look for their parent.\"
+====================
+\"And the other Takafumis also banded together to look for their parent.\"
+====================
+
+====================
+index 19
+offset 4011
+name Takafumi
+length 78
+====================
+\"After many Takafumis lost their lives, they finally found his whereabouts.\"
+====================
+\"After many Takafumis lost their lives, they finally found his whereabouts.\"
+====================
+
+====================
+index 20
+offset 4141
+name Takafumi
+length 93
+====================
+\"He is deep inside the labyrinth that sprawls under this castle, where the beastmen dwell.\"
+====================
+\"He is deep inside the labyrinth that sprawls under this castle, where the beastmen dwell.\"
+====================
+
+====================
+index 21
+offset 4286
+name Takafumi
+length 31
+====================
+\"'How do you know,' you ask?\"
+====================
+\"'How do you know,' you ask?\"
+====================
+
+====================
+index 22
+offset 4369
+name Takafumi
+length 87
+====================
+\"The other Takafumis found out by selling themselves as prostitutes to the beastmen.\"
+====================
+\"The other Takafumis found out by selling themselves as prostitutes to the beastmen.\"
+====================
+
+====================
+index 23
+offset 4515
+name Tomoya
+length 18
+====================
+\"Urrrgggghhh...\"
+====================
+\"Urrrgggghhh...\"
+====================
+
+====================
+index 24
+offset 4588
+name Takafumi
+length 94
+====================
+\"The beastmen were belligerent and fierce. The magicians could do nothing to defeat them...\"
+====================
+\"The beastmen were belligerent and fierce. The magicians could do nothing to defeat them...\"
+====================
+
+====================
+index 25
+offset 4734
+name Takafumi
+length 98
+====================
+\"That's why we posted notices throughout the continent, and oh how the brave warriors gathered.\"
+====================
+\"That's why we posted notices throughout the continent, and oh how the brave warriors gathered.\"
+====================
+
+====================
+index 26
+offset 4884
+name Takafumi
+length 62
+====================
+\"Touted as the 'Red Fang of Rigaldo', Tomoya the Swordsman.\"
+====================
+\"Touted as the 'Red Fang of Rigaldo', Tomoya the Swordsman.\"
+====================
+
+====================
+index 27
+offset 4996
+name Tomoya
+length 18
+====================
+\"Oh, that's me.\"
+====================
+\"Oh, that's me.\"
+====================
+
+====================
+index 28
+offset 5066
+name Takafumi
+length 63
+====================
+\"Lauded as the 'Red Fang of Zarionti', Tomoyo the Swordsman.\"
+====================
+\"Lauded as the 'Red Fang of Zarionti', Tomoyo the Swordsman.\"
+====================
+
+====================
+index 29
+offset 5226
+name Tomoyo
+length 14
+====================
+\"That's me.\"
+====================
+\"That's me.\"
+====================
+
+====================
+index 30
+offset 5292
+name Takafumi
+length 66
+====================
+\"Acclaimed as the 'Red Fang of Torcoone', Kanako the Swordsman.\"
+====================
+\"Acclaimed as the 'Red Fang of Torcoone', Kanako the Swordsman.\"
+====================
+
+====================
+index 31
+offset 5455
+name Kanako
+length 14
+====================
+\"Greetings.\"
+====================
+\"Greetings.\"
+====================
+
+====================
+index 32
+offset 5566
+name Tomoya
+length 39
+====================
+\"Wait a minute, we're all swordsmen!\"
+====================
+\"Wait a minute, we're all swordsmen!\"
+====================
+
+====================
+index 33
+offset 5655
+name Tomoya
+length 38
+====================
+\"You even gave us the same moniker.\"
+====================
+\"You even gave us the same moniker.\"
+====================
+
+====================
+index 34
+offset 5792
+name Takafumi
+length 36
+====================
+\"Yep... they are indeed the same.\"
+====================
+\"Yep... they are indeed the same.\"
+====================
+
+====================
+index 35
+offset 5880
+name Takafumi
+length 65
+====================
+\"You can switch jobs, so get on your levelling and branch out.\"
+====================
+\"You can switch jobs, so get on your levelling and branch out.\"
+====================
+
+====================
+index 36
+offset 5995
+name Tomoya
+length 39
+====================
+\"You sure seem to be taking it easy.\"
+====================
+\"You sure seem to be taking it easy.\"
+====================
+
+====================
+index 37
+offset 6086
+name Takafumi
+length 96
+====================
+\"The ruler of this castle (My Lord) and magician, Tomo-sama, will also be part of your party.\"
+====================
+\"The ruler of this castle (My Lord) and magician, Tomo-sama, will also be part of your party.\"
+====================
+
+====================
+index 38
+offset 6234
+name Takafumi
+length 126
+====================
+\"Incidentally, since My Lord has practiced the secret art of rejuvenation far too often, she looks pretty much like a loli.\"
+====================
+\"Incidentally, since My Lord has practiced the secret art of rejuvenation far too often, she looks pretty much like a loli.\"
+====================
+
+====================
+index 39
+offset 6455
+name Tomo
+length 37
+====================
+\"'Tis my pleasure to meet you all.\"
+====================
+\"'Tis my pleasure to meet you all.\"
+====================
+
+====================
+index 40
+offset 6542
+name Tomoya
+length 28
+====================
+\"What a stupid setting...\"
+====================
+\"What a stupid setting...\"
+====================
+
+====================
+index 41
+offset 6669
+name Takafumi
+length 156
+====================
+\"As the one who possesses the emotion 'Melancholy', I, Takafumi No. 068, shall accompany you as the operator until you reach the fifth underground floor.\"
+====================
+\"As the one who possesses the emotion 'Melancholy', I, Takafumi No. 068, shall accompany you as the operator until you reach the fifth underground floor.\"
+====================
+
+====================
+index 42
+offset 6875
+name Tomoya
+length 40
+====================
+\"So that's why you sound so gloomy...\"
+====================
+\"So that's why you sound so gloomy...\"
+====================
+
+====================
+index 43
+offset 6967
+name Takafumi
+length 24
+====================
+\"Now, to the dungeon!\"
+====================
+\"Now, to the dungeon!\"
+====================
+
+====================
+index 44
+offset 7193
+name Takafumi
+length 19
+====================
+\"Welcome back...\"
+====================
+\"Welcome back...\"
+====================
+
+====================
+index 45
+offset 7309
+name Kanako
+length 20
+====================
+\"You damned pest!\"
+====================
+\"You damned pest!\"
+====================
+
+====================
+index 46
+offset 7428
+name Takafumi
+length 48
+====================
+\"Huh? How is it my fault... I'm in despair...\"
+====================
+\"Huh? How is it my fault... I'm in despair...\"
+====================
+
+====================
+index 48
+offset 8371
+name Tomo
+length 11
+====================
+\"Phew...\"
+====================
+\"Phew...\"
+====================
+
+====================
+index 49
+offset 8432
+name Tomoya
+length 30
+====================
+\"How's Takafumi holding up?\"
+====================
+\"How's Takafumi holding up?\"
+====================
+
+====================
+index 50
+offset 8557
+name Tomo
+length 33
+====================
+\"His life was spared, somehow.\"
+====================
+\"His life was spared, somehow.\"
+====================
+
+====================
+index 51
+offset 8640
+name Tomoya
+length 25
+====================
+\"So it was that bad...\"
+====================
+\"So it was that bad...\"
+====================
+
+====================
+index 52
+offset 8713
+name Tomo
+length 47
+====================
+\"Regardless, No. 054 will have to stay here.\"
+====================
+\"Regardless, No. 054 will have to stay here.\"
+====================
+
+====================
+index 53
+offset 8810
+name Tomoya
+length 43
+====================
+\"Seriously? That makes things difficult.\"
+====================
+\"Seriously? That makes things difficult.\"
+====================
+
+====================
+index 54
+offset 8903
+name Tomoya
+length 58
+====================
+\"I wonder if we can beat those Golems without Takafumi.\"
+====================
+\"I wonder if we can beat those Golems without Takafumi.\"
+====================
+
+====================
+index 55
+offset 9058
+name Tomoya
+length 22
+====================
+\"Hey, you, No. 068.\"
+====================
+\"Hey, you, No. 068.\"
+====================
+
+====================
+index 56
+offset 9179
+name Takafumi
+length 27
+====================
+\"What do you need of me?\"
+====================
+\"What do you need of me?\"
+====================
+
+====================
+index 57
+offset 9256
+name Tomoya
+length 39
+====================
+\"Come fight the Golems in his place.\"
+====================
+\"Come fight the Golems in his place.\"
+====================
+
+====================
+index 58
+offset 9347
+name Takafumi
+length 11
+====================
+\"No way.\"
+====================
+\"No way.\"
+====================
+
+====================
+index 59
+offset 9408
+name Tomoya
+length 49
+====================
+\"Bastard, I'll throw you in there by force....\"
+====================
+\"Bastard, I'll throw you in there by force....\"
+====================
+
+====================
+index 60
+offset 9552
+name Tomo
+length 28
+====================
+\"Come now, calm yourself.\"
+====================
+\"Come now, calm yourself.\"
+====================
+
+====================
+index 61
+offset 9630
+name Tomoya
+length 36
+====================
+\"With the current situation? Why?\"
+====================
+\"With the current situation? Why?\"
+====================
+
+====================
+index 62
+offset 9714
+name Tomo
+length 97
+====================
+\"Takafumis who possess only a single emotion cannot fight. They do not have the will to do so.\"
+====================
+\"Takafumis who possess only a single emotion cannot fight. They do not have the will to do so.\"
+====================
+
+====================
+index 63
+offset 9859
+name Tomo
+length 55
+====================
+\"You'd just be sending him to his death for nothing.\"
+====================
+\"You'd just be sending him to his death for nothing.\"
+====================
+
+====================
+index 64
+offset 9964
+name Tomoya
+length 11
+====================
+\"Damn...\"
+====================
+\"Damn...\"
+====================
+
+====================
+index 65
+offset 10074
+name Takafumi
+length 24
+====================
+\"This guy's an idiot!\"
+====================
+\"This guy's an idiot!\"
+====================
+
+====================
+index 66
+offset 10148
+name Tomoya
+length 36
+====================
+\"Don't rub people the wrong way!!\"
+====================
+\"Don't rub people the wrong way!!\"
+====================
+
+====================
+index 67
+offset 10236
+name Takafumi
+length 67
+====================
+\"Calm down. I've been doing my job as the operator so chill out.\"
+====================
+\"Calm down. I've been doing my job as the operator so chill out.\"
+====================
+
+====================
+index 68
+offset 10353
+name Tomoya
+length 45
+====================
+\"This guy's really getting on my nerves...\"
+====================
+\"This guy's really getting on my nerves...\"
+====================
+
+====================
+index 69
+offset 10495
+name Tomoyo
+length 68
+====================
+\"That means... the fate of mankind has been entrusted to us four.\"
+====================
+\"That means... the fate of mankind has been entrusted to us four.\"
+====================
+
+====================
+index 70
+offset 10613
+name Tomoya
+length 22
+====================
+\"Are we heading in?\"
+====================
+\"Are we heading in?\"
+====================
+
+====================
+index 71
+offset 10685
+name Tomoyo
+length 21
+====================
+\"We have to go in.\"
+====================
+\"We have to go in.\"
+====================
+
+====================
+index 72
+offset 10801
+name Tomo
+length 94
+====================
+\"Now, I know you are feeling really down, Princess, but you need to get a hold of yourself.\"
+====================
+\"Now, I know you are feeling really down, Princess, but you need to get a hold of yourself.\"
+====================
+
+====================
+index 73
+offset 10992
+name Kanako
+length 11
+====================
+\"Yeah...\"
+====================
+\"Yeah...\"
+====================
+
+====================
+index 74
+offset 11100
+name Kanako
+length 38
+====================
+\"I will definitely avenge Takafumi.\"
+====================
+\"I will definitely avenge Takafumi.\"
+====================
+
+====================
+index 75
+offset 11188
+name Kanako
+length 26
+====================
+\"Wait for me, Takafumi.\"
+====================
+\"Wait for me, Takafumi.\"
+====================
+
+====================
+index 76
+offset 11661
+name Takafumi
+length 28
+====================
+\"Hey, guys, are you okay?\"
+====================
+\"Hey, guys, are you okay?\"
+====================
+
+====================
+index 77
+offset 11786
+name Kanako
+length 13
+====================
+\"Takafumi!\"
+====================
+\"Takafumi!\"
+====================
+
+====================
+index 78
+offset 11849
+name Tomoya
+length 26
+====================
+\"You can stand up now?!\"
+====================
+\"You can stand up now?!\"
+====================
+
+====================
+index 79
+offset 11970
+name Tomo
+length 90
+====================
+\"No, take a good look. This is a holographic video. He is still in bed at the hospital.\"
+====================
+\"No, take a good look. This is a holographic video. He is still in bed at the hospital.\"
+====================
+
+====================
+index 80
+offset 12159
+name Takafumi
+length 44
+====================
+\"Okay, listen up. I don't have much time.\"
+====================
+\"Okay, listen up. I don't have much time.\"
+====================
+
+====================
+index 81
+offset 12255
+name Takafumi
+length 30
+====================
+\"There are three days left.\"
+====================
+\"There are three days left.\"
+====================
+
+====================
+index 82
+offset 12337
+name Takafumi
+length 48
+====================
+\"We must bring down their base in three days.\"
+====================
+\"We must bring down their base in three days.\"
+====================
+
+====================
+index 83
+offset 12437
+name Takafumi
+length 51
+====================
+\"Otherwise... we will disappear from this world.\"
+====================
+\"Otherwise... we will disappear from this world.\"
+====================
+
+====================
+index 84
+offset 12540
+name Takafumi
+length 11
+====================
+\"Got it?\"
+====================
+\"Got it?\"
+====================
+
+====================
+index 85
+offset 12648
+name Kanako
+length 16
+====================
+\"...I got it.\"
+====================
+\"...I got it.\"
+====================

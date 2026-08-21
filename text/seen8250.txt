@@ -1,0 +1,24 @@
+type seen8250
+count 2
+
+====================
+index 1
+offset 731
+name NULL
+length 23
+====================
+Takafumi uses [Dispel]!
+====================
+Takafumi uses [Dispel]!
+====================
+
+====================
+index 2
+offset 906
+name NULL
+length 23
+====================
+Takafumi uses [Dispel]!
+====================
+Takafumi uses [Dispel]!
+====================

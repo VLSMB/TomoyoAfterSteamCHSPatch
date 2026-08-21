@@ -223,20 +223,17 @@ __proxy_consume_text:
 }
 static BYTE* origin_vm_ip = NULL;
 static CharacterInfo char_info = { 0 };
-static BYTE text_buffer[100];
 
 static void WINAPI beforeConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4) {
 	origin_vm_ip = NULL;
 	if (GetNextCharacterInfo(sp->seenNo, cp->vmIp - cp->vmBase, &char_info)) {
 		if (char_info.asciiFlag) {
-			text_buffer[0] = char_info.character & 0x00FF;
-			text_buffer[1] = '\0';
+			cp->vmIp[0] = char_info.character & 0x00FF;
 		} else {
-			text_buffer[0] = char_info.character & 0x00FF;
-			text_buffer[1] = (BYTE)((char_info.character & 0xFF00) >> 8);
-			text_buffer[2] = '\0';
+			cp->vmIp[0] = char_info.character & 0x00FF;
+			cp->vmIp[1] = (BYTE)((char_info.character & 0xFF00) >> 8);
 		}
-		if (text_buffer[0] == '\\') {
+		if (cp->vmIp[0] == '\\') {
 			*byteMode = 2;
 		} else if (char_info.asciiFlag) {
 			*byteMode = 1;
@@ -244,7 +241,6 @@ static void WINAPI beforeConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext*
 			*byteMode = 0;
 		}
 		origin_vm_ip = cp->vmIp;
-		cp->vmIp = text_buffer;
 	}
 }
 
@@ -252,7 +248,7 @@ static void WINAPI afterConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* 
 	if (origin_vm_ip == NULL) {
 		return;
 	}
-	BOOL consumeFlag = cp->vmIp != text_buffer;
+	BOOL consumeFlag = cp->vmIp != origin_vm_ip;
 	if (consumeFlag) {
 		AckConsumeCharacter(&char_info);
 	}

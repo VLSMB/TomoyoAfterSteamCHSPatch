@@ -1,0 +1,156 @@
+type seen5008
+count 14
+
+====================
+index 2
+offset 711
+name NULL
+length 17
+====================
+Of course I have.
+====================
+Of course I have.
+====================
+
+====================
+index 4
+offset 931
+name NULL
+length 17
+====================
+Of course I have.
+====================
+Of course I have.
+====================
+
+====================
+index 8
+offset 1352
+name NULL
+length 32
+====================
+You've always kept me waiting...
+====================
+You've always kept me waiting...
+====================
+
+====================
+index 10
+offset 1587
+name NULL
+length 32
+====================
+You've always kept me waiting...
+====================
+You've always kept me waiting...
+====================
+
+====================
+index 14
+offset 2064
+name NULL
+length 41
+====================
+After we broke up, it was eight months...
+====================
+After we broke up, it was eight months...
+====================
+
+====================
+index 16
+offset 2308
+name NULL
+length 41
+====================
+After we broke up, it was eight months...
+====================
+After we broke up, it was eight months...
+====================
+
+====================
+index 20
+offset 2753
+name NULL
+length 43
+====================
+After you passed out, it was three years...
+====================
+After you passed out, it was three years...
+====================
+
+====================
+index 22
+offset 2999
+name NULL
+length 43
+====================
+After you passed out, it was three years...
+====================
+After you passed out, it was three years...
+====================
+
+====================
+index 26
+offset 3446
+name NULL
+length 28
+====================
+And after you fell asleep...
+====================
+And after you fell asleep...
+====================
+
+====================
+index 28
+offset 3677
+name NULL
+length 28
+====================
+And after you fell asleep...
+====================
+And after you fell asleep...
+====================
+
+====================
+index 32
+offset 4128
+name NULL
+length 47
+====================
+Just how much longer do you want me to wait...?
+====================
+Just how much longer do you want me to wait...?
+====================
+
+====================
+index 34
+offset 4378
+name NULL
+length 47
+====================
+Just how much longer do you want me to wait...?
+====================
+Just how much longer do you want me to wait...?
+====================
+
+====================
+index 38
+offset 4829
+name NULL
+length 20
+====================
+I'm already... so...
+====================
+I'm already... so...
+====================
+
+====================
+index 40
+offset 5052
+name NULL
+length 20
+====================
+I'm already... so...
+====================
+I'm already... so...
+====================

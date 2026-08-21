@@ -1,0 +1,387 @@
+type seen727
+count 35
+
+====================
+index 1
+offset 266
+name NULL
+length 15
+====================
+July 27th (Tue)
+====================
+July 27th (Tue)
+====================
+
+====================
+index 2
+offset 1497
+name Tomoyo
+length 46
+====================
+\"Takafumi, why don't you take part in this?\"
+====================
+\"Takafumi, why don't you take part in this?\"
+====================
+
+====================
+index 3
+offset 1559
+name NULL
+length 109
+====================
+After Kanako goes out to buy ice cream, Tomoya sets a pamphlet on the table that's been cleared after dinner.
+====================
+After Kanako goes out to buy ice cream, Tomoya sets a pamphlet on the table that's been cleared after dinner.
+====================
+
+====================
+index 4
+offset 1954
+name NULL
+length 43
+====================
+Takafumi and I peek at it at the same time.
+====================
+Takafumi and I peek at it at the same time.
+====================
+
+====================
+index 5
+offset 2013
+name NULL
+length 40
+====================
+The words \"public marathon\" are on it.
+====================
+The words \"public marathon\" are on it.
+====================
+
+====================
+index 6
+offset 2377
+name Takafumi
+length 54
+====================
+\"You went and told her everything, right, Nii-chan?\"
+====================
+\"You went and told her everything, right, Nii-chan?\"
+====================
+
+====================
+index 7
+offset 2481
+name Tomoya
+length 10
+====================
+\"Dunno.\"
+====================
+\"Dunno.\"
+====================
+
+====================
+index 8
+offset 2815
+name Takafumi
+length 41
+====================
+\"There's no way this is a coincidence!\"
+====================
+\"There's no way this is a coincidence!\"
+====================
+
+====================
+index 9
+offset 2906
+name Tomoya
+length 42
+====================
+\"I'm telling you I didn't say anything.\"
+====================
+\"I'm telling you I didn't say anything.\"
+====================
+
+====================
+index 10
+offset 3271
+name Tomoyo
+length 56
+====================
+\"Yeah... well, I heard the story. Don't blame Tomoya.\"
+====================
+\"Yeah... well, I heard the story. Don't blame Tomoya.\"
+====================
+
+====================
+index 11
+offset 3651
+name Takafumi
+length 19
+====================
+\"But he spilled.\"
+====================
+\"But he spilled.\"
+====================
+
+====================
+index 12
+offset 3990
+name Tomoya
+length 21
+====================
+\"Tomo, let's play.\"
+====================
+\"Tomo, let's play.\"
+====================
+
+====================
+index 13
+offset 4331
+name Tomo
+length 48
+====================
+\"What, you're free? Guess I've got no choice.\"
+====================
+\"What, you're free? Guess I've got no choice.\"
+====================
+
+====================
+index 14
+offset 4703
+name Takafumi
+length 43
+====================
+\"You are clearly running away, Nii-chan!\"
+====================
+\"You are clearly running away, Nii-chan!\"
+====================
+
+====================
+index 15
+offset 5071
+name Tomoyo
+length 33
+====================
+\"Takafumi, I'm talking to you.\"
+====================
+\"Takafumi, I'm talking to you.\"
+====================
+
+====================
+index 16
+offset 5431
+name Takafumi
+length 36
+====================
+\"I don't feel like participating.\"
+====================
+\"I don't feel like participating.\"
+====================
+
+====================
+index 17
+offset 5519
+name Takafumi
+length 29
+====================
+\"I'll just exhaust myself.\"
+====================
+\"I'll just exhaust myself.\"
+====================
+
+====================
+index 18
+offset 5598
+name Tomoyo
+length 23
+====================
+\"Yeah, I understand.\"
+====================
+\"Yeah, I understand.\"
+====================
+
+====================
+index 19
+offset 5946
+name Tomoyo
+length 34
+====================
+\"Even so, you should run again.\"
+====================
+\"Even so, you should run again.\"
+====================
+
+====================
+index 20
+offset 6030
+name Tomoyo
+length 22
+====================
+\"For your own sake.\"
+====================
+\"For your own sake.\"
+====================
+
+====================
+index 21
+offset 6102
+name Tomoyo
+length 38
+====================
+\"If you do, you'll surely remember.\"
+====================
+\"If you do, you'll surely remember.\"
+====================
+
+====================
+index 22
+offset 6190
+name Tomoyo
+length 56
+====================
+\"The passion you had when you ran among other things.\"
+====================
+\"The passion you had when you ran among other things.\"
+====================
+
+====================
+index 23
+offset 6298
+name Takafumi
+length 13
+====================
+\".........\"
+====================
+\".........\"
+====================
+
+====================
+index 24
+offset 6638
+name Takafumi
+length 47
+====================
+\"You know, I couldn't walk at all last year.\"
+====================
+\"You know, I couldn't walk at all last year.\"
+====================
+
+====================
+index 25
+offset 6735
+name Tomoyo
+length 9
+====================
+\"Yeah.\"
+====================
+\"Yeah.\"
+====================
+
+====================
+index 26
+offset 6796
+name Takafumi
+length 70
+====================
+\"You realize because of that, all of my leg muscles have atrophied?\"
+====================
+\"You realize because of that, all of my leg muscles have atrophied?\"
+====================
+
+====================
+index 27
+offset 6916
+name Tomoyo
+length 25
+====================
+\"Yeah... you're right.\"
+====================
+\"Yeah... you're right.\"
+====================
+
+====================
+index 28
+offset 6993
+name Takafumi
+length 80
+====================
+\"Also, I haven't been training at all, so I'll run out of breath immediately.\"
+====================
+\"Also, I haven't been training at all, so I'll run out of breath immediately.\"
+====================
+
+====================
+index 29
+offset 7123
+name Tomoyo
+length 11
+====================
+\"Yeah...\"
+====================
+\"Yeah...\"
+====================
+
+====================
+index 30
+offset 7461
+name Takafumi
+length 44
+====================
+\"And you want me to run despite all that?\"
+====================
+\"And you want me to run despite all that?\"
+====================
+
+====================
+index 31
+offset 7521
+name NULL
+length 57
+====================
+Takafumi stares directly at Tomoyo as though testing her.
+====================
+Takafumi stares directly at Tomoyo as though testing her.
+====================
+
+====================
+index 32
+offset 7901
+name Tomoyo
+length 9
+====================
+\"Yeah.\"
+====================
+\"Yeah.\"
+====================
+
+====================
+index 33
+offset 7926
+name NULL
+length 34
+====================
+She nods without a second thought.
+====================
+She nods without a second thought.
+====================
+
+====================
+index 34
+offset 7976
+name NULL
+length 56
+====================
+There's no one who can stop Tomoyo when she's like this.
+====================
+There's no one who can stop Tomoyo when she's like this.
+====================
+
+====================
+index 35
+offset 8048
+name NULL
+length 59
+====================
+No one knows that better than her little brother, Takafumi.
+====================
+No one knows that better than her little brother, Takafumi.
+====================

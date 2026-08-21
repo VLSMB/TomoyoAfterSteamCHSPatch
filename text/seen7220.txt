@@ -1,0 +1,13 @@
+type seen7220
+count 1
+
+====================
+index 1
+offset 9642
+name NULL
+length 14
+====================
+DT_ITU_IT_NAME
+====================
+DT_ITU_IT_NAME
+====================

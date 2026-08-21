@@ -1,0 +1,13 @@
+type seen7300
+count 1
+
+====================
+index 1
+offset 6562
+name NULL
+length 16
+====================
+manual\index.htm
+====================
+manual\index.htm
+====================

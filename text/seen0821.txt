@@ -1,0 +1,882 @@
+type seen821
+count 80
+
+====================
+index 1
+offset 266
+name NULL
+length 17
+====================
+August 21st (Sat)
+====================
+August 21st (Sat)
+====================
+
+====================
+index 2
+offset 1526
+name Kanako
+length 26
+====================
+\"She's here today, too.\"
+====================
+\"She's here today, too.\"
+====================
+
+====================
+index 3
+offset 1840
+name NULL
+length 62
+====================
+The big-headed bear sluggishly appears in the crowd of people.
+====================
+The big-headed bear sluggishly appears in the crowd of people.
+====================
+
+====================
+index 4
+offset 1918
+name NULL
+length 67
+====================
+And just like yesterday, it high fives the villagers as a greeting.
+====================
+And just like yesterday, it high fives the villagers as a greeting.
+====================
+
+====================
+index 5
+offset 2309
+name Kanako
+length 55
+====================
+\"Whoa, that's so cool. It's like she's an athlete...\"
+====================
+\"Whoa, that's so cool. It's like she's an athlete...\"
+====================
+
+====================
+index 6
+offset 2650
+name NULL
+length 85
+====================
+The bear starts working right away. It's carrying an unbelievable amount of material.
+====================
+The bear starts working right away. It's carrying an unbelievable amount of material.
+====================
+
+====================
+index 7
+offset 2751
+name NULL
+length 60
+====================
+The villagers have already become accustomed to it doing so.
+====================
+The villagers have already become accustomed to it doing so.
+====================
+
+====================
+index 8
+offset 2827
+name NULL
+length 92
+====================
+I bet their jaws would drop if they found out it's Tomoyo, with her slim stature, inside it.
+====================
+I bet their jaws would drop if they found out it's Tomoyo, with her slim stature, inside it.
+====================
+
+====================
+index 9
+offset 3242
+name Kanako
+length 9
+====================
+\"Umph!\"
+====================
+\"Umph!\"
+====================
+
+====================
+index 10
+offset 3267
+name NULL
+length 27
+====================
+Kanako springs to her feet.
+====================
+Kanako springs to her feet.
+====================
+
+====================
+index 11
+offset 3618
+name Kanako
+length 13
+====================
+\".........\"
+====================
+\".........\"
+====================
+
+====================
+index 12
+offset 3917
+name NULL
+length 72
+====================
+Holding in her laughter, she waves her hand to get everyone's attention.
+====================
+Holding in her laughter, she waves her hand to get everyone's attention.
+====================
+
+====================
+index 13
+offset 4005
+name NULL
+length 56
+====================
+Then she sneaks up behind the bear, who is busy working.
+====================
+Then she sneaks up behind the bear, who is busy working.
+====================
+
+====================
+index 14
+offset 4077
+name NULL
+length 32
+====================
+Her hand reaches for its back...
+====================
+Her hand reaches for its back...
+====================
+
+====================
+index 15
+offset 4125
+name NULL
+length 5
+====================
+*Zip*
+====================
+*Zip*
+====================
+
+====================
+index 16
+offset 4146
+name NULL
+length 30
+====================
+And she pulls down the zipper!
+====================
+And she pulls down the zipper!
+====================
+
+====================
+index 17
+offset 4192
+name NULL
+length 14
+====================
+Wooooooaaaahh!
+====================
+Wooooooaaaahh!
+====================
+
+====================
+index 18
+offset 4222
+name NULL
+length 26
+====================
+That stirs up a commotion.
+====================
+That stirs up a commotion.
+====================
+
+====================
+index 19
+offset 4264
+name NULL
+length 46
+====================
+Unexpectedly, her bare skin is visible inside!
+====================
+Unexpectedly, her bare skin is visible inside!
+====================
+
+====================
+index 20
+offset 4326
+name NULL
+length 49
+====================
+It's only covered by the white straps of her bra.
+====================
+It's only covered by the white straps of her bra.
+====================
+
+====================
+index 21
+offset 4699
+name Kanako
+length 20
+====================
+\"Uh, pardon me...\"
+====================
+\"Uh, pardon me...\"
+====================
+
+====================
+index 22
+offset 4769
+name Kanako
+length 57
+====================
+\"I didn't think you would only be in your underwear...\"
+====================
+\"I didn't think you would only be in your underwear...\"
+====================
+
+====================
+index 23
+offset 4876
+name Kanako
+length 37
+====================
+\"Well, I suppose. It is hot out...\"
+====================
+\"Well, I suppose. It is hot out...\"
+====================
+
+====================
+index 24
+offset 5199
+name NULL
+length 46
+====================
+*Zip*... She quietly pulls the zipper back up.
+====================
+*Zip*... She quietly pulls the zipper back up.
+====================
+
+====================
+index 25
+offset 5533
+name NULL
+length 22
+====================
+The bear turns around.
+====================
+The bear turns around.
+====================
+
+====================
+index 26
+offset 5587
+name NULL
+length 72
+====================
+With a swoosh, it swings the timber it is carrying toward Kanako's head.
+====================
+With a swoosh, it swings the timber it is carrying toward Kanako's head.
+====================
+
+====================
+index 27
+offset 5982
+name Kanako
+length 16
+====================
+\"Whoa, there!\"
+====================
+\"Whoa, there!\"
+====================
+
+====================
+index 28
+offset 6284
+name NULL
+length 87
+====================
+On the verge of being hit, Kanako drops down and locks the bear's legs between her own.
+====================
+On the verge of being hit, Kanako drops down and locks the bear's legs between her own.
+====================
+
+====================
+index 29
+offset 6387
+name NULL
+length 66
+====================
+She quickly twists herself around and knocks the bear off balance.
+====================
+She quickly twists herself around and knocks the bear off balance.
+====================
+
+====================
+index 30
+offset 6469
+name NULL
+length 65
+====================
+However, it thrusts the timber into the ground to prop itself up.
+====================
+However, it thrusts the timber into the ground to prop itself up.
+====================
+
+====================
+index 31
+offset 6550
+name NULL
+length 79
+====================
+The bear twists its legs, still entwined with Kanako's, and sends her spinning.
+====================
+The bear twists its legs, still entwined with Kanako's, and sends her spinning.
+====================
+
+====================
+index 32
+offset 6952
+name Kanako
+length 9
+====================
+\"Waah!\"
+====================
+\"Waah!\"
+====================
+
+====================
+index 33
+offset 6977
+name NULL
+length 72
+====================
+This time, Kanako's hands leave the ground, causing her to lose balance.
+====================
+This time, Kanako's hands leave the ground, causing her to lose balance.
+====================
+
+====================
+index 34
+offset 7335
+name NULL
+length 105
+====================
+Kanako places her hands on the ground and flips her body. She then starts to repeatedly kick at the bear.
+====================
+Kanako places her hands on the ground and flips her body. She then starts to repeatedly kick at the bear.
+====================
+
+====================
+index 35
+offset 7504
+name NULL
+length 11
+====================
+*Bam* *Bam*
+====================
+*Bam* *Bam*
+====================
+
+====================
+index 36
+offset 7531
+name NULL
+length 88
+====================
+With only the timber to support its weight, the bear counters the kicks by kicking back.
+====================
+With only the timber to support its weight, the bear counters the kicks by kicking back.
+====================
+
+====================
+index 37
+offset 7747
+name NULL
+length 23
+====================
+*Bam* *Bam* *Bam* *Bam*
+====================
+*Bam* *Bam* *Bam* *Bam*
+====================
+
+====================
+index 38
+offset 7820
+name Tomoya
+length 57
+====================
+\"Whoa, amazing. This is just like those kung-fu films.\"
+====================
+\"Whoa, amazing. This is just like those kung-fu films.\"
+====================
+
+====================
+index 39
+offset 7893
+name NULL
+length 64
+====================
+The construction site had unexpectedly become their battlefield.
+====================
+The construction site had unexpectedly become their battlefield.
+====================
+
+====================
+index 40
+offset 7998
+name NULL
+length 81
+====================
+Everyone else has stopped working and is cheering them on as they enjoy the show.
+====================
+Everyone else has stopped working and is cheering them on as they enjoy the show.
+====================
+
+====================
+index 41
+offset 8423
+name Kanako
+length 22
+====================
+\"Wata, wata! Watah!\"
+====================
+\"Wata, wata! Watah!\"
+====================
+
+====================
+index 42
+offset 8767
+name Villager
+length 42
+====================
+\"Whoa, Kana-chan's kicking really fast!\"
+====================
+\"Whoa, Kana-chan's kicking really fast!\"
+====================
+
+====================
+index 43
+offset 9022
+name Villager
+length 85
+====================
+\"Whoa, and it's dodging much faster than its appearance would lead you to believe!\"
+====================
+\"Whoa, and it's dodging much faster than its appearance would lead you to believe!\"
+====================
+
+====================
+index 44
+offset 9431
+name Kanako
+length 60
+====================
+\"I expected no less from you. This is just how I want it!\"
+====================
+\"I expected no less from you. This is just how I want it!\"
+====================
+
+====================
+index 45
+offset 9541
+name Kanako
+length 61
+====================
+\"I knew the day would come when you and I would do battle.\"
+====================
+\"I knew the day would come when you and I would do battle.\"
+====================
+
+====================
+index 46
+offset 9654
+name Villager
+length 60
+====================
+\"Does Kana-chan have some sort of history with that bear?\"
+====================
+\"Does Kana-chan have some sort of history with that bear?\"
+====================
+
+====================
+index 47
+offset 9778
+name Old mysterious woman
+length 47
+====================
+\"They might have been enemies in the past...\"
+====================
+\"They might have been enemies in the past...\"
+====================
+
+====================
+index 48
+offset 9877
+name Villager
+length 10
+====================
+\"Ma'am!\"
+====================
+\"Ma'am!\"
+====================
+
+====================
+index 49
+offset 9951
+name Old mysterious woman
+length 99
+====================
+\"To think they would run into each other in a remote village like this... such a twisted fate...\"
+====================
+\"To think they would run into each other in a remote village like this... such a twisted fate...\"
+====================
+
+====================
+index 50
+offset 10066
+name NULL
+length 51
+====================
+The spectators start to speculate about their past.
+====================
+The spectators start to speculate about their past.
+====================
+
+====================
+index 51
+offset 10415
+name Bear
+length 11
+====================
+\"......?\"
+====================
+\"......?\"
+====================
+
+====================
+index 52
+offset 10442
+name NULL
+length 74
+====================
+Tomoyo, the star of the show, doesn't seem to understand what is going on.
+====================
+Tomoyo, the star of the show, doesn't seem to understand what is going on.
+====================
+
+====================
+index 53
+offset 10839
+name Kanako
+length 64
+====================
+\"You know, I've actually been running away this whole time...\"
+====================
+\"You know, I've actually been running away this whole time...\"
+====================
+
+====================
+index 54
+offset 10953
+name Kanako
+length 75
+====================
+\"I didn't want to admit that there was a woman who's stronger than me...\"
+====================
+\"I didn't want to admit that there was a woman who's stronger than me...\"
+====================
+
+====================
+index 55
+offset 11078
+name Kanako
+length 39
+====================
+\"No, I guess I half-accepted that...\"
+====================
+\"No, I guess I half-accepted that...\"
+====================
+
+====================
+index 56
+offset 11167
+name Kanako
+length 67
+====================
+\"I guess it's more like... I just want to settle this already...\"
+====================
+\"I guess it's more like... I just want to settle this already...\"
+====================
+
+====================
+index 57
+offset 11284
+name Kanako
+length 84
+====================
+\"If we were doing this face-to-face, we'd probably have a hard time doing this...\"
+====================
+\"If we were doing this face-to-face, we'd probably have a hard time doing this...\"
+====================
+
+====================
+index 58
+offset 11692
+name Kanako
+length 72
+====================
+\"But right now, you're no one. Just a bear... You will accept, right?\"
+====================
+\"But right now, you're no one. Just a bear... You will accept, right?\"
+====================
+
+====================
+index 59
+offset 12062
+name Bear
+length 11
+====================
+\"......?\"
+====================
+\"......?\"
+====================
+
+====================
+index 60
+offset 12397
+name Kanako
+length 38
+====================
+\"Could you villagers do me a favor?\"
+====================
+\"Could you villagers do me a favor?\"
+====================
+
+====================
+index 61
+offset 12487
+name Villager
+length 26
+====================
+\"What is it, Kana-chan?\"
+====================
+\"What is it, Kana-chan?\"
+====================
+
+====================
+index 62
+offset 12563
+name Kanako
+length 32
+====================
+\"If anything happens to me...\"
+====================
+\"If anything happens to me...\"
+====================
+
+====================
+index 63
+offset 12647
+name Villager
+length 27
+====================
+\"If anything happens...?\"
+====================
+\"If anything happens...?\"
+====================
+
+====================
+index 64
+offset 13075
+name Kanako
+length 263
+====================
+\"Be sure to rename this village Kanakoville, build a bronze statue of me, and sing the praises of the cute girl who fell battling the strongest bear in the world to all the sightseers who ever visit, and then pass this legend down for about a thousand years...\"
+====================
+\"Be sure to rename this village Kanakoville, build a bronze statue of me, and sing the praises of the cute girl who fell battling the strongest bear in the world to all the sightseers who ever visit, and then pass this legend down for about a thousand years...\"
+====================
+
+====================
+index 65
+offset 13465
+name Old mysterious woman
+length 44
+====================
+\"Ahhhhhh! She's betting her life on this!\"
+====================
+\"Ahhhhhh! She's betting her life on this!\"
+====================
+
+====================
+index 66
+offset 13600
+name Villager
+length 23
+====================
+\"D-Don't! Kana-chan!\"
+====================
+\"D-Don't! Kana-chan!\"
+====================
+
+====================
+index 67
+offset 13947
+name Kanako
+length 53
+====================
+\"This is how I choose to live! Uurrryyyyaaaaggghh!\"
+====================
+\"This is how I choose to live! Uurrryyyyaaaaggghh!\"
+====================
+
+====================
+index 68
+offset 14308
+name NULL
+length 74
+====================
+Well, let's not worry about the outcome of their fight for the time being.
+====================
+Well, let's not worry about the outcome of their fight for the time being.
+====================
+
+====================
+index 69
+offset 14827
+name NULL
+length 97
+====================
+Thanks to Tomoyo... the bear, we made a surprising amount of progress with the construction work.
+====================
+Thanks to Tomoyo... the bear, we made a surprising amount of progress with the construction work.
+====================
+
+====================
+index 70
+offset 14940
+name NULL
+length 101
+====================
+In a village without any heavy machinery, it's very hard to carry around large materials like timber.
+====================
+In a village without any heavy machinery, it's very hard to carry around large materials like timber.
+====================
+
+====================
+index 71
+offset 15057
+name NULL
+length 48
+====================
+I have to thank Tomoyo for helping us with that.
+====================
+I have to thank Tomoyo for helping us with that.
+====================
+
+====================
+index 72
+offset 15568
+name NULL
+length 74
+====================
+The fluorescent light that I dug up has now been installed on the ceiling.
+====================
+The fluorescent light that I dug up has now been installed on the ceiling.
+====================
+
+====================
+index 73
+offset 15658
+name NULL
+length 69
+====================
+The blackboard had also been firmly affixed to the beams and pillars.
+====================
+The blackboard had also been firmly affixed to the beams and pillars.
+====================
+
+====================
+index 74
+offset 15743
+name NULL
+length 86
+====================
+Planning ahead for the future, we replaced the tatami floor mats with wooden flooring.
+====================
+Planning ahead for the future, we replaced the tatami floor mats with wooden flooring.
+====================
+
+====================
+index 75
+offset 15845
+name NULL
+length 71
+====================
+In one corner, there stands a podium made from an old, but sturdy desk.
+====================
+In one corner, there stands a podium made from an old, but sturdy desk.
+====================
+
+====================
+index 76
+offset 15932
+name NULL
+length 93
+====================
+We have breathed new life into things that were abandoned, working toward a brand new future.
+====================
+We have breathed new life into things that were abandoned, working toward a brand new future.
+====================
+
+====================
+index 77
+offset 16041
+name NULL
+length 26
+====================
+All for a yet unseen girl.
+====================
+All for a yet unseen girl.
+====================
+
+====================
+index 78
+offset 17271
+name Tomoyo
+length 125
+====================
+\"Well, your opponent was a bear, wasn't it? I think you are pretty amazing to have fought it without getting hurt, Kanako.\"
+====================
+\"Well, your opponent was a bear, wasn't it? I think you are pretty amazing to have fought it without getting hurt, Kanako.\"
+====================
+
+====================
+index 79
+offset 17719
+name Kanako
+length 18
+====================
+\"Arrrrgggghhhh!\"
+====================
+\"Arrrrgggghhhh!\"
+====================
+
+====================
+index 80
+offset 17753
+name NULL
+length 23
+====================
+Tomoyo, you're amazing.
+====================
+Tomoyo, you're amazing.
+====================

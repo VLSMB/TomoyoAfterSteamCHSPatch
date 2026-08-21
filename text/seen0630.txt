@@ -1,0 +1,3225 @@
+type seen630
+count 293
+
+====================
+index 1
+offset 266
+name NULL
+length 15
+====================
+June 30th (Wed)
+====================
+June 30th (Wed)
+====================
+
+====================
+index 2
+offset 1224
+name NULL
+length 26
+====================
+Today I'm working outside.
+====================
+Today I'm working outside.
+====================
+
+====================
+index 3
+offset 1266
+name NULL
+length 50
+====================
+I drive the truck around and collect broken items.
+====================
+I drive the truck around and collect broken items.
+====================
+
+====================
+index 4
+offset 1332
+name NULL
+length 36
+====================
+We accept a lot of different things.
+====================
+We accept a lot of different things.
+====================
+
+====================
+index 5
+offset 1384
+name NULL
+length 110
+====================
+We take household appliances like refrigerators and washing machines, as well as AV devices like TVs and VCRs.
+====================
+We take household appliances like refrigerators and washing machines, as well as AV devices like TVs and VCRs.
+====================
+
+====================
+index 6
+offset 1510
+name NULL
+length 53
+====================
+On rare occasions, we also get things like computers.
+====================
+On rare occasions, we also get things like computers.
+====================
+
+====================
+index 7
+offset 1579
+name NULL
+length 47
+====================
+Sometimes we get scooters and small motorbikes.
+====================
+Sometimes we get scooters and small motorbikes.
+====================
+
+====================
+index 8
+offset 1642
+name NULL
+length 139
+====================
+I keep driving with my cassette player on loop, and whenever someone signals for me, I get out of the truck and load the goods in the back.
+====================
+I keep driving with my cassette player on loop, and whenever someone signals for me, I get out of the truck and load the goods in the back.
+====================
+
+====================
+index 9
+offset 1797
+name NULL
+length 33
+====================
+But there's more to it than that.
+====================
+But there's more to it than that.
+====================
+
+====================
+index 10
+offset 1846
+name NULL
+length 70
+====================
+I also visit houses that have reported broken down items and fix them.
+====================
+I also visit houses that have reported broken down items and fix them.
+====================
+
+====================
+index 11
+offset 1932
+name NULL
+length 76
+====================
+I used to go around with the boss, but from today on, I have to go it alone.
+====================
+I used to go around with the boss, but from today on, I have to go it alone.
+====================
+
+====================
+index 12
+offset 2024
+name NULL
+length 22
+====================
+Can I really do it...?
+====================
+Can I really do it...?
+====================
+
+====================
+index 13
+offset 2062
+name NULL
+length 48
+====================
+I continue driving slowly as my thoughts wander.
+====================
+I continue driving slowly as my thoughts wander.
+====================
+
+====================
+index 14
+offset 3005
+name NULL
+length 68
+====================
+When I return to the workplace, the boss is fixing a moped's engine.
+====================
+When I return to the workplace, the boss is fixing a moped's engine.
+====================
+
+====================
+index 15
+offset 3123
+name Tomoya
+length 13
+====================
+\"I'm back.\"
+====================
+\"I'm back.\"
+====================
+
+====================
+index 16
+offset 3184
+name Boss
+length 14
+====================
+\"Good work.\"
+====================
+\"Good work.\"
+====================
+
+====================
+index 17
+offset 3214
+name NULL
+length 50
+====================
+He speaks in a whisper without turning to face me.
+====================
+He speaks in a whisper without turning to face me.
+====================
+
+====================
+index 18
+offset 3280
+name NULL
+length 46
+====================
+It's nothing new, so I'm not worried about it.
+====================
+It's nothing new, so I'm not worried about it.
+====================
+
+====================
+index 19
+offset 3376
+name Tomoya
+length 41
+====================
+\"I put today's haul in the storehouse.\"
+====================
+\"I put today's haul in the storehouse.\"
+====================
+
+====================
+index 20
+offset 3465
+name Boss
+length 9
+====================
+\"Okay.\"
+====================
+\"Okay.\"
+====================
+
+====================
+index 21
+offset 3527
+name Tomoya
+length 22
+====================
+\"So... what's this?\"
+====================
+\"So... what's this?\"
+====================
+
+====================
+index 22
+offset 3565
+name NULL
+length 49
+====================
+There's a pile of cardboard boxes in front of me.
+====================
+There's a pile of cardboard boxes in front of me.
+====================
+
+====================
+index 23
+offset 3630
+name NULL
+length 46
+====================
+They appear to be full, but aren't very heavy.
+====================
+They appear to be full, but aren't very heavy.
+====================
+
+====================
+index 24
+offset 3692
+name NULL
+length 64
+====================
+When I open one, I find something we don't deal in: old clothes.
+====================
+When I open one, I find something we don't deal in: old clothes.
+====================
+
+====================
+index 25
+offset 3804
+name Boss
+length 25
+====================
+\"Hm? Oh, they arrived?\"
+====================
+\"Hm? Oh, they arrived?\"
+====================
+
+====================
+index 26
+offset 3877
+name Boss
+length 57
+====================
+\"Sorry, but could you put those in the storehouse too?\"
+====================
+\"Sorry, but could you put those in the storehouse too?\"
+====================
+
+====================
+index 27
+offset 3984
+name Tomoya
+length 61
+====================
+\"Understood, but we don't deal in old clothes here, do we?\"
+====================
+\"Understood, but we don't deal in old clothes here, do we?\"
+====================
+
+====================
+index 28
+offset 4093
+name Boss
+length 80
+====================
+\"They're Yokoyama-san's. Their daughter-in-law is recovering from childbirth.\"
+====================
+\"They're Yokoyama-san's. Their daughter-in-law is recovering from childbirth.\"
+====================
+
+====================
+index 29
+offset 4221
+name Boss
+length 72
+====================
+\"We're only holding on to them for a bit, so put them near the front.\"
+====================
+\"We're only holding on to them for a bit, so put them near the front.\"
+====================
+
+====================
+index 30
+offset 4343
+name Tomoya
+length 11
+====================
+\"Got it.\"
+====================
+\"Got it.\"
+====================
+
+====================
+index 31
+offset 4402
+name Boss
+length 16
+====================
+\"Oh, hold on.\"
+====================
+\"Oh, hold on.\"
+====================
+
+====================
+index 32
+offset 4434
+name NULL
+length 50
+====================
+As I go to get the hand truck, he calls out to me.
+====================
+As I go to get the hand truck, he calls out to me.
+====================
+
+====================
+index 33
+offset 4532
+name Boss
+length 77
+====================
+\"Have a look, you can take a few things home if there's anything you want.\"
+====================
+\"Have a look, you can take a few things home if there's anything you want.\"
+====================
+
+====================
+index 34
+offset 4657
+name Boss
+length 80
+====================
+\"Well, they're from a clothes rental shop, so there might be a suit in there.\"
+====================
+\"Well, they're from a clothes rental shop, so there might be a suit in there.\"
+====================
+
+====================
+index 35
+offset 4787
+name Tomoya
+length 24
+====================
+\"Is that really okay?\"
+====================
+\"Is that really okay?\"
+====================
+
+====================
+index 36
+offset 4859
+name Boss
+length 34
+====================
+\"You don't have a suit, do you?\"
+====================
+\"You don't have a suit, do you?\"
+====================
+
+====================
+index 37
+offset 4943
+name Tomoya
+length 18
+====================
+\"Yeah, I don't.\"
+====================
+\"Yeah, I don't.\"
+====================
+
+====================
+index 38
+offset 5009
+name Boss
+length 67
+====================
+\"It could be useful. Sooner or later, you'll be doing sales too.\"
+====================
+\"It could be useful. Sooner or later, you'll be doing sales too.\"
+====================
+
+====================
+index 39
+offset 5126
+name Tomoya
+length 24
+====================
+\"Thank you very much.\"
+====================
+\"Thank you very much.\"
+====================
+
+====================
+index 40
+offset 5166
+name NULL
+length 46
+====================
+When I say that, the boss cracks a rare smile.
+====================
+When I say that, the boss cracks a rare smile.
+====================
+
+====================
+index 41
+offset 5651
+name NULL
+length 58
+====================
+And so I load the boxes onto the hand truck and move them.
+====================
+And so I load the boxes onto the hand truck and move them.
+====================
+
+====================
+index 42
+offset 5725
+name NULL
+length 87
+====================
+Once they're all in the storehouse, I open them one by one and go through the contents.
+====================
+Once they're all in the storehouse, I open them one by one and go through the contents.
+====================
+
+====================
+index 43
+offset 5862
+name Tomoya
+length 27
+====================
+\"...it's a little loose.\"
+====================
+\"...it's a little loose.\"
+====================
+
+====================
+index 44
+offset 5905
+name NULL
+length 87
+====================
+I have found a suit that's right for my height, but it's a little big around the waist.
+====================
+I have found a suit that's right for my height, but it's a little big around the waist.
+====================
+
+====================
+index 45
+offset 6008
+name NULL
+length 48
+====================
+But I can probably manage if I tighten the belt.
+====================
+But I can probably manage if I tighten the belt.
+====================
+
+====================
+index 46
+offset 6072
+name NULL
+length 59
+====================
+I decide to take the boss up on his offer and take it home.
+====================
+I decide to take the boss up on his offer and take it home.
+====================
+
+====================
+index 47
+offset 6150
+name NULL
+length 64
+====================
+As I repack the clothes into the boxes, I find an old paper bag.
+====================
+As I repack the clothes into the boxes, I find an old paper bag.
+====================
+
+====================
+index 48
+offset 6230
+name NULL
+length 69
+====================
+Inside, there's a tight skirt and jacket that make up a ladies' suit.
+====================
+Inside, there's a tight skirt and jacket that make up a ladies' suit.
+====================
+
+====================
+index 49
+offset 6349
+name Tomoya
+length 36
+====================
+(...this might look good on Tomoyo.)
+====================
+(...this might look good on Tomoyo.)
+====================
+
+====================
+index 50
+offset 6401
+name NULL
+length 62
+====================
+I decide to get permission from the boss and take it home too.
+====================
+I decide to get permission from the boss and take it home too.
+====================
+
+====================
+index 51
+offset 6904
+name NULL
+length 64
+====================
+The boss looks at the clock. It's a little past our usual hours.
+====================
+The boss looks at the clock. It's a little past our usual hours.
+====================
+
+====================
+index 52
+offset 7016
+name Boss
+length 35
+====================
+\"That's enough. You can go home.\"
+====================
+\"That's enough. You can go home.\"
+====================
+
+====================
+index 53
+offset 7067
+name NULL
+length 72
+====================
+After changing, I say my farewells, bow, and leave the workplace behind.
+====================
+After changing, I say my farewells, bow, and leave the workplace behind.
+====================
+
+====================
+index 54
+offset 8104
+name NULL
+length 30
+====================
+Tomoyo is walking ahead of me.
+====================
+Tomoyo is walking ahead of me.
+====================
+
+====================
+index 55
+offset 8150
+name NULL
+length 73
+====================
+As I'm about to call out to her, I realize I'd be wasting an opportunity.
+====================
+As I'm about to call out to her, I realize I'd be wasting an opportunity.
+====================
+
+====================
+index 56
+offset 8239
+name NULL
+length 65
+====================
+I want to watch her walking alone toward my room a little longer.
+====================
+I want to watch her walking alone toward my room a little longer.
+====================
+
+====================
+index 57
+offset 8320
+name NULL
+length 83
+====================
+I want to see the look on her face, so I keep my distance and walk parallel to her.
+====================
+I want to see the look on her face, so I keep my distance and walk parallel to her.
+====================
+
+====================
+index 58
+offset 8725
+name Tomoyo
+length 13
+====================
+\".........\"
+====================
+\".........\"
+====================
+
+====================
+index 59
+offset 8754
+name NULL
+length 34
+====================
+When I take a peek, she's smiling.
+====================
+When I take a peek, she's smiling.
+====================
+
+====================
+index 60
+offset 8804
+name NULL
+length 65
+====================
+When I see her smiling so happily, I feel a little embarrassed...
+====================
+When I see her smiling so happily, I feel a little embarrassed...
+====================
+
+====================
+index 61
+offset 8919
+name Tomoya
+length 7
+====================
+\"Yo.\"
+====================
+\"Yo.\"
+====================
+
+====================
+index 62
+offset 9214
+name NULL
+length 62
+====================
+When I call out, she draws back in surprise then smiles again.
+====================
+When I call out, she draws back in surprise then smiles again.
+====================
+
+====================
+index 63
+offset 9598
+name Tomoyo
+length 17
+====================
+\"Welcome back.\"
+====================
+\"Welcome back.\"
+====================
+
+====================
+index 64
+offset 9665
+name Tomoya
+length 11
+====================
+\"Thanks.\"
+====================
+\"Thanks.\"
+====================
+
+====================
+index 65
+offset 10569
+name NULL
+length 73
+====================
+That same day, we stand in front of the sink and prepare dinner together.
+====================
+That same day, we stand in front of the sink and prepare dinner together.
+====================
+
+====================
+index 66
+offset 10930
+name NULL
+length 70
+====================
+When we're finished, Tomoyo puts away her apron and stands there idly.
+====================
+When we're finished, Tomoyo puts away her apron and stands there idly.
+====================
+
+====================
+index 67
+offset 11286
+name NULL
+length 54
+====================
+Then, as if remembering something, she locks the door.
+====================
+Then, as if remembering something, she locks the door.
+====================
+
+====================
+index 68
+offset 11390
+name Tomoya
+length 17
+====================
+\"What's wrong?\"
+====================
+\"What's wrong?\"
+====================
+
+====================
+index 69
+offset 11729
+name Tomoyo
+length 46
+====================
+\"It's nothing... just making doubly sure...\"
+====================
+\"It's nothing... just making doubly sure...\"
+====================
+
+====================
+index 70
+offset 11825
+name Tomoyo
+length 25
+====================
+\"Now he can't come in.\"
+====================
+\"Now he can't come in.\"
+====================
+
+====================
+index 71
+offset 11900
+name Tomoya
+length 18
+====================
+\"Huh? Takafumi?\"
+====================
+\"Huh? Takafumi?\"
+====================
+
+====================
+index 72
+offset 11968
+name Tomoyo
+length 8
+====================
+\"Yes.\"
+====================
+\"Yes.\"
+====================
+
+====================
+index 73
+offset 12298
+name Tomoyo
+length 22
+====================
+\"You're going to...\"
+====================
+\"You're going to...\"
+====================
+
+====================
+index 74
+offset 12336
+name NULL
+length 29
+====================
+She looks down and hesitates.
+====================
+She looks down and hesitates.
+====================
+
+====================
+index 75
+offset 12418
+name Tomoyo
+length 46
+====================
+\"We'll probably do something weird again...\"
+====================
+\"We'll probably do something weird again...\"
+====================
+
+====================
+index 76
+offset 12514
+name Tomoyo
+length 30
+====================
+\"I have time again today...\"
+====================
+\"I have time again today...\"
+====================
+
+====================
+index 77
+offset 12563
+name NULL
+length 24
+====================
+*Scribble* *Scribble*...
+====================
+*Scribble* *Scribble*...
+====================
+
+====================
+index 78
+offset 12909
+name Tomoyo
+length 59
+====================
+\"Hey, why are you at your desk studying all of a sudden!\"
+====================
+\"Hey, why are you at your desk studying all of a sudden!\"
+====================
+
+====================
+index 79
+offset 12984
+name NULL
+length 45
+====================
+I started taking notes from a reference book.
+====================
+I started taking notes from a reference book.
+====================
+
+====================
+index 80
+offset 13351
+name Tomoyo
+length 75
+====================
+\"Even though I'm over here embarrassing myself with such a confession...\"
+====================
+\"Even though I'm over here embarrassing myself with such a confession...\"
+====================
+
+====================
+index 81
+offset 13476
+name Tomoya
+length 62
+====================
+\"Well, if I don't get certifications, my pay won't go up...\"
+====================
+\"Well, if I don't get certifications, my pay won't go up...\"
+====================
+
+====================
+index 82
+offset 13860
+name Tomoyo
+length 37
+====================
+\"Really...? I guess that's true...\"
+====================
+\"Really...? I guess that's true...\"
+====================
+
+====================
+index 83
+offset 13947
+name Tomoyo
+length 30
+====================
+\"Sorry for getting upset...\"
+====================
+\"Sorry for getting upset...\"
+====================
+
+====================
+index 84
+offset 14299
+name Tomoyo
+length 60
+====================
+\"Is there anything I can do? I'll help you any way I can.\"
+====================
+\"Is there anything I can do? I'll help you any way I can.\"
+====================
+
+====================
+index 85
+offset 14409
+name Tomoya
+length 48
+====================
+\"Hm... how about you try asking me questions?\"
+====================
+\"Hm... how about you try asking me questions?\"
+====================
+
+====================
+index 86
+offset 14779
+name Tomoyo
+length 15
+====================
+\"No problem.\"
+====================
+\"No problem.\"
+====================
+
+====================
+index 87
+offset 14844
+name Tomoya
+length 52
+====================
+\"Wear this and play the part of a female teacher.\"
+====================
+\"Wear this and play the part of a female teacher.\"
+====================
+
+====================
+index 88
+offset 14912
+name NULL
+length 52
+====================
+I take the suit out of the paper bag I brought home.
+====================
+I take the suit out of the paper bag I brought home.
+====================
+
+====================
+index 89
+offset 15250
+name NULL
+length 49
+====================
+She narrows her eyes and gazes into the distance.
+====================
+She narrows her eyes and gazes into the distance.
+====================
+
+====================
+index 90
+offset 15621
+name Tomoyo
+length 22
+====================
+\"...I don't get it.\"
+====================
+\"...I don't get it.\"
+====================
+
+====================
+index 91
+offset 15693
+name Tomoya
+length 61
+====================
+\"Well, didn't you say you'd do anything you could to help?\"
+====================
+\"Well, didn't you say you'd do anything you could to help?\"
+====================
+
+====================
+index 92
+offset 16076
+name Tomoyo
+length 50
+====================
+\"But having me go as far as changing clothes...\"
+====================
+\"But having me go as far as changing clothes...\"
+====================
+
+====================
+index 93
+offset 16176
+name Tomoya
+length 119
+====================
+\"If you're in your school uniform, it'll feel like we're working together and I won't be able to put my all into it.\"
+====================
+\"If you're in your school uniform, it'll feel like we're working together and I won't be able to put my all into it.\"
+====================
+
+====================
+index 94
+offset 16617
+name Tomoyo
+length 67
+====================
+\"...I have to ask. You're not thinking something weird, are you?\"
+====================
+\"...I have to ask. You're not thinking something weird, are you?\"
+====================
+
+====================
+index 95
+offset 16734
+name Tomoya
+length 70
+====================
+\"It's fine, I won't do anything. It's enough that you just wear it.\"
+====================
+\"It's fine, I won't do anything. It's enough that you just wear it.\"
+====================
+
+====================
+index 96
+offset 17126
+name Tomoyo
+length 19
+====================
+\"Perveeeeeeert!!\"
+====================
+\"Perveeeeeeert!!\"
+====================
+
+====================
+index 97
+offset 17195
+name Tomoyo
+length 35
+====================
+\"Are you really okay with that?!\"
+====================
+\"Are you really okay with that?!\"
+====================
+
+====================
+index 98
+offset 17280
+name Tomoyo
+length 46
+====================
+\"I'm only going to put it on and teach you.\"
+====================
+\"I'm only going to put it on and teach you.\"
+====================
+
+====================
+index 99
+offset 17376
+name Tomoya
+length 34
+====================
+\"Isn't it okay to be wholesome?\"
+====================
+\"Isn't it okay to be wholesome?\"
+====================
+
+====================
+index 100
+offset 17733
+name Tomoyo
+length 35
+====================
+\"So my boyfriend is a pervert...\"
+====================
+\"So my boyfriend is a pervert...\"
+====================
+
+====================
+index 101
+offset 17818
+name Tomoya
+length 55
+====================
+\"Yeah, this a request from your perverted boyfriend.\"
+====================
+\"Yeah, this a request from your perverted boyfriend.\"
+====================
+
+====================
+index 102
+offset 18196
+name Tomoyo
+length 53
+====================
+\"Uh... that makes me a pervert too, doesn't it...?\"
+====================
+\"Uh... that makes me a pervert too, doesn't it...?\"
+====================
+
+====================
+index 103
+offset 18265
+name NULL
+length 50
+====================
+Reluctantly, she goes into the bathroom to change.
+====================
+Reluctantly, she goes into the bathroom to change.
+====================
+
+====================
+index 104
+offset 19192
+name Tomoyo
+length 25
+====================
+\"...are you satisfied?\"
+====================
+\"...are you satisfied?\"
+====================
+
+====================
+index 105
+offset 19267
+name Tomoya
+length 32
+====================
+\"It's better than I expected.\"
+====================
+\"It's better than I expected.\"
+====================
+
+====================
+index 106
+offset 19349
+name Tomoyo
+length 70
+====================
+\"But having me sit on the desk... isn't this extremely bad manners?\"
+====================
+\"But having me sit on the desk... isn't this extremely bad manners?\"
+====================
+
+====================
+index 107
+offset 19469
+name Tomoya
+length 21
+====================
+\"That's the point.\"
+====================
+\"That's the point.\"
+====================
+
+====================
+index 108
+offset 19540
+name Tomoyo
+length 19
+====================
+\"Perveeeeeeert!!\"
+====================
+\"Perveeeeeeert!!\"
+====================
+
+====================
+index 109
+offset 19609
+name Tomoyo
+length 44
+====================
+\"I don't understand how perverts think...\"
+====================
+\"I don't understand how perverts think...\"
+====================
+
+====================
+index 110
+offset 19706
+name Tomoyo
+length 42
+====================
+\"Well then, let's get to the questions.\"
+====================
+\"Well then, let's get to the questions.\"
+====================
+
+====================
+index 111
+offset 19798
+name Tomoyo
+length 74
+====================
+\"...quizzing you like this makes me a really high and mighty teacher...\"
+====================
+\"...quizzing you like this makes me a really high and mighty teacher...\"
+====================
+
+====================
+index 112
+offset 19922
+name Tomoya
+length 15
+====================
+\"Um, Sensei.\"
+====================
+\"Um, Sensei.\"
+====================
+
+====================
+index 113
+offset 19953
+name NULL
+length 16
+====================
+I raise my hand.
+====================
+I raise my hand.
+====================
+
+====================
+index 114
+offset 20019
+name Tomoyo
+length 9
+====================
+\"What?\"
+====================
+\"What?\"
+====================
+
+====================
+index 115
+offset 20087
+name Tomoya
+length 56
+====================
+\"If I get the answer right, could you move your hand?\"
+====================
+\"If I get the answer right, could you move your hand?\"
+====================
+
+====================
+index 116
+offset 20196
+name Tomoyo
+length 19
+====================
+\"Perveeeeeeert!!\"
+====================
+\"Perveeeeeeert!!\"
+====================
+
+====================
+index 117
+offset 20265
+name Tomoya
+length 36
+====================
+\"Well, I'm a student at that age.\"
+====================
+\"Well, I'm a student at that age.\"
+====================
+
+====================
+index 118
+offset 20351
+name Tomoyo
+length 84
+====================
+\"What a student... how humiliating to be in charge of such a perverted student...\"
+====================
+\"What a student... how humiliating to be in charge of such a perverted student...\"
+====================
+
+====================
+index 119
+offset 20485
+name Tomoyo
+length 109
+====================
+\"This skirt is pretty short and you made me sit here, so I covered up thinking you might be able to see...\"
+====================
+\"This skirt is pretty short and you made me sit here, so I covered up thinking you might be able to see...\"
+====================
+
+====================
+index 120
+offset 20644
+name Tomoyo
+length 44
+====================
+\"And to think you actually went for it...\"
+====================
+\"And to think you actually went for it...\"
+====================
+
+====================
+index 121
+offset 20738
+name Tomoyo
+length 45
+====================
+\"You're a hopeless pervert of a student...\"
+====================
+\"You're a hopeless pervert of a student...\"
+====================
+
+====================
+index 122
+offset 20833
+name Tomoya
+length 32
+====================
+\"But this is very motivating.\"
+====================
+\"But this is very motivating.\"
+====================
+
+====================
+index 123
+offset 20915
+name Tomoyo
+length 49
+====================
+\"What are you, a perverted middle schooler...?\"
+====================
+\"What are you, a perverted middle schooler...?\"
+====================
+
+====================
+index 124
+offset 21014
+name Tomoyo
+length 33
+====================
+\"Fine... I get it. I'll do it.\"
+====================
+\"Fine... I get it. I'll do it.\"
+====================
+
+====================
+index 125
+offset 21097
+name Tomoyo
+length 63
+====================
+\"That'll be your reward for getting all the answers correct.\"
+====================
+\"That'll be your reward for getting all the answers correct.\"
+====================
+
+====================
+index 126
+offset 21210
+name Tomoyo
+length 36
+====================
+\"Do your best, so you can see it.\"
+====================
+\"Do your best, so you can see it.\"
+====================
+
+====================
+index 127
+offset 21262
+name NULL
+length 6
+====================
+Lucky.
+====================
+Lucky.
+====================
+
+====================
+index 128
+offset 21318
+name Tomoyo
+length 74
+====================
+\"So because of that, I'm going to give you the hardest questions I can.\"
+====================
+\"So because of that, I'm going to give you the hardest questions I can.\"
+====================
+
+====================
+index 129
+offset 21442
+name Tomoyo
+length 28
+====================
+\"Here we go, Okazaki-kun.\"
+====================
+\"Here we go, Okazaki-kun.\"
+====================
+
+====================
+index 130
+offset 21520
+name Tomoya
+length 9
+====================
+\"Okay!\"
+====================
+\"Okay!\"
+====================
+
+====================
+index 131
+offset 21579
+name Tomoyo
+length 33
+====================
+\"What a waste of enthusiasm...\"
+====================
+\"What a waste of enthusiasm...\"
+====================
+
+====================
+index 132
+offset 21665
+name Tomoyo
+length 23
+====================
+\"Okay, question one.\"
+====================
+\"Okay, question one.\"
+====================
+
+====================
+index 133
+offset 21738
+name Tomoyo
+length 152
+====================
+\"What is the formal name of the motor that is used in items such as vacuum cleaners and coffee grinders and is commonly known as the universal motor?\"
+====================
+\"What is the formal name of the motor that is used in items such as vacuum cleaners and coffee grinders and is commonly known as the universal motor?\"
+====================
+
+====================
+index 134
+offset 21929
+name NULL
+length 42
+====================
+Single-phase commutated series-wound motor
+====================
+Single-phase commutated series-wound motor
+====================
+
+====================
+index 135
+offset 21976
+name NULL
+length 39
+====================
+Wound rotor three-phase induction motor
+====================
+Wound rotor three-phase induction motor
+====================
+
+====================
+index 136
+offset 22020
+name NULL
+length 33
+====================
+Electromagnetic synchronous motor
+====================
+Electromagnetic synchronous motor
+====================
+
+====================
+index 137
+offset 22156
+name Tomoyo
+length 15
+====================
+\"...correct.\"
+====================
+\"...correct.\"
+====================
+
+====================
+index 138
+offset 22221
+name Tomoya
+length 21
+====================
+\"Hell yeeeeeeeah!!\"
+====================
+\"Hell yeeeeeeeah!!\"
+====================
+
+====================
+index 139
+offset 22292
+name Tomoyo
+length 70
+====================
+\"I don't even want to ask where that abnormal joy is coming from...\"
+====================
+\"I don't even want to ask where that abnormal joy is coming from...\"
+====================
+
+====================
+index 140
+offset 22412
+name Tomoya
+length 15
+====================
+\"Perversion.\"
+====================
+\"Perversion.\"
+====================
+
+====================
+index 141
+offset 22477
+name Tomoyo
+length 19
+====================
+\"Don't answer...\"
+====================
+\"Don't answer...\"
+====================
+
+====================
+index 142
+offset 22632
+name Tomoyo
+length 14
+====================
+\"Incorrect.\"
+====================
+\"Incorrect.\"
+====================
+
+====================
+index 143
+offset 22696
+name Tomoyo
+length 65
+====================
+\"The three-phase induction motor is a type of induction motor.\"
+====================
+\"The three-phase induction motor is a type of induction motor.\"
+====================
+
+====================
+index 144
+offset 22811
+name Tomoyo
+length 79
+====================
+\"Induction motors are AC motors; a universal motor can use DC power as well.\"
+====================
+\"Induction motors are AC motors; a universal motor can use DC power as well.\"
+====================
+
+====================
+index 145
+offset 22940
+name Tomoya
+length 25
+====================
+\"...wh-what... damn...\"
+====================
+\"...wh-what... damn...\"
+====================
+
+====================
+index 146
+offset 23015
+name Tomoyo
+length 27
+====================
+\"You seem really down...\"
+====================
+\"You seem really down...\"
+====================
+
+====================
+index 147
+offset 23178
+name Tomoyo
+length 14
+====================
+\"Incorrect.\"
+====================
+\"Incorrect.\"
+====================
+
+====================
+index 148
+offset 23242
+name Tomoyo
+length 69
+====================
+\"It is possible to manufacture a large-capacity synchronous motor.\"
+====================
+\"It is possible to manufacture a large-capacity synchronous motor.\"
+====================
+
+====================
+index 149
+offset 23361
+name Tomoyo
+length 100
+====================
+\"They are used in machines such as air conditioners by attaching an inverter to the power supply.\"
+====================
+\"They are used in machines such as air conditioners by attaching an inverter to the power supply.\"
+====================
+
+====================
+index 150
+offset 23511
+name Tomoya
+length 25
+====================
+\"...wh-what... damn...\"
+====================
+\"...wh-what... damn...\"
+====================
+
+====================
+index 151
+offset 23586
+name Tomoyo
+length 27
+====================
+\"You seem really down...\"
+====================
+\"You seem really down...\"
+====================
+
+====================
+index 152
+offset 23705
+name Tomoyo
+length 23
+====================
+\"Okay, question two.\"
+====================
+\"Okay, question two.\"
+====================
+
+====================
+index 153
+offset 23778
+name Tomoyo
+length 85
+====================
+\"For insulation classes, what is the maximum operating temperature of the F-class?\"
+====================
+\"For insulation classes, what is the maximum operating temperature of the F-class?\"
+====================
+
+====================
+index 154
+offset 23905
+name NULL
+length 11
+====================
+120 degrees
+====================
+120 degrees
+====================
+
+====================
+index 155
+offset 23921
+name NULL
+length 11
+====================
+155 degrees
+====================
+155 degrees
+====================
+
+====================
+index 156
+offset 23937
+name NULL
+length 11
+====================
+180 degrees
+====================
+180 degrees
+====================
+
+====================
+index 157
+offset 24051
+name Tomoyo
+length 17
+====================
+\"...incorrect.\"
+====================
+\"...incorrect.\"
+====================
+
+====================
+index 158
+offset 24118
+name Tomoya
+length 19
+====================
+\"Aaaaaaaaaaagh!!\"
+====================
+\"Aaaaaaaaaaagh!!\"
+====================
+
+====================
+index 159
+offset 24225
+name Tomoya
+length 36
+====================
+\"Well, it doesn't matter anymore.\"
+====================
+\"Well, it doesn't matter anymore.\"
+====================
+
+====================
+index 160
+offset 24311
+name Tomoyo
+length 32
+====================
+\"Of course it matters, idiot.\"
+====================
+\"Of course it matters, idiot.\"
+====================
+
+====================
+index 161
+offset 24393
+name Tomoyo
+length 79
+====================
+\"120 degrees is the E-class that uses polyester and phenol as raw materials.\"
+====================
+\"120 degrees is the E-class that uses polyester and phenol as raw materials.\"
+====================
+
+====================
+index 162
+offset 24572
+name Tomoyo
+length 79
+====================
+\"120 degrees is the E-class that uses polyester and phenol as raw materials.\"
+====================
+\"120 degrees is the E-class that uses polyester and phenol as raw materials.\"
+====================
+
+====================
+index 163
+offset 24701
+name Tomoya
+length 22
+====================
+\"It doesn't matter.\"
+====================
+\"It doesn't matter.\"
+====================
+
+====================
+index 164
+offset 24773
+name Tomoyo
+length 32
+====================
+\"Idiot, of course it matters.\"
+====================
+\"Idiot, of course it matters.\"
+====================
+
+====================
+index 165
+offset 24982
+name Tomoyo
+length 19
+====================
+\"...uh, correct.\"
+====================
+\"...uh, correct.\"
+====================
+
+====================
+index 166
+offset 25051
+name Tomoya
+length 21
+====================
+\"Hell yeeeeeeeah!!\"
+====================
+\"Hell yeeeeeeeah!!\"
+====================
+
+====================
+index 167
+offset 25122
+name Tomoyo
+length 70
+====================
+\"I don't even want to ask where that abnormal joy is coming from...\"
+====================
+\"I don't even want to ask where that abnormal joy is coming from...\"
+====================
+
+====================
+index 168
+offset 25242
+name Tomoya
+length 15
+====================
+\"Perversion.\"
+====================
+\"Perversion.\"
+====================
+
+====================
+index 169
+offset 25307
+name Tomoyo
+length 31
+====================
+\"I told you not to answer...\"
+====================
+\"I told you not to answer...\"
+====================
+
+====================
+index 170
+offset 25388
+name Tomoya
+length 70
+====================
+\"Incidentally, silicone alkyd resins are used as the raw materials.\"
+====================
+\"Incidentally, silicone alkyd resins are used as the raw materials.\"
+====================
+
+====================
+index 171
+offset 25508
+name Tomoya
+length 26
+====================
+\"I studied this before.\"
+====================
+\"I studied this before.\"
+====================
+
+====================
+index 172
+offset 25584
+name Tomoyo
+length 84
+====================
+\"I'm happy about your growth, but honestly I'm having mixed feelings right now...\"
+====================
+\"I'm happy about your growth, but honestly I'm having mixed feelings right now...\"
+====================
+
+====================
+index 173
+offset 25768
+name Tomoyo
+length 24
+====================
+\"Yes, that's correct.\"
+====================
+\"Yes, that's correct.\"
+====================
+
+====================
+index 174
+offset 25842
+name Tomoya
+length 70
+====================
+\"Incidentally, silicone alkyd resins are used as the raw materials.\"
+====================
+\"Incidentally, silicone alkyd resins are used as the raw materials.\"
+====================
+
+====================
+index 175
+offset 25962
+name Tomoya
+length 27
+====================
+\"I studied this earlier.\"
+====================
+\"I studied this earlier.\"
+====================
+
+====================
+index 176
+offset 26039
+name Tomoyo
+length 39
+====================
+\"You can do it if you try. Good boy.\"
+====================
+\"You can do it if you try. Good boy.\"
+====================
+
+====================
+index 177
+offset 26220
+name Tomoyo
+length 14
+====================
+\"Incorrect.\"
+====================
+\"Incorrect.\"
+====================
+
+====================
+index 178
+offset 26284
+name Tomoya
+length 19
+====================
+\"Aaaaaaaaaaagh!!\"
+====================
+\"Aaaaaaaaaaagh!!\"
+====================
+
+====================
+index 179
+offset 26391
+name Tomoya
+length 36
+====================
+\"Well, it doesn't matter anymore.\"
+====================
+\"Well, it doesn't matter anymore.\"
+====================
+
+====================
+index 180
+offset 26477
+name Tomoyo
+length 32
+====================
+\"Of course it matters, idiot.\"
+====================
+\"Of course it matters, idiot.\"
+====================
+
+====================
+index 181
+offset 26559
+name Tomoyo
+length 110
+====================
+\"Silicone resins that are resistant to high temperatures are used as the raw material for that temperature.\"
+====================
+\"Silicone resins that are resistant to high temperatures are used as the raw material for that temperature.\"
+====================
+
+====================
+index 182
+offset 26772
+name Tomoyo
+length 110
+====================
+\"Silicone resins that are resistant to high temperatures are used as the raw material for that temperature.\"
+====================
+\"Silicone resins that are resistant to high temperatures are used as the raw material for that temperature.\"
+====================
+
+====================
+index 183
+offset 26932
+name Tomoya
+length 22
+====================
+\"It doesn't matter.\"
+====================
+\"It doesn't matter.\"
+====================
+
+====================
+index 184
+offset 27004
+name Tomoyo
+length 32
+====================
+\"Idiot, of course it matters.\"
+====================
+\"Idiot, of course it matters.\"
+====================
+
+====================
+index 185
+offset 27100
+name NULL
+length 18
+====================
+...*rattle rattle*
+====================
+...*rattle rattle*
+====================
+
+====================
+index 186
+offset 27134
+name NULL
+length 42
+====================
+We hear the sound of the doorknob turning.
+====================
+We hear the sound of the doorknob turning.
+====================
+
+====================
+index 187
+offset 27226
+name Tomoya
+length 18
+====================
+\"It's Takafumi.\"
+====================
+\"It's Takafumi.\"
+====================
+
+====================
+index 188
+offset 27303
+name Tomoyo
+length 58
+====================
+\"I can't show myself dressed like this. We're not home.\"
+====================
+\"I can't show myself dressed like this. We're not home.\"
+====================
+
+====================
+index 189
+offset 27411
+name Tomoyo
+length 53
+====================
+\"Okay, time for the last question. Question three.\"
+====================
+\"Okay, time for the last question. Question three.\"
+====================
+
+====================
+index 190
+offset 27514
+name Tomoyo
+length 93
+====================
+\"Aside from bimetallic strips and thermistors, what type of switch is used in thermostats?\"
+====================
+\"Aside from bimetallic strips and thermistors, what type of switch is used in thermostats?\"
+====================
+
+====================
+index 191
+offset 27649
+name NULL
+length 11
+====================
+Gyro Sensor
+====================
+Gyro Sensor
+====================
+
+====================
+index 192
+offset 27665
+name NULL
+length 9
+====================
+Diaphragm
+====================
+Diaphragm
+====================
+
+====================
+index 193
+offset 27679
+name NULL
+length 11
+====================
+Non-contact
+====================
+Non-contact
+====================
+
+====================
+index 194
+offset 27793
+name Tomoyo
+length 14
+====================
+\"Incorrect.\"
+====================
+\"Incorrect.\"
+====================
+
+====================
+index 195
+offset 27895
+name Tomoya
+length 19
+====================
+\"Aaaaaaaaaaagh!!\"
+====================
+\"Aaaaaaaaaaagh!!\"
+====================
+
+====================
+index 196
+offset 27964
+name Tomoyo
+length 106
+====================
+\"A gyro sensor is a vibration sensor that is used in things such as heater overturn prevention devices.\"
+====================
+\"A gyro sensor is a vibration sensor that is used in things such as heater overturn prevention devices.\"
+====================
+
+====================
+index 197
+offset 28120
+name Tomoyo
+length 32
+====================
+\"It resembles a spinning top.\"
+====================
+\"It resembles a spinning top.\"
+====================
+
+====================
+index 198
+offset 28202
+name Tomoya
+length 30
+====================
+\"It doesn't matter anymore.\"
+====================
+\"It doesn't matter anymore.\"
+====================
+
+====================
+index 199
+offset 28282
+name Tomoyo
+length 32
+====================
+\"Idiot, of course it matters.\"
+====================
+\"Idiot, of course it matters.\"
+====================
+
+====================
+index 200
+offset 28414
+name Tomoya
+length 24
+====================
+\"What was that again?\"
+====================
+\"What was that again?\"
+====================
+
+====================
+index 201
+offset 28488
+name Tomoyo
+length 106
+====================
+\"A gyro sensor is a vibration sensor that is used in things such as heater overturn prevention devices.\"
+====================
+\"A gyro sensor is a vibration sensor that is used in things such as heater overturn prevention devices.\"
+====================
+
+====================
+index 202
+offset 28644
+name Tomoyo
+length 32
+====================
+\"It resembles a spinning top.\"
+====================
+\"It resembles a spinning top.\"
+====================
+
+====================
+index 203
+offset 28814
+name Tomoyo
+length 21
+====================
+\"...uh... correct.\"
+====================
+\"...uh... correct.\"
+====================
+
+====================
+index 204
+offset 28885
+name Tomoya
+length 21
+====================
+\"Hell yeeeeeeeah!!\"
+====================
+\"Hell yeeeeeeeah!!\"
+====================
+
+====================
+index 205
+offset 28956
+name Tomoya
+length 34
+====================
+\"Studying so hard was worth it!\"
+====================
+\"Studying so hard was worth it!\"
+====================
+
+====================
+index 206
+offset 29040
+name Tomoyo
+length 34
+====================
+\"What were you studying for...?\"
+====================
+\"What were you studying for...?\"
+====================
+
+====================
+index 207
+offset 29124
+name Tomoya
+length 19
+====================
+\"For perversion.\"
+====================
+\"For perversion.\"
+====================
+
+====================
+index 208
+offset 29193
+name Tomoyo
+length 23
+====================
+\"That's not right...\"
+====================
+\"That's not right...\"
+====================
+
+====================
+index 209
+offset 29319
+name Tomoyo
+length 12
+====================
+\"Correct.\"
+====================
+\"Correct.\"
+====================
+
+====================
+index 210
+offset 29381
+name Tomoya
+length 64
+====================
+\"A diaphragm is a type of switch that utilizes gas expansion.\"
+====================
+\"A diaphragm is a type of switch that utilizes gas expansion.\"
+====================
+
+====================
+index 211
+offset 29495
+name Tomoyo
+length 30
+====================
+\"Oh, aren't you incredible.\"
+====================
+\"Oh, aren't you incredible.\"
+====================
+
+====================
+index 212
+offset 29575
+name Tomoya
+length 39
+====================
+\"But it doesn't even matter anymore.\"
+====================
+\"But it doesn't even matter anymore.\"
+====================
+
+====================
+index 213
+offset 29664
+name Tomoyo
+length 32
+====================
+\"Of course it matters, idiot.\"
+====================
+\"Of course it matters, idiot.\"
+====================
+
+====================
+index 214
+offset 29838
+name Tomoyo
+length 14
+====================
+\"Incorrect.\"
+====================
+\"Incorrect.\"
+====================
+
+====================
+index 215
+offset 29940
+name Tomoya
+length 32
+====================
+\"Gyaiagreiiiiiibodododooooo!!\"
+====================
+\"Gyaiagreiiiiiibodododooooo!!\"
+====================
+
+====================
+index 216
+offset 30022
+name Tomoyo
+length 35
+====================
+\"Gyaiagreibodododo? What's that?\"
+====================
+\"Gyaiagreibodododo? What's that?\"
+====================
+
+====================
+index 217
+offset 30107
+name Tomoya
+length 86
+====================
+\"It's the cry of my soul that just naturally welled up in response to such a shock.\"
+====================
+\"It's the cry of my soul that just naturally welled up in response to such a shock.\"
+====================
+
+====================
+index 218
+offset 30243
+name Tomoyo
+length 52
+====================
+\"Something like that welled up... you're gross...\"
+====================
+\"Something like that welled up... you're gross...\"
+====================
+
+====================
+index 219
+offset 30348
+name Tomoyo
+length 122
+====================
+\"Non-contact is a type of thermistor that is used in sensors that detect the liquid level of kerosene or other liquids.\"
+====================
+\"Non-contact is a type of thermistor that is used in sensors that detect the liquid level of kerosene or other liquids.\"
+====================
+
+====================
+index 220
+offset 30520
+name Tomoya
+length 30
+====================
+\"It doesn't matter anymore.\"
+====================
+\"It doesn't matter anymore.\"
+====================
+
+====================
+index 221
+offset 30600
+name Tomoyo
+length 32
+====================
+\"Idiot, of course it matters.\"
+====================
+\"Idiot, of course it matters.\"
+====================
+
+====================
+index 222
+offset 30732
+name Tomoyo
+length 122
+====================
+\"Non-contact is a type of thermistor that is used in sensors that detect the liquid level of kerosene or other liquids.\"
+====================
+\"Non-contact is a type of thermistor that is used in sensors that detect the liquid level of kerosene or other liquids.\"
+====================
+
+====================
+index 223
+offset 30904
+name Tomoya
+length 44
+====================
+\"Oh, I remember hearing that somewhere...\"
+====================
+\"Oh, I remember hearing that somewhere...\"
+====================
+
+====================
+index 224
+offset 31045
+name Tomoyo
+length 34
+====================
+\"Your results... all incorrect.\"
+====================
+\"Your results... all incorrect.\"
+====================
+
+====================
+index 225
+offset 31129
+name Tomoyo
+length 26
+====================
+\"That's no good at all.\"
+====================
+\"That's no good at all.\"
+====================
+
+====================
+index 226
+offset 31205
+name Tomoya
+length 33
+====================
+\"I'm disappointed in myself...\"
+====================
+\"I'm disappointed in myself...\"
+====================
+
+====================
+index 227
+offset 31288
+name Tomoyo
+length 76
+====================
+\"Hey, don't get so down. It's okay if we study like this once in a while.\"
+====================
+\"Hey, don't get so down. It's okay if we study like this once in a while.\"
+====================
+
+====================
+index 228
+offset 31414
+name Tomoyo
+length 57
+====================
+\"I've come to rather like playing the role of teacher.\"
+====================
+\"I've come to rather like playing the role of teacher.\"
+====================
+
+====================
+index 229
+offset 31521
+name Tomoyo
+length 55
+====================
+\"Well, I definitely can't show this to other people.\"
+====================
+\"Well, I definitely can't show this to other people.\"
+====================
+
+====================
+index 230
+offset 31676
+name Tomoyo
+length 45
+====================
+\"Your results... one out of three correct.\"
+====================
+\"Your results... one out of three correct.\"
+====================
+
+====================
+index 231
+offset 31771
+name Tomoyo
+length 26
+====================
+\"That's no good at all.\"
+====================
+\"That's no good at all.\"
+====================
+
+====================
+index 232
+offset 31847
+name Tomoya
+length 33
+====================
+\"I'm disappointed in myself...\"
+====================
+\"I'm disappointed in myself...\"
+====================
+
+====================
+index 233
+offset 31930
+name Tomoyo
+length 76
+====================
+\"Hey, don't get so down. It's okay if we study like this once in a while.\"
+====================
+\"Hey, don't get so down. It's okay if we study like this once in a while.\"
+====================
+
+====================
+index 234
+offset 32056
+name Tomoyo
+length 57
+====================
+\"I've come to rather like playing the role of teacher.\"
+====================
+\"I've come to rather like playing the role of teacher.\"
+====================
+
+====================
+index 235
+offset 32163
+name Tomoyo
+length 55
+====================
+\"Well, I definitely can't show this to other people.\"
+====================
+\"Well, I definitely can't show this to other people.\"
+====================
+
+====================
+index 236
+offset 32321
+name Tomoyo
+length 45
+====================
+\"Your results... two out of three correct.\"
+====================
+\"Your results... two out of three correct.\"
+====================
+
+====================
+index 237
+offset 32416
+name Tomoyo
+length 19
+====================
+\"You were close.\"
+====================
+\"You were close.\"
+====================
+
+====================
+index 238
+offset 32485
+name Tomoya
+length 33
+====================
+\"I feel like hitting myself...\"
+====================
+\"I feel like hitting myself...\"
+====================
+
+====================
+index 239
+offset 32568
+name Tomoyo
+length 76
+====================
+\"Hey, don't get so down. It's okay if we study like this once in a while.\"
+====================
+\"Hey, don't get so down. It's okay if we study like this once in a while.\"
+====================
+
+====================
+index 240
+offset 32694
+name Tomoyo
+length 57
+====================
+\"I've come to rather like playing the role of teacher.\"
+====================
+\"I've come to rather like playing the role of teacher.\"
+====================
+
+====================
+index 241
+offset 32801
+name Tomoyo
+length 55
+====================
+\"Well, I definitely can't show this to other people.\"
+====================
+\"Well, I definitely can't show this to other people.\"
+====================
+
+====================
+index 242
+offset 32956
+name Tomoyo
+length 32
+====================
+\"Your results... all correct.\"
+====================
+\"Your results... all correct.\"
+====================
+
+====================
+index 243
+offset 33068
+name Tomoya
+length 23
+====================
+\"I'm pretty excited.\"
+====================
+\"I'm pretty excited.\"
+====================
+
+====================
+index 244
+offset 33141
+name Tomoyo
+length 58
+====================
+\"You're incredible, Tomoya. Good job. Okay, we're done.\"
+====================
+\"You're incredible, Tomoya. Good job. Okay, we're done.\"
+====================
+
+====================
+index 245
+offset 33249
+name Tomoya
+length 13
+====================
+\".........\"
+====================
+\".........\"
+====================
+
+====================
+index 246
+offset 33312
+name Tomoyo
+length 56
+====================
+\"Don't give me that look like the world just ended...\"
+====================
+\"Don't give me that look like the world just ended...\"
+====================
+
+====================
+index 247
+offset 33418
+name Tomoyo
+length 21
+====================
+\"Okay, I get it...\"
+====================
+\"Okay, I get it...\"
+====================
+
+====================
+index 248
+offset 33489
+name Tomoyo
+length 46
+====================
+\"Um... what is it? Should I move this hand?\"
+====================
+\"Um... what is it? Should I move this hand?\"
+====================
+
+====================
+index 249
+offset 33551
+name NULL
+length 18
+====================
+I give a huge nod.
+====================
+I give a huge nod.
+====================
+
+====================
+index 250
+offset 33619
+name Tomoyo
+length 60
+====================
+\"But from that angle, you'll definitely be able to see...\"
+====================
+\"But from that angle, you'll definitely be able to see...\"
+====================
+
+====================
+index 251
+offset 33729
+name Tomoyo
+length 34
+====================
+\"Maybe I can recross my legs...\"
+====================
+\"Maybe I can recross my legs...\"
+====================
+
+====================
+index 252
+offset 33813
+name Tomoya
+length 13
+====================
+\".........\"
+====================
+\".........\"
+====================
+
+====================
+index 253
+offset 33876
+name Tomoyo
+length 45
+====================
+\"Instead, I'll put on glasses. How's that?\"
+====================
+\"Instead, I'll put on glasses. How's that?\"
+====================
+
+====================
+index 254
+offset 33971
+name Tomoyo
+length 76
+====================
+\"I'll look more like a teacher and that'll make it even better, won't it?\"
+====================
+\"I'll look more like a teacher and that'll make it even better, won't it?\"
+====================
+
+====================
+index 255
+offset 34097
+name Tomoyo
+length 21
+====================
+\"What am I saying?\"
+====================
+\"What am I saying?\"
+====================
+
+====================
+index 256
+offset 34168
+name Tomoyo
+length 57
+====================
+\"...so, how about it... will you let me off with that?\"
+====================
+\"...so, how about it... will you let me off with that?\"
+====================
+
+====================
+index 257
+offset 34241
+name NULL
+length 21
+====================
+...I nod reluctantly.
+====================
+...I nod reluctantly.
+====================
+
+====================
+index 258
+offset 34312
+name Tomoyo
+length 22
+====================
+\"Okay, here I go...\"
+====================
+\"Okay, here I go...\"
+====================
+
+====================
+index 259
+offset 34350
+name NULL
+length 6
+====================
+*Gulp*
+====================
+*Gulp*
+====================
+
+====================
+index 260
+offset 35203
+name NULL
+length 5
+====================
+Oh...
+====================
+Oh...
+====================
+
+====================
+index 261
+offset 35224
+name NULL
+length 52
+====================
+She really does look like a teacher or a home tutor.
+====================
+She really does look like a teacher or a home tutor.
+====================
+
+====================
+index 262
+offset 35292
+name NULL
+length 73
+====================
+Her sitting on the desk looking down at me arouses a number of fantasies.
+====================
+Her sitting on the desk looking down at me arouses a number of fantasies.
+====================
+
+====================
+index 263
+offset 35381
+name NULL
+length 73
+====================
+It feels like she's going to teach me about things other than studying...
+====================
+It feels like she's going to teach me about things other than studying...
+====================
+
+====================
+index 264
+offset 35504
+name Tomoyo
+length 34
+====================
+\"This is really embarrassing...\"
+====================
+\"This is really embarrassing...\"
+====================
+
+====================
+index 265
+offset 35588
+name Tomoyo
+length 19
+====================
+\"Is that enough?\"
+====================
+\"Is that enough?\"
+====================
+
+====================
+index 266
+offset 36115
+name Takafumi
+length 23
+====================
+\"What are you doing?\"
+====================
+\"What are you doing?\"
+====================
+
+====================
+index 267
+offset 36587
+name NULL
+length 15
+====================
+*Thuuuuuuuuuud*
+====================
+*Thuuuuuuuuuud*
+====================
+
+====================
+index 268
+offset 36630
+name Tomoyo
+length 13
+====================
+\".........\"
+====================
+\".........\"
+====================
+
+====================
+index 269
+offset 36695
+name Takafumi
+length 52
+====================
+\"Do you enjoy having Nee-chan dress up like that?\"
+====================
+\"Do you enjoy having Nee-chan dress up like that?\"
+====================
+
+====================
+index 270
+offset 36797
+name Tomoya
+length 78
+====================
+\"Well, yeah I do. But I'm sure Tomoyo locked the door, so how'd you get in?\"
+====================
+\"Well, yeah I do. But I'm sure Tomoyo locked the door, so how'd you get in?\"
+====================
+
+====================
+index 271
+offset 36927
+name Takafumi
+length 34
+====================
+\"Huh? The window wasn't locked.\"
+====================
+\"Huh? The window wasn't locked.\"
+====================
+
+====================
+index 272
+offset 37011
+name Tomoya
+length 28
+====================
+\"Don't come in like that.\"
+====================
+\"Don't come in like that.\"
+====================
+
+====================
+index 273
+offset 37091
+name Takafumi
+length 26
+====================
+\"You've done it before.\"
+====================
+\"You've done it before.\"
+====================
+
+====================
+index 274
+offset 37167
+name Tomoya
+length 35
+====================
+\"That was because I lost my key.\"
+====================
+\"That was because I lost my key.\"
+====================
+
+====================
+index 275
+offset 37254
+name Takafumi
+length 86
+====================
+\"So it's usually open. You should be careful since thieves can get in that way too.\"
+====================
+\"So it's usually open. You should be careful since thieves can get in that way too.\"
+====================
+
+====================
+index 276
+offset 37390
+name Tomoya
+length 44
+====================
+\"There's nothing really for them to take.\"
+====================
+\"There's nothing really for them to take.\"
+====================
+
+====================
+index 277
+offset 37486
+name Takafumi
+length 20
+====================
+\"Well, okay then.\"
+====================
+\"Well, okay then.\"
+====================
+
+====================
+index 278
+offset 37982
+name Tomoyo
+length 23
+====================
+\"Wait here a minute.\"
+====================
+\"Wait here a minute.\"
+====================
+
+====================
+index 279
+offset 39191
+name Tomoyo
+length 24
+====================
+\"Like hell it's fine!\"
+====================
+\"Like hell it's fine!\"
+====================
+
+====================
+index 280
+offset 39231
+name NULL
+length 26
+====================
+She changed and came back.
+====================
+She changed and came back.
+====================
+
+====================
+index 281
+offset 39581
+name Takafumi
+length 43
+====================
+\"Woah, Nee-chan, what are you mad about?\"
+====================
+\"Woah, Nee-chan, what are you mad about?\"
+====================
+
+====================
+index 282
+offset 39946
+name Tomoyo
+length 15
+====================
+\"Everything!\"
+====================
+\"Everything!\"
+====================
+
+====================
+index 283
+offset 40013
+name Takafumi
+length 35
+====================
+\"Did something happen at school?\"
+====================
+\"Did something happen at school?\"
+====================
+
+====================
+index 284
+offset 40098
+name Tomoyo
+length 37
+====================
+\"Something happened here just now!\"
+====================
+\"Something happened here just now!\"
+====================
+
+====================
+index 285
+offset 40459
+name Takafumi
+length 49
+====================
+\"Huh? You mean Nii-chan peeking up your skirt?\"
+====================
+\"Huh? You mean Nii-chan peeking up your skirt?\"
+====================
+
+====================
+index 286
+offset 40830
+name Tomoyo
+length 26
+====================
+\"No, that was a reward!\"
+====================
+\"No, that was a reward!\"
+====================
+
+====================
+index 287
+offset 40908
+name Takafumi
+length 7
+====================
+\"Eh?\"
+====================
+\"Eh?\"
+====================
+
+====================
+index 288
+offset 41237
+name Tomoyo
+length 9
+====================
+\"Ah...\"
+====================
+\"Ah...\"
+====================
+
+====================
+index 289
+offset 41296
+name Tomoyo
+length 14
+====================
+\"..........\"
+====================
+\"..........\"
+====================
+
+====================
+index 290
+offset 41632
+name Tomoyo
+length 26
+====================
+\"Say nothing and leave.\"
+====================
+\"Say nothing and leave.\"
+====================
+
+====================
+index 291
+offset 41982
+name Takafumi
+length 7
+====================
+\"No.\"
+====================
+\"No.\"
+====================
+
+====================
+index 292
+offset 42022
+name NULL
+length 11
+====================
+*Pow* *Pow*
+====================
+*Pow* *Pow*
+====================
+
+====================
+index 293
+offset 42319
+name NULL
+length 76
+====================
+Not concerning myself with their sibling dispute, I head for the bath alone.
+====================
+Not concerning myself with their sibling dispute, I head for the bath alone.
+====================

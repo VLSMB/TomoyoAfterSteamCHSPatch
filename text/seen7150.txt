@@ -1,0 +1,1564 @@
+type seen7150
+count 142
+
+====================
+index 1
+offset 1239
+name NULL
+length 35
+====================
+Increases attack power for 5 turns.
+====================
+Increases attack power for 5 turns.
+====================
+
+====================
+index 4
+offset 1577
+name NULL
+length 40
+====================
+Deal damage to the surrounding 3x3 area.
+====================
+Deal damage to the surrounding 3x3 area.
+====================
+
+====================
+index 7
+offset 2000
+name NULL
+length 47
+====================
+Increases everyone except Kanako's attack power
+====================
+Increases everyone except Kanako's attack power
+====================
+
+====================
+index 8
+offset 2072
+name NULL
+length 12
+====================
+for 5 turns.
+====================
+for 5 turns.
+====================
+
+====================
+index 10
+offset 2444
+name NULL
+length 22
+====================
+Cockroach Bait Attack.
+====================
+Cockroach Bait Attack.
+====================
+
+====================
+index 11
+offset 2491
+name NULL
+length 40
+====================
+Deal damage to the surrounding 4x4 area.
+====================
+Deal damage to the surrounding 4x4 area.
+====================
+
+====================
+index 13
+offset 2928
+name NULL
+length 12
+====================
+Summon Fuko.
+====================
+Summon Fuko.
+====================
+
+====================
+index 16
+offset 3263
+name NULL
+length 48
+====================
+Hold position and enter a defensive stance while
+====================
+Hold position and enter a defensive stance while
+====================
+
+====================
+index 17
+offset 3336
+name NULL
+length 55
+====================
+enemies focus their attacks on the caster for one turn.
+====================
+enemies focus their attacks on the caster for one turn.
+====================
+
+====================
+index 19
+offset 3708
+name NULL
+length 55
+====================
+Increases Tomoya and Tomoyo's attack power for 5 turns.
+====================
+Increases Tomoya and Tomoyo's attack power for 5 turns.
+====================
+
+====================
+index 22
+offset 4106
+name NULL
+length 23
+====================
+Summon Fuko as a decoy.
+====================
+Summon Fuko as a decoy.
+====================
+
+====================
+index 23
+offset 4154
+name NULL
+length 35
+====================
+Enemies focus their attacks on her.
+====================
+Enemies focus their attacks on her.
+====================
+
+====================
+index 25
+offset 4529
+name NULL
+length 52
+====================
+Greatly increases unarmed attack power for 10 turns.
+====================
+Greatly increases unarmed attack power for 10 turns.
+====================
+
+====================
+index 26
+offset 4606
+name NULL
+length 38
+====================
+Will occasionally cause instant death.
+====================
+Will occasionally cause instant death.
+====================
+
+====================
+index 28
+offset 5001
+name NULL
+length 21
+====================
+The will of the town.
+====================
+The will of the town.
+====================
+
+====================
+index 29
+offset 5047
+name NULL
+length 40
+====================
+Deal damage to the surrounding 8x8 area.
+====================
+Deal damage to the surrounding 8x8 area.
+====================
+
+====================
+index 31
+offset 5399
+name NULL
+length 35
+====================
+Increases attack power for 5 turns.
+====================
+Increases attack power for 5 turns.
+====================
+
+====================
+index 34
+offset 5717
+name NULL
+length 31
+====================
+Blow an enemy away with a kick.
+====================
+Blow an enemy away with a kick.
+====================
+
+====================
+index 35
+offset 5773
+name NULL
+length 37
+====================
+Deal damage to all enemies in a line.
+====================
+Deal damage to all enemies in a line.
+====================
+
+====================
+index 37
+offset 6127
+name NULL
+length 44
+====================
+Enemies focus on attacking Tomoyo for 1 turn
+====================
+Enemies focus on attacking Tomoyo for 1 turn
+====================
+
+====================
+index 38
+offset 6196
+name NULL
+length 32
+====================
+and Tomoya recovers some health.
+====================
+and Tomoya recovers some health.
+====================
+
+====================
+index 40
+offset 6525
+name NULL
+length 55
+====================
+Move towards Tomo to protect her when using \"attack\".
+====================
+Move towards Tomo to protect her when using \"attack\".
+====================
+
+====================
+index 43
+offset 6863
+name NULL
+length 45
+====================
+Jump to the center of the floor and do damage
+====================
+Jump to the center of the floor and do damage
+====================
+
+====================
+index 44
+offset 6933
+name NULL
+length 41
+====================
+upon landing to the surrounding 6x6 area.
+====================
+upon landing to the surrounding 6x6 area.
+====================
+
+====================
+index 46
+offset 7391
+name NULL
+length 45
+====================
+Enemies focus on attacking Tomoyo for 2 turns
+====================
+Enemies focus on attacking Tomoyo for 2 turns
+====================
+
+====================
+index 47
+offset 7461
+name NULL
+length 32
+====================
+and Tomoya recovers some health.
+====================
+and Tomoya recovers some health.
+====================
+
+====================
+index 49
+offset 7790
+name NULL
+length 29
+====================
+All enemies flee for 2 turns.
+====================
+All enemies flee for 2 turns.
+====================
+
+====================
+index 52
+offset 8102
+name NULL
+length 36
+====================
+For 2 turns, if an ally is attacked,
+====================
+For 2 turns, if an ally is attacked,
+====================
+
+====================
+index 53
+offset 8163
+name NULL
+length 24
+====================
+teleport to the attacker
+====================
+teleport to the attacker
+====================
+
+====================
+index 54
+offset 8212
+name NULL
+length 31
+====================
+and immediately counter-attack.
+====================
+and immediately counter-attack.
+====================
+
+====================
+index 55
+offset 8494
+name NULL
+length 54
+====================
+Kick all enemies in the surrounding 3x3 area 10 times.
+====================
+Kick all enemies in the surrounding 3x3 area 10 times.
+====================
+
+====================
+index 58
+offset 8871
+name NULL
+length 28
+====================
+Humanity's final trump card.
+====================
+Humanity's final trump card.
+====================
+
+====================
+index 59
+offset 8924
+name NULL
+length 40
+====================
+Greatly increases all stats for 5 turns.
+====================
+Greatly increases all stats for 5 turns.
+====================
+
+====================
+index 61
+offset 9316
+name NULL
+length 46
+====================
+Increases chance of critical hits for 5 turns.
+====================
+Increases chance of critical hits for 5 turns.
+====================
+
+====================
+index 64
+offset 9745
+name NULL
+length 42
+====================
+Spit, paralyzing all enemies within range.
+====================
+Spit, paralyzing all enemies within range.
+====================
+
+====================
+index 67
+offset 10130
+name NULL
+length 55
+====================
+Move towards Tomo to protect her when using \"attack\".
+====================
+Move towards Tomo to protect her when using \"attack\".
+====================
+
+====================
+index 70
+offset 10508
+name NULL
+length 23
+====================
+Deal damage to 3 lines.
+====================
+Deal damage to 3 lines.
+====================
+
+====================
+index 71
+offset 10556
+name NULL
+length 44
+====================
+Moves Kanako to the edge of the battlefield.
+====================
+Moves Kanako to the edge of the battlefield.
+====================
+
+====================
+index 73
+offset 10897
+name NULL
+length 49
+====================
+When near death, enjoy the Papico-brand ice cream
+====================
+When near death, enjoy the Papico-brand ice cream
+====================
+
+====================
+index 74
+offset 10971
+name NULL
+length 46
+====================
+you've been hiding to restore all your health.
+====================
+you've been hiding to restore all your health.
+====================
+
+====================
+index 76
+offset 11294
+name NULL
+length 46
+====================
+Enemies focus on attacking Kanako for 3 turns.
+====================
+Enemies focus on attacking Kanako for 3 turns.
+====================
+
+====================
+index 79
+offset 11683
+name NULL
+length 19
+====================
+You attack so fast,
+====================
+You attack so fast,
+====================
+
+====================
+index 80
+offset 11727
+name NULL
+length 51
+====================
+your two-handed or one-handed sword becomes a blur.
+====================
+your two-handed or one-handed sword becomes a blur.
+====================
+
+====================
+index 81
+offset 11803
+name NULL
+length 32
+====================
+Gain another attack for 3 turns.
+====================
+Gain another attack for 3 turns.
+====================
+
+====================
+index 82
+offset 12146
+name NULL
+length 37
+====================
+100% critical hit chance for 5 turns.
+====================
+100% critical hit chance for 5 turns.
+====================
+
+====================
+index 85
+offset 12646
+name NULL
+length 48
+====================
+Creates a shock wave by punching the ground with
+====================
+Creates a shock wave by punching the ground with
+====================
+
+====================
+index 86
+offset 12719
+name NULL
+length 10
+====================
+your fist.
+====================
+your fist.
+====================
+
+====================
+index 87
+offset 12754
+name NULL
+length 41
+====================
+Deals damage to the surrounding 6x6 area.
+====================
+Deals damage to the surrounding 6x6 area.
+====================
+
+====================
+index 88
+offset 13126
+name NULL
+length 30
+====================
+Transcendent secret technique.
+====================
+Transcendent secret technique.
+====================
+
+====================
+index 89
+offset 13184
+name NULL
+length 52
+====================
+Greatly increases unarmed attack power for 10 turns.
+====================
+Greatly increases unarmed attack power for 10 turns.
+====================
+
+====================
+index 90
+offset 13261
+name NULL
+length 39
+====================
+33% chance to instantly kill the enemy.
+====================
+33% chance to instantly kill the enemy.
+====================
+
+====================
+index 91
+offset 13566
+name NULL
+length 46
+====================
+Increases everyone's attack power for 5 turns.
+====================
+Increases everyone's attack power for 5 turns.
+====================
+
+====================
+index 94
+offset 13935
+name NULL
+length 43
+====================
+All allies move towards Tomo to protect her
+====================
+All allies move towards Tomo to protect her
+====================
+
+====================
+index 95
+offset 14003
+name NULL
+length 22
+====================
+when using \"attack\".
+====================
+when using \"attack\".
+====================
+
+====================
+index 97
+offset 14282
+name NULL
+length 49
+====================
+Causes a random number of enemies to fall asleep.
+====================
+Causes a random number of enemies to fall asleep.
+====================
+
+====================
+index 100
+offset 14654
+name NULL
+length 44
+====================
+Enemies focus on attacking Tomo for 2 turns.
+====================
+Enemies focus on attacking Tomo for 2 turns.
+====================
+
+====================
+index 103
+offset 15021
+name NULL
+length 50
+====================
+Teleports everyone except the caster to the enemy.
+====================
+Teleports everyone except the caster to the enemy.
+====================
+
+====================
+index 106
+offset 15414
+name NULL
+length 28
+====================
+Enemies will not attack Tomo
+====================
+Enemies will not attack Tomo
+====================
+
+====================
+index 107
+offset 15467
+name NULL
+length 37
+====================
+until she hits with a regular attack.
+====================
+until she hits with a regular attack.
+====================
+
+====================
+index 109
+offset 15861
+name NULL
+length 41
+====================
+Increases everyone's defense for 5 turns.
+====================
+Increases everyone's defense for 5 turns.
+====================
+
+====================
+index 112
+offset 16225
+name NULL
+length 44
+====================
+Enemies won't target the caster for 5 turns.
+====================
+Enemies won't target the caster for 5 turns.
+====================
+
+====================
+index 115
+offset 16612
+name NULL
+length 39
+====================
+Increases everyone's speed for 5 turns.
+====================
+Increases everyone's speed for 5 turns.
+====================
+
+====================
+index 118
+offset 16974
+name NULL
+length 20
+====================
+Forbidden overdrive.
+====================
+Forbidden overdrive.
+====================
+
+====================
+index 119
+offset 17019
+name NULL
+length 40
+====================
+Greatly increases all stats for 5 turns.
+====================
+Greatly increases all stats for 5 turns.
+====================
+
+====================
+index 121
+offset 17546
+name NULL
+length 38
+====================
+Have a 33% chance to counter when hit.
+====================
+Have a 33% chance to counter when hit.
+====================
+
+====================
+index 124
+offset 17867
+name NULL
+length 53
+====================
+Increases attack power when using a two-handed sword.
+====================
+Increases attack power when using a two-handed sword.
+====================
+
+====================
+index 127
+offset 18263
+name NULL
+length 28
+====================
+Double the number of attacks
+====================
+Double the number of attacks
+====================
+
+====================
+index 128
+offset 18316
+name NULL
+length 22
+====================
+when using two swords.
+====================
+when using two swords.
+====================
+
+====================
+index 130
+offset 18635
+name NULL
+length 44
+====================
+Increases evasion when using a one-handed or
+====================
+Increases evasion when using a one-handed or
+====================
+
+====================
+index 131
+offset 18704
+name NULL
+length 17
+====================
+two-handed sword.
+====================
+two-handed sword.
+====================
+
+====================
+index 132
+offset 18746
+name NULL
+length 27
+====================
+Dodge the next two attacks.
+====================
+Dodge the next two attacks.
+====================
+
+====================
+index 133
+offset 19024
+name NULL
+length 44
+====================
+When using a one-handed or two-handed sword,
+====================
+When using a one-handed or two-handed sword,
+====================
+
+====================
+index 134
+offset 19093
+name NULL
+length 40
+====================
+deal damage to the surrounding 3x3 area.
+====================
+deal damage to the surrounding 3x3 area.
+====================
+
+====================
+index 136
+offset 19425
+name NULL
+length 53
+====================
+Increases attack power when using a two-handed sword.
+====================
+Increases attack power when using a two-handed sword.
+====================
+
+====================
+index 139
+offset 19821
+name NULL
+length 28
+====================
+Double the number of attacks
+====================
+Double the number of attacks
+====================
+
+====================
+index 140
+offset 19874
+name NULL
+length 22
+====================
+when using two swords.
+====================
+when using two swords.
+====================
+
+====================
+index 142
+offset 20193
+name NULL
+length 19
+====================
+When using a spear,
+====================
+When using a spear,
+====================
+
+====================
+index 143
+offset 20237
+name NULL
+length 40
+====================
+deal damage to the surrounding 3x3 area.
+====================
+deal damage to the surrounding 3x3 area.
+====================
+
+====================
+index 145
+offset 20554
+name NULL
+length 44
+====================
+Increases evasion when using a one-handed or
+====================
+Increases evasion when using a one-handed or
+====================
+
+====================
+index 146
+offset 20623
+name NULL
+length 17
+====================
+two-handed sword.
+====================
+two-handed sword.
+====================
+
+====================
+index 147
+offset 20665
+name NULL
+length 29
+====================
+Dodge the next three attacks.
+====================
+Dodge the next three attacks.
+====================
+
+====================
+index 148
+offset 20945
+name NULL
+length 19
+====================
+When using a spear,
+====================
+When using a spear,
+====================
+
+====================
+index 149
+offset 20989
+name NULL
+length 40
+====================
+deal damage to the surrounding 5x5 area.
+====================
+deal damage to the surrounding 5x5 area.
+====================
+
+====================
+index 151
+offset 21321
+name NULL
+length 33
+====================
+Increases attack power when using
+====================
+Increases attack power when using
+====================
+
+====================
+index 152
+offset 21379
+name NULL
+length 33
+====================
+a one-handed or two-handed sword.
+====================
+a one-handed or two-handed sword.
+====================
+
+====================
+index 154
+offset 21689
+name NULL
+length 48
+====================
+Heal anyone in critical condition up to 3 times.
+====================
+Heal anyone in critical condition up to 3 times.
+====================
+
+====================
+index 157
+offset 22080
+name NULL
+length 44
+====================
+When using a one-handed or two-handed sword,
+====================
+When using a one-handed or two-handed sword,
+====================
+
+====================
+index 158
+offset 22149
+name NULL
+length 32
+====================
+hit up to eight tiles in a line.
+====================
+hit up to eight tiles in a line.
+====================
+
+====================
+index 160
+offset 22458
+name NULL
+length 41
+====================
+Increases evasion when using a one-handed
+====================
+Increases evasion when using a one-handed
+====================
+
+====================
+index 161
+offset 22524
+name NULL
+length 20
+====================
+or two-handed sword.
+====================
+or two-handed sword.
+====================
+
+====================
+index 162
+offset 22569
+name NULL
+length 28
+====================
+Dodge the next four attacks.
+====================
+Dodge the next four attacks.
+====================
+
+====================
+index 163
+offset 22848
+name NULL
+length 21
+====================
+Ultimate sword skill.
+====================
+Ultimate sword skill.
+====================
+
+====================
+index 164
+offset 22894
+name NULL
+length 44
+====================
+When using a one-handed or two-handed sword,
+====================
+When using a one-handed or two-handed sword,
+====================
+
+====================
+index 165
+offset 22963
+name NULL
+length 44
+====================
+deal damage 5 times to enemies within range.
+====================
+deal damage 5 times to enemies within range.
+====================
+
+====================
+index 166
+offset 23353
+name NULL
+length 39
+====================
+Reduces defense and increases strength.
+====================
+Reduces defense and increases strength.
+====================
+
+====================
+index 169
+offset 23675
+name NULL
+length 42
+====================
+Increases attack power when dual-wielding.
+====================
+Increases attack power when dual-wielding.
+====================
+
+====================
+index 172
+offset 24040
+name NULL
+length 37
+====================
+When anyone is in critical condition,
+====================
+When anyone is in critical condition,
+====================
+
+====================
+index 173
+offset 24102
+name NULL
+length 24
+====================
+everyone recovers 100HP.
+====================
+everyone recovers 100HP.
+====================
+
+====================
+index 175
+offset 24443
+name NULL
+length 48
+====================
+The strength of your first direct attack will be
+====================
+The strength of your first direct attack will be
+====================
+
+====================
+index 176
+offset 24516
+name NULL
+length 18
+====================
+greatly increased.
+====================
+greatly increased.
+====================
+
+====================
+index 178
+offset 24831
+name NULL
+length 43
+====================
+Increases attack power when using a katana.
+====================
+Increases attack power when using a katana.
+====================
+
+====================
+index 181
+offset 25172
+name NULL
+length 33
+====================
+Improves chance of finding items.
+====================
+Improves chance of finding items.
+====================
+
+====================
+index 184
+offset 25508
+name NULL
+length 34
+====================
+Attack twice with a single dagger.
+====================
+Attack twice with a single dagger.
+====================
+
+====================
+index 185
+offset 25567
+name NULL
+length 47
+====================
+Uses main hand dagger if dual-wielding daggers.
+====================
+Uses main hand dagger if dual-wielding daggers.
+====================
+
+====================
+index 187
+offset 25911
+name NULL
+length 31
+====================
+When using a projectile weapon,
+====================
+When using a projectile weapon,
+====================
+
+====================
+index 188
+offset 25967
+name NULL
+length 40
+====================
+deal damage to the surrounding 4x4 area.
+====================
+deal damage to the surrounding 4x4 area.
+====================
+
+====================
+index 190
+offset 26304
+name NULL
+length 16
+====================
+Increases speed.
+====================
+Increases speed.
+====================
+
+====================
+index 193
+offset 26623
+name NULL
+length 34
+====================
+Increases chance of critical hits.
+====================
+Increases chance of critical hits.
+====================
+
+====================
+index 196
+offset 26995
+name NULL
+length 34
+====================
+Attack twice with a single dagger.
+====================
+Attack twice with a single dagger.
+====================
+
+====================
+index 197
+offset 27054
+name NULL
+length 47
+====================
+Uses main hand dagger if dual-wielding daggers.
+====================
+Uses main hand dagger if dual-wielding daggers.
+====================
+
+====================
+index 199
+offset 27398
+name NULL
+length 31
+====================
+When using a projectile weapon,
+====================
+When using a projectile weapon,
+====================
+
+====================
+index 200
+offset 27454
+name NULL
+length 40
+====================
+deal damage to the surrounding 4x4 area.
+====================
+deal damage to the surrounding 4x4 area.
+====================
+
+====================
+index 202
+offset 27791
+name NULL
+length 16
+====================
+Increases speed.
+====================
+Increases speed.
+====================
+
+====================
+index 205
+offset 28110
+name NULL
+length 44
+====================
+Enemies won't target the caster for 4 turns.
+====================
+Enemies won't target the caster for 4 turns.
+====================
+
+====================
+index 208
+offset 28437
+name NULL
+length 34
+====================
+Increases chance of critical hits.
+====================
+Increases chance of critical hits.
+====================
+
+====================
+index 211
+offset 28809
+name NULL
+length 34
+====================
+Attack twice with a single dagger.
+====================
+Attack twice with a single dagger.
+====================
+
+====================
+index 212
+offset 28868
+name NULL
+length 47
+====================
+Uses main hand dagger if dual-wielding daggers.
+====================
+Uses main hand dagger if dual-wielding daggers.
+====================
+
+====================
+index 214
+offset 29212
+name NULL
+length 16
+====================
+Increases speed.
+====================
+Increases speed.
+====================
+
+====================
+index 217
+offset 29531
+name NULL
+length 40
+====================
+Enemies won't target caster for 4 turns.
+====================
+Enemies won't target caster for 4 turns.
+====================
+
+====================
+index 220
+offset 29854
+name NULL
+length 34
+====================
+Increases chance of critical hits.
+====================
+Increases chance of critical hits.
+====================
+
+====================
+index 223
+offset 30211
+name NULL
+length 46
+====================
+Your next direct attack is guaranteed to kill.
+====================
+Your next direct attack is guaranteed to kill.
+====================
+
+====================
+index 226
+offset 30555
+name NULL
+length 42
+====================
+Deal damage to a 3x3 area with a fireball.
+====================
+Deal damage to a 3x3 area with a fireball.
+====================
+
+====================
+index 229
+offset 30980
+name NULL
+length 35
+====================
+Confuse a random number of enemies.
+====================
+Confuse a random number of enemies.
+====================
+
+====================
+index 232
+offset 31358
+name NULL
+length 38
+====================
+Deal damage to 3 lines with lightning.
+====================
+Deal damage to 3 lines with lightning.
+====================
+
+====================
+index 235
+offset 31719
+name NULL
+length 39
+====================
+Cast fireballs for 3 consecutive turns,
+====================
+Cast fireballs for 3 consecutive turns,
+====================
+
+====================
+index 236
+offset 31783
+name NULL
+length 24
+====================
+each hitting a 3x3 area.
+====================
+each hitting a 3x3 area.
+====================
+
+====================
+index 238
+offset 32204
+name NULL
+length 41
+====================
+Deal damage to a 5x5 area with lightning.
+====================
+Deal damage to a 5x5 area with lightning.
+====================
+
+====================
+index 241
+offset 32663
+name NULL
+length 35
+====================
+Heal someone in critical condition.
+====================
+Heal someone in critical condition.
+====================
+
+====================
+index 244
+offset 33001
+name NULL
+length 48
+====================
+Heal anyone in critical condition up to 3 times.
+====================
+Heal anyone in critical condition up to 3 times.
+====================
+
+====================
+index 247
+offset 33392
+name NULL
+length 38
+====================
+Increases defense when using a shield.
+====================
+Increases defense when using a shield.
+====================
+
+====================
+index 250
+offset 33733
+name NULL
+length 31
+====================
+Confuse all enemies for 1 turn.
+====================
+Confuse all enemies for 1 turn.
+====================
+
+====================
+index 253
+offset 34107
+name NULL
+length 46
+====================
+Everyone dodges all enemy attacks for 3 turns.
+====================
+Everyone dodges all enemy attacks for 3 turns.
+====================
+
+====================
+index 256
+offset 34531
+name NULL
+length 38
+====================
+Increases defense when using a shield.
+====================
+Increases defense when using a shield.
+====================
+
+====================
+index 259
+offset 34872
+name NULL
+length 39
+====================
+Cast fireballs for 5 consecutive turns,
+====================
+Cast fireballs for 5 consecutive turns,
+====================
+
+====================
+index 260
+offset 34936
+name NULL
+length 24
+====================
+each hitting a 3x3 area.
+====================
+each hitting a 3x3 area.
+====================
+
+====================
+index 262
+offset 35357
+name NULL
+length 39
+====================
+Cast lightning for 2 consecutive turns,
+====================
+Cast lightning for 2 consecutive turns,
+====================
+
+====================
+index 263
+offset 35421
+name NULL
+length 24
+====================
+each hitting a 5x5 area.
+====================
+each hitting a 5x5 area.
+====================
+
+====================
+index 265
+offset 35862
+name NULL
+length 40
+====================
+Cast fireballs for 10 consecutive turns,
+====================
+Cast fireballs for 10 consecutive turns,
+====================
+
+====================
+index 266
+offset 35927
+name NULL
+length 24
+====================
+each hitting a 3x3 area.
+====================
+each hitting a 3x3 area.
+====================
+
+====================
+index 268
+offset 36348
+name NULL
+length 15
+====================
+Ultimate magic.
+====================
+Ultimate magic.
+====================
+
+====================
+index 269
+offset 36388
+name NULL
+length 44
+====================
+Deal damage to an 8x8 area with a meteorite.
+====================
+Deal damage to an 8x8 area with a meteorite.
+====================
+
+====================
+index 271
+offset 36726
+name NULL
+length 17
+====================
+Takafumi / Dispel
+====================
+Takafumi / Dispel
+====================

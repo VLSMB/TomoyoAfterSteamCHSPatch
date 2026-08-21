@@ -1,0 +1,1157 @@
+type seen723
+count 105
+
+====================
+index 1
+offset 263
+name NULL
+length 15
+====================
+July 23rd (Fri)
+====================
+July 23rd (Fri)
+====================
+
+====================
+index 2
+offset 776
+name Tomoya
+length 30
+====================
+\"This is revenge, Takafumi.\"
+====================
+\"This is revenge, Takafumi.\"
+====================
+
+====================
+index 3
+offset 822
+name NULL
+length 94
+====================
+As soon as I get home, I take off and throw my work clothes on the floor and put on a T-shirt.
+====================
+As soon as I get home, I take off and throw my work clothes on the floor and put on a T-shirt.
+====================
+
+====================
+index 4
+offset 1240
+name Takafumi
+length 27
+====================
+\"Man, you're persistent.\"
+====================
+\"Man, you're persistent.\"
+====================
+
+====================
+index 5
+offset 1591
+name Takafumi
+length 34
+====================
+\"Okay, if you lose this time...\"
+====================
+\"Okay, if you lose this time...\"
+====================
+
+====================
+index 6
+offset 1641
+name NULL
+length 61
+====================
+Takafumi looks at Tomoyo in the kitchen and lowers his voice.
+====================
+Takafumi looks at Tomoyo in the kitchen and lowers his voice.
+====================
+
+====================
+index 7
+offset 1754
+name Takafumi
+length 27
+====================
+\"Break up with Nee-chan.\"
+====================
+\"Break up with Nee-chan.\"
+====================
+
+====================
+index 8
+offset 1833
+name Takafumi
+length 24
+====================
+\"...will you do that?\"
+====================
+\"...will you do that?\"
+====================
+
+====================
+index 9
+offset 1907
+name Tomoya
+length 12
+====================
+\"I won't.\"
+====================
+\"I won't.\"
+====================
+
+====================
+index 10
+offset 2243
+name Takafumi
+length 15
+====================
+\"You won't?!\"
+====================
+\"You won't?!\"
+====================
+
+====================
+index 11
+offset 2311
+name Tomoya
+length 27
+====================
+\"As if I'd concede that.\"
+====================
+\"As if I'd concede that.\"
+====================
+
+====================
+index 12
+offset 2388
+name Tomoya
+length 24
+====================
+\"Pick something else.\"
+====================
+\"Pick something else.\"
+====================
+
+====================
+index 13
+offset 2736
+name Takafumi
+length 39
+====================
+\"Didn't you say you'd do anything...\"
+====================
+\"Didn't you say you'd do anything...\"
+====================
+
+====================
+index 14
+offset 3099
+name Takafumi
+length 59
+====================
+\"Okay then, I'll have you get flattened by Kanako again.\"
+====================
+\"Okay then, I'll have you get flattened by Kanako again.\"
+====================
+
+====================
+index 15
+offset 4324
+name Takafumi
+length 18
+====================
+\"Okay. Too bad.\"
+====================
+\"Okay. Too bad.\"
+====================
+
+====================
+index 16
+offset 4358
+name NULL
+length 10
+====================
+...I lost.
+====================
+...I lost.
+====================
+
+====================
+index 17
+offset 4692
+name Takafumi
+length 95
+====================
+\"Okay, Kanako went to go buy some ice cream, so you're going to take it from her and eat it.\"
+====================
+\"Okay, Kanako went to go buy some ice cream, so you're going to take it from her and eat it.\"
+====================
+
+====================
+index 18
+offset 4837
+name Tomoya
+length 9
+====================
+\"Okay.\"
+====================
+\"Okay.\"
+====================
+
+====================
+index 19
+offset 5224
+name NULL
+length 4
+====================
+Talk
+====================
+Talk
+====================
+
+====================
+index 20
+offset 5233
+name NULL
+length 5
+====================
+Study
+====================
+Study
+====================
+
+====================
+index 21
+offset 5243
+name NULL
+length 12
+====================
+Go out front
+====================
+Go out front
+====================
+
+====================
+index 22
+offset 5347
+name NULL
+length 6
+====================
+Tomoyo
+====================
+Tomoyo
+====================
+
+====================
+index 23
+offset 5358
+name NULL
+length 8
+====================
+Takafumi
+====================
+Takafumi
+====================
+
+====================
+index 24
+offset 5371
+name NULL
+length 4
+====================
+Tomo
+====================
+Tomo
+====================
+
+====================
+index 25
+offset 5513
+name Tomoya
+length 38
+====================
+\"Tomoyo, what's for dinner tonight?\"
+====================
+\"Tomoyo, what's for dinner tonight?\"
+====================
+
+====================
+index 26
+offset 5874
+name Tomoyo
+length 22
+====================
+\"Sliced pork salad.\"
+====================
+\"Sliced pork salad.\"
+====================
+
+====================
+index 27
+offset 5946
+name Tomoya
+length 17
+====================
+\"Woo! Awesome!\"
+====================
+\"Woo! Awesome!\"
+====================
+
+====================
+index 28
+offset 6090
+name Tomoya
+length 46
+====================
+\"Tomoyo, what color are your panties today?\"
+====================
+\"Tomoyo, what color are your panties today?\"
+====================
+
+====================
+index 29
+offset 6459
+name Tomoyo
+length 34
+====================
+\"As if I'm going to tell you...\"
+====================
+\"As if I'm going to tell you...\"
+====================
+
+====================
+index 30
+offset 6816
+name Tomoyo
+length 26
+====================
+\"Well, they're white...\"
+====================
+\"Well, they're white...\"
+====================
+
+====================
+index 31
+offset 6892
+name Tomoya
+length 17
+====================
+\"Woo! Awesome!\"
+====================
+\"Woo! Awesome!\"
+====================
+
+====================
+index 32
+offset 7036
+name Tomoya
+length 58
+====================
+\"Tomoyo, who's the starting pitcher for Yokohama today?\"
+====================
+\"Tomoyo, who's the starting pitcher for Yokohama today?\"
+====================
+
+====================
+index 33
+offset 7447
+name Tomoyo
+length 40
+====================
+\"I wouldn't know something like that.\"
+====================
+\"I wouldn't know something like that.\"
+====================
+
+====================
+index 34
+offset 7537
+name Tomoyo
+length 42
+====================
+\"Wouldn't it be someone like Sasaki...?\"
+====================
+\"Wouldn't it be someone like Sasaki...?\"
+====================
+
+====================
+index 35
+offset 7659
+name Tomoya
+length 28
+====================
+\"Woo! Sasaki is starting!\"
+====================
+\"Woo! Sasaki is starting!\"
+====================
+
+====================
+index 36
+offset 8126
+name Takafumi
+length 25
+====================
+\"Hey, your punishment.\"
+====================
+\"Hey, your punishment.\"
+====================
+
+====================
+index 37
+offset 8201
+name Tomoya
+length 7
+====================
+\"No.\"
+====================
+\"No.\"
+====================
+
+====================
+index 38
+offset 8532
+name Takafumi
+length 7
+====================
+\"Eh?\"
+====================
+\"Eh?\"
+====================
+
+====================
+index 39
+offset 8589
+name Tomoya
+length 17
+====================
+\"Just kidding.\"
+====================
+\"Just kidding.\"
+====================
+
+====================
+index 40
+offset 9004
+name Takafumi
+length 25
+====================
+\"Hey, your punishment.\"
+====================
+\"Hey, your punishment.\"
+====================
+
+====================
+index 41
+offset 9449
+name Tomoya
+length 34
+====================
+\"Tomo, is there a boy you like?\"
+====================
+\"Tomo, is there a boy you like?\"
+====================
+
+====================
+index 42
+offset 9803
+name Tomo
+length 30
+====================
+\"Eh? I can't tell you that.\"
+====================
+\"Eh? I can't tell you that.\"
+====================
+
+====================
+index 43
+offset 9883
+name Tomoya
+length 18
+====================
+\"Ooh, there is!\"
+====================
+\"Ooh, there is!\"
+====================
+
+====================
+index 44
+offset 10028
+name Tomoya
+length 42
+====================
+\"Tomo, who do you like more, him or me?\"
+====================
+\"Tomo, who do you like more, him or me?\"
+====================
+
+====================
+index 45
+offset 10390
+name Tomo
+length 27
+====================
+\"Eh, there isn't anyone.\"
+====================
+\"Eh, there isn't anyone.\"
+====================
+
+====================
+index 46
+offset 10553
+name Tomoya
+length 44
+====================
+\"Tomo, what color are your panties today?\"
+====================
+\"Tomo, what color are your panties today?\"
+====================
+
+====================
+index 47
+offset 10724
+name Tomoya
+length 56
+====================
+\"Tomo, who's the starting pitcher for Yokohama today?\"
+====================
+\"Tomo, who's the starting pitcher for Yokohama today?\"
+====================
+
+====================
+index 48
+offset 10882
+name NULL
+length 27
+====================
+That's right... I'll study.
+====================
+That's right... I'll study.
+====================
+
+====================
+index 49
+offset 10984
+name NULL
+length 27
+====================
+Guess I've got no choice...
+====================
+Guess I've got no choice...
+====================
+
+====================
+index 50
+offset 11440
+name Takafumi
+length 10
+====================
+\"Rawr!!\"
+====================
+\"Rawr!!\"
+====================
+
+====================
+index 51
+offset 11466
+name NULL
+length 16
+====================
+Takafumi roared!
+====================
+Takafumi roared!
+====================
+
+====================
+index 52
+offset 11905
+name Takafumi
+length 31
+====================
+\"Nii-chan, your punishment!!\"
+====================
+\"Nii-chan, your punishment!!\"
+====================
+
+====================
+index 53
+offset 13100
+name NULL
+length 15
+====================
+I go out front.
+====================
+I go out front.
+====================
+
+====================
+index 54
+offset 13165
+name Kanako
+length 9
+====================
+\"Hmhm.\"
+====================
+\"Hmhm.\"
+====================
+
+====================
+index 55
+offset 13190
+name NULL
+length 97
+====================
+After I've been waiting a while, Kanako comes walking toward me in a good mood, eating ice cream.
+====================
+After I've been waiting a while, Kanako comes walking toward me in a good mood, eating ice cream.
+====================
+
+====================
+index 56
+offset 13303
+name NULL
+length 79
+====================
+I lower my face and head straight toward her in the guise of a normal passerby.
+====================
+I lower my face and head straight toward her in the guise of a normal passerby.
+====================
+
+====================
+index 57
+offset 13398
+name NULL
+length 25
+====================
+We're passing each other.
+====================
+We're passing each other.
+====================
+
+====================
+index 58
+offset 13439
+name NULL
+length 41
+====================
+I reach out my hand toward the ice cream.
+====================
+I reach out my hand toward the ice cream.
+====================
+
+====================
+index 59
+offset 13527
+name NULL
+length 5
+====================
+Damn.
+====================
+Damn.
+====================
+
+====================
+index 60
+offset 13548
+name NULL
+length 39
+====================
+My fingertip just grazed the ice cream.
+====================
+My fingertip just grazed the ice cream.
+====================
+
+====================
+index 61
+offset 13603
+name NULL
+length 47
+====================
+Kanako dodged by bending her upper body around.
+====================
+Kanako dodged by bending her upper body around.
+====================
+
+====================
+index 62
+offset 13972
+name Kanako
+length 31
+====================
+\"What do you want, prick...?\"
+====================
+\"What do you want, prick...?\"
+====================
+
+====================
+index 63
+offset 14044
+name NULL
+length 33
+====================
+She glares at me with those eyes.
+====================
+She glares at me with those eyes.
+====================
+
+====================
+index 64
+offset 14151
+name Tomoya
+length 74
+====================
+\"Sorry... I'm going to take your ice cream and then greedily devour it.\"
+====================
+\"Sorry... I'm going to take your ice cream and then greedily devour it.\"
+====================
+
+====================
+index 65
+offset 14241
+name NULL
+length 41
+====================
+I lick off the ice cream on my fingertip.
+====================
+I lick off the ice cream on my fingertip.
+====================
+
+====================
+index 66
+offset 14335
+name Kanako
+length 8
+====================
+\"Why?\"
+====================
+\"Why?\"
+====================
+
+====================
+index 67
+offset 14393
+name Tomoya
+length 29
+====================
+\"Because I want to eat it.\"
+====================
+\"Because I want to eat it.\"
+====================
+
+====================
+index 68
+offset 14472
+name Kanako
+length 19
+====================
+\"I don't get it.\"
+====================
+\"I don't get it.\"
+====================
+
+====================
+index 69
+offset 14792
+name NULL
+length 40
+====================
+I step further in and throw a left hook.
+====================
+I step further in and throw a left hook.
+====================
+
+====================
+index 70
+offset 14848
+name NULL
+length 88
+====================
+The ice cream that was supposed to be in its trajectory has vanished from Kanako's hand.
+====================
+The ice cream that was supposed to be in its trajectory has vanished from Kanako's hand.
+====================
+
+====================
+index 71
+offset 15259
+name Kanako
+length 67
+====================
+\"We can consider this a student challenging his master, correct?\"
+====================
+\"We can consider this a student challenging his master, correct?\"
+====================
+
+====================
+index 72
+offset 15342
+name NULL
+length 41
+====================
+The ice cream is dancing through the air.
+====================
+The ice cream is dancing through the air.
+====================
+
+====================
+index 73
+offset 15433
+name Tomoya
+length 32
+====================
+\"I'm not what I used to be...\"
+====================
+\"I'm not what I used to be...\"
+====================
+
+====================
+index 74
+offset 16412
+name Tomoyo
+length 36
+====================
+\"...dinner preparations are done.\"
+====================
+\"...dinner preparations are done.\"
+====================
+
+====================
+index 75
+offset 16498
+name Tomoyo
+length 53
+====================
+\"Are you having fun sleeping in a place like this?\"
+====================
+\"Are you having fun sleeping in a place like this?\"
+====================
+
+====================
+index 76
+offset 16601
+name Tomoya
+length 9
+====================
+\"No...\"
+====================
+\"No...\"
+====================
+
+====================
+index 77
+offset 17075
+name NULL
+length 36
+====================
+I sit up. She really did flatten me.
+====================
+I sit up. She really did flatten me.
+====================
+
+====================
+index 78
+offset 17434
+name Tomoyo
+length 72
+====================
+\"Here, I checked this out from the library along with a picture book.\"
+====================
+\"Here, I checked this out from the library along with a picture book.\"
+====================
+
+====================
+index 79
+offset 17556
+name Tomoya
+length 9
+====================
+\"What?\"
+====================
+\"What?\"
+====================
+
+====================
+index 80
+offset 17581
+name NULL
+length 61
+====================
+I take the book. The words \"basic typing\" are in the title.
+====================
+I take the book. The words \"basic typing\" are in the title.
+====================
+
+====================
+index 81
+offset 17692
+name Tomoyo
+length 45
+====================
+\"Effort is important, but so is technique.\"
+====================
+\"Effort is important, but so is technique.\"
+====================
+
+====================
+index 82
+offset 18672
+name NULL
+length 71
+====================
+I quickly finish dinner and dive head first into the introductory book.
+====================
+I quickly finish dinner and dive head first into the introductory book.
+====================
+
+====================
+index 83
+offset 19067
+name Takafumi
+length 44
+====================
+\"Nii-chan, you still want to continue...?\"
+====================
+\"Nii-chan, you still want to continue...?\"
+====================
+
+====================
+index 84
+offset 19127
+name NULL
+length 49
+====================
+Takafumi peeks at my book and asks exasperatedly.
+====================
+Takafumi peeks at my book and asks exasperatedly.
+====================
+
+====================
+index 85
+offset 19226
+name Tomoya
+length 9
+====================
+\"Yeah.\"
+====================
+\"Yeah.\"
+====================
+
+====================
+index 86
+offset 19287
+name Takafumi
+length 46
+====================
+\"Are you going to keep going until you win?\"
+====================
+\"Are you going to keep going until you win?\"
+====================
+
+====================
+index 87
+offset 19383
+name Tomoya
+length 9
+====================
+\"Yeah.\"
+====================
+\"Yeah.\"
+====================
+
+====================
+index 88
+offset 19444
+name Takafumi
+length 40
+====================
+\"Just what do you want to make me do?\"
+====================
+\"Just what do you want to make me do?\"
+====================
+
+====================
+index 89
+offset 19534
+name Tomoya
+length 32
+====================
+\"I'll tell you when you lose.\"
+====================
+\"I'll tell you when you lose.\"
+====================
+
+====================
+index 90
+offset 19890
+name Takafumi
+length 30
+====================
+\"I told you that's scary...\"
+====================
+\"I told you that's scary...\"
+====================
+
+====================
+index 91
+offset 20244
+name Takafumi
+length 74
+====================
+\"But that means that someday you're going to make me do whatever it is.\"
+====================
+\"But that means that someday you're going to make me do whatever it is.\"
+====================
+
+====================
+index 92
+offset 20368
+name Tomoya
+length 12
+====================
+\"Exactly.\"
+====================
+\"Exactly.\"
+====================
+
+====================
+index 93
+offset 20704
+name Takafumi
+length 62
+====================
+\"Hah... recently you've developed a ridiculous willpower...\"
+====================
+\"Hah... recently you've developed a ridiculous willpower...\"
+====================
+
+====================
+index 94
+offset 20818
+name Takafumi
+length 74
+====================
+\"Okay, I'm going to say now what your next punishment will be if I win.\"
+====================
+\"Okay, I'm going to say now what your next punishment will be if I win.\"
+====================
+
+====================
+index 95
+offset 20942
+name Tomoya
+length 38
+====================
+\"That's kind of soon... what is it?\"
+====================
+\"That's kind of soon... what is it?\"
+====================
+
+====================
+index 96
+offset 21032
+name Takafumi
+length 26
+====================
+\"Next time, if I win...\"
+====================
+\"Next time, if I win...\"
+====================
+
+====================
+index 97
+offset 21382
+name Takafumi
+length 48
+====================
+\"I won't accept any more of these challenges.\"
+====================
+\"I won't accept any more of these challenges.\"
+====================
+
+====================
+index 98
+offset 22293
+name NULL
+length 96
+====================
+After Takafumi goes home, I borrow his machine and practice what I learned in the book for real.
+====================
+After Takafumi goes home, I borrow his machine and practice what I learned in the book for real.
+====================
+
+====================
+index 99
+offset 22712
+name Tomoyo
+length 23
+====================
+\"You're still at it?\"
+====================
+\"You're still at it?\"
+====================
+
+====================
+index 100
+offset 22785
+name Tomoya
+length 39
+====================
+\"Sorry, you can turn off the lights.\"
+====================
+\"Sorry, you can turn off the lights.\"
+====================
+
+====================
+index 101
+offset 23147
+name Tomoyo
+length 26
+====================
+\"You'll ruin your eyes.\"
+====================
+\"You'll ruin your eyes.\"
+====================
+
+====================
+index 102
+offset 23493
+name Kanako
+length 58
+====================
+\"Hey, Tomo-san, warn him about what I told you earlier.\"
+====================
+\"Hey, Tomo-san, warn him about what I told you earlier.\"
+====================
+
+====================
+index 103
+offset 23871
+name Tomo
+length 70
+====================
+\"Geez, you shouldn't look at pornographic images all day and night.\"
+====================
+\"Geez, you shouldn't look at pornographic images all day and night.\"
+====================
+
+====================
+index 104
+offset 23991
+name Tomoya
+length 70
+====================
+\"Don't have a kid say something she doesn't understand like that...\"
+====================
+\"Don't have a kid say something she doesn't understand like that...\"
+====================
+
+====================
+index 105
+offset 24770
+name NULL
+length 95
+====================
+Even after the three of them go to sleep, I continue practicing in front of the bright monitor.
+====================
+Even after the three of them go to sleep, I continue practicing in front of the bright monitor.
+====================

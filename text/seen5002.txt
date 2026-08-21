@@ -1,0 +1,1355 @@
+type seen5002
+count 123
+
+====================
+index 1
+offset 52
+name NULL
+length 13
+====================
+After - Day 3
+====================
+After - Day 3
+====================
+
+====================
+index 2
+offset 525
+name NULL
+length 50
+====================
+We visit the school once again the next afternoon.
+====================
+We visit the school once again the next afternoon.
+====================
+
+====================
+index 3
+offset 1435
+name NULL
+length 95
+====================
+The whole campus is so quiet during school hours; I worry that they can hear us in the hallway.
+====================
+The whole campus is so quiet during school hours; I worry that they can hear us in the hallway.
+====================
+
+====================
+index 4
+offset 1546
+name NULL
+length 57
+====================
+Like yesterday, Tomoyo tells me stories about how we met.
+====================
+Like yesterday, Tomoyo tells me stories about how we met.
+====================
+
+====================
+index 5
+offset 1925
+name Tomoyo
+length 55
+====================
+\"For some reason, you were really easy to talk with.\"
+====================
+\"For some reason, you were really easy to talk with.\"
+====================
+
+====================
+index 6
+offset 2030
+name Tomoyo
+length 93
+====================
+\"Though I quickly made friends in my class after transferring, they weren't close friends.\"
+====================
+\"Though I quickly made friends in my class after transferring, they weren't close friends.\"
+====================
+
+====================
+index 7
+offset 2173
+name Tomoyo
+length 100
+====================
+\"Now that I think about it, you and Sunohara were both open with me, even though we had just met.\"
+====================
+\"Now that I think about it, you and Sunohara were both open with me, even though we had just met.\"
+====================
+
+====================
+index 8
+offset 2332
+name Tomoya
+length 47
+====================
+\"So that was Sunohara's true self... Creepy.\"
+====================
+\"So that was Sunohara's true self... Creepy.\"
+====================
+
+====================
+index 9
+offset 2704
+name Tomoyo
+length 24
+====================
+\"No doubt about that.\"
+====================
+\"No doubt about that.\"
+====================
+
+====================
+index 10
+offset 2744
+name NULL
+length 25
+====================
+She says that and laughs.
+====================
+She says that and laughs.
+====================
+
+====================
+index 11
+offset 3091
+name Tomoyo
+length 40
+====================
+\"You guys and I were very much alike.\"
+====================
+\"You guys and I were very much alike.\"
+====================
+
+====================
+index 12
+offset 3181
+name Tomoya
+length 15
+====================
+\"Is that so?\"
+====================
+\"Is that so?\"
+====================
+
+====================
+index 13
+offset 3518
+name Tomoyo
+length 51
+====================
+\"Yes. I was quite a rebel in my previous school.\"
+====================
+\"Yes. I was quite a rebel in my previous school.\"
+====================
+
+====================
+index 14
+offset 3619
+name Tomoyo
+length 45
+====================
+\"I built a wall between myself and others.\"
+====================
+\"I built a wall between myself and others.\"
+====================
+
+====================
+index 15
+offset 3714
+name Tomoyo
+length 26
+====================
+\"You two were the same.\"
+====================
+\"You two were the same.\"
+====================
+
+====================
+index 16
+offset 3756
+name NULL
+length 47
+====================
+I can see that happening for me and Sunohara...
+====================
+I can see that happening for me and Sunohara...
+====================
+
+====================
+index 17
+offset 3819
+name NULL
+length 96
+====================
+But I didn't expect Tomoyo to be like that, since she seems like she can get along with anybody.
+====================
+But I didn't expect Tomoyo to be like that, since she seems like she can get along with anybody.
+====================
+
+====================
+index 18
+offset 4237
+name Tomoyo
+length 59
+====================
+\"Perhaps that's how we managed to understand each other.\"
+====================
+\"Perhaps that's how we managed to understand each other.\"
+====================
+
+====================
+index 19
+offset 4312
+name NULL
+length 43
+====================
+She whispers like she's talking to herself.
+====================
+She whispers like she's talking to herself.
+====================
+
+====================
+index 20
+offset 4371
+name NULL
+length 50
+====================
+I don't know what meaning lies behind her words...
+====================
+I don't know what meaning lies behind her words...
+====================
+
+====================
+index 21
+offset 4437
+name NULL
+length 49
+====================
+...but that part of Tomoyo makes her seem lonely.
+====================
+...but that part of Tomoyo makes her seem lonely.
+====================
+
+====================
+index 22
+offset 4772
+name NULL
+length 59
+====================
+We head out in order to avoid students coming out of class.
+====================
+We head out in order to avoid students coming out of class.
+====================
+
+====================
+index 23
+offset 5691
+name NULL
+length 24
+====================
+It's nice outside today.
+====================
+It's nice outside today.
+====================
+
+====================
+index 24
+offset 5731
+name NULL
+length 112
+====================
+It's the end of September, and although it isn't sweltering, the sunlight is still warm enough to make me sweat.
+====================
+It's the end of September, and although it isn't sweltering, the sunlight is still warm enough to make me sweat.
+====================
+
+====================
+index 25
+offset 5859
+name NULL
+length 40
+====================
+The weather's great for a little action.
+====================
+The weather's great for a little action.
+====================
+
+====================
+index 26
+offset 5915
+name NULL
+length 115
+====================
+Fortunately, the field is empty right now, even though it's after school. Perhaps the clubs are taking the day off.
+====================
+Fortunately, the field is empty right now, even though it's after school. Perhaps the clubs are taking the day off.
+====================
+
+====================
+index 27
+offset 6046
+name NULL
+length 39
+====================
+There are only a few people still here.
+====================
+There are only a few people still here.
+====================
+
+====================
+index 28
+offset 6101
+name NULL
+length 69
+====================
+I'm sure they won't mind if I use a basketball hoop for a little bit.
+====================
+I'm sure they won't mind if I use a basketball hoop for a little bit.
+====================
+
+====================
+index 29
+offset 6492
+name Tomoyo
+length 31
+====================
+\"Tomoya. What are you doing?\"
+====================
+\"Tomoya. What are you doing?\"
+====================
+
+====================
+index 30
+offset 6573
+name Tomoya
+length 35
+====================
+\"I'm going to shoot a few hoops.\"
+====================
+\"I'm going to shoot a few hoops.\"
+====================
+
+====================
+index 31
+offset 6930
+name Tomoyo
+length 16
+====================
+\"What? Don't!\"
+====================
+\"What? Don't!\"
+====================
+
+====================
+index 32
+offset 6962
+name NULL
+length 26
+====================
+Tomoyo hurries to stop me.
+====================
+Tomoyo hurries to stop me.
+====================
+
+====================
+index 33
+offset 7038
+name Tomoya
+length 105
+====================
+\"Why? It's not like I'm going to play against anyone. I'm just going to move my body around for a bit.\"
+====================
+\"Why? It's not like I'm going to play against anyone. I'm just going to move my body around for a bit.\"
+====================
+
+====================
+index 34
+offset 7465
+name Tomoya
+length 55
+====================
+\"My body will go stale if I don't get some exercise.\"
+====================
+\"My body will go stale if I don't get some exercise.\"
+====================
+
+====================
+index 35
+offset 7570
+name Tomoya
+length 64
+====================
+\"I may have amnesia, but I still know how to play basketball.\"
+====================
+\"I may have amnesia, but I still know how to play basketball.\"
+====================
+
+====================
+index 36
+offset 7684
+name Tomoyo
+length 13
+====================
+\".........\"
+====================
+\".........\"
+====================
+
+====================
+index 37
+offset 7747
+name Tomoya
+length 85
+====================
+\"It doesn't seem like anyone is using the court right now, so it's okay, isn't it?\"
+====================
+\"It doesn't seem like anyone is using the court right now, so it's okay, isn't it?\"
+====================
+
+====================
+index 38
+offset 8118
+name NULL
+length 77
+====================
+Tomoyo tries to say something else, but I ignore her and walk onto the court.
+====================
+Tomoyo tries to say something else, but I ignore her and walk onto the court.
+====================
+
+====================
+index 39
+offset 8211
+name NULL
+length 75
+====================
+It looks like someone forgot a ball at the corner near the basketball hoop.
+====================
+It looks like someone forgot a ball at the corner near the basketball hoop.
+====================
+
+====================
+index 40
+offset 8302
+name NULL
+length 13
+====================
+I pick it up.
+====================
+I pick it up.
+====================
+
+====================
+index 41
+offset 8334
+name NULL
+length 81
+====================
+...I feel a sense of unease as a slight, unexpected pain runs across my shoulder.
+====================
+...I feel a sense of unease as a slight, unexpected pain runs across my shoulder.
+====================
+
+====================
+index 42
+offset 8431
+name NULL
+length 58
+====================
+Maybe it's just tight since I haven't used it much lately.
+====================
+Maybe it's just tight since I haven't used it much lately.
+====================
+
+====================
+index 43
+offset 8505
+name NULL
+length 25
+====================
+I pay no attention to it.
+====================
+I pay no attention to it.
+====================
+
+====================
+index 44
+offset 8546
+name NULL
+length 45
+====================
+Before I know it, Tomoyo comes up next to me.
+====================
+Before I know it, Tomoyo comes up next to me.
+====================
+
+====================
+index 45
+offset 8879
+name NULL
+length 29
+====================
+She just looks at me quietly.
+====================
+She just looks at me quietly.
+====================
+
+====================
+index 46
+offset 8958
+name Tomoya
+length 17
+====================
+\"What's wrong?\"
+====================
+\"What's wrong?\"
+====================
+
+====================
+index 47
+offset 8991
+name NULL
+length 40
+====================
+She was trying to stop me before, but...
+====================
+She was trying to stop me before, but...
+====================
+
+====================
+index 48
+offset 9081
+name Tomoyo
+length 27
+====================
+\"Um, no... It's nothing.\"
+====================
+\"Um, no... It's nothing.\"
+====================
+
+====================
+index 49
+offset 9158
+name Tomoyo
+length 24
+====================
+\"Do you want to play?\"
+====================
+\"Do you want to play?\"
+====================
+
+====================
+index 50
+offset 9232
+name Tomoya
+length 15
+====================
+\"Yeah, I do.\"
+====================
+\"Yeah, I do.\"
+====================
+
+====================
+index 51
+offset 9297
+name Tomoya
+length 65
+====================
+\"It might not look like it, but I'm pretty good at basketball.\"
+====================
+\"It might not look like it, but I'm pretty good at basketball.\"
+====================
+
+====================
+index 52
+offset 9412
+name Tomoya
+length 35
+====================
+\"Though, you probably knew that.\"
+====================
+\"Though, you probably knew that.\"
+====================
+
+====================
+index 53
+offset 9497
+name Tomoyo
+length 13
+====================
+\".........\"
+====================
+\".........\"
+====================
+
+====================
+index 54
+offset 9796
+name NULL
+length 35
+====================
+I should make a shot, for starters.
+====================
+I should make a shot, for starters.
+====================
+
+====================
+index 55
+offset 9847
+name NULL
+length 58
+====================
+I stand a little ways from the basket and tilt my head up.
+====================
+I stand a little ways from the basket and tilt my head up.
+====================
+
+====================
+index 56
+offset 9921
+name NULL
+length 29
+====================
+I dribble with my right hand.
+====================
+I dribble with my right hand.
+====================
+
+====================
+index 57
+offset 9966
+name NULL
+length 33
+====================
+I feel the rhythm of it bouncing.
+====================
+I feel the rhythm of it bouncing.
+====================
+
+====================
+index 58
+offset 10015
+name NULL
+length 18
+====================
+Three, four, five.
+====================
+Three, four, five.
+====================
+
+====================
+index 59
+offset 10049
+name NULL
+length 33
+====================
+I place my left hand on the ball.
+====================
+I place my left hand on the ball.
+====================
+
+====================
+index 60
+offset 10098
+name NULL
+length 52
+====================
+I hold it in both hands, bend my legs and spring up.
+====================
+I hold it in both hands, bend my legs and spring up.
+====================
+
+====================
+index 61
+offset 10166
+name NULL
+length 46
+====================
+With that momentum, I shoot toward the basket.
+====================
+With that momentum, I shoot toward the basket.
+====================
+
+====================
+index 62
+offset 10228
+name NULL
+length 12
+====================
+It's simple.
+====================
+It's simple.
+====================
+
+====================
+index 63
+offset 10256
+name NULL
+length 59
+====================
+It's a basic movement that I've repeated hundreds of times.
+====================
+It's a basic movement that I've repeated hundreds of times.
+====================
+
+====================
+index 64
+offset 10331
+name NULL
+length 55
+====================
+The ball is supposed to go through the net like always.
+====================
+The ball is supposed to go through the net like always.
+====================
+
+====================
+index 65
+offset 10427
+name NULL
+length 6
+====================
+But...
+====================
+But...
+====================
+
+====================
+index 66
+offset 10449
+name NULL
+length 73
+====================
+As soon as I raise my hands, there is a severe pain in my right shoulder.
+====================
+As soon as I raise my hands, there is a severe pain in my right shoulder.
+====================
+
+====================
+index 67
+offset 10538
+name NULL
+length 16
+====================
+It's unbearable.
+====================
+It's unbearable.
+====================
+
+====================
+index 68
+offset 10570
+name NULL
+length 36
+====================
+It's like my shoulder will fall off.
+====================
+It's like my shoulder will fall off.
+====================
+
+====================
+index 69
+offset 10622
+name NULL
+length 70
+====================
+The ball that I was going to shoot just rolls on the ground aimlessly.
+====================
+The ball that I was going to shoot just rolls on the ground aimlessly.
+====================
+
+====================
+index 70
+offset 10708
+name NULL
+length 37
+====================
+I whisper as my eyes follow the ball.
+====================
+I whisper as my eyes follow the ball.
+====================
+
+====================
+index 71
+offset 10819
+name Tomoya
+length 18
+====================
+\"What the hell?\"
+====================
+\"What the hell?\"
+====================
+
+====================
+index 72
+offset 10887
+name Tomoya
+length 31
+====================
+\"What the hell is going on?!\"
+====================
+\"What the hell is going on?!\"
+====================
+
+====================
+index 73
+offset 10968
+name Tomoya
+length 50
+====================
+\"Hey, Tomoyo... What is wrong with my shoulder?\"
+====================
+\"Hey, Tomoyo... What is wrong with my shoulder?\"
+====================
+
+====================
+index 74
+offset 11034
+name NULL
+length 54
+====================
+Is it even possible to play with a shoulder like this?
+====================
+Is it even possible to play with a shoulder like this?
+====================
+
+====================
+index 75
+offset 11104
+name NULL
+length 52
+====================
+Does this pain have something to do with my amnesia?
+====================
+Does this pain have something to do with my amnesia?
+====================
+
+====================
+index 76
+offset 11172
+name NULL
+length 31
+====================
+Or is it something from before?
+====================
+Or is it something from before?
+====================
+
+====================
+index 77
+offset 11219
+name NULL
+length 27
+====================
+Did Tomoyo know about this?
+====================
+Did Tomoyo know about this?
+====================
+
+====================
+index 78
+offset 11262
+name NULL
+length 33
+====================
+Is that why she tried to stop me?
+====================
+Is that why she tried to stop me?
+====================
+
+====================
+index 79
+offset 11617
+name Tomoyo
+length 53
+====================
+\"Tomoya, you weren't playing basketball back then.\"
+====================
+\"Tomoya, you weren't playing basketball back then.\"
+====================
+
+====================
+index 80
+offset 11720
+name Tomoyo
+length 28
+====================
+\"You weren't on the team.\"
+====================
+\"You weren't on the team.\"
+====================
+
+====================
+index 81
+offset 11798
+name Tomoyo
+length 73
+====================
+\"Because of that injury, you hadn't played basketball for three years.\"
+====================
+\"Because of that injury, you hadn't played basketball for three years.\"
+====================
+
+====================
+index 82
+offset 11887
+name NULL
+length 25
+====================
+That's what she tells me.
+====================
+That's what she tells me.
+====================
+
+====================
+index 83
+offset 11962
+name Tomoya
+length 8
+====================
+\"Why?\"
+====================
+\"Why?\"
+====================
+
+====================
+index 84
+offset 11986
+name NULL
+length 12
+====================
+I'm shocked.
+====================
+I'm shocked.
+====================
+
+====================
+index 85
+offset 12014
+name NULL
+length 53
+====================
+I'm more shocked than when I found out I had amnesia.
+====================
+I'm more shocked than when I found out I had amnesia.
+====================
+
+====================
+index 86
+offset 12117
+name Tomoya
+length 30
+====================
+\"How did I get this injury?\"
+====================
+\"How did I get this injury?\"
+====================
+
+====================
+index 87
+offset 12469
+name Tomoyo
+length 13
+====================
+\".........\"
+====================
+\".........\"
+====================
+
+====================
+index 88
+offset 12532
+name Tomoya
+length 27
+====================
+\"You do know, don't you?\"
+====================
+\"You do know, don't you?\"
+====================
+
+====================
+index 89
+offset 12609
+name Tomoyo
+length 13
+====================
+\".........\"
+====================
+\".........\"
+====================
+
+====================
+index 90
+offset 12672
+name Tomoya
+length 34
+====================
+\"If you know, tell me, damn it!\"
+====================
+\"If you know, tell me, damn it!\"
+====================
+
+====================
+index 91
+offset 12722
+name NULL
+length 41
+====================
+I lose control and end up yelling at her.
+====================
+I lose control and end up yelling at her.
+====================
+
+====================
+index 92
+offset 13085
+name Tomoyo
+length 14
+====================
+\"I'm sorry.\"
+====================
+\"I'm sorry.\"
+====================
+
+====================
+index 93
+offset 13149
+name Tomoya
+length 31
+====================
+\"No, I went too far, myself.\"
+====================
+\"No, I went too far, myself.\"
+====================
+
+====================
+index 94
+offset 13230
+name Tomoya
+length 58
+====================
+\"Hey, in that case, what was I doing those three years?\"
+====================
+\"Hey, in that case, what was I doing those three years?\"
+====================
+
+====================
+index 95
+offset 13338
+name Tomoya
+length 53
+====================
+\"I got into school on a basketball recommendation.\"
+====================
+\"I got into school on a basketball recommendation.\"
+====================
+
+====================
+index 96
+offset 13441
+name Tomoya
+length 43
+====================
+\"If I wasn't playing basketball, then...\"
+====================
+\"If I wasn't playing basketball, then...\"
+====================
+
+====================
+index 97
+offset 13806
+name Tomoyo
+length 95
+====================
+\"From what I heard, you were injured in your last game in middle school, after you enrolled.\"
+====================
+\"From what I heard, you were injured in your last game in middle school, after you enrolled.\"
+====================
+
+====================
+index 98
+offset 13951
+name Tomoyo
+length 77
+====================
+\"They had already finalized it, so your enrollment wasn't rejected, but...\"
+====================
+\"They had already finalized it, so your enrollment wasn't rejected, but...\"
+====================
+
+====================
+index 99
+offset 14078
+name Tomoyo
+length 37
+====================
+\"...your shoulder never recovered.\"
+====================
+\"...your shoulder never recovered.\"
+====================
+
+====================
+index 100
+offset 14165
+name Tomoyo
+length 60
+====================
+\"You were a delinquent when I met you for the first time.\"
+====================
+\"You were a delinquent when I met you for the first time.\"
+====================
+
+====================
+index 101
+offset 14275
+name Tomoyo
+length 54
+====================
+\"Skipping classes, arriving tardy, failing tests...\"
+====================
+\"Skipping classes, arriving tardy, failing tests...\"
+====================
+
+====================
+index 102
+offset 14615
+name NULL
+length 45
+====================
+I already heard that from her previous story.
+====================
+I already heard that from her previous story.
+====================
+
+====================
+index 103
+offset 14676
+name NULL
+length 46
+====================
+But this time, it carried a different meaning.
+====================
+But this time, it carried a different meaning.
+====================
+
+====================
+index 104
+offset 14738
+name NULL
+length 92
+====================
+All this time, I had thought I was still actively playing basketball, despite a few mishaps.
+====================
+All this time, I had thought I was still actively playing basketball, despite a few mishaps.
+====================
+
+====================
+index 105
+offset 14880
+name Tomoya
+length 32
+====================
+\"Was I really that worthless?\"
+====================
+\"Was I really that worthless?\"
+====================
+
+====================
+index 106
+offset 14928
+name NULL
+length 48
+====================
+If I don't have basketball, then what do I have?
+====================
+If I don't have basketball, then what do I have?
+====================
+
+====================
+index 107
+offset 15298
+name Tomoyo
+length 39
+====================
+\"No way. You were an amazing person.\"
+====================
+\"No way. You were an amazing person.\"
+====================
+
+====================
+index 108
+offset 15353
+name NULL
+length 32
+====================
+She assertively states my worth.
+====================
+She assertively states my worth.
+====================
+
+====================
+index 109
+offset 15435
+name Tomoyo
+length 66
+====================
+\"If you were worthless, then I would have never fallen for you.\"
+====================
+\"If you were worthless, then I would have never fallen for you.\"
+====================
+
+====================
+index 110
+offset 15823
+name Tomoyo
+length 59
+====================
+\"I did fall in love with you, so you can't be worthless.\"
+====================
+\"I did fall in love with you, so you can't be worthless.\"
+====================
+
+====================
+index 111
+offset 15932
+name Tomoyo
+length 37
+====================
+\"Tomoya, you're an amazing person.\"
+====================
+\"Tomoya, you're an amazing person.\"
+====================
+
+====================
+index 112
+offset 15985
+name NULL
+length 38
+====================
+She repeats it, trying to convince me.
+====================
+She repeats it, trying to convince me.
+====================
+
+====================
+index 113
+offset 16073
+name Tomoyo
+length 68
+====================
+\"Sure, you can be perverted and say weird things at times, but...\"
+====================
+\"Sure, you can be perverted and say weird things at times, but...\"
+====================
+
+====================
+index 114
+offset 16191
+name Tomoyo
+length 59
+====================
+\"To me, you are the best boyfriend I could ever ask for.\"
+====================
+\"To me, you are the best boyfriend I could ever ask for.\"
+====================
+
+====================
+index 115
+offset 16300
+name Tomoyo
+length 54
+====================
+\"I can't count how many times you've helped me out.\"
+====================
+\"I can't count how many times you've helped me out.\"
+====================
+
+====================
+index 116
+offset 16404
+name Tomoyo
+length 43
+====================
+\"That's why it's my turn to support you.\"
+====================
+\"That's why it's my turn to support you.\"
+====================
+
+====================
+index 117
+offset 16463
+name NULL
+length 75
+====================
+There aren't any words I can say to Tomoyo, who is so eager to convince me.
+====================
+There aren't any words I can say to Tomoyo, who is so eager to convince me.
+====================
+
+====================
+index 118
+offset 16588
+name Tomoya
+length 17
+====================
+\"...thank you.\"
+====================
+\"...thank you.\"
+====================
+
+====================
+index 119
+offset 16621
+name NULL
+length 22
+====================
+That is all I can say.
+====================
+That is all I can say.
+====================
+
+====================
+index 120
+offset 16929
+name NULL
+length 57
+====================
+To be honest, I want to know the real cause of my injury.
+====================
+To be honest, I want to know the real cause of my injury.
+====================
+
+====================
+index 121
+offset 17002
+name NULL
+length 23
+====================
+Maybe Tomoyo does know.
+====================
+Maybe Tomoyo does know.
+====================
+
+====================
+index 122
+offset 17041
+name NULL
+length 32
+====================
+She does, but she won't tell me.
+====================
+She does, but she won't tell me.
+====================
+
+====================
+index 123
+offset 17089
+name NULL
+length 20
+====================
+That's what I think.
+====================
+That's what I think.
+====================
