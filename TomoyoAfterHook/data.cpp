@@ -23,11 +23,11 @@ static size_t nextSep(const std::vector<std::string>& L, size_t i);
 static std::string readBlock(const std::vector<std::string>& L, size_t& i);
 static bool startsWith(const std::string& s, const char* p);
 
-const char* EMPTY_NAME = "NULL";
-const DWORD BIN_MAGIC = 0x54504C56;
-const DWORD TEXT_BIN_MAGIC = 0x4E454553;
-const DWORD NAME_BIN_MAGIC = 0x454D414E;
-const DWORD TEXT_MAPPING_MAGIC = 0x54584553;
+static const char* EMPTY_NAME = "NULL";
+static const DWORD BIN_MAGIC = 0x54504C56;
+static const DWORD TEXT_BIN_MAGIC = 0x4E454553;
+static const DWORD NAME_BIN_MAGIC = 0x454D414E;
+static const DWORD PACK_BIN_MAGIC = 0x4B434150;
 
 EXTERN_C void DumpSeenData(RealLiveSeenData* in, SeenDumpData* out) {
 	BYTE* const data = in->decompressed_data;
@@ -172,6 +172,8 @@ EXTERN_C void TextDataToTextFile(SeenPatchDataArray* in, ByteBuffer* out) {
 }
 
 EXTERN_C void TextFileToTextData(ByteBuffer* in, SeenPatchDataArray* out) {
+	if (out == NULL) return;
+	RtlZeroMemory(out, sizeof(SeenPatchDataArray));
 	std::vector<SeenPatchData> arr;
 	if (in != NULL && in->pointer != NULL && in->size > 0) {
 		std::vector<std::string> L = splitLines(in->pointer, in->size);
@@ -227,14 +229,9 @@ EXTERN_C void TextDataToBinFile(SeenPatchDataArray* in, ByteBuffer* out) {
 	appendDWORD(b, (DWORD)n);
 	for (size_t i = 0; i < n; ++i) {
 		const SeenPatchData& d = in->pointer[i];
-		appendDWORD(b, (DWORD)d.index);
 		appendDWORD(b, (DWORD)d.offset);
 		appendDWORD(b, (DWORD)d.length);
-		appendDWORD(b, (DWORD)d.name.size);
-		appendDWORD(b, (DWORD)d.origin.size);
 		appendDWORD(b, (DWORD)d.translated.size);
-		appendBytes(b, d.name.pointer, d.name.size);
-		appendBytes(b, d.origin.pointer, d.origin.size);
 		appendBytes(b, d.translated.pointer, d.translated.size);
 	}
 	out->pointer = toArrayPointer(b);
@@ -254,20 +251,22 @@ EXTERN_C void BinFileToTextData(ByteBuffer* in, SeenPatchDataArray* out) {
 			count = 0;
 		}
 		for (size_t i = 0; i < count; ++i) {
-			DWORD index, offset, length, ns, os, ts;
-			if (!readDWORD(p, end, index) || !readDWORD(p, end, offset) ||
-				!readDWORD(p, end, length) || !readDWORD(p, end, ns) || 
-				!readDWORD(p, end, os) || !readDWORD(p, end, ts)) break;
-			if ((size_t)(end - p) < (size_t)ns + (size_t)os + (size_t)ts) break;
+			DWORD offset, length, ts;
+			if (!readDWORD(p, end, offset) || !readDWORD(p, end, length) 
+				|| !readDWORD(p, end, ts)) break;
+			if ((size_t)(end - p) < (size_t)ts) break;
 
 			SeenPatchData d;
 			RtlZeroMemory(&d, sizeof(d));
-			d.index = index;
+			d.index = 0;
 			d.offset = offset;
 			d.length = length;
-			d.name = makeBuffer(p, ns); p += ns;
-			d.origin = makeBuffer(p, os); p += os;
-			d.translated = makeBuffer(p, ts); p += ts;
+			d.name.pointer = NULL;
+			d.name.size = 0;
+			d.origin.pointer = NULL;
+			d.origin.size = 0;
+			d.translated = makeBuffer(p, ts); 
+			p += ts;
 			arr.push_back(d);
 		}
 	}
@@ -371,6 +370,80 @@ EXTERN_C void BinFileToNameData(ByteBuffer* in, NameDataArray* out) {
 	out->size = arr.size();
 }
 
+EXTERN_C void PatchPackToBinFile(PatchPack* in, ByteBuffer* out) {
+	RtlZeroMemory(out, sizeof(ByteBuffer));
+	if (in == NULL) {
+		return;
+	}
+	std::vector<BYTE> b;
+	appendDWORD(b, BIN_MAGIC);
+	appendDWORD(b, PACK_BIN_MAGIC);
+	appendDWORD(b, (DWORD)in->pSize);
+	ByteBuffer buffer;
+	for (size_t i = 0; i < in->pSize; i++) {
+		RtlZeroMemory(&buffer, sizeof(ByteBuffer));
+		TextDataToBinFile(in->pText[i], &buffer);
+		appendDWORD(b, (DWORD)buffer.size);
+		appendBytes(b, buffer.pointer, buffer.size);
+		FreeByteBuffer(&buffer);
+	}
+	RtlZeroMemory(&buffer, sizeof(ByteBuffer));
+	NameDataToBinFile(in->pName, &buffer);
+	appendDWORD(b, (DWORD)buffer.size);
+	appendBytes(b, buffer.pointer, buffer.size);
+	FreeByteBuffer(&buffer);
+	out->pointer = toArrayPointer(b);
+	out->size = b.size();
+}
+
+EXTERN_C void BinFileToPatchPack(ByteBuffer* in, PatchPack* out) {
+	RtlZeroMemory(out, sizeof(PatchPackStruct));
+	if (in == NULL || in->pointer == NULL || in->size == 0) {
+		return;
+	}
+	DWORD magic1 = 0, magic2 = 0, pSize = 0;
+	const BYTE* p = in->pointer;
+	const BYTE* const end = p + in->size;
+	if (!readDWORD(p, end, magic1) || !readDWORD(p, end, magic2) || !readDWORD(p, end, pSize)
+		|| magic1 != BIN_MAGIC || magic2 != PACK_BIN_MAGIC || pSize <= 0) {
+		return;
+	}
+	out->pSize = pSize;
+	out->pText = (SeenPatchDataArray**)malloc(sizeof(SeenPatchDataArray*) * out->pSize);
+	if (out->pText == NULL) {
+		ExitProcess(1);
+	}
+	ByteBuffer buffer;
+	DWORD size = 0;
+	RtlZeroMemory(&buffer, sizeof(ByteBuffer));
+	for (size_t i = 0; i < out->pSize; i++) {
+		if (!readDWORD(p, end, size) || size == 0) goto fail;
+		buffer.pointer = (BYTE*)p;
+		buffer.size = size;
+		SeenPatchDataArray* text = (SeenPatchDataArray*)malloc(sizeof(SeenPatchDataArray));
+		if (text == NULL) goto fail;
+		BinFileToTextData(&buffer, text);
+		out->pText[i] = text;
+		p += size;
+	}
+	out->pName = (NameDataArray*)malloc(sizeof(NameDataArray));
+	if (out->pName == NULL) goto fail;
+	if (!readDWORD(p, end, size) || size == 0) goto fail;
+	buffer.pointer = (BYTE*)p;
+	buffer.size = size;
+	BinFileToNameData(&buffer, out->pName);
+	return;
+fail:
+	if (out->pText != NULL) {
+		for (size_t i = 0; i < out->pSize; i++) {
+			if(out->pText[i] != NULL) FreeSeenPatchDataArray(out->pText[i]);
+		}
+		if (out->pName != NULL) FreeNameDataArray(out->pName);
+		free(out->pText);
+	}
+	RtlZeroMemory(out, sizeof(PatchPackStruct));
+}
+
 EXTERN_C NameDataArray* MergeNameDataArray(NameDataArray** arrayList, size_t arraySize) {
 	std::set<std::pair<std::vector<BYTE>, std::vector<BYTE>>> seen;
 	std::vector<std::pair<std::vector<BYTE>, std::vector<BYTE>>> unique;
@@ -452,21 +525,31 @@ EXTERN_C void FreeNameDataArray(NameDataArray* array) {
 	array->size = 0;
 }
 
-EXTERN_C void FreeSingleWordExtendMap(SingleWordExtendMap* map) {
-	if (map == NULL) return;
-	FreeByteBuffer(&map->sentence);
-	map->word = 0;
-}
-
 EXTERN_C void FreeSeenDumpData(SeenDumpData* dump) {
 	if (dump == NULL) return;
 	FreeSeenPatchDataArray(&dump->textData);
 	FreeNameDataArray(&dump->nameData);
 }
 
+EXTERN_C void FreePatchPack(PatchPack* pack) {
+	if (pack->pName != NULL) FreeNameDataArray(pack->pName);
+	if (pack->pText != NULL && pack->pSize > 0) {
+		for (size_t i = 0; i < pack->pSize; i++) {
+			FreeSeenPatchDataArray(pack->pText[i]);
+		}
+	}
+	free(pack->pText);
+	pack->pText = NULL;
+	pack->pName = NULL;
+	pack->pSize = 0;
+}
+
 template<typename T>
 static T* toArrayPointer(const std::vector<T>& vec) {
 	static_assert(std::is_trivially_copyable_v<T>, "type must be trivially copyable");
+	if (vec.empty()) {
+		return NULL;
+	}
 	T* arr = (T*)malloc(vec.size() * sizeof(T));
 	if (arr == NULL) {
 		ExitProcess(1);

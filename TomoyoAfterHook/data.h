@@ -3,22 +3,11 @@
 
 #include <Windows.h>
 
+#define SEEN_DATA_NUM 10000
+
 #ifdef __cplusplus
 extern "C" {
 #endif
-
-typedef enum PatchModeEnum {
-    PATCH_RELEASE,
-    PATCH_DUMP,
-    PATCH_ARCHIVE,
-    PATCH_DEBUG,
-    PATCH_NONE
-} PatchMode;
-
-typedef struct ByteBufferStruct {
-    BYTE* pointer;
-    size_t size;
-} ByteBuffer;
 
 typedef struct RealLiveSeenHeaderStruct {
     DWORD offset;
@@ -35,6 +24,35 @@ typedef struct RealLiveSeenDataStruct {
     BYTE* decompressed_data;
     DWORD decompressed_size;
 } RealLiveSeenData;
+
+typedef struct RealLiveVMStateStruct {
+    unsigned seenNo;
+} RealLiveVMState;
+
+typedef struct RealLiveVMContextStruct {
+    DWORD unknown1;
+    DWORD unknown2;
+    DWORD unknown3;
+    DWORD unknown4;
+    DWORD unknown5;
+    DWORD unknown6;
+    BYTE* vmBase;
+    DWORD unknown7;
+    BYTE* vmIp;
+} RealLiveVMContext;
+
+typedef enum PatchModeEnum {
+    PATCH_RELEASE,
+    PATCH_DUMP,
+    PATCH_ARCHIVE,
+    PATCH_DEBUG,
+    PATCH_NONE
+} PatchMode;
+
+typedef struct ByteBufferStruct {
+    BYTE* pointer;
+    size_t size;
+} ByteBuffer;
 
 typedef struct SeenPatchDataStruct {
 	unsigned index;
@@ -61,15 +79,16 @@ typedef struct NameDataArrayStruct {
     size_t size;
 } NameDataArray;
 
-typedef struct SingleWordExtendMapStruct {
-    WORD word;
-    ByteBuffer sentence;
-} SingleWordExtendMap;
-
 typedef struct SeenDumpDataStruct {
     SeenPatchDataArray textData;
     NameDataArray nameData;
 } SeenDumpData;
+
+typedef struct PatchPackStruct {
+    SeenPatchDataArray** pText;
+    size_t pSize;
+    NameDataArray* pName;
+} PatchPack;
 
 void DumpSeenData(RealLiveSeenData* in, SeenDumpData* out);
 
@@ -83,6 +102,9 @@ void TextFileToNameData(ByteBuffer* in, NameDataArray* out);
 void NameDataToBinFile(NameDataArray* in, ByteBuffer* out);
 void BinFileToNameData(ByteBuffer* in, NameDataArray* out);
 
+void PatchPackToBinFile(PatchPack* in, ByteBuffer* out);
+void BinFileToPatchPack(ByteBuffer* in, PatchPack* out);
+
 NameDataArray* MergeNameDataArray(NameDataArray** arrayList, size_t arraySize);
 
 void FreeByteBuffer(ByteBuffer* buf);
@@ -90,8 +112,8 @@ void FreeSeenPatchData(SeenPatchData* data);
 void FreeSeenPatchDataArray(SeenPatchDataArray* array);
 void FreeNameData(NameData* data);
 void FreeNameDataArray(NameDataArray* array);
-void FreeSingleWordExtendMap(SingleWordExtendMap* map);
 void FreeSeenDumpData(SeenDumpData* dump);
+void FreePatchPack(PatchPack* pack);
 
 #ifdef __cplusplus
 }

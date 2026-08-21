@@ -6,8 +6,9 @@
 
 #define PROCESS_NAME "RealLive.exe"
 #define PROCESS_FILE_SHA256 "cbfe30775595145b58af21edca73bc9ed25a54b135adb4702af1d26c1f9aa084"
-#define SEEN_DATA_NUM 10000
 #define SEEN_DATA_FILE "patch\\SEEN%04d.txt"
+#define NAME_DATA_FILE "patch\\name.txt"
+#define BIN_DATA_FILE "patch\\patch.bin"
 #define SEEN_DATA_DIR "patch"
 #define MESSAGEBOX_TITLE "VLSMB"
 #define PATCH_MODE_CONFIG_FILE "patch_mode.cfg"
@@ -26,15 +27,11 @@
 typedef DWORD(__fastcall* ReadSeenHeaderFuncPtr)(void);
 typedef DWORD(__fastcall* ReadSeenDataFuncPtr)(BYTE ctx[64], RealLiveSeenData* out, DWORD scene_no, DWORD flags);
 typedef DWORD(__fastcall* DrawSingleCharacterFuncPtr)(DWORD a1, DWORD a2, DWORD a3, DWORD a4, DWORD character, DWORD a6, DWORD a7, DWORD a8, DWORD a9, DWORD a10, DWORD a11, DWORD a12);
-typedef DWORD(__fastcall* ConsumeTextInQuoteModeFuncPtr)(void* p1, void* p2, int a3, int a4);
-#define GET_VM_IP_POINTER(p) (*(BYTE**)((DWORD)p2 + 32))
-#define SET_VM_IP_POINTER(p, ip) ((*(BYTE**)((DWORD)p2 + 32)) = ip)
+typedef DWORD(__fastcall* ConsumeTextInQuoteModeFuncPtr)(RealLiveVMState* sp, RealLiveVMContext* cp, int byteMode, int a4);
 
 void HookInit();
 void HookDestroy();
 void RunDump();
-BYTE* GetSeenPatchData(size_t num);
 void PatchHookAfterOpenSeenFile();
 
 #endif
-

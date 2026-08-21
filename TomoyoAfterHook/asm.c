@@ -1,9 +1,9 @@
 #include "asm.h"
 
-void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, int num);
-void WINAPI beforeConsumeTextHook(void* p1, void* p2, int* byteMode, int a4);
-void WINAPI afterConsumeTextHook(void* p1, void* p2, int* byteMode, int a4);
-int WINAPI checkFileIsSeen(const char* fileName);
+static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, int num);
+static void WINAPI beforeConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4);
+static void WINAPI afterConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4);
+static BOOL WINAPI checkFileIsSeen(const char* fileName);
 
 void ASM_FUNCTION HookForDump() {
 	__asm {
@@ -80,11 +80,8 @@ hook_for_patch:
 	}
 }
 
-void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, int num) {
-	BYTE* data = GetSeenPatchData(num);
-	if (data != NULL && ptr->decompressed_data != NULL && ptr->decompressed_size > 0) {
-		memcpy(ptr->decompressed_data, data, ptr->decompressed_size);
-	}
+static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, int num) {
+	
 }
 
 void ASM_FUNCTION HookEnumFontFamiliesExA() {
@@ -137,7 +134,7 @@ __create_file_ret:
 	}
 }
 
-int WINAPI checkFileIsSeen(const char* fileName) {
+static BOOL WINAPI checkFileIsSeen(const char* fileName) {
 	const int len = strlen("SEEN.TXT");
 	if (strlen(fileName) < len) {
 		return FALSE;
@@ -228,9 +225,9 @@ const char* const text = "神户小鸟天下第一！VLSMB1英文字符测试。";
 const char* p = NULL;
 BYTE* origin_ip = NULL;
 
-void WINAPI beforeConsumeTextHook(void* p1, void* p2, int* byteMode, int a4) {
-	BYTE* buffer = GET_VM_IP_POINTER(p2);
-	if (*buffer == 0xC4 && *(buffer + 1) == 0xE3) {
+static void WINAPI beforeConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4) {
+	BYTE* buffer = cp->vmIp;
+	if (*buffer == 0x05) {
 		if (p == NULL) {
 			p = text;
 		}
@@ -242,21 +239,21 @@ void WINAPI beforeConsumeTextHook(void* p1, void* p2, int* byteMode, int a4) {
 			*byteMode = 0;
 		}
 		origin_ip = buffer;
-		SET_VM_IP_POINTER(p2, p);
+		cp->vmIp = p;
 	}
 }
 
-void WINAPI afterConsumeTextHook(void* p1, void* p2, int* byteMode, int a4) {
+static void WINAPI afterConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4) {
 	if (origin_ip == NULL) {
 		return;
 	}
-	BYTE* buffer = GET_VM_IP_POINTER(p2);
+	BYTE* buffer = cp->vmIp;
 	if (*buffer) {
-		SET_VM_IP_POINTER(p2, origin_ip);
+		cp->vmIp = origin_ip;
 		p = buffer;
 	}
 	else {
-		SET_VM_IP_POINTER(p2, origin_ip + 2);
+		cp->vmIp = origin_ip + 1;
 		p = NULL;
 	}
 	origin_ip = NULL;
