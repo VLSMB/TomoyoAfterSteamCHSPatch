@@ -526,7 +526,7 @@ length 6
 ====================
 Sakura
 ====================
-Sakura
+樱花（Sakura）
 ====================
 
 ====================
@@ -537,7 +537,7 @@ length 418
 ====================
 Sakura is the Japanese name for cherry blossom, the flower of cherry trees. It is a significant cultural icon in Japan, and it typically blooms at the end of March or early April. Because of the timing of its blooming season, it carries the symbolism of spring and hope. It is also associated with graduation and new beginnings as it also coincides with the Japanese graduation season, which typically occurs in March.
 ====================
-Sakura is the Japanese name for cherry blossom, the flower of cherry trees. It is a significant cultural icon in Japan, and it typically blooms at the end of March or early April. Because of the timing of its blooming season, it carries the symbolism of spring and hope. It is also associated with graduation and new beginnings as it also coincides with the Japanese graduation season, which typically occurs in March.
+樱花的日文名称是Sakura，即樱桃树所开的花朵。它是日本重要的文化象征，通常在三月末或四月初绽放。由于其开花季节的时令特点，它承载着春天和希望的象征意义。同时，由于它恰逢日本通常在三月举行的毕业季，因此也与毕业和新起点联系在一起。
 ====================
 
 ====================
@@ -625,7 +625,7 @@ length 104
 ====================
 Someone who is cold or mean to someone whom they actually like. This is usually caused by embarrassment.
 ====================
-Someone who is cold or mean to someone whom they actually like. This is usually caused by embarrassment.
+指对其实喜欢的人表现得冷淡或刻薄的人。这通常是出于害羞或难为情。
 ====================
 
 ====================

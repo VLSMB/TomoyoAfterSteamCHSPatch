@@ -9,7 +9,7 @@ length 15
 ====================
 June 28th (Mon)
 ====================
-6æœˆ28æ—¥ï¼ˆå‘¨ä¸€ï¼‰
+6ÔÂ28ÈÕ£¨ÖÜÒ»£©
 ====================
 
 ====================
@@ -20,7 +20,7 @@ length 53
 ====================
 \"I'm finally allowed to make the rounds by myself.\"
 ====================
-â€œç»ˆäºï¼Œæˆ‘å¯ä»¥è‡ªå·±è¡ŒåŠ¨äº†ã€‚â€
+¡°ÖÕÓÚ£¬ÎÒ¿ÉÒÔ×Ô¼ºĞĞ¶¯ÁË¡£¡±
 ====================
 
 ====================
@@ -31,7 +31,7 @@ length 31
 ====================
 \"I'm independent in a sense.\"
 ====================
-â€œé‚£æ„å‘³ç€ï¼Œæˆ‘å·²ç»ç‹¬ç«‹äº†æŠŠã€‚â€
+¡°ÄÇÒâÎ¶×Å£¬ÎÒÒÑ¾­¶ÀÁ¢ÁË°Ñ¡£¡±
 ====================
 
 ====================
@@ -42,7 +42,7 @@ length 26
 ====================
 I'm bragging like a child.
 ====================
-æˆ‘åƒå­©å­ä¸€æ ·åœ°è‡ªå¤¸é“ã€‚
+ÎÒÏñº¢×ÓÒ»ÑùµØ×Ô¿äµÀ¡£
 ====================
 
 ====================
@@ -53,7 +53,7 @@ length 57
 ====================
 \"Well, why don't we celebrate your independence today?\"
 ====================
-â€œé‚£ä¹ˆï¼Œä»Šå¤©å°±æ¥åº†ç¥ä½ çš„ç‹¬ç«‹æŠŠï¼Ÿâ€
+¡°ÄÇÃ´£¬½ñÌì¾ÍÀ´Çì×£ÄãµÄ¶ÀÁ¢°Ñ£¿¡±
 ====================
 
 ====================
@@ -64,7 +64,7 @@ length 32
 ====================
 \"It's not that big of a deal.\"
 ====================
-â€œä¹Ÿä¸æ˜¯ä»€ä¹ˆå€¼å¾—åº†ç¥çš„å¤§äº‹å§ã€‚â€
+¡°Ò²²»ÊÇÊ²Ã´ÖµµÃÇì×£µÄ´óÊÂ°É¡£¡±
 ====================
 
 ====================
@@ -75,7 +75,7 @@ length 56
 ====================
 \"Come on, it'll be one more anniversary to celebrate.\"
 ====================
-â€œä¸ä¹ŸæŒºå¥½çš„å˜›ï¼Œå¤šå¢åŠ ä¸ªçºªå¿µæ—¥å˜›â€
+¡°²»Ò²Í¦ºÃµÄÂï£¬¶àÔö¼Ó¸ö¼ÍÄîÈÕÂï¡±
 ====================
 
 ====================
@@ -86,7 +86,7 @@ length 56
 ====================
 \"An anniversary that we'll spend together every year.\"
 ====================
-â€œä¸€ä¸ªæˆ‘ä»¬å°†æ¯å¹´ä¸€èµ·åº¦è¿‡çš„å‘¨å¹´çºªå¿µæ—¥ã€‚â€
+¡°Ò»¸öÎÒÃÇ½«Ã¿ÄêÒ»Æğ¶È¹ıµÄÖÜÄê¼ÍÄîÈÕ¡£¡±
 ====================
 
 ====================
@@ -97,7 +97,7 @@ length 65
 ====================
 \"I'll write 'Tomoya's Independence Day' on the calendar later.\"
 ====================
-â€œå¾…ä¼šå°±åœ¨æ—¥å†ä¸Šï¼Œå†™ä¸‹â€œæœ‹ä¹Ÿè‡ªç«‹æ—¥â€å§ã€‚â€
+¡°´ı»á¾ÍÔÚÈÕÀúÉÏ£¬Ğ´ÏÂ¡°ÅóÒ²×ÔÁ¢ÈÕ¡±°É¡£¡±
 ====================
 
 ====================
@@ -108,7 +108,7 @@ length 69
 ====================
 She smiles to herself and keeps talking without regard to my opinion.
 ====================
-å¥¹æ— è§†äº†æˆ‘çš„æ„è§ï¼Œç„¶åä¸€ä¸ªäººç¬‘ç€è¯´ã€‚
+ËıÎŞÊÓÁËÎÒµÄÒâ¼û£¬È»ºóÒ»¸öÈËĞ¦×ÅËµ¡£
 ====================
 
 ====================
@@ -119,7 +119,7 @@ length 24
 ====================
 That's just like a girl.
 ====================
-çœ‹æ ·å­å¾ˆåƒä¸€ä¸ªå¥³å­©ã€‚
+¿´Ñù×ÓºÜÏñÒ»¸öÅ®º¢¡£
 ====================
 
 ====================
@@ -130,7 +130,7 @@ length 42
 ====================
 \"But we have nothing to celebrate with.\"
 ====================
-\"But we have nothing to celebrate with.\"
+¡°¿ÉÊÇÎÒÃÇÒ²Ã»Ê²Ã´¿ÉÒÔÓÃÀ´Çì×£µÄ¶«Î÷¡£¡±
 ====================
 
 ====================
@@ -141,7 +141,7 @@ length 38
 ====================
 \"We have my home cooking, don't we?\"
 ====================
-\"We have my home cooking, don't we?\"
+¡°²»ÊÇ»¹ÓĞÎÒ×öµÄ·¹²ËÂğ£¿¡±
 ====================
 
 ====================
@@ -152,7 +152,7 @@ length 80
 ====================
 She traces the outline of one of the plates arranged on the table with her hand.
 ====================
-She traces the outline of one of the plates arranged on the table with her hand.
+ËıÓÃÊÖÖ¸Ãè»­×Å×ÀÉÏ°Ú·ÅµÄÆäÖĞÒ»Ö»ÅÌ×ÓµÄÂÖÀª¡£
 ====================
 
 ====================
@@ -163,7 +163,7 @@ length 24
 ====================
 \"We always have that.\"
 ====================
-\"We always have that.\"
+¡°ÎÒÃÇ²»ÊÇÒ»Ö±¶¼ÕâÑùÂğ¡£¡±
 ====================
 
 ====================
@@ -174,7 +174,7 @@ length 16
 ====================
 \"Yeah, we do.\"
 ====================
-\"Yeah, we do.\"
+¡°ÊÇ°¡£¬ÊÇÕâÑù¡£¡±
 ====================
 
 ====================
@@ -185,7 +185,7 @@ length 40
 ====================
 \"But we only have dinner on weekends.\"
 ====================
-\"But we only have dinner on weekends.\"
+¡°¿ÉÊÇÖ»ÓĞÖÜÄ©²ÅÒ»Æğ³ÔÍí·¹¡£¡±
 ====================
 
 ====================
@@ -196,7 +196,7 @@ length 114
 ====================
 Sunday through Thursday, Tomoyo eats with her family at her house. We only sit at the table like this on weekends.
 ====================
-Sunday through Thursday, Tomoyo eats with her family at her house. We only sit at the table like this on weekends.
+ÖÜÈÕÖÁÖÜËÄ£¬ÖÇ´ú¶¼ÔÚ×Ô¼º¼ÒÀïºÍ¼ÒÈËÒ»Æğ³Ô·¹¡£ÎÒÃÇÖ»ÓĞÖÜÄ©²Å»áÏñÕâÑùÒ»Æğ×øÔÚ²Í×ÀÇ°¡£
 ====================
 
 ====================
@@ -207,7 +207,7 @@ length 23
 ====================
 \"Is that not enough?\"
 ====================
-\"Is that not enough?\"
+¡°ÕâÑù»¹²»¹»Âğ£¿¡±
 ====================
 
 ====================
@@ -218,7 +218,7 @@ length 9
 ====================
 \"No...\"
 ====================
-\"No...\"
+¡°²»¡­¡­¡±
 ====================
 
 ====================
@@ -229,7 +229,7 @@ length 29
 ====================
 \"It's more than I deserve.\"
 ====================
-\"It's more than I deserve.\"
+¡°Õâ¶ÔÎÒÀ´ËµÒÑ¾­×ã¹»ÁË¡£¡±
 ====================
 
 ====================
@@ -240,7 +240,7 @@ length 40
 ====================
 She also gives me lunch in the mornings.
 ====================
-She also gives me lunch in the mornings.
+ËıÔçÉÏ»¹»áÎªÎÒ×¼±¸±ãµ±¡£
 ====================
 
 ====================
@@ -251,7 +251,7 @@ length 80
 ====================
 \"Right? There aren't many girlfriends who would do this. You should be proud.\"
 ====================
-\"Right? There aren't many girlfriends who would do this. You should be proud.\"
+¡°¶Ô°É£¿ÄÜÎªÄã×öµ½Õâ·İÉÏµÄÅ®ÅóÓÑ¿É²»¶à¡£ÄãÓ¦¸Ã¸Ğµ½½¾°Á²Å¶Ô¡£¡±
 ====================
 
 ====================
@@ -262,7 +262,7 @@ length 69
 ====================
 \"I'm also still in school. I'm doing this on top of my schoolwork.\"
 ====================
-\"I'm also still in school. I'm doing this on top of my schoolwork.\"
+¡°ÎÒ×Ô¼ºÒ²»¹ÔÚÉÏÑ§ÄØ¡£Õâ¿ÉÊÇÔÚ¼æ¹ËÑ§ÒµµÄÍ¬Ê±×öµ½µÄ¡£¡±
 ====================
 
 ====================
@@ -273,7 +273,7 @@ length 61
 ====================
 \"Even so, I won't let my grades drop. That's no mean feat.\"
 ====================
-\"Even so, I won't let my grades drop. That's no mean feat.\"
+¡°¼´±ãÈç´Ë£¬ÎÒµÄ³É¼¨Ò²²»»áÏÂ½µ¡£Õâ¿É²»ÊÇ¼şÈİÒ×µÄÊÂ¡£¡±
 ====================
 
 ====================
@@ -284,7 +284,7 @@ length 50
 ====================
 \"I guess it's strange to say that about myself.\"
 ====================
-\"I guess it's strange to say that about myself.\"
+¡°ËäÈ»×Ô¼º¿ä×Ô¼ºÓĞµãÆæ¹Ö¾ÍÊÇÁË¡£¡±
 ====================
 
 ====================
@@ -295,7 +295,7 @@ length 37
 ====================
 I also think that's quite impressive.
 ====================
-I also think that's quite impressive.
+ÎÒÒ²¾õµÃËıºÜÁË²»Æğ¡£
 ====================
 
 ====================
@@ -306,7 +306,7 @@ length 30
 ====================
 It's due to her determination.
 ====================
-It's due to her determination.
+Õâ¶¼ÊÇÒòÎªËıÓĞ×Å¼á¶¨µÄ¾öĞÄ¡£
 ====================
 
 ====================
@@ -317,7 +317,7 @@ length 38
 ====================
 She won't make the same mistake again.
 ====================
-She won't make the same mistake again.
+Ëı²»»áÔÙ·¸Í¬ÑùµÄ´íÎóÁË¡£
 ====================
 
 ====================
@@ -328,7 +328,7 @@ length 21
 ====================
 She has self-control.
 ====================
-She has self-control.
+ËıÓĞ×ÅºÜÇ¿µÄ×ÔÖÆÁ¦¡£
 ====================
 
 ====================
@@ -339,7 +339,7 @@ length 42
 ====================
 \"Anyway, let's eat before it gets cold.\"
 ====================
-\"Anyway, let's eat before it gets cold.\"
+¡°×ÜÖ®£¬³Ã·¹²Ë»¹Ã»Á¹£¬¿ì³Ô°É¡£¡±
 ====================
 
 ====================
@@ -350,7 +350,7 @@ length 58
 ====================
 \"It would be weird to say congratulations, wouldn't it?\"
 ====================
-\"It would be weird to say congratulations, wouldn't it?\"
+¡°ÒªÊÇËµ¡°¹§Ï²¡±µÄ»°£¬¸Ğ¾õ»áºÜÆæ¹Ö°É£¿¡±
 ====================
 
 ====================
@@ -361,7 +361,7 @@ length 43
 ====================
 \"Keep doing your best. Life can be hard.\"
 ====================
-\"Keep doing your best. Life can be hard.\"
+¡°¼ÌĞø¼ÓÓÍ°É¡£ÈËÉúÄÑÃâ»áÓĞ¼èĞÁ¡£¡±
 ====================
 
 ====================
@@ -372,7 +372,7 @@ length 44
 ====================
 \"That's not true. As long as you're here.\"
 ====================
-\"That's not true. As long as you're here.\"
+¡°²ÅÃ»ÓĞÄÇ»ØÊÂ¡£Ö»ÒªÄãÔÚÎÒÉí±ß¡£¡±
 ====================
 
 ====================
@@ -383,7 +383,7 @@ length 42
 ====================
 \"I see. I'm happy to hear you say that.\"
 ====================
-\"I see. I'm happy to hear you say that.\"
+¡°ÊÇÂğ¡£Ìıµ½ÄãÕâÃ´Ëµ£¬ÎÒºÜ¿ªĞÄ¡£¡±
 ====================
 
 ====================
@@ -394,7 +394,7 @@ length 58
 ====================
 \"I can handle anything too, as long as we are together.\"
 ====================
-\"I can handle anything too, as long as we are together.\"
+¡°Ö»ÒªÎÒÃÇÔÚÒ»Æğ£¬ÎÒÊ²Ã´¶¼ÄÜÍ¦¹ıÈ¥¡£¡±
 ====================
 
 ====================
@@ -405,7 +405,7 @@ length 105
 ====================
 Our mutual feelings pass between our lips. Usually after that, we would bring those lips together, but...
 ====================
-Our mutual feelings pass between our lips. Usually after that, we would bring those lips together, but...
+ÎÒÃÇµÄ»°ÓïÔÚ±Ë´Ë´½¼ä´«µİ¡£Íù³£µÄ»°£¬½ÓÏÂÀ´ÎÒÃÇ»áË«´½Ïà½Ó£¬¿ÉÊÇ¡­¡­
 ====================
 
 ====================
@@ -416,7 +416,7 @@ length 80
 ====================
 Perhaps frustrated, Tomoyo lowers her eyes and looks at the table separating us.
 ====================
-Perhaps frustrated, Tomoyo lowers her eyes and looks at the table separating us.
+ÖÇ´úËÆºõÓĞĞ©ÆøÄÕ£¬´¹ÏÂÑÛÁ±£¬ÍûÏò¸ôÔÚÎÒÃÇÖ®¼äµÄ²Í×À¡£
 ====================
 
 ====================
@@ -427,7 +427,7 @@ length 33
 ====================
 Instead, I raise my glass of tea.
 ====================
-Instead, I raise my glass of tea.
+ÎÒ×ª¶ø¾ÙÆğÁË²è±­¡£
 ====================
 
 ====================
@@ -438,7 +438,7 @@ length 16
 ====================
 \"Let's toast.\"
 ====================
-\"Let's toast.\"
+¡°¸É±­°É¡£¡±
 ====================
 
 ====================
@@ -449,7 +449,7 @@ length 11
 ====================
 \"Yeah...\"
 ====================
-\"Yeah...\"
+¡°àÅ¡­¡­¡±
 ====================
 
 ====================
@@ -460,7 +460,7 @@ length 11
 ====================
 \"Cheers.\"
 ====================
-\"Cheers.\"
+¡°¸É±­¡£¡±
 ====================
 
 ====================
@@ -471,7 +471,7 @@ length 30
 ====================
 We bring our glasses together.
 ====================
-We bring our glasses together.
+ÎÒÃÇ½«±­×ÓÅöÔÚÒ»Æğ¡£
 ====================
 
 ====================
@@ -482,7 +482,7 @@ length 77
 ====================
 We then proceed to eat Tomoyo's home cooking. It's getting better by the day.
 ====================
-We then proceed to eat Tomoyo's home cooking. It's getting better by the day.
+½Ó×Å£¬ÎÒÃÇ¿ªÊ¼Æ·³¢ÖÇ´úÇ×ÊÖ×öµÄ·¹²Ë¡£ËıµÄÊÖÒÕÒ»Ìì±ÈÒ»ÌìºÃÁË¡£
 ====================
 
 ====================
@@ -493,7 +493,7 @@ length 39
 ====================
 We do the dishes together and watch TV.
 ====================
-We do the dishes together and watch TV.
+ÎÒÃÇÒ»ÆğÈ¥Ï´ÁËÍë£¬È»ºó¿´µçÊÓ¡£
 ====================
 
 ====================
@@ -504,7 +504,7 @@ length 27
 ====================
 There's a baseball game on.
 ====================
-There's a baseball game on.
+µçÊÓÉÏÕı²¥×Å°ôÇò±ÈÈü¡£
 ====================
 
 ====================
@@ -515,7 +515,7 @@ length 33
 ====================
 \"You like baseball, don't you?\"
 ====================
-\"You like baseball, don't you?\"
+¡°ÄãÏ²»¶°ôÇò°É£¿¡±
 ====================
 
 ====================
@@ -526,7 +526,7 @@ length 23
 ====================
 \"I like most sports.\"
 ====================
-\"I like most sports.\"
+¡°´ó²¿·ÖÔË¶¯ÎÒ¶¼Ï²»¶¡£¡±
 ====================
 
 ====================
@@ -537,7 +537,7 @@ length 40
 ====================
 \"That's right... you were an athlete.\"
 ====================
-\"That's right... you were an athlete.\"
+¡°ËµµÃÒ²ÊÇ¡­¡­ÄãÒÔÇ°¿ÉÊÇ¸öÔË¶¯Ô±ÄØ¡£¡±
 ====================
 
 ====================
@@ -548,7 +548,7 @@ length 35
 ====================
 \"I wasn't good at anything else.\"
 ====================
-\"I wasn't good at anything else.\"
+¡°ÒòÎªÎÒ³ıÁËÔË¶¯£¬±ğµÄÊ²Ã´¶¼²»ÉÃ³¤¡£¡±
 ====================
 
 ====================
@@ -559,7 +559,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+¡°¡­¡­¡±
 ====================
 
 ====================
@@ -570,7 +570,7 @@ length 53
 ====================
 \"Now I can't even do that, so I have nothing left.\"
 ====================
-\"Now I can't even do that, so I have nothing left.\"
+¡°¿ÉÈç½ñÁ¬ÔË¶¯Ò²×ö²»µ½ÁË£¬ÎÒÊ²Ã´¶¼Ã»Ê£ÏÂ¡£¡±
 ====================
 
 ====================
@@ -581,7 +581,7 @@ length 31
 ====================
 \"Don't say things like that.\"
 ====================
-\"Don't say things like that.\"
+¡°±ğÕâÃ´Ëµ¡£¡±
 ====================
 
 ====================
@@ -592,7 +592,7 @@ length 56
 ====================
 \"It's not true that you aren't good at anything else.\"
 ====================
-\"It's not true that you aren't good at anything else.\"
+¡°²ÅÃ»ÓĞÄÇ»ØÊÂ£¬Äã²¢²»ÊÇ³ıÁËÔË¶¯¾ÍÒ»ÎŞÊÇ´¦¡£¡±
 ====================
 
 ====================
@@ -603,7 +603,7 @@ length 26
 ====================
 \"You can make me happy.\"
 ====================
-\"You can make me happy.\"
+¡°ÄãÄÜÈÃÎÒĞÒ¸£¡£¡±
 ====================
 
 ====================
@@ -614,7 +614,7 @@ length 25
 ====================
 \"You're great at that.\"
 ====================
-\"You're great at that.\"
+¡°ÄãÔÚÕâ·½Ãæ¿ÉÀ÷º¦ÁË¡£¡±
 ====================
 
 ====================
@@ -625,7 +625,7 @@ length 40
 ====================
 There's nothing separating us this time.
 ====================
-There's nothing separating us this time.
+ÕâÒ»´Î£¬ÎÒÃÇÖ®¼äÃ»ÓĞÈÎºÎ×è¸ô¡£
 ====================
 
 ====================
@@ -636,7 +636,7 @@ length 20
 ====================
 We lean in and kiss.
 ====================
-We lean in and kiss.
+ÎÒÃÇ¿¿ÔÚÒ»Æğ£¬Ç×ÎÇ×Å±Ë´Ë¡£
 ====================
 
 ====================
@@ -647,7 +647,7 @@ length 59
 ====================
 But she immediately pushes against my chest and pulls away.
 ====================
-But she immediately pushes against my chest and pulls away.
+µ«ÖÇ´úÁ¢¿ÌÓÃÊÖµÖ×¡ÎÒµÄĞØ¿Ú£¬À­¿ªÁË¾àÀë¡£
 ====================
 
 ====================
@@ -658,7 +658,7 @@ length 10
 ====================
 \"...hm?\"
 ====================
-\"...hm?\"
+¡°¡­¡­àÅ£¿¡±
 ====================
 
 ====================
@@ -669,7 +669,7 @@ length 20
 ====================
 \"Wait a second...\"
 ====================
-\"Wait a second...\"
+¡°µÈÒ»ÏÂ¡­¡­¡±
 ====================
 
 ====================
@@ -680,7 +680,7 @@ length 54
 ====================
 Tomoyo pulls back and covers her mouth with her hands.
 ====================
-Tomoyo pulls back and covers her mouth with her hands.
+ÖÇ´úÀ­¿ª¾àÀëºó£¬ÓÃÊÖÎæ×¡ÁË×ì¡£
 ====================
 
 ====================
@@ -691,7 +691,7 @@ length 42
 ====================
 She seems to be checking her breath again.
 ====================
-She seems to be checking her breath again.
+ËıËÆºõÓÖÔÚÈ·ÈÏ×Ô¼ºµÄ¿ÚÆøÁË¡£
 ====================
 
 ====================
@@ -702,7 +702,7 @@ length 23
 ====================
 \"You worry too much.\"
 ====================
-\"You worry too much.\"
+¡°ÄãÌ«ÔÚÒâÁË¡£¡±
 ====================
 
 ====================
@@ -713,7 +713,7 @@ length 49
 ====================
 \"A woman with no sense of delicacy is no good.\"
 ====================
-\"A woman with no sense of delicacy is no good.\"
+¡°Ã»ÓĞÏ¸ÄåĞÄË¼µÄÅ®ÈË¿É²»ĞĞ¡£¡±
 ====================
 
 ====================
@@ -724,7 +724,7 @@ length 77
 ====================
 \"You don't like it when I use things like lip balm or breath fresheners...\"
 ====================
-\"You don't like it when I use things like lip balm or breath fresheners...\"
+¡°Äã²»Ï²»¶ÎÒÓÃÈó´½¸à»òÕß¿ÚÆøÇåĞÂ¼ÁÖ®ÀàµÄ¶«Î÷°É¡­¡­¡±
 ====================
 
 ====================
@@ -735,7 +735,7 @@ length 31
 ====================
 \"I like you the way you are.\"
 ====================
-\"I like you the way you are.\"
+¡°ÎÒÏ²»¶ÄãÔ­±¾µÄÑù×Ó¡£¡±
 ====================
 
 ====================
@@ -746,7 +746,7 @@ length 32
 ====================
 \"But I won't force the issue.\"
 ====================
-\"But I won't force the issue.\"
+¡°²»¹ı£¬ÎÒ²»»áÇ¿ÇóÄãµÄ¡£¡±
 ====================
 
 ====================
@@ -757,7 +757,7 @@ length 25
 ====================
 I go back to watching TV.
 ====================
-I go back to watching TV.
+ÎÒÖØĞÂ¿´ÆğµçÊÓÀ´¡£
 ====================
 
 ====================
@@ -768,7 +768,7 @@ length 15
 ====================
 \"Ah, well...\"
 ====================
-\"Ah, well...\"
+¡°°¡£¬ÄÇ¸ö¡­¡­¡±
 ====================
 
 ====================
@@ -779,7 +779,7 @@ length 55
 ====================
 Tomoyo hesitates, as though she wants to say something.
 ====================
-Tomoyo hesitates, as though she wants to say something.
+ÖÇ´úÓûÑÔÓÖÖ¹£¬ÓÌÔ¥²»¾ö¡£
 ====================
 
 ====================
@@ -790,7 +790,7 @@ length 80
 ====================
 She seems to think that I'm offended because we stopped kissing halfway through.
 ====================
-She seems to think that I'm offended because we stopped kissing halfway through.
+ËıËÆºõ¾õµÃ£¬ÊÇÒòÎªÇ×ÎÇÖĞÍ¾±»´ò¶Ï£¬ÎÒ²ÅÉúÆøÁË¡£
 ====================
 
 ====================
@@ -801,7 +801,7 @@ length 71
 ====================
 But she's at a loss because she can't bring herself to ask to continue.
 ====================
-But she's at a loss because she can't bring herself to ask to continue.
+¿ÉËıÓÖ²»ºÃÒâË¼¿ª¿ÚÒªÇó¼ÌĞø£¬Ò»Ê±²»ÖªÈçºÎÊÇºÃ¡£
 ====================
 
 ====================
@@ -812,7 +812,7 @@ length 74
 ====================
 There's no helping it... I'll have to be the one to create an opportunity.
 ====================
-There's no helping it... I'll have to be the one to create an opportunity.
+Ã»°ì·¨¡­¡­Ö»ºÃÓÉÎÒÀ´ÖÆÔì»ú»áÁË¡£
 ====================
 
 ====================
@@ -823,7 +823,7 @@ length 33
 ====================
 Ask her to speak more like a girl
 ====================
-Ask her to speak more like a girl
+ÈÃËıËµ»°ÔÙÏñ¸öÅ®º¢×ÓÒ»Ğ©
 ====================
 
 ====================
@@ -834,7 +834,7 @@ length 30
 ====================
 Ask her to act like a tsundere
 ====================
-Ask her to act like a tsundere
+ÈÃËı°çÑİÒ»ÏÂ°Á½¿
 ====================
 
 ====================
@@ -845,7 +845,7 @@ length 29
 ====================
 Ask her to speak like a child
 ====================
-Ask her to speak like a child
+ÈÃËıÏñĞ¡º¢×ÓÒ»ÑùËµ»°
 ====================
 
 ====================
@@ -856,7 +856,7 @@ length 13
 ====================
 \"Tomoyo...\"
 ====================
-\"Tomoyo...\"
+¡°ÖÇ´ú¡­¡­¡±
 ====================
 
 ====================
@@ -867,7 +867,7 @@ length 7
 ====================
 \"Hm?\"
 ====================
-\"Hm?\"
+¡°àÅ£¿¡±
 ====================
 
 ====================
@@ -878,7 +878,7 @@ length 47
 ====================
 \"Could you try talking like an average girl?\"
 ====================
-\"Could you try talking like an average girl?\"
+¡°ÄãÄÜ²»ÄÜÊÔ×ÅÓÃÆÕÍ¨Å®º¢×ÓµÄ¿ÚÎÇËµ»°£¿¡±
 ====================
 
 ====================
@@ -889,7 +889,7 @@ length 11
 ====================
 \"Huh...?\"
 ====================
-\"Huh...?\"
+¡°ÚÀ¡­¡­£¿¡±
 ====================
 
 ====================
@@ -900,7 +900,7 @@ length 62
 ====================
 That caught her off guard. She doesn't understand what I mean.
 ====================
-That caught her off guard. She doesn't understand what I mean.
+Õâ³öºõÁËËıµÄÒâÁÏ¡£Ëı²»Ã÷°×ÎÒÊÇÊ²Ã´ÒâË¼¡£
 ====================
 
 ====================
@@ -911,7 +911,7 @@ length 66
 ====================
 \"Well... try putting \"like\" and \"y'know\" in your sentences.\"
 ====================
-\"Well... try putting \"like\" and \"y'know\" in your sentences.\"
+¡°ÄÇ¸ö¡­¡­ÊÔ×ÅÔÚ¾ä×ÓÀï¼ÓÉÏ¡°Ê²Ã´µÄ¡±»òÕß¡°ÄãÖªµÀÂğ¡±ÕâÑùµÄ¿ÚÍ·ìø¡£¡±
 ====================
 
 ====================
@@ -922,7 +922,7 @@ length 65
 ====================
 \"Talk that way and it'll really feel like you're a young girl.\"
 ====================
-\"Talk that way and it'll really feel like you're a young girl.\"
+¡°ÕâÑùËµ»°µÄ»°£¬»áÈÃÄã¸üÓĞÉÙÅ®µÄ¸Ğ¾õ¡£¡±
 ====================
 
 ====================
@@ -933,7 +933,7 @@ length 22
 ====================
 \"I don't want to...\"
 ====================
-\"I don't want to...\"
+¡°ÎÒ²»Ì«Ïë¡­¡­¡±
 ====================
 
 ====================
@@ -944,7 +944,7 @@ length 84
 ====================
 \"When you put it like that, it makes it sound like I'm usually not very feminine.\"
 ====================
-\"When you put it like that, it makes it sound like I'm usually not very feminine.\"
+¡°ÄãÕâÃ´Ëµ£¬ºÃÏñÔÚ½²ÎÒÆ½Ê±Ò»µã¶¼²»Å®ĞÔ»¯ËÆµÄ¡£¡±
 ====================
 
 ====================
@@ -955,7 +955,7 @@ length 90
 ====================
 \"You've got it all wrong. This is to further explore the depths of your feminine charm.\"
 ====================
-\"You've got it all wrong. This is to further explore the depths of your feminine charm.\"
+¡°ÄãÎó»áÁË¡£ÕâÊÇÎªÁË½øÒ»²½ÍÚ¾òÄãÅ®ĞÔ÷ÈÁ¦µÄÉî¶È°¡¡£¡±
 ====================
 
 ====================
@@ -966,7 +966,7 @@ length 64
 ====================
 \"If you do this, I might discover another side of your charm.\"
 ====================
-\"If you do this, I might discover another side of your charm.\"
+¡°ÒªÊÇÄãÕâÃ´×ö£¬ÎÒËµ²»¶¨ÄÜ·¢ÏÖÄã÷ÈÁ¦µÄÁíÒ»Ãæ¡£¡±
 ====================
 
 ====================
@@ -977,7 +977,7 @@ length 84
 ====================
 \"Ah, I'll definitely fall for you all over again and be more in love than before.\"
 ====================
-\"Ah, I'll definitely fall for you all over again and be more in love than before.\"
+¡°°¡£¬ÎÒÒ»¶¨»áÔÙ´ÎÎªÄãÇãĞÄ£¬±ÈÒÔÇ°¸ü¼Ó°®Äã¡£¡±
 ====================
 
 ====================
@@ -988,7 +988,7 @@ length 54
 ====================
 \"I'll almost assuredly want to kiss you right away.\"
 ====================
-\"I'll almost assuredly want to kiss you right away.\"
+¡°¶øÇÒÎÒ¼¸ºõ¿Ï¶¨»áÈÌ²»×¡Á¢¿ÌÏëÎÇÄã¡£¡±
 ====================
 
 ====================
@@ -999,7 +999,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+¡°¡­¡­¡±
 ====================
 
 ====================
@@ -1010,7 +1010,7 @@ length 26
 ====================
 She thinks for a second...
 ====================
-She thinks for a second...
+ËıË¼¿¼ÁËÒ»»á¶ù¡­¡­
 ====================
 
 ====================
@@ -1021,7 +1021,7 @@ length 45
 ====================
 \"Well... if you're going to go that far...\"
 ====================
-\"Well... if you're going to go that far...\"
+¡°¼ÈÈ»Äã»°¶¼Ëµµ½Õâ·İÉÏÁË¡­¡­¡±
 ====================
 
 ====================
@@ -1032,7 +1032,7 @@ length 29
 ====================
 \"I guess I could try it...\"
 ====================
-\"I guess I could try it...\"
+¡°ÄÇÎÒ¾ÍÊÔÊÔ¿´°É¡­¡­¡±
 ====================
 
 ====================
@@ -1043,7 +1043,7 @@ length 15
 ====================
 She's on board.
 ====================
-She's on board.
+Ëı´ğÓ¦ÁË¡£
 ====================
 
 ====================
@@ -1054,7 +1054,7 @@ length 29
 ====================
 And so the experiment begins.
 ====================
-And so the experiment begins.
+ÓÚÊÇ£¬ÊµÑé¿ªÊ¼ÁË¡£
 ====================
 
 ====================
@@ -1065,7 +1065,7 @@ length 45
 ====================
 \"Tomoyo, it hasn't rained in a while, huh?\"
 ====================
-\"Tomoyo, it hasn't rained in a while, huh?\"
+¡°ÖÇ´ú£¬×î½ü¶¼Ã»ÏÂÓêÄØ£¬ÊÇ°É£¿¡±
 ====================
 
 ====================
@@ -1076,7 +1076,7 @@ length 43
 ====================
 \"Eh? Yeah, well... that's, like, true...\"
 ====================
-\"Eh? Yeah, well... that's, like, true...\"
+¡°ÚÀ£¿ÊÇ¡¢ÊÇ°¡¡­¡­ÕâÃ´ËµÆğÀ´£¬µÄÈ·ÊÇÕâÑù¡­¡­¡±
 ====================
 
 ====================
@@ -1087,7 +1087,7 @@ length 93
 ====================
 \"The rainy season is over, so um... we're sure to have good weather for a while... y'know?\"
 ====================
-\"The rainy season is over, so um... we're sure to have good weather for a while... y'know?\"
+¡°Ã·Óê¼¾½ÚÒÑ¾­½áÊøÁË£¬ËùÒÔÂï¡­¡­½ÓÏÂÀ´Ò»¶ÎÊ±¼äÓ¦¸Ã¶¼ÊÇºÃÌìÆø¡­¡­µÄ°É£¿¡±
 ====================
 
 ====================
@@ -1098,7 +1098,7 @@ length 60
 ====================
 \"It's such a drag when it gets so humid, don't you think?\"
 ====================
-\"It's such a drag when it gets so humid, don't you think?\"
+¡°ÌìÆøÄÇÃ´³±ÊªµÄÊ±ºò£¬ÕæÊÇÈÃÈËÊÜ²»ÁËÄØ£¬Äã²»¾õµÃÂğ£¿¡±
 ====================
 
 ====================
@@ -1109,7 +1109,7 @@ length 133
 ====================
 \"Y-Yeah, that's true. People going to school by bike also need to be careful of open umbrellas. It can get pretty bad... you know.\"
 ====================
-\"Y-Yeah, that's true. People going to school by bike also need to be careful of open umbrellas. It can get pretty bad... you know.\"
+¡°ÊÇ¡¢ÊÇ°¡£¬ËµµÃÃ»´í¡£Æï³µÉÏÑ§µÄÈË»¹µÃĞ¡ĞÄ³Å¿ªµÄÓêÉ¡ÄØ¡£Åª²»ºÃ»áºÜÎ£ÏÕµÄ¡­¡­ÄãÖªµÀÂğ£¿¡±
 ====================
 
 ====================
@@ -1120,7 +1120,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+¡°¡­¡­¡±
 ====================
 
 ====================
@@ -1131,7 +1131,7 @@ length 23
 ====================
 \"Like, what's wrong?\"
 ====================
-\"Like, what's wrong?\"
+¡°ÄÇ¸ö£¬ÄãÔõÃ´ÁË£¿¡±
 ====================
 
 ====================
@@ -1142,7 +1142,7 @@ length 31
 ====================
 \"It doesn't suit you at all.\"
 ====================
-\"It doesn't suit you at all.\"
+¡°ÕâÒ»µã¶¼²»ÊÊºÏÄã¡£¡±
 ====================
 
 ====================
@@ -1153,7 +1153,7 @@ length 36
 ====================
 \"And just who made me do this...?\"
 ====================
-\"And just who made me do this...?\"
+¡°Õâµ½µ×ÊÇË­ÈÃÎÒÕâÃ´×öµÄ¡­¡­£¿¡±
 ====================
 
 ====================
@@ -1164,7 +1164,7 @@ length 13
 ====================
 \"Tomoyo...\"
 ====================
-\"Tomoyo...\"
+¡°ÖÇ´ú¡­¡­¡±
 ====================
 
 ====================
@@ -1175,7 +1175,7 @@ length 7
 ====================
 \"Hm?\"
 ====================
-\"Hm?\"
+¡°àÅ£¿¡±
 ====================
 
 ====================
@@ -1186,7 +1186,7 @@ length 45
 ====================
 \"How about you try acting like a tsundere?\"
 ====================
-\"How about you try acting like a tsundere?\"
+¡°ÄÇÄãÒª²»ÒªÊÔÊÔ°çÑİÒ»ÏÂ°Á½¿£¿¡±
 ====================
 
 ====================
@@ -1197,7 +1197,7 @@ length 25
 ====================
 \"Tsun...? What's that?\"
 ====================
-\"Tsun...? What's that?\"
+¡°°Á¡­¡­£¿ÄÇÊÇÊ²Ã´£¿¡±
 ====================
 
 ====================
@@ -1208,7 +1208,7 @@ length 89
 ====================
 \"At first you act cold so that it looks like you hate me, but then you act lovestruck.\"
 ====================
-\"At first you act cold so that it looks like you hate me, but then you act lovestruck.\"
+¡°Ò»¿ªÊ¼Ì¬¶ÈÀäµ­£¬±íÏÖµÃºÃÏñÌÖÑáÎÒ£¬¿ÉºóÀ´ÓÖ»á±íÏÖµÃÏñÊÇ±»ÎÒÃÔ×¡ÁËÒ»Ñù¡£¡±
 ====================
 
 ====================
@@ -1219,7 +1219,7 @@ length 39
 ====================
 \"It'll be even better if you're shy.\"
 ====================
-\"It'll be even better if you're shy.\"
+¡°ÔÙ´øµãº¦ĞßµÄ¸Ğ¾õ¾Í¸üÍêÃÀÁË¡£¡±
 ====================
 
 ====================
@@ -1230,7 +1230,7 @@ length 28
 ====================
 \"I don't really get it...\"
 ====================
-\"I don't really get it...\"
+¡°ÎÒÓĞµã²»Ì«Ã÷°×¡­¡­¡±
 ====================
 
 ====================
@@ -1241,7 +1241,7 @@ length 41
 ====================
 \"Is there a point to me doing that...?\"
 ====================
-\"Is there a point to me doing that...?\"
+¡°ÎÒÕâÃ´×öÓĞÊ²Ã´ÒâÒåÂğ¡­¡­£¿¡±
 ====================
 
 ====================
@@ -1252,7 +1252,7 @@ length 68
 ====================
 \"Of course. This will increase the depths of your feminine charm.\"
 ====================
-\"Of course. This will increase the depths of your feminine charm.\"
+¡°µ±È»ÓĞ¡£ÕâÄÜ¼ÓÉîÄãÅ®ĞÔ÷ÈÁ¦µÄÉî¶È¡£¡±
 ====================
 
 ====================
@@ -1263,7 +1263,7 @@ length 64
 ====================
 \"If you do this, I might discover another side of your charm.\"
 ====================
-\"If you do this, I might discover another side of your charm.\"
+¡°ÒªÊÇÄãÕâÃ´×ö£¬ÎÒËµ²»¶¨ÄÜ·¢ÏÖÄã÷ÈÁ¦µÄÁíÒ»Ãæ¡£¡±
 ====================
 
 ====================
@@ -1274,7 +1274,7 @@ length 84
 ====================
 \"Ah, I'll definitely fall for you all over again and be more in love than before.\"
 ====================
-\"Ah, I'll definitely fall for you all over again and be more in love than before.\"
+¡°°¡£¬ÎÒÒ»¶¨»áÔÙ´ÎÎªÄãÇãĞÄ£¬±ÈÒÔÇ°¸ü¼Ó°®Äã¡£¡±
 ====================
 
 ====================
@@ -1285,7 +1285,7 @@ length 54
 ====================
 \"I'll almost assuredly want to kiss you right away.\"
 ====================
-\"I'll almost assuredly want to kiss you right away.\"
+¡°¶øÇÒÎÒ¼¸ºõ¿Ï¶¨»áÈÌ²»×¡Á¢¿ÌÏëÎÇÄã¡£¡±
 ====================
 
 ====================
@@ -1296,7 +1296,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+¡°¡­¡­¡±
 ====================
 
 ====================
@@ -1307,7 +1307,7 @@ length 26
 ====================
 She thinks for a second...
 ====================
-She thinks for a second...
+ËıË¼¿¼ÁËÒ»»á¶ù¡­¡­
 ====================
 
 ====================
@@ -1318,7 +1318,7 @@ length 45
 ====================
 \"Well... if you're going to go that far...\"
 ====================
-\"Well... if you're going to go that far...\"
+¡°¼ÈÈ»Äã»°¶¼Ëµµ½Õâ·İÉÏÁË¡­¡­¡±
 ====================
 
 ====================
@@ -1329,7 +1329,7 @@ length 29
 ====================
 \"I guess I could try it...\"
 ====================
-\"I guess I could try it...\"
+¡°ÄÇÎÒ¾ÍÊÔÊÔ¿´°É¡­¡­¡±
 ====================
 
 ====================
@@ -1340,7 +1340,7 @@ length 15
 ====================
 She's on board.
 ====================
-She's on board.
+Ëı´ğÓ¦ÁË¡£
 ====================
 
 ====================
@@ -1351,7 +1351,7 @@ length 28
 ====================
 \"So, what should I do...?\"
 ====================
-\"So, what should I do...?\"
+¡°ÄÇ£¬ÎÒ¸ÃÔõÃ´×ö¡­¡­£¿¡±
 ====================
 
 ====================
@@ -1362,7 +1362,7 @@ length 22
 ====================
 \"Well, basically...\"
 ====================
-\"Well, basically...\"
+¡°Õâ¸öÂï£¬×ÜµÄÀ´Ëµ¡­¡­¡±
 ====================
 
 ====================
@@ -1373,7 +1373,7 @@ length 27
 ====================
 I explain tsunderes to her.
 ====================
-I explain tsunderes to her.
+ÎÒÏòËıËµÃ÷ÁË°Á½¿ÊÇÔõÃ´»ØÊÂ¡£
 ====================
 
 ====================
@@ -1384,7 +1384,7 @@ length 20
 ====================
 \"That's about it.\"
 ====================
-\"That's about it.\"
+¡°´óÖÂ¾ÍÊÇÕâÑù¡£¡±
 ====================
 
 ====================
@@ -1395,7 +1395,7 @@ length 51
 ====================
 \"...I kind of understand, and I kind of don't...\"
 ====================
-\"...I kind of understand, and I kind of don't...\"
+¡°¡­¡­ÎÒËãÊÇÃ÷°×ÁË£¬ÓÖºÃÏñÃ»ÍêÈ«Ã÷°×¡­¡­¡±
 ====================
 
 ====================
@@ -1406,7 +1406,7 @@ length 32
 ====================
 \"Come on, hurry up and start!\"
 ====================
-\"Come on, hurry up and start!\"
+¡°ºÃÁËºÃÁË£¬¿ì¿ªÊ¼°É£¡¡±
 ====================
 
 ====================
@@ -1417,7 +1417,7 @@ length 13
 ====================
 \"Eh, um...\"
 ====================
-\"Eh, um...\"
+¡°ÚÀ£¬ÄÇ¸ö¡­¡­¡±
 ====================
 
 ====================
@@ -1428,7 +1428,7 @@ length 38
 ====================
 \"Tomoyo! What's for dinner tonight?\"
 ====================
-\"Tomoyo! What's for dinner tonight?\"
+¡°ÖÇ´ú£¡½ñÍíµÄÍí·¹³ÔÊ²Ã´£¿¡±
 ====================
 
 ====================
@@ -1439,7 +1439,7 @@ length 20
 ====================
 \"Like I'd tell you!
 ====================
-\"Like I'd tell you!
+¡°ÎÒ²Å²»¸æËßÄãÄØ£¡
 ====================
 
 ====================
@@ -1450,7 +1450,7 @@ length 56
 ====================
  Actually... it's your favorite, salmon in fried rice.\"
 ====================
- Actually... it's your favorite, salmon in fried rice.\"
+²»¹ıÂï¡­¡­ÊÇÄã×îÏ²»¶µÄ£¬ÈıÎÄÓã³´·¹¡£¡±
 ====================
 
 ====================
@@ -1461,7 +1461,7 @@ length 56
 ====================
 \"Yahoo! We're having salmon in fried rice for dinner!\"
 ====================
-\"Yahoo! We're having salmon in fried rice for dinner!\"
+¡°Ò®£¡½ñÍíÄÜ³ÔÈıÎÄÓã³´·¹ÁË£¡¡±
 ====================
 
 ====================
@@ -1472,7 +1472,7 @@ length 36
 ====================
 \"I-It's not like I made it for you.
 ====================
-\"I-It's not like I made it for you.
+¡°²Å¡¢²Å²»ÊÇÎªÁËÄã²Å×öµÄÄØ¡£
 ====================
 
 ====================
@@ -1483,7 +1483,7 @@ length 33
 ====================
  But it sort of makes me happy.\"
 ====================
- But it sort of makes me happy.\"
+²»¹ı¡­¡­ÎÒ»¹Í¦¸ßĞËµÄ¡£¡±
 ====================
 
 ====================
@@ -1494,7 +1494,7 @@ length 42
 ====================
 \"I want to have watermelon for dessert.\"
 ====================
-\"I want to have watermelon for dessert.\"
+¡°·¹ºóÌğµãÎÒÏë³ÔÎ÷¹Ï¡£¡±
 ====================
 
 ====================
@@ -1505,7 +1505,7 @@ length 54
 ====================
 \"As if I would go buy a watermelon right now, idiot! 
 ====================
-\"As if I would go buy a watermelon right now, idiot! 
+¡°Ë­»áÏÖÔÚÌØÒâÈ¥¸øÄãÂòÎ÷¹Ï°¡£¬±¿µ°£¡
 ====================
 
 ====================
@@ -1516,7 +1516,7 @@ length 49
 ====================
 I'll buy one on sale tomorrow and we'll eat it.\"
 ====================
-I'll buy one on sale tomorrow and we'll eat it.\"
+Ã÷Ìì´òÕÛµÄÊ±ºòÎÒ»áÂòµÄ£¬µ½Ê±ºòÔÙÒ»Æğ³Ô¡£¡±
 ====================
 
 ====================
@@ -1527,7 +1527,7 @@ length 27
 ====================
 \"Tomoyo, do you love me?\"
 ====================
-\"Tomoyo, do you love me?\"
+¡°ÖÇ´ú£¬Äã°®ÎÒÂğ£¿¡±
 ====================
 
 ====================
@@ -1538,7 +1538,7 @@ length 20
 ====================
 \"I-I can't stand...
 ====================
-\"I-I can't stand...
+¡°ÎÒ¡¢ÎÒÊÜ²»ÁË¡­¡­
 ====================
 
 ====================
@@ -1549,7 +1549,7 @@ length 21
 ====================
  to be without you.\"
 ====================
- to be without you.\"
+Ã»ÓĞÄãÔÚÉí±ßµÄÈÕ×Ó¡£¡±
 ====================
 
 ====================
@@ -1560,7 +1560,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+¡°¡­¡­¡±
 ====================
 
 ====================
@@ -1571,7 +1571,7 @@ length 17
 ====================
 \"What's wrong?\"
 ====================
-\"What's wrong?\"
+¡°ÔõÃ´ÁË£¿¡±
 ====================
 
 ====================
@@ -1582,7 +1582,7 @@ length 39
 ====================
 \"Aren't I just acting like an idiot?\"
 ====================
-\"Aren't I just acting like an idiot?\"
+¡°ÎÒÕâ²»ÊÇÔÚ·¸ÉµÂğ£¿¡±
 ====================
 
 ====================
@@ -1593,7 +1593,7 @@ length 53
 ====================
 \"Yeah... actually the same thought occurred to me.\"
 ====================
-\"Yeah... actually the same thought occurred to me.\"
+¡°ÊÇ°¡¡­¡­ÆäÊµÎÒ¸Õ²ÅÒ²ÕâÃ´Ïë¡£¡±
 ====================
 
 ====================
@@ -1604,7 +1604,7 @@ length 13
 ====================
 \"Tomoyo...\"
 ====================
-\"Tomoyo...\"
+¡°ÖÇ´ú¡­¡­¡±
 ====================
 
 ====================
@@ -1615,7 +1615,7 @@ length 7
 ====================
 \"Hm?\"
 ====================
-\"Hm?\"
+¡°àÅ£¿¡±
 ====================
 
 ====================
@@ -1626,7 +1626,7 @@ length 21
 ====================
 \"I have a request.\"
 ====================
-\"I have a request.\"
+¡°ÎÒÓĞ¸öÇëÇó¡£¡±
 ====================
 
 ====================
@@ -1637,7 +1637,7 @@ length 48
 ====================
 \"What? It's probably something weird again...\"
 ====================
-\"What? It's probably something weird again...\"
+¡°Ê²Ã´£¿¹À¼ÆÓÖÊÇÊ²Ã´Ææ¹ÖµÄÊÂ°É¡­¡­¡±
 ====================
 
 ====================
@@ -1648,7 +1648,7 @@ length 44
 ====================
 \"Well... I don't think it's that weird...\"
 ====================
-\"Well... I don't think it's that weird...\"
+¡°Õâ¸öÂï¡­¡­ÎÒ¾õµÃÒ²Ã»ÄÇÃ´Ææ¹Ö¡­¡­¡±
 ====================
 
 ====================
@@ -1659,7 +1659,7 @@ length 33
 ====================
 \"Talk as a child would for me.\"
 ====================
-\"Talk as a child would for me.\"
+¡°Äã¾ÍÓÃĞ¡º¢×ÓËµ»°µÄ·½Ê½¸úÎÒËµ°É¡£¡±
 ====================
 
 ====================
@@ -1670,7 +1670,7 @@ length 64
 ====================
 \"...I don't understand how you can say that's not that weird.\"
 ====================
-\"...I don't understand how you can say that's not that weird.\"
+¡°¡­¡­ÎÒÕæ²»Ã÷°×£¬ÄãÔõÃ´ÓĞÁ³ËµÕâÃ»ÄÇÃ´Ææ¹Ö¡£¡±
 ====================
 
 ====================
@@ -1681,7 +1681,7 @@ length 11
 ====================
 \"Really?\"
 ====================
-\"Really?\"
+¡°ÕæµÄÂğ£¿¡±
 ====================
 
 ====================
@@ -1692,7 +1692,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+¡°¡­¡­¡±
 ====================
 
 ====================
@@ -1703,7 +1703,7 @@ length 52
 ====================
 \"Come on, stop giving me that pity-filled look...\"
 ====================
-\"Come on, stop giving me that pity-filled look...\"
+¡°Î¹£¬±ğÓÃÄÇÖÖ³äÂúÁ¯ÃõµÄÑÛÉñ¿´×ÅÎÒ¡­¡­¡±
 ====================
 
 ====================
@@ -1714,7 +1714,7 @@ length 45
 ====================
 \"I'm not asking you to think like a child.\"
 ====================
-\"I'm not asking you to think like a child.\"
+¡°ÎÒÓÖ²»ÊÇÈÃÄãÏñĞ¡º¢×ÓÒ»ÑùË¼¿¼¡£¡±
 ====================
 
 ====================
@@ -1725,7 +1725,7 @@ length 61
 ====================
 \"Pretend you're a daycare worker who's talking to a child.\"
 ====================
-\"Pretend you're a daycare worker who's talking to a child.\"
+¡°ÄãÖ»Òª¼Ù×°×Ô¼ºÊÇÔÚ¸úĞ¡º¢×ÓËµ»°µÄÓ×¶ùÔ°ÀÏÊ¦¾ÍºÃÁË¡£¡±
 ====================
 
 ====================
@@ -1736,7 +1736,7 @@ length 32
 ====================
 \"...I understand that, but...\"
 ====================
-\"...I understand that, but...\"
+¡°¡­¡­ÎÒÃ÷°×ÄãµÄÒâË¼£¬¿ÉÊÇ¡­¡­¡±
 ====================
 
 ====================
@@ -1747,7 +1747,7 @@ length 59
 ====================
 \"No, hold on, that's weird no matter how you look at it.\"
 ====================
-\"No, hold on, that's weird no matter how you look at it.\"
+¡°²»£¬µÈµÈ£¬Õâ¼şÊÂÔõÃ´¿´¶¼ºÜÆæ¹Ö°É¡£¡±
 ====================
 
 ====================
@@ -1758,7 +1758,7 @@ length 47
 ====================
 \"Do I stand to gain something by doing this?\"
 ====================
-\"Do I stand to gain something by doing this?\"
+¡°ÎÒÕâÃ´×öÄÜÓĞÊ²Ã´ºÃ´¦Âğ£¿¡±
 ====================
 
 ====================
@@ -1769,7 +1769,7 @@ length 94
 ====================
 \"You do. When people get married and have children, everyone talks to their baby like that.\"
 ====================
-\"You do. When people get married and have children, everyone talks to their baby like that.\"
+¡°µ±È»ÓĞ¡£ÈË½áÁË»éÓĞÁËº¢×ÓÖ®ºó£¬Ë­¶¼»áÕâÑù¸ú±¦±¦Ëµ»°¡£¡±
 ====================
 
 ====================
@@ -1780,7 +1780,7 @@ length 92
 ====================
 \"This is practice for that. You could call it a hurdle on the way to being a good mother.\"
 ====================
-\"This is practice for that. You could call it a hurdle on the way to being a good mother.\"
+¡°Õâ¾ÍÊÇÎªÁËÄÇ¸ö×ö×¼±¸¡£Ò²¿ÉÒÔËµÊÇ³ÉÎªºÃÂèÂèÖ®Â·ÉÏµÄÒ»µÀ¹Ø¿¨°É¡£¡±
 ====================
 
 ====================
@@ -1791,7 +1791,7 @@ length 16
 ====================
 \"R-Really...?\"
 ====================
-\"R-Really...?\"
+¡°Õæ¡¢ÕæµÄÂğ¡­¡­£¿¡±
 ====================
 
 ====================
@@ -1802,7 +1802,7 @@ length 87
 ====================
 \"Also, seeing you overflowing with motherly love will let me see you in a new light.\"
 ====================
-\"Also, seeing you overflowing with motherly love will let me see you in a new light.\"
+¡°¶øÇÒ£¬¿´µ½Äã³äÂúÄ¸°®µÄÑù×Ó£¬ÎÒ¾ÍÄÜ¿´µ½ÄãÕ¸ĞÂµÄÒ»Ãæ¡£¡±
 ====================
 
 ====================
@@ -1813,7 +1813,7 @@ length 77
 ====================
 \"If you do this, I might be able to rediscover another side of your charm.\"
 ====================
-\"If you do this, I might be able to rediscover another side of your charm.\"
+¡°ÒªÊÇÄãÕâÃ´×ö£¬ÎÒËµ²»¶¨ÄÜÖØĞÂ·¢ÏÖÄã÷ÈÁ¦µÄÁíÒ»Ãæ¡£¡±
 ====================
 
 ====================
@@ -1824,7 +1824,7 @@ length 84
 ====================
 \"Ah, I'll definitely fall for you all over again and be more in love than before.\"
 ====================
-\"Ah, I'll definitely fall for you all over again and be more in love than before.\"
+¡°°¡£¬ÎÒÒ»¶¨»áÔÙ´ÎÎªÄãÇãĞÄ£¬±ÈÒÔÇ°¸ü¼Ó°®Äã¡£¡±
 ====================
 
 ====================
@@ -1835,7 +1835,7 @@ length 54
 ====================
 \"I'll almost assuredly want to kiss you right away.\"
 ====================
-\"I'll almost assuredly want to kiss you right away.\"
+¡°¶øÇÒÎÒ¼¸ºõ¿Ï¶¨»áÈÌ²»×¡Á¢¿ÌÏëÎÇÄã¡£¡±
 ====================
 
 ====================
@@ -1846,7 +1846,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+¡°¡­¡­¡±
 ====================
 
 ====================
@@ -1857,7 +1857,7 @@ length 26
 ====================
 She thinks for a second...
 ====================
-She thinks for a second...
+ËıË¼¿¼ÁËÒ»»á¶ù¡­¡­
 ====================
 
 ====================
@@ -1868,7 +1868,7 @@ length 45
 ====================
 \"Well... if you're going to go that far...\"
 ====================
-\"Well... if you're going to go that far...\"
+¡°¼ÈÈ»Äã»°¶¼Ëµµ½Õâ·İÉÏÁË¡­¡­¡±
 ====================
 
 ====================
@@ -1879,7 +1879,7 @@ length 29
 ====================
 \"I guess I could try it...\"
 ====================
-\"I guess I could try it...\"
+¡°ÄÇÎÒ¾ÍÊÔÊÔ¿´°É¡­¡­¡±
 ====================
 
 ====================
@@ -1890,7 +1890,7 @@ length 15
 ====================
 She's on board.
 ====================
-She's on board.
+Ëı´ğÓ¦ÁË¡£
 ====================
 
 ====================
@@ -1901,7 +1901,7 @@ length 18
 ====================
 And so we started.
 ====================
-And so we started.
+ÓÚÊÇ£¬ÎÒÃÇ¿ªÊ¼ÁË¡£
 ====================
 
 ====================
@@ -1912,7 +1912,7 @@ length 27
 ====================
 \"Tomoyo, is dinner done?\"
 ====================
-\"Tomoyo, is dinner done?\"
+¡°ÖÇ´ú£¬Íí·¹×öºÃÁËÂğ£¿¡±
 ====================
 
 ====================
@@ -1923,7 +1923,7 @@ length 60
 ====================
 \"It'll be done in wittle while so be a good boy and wait.\"
 ====================
-\"It'll be done in wittle while so be a good boy and wait.\"
+¡°ÂíÉÏ¾Í×öºÃÀ²£¬Òª¹Ô¹ÔµÈ×ÅÅ¶¡£¡±
 ====================
 
 ====================
@@ -1934,7 +1934,7 @@ length 11
 ====================
 \"Woah...\"
 ====================
-\"Woah...\"
+¡°ÍÛ¡­¡­¡±
 ====================
 
 ====================
@@ -1945,7 +1945,7 @@ length 75
 ====================
 Incredible... I'm not sure why, but this is something incredible, Tomoyo...
 ====================
-Incredible... I'm not sure why, but this is something incredible, Tomoyo...
+ºÃÀ÷º¦¡­¡­ËäÈ»ÎÒÒ²Ëµ²»ÇåÎªÊ²Ã´£¬µ«ÕâÈ·ÊµºÜÀ÷º¦£¬ÖÇ´ú¡­¡­
 ====================
 
 ====================
@@ -1956,7 +1956,7 @@ length 21
 ====================
 \"Okay, it's weady.\"
 ====================
-\"Okay, it's weady.\"
+¡°ºÃÀ²£¬¿ÉÒÔ³ÔÁËÅ¶¡£¡±
 ====================
 
 ====================
@@ -1967,7 +1967,7 @@ length 46
 ====================
 \"It's hot, so blow on it before you eat it.\"
 ====================
-\"It's hot, so blow on it before you eat it.\"
+¡°ºÜÌÌµÄ£¬³ÔÖ®Ç°ÏÈ´µÒ»´µÅ¶¡£¡±
 ====================
 
 ====================
@@ -1978,7 +1978,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+¡°¡­¡­¡±
 ====================
 
 ====================
@@ -1989,7 +1989,7 @@ length 19
 ====================
 \"Wh-What's wong?\"
 ====================
-\"Wh-What's wong?\"
+¡°Ôõ¡¢ÔõÃ´ÁËÂğ¡­¡­£¿¡±
 ====================
 
 ====================
@@ -2000,7 +2000,7 @@ length 19
 ====================
 \"This isn't you.\"
 ====================
-\"This isn't you.\"
+¡°Õâ²»ÏñÄã°¡¡£¡±
 ====================
 
 ====================
@@ -2011,7 +2011,7 @@ length 38
 ====================
 \"You're the one who made me do it!!\"
 ====================
-\"You're the one who made me do it!!\"
+¡°ÊÇÄãÒªÎÒÕâÃ´×öµÄ°¡£¡£¡£¡¡±
 ====================
 
 ====================
@@ -2022,7 +2022,7 @@ length 76
 ====================
 \"But I was thinking you were pretty well suited for this kind of thing...\"
 ====================
-\"But I was thinking you were pretty well suited for this kind of thing...\"
+¡°²»¹ı£¬ÎÒ¸Õ²Å»¹ÔÚÏë£¬ÄãÆäÊµÍ¦ÊÊºÏÕâÖÖËµ»°µÄ¡­¡­¡±
 ====================
 
 ====================
@@ -2033,7 +2033,7 @@ length 13
 ====================
 \"R-Really?\"
 ====================
-\"R-Really?\"
+¡°Õæ¡¢ÕæµÄÂğ£¿¡±
 ====================
 
 ====================
@@ -2044,7 +2044,7 @@ length 37
 ====================
 \"Well, it was actually a turn off.\"
 ====================
-\"Well, it was actually a turn off.\"
+¡°Âï£¬²»¹ıÊµ¼ÊÉÏ»¹Í¦ÈÃÈË°ÜĞËµÄ¡£¡±
 ====================
 
 ====================
@@ -2055,7 +2055,7 @@ length 41
 ====================
 \"You're the one who made me do it!!!!!\"
 ====================
-\"You're the one who made me do it!!!!!\"
+¡°ÊÇÄãÒªÎÒÕâÃ´×öµÄ°¡£¡£¡£¡£¡£¡£¡¡±
 ====================
 
 ====================
@@ -2066,7 +2066,7 @@ length 42
 ====================
 \"Your usual self is the best after all.\"
 ====================
-\"Your usual self is the best after all.\"
+¡°¹ûÈ»£¬»¹ÊÇÆ½Ê±µÄÄã×î°ôÁË¡£¡±
 ====================
 
 ====================
@@ -2077,7 +2077,7 @@ length 22
 ====================
 \"You're the cutest.\"
 ====================
-\"You're the cutest.\"
+¡°ÄãÒ²ÊÇ×î¿É°®µÄ¡£¡±
 ====================
 
 ====================
@@ -2088,7 +2088,7 @@ length 58
 ====================
 I say it unabashedly. That's the trigger for us making up.
 ====================
-I say it unabashedly. That's the trigger for us making up.
+ÎÒºÁ²»º¦ëıµØËµ³ö¿Ú¡£Õâ¾ÍÊÇÎÒÃÇºÍºÃµÄÆõ»ú¡£
 ====================
 
 ====================
@@ -2099,7 +2099,7 @@ length 43
 ====================
 A tinge of red surfaces on Tomoyo's cheeks.
 ====================
-A tinge of red surfaces on Tomoyo's cheeks.
+ÖÇ´úµÄÁ³¼ÕÉÏ·ºÆğÁËÒ»Ä¨ºìÔÎ¡£
 ====================
 
 ====================
@@ -2110,7 +2110,7 @@ length 20
 ====================
 \"What the heck...\"
 ====================
-\"What the heck...\"
+¡°ÕæÊÇµÄ¡­¡­¡±
 ====================
 
 ====================
@@ -2121,7 +2121,7 @@ length 36
 ====================
 \"Geez... you're always like that.\"
 ====================
-\"Geez... you're always like that.\"
+¡°ÕæÊÇµÄ¡­¡­Äã×ÜÊÇÕâÑù¡£¡±
 ====================
 
 ====================
@@ -2132,7 +2132,7 @@ length 32
 ====================
 \"Making me do weird things...\"
 ====================
-\"Making me do weird things...\"
+¡°¾»ÈÃÎÒ×öĞ©Ææ¹ÖµÄÊÂ¡­¡­¡±
 ====================
 
 ====================
@@ -2143,7 +2143,7 @@ length 8
 ====================
 We kiss.
 ====================
-We kiss.
+ÎÒÃÇ½ÓÎÇÁË¡£
 ====================
 
 ====================
@@ -2154,7 +2154,7 @@ length 14
 ====================
 \"Pervert...\"
 ====================
-\"Pervert...\"
+¡°É«ÀÇ¡­¡­¡±
 ====================
 
 ====================
@@ -2165,7 +2165,7 @@ length 25
 ====================
 She turns away in a pout.
 ====================
-She turns away in a pout.
+ËıàÙ×Å×ì£¬°ÑÁ³Å¤µ½Ò»±ß¡£
 ====================
 
 ====================
@@ -2176,7 +2176,7 @@ length 32
 ====================
 That gesture is unbearably cute.
 ====================
-That gesture is unbearably cute.
+ÄÇ¸ö¾Ù¶¯¿É°®µÃÈÃÈËÊÜ²»ÁË¡£
 ====================
 
 ====================
@@ -2187,7 +2187,7 @@ length 65
 ====================
 At times like these, Tomoyo is more feminine than any other girl.
 ====================
-At times like these, Tomoyo is more feminine than any other girl.
+ÏñÕâÖÖÊ±ºò£¬ÖÇ´ú±ÈÈÎºÎÅ®º¢¶¼ÒªÓĞÅ®ÈËÎ¶¡£
 ====================
 
 ====================
@@ -2198,7 +2198,7 @@ length 30
 ====================
 Thank god she's my girlfriend.
 ====================
-Thank god she's my girlfriend.
+¶à¿÷ËıÊÇÎÒµÄÅ®ÅóÓÑ¡£
 ====================
 
 ====================
@@ -2209,7 +2209,7 @@ length 21
 ====================
 I truly believe that.
 ====================
-I truly believe that.
+ÎÒÊÇ´òĞÄµ×ÕâÃ´ÏëµÄ¡£
 ====================
 
 ====================
@@ -2220,7 +2220,7 @@ length 59
 ====================
 In preparation for another kiss, I run my hand up her neck.
 ====================
-In preparation for another kiss, I run my hand up her neck.
+ÎªÁËÓ­½ÓÏÂÒ»´Î½ÓÎÇ£¬ÎÒÑØ×ÅËıµÄ²±¾±ÇáÇá¸§ÃşÉÏÈ¥¡£
 ====================
 
 ====================
@@ -2231,7 +2231,7 @@ length 32
 ====================
 Suddenly her expression changes.
 ====================
-Suddenly her expression changes.
+Í»È»£¬ËıµÄ±íÇé±äÁË¡£
 ====================
 
 ====================
@@ -2242,7 +2242,7 @@ length 36
 ====================
 She seems to have spotted something.
 ====================
-She seems to have spotted something.
+ËıËÆºõ¿´µ½ÁËÊ²Ã´¡£
 ====================
 
 ====================
@@ -2253,7 +2253,7 @@ length 5
 ====================
 *Bam*
 ====================
-*Bam*
+Åé£¡
 ====================
 
 ====================
@@ -2264,7 +2264,7 @@ length 68
 ====================
 An incredible force hits me in the chest that forces me up straight.
 ====================
-An incredible force hits me in the chest that forces me up straight.
+Ò»¹É¾Ş´óµÄÁ¦Á¿×²ÔÚÎÒµÄĞØ¿Ú£¬°ÑÎÒ×²µÃÍ¦Ö±ÁËÉí×Ó¡£
 ====================
 
 ====================
@@ -2275,7 +2275,7 @@ length 58
 ====================
 Tomoyo then turns away from me and sits straight up style.
 ====================
-Tomoyo then turns away from me and sits straight up style.
+ÖÇ´úËæ¼´±³¹ıÉíÈ¥£¬¶Ë¶ËÕıÕıµØ×øºÃ¡£
 ====================
 
 ====================
@@ -2286,7 +2286,7 @@ length 20
 ====================
 \"...what's wrong?\"
 ====================
-\"...what's wrong?\"
+¡°¡­¡­ÔõÃ´ÁË£¿¡±
 ====================
 
 ====================
@@ -2297,7 +2297,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+¡°¡­¡­¡±
 ====================
 
 ====================
@@ -2308,7 +2308,7 @@ length 20
 ====================
 She doesn't respond.
 ====================
-She doesn't respond.
+ËıÃ»ÓĞ»Ø´ğ¡£
 ====================
 
 ====================
@@ -2319,7 +2319,7 @@ length 14
 ====================
 \"I'm sorry!\"
 ====================
-\"I'm sorry!\"
+¡°¶Ô²»Æğ£¡¡±
 ====================
 
 ====================
@@ -2330,7 +2330,7 @@ length 54
 ====================
 Instead, a voice comes from the direction of the door.
 ====================
-Instead, a voice comes from the direction of the door.
+È¡¶ø´úÖ®µÄ£¬ÊÇ´ÓÃÅ¿Ú·½Ïò´«À´µÄÉùÒô¡£
 ====================
 
 ====================
@@ -2341,7 +2341,7 @@ length 70
 ====================
 When I look, there's someone outside the slightly open kitchen window.
 ====================
-When I look, there's someone outside the slightly open kitchen window.
+ÎÒÑ­ÉùÍûÈ¥£¬¿´µ½Î¢Î¢³¨¿ªµÄ³ø·¿´°ÍâÓĞ¸öÈËÓ°¡£
 ====================
 
 ====================
@@ -2352,7 +2352,7 @@ length 28
 ====================
 They move and open the door.
 ====================
-They move and open the door.
+ÄÇ¸öÈË¶¯ÁË¶¯£¬´ò¿ªÁËÃÅ¡£
 ====================
 
 ====================
@@ -2363,7 +2363,7 @@ length 28
 ====================
 The person who appears is...
 ====================
-The person who appears is...
+³öÏÖÔÚÄÇÀïµÄÈËÊÇ¡­¡­
 ====================
 
 ====================
@@ -2374,7 +2374,7 @@ length 42
 ====================
 \"I wasn't peeking. The window was open.\"
 ====================
-\"I wasn't peeking. The window was open.\"
+¡°ÎÒ¿É²»ÊÇÔÚÍµ¿´¡£ÊÇ´°»§¿ª×Å¡£¡±
 ====================
 
 ====================
@@ -2385,7 +2385,7 @@ length 34
 ====================
 Tomoyo's little brother, Takafumi.
 ====================
-Tomoyo's little brother, Takafumi.
+ÖÇ´úµÄµÜµÜ£¬Ó¥ÎÄ¡£
 ====================
 
 ====================
@@ -2396,7 +2396,7 @@ length 18
 ====================
 \"Can I come in?\"
 ====================
-\"Can I come in?\"
+¡°ÎÒÄÜ½øÀ´Âğ£¿¡±
 ====================
 
 ====================
@@ -2407,7 +2407,7 @@ length 19
 ====================
 \"Hm? Yeah, sure.\"
 ====================
-\"Hm? Yeah, sure.\"
+¡°àÅ£¿°¡£¬¿ÉÒÔ°¡¡£¡±
 ====================
 
 ====================
@@ -2418,7 +2418,7 @@ length 75
 ====================
 He takes his shoes off as he comes in and sets a shopping bag on the table.
 ====================
-He takes his shoes off as he comes in and sets a shopping bag on the table.
+Ëû±ß½øÃÅ±ßÍÑµôĞ¬×Ó£¬È»ºó°ÑÒ»¸ö¹ºÎï´ü·Åµ½ÁË×ÀÉÏ¡£
 ====================
 
 ====================
@@ -2429,7 +2429,7 @@ length 17
 ====================
 \"Here, a gift.\"
 ====================
-\"Here, a gift.\"
+¡°¸øÄã£¬ÕâÊÇ°éÊÖÀñ¡£¡±
 ====================
 
 ====================
@@ -2440,7 +2440,7 @@ length 23
 ====================
 \"You didn't need to.\"
 ====================
-\"You didn't need to.\"
+¡°ÄãÃ»±ØÒªÕâÑù¡£¡±
 ====================
 
 ====================
@@ -2451,7 +2451,7 @@ length 41
 ====================
 \"It'd be rude to show up empty-handed.\"
 ====================
-\"It'd be rude to show up empty-handed.\"
+¡°¿Õ×ÅÊÖÉÏÃÅÌ«Ê§ÀñÁË¡£¡±
 ====================
 
 ====================
@@ -2462,7 +2462,7 @@ length 29
 ====================
 \"Aren't I just a nuisance?\"
 ====================
-\"Aren't I just a nuisance?\"
+¡°ÎÒ²»ÊÇ¾»¸øÄãÌíÂé·³Âğ£¿¡±
 ====================
 
 ====================
@@ -2473,7 +2473,7 @@ length 22
 ====================
 \"You certainly are.\"
 ====================
-\"You certainly are.\"
+¡°È·ÊµÊÇÕâÑù¡£¡±
 ====================
 
 ====================
@@ -2484,7 +2484,7 @@ length 29
 ====================
 \"Don't say that, Nii-chan.\"
 ====================
-\"Don't say that, Nii-chan.\"
+¡°±ğÕâÃ´ËµÂï£¬´ó¸ç¡£¡±
 ====================
 
 ====================
@@ -2495,7 +2495,7 @@ length 28
 ====================
 \"You just got in the way.\"
 ====================
-\"You just got in the way.\"
+¡°ÒòÎªÄã¸Õ²Å°­ÊÂÁË¡£¡±
 ====================
 
 ====================
@@ -2506,7 +2506,7 @@ length 32
 ====================
 \"That's why I said I'm sorry.\"
 ====================
-\"That's why I said I'm sorry.\"
+¡°ËùÒÔÎÒ¸Õ²Å²»ÊÇµÀÇ¸ÁËÂğ¡£¡±
 ====================
 
 ====================
@@ -2517,7 +2517,7 @@ length 19
 ====================
 \"Can I sit down?\"
 ====================
-\"Can I sit down?\"
+¡°ÎÒÄÜ×øÏÂÂğ£¿¡±
 ====================
 
 ====================
@@ -2528,7 +2528,7 @@ length 13
 ====================
 \"Go ahead.\"
 ====================
-\"Go ahead.\"
+¡°×ø°É¡£¡±
 ====================
 
 ====================
@@ -2539,7 +2539,7 @@ length 44
 ====================
 He settles himself in between me and Tomoyo.
 ====================
-He settles himself in between me and Tomoyo.
+ËûÔÚÎÒºÍÖÇ´úÖ®¼ä×øÁËÏÂÀ´¡£
 ====================
 
 ====================
@@ -2550,7 +2550,7 @@ length 45
 ====================
 Tomoyo is still silently turned away from me.
 ====================
-Tomoyo is still silently turned away from me.
+ÖÇ´úÒÀÈ»Ò»Éù²»ÏìµØ±³¶Ô×ÅÎÒ¡£
 ====================
 
 ====================
@@ -2561,7 +2561,7 @@ length 20
 ====================
 \"I was surprised.\"
 ====================
-\"I was surprised.\"
+¡°ÏÅÎÒÒ»Ìø¡£¡±
 ====================
 
 ====================
@@ -2572,7 +2572,7 @@ length 12
 ====================
 \"By what?\"
 ====================
-\"By what?\"
+¡°±»Ê²Ã´£¿¡±
 ====================
 
 ====================
@@ -2583,7 +2583,7 @@ length 25
 ====================
 \"You two kept kissing.\"
 ====================
-\"You two kept kissing.\"
+¡°ÄãÃÇÁ½¸ö¸Õ²ÅÒ»Ö±Ç×À´Ç×È¥µÄ¡£¡±
 ====================
 
 ====================
@@ -2594,7 +2594,7 @@ length 81
 ====================
 Still facing the other way, Tomoyo reaches behind her to hit Takafumi on the arm.
 ====================
-Still facing the other way, Tomoyo reaches behind her to hit Takafumi on the arm.
+ÖÇ´úÒÀ¾É±³¶Ô×ÅÕâ±ß£¬ÉìÊÖÍùºó´·ÁËÒ»ÏÂÓ¥ÎÄµÄ¸ì²²¡£
 ====================
 
 ====================
@@ -2605,7 +2605,7 @@ length 31
 ====================
 \"Well, that's pretty normal.\"
 ====================
-\"Well, that's pretty normal.\"
+¡°Âï£¬ÄÇ²»ÊÇÍ¦Õı³£µÄÂğ¡£¡±
 ====================
 
 ====================
@@ -2616,7 +2616,7 @@ length 11
 ====================
 *Pow* *Pow*
 ====================
-*Pow* *Pow*
+ßË£¡ßË£¡
 ====================
 
 ====================
@@ -2627,7 +2627,7 @@ length 27
 ====================
 \"Hm... that's normal...?\"
 ====================
-\"Hm... that's normal...?\"
+¡°àÅ¡­¡­ÕâºÜÕı³£¡­¡­£¿¡±
 ====================
 
 ====================
@@ -2638,7 +2638,7 @@ length 11
 ====================
 *Pow* *Pow*
 ====================
-*Pow* *Pow*
+ßË£¡ßË£¡
 ====================
 
 ====================
@@ -2649,7 +2649,7 @@ length 96
 ====================
 \"When you had Nee-chan say those things she wouldn't normally say, was that to get you going?\"
 ====================
-\"When you had Nee-chan say those things she wouldn't normally say, was that to get you going?\"
+¡°´ó¸çÄãÈÃ½ã½ãËµÄÇĞ©ËıÆ½Ê±²»»áËµµÄ»°£¬ÊÇÎªÁËÈÃ×Ô¼ºĞË·ÜÂğ£¿¡±
 ====================
 
 ====================
@@ -2660,7 +2660,7 @@ length 11
 ====================
 *Pow* *Pow*
 ====================
-*Pow* *Pow*
+ßË£¡ßË£¡
 ====================
 
 ====================
@@ -2671,7 +2671,7 @@ length 34
 ====================
 \"Leave. You need to just leave.\"
 ====================
-\"Leave. You need to just leave.\"
+¡°»ØÈ¥¡£Äã¸Ï½ô»ØÈ¥¡£¡±
 ====================
 
 ====================
@@ -2682,7 +2682,7 @@ length 50
 ====================
 She whispers bitterly as she continues to hit him.
 ====================
-She whispers bitterly as she continues to hit him.
+ËıÒ»±ß¼ÌĞø´·Ëû£¬Ò»±ßºŞºŞµØµÍÉùËµµÀ¡£
 ====================
 
 ====================
@@ -2693,7 +2693,7 @@ length 25
 ====================
 \"That hurts, Nee-chan.\"
 ====================
-\"That hurts, Nee-chan.\"
+¡°ºÜÌÛµÄ£¬½ã½ã¡£¡±
 ====================
 
 ====================
@@ -2704,7 +2704,7 @@ length 30
 ====================
 \"Leave and never come back.\"
 ====================
-\"Leave and never come back.\"
+¡°¸øÎÒ»ØÈ¥£¬ÔÙÒ²±ğÀ´ÁË¡£¡±
 ====================
 
 ====================
@@ -2715,7 +2715,7 @@ length 11
 ====================
 *Pow* *Pow*
 ====================
-*Pow* *Pow*
+ßË£¡ßË£¡
 ====================
 
 ====================
@@ -2726,7 +2726,7 @@ length 90
 ====================
 \"But you're pretty amazing, Nii-chan. You get to see this kind of adorable side of her.\"
 ====================
-\"But you're pretty amazing, Nii-chan. You get to see this kind of adorable side of her.\"
+¡°²»¹ı´ó¸çÄã»¹ÕæÊÇÁË²»Æğ°¡¡£ÄÜ¿´µ½ËıÕâÃ´¿É°®µÄÒ»Ãæ¡£¡±
 ====================
 
 ====================
@@ -2737,7 +2737,7 @@ length 48
 ====================
 \"She never acts like that when we're at home.\"
 ====================
-\"She never acts like that when we're at home.\"
+¡°ËıÔÚ¼ÒÀï´ÓÀ´²»»áÕâÑù¡£¡±
 ====================
 
 ====================
@@ -2748,7 +2748,7 @@ length 11
 ====================
 *Pow* *Pow*
 ====================
-*Pow* *Pow*
+ßË£¡ßË£¡
 ====================
 
 ====================
@@ -2759,7 +2759,7 @@ length 65
 ====================
 I find a bag of rice crackers among Takafumi's gifts and open it.
 ====================
-I find a bag of rice crackers among Takafumi's gifts and open it.
+ÎÒÔÚÓ¥ÎÄ´øÀ´µÄÀñÎïÖĞ·­³öÁËÒ»´üÃ×±ı£¬²ğÁË¿ªÀ´¡£
 ====================
 
 ====================
@@ -2770,7 +2770,7 @@ length 30
 ====================
 \"You'll understand someday.\"
 ====================
-\"You'll understand someday.\"
+¡°×ÜÓĞÒ»ÌìÄã»áÃ÷°×µÄ¡£¡±
 ====================
 
 ====================
@@ -2781,7 +2781,7 @@ length 14
 ====================
 \"It's love.\"
 ====================
-\"It's love.\"
+¡°Õâ¾ÍÊÇ°®°¡¡£¡±
 ====================
 
 ====================
@@ -2792,7 +2792,7 @@ length 26
 ====================
 *Chomp*... *Munch* *Munch*
 ====================
-*Chomp*... *Munch* *Munch*
+ßÇàê¡­¡­ßÇßêßÇßê¡£
 ====================
 
 ====================
@@ -2803,7 +2803,7 @@ length 56
 ====================
 I continue watching baseball as I eat the rice crackers.
 ====================
-I continue watching baseball as I eat the rice crackers.
+ÎÒÒ»±ß³Ô×ÅÃ×±ı£¬Ò»±ß¼ÌĞø¿´°ôÇò¡£
 ====================
 
 ====================
@@ -2814,7 +2814,7 @@ length 11
 ====================
 *Pow* *Pow*
 ====================
-*Pow* *Pow*
+ßË£¡ßË£¡
 ====================
 
 ====================
@@ -2825,7 +2825,7 @@ length 36
 ====================
 \"I told you that hurts, Nee-chan.\"
 ====================
-\"I told you that hurts, Nee-chan.\"
+¡°½ã½ã£¬ÎÒËµÁËºÜÌÛ°¡¡£¡±
 ====================
 
 ====================
@@ -2836,7 +2836,7 @@ length 22
 ====================
 \"Leave, just leave.\"
 ====================
-\"Leave, just leave.\"
+¡°»ØÈ¥£¬¿ì¸øÎÒ»ØÈ¥¡£¡±
 ====================
 
 ====================
@@ -2847,7 +2847,7 @@ length 43
 ====================
 Beside me, Takafumi is being hit endlessly.
 ====================
-Beside me, Takafumi is being hit endlessly.
+ÔÚÎÒÉíÅÔ£¬Ó¥ÎÄÕı±»´·¸ö²»Í£¡£
 ====================
 
 ====================
@@ -2858,7 +2858,7 @@ length 45
 ====================
 Finding myself a part of this makes me think.
 ====================
-Finding myself a part of this makes me think.
+ÖÃÉíÓÚÕâÑùµÄÇé¾°ÖĞ£¬ÎÒ²»½ûÏëµÀ¡£
 ====================
 
 ====================
@@ -2869,7 +2869,7 @@ length 50
 ====================
 It's like I'm living a nice, everyday family life.
 ====================
-It's like I'm living a nice, everyday family life.
+¸Ğ¾õ¾ÍÏñÔÚ¹ı×ÅÆ½·²¶øÃÀºÃµÄ¼ÒÍ¥Éú»î¡£
 ====================
 
 ====================
@@ -2880,7 +2880,7 @@ length 64
 ====================
 I started working this spring after graduating from high school.
 ====================
-I started working this spring after graduating from high school.
+¸ßÖĞ±ÏÒµºó£¬½ñÄê´ºÌìÎÒ¿ªÊ¼¹¤×÷ÁË¡£
 ====================
 
 ====================
@@ -2891,7 +2891,7 @@ length 81
 ====================
 I work at a waste collection company I found through my school's career guidance.
 ====================
-I work at a waste collection company I found through my school's career guidance.
+ÎÒÔÚÒ»¼ÒÍ¨¹ıÑ§Ğ£µÄ¾ÍÒµÖ¸µ¼½éÉÜÕÒµ½µÄÀ¬»ø»ØÊÕ¹«Ë¾ÉÏ°à¡£
 ====================
 
 ====================
@@ -2902,7 +2902,7 @@ length 63
 ====================
 I go around town to collect and fix thrown out or broken items.
 ====================
-I go around town to collect and fix thrown out or broken items.
+ÎÒÔÚÕòÉÏËÄ´¦±¼×ß£¬ÊÕ¼¯±»¶ªÆú»òËğ»µµÄÎïÆ·£¬²¢½«ËüÃÇĞŞºÃ¡£
 ====================
 
 ====================
@@ -2913,7 +2913,7 @@ length 87
 ====================
 We make a living by selling the fixed goods to recycling shops and second-hand dealers.
 ====================
-We make a living by selling the fixed goods to recycling shops and second-hand dealers.
+ÎÒÃÇ°ÑĞŞºÃµÄ¶«Î÷Âô¸ø»ØÊÕµêºÍ¶şÊÖÉÌ£¬¿¿Õâ¸öÎ¬³ÖÉú¼Æ¡£
 ====================
 
 ====================
@@ -2924,7 +2924,7 @@ length 42
 ====================
 It's a small company, just me and my boss.
 ====================
-It's a small company, just me and my boss.
+ÄÇÊÇÒ»¼ÒĞ¡¹«Ë¾£¬Ô±¹¤Ö»ÓĞÎÒºÍÀÏ°åÁ½¸öÈË¡£
 ====================
 
 ====================
@@ -2935,7 +2935,7 @@ length 71
 ====================
 It would be impossible without a vehicle, so I went and got my license.
 ====================
-It would be impossible without a vehicle, so I went and got my license.
+Ã»ÓĞ³µµÄ»°Õâ»î¸ù±¾¸É²»ÁË£¬ËùÒÔÎÒÈ¥¿¼ÁË¼İÕÕ¡£
 ====================
 
 ====================
@@ -2946,7 +2946,7 @@ length 70
 ====================
 We drive around town in our small truck and fix the things we collect.
 ====================
-We drive around town in our small truck and fix the things we collect.
+ÎÒÃÇ¿ª×ÅĞ¡¿¨³µÔÚÕòÉÏ×ªÓÆ£¬°ÑÊÕ¼¯À´µÄ¶«Î÷ĞŞºÃ¡£
 ====================
 
 ====================
@@ -2957,7 +2957,7 @@ length 37
 ====================
 My boss basically teaches me nothing.
 ====================
-My boss basically teaches me nothing.
+ÎÒµÄÀÏ°å»ù±¾ÉÏÊ²Ã´¶¼²»½Ì¡£
 ====================
 
 ====================
@@ -2968,7 +2968,7 @@ length 46
 ====================
 He just says \"do it like this\" and shows me.
 ====================
-He just says \"do it like this\" and shows me.
+ËûÖ»ÊÇËµÒ»¾ä¡°ÕÕÕâÑù×ö¡±£¬È»ºó×ö¸øÎÒ¿´¡£
 ====================
 
 ====================
@@ -2979,7 +2979,7 @@ length 55
 ====================
 I learn by watching and attempting to copy what he did.
 ====================
-I learn by watching and attempting to copy what he did.
+ÎÒÒ»±ß¿´×ÅËûµÄ¶¯×÷£¬Ò»±ßÄ£·Â×ÅÑ§Ï°¡£
 ====================
 
 ====================
@@ -2990,7 +2990,7 @@ length 90
 ====================
 We deal in things ranging from cars and motorcycles to household appliances and computers.
 ====================
-We deal in things ranging from cars and motorcycles to household appliances and computers.
+ÎÒÃÇ¾­ÊÖµÄÎïÆ·£¬´ÓÆû³µ¡¢Ä¦ÍĞ³µµ½¼ÒÓÃµçÆ÷¡¢µçÄÔ£¬Ó¦ÓĞ¾¡ÓĞ¡£
 ====================
 
 ====================
@@ -3001,7 +3001,7 @@ length 65
 ====================
 We can fix some things, but others we can only salvage for parts.
 ====================
-We can fix some things, but others we can only salvage for parts.
+ÓĞĞ©¶«Î÷ÎÒÃÇÄÜĞŞºÃ£¬ÓĞĞ©ÔòÖ»ÄÜ²ğÏÂÀ´µ±Áã¼şÓÃ¡£
 ====================
 
 ====================
@@ -3012,7 +3012,7 @@ length 52
 ====================
 The boss assigned me to fixing household appliances.
 ====================
-The boss assigned me to fixing household appliances.
+ÀÏ°å°ÑĞŞÀí¼ÒÓÃµçÆ÷µÄ»î¶ù½»¸øÁËÎÒ¡£
 ====================
 
 ====================
@@ -3023,7 +3023,7 @@ length 33
 ====================
 How to read and write schematics.
 ====================
-How to read and write schematics.
+µçÂ·Í¼µÄ¶Á·¨Óë»­·¨¡£
 ====================
 
 ====================
@@ -3034,7 +3034,7 @@ length 62
 ====================
 The different kinds of electric currents and lines and cables.
 ====================
-The different kinds of electric currents and lines and cables.
+µçÁ÷µÄÖÖÀà£¬ÒÔ¼°¸÷ÖÖÏß²ÄÓëµçÀÂ¡£
 ====================
 
 ====================
@@ -3045,7 +3045,7 @@ length 48
 ====================
 How to use an oscilloscope to check a condenser.
 ====================
-How to use an oscilloscope to check a condenser.
+ÈçºÎÊ¹ÓÃÊ¾²¨Æ÷¼ì²éµçÈİ¡£
 ====================
 
 ====================
@@ -3056,7 +3056,7 @@ length 60
 ====================
 How to fix a break on a circuit board with a soldering iron.
 ====================
-How to fix a break on a circuit board with a soldering iron.
+ÈçºÎÓÃµçÀÓÌúĞŞ¸´µçÂ·°åÉÏµÄ¶ÏÁÑ´¦¡£
 ====================
 
 ====================
@@ -3067,7 +3067,7 @@ length 33
 ====================
 I've learned a lot of new things.
 ====================
-I've learned a lot of new things.
+ÎÒÑ§»áÁËºÜ¶àĞÂ¶«Î÷¡£
 ====================
 
 ====================
@@ -3078,7 +3078,7 @@ length 60
 ====================
 The first thing I ever fixed by myself was a vacuum cleaner.
 ====================
-The first thing I ever fixed by myself was a vacuum cleaner.
+ÎÒ¶ÀÁ¢ĞŞºÃµÄµÚÒ»¼ş¶«Î÷£¬ÊÇÒ»Ì¨Îü³¾Æ÷¡£
 ====================
 
 ====================
@@ -3089,7 +3089,7 @@ length 104
 ====================
 It would turn on, but there was no suction. The boss thought I could handle it and ordered me to fix it.
 ====================
-It would turn on, but there was no suction. The boss thought I could handle it and ordered me to fix it.
+ÄÇÌ¨Îü³¾Æ÷ÄÜ¿ª»ú£¬È´Ã»ÓĞÎüÁ¦¡£ÀÏ°å¾õµÃÎÒ¿ÉÒÔ¸ã¶¨£¬¾ÍÃüÁîÎÒÈ¥ĞŞºÃËü¡£
 ====================
 
 ====================
@@ -3100,7 +3100,7 @@ length 82
 ====================
 I carefully disassembled it and cleaned the clogged filter and dust covered motor.
 ====================
-I carefully disassembled it and cleaned the clogged filter and dust covered motor.
+ÎÒĞ¡ĞÄÒíÒíµØ²ğ¿ªËü£¬Çå³ıÁË¶ÂÈûµÄÂËÍø£¬ÒÔ¼°Õ´Âú»Ò³¾µÄÂí´ïÉÏµÄ»ı³¾¡£
 ====================
 
 ====================
@@ -3111,7 +3111,7 @@ length 64
 ====================
 When I put it back together and switched it on, it ran like new.
 ====================
-When I put it back together and switched it on, it ran like new.
+°ÑËüÖØĞÂ×°ºÃ¡¢Í¨ÉÏµçÖ®ºó£¬Ëü¾ÍÏñĞÂµÄÒ»ÑùÔË×ªÆğÀ´ÁË¡£
 ====================
 
 ====================
@@ -3122,7 +3122,7 @@ length 58
 ====================
 It was nice and not very old, but the boss didn't sell it.
 ====================
-It was nice and not very old, but the boss didn't sell it.
+ÄÇÌ¨Îü³¾Æ÷Æ·Ïà²»´í£¬Ò²²»Ëã¾É£¬µ«ÀÏ°åÃ»ÓĞ°ÑËüÂôµô¡£
 ====================
 
 ====================
@@ -3133,7 +3133,7 @@ length 46
 ====================
 He told me to take it home as a commemoration.
 ====================
-He told me to take it home as a commemoration.
+ËûÈÃÎÒ°ÑËü´ø»Ø¼Ò£¬µ±×÷¼ÍÄî¡£
 ====================
 
 ====================
@@ -3144,7 +3144,7 @@ length 41
 ====================
 Right now, it's in the closet in my room.
 ====================
-Right now, it's in the closet in my room.
+ÏÖÔÚ£¬Ëü¾Í·ÅÔÚÎÒ·¿¼äµÄ±Ú³÷Àï¡£
 ====================
 
 ====================
@@ -3155,7 +3155,7 @@ length 38
 ====================
 Occasionally, Tomoyo uses it to clean.
 ====================
-Occasionally, Tomoyo uses it to clean.
+Å¼¶û£¬ÖÇ´ú»áÓÃËüÀ´´òÉ¨ÎÀÉú¡£
 ====================
 
 ====================
@@ -3166,7 +3166,7 @@ length 26
 ====================
 I live alone in this room.
 ====================
-I live alone in this room.
+ÎÒÒ»¸öÈË×¡ÔÚÕâ¼ä·¿¼äÀï¡£
 ====================
 
 ====================
@@ -3177,7 +3177,7 @@ length 52
 ====================
 I started living alone and working at the same time.
 ====================
-I started living alone and working at the same time.
+ÎÒÊÇ´Ó¿ªÊ¼¶À¾ÓµÄÍ¬Ê±¿ªÊ¼¹¤×÷µÄ¡£
 ====================
 
 ====================
@@ -3188,7 +3188,7 @@ length 28
 ====================
 It was really hard at first.
 ====================
-It was really hard at first.
+Æğ³õÕæµÄ·Ç³£ĞÁ¿à¡£
 ====================
 
 ====================
@@ -3199,7 +3199,7 @@ length 78
 ====================
 I'd come home dead tired from work and not even be able to make a decent meal.
 ====================
-I'd come home dead tired from work and not even be able to make a decent meal.
+Ã¿ÌìÀÛµÃ½îÆ£Á¦¾¡µØ»Øµ½¼Ò£¬Á¬Ò»¶ÙÏñÑùµÄ·¹¶¼×ö²»³öÀ´¡£
 ====================
 
 ====================
@@ -3210,7 +3210,7 @@ length 51
 ====================
 Tomoyo would come to my rescue basically every day.
 ====================
-Tomoyo would come to my rescue basically every day.
+ÖÇ´ú»ù±¾ÉÏÃ¿Ìì¶¼»áÀ´°ïÎÒ¡£
 ====================
 
 ====================
@@ -3221,7 +3221,7 @@ length 84
 ====================
 Once I got used to work, I had her teach me to cook. Now I can prepare a meal alone.
 ====================
-Once I got used to work, I had her teach me to cook. Now I can prepare a meal alone.
+µÈÎÒÏ°¹ßÁË¹¤×÷Ö®ºó£¬¾ÍÇëËı½ÌÎÒ×ö·¹¡£ÏÖÔÚÎÒÒÑ¾­ÄÜ¶À×Ô×¼±¸Ò»²ÍÁË¡£
 ====================
 
 ====================
@@ -3232,7 +3232,7 @@ length 67
 ====================
 Before I realized it, things were going well at both work and home.
 ====================
-Before I realized it, things were going well at both work and home.
+²»Öª²»¾õ¼ä£¬¹¤×÷ºÍÉú»î¶¼²½ÈëÁËÕı¹ì¡£
 ====================
 
 ====================
@@ -3243,7 +3243,7 @@ length 26
 ====================
 It's all thanks to Tomoyo.
 ====================
-It's all thanks to Tomoyo.
+ÕâÒ»ÇĞ¶¼Òª¹é¹¦ÓÚÖÇ´ú¡£
 ====================
 
 ====================
@@ -3254,7 +3254,7 @@ length 47
 ====================
 If she hadn't been here, I would have given up.
 ====================
-If she hadn't been here, I would have given up.
+Èç¹ûÃ»ÓĞËıÔÚ£¬ÎÒ´ó¸ÅÔç¾Í·ÅÆúÁË¡£
 ====================
 
 ====================
@@ -3265,7 +3265,7 @@ length 28
 ====================
 I'm really grateful for her.
 ====================
-I'm really grateful for her.
+ÎÒÕæµÄºÜ¸Ğ¼¤Ëı¡£
 ====================
 
 ====================
@@ -3276,5 +3276,5 @@ length 60
 ====================
 And if he exists, also for the god who left her here for me.
 ====================
-And if he exists, also for the god who left her here for me.
+»¹ÓĞ£¬Èç¹ûÄÇÎ»ÉñÃ÷ÕæµÄ´æÔÚµÄ»°£¬ÎÒÒ²Òª¸ĞĞ»Ëû£¬ÊÇËû°ÑÖÇ´úÁôÔÚÁËÎÒÉí±ß¡£
 ====================
