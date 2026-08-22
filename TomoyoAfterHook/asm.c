@@ -6,7 +6,7 @@ static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, unsigned num);
 static void WINAPI beforeConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4);
 static void WINAPI afterConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4);
 static BOOL WINAPI checkFileIsSeen(const char* fileName);
-static const char* const WINAPI getTranslatedName(const char* const name);
+static const char* const WINAPI getTranslatedText(const char* const text);
 
 void ASM_FUNCTION HookForDump() {
 	__asm {
@@ -260,23 +260,24 @@ static void WINAPI afterConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* 
 	origin_vm_ip = NULL;
 }
 
-void ASM_FUNCTION HookHandleNameText() {
+void ASM_FUNCTION HookHandleInstantText() {
 	__asm {
 		sub esp, 4
-		pushad
 		pushfd
+		pushad
 
-		push edx
-		call getTranslatedName
+		mov eax, [esp + 48]
+		push eax
+		call getTranslatedText
 		mov [esp + 36], eax
 
-		popfd
 		popad
+		popfd
 	}
 	__asm {
-		pop edx
 		pop eax
-
+		mov [esp + 8], eax
+		pop eax
 		push ebp
 		mov ebp, esp
 		sub esp, 64
@@ -284,6 +285,8 @@ void ASM_FUNCTION HookHandleNameText() {
 	}
 }
 
-static const char* const WINAPI getTranslatedName(const char* const name) {
-	return GetTranslatedName(name);
+static const char* const WINAPI getTranslatedText(const char* const text) {
+	const char* name = GetTranslatedName(text);
+	if (name != text) return name;
+	return GetTranslatedText(text);
 }

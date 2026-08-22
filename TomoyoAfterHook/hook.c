@@ -94,7 +94,7 @@ void PatchHookAfterOpenSeenFile() {
 	writeHook(imageBase + CONSUME_TEXT_IN_QUOTE_MODE_CALLER_1_RVA, ProxyConsumeTextInQuoteMode);
 	writeHook(imageBase + CONSUME_TEXT_IN_QUOTE_MODE_CALLER_2_RVA, ProxyConsumeTextInQuoteMode);
 	writeHook(imageBase + CONSUME_TEXT_IN_QUITE_MODE_CALLER_3_RVA, ProxyConsumeTextInQuoteMode);
-	writeHookWithNop(imageBase + HANDLE_NAME_TEXT_FUNC_RVA, HookHandleNameText, 1);
+	writeHookWithNop(imageBase + HANDLE_INSTANT_TEXT_FUNC_RVA, HookHandleInstantText, 1);
 }
 
 void HookDestroy() {

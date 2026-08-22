@@ -11,6 +11,6 @@ void HookCreateFontA();
 void HookCreateFileA();
 
 void ProxyConsumeTextInQuoteMode();
-void HookHandleNameText();
+void HookHandleInstantText();
 
 #endif

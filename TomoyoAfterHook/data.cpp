@@ -32,6 +32,7 @@ static void dwordToSeenOffset(DWORD dword, unsigned& seenNo, unsigned& offset);
 static bool exactSeenOffset(const char* const bytes, unsigned& seenNo, unsigned& offset);
 static std::string vectorToHex(const std::vector<BYTE>& vec);
 static std::vector<BYTE> hexToVector(const std::string& hex);
+static const char* const pureGetTranslatedText(const char* const text);
 
 static const char* EMPTY_NAME = "NULL";
 static const DWORD BIN_MAGIC = 0x54504C56;
@@ -585,11 +586,14 @@ template<typename T>
 using seen_map = std::unordered_map<unsigned, std::unordered_map<unsigned, T>>;
 
 static std::unordered_map<std::string, std::string> name_map;
+static size_t max_name_length = 0;
 static seen_map<std::string> text_map;
 static seen_map<unsigned> text_length_map;
 static seen_map<std::stack<BYTE>> text_stack;
 static std::unordered_map<std::string, std::string> short_text_map;
 static std::unordered_map<unsigned, std::vector<unsigned>> seen_offset_map;
+static std::unordered_map<std::string, std::string> cached_text_map;
+static size_t max_cached_text_length = 0;
 
 EXTERN_C BOOL InitPatchData(PatchPack* in) {
 	if (in == NULL) return FALSE;
@@ -600,6 +604,9 @@ EXTERN_C BOOL InitPatchData(PatchPack* in) {
 			name_map.insert(std::make_pair(
 				bufferToStdString(e.origin), bufferToStdString(e.translated)
 			));
+			if (e.origin.size > max_name_length) {
+				max_name_length = e.origin.size;
+			}
 		}
 	}
 	if (in->pSize > 0 && in->pText != NULL) {
@@ -637,36 +644,47 @@ EXTERN_C void CleanPatchData() {
 	text_length_map.clear();
 	short_text_map.clear();
 	seen_offset_map.clear();
+	cached_text_map.clear();
 }
 
 EXTERN_C const char* const GetTranslatedName(const char* const name) {
+	size_t count = 0;
+	while (name[count] && count <= max_name_length) count++;
+	if (count > max_name_length) return name;
 	auto it = name_map.find(std::string(name));
 	return it == name_map.end() ? name : it->second.c_str();
 }
 
 EXTERN_C const char* const GetTranslatedText(const char* const text) {
-	unsigned seenNo = 0;
-	unsigned offset = 0;
-	if (exactSeenOffset(text, seenNo, offset)) {
-		const auto& map = text_map.find(seenNo);
-		if (map == text_map.end()) {
-			return text;
+	const char* translated = pureGetTranslatedText(text);
+	if (translated != text) return translated;
+	size_t count = 0;
+	const char* p = text;
+	while (p[count] && count <= max_cached_text_length) count++;
+	if (count <= max_cached_text_length) {
+		const auto& it = cached_text_map.find(std::string(text));
+		if (it != cached_text_map.end()) {
+			return it->second.c_str();
 		}
-		const auto& it = map->second.find(offset);
-		if (it == map->second.end()) {
-			return text;
-		}
-		return it->second.c_str();
 	}
-	bool isShortText = false;
-	for (int i = 0; i <= SHOT_TEXT_SIZE && !isShortText; i++) {
-		isShortText = text[i] == '\0';
-	}
-	if (!isShortText) {
+	p = text;
+	while (*p && (isdigit(*p) || isspace(*p))) p++;
+	translated = pureGetTranslatedText(p);
+	if (translated == p) {
 		return text;
 	}
-	const auto& it = short_text_map.find(std::string(text));
-	return it == short_text_map.end() ? text : it->second.c_str();
+	std::string str;
+	const char* q = text;
+	while (q < p) {
+		str += *q;
+		q++;
+	}
+	str += translated;
+	if (max_cached_text_length < str.size()) {
+		max_cached_text_length = str.size();
+	}
+	cached_text_map[std::string(text)] = str;
+	return cached_text_map[std::string(text)].c_str();
 }
 
 EXTERN_C void UpdateSeenBuffer(BYTE* buffer, unsigned seenNo) {
@@ -920,4 +938,29 @@ static std::vector<BYTE> hexToVector(const std::string& hex) {
 		vec.push_back(static_cast<BYTE>(value));
 	}
 	return vec;
+}
+
+static const char* const pureGetTranslatedText(const char* const text) {
+	unsigned seenNo = 0;
+	unsigned offset = 0;
+	if (exactSeenOffset(text, seenNo, offset)) {
+		const auto& map = text_map.find(seenNo);
+		if (map == text_map.end()) {
+			return text;
+		}
+		const auto& it = map->second.find(offset);
+		if (it == map->second.end()) {
+			return text;
+		}
+		return it->second.c_str();
+	}
+	bool isShortText = false;
+	for (int i = 0; i <= SHOT_TEXT_SIZE && !isShortText; i++) {
+		isShortText = text[i] == '\0';
+	}
+	if (!isShortText) {
+		return text;
+	}
+	const auto& it = short_text_map.find(std::string(text));
+	return it == short_text_map.end() ? text : it->second.c_str();
 }
