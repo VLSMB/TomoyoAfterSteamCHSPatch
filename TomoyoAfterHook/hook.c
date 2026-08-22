@@ -46,6 +46,11 @@ static void skipAsmCode(DWORD imageBase, DWORD rva, size_t codeLength);
 
 void HookInit(HMODULE hDll) {
 	initPatchMode();
+	MessageBoxA(NULL, 
+		"本补丁不是完整的汉化补丁，仅用于补丁可行性验证，没有汉化多少文本。\r\n"
+		"汉化补丁完成进度可以关注：https://github.com/VLSMB/TomoyoAfterSteamCHSPatch\r\n"
+		"本补丁仅用于学习研究用途，禁止用于一切商业活动。"
+		, MESSAGEBOX_TITLE, MB_ICONWARNING);
 	PatchPack pack;
 	RtlZeroMemory(&pack, sizeof(PatchPack));
 	switch (patch_mode) {
@@ -88,6 +93,7 @@ void PatchHookAfterOpenSeenFile() {
 
 	writeHook(EnumFontFamiliesExA, HookEnumFontFamiliesExA);
 	writeHook(CreateFontA, HookCreateFontA);
+	writeHook(SetWindowTextA, HookSetWindowTextA);
 
 	for (size_t i = 0; i < SET_NOP_ARRAY_SIZE; i++) {
 		skipAsmCode(imageBase, SET_NOP_RVA[i], SET_NOP_COUNT[i]);

@@ -7,6 +7,7 @@ static void WINAPI beforeConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext*
 static void WINAPI afterConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4);
 static BOOL WINAPI checkFileIsSeen(const char* fileName);
 static const char* const WINAPI getTranslatedText(const char* const text);
+static void WINAPI hookWindowTitle(HWND hWnd, const char** title);
 
 void ASM_FUNCTION HookForDump() {
 	__asm {
@@ -134,6 +135,39 @@ __create_file_ret:
 		push ebp
 		mov ebp, esp
 		jmp eax
+	}
+}
+
+const char* origin_title = "tomoyo after -It's a Wonderful Life-  English Edition    ";
+const char* new_title = "Tomoyo After English Edition ºº»¯°æ v0.0.1";
+HWND window_handle = NULL;
+
+void ASM_FUNCTION HookSetWindowTextA() {
+	__asm {
+		lea eax, [esp + 12]
+		push eax
+		mov eax, [esp + 12]
+		push eax
+		call hookWindowTitle
+	}
+	__asm {
+		pop eax
+		mov edi, edi
+		push ebp
+		mov ebp, esp
+		jmp eax
+	}
+}
+
+static void WINAPI hookWindowTitle(HWND hWnd, const char** title) {
+	if (window_handle == NULL) {
+		if (strcmp(*title, origin_title) == 0) {
+			window_handle = hWnd;
+		}
+	}
+	if (window_handle == hWnd) {
+		// TODO
+		*title = new_title;
 	}
 }
 

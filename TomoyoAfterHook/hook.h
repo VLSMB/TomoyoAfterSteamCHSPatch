@@ -5,7 +5,7 @@
 #include "data.h"
 #include "resource.h"
 
-#define PROCESS_NAME "RealLive.exe"
+#define PROCESS_NAME "RealLiveEn.exe"
 #define PROCESS_FILE_SHA256 "cbfe30775595145b58af21edca73bc9ed25a54b135adb4702af1d26c1f9aa084"
 #define SEEN_DATA_FILE "patch\\SEEN%04d.txt"
 #define NAME_DATA_FILE "patch\\name.txt"
