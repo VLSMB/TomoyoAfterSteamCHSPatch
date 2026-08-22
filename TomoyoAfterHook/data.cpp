@@ -33,6 +33,7 @@ static bool exactSeenOffset(const char* const bytes, unsigned& seenNo, unsigned&
 static std::string vectorToHex(const std::vector<BYTE>& vec);
 static std::vector<BYTE> hexToVector(const std::string& hex);
 static const char* const pureGetTranslatedText(const char* const text);
+static bool byteBufferEquals(const ByteBuffer& b1, const ByteBuffer& b2);
 
 static const char* EMPTY_NAME = "NULL";
 static const DWORD BIN_MAGIC = 0x54504C56;
@@ -233,7 +234,11 @@ EXTERN_C void TextFileToTextData(ByteBuffer* in, SeenPatchDataArray* out) {
 			
 			d.origin = makeBuffer((const BYTE*)origin.data(), origin.size());
 			d.translated = makeBuffer((const BYTE*)translated.data(), translated.size());
-			arr.push_back(d);
+			if (byteBufferEquals(d.origin, d.translated)) {
+				FreeSeenPatchData(&d);
+			} else {
+				arr.push_back(d);
+			}
 		}
 	}
 	out->pointer = toArrayPointer(arr);
@@ -358,7 +363,11 @@ EXTERN_C void TextFileToNameData(ByteBuffer* in, NameDataArray* out) {
 			NameData d;
 			d.origin = makeBuffer((const BYTE*)origin.data(), origin.size());
 			d.translated = makeBuffer((const BYTE*)translated.data(), translated.size());
-			arr.push_back(d);
+			if (byteBufferEquals(d.origin, d.translated)) {
+				FreeNameData(&d);
+			} else {
+				arr.push_back(d);
+			}
 		}
 	}
 	out->pointer = toArrayPointer(arr);
@@ -963,4 +972,16 @@ static const char* const pureGetTranslatedText(const char* const text) {
 	}
 	const auto& it = short_text_map.find(std::string(text));
 	return it == short_text_map.end() ? text : it->second.c_str();
+}
+
+static bool byteBufferEquals(const ByteBuffer& b1, const ByteBuffer& b2) {
+	if (b1.size != b2.size) return false;
+	if (b1.size == 0 || b1.pointer == b2.pointer) return true;
+	if (b1.pointer == NULL || b2.pointer == NULL) return false;
+	for (size_t i = 0; i < b1.size; i++) {
+		if (b1.pointer[i] != b2.pointer[i]) {
+			return false;
+		}
+	}
+	return true;
 }
