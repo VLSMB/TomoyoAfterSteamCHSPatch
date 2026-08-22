@@ -28,6 +28,10 @@
     <ClInclude Include="asm.h" />
     <ClInclude Include="data.h" />
     <ClInclude Include="hook.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

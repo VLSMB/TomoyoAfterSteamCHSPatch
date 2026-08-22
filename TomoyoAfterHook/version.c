@@ -170,7 +170,7 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD dwReason, PVOID pvReserved)
 			if (StrCmpI(szCurName, szAppName) == 0)
 			{
 				//启动补丁线程或者其他操作
-				HookInit();
+				HookInit(hModule);
 			}
 		}
 	}

@@ -33,6 +33,7 @@ static void initForDump();
 static void initPatchHook();
 static void initForArchive();
 static void assemblePatchPackFromTextFile(PatchPack* out);
+static void loadPatchPackFromResource(HMODULE hDll, PatchPack* out);
 static void dumpSeenData(ReadSeenDataFuncPtr dataFunc, RealLiveSeenData* data, size_t num, SeenDumpData* out);
 static BOOL readFile(const char* fileName, ByteBuffer* out);
 static void saveFile(const char* fileName, ByteBuffer buffer);
@@ -43,7 +44,7 @@ static void writeHook(void* targetFuncAddr, void* hookFuncAddr);
 static void writeHookWithNop(void* targetFuncAddr, void* hookFuncAddr, unsigned nopLength);
 static void skipAsmCode(DWORD imageBase, DWORD rva, size_t codeLength);
 
-void HookInit() {
+void HookInit(HMODULE hDll) {
 	initPatchMode();
 	PatchPack pack;
 	RtlZeroMemory(&pack, sizeof(PatchPack));
@@ -52,7 +53,7 @@ void HookInit() {
 		initForDump();
 		break;
 	case PATCH_RELEASE:
-		assemblePatchPackFromTextFile(&pack);
+		loadPatchPackFromResource(hDll, &pack);
 		goto patch;
 	case PATCH_DEBUG:
 		assemblePatchPackFromTextFile(&pack);
@@ -262,6 +263,28 @@ static void assemblePatchPackFromTextFile(PatchPack* out) {
 	for (size_t i = 0; i < seenCount; i++) {
 		FreeByteBuffer(&byte_buffer_array[i]);
 	}
+}
+
+static void loadPatchPackFromResource(HMODULE hDll, PatchPack* out) {
+	HRSRC hRes = FindResourceA(hDll, MAKEINTRESOURCEA(IDR_PATCH_BIN), RT_RCDATA);
+	if (hRes == NULL) {
+		goto fail;
+	}
+	HGLOBAL hData = LoadResource(hDll, hRes);
+	if (hData == NULL) {
+		goto fail;
+	}
+	BYTE* pData = (BYTE*)LockResource(hData);
+	DWORD size = SizeofResource(hDll, hRes);
+	ByteBuffer buffer;
+	RtlZeroMemory(&buffer, sizeof(ByteBuffer));
+	buffer.pointer = pData;
+	buffer.size = size;
+	BinFileToPatchPack(&buffer, out);
+	return;
+fail:
+	logError("¶ÁÈ¡×ÊÔ´Ê§°Ü£¡");
+	ExitProcess(2);
 }
 
 void RunDump() {
