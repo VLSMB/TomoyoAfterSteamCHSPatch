@@ -293,10 +293,12 @@ void RunDump() {
 		if (pDumpData[i] == NULL) continue;
 		ByteBuffer buffer;
 		RtlZeroMemory(&buffer, sizeof(ByteBuffer));
-		TextDataToTextFile(&pDumpData[i]->textData, &buffer);
-		wsprintfA(path, SEEN_DATA_FILE, i);
-		saveFile(path, buffer);
-		FreeByteBuffer(&buffer);
+		if (pDumpData[i]->textData.size > 0) {
+			TextDataToTextFile(&pDumpData[i]->textData, &buffer);
+			wsprintfA(path, SEEN_DATA_FILE, i);
+			saveFile(path, buffer);
+			FreeByteBuffer(&buffer);
+		}
 	}
 	NameDataArray** pNameDataArray = (NameDataArray**)malloc(SEEN_DATA_NUM * sizeof(NameDataArray*));
 	if (pNameDataArray == NULL) {

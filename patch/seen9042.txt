@@ -1,13 +1,13 @@
-type seen9040
+type seen9042
 count 1
 
 ====================
-index 1
-offset 7891
+index 14
+offset 13548
 name NULL
-length 18
+length 11
 ====================
-sys\tomoyo_rev.htm
+    no data
 ====================
-sys\tomoyo_rev.htm
+ÔÝÎÞÊý¾Ý
 ====================

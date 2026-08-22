@@ -1,13 +1,13 @@
-type seen7300
+type seen9035
 count 1
 
 ====================
 index 1
-offset 6562
+offset 254
 name NULL
-length 16
+length 13
 ====================
-manual\index.htm
+Scene Gallery
 ====================
-manual\index.htm
+³¡¾°¼øÉÍ
 ====================

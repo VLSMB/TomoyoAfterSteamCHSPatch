@@ -1,13 +1,13 @@
-type seen7310
+type seen9032
 count 1
 
 ====================
-index 4
-offset 33255
+index 1
+offset 423
 name NULL
-length 16
+length 10
 ====================
-manual\index.htm
+Title Menu
 ====================
-manual\index.htm
+标题界面
 ====================

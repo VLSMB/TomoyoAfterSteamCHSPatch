@@ -1,2 +1,0 @@
-type seen6000
-count 0

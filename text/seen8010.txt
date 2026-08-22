@@ -1,2 +1,0 @@
-type seen8010
-count 0
