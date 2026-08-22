@@ -77,10 +77,17 @@ void PatchHookAfterOpenSeenFile() {
 	if (patch_mode != PATCH_RELEASE && patch_mode != PATCH_DEBUG) {
 		return;
 	}
+
+	const DWORD imageBase = getImageBase();
+	DWORD hookAddress = imageBase + READ_SEEN_DATA_FUNC_RVA;
+	BYTE callHookOp[6];
+	assembleCallOp(callHookOp, 6, hookAddress, HookForPatch);
+	callHookOp[5] = 0xC3;
+	updateAsmCode(hookAddress, callHookOp, 6);
+
 	writeHook(EnumFontFamiliesExA, HookEnumFontFamiliesExA);
 	writeHook(CreateFontA, HookCreateFontA);
 
-	const DWORD imageBase = getImageBase();
 	for (size_t i = 0; i < SET_NOP_ARRAY_SIZE; i++) {
 		skipAsmCode(imageBase, SET_NOP_RVA[i], SET_NOP_COUNT[i]);
 	}

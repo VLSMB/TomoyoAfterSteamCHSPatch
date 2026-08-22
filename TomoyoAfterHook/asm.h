@@ -4,9 +4,8 @@
 #include <Windows.h>
 #include "hook.h"
 
-#define ASM_FUNCTION __declspec(naked)
-
 void HookForDump();
+void HookForPatch();
 void HookEnumFontFamiliesExA();
 void HookCreateFontA();
 void HookCreateFileA();

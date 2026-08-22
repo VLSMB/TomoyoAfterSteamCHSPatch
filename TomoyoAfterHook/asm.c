@@ -1,5 +1,8 @@
 #include "asm.h"
 
+#define ASM_FUNCTION __declspec(naked)
+
+static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, unsigned num);
 static void WINAPI beforeConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4);
 static void WINAPI afterConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4);
 static BOOL WINAPI checkFileIsSeen(const char* fileName);
@@ -32,6 +35,56 @@ hook_for_dump:
 		popad
 		ret
 	}
+}
+
+void ASM_FUNCTION HookForPatch() {
+	__asm {
+		mov eax, 0
+		mov[edx + 28], eax
+	}
+	__asm {
+		push edx
+		mov eax, [esp + 16]
+		push eax
+		mov eax, [esp + 16]
+		push eax
+
+		sub esp, 4
+		pushad
+		pushfd
+	}
+	GetModuleHandleA(PROCESS_NAME);
+	__asm {
+		add eax, READ_SEEN_DATA_AFTER_HOOK_RVA
+		mov[esp + 36], eax
+		popfd
+		popad
+		pop eax
+
+		push offset hook_for_patch
+		push ebp
+		mov ebp, esp
+		and esp, 0xFFFFFFF8
+		jmp eax
+	}
+hook_for_patch:
+	__asm {
+		pushfd
+		pushad
+		mov eax, [esp + 36]
+		push eax
+		mov eax, [esp + 48]
+		push eax
+		call handleSeenDataPatch
+		popad
+		popfd
+		add esp, 12
+		ret
+	}
+}
+
+static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, unsigned num) {
+	UpdateSeenBuffer(ptr->decompressed_data, num);
 }
 
 void ASM_FUNCTION HookEnumFontFamiliesExA() {

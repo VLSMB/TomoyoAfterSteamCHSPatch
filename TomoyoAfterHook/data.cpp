@@ -26,12 +26,20 @@ static bool isSep(const std::string& s);
 static size_t nextSep(const std::vector<std::string>& L, size_t i);
 static std::string readBlock(const std::vector<std::string>& L, size_t& i);
 static bool startsWith(const std::string& s, const char* p);
+static std::string bufferToStdString(const ByteBuffer& b);
+static DWORD seenOffsetToDWORD(unsigned seenNo, unsigned offset);
+static void dwordToSeenOffset(DWORD dword, unsigned& seenNo, unsigned& offset);
+static bool exactSeenOffset(const char* const bytes, unsigned& seenNo, unsigned& offset);
+static std::string vectorToHex(const std::vector<BYTE>& vec);
+static std::vector<BYTE> hexToVector(const std::string& hex);
 
 static const char* EMPTY_NAME = "NULL";
 static const DWORD BIN_MAGIC = 0x54504C56;
 static const DWORD TEXT_BIN_MAGIC = 0x4E454553;
 static const DWORD NAME_BIN_MAGIC = 0x454D414E;
 static const DWORD PACK_BIN_MAGIC = 0x4B434150;
+static const BYTE  TEXT_META_MAGIC = 0xF0;
+static const size_t SHOT_TEXT_SIZE = 10;
 
 EXTERN_C void DumpSeenData(RealLiveSeenData* in, SeenDumpData* out) {
 	BYTE* const data = in->decompressed_data;
@@ -249,6 +257,10 @@ EXTERN_C void TextDataToBinFile(SeenPatchDataArray* in, ByteBuffer* out) {
 		appendDWORD(b, (DWORD)d.length);
 		appendDWORD(b, (DWORD)d.translated.size);
 		appendBytes(b, d.translated.pointer, d.translated.size);
+		if (d.length <= SHOT_TEXT_SIZE) {
+			appendDWORD(b, (DWORD)d.origin.size);
+			appendBytes(b, d.origin.pointer, d.origin.size);
+		}
 	}
 	out->pointer = toArrayPointer(b);
 	out->size = b.size();
@@ -283,6 +295,15 @@ EXTERN_C void BinFileToTextData(ByteBuffer* in, SeenPatchDataArray* out) {
 			d.origin.size = 0;
 			d.translated = makeBuffer(p, ts); 
 			p += ts;
+
+			if (d.length <= SHOT_TEXT_SIZE) {
+				DWORD os = 0;
+				if (!readDWORD(p, end, os) || os == 0 ||
+					(size_t)(end - p) < (size_t)os) break;
+				d.origin = makeBuffer(p, os);
+				p += os;
+			}
+
 			arr.push_back(d);
 		}
 	}
@@ -564,9 +585,11 @@ template<typename T>
 using seen_map = std::unordered_map<unsigned, std::unordered_map<unsigned, T>>;
 
 static std::unordered_map<std::string, std::string> name_map;
-static seen_map<ByteBuffer> text_map;
+static seen_map<std::string> text_map;
 static seen_map<unsigned> text_length_map;
 static seen_map<std::stack<BYTE>> text_stack;
+static std::unordered_map<std::string, std::string> short_text_map;
+static std::unordered_map<unsigned, std::vector<unsigned>> seen_offset_map;
 
 EXTERN_C BOOL InitPatchData(PatchPack* in) {
 	if (in == NULL) return FALSE;
@@ -575,8 +598,7 @@ EXTERN_C BOOL InitPatchData(PatchPack* in) {
 		for (size_t i = 0; i < in->pName->size; i++) {
 			NameData& e = in->pName->pointer[i];
 			name_map.insert(std::make_pair(
-				std::string((const char*)e.origin.pointer, e.origin.size),
-				std::string((const char*)e.translated.pointer, e.translated.size)
+				bufferToStdString(e.origin), bufferToStdString(e.translated)
 			));
 		}
 	}
@@ -584,6 +606,7 @@ EXTERN_C BOOL InitPatchData(PatchPack* in) {
 		text_map.reserve(in->pSize);
 		text_stack.reserve(in->pSize);
 		text_length_map.reserve(in->pSize);
+		seen_offset_map.reserve(in->pSize);
 		for (size_t i = 0; i < in->pSize; i++) {
 			SeenPatchDataArray* pArray = in->pText[i];
 			auto& map = text_map[pArray->seenNo];
@@ -591,16 +614,16 @@ EXTERN_C BOOL InitPatchData(PatchPack* in) {
 			text_stack[pArray->seenNo].reserve(pArray->size);
 			text_length_map[pArray->seenNo].reserve(pArray->size);
 			for (size_t j = 0; j < pArray->size; j++) {
-				ByteBuffer buffer;
-				RtlZeroMemory(&buffer, sizeof(ByteBuffer));
-				buffer.size = pArray->pointer[j].translated.size;
-				buffer.pointer = new (std::nothrow) BYTE[buffer.size];
-				if (!buffer.pointer) {
-					return FALSE;
-				}
-				memcpy(buffer.pointer, pArray->pointer[j].translated.pointer, buffer.size);
-				map[pArray->pointer[j].offset] = buffer;
+				map[pArray->pointer[j].offset] = bufferToStdString(pArray->pointer[j].translated);
 				text_length_map[pArray->seenNo][pArray->pointer[j].offset] = pArray->pointer[j].length;
+				if (pArray->pointer[j].length <= SHOT_TEXT_SIZE) {
+					short_text_map.insert(std::make_pair(
+						bufferToStdString(pArray->pointer[j].origin),
+						bufferToStdString(pArray->pointer[j].translated)
+					));
+				} else {
+					seen_offset_map[pArray->seenNo].push_back(pArray->pointer[j].offset);
+				}
 			}
 		}
 	}
@@ -609,23 +632,60 @@ EXTERN_C BOOL InitPatchData(PatchPack* in) {
 
 EXTERN_C void CleanPatchData() {
 	name_map.clear();
-	for (auto& pair : text_map) {
-		for (auto& pair2 : pair.second) {
-			if (pair2.second.pointer) {
-				delete[] pair2.second.pointer;
-				pair2.second.pointer = nullptr;
-				pair2.second.size = 0;
-			}
-		}
-	}
 	text_map.clear();
 	text_stack.clear();
 	text_length_map.clear();
+	short_text_map.clear();
+	seen_offset_map.clear();
 }
 
 EXTERN_C const char* const GetTranslatedName(const char* const name) {
 	auto it = name_map.find(std::string(name));
 	return it == name_map.end() ? name : it->second.c_str();
+}
+
+EXTERN_C const char* const GetTranslatedText(const char* const text) {
+	unsigned seenNo = 0;
+	unsigned offset = 0;
+	if (exactSeenOffset(text, seenNo, offset)) {
+		const auto& map = text_map.find(seenNo);
+		if (map == text_map.end()) {
+			return text;
+		}
+		const auto& it = map->second.find(offset);
+		if (it == map->second.end()) {
+			return text;
+		}
+		return it->second.c_str();
+	}
+	bool isShortText = false;
+	for (int i = 0; i <= SHOT_TEXT_SIZE && !isShortText; i++) {
+		isShortText = text[i] == '\0';
+	}
+	if (!isShortText) {
+		return text;
+	}
+	const auto& it = short_text_map.find(std::string(text));
+	return it == short_text_map.end() ? text : it->second.c_str();
+}
+
+EXTERN_C void UpdateSeenBuffer(BYTE* buffer, unsigned seenNo) {
+	std::vector<BYTE> bytes;
+	for (const auto& offset : seen_offset_map[seenNo]) {
+		DWORD dword = seenOffsetToDWORD(seenNo, offset);
+		BYTE* p = buffer + offset;
+		bytes.push_back(TEXT_META_MAGIC);
+		bytes.push_back(dword & 0xFF);
+		bytes.push_back((dword >> 8) & 0xFF);
+		bytes.push_back((dword >> 16) & 0xFF);
+		bytes.push_back((dword >> 24) & 0xFF);
+		std::string s = vectorToHex(bytes);
+		for (const char& c : s) {
+			*p = static_cast<BYTE>(c);
+			p++;
+		}
+		bytes.clear();
+	}
 }
 
 EXTERN_C BOOL GetNextCharacterInfo(unsigned seenNo, unsigned offset, CharacterInfo* out) {
@@ -637,7 +697,7 @@ EXTERN_C BOOL GetNextCharacterInfo(unsigned seenNo, unsigned offset, CharacterIn
 	if (it == textMap->second.end()) {
 		return FALSE;
 	}
-	const ByteBuffer& buffer = it->second;
+	const std::string& buffer = it->second;
 
 	RtlZeroMemory(out, sizeof(CharacterInfo));
 	out->seenNo = seenNo;
@@ -675,27 +735,25 @@ EXTERN_C BOOL GetNextCharacterInfo(unsigned seenNo, unsigned offset, CharacterIn
 		return TRUE;
 	}
 	
-	if (buffer.size == 0 || buffer.pointer == nullptr) {
+	if (buffer.size() == 0) {
 		return FALSE;
-	} else if (buffer.size == 1) {
+	} else if (buffer.size() == 1) {
 		out->asciiFlag = 1;
 		out->lastFlag = 1;
-		out->character = buffer.pointer[0] & 0x00FF;
+		out->character = static_cast<BYTE>(buffer[0]) & 0x00FF;
 	} else {
-		out->asciiFlag = (buffer.pointer[0] >= 0x80 || buffer.pointer[0] == '\\') ? 0 : 1;
-		out->lastFlag = (!out->asciiFlag && buffer.size == 2) ? 1 : 0;
+		out->asciiFlag = (static_cast<BYTE>(buffer[0]) >= 0x80 || static_cast<BYTE>(buffer[0]) == '\\') ? 0 : 1;
+		out->lastFlag = (!out->asciiFlag && buffer.size() == 2) ? 1 : 0;
 		if (out->asciiFlag) {
-			out->character = buffer.pointer[0];
+			out->character = static_cast<BYTE>(buffer[0]);
 		} else {
-			out->character = buffer.pointer[1];
-			out->character = ((out->character << 8) & 0xFF00) | (buffer.pointer[0] & 0x00FF);
+			out->character = static_cast<BYTE>(buffer[1]);
+			out->character = ((out->character << 8) & 0xFF00) | (static_cast<BYTE>(buffer[0]) & 0x00FF);
 		}
 	}
-	const BYTE* end = buffer.pointer;
-	const BYTE* p = buffer.pointer + buffer.size - 1;
 	std::stack<BYTE>& stack = text_stack[seenNo][offset];
-	while (p >= end) {
-		stack.push(*(p--));
+	for (auto it = buffer.rbegin(); it != buffer.rend(); ++it) {
+		stack.push(static_cast<BYTE>(*it));
 	}
 	return TRUE;
 }
@@ -807,4 +865,59 @@ static std::string readBlock(const std::vector<std::string>& L, size_t& i) {
 static bool startsWith(const std::string& s, const char* p) {
 	size_t n = strlen(p);
 	return s.size() >= n && memcmp(s.data(), p, n) == 0;
+}
+
+static std::string bufferToStdString(const ByteBuffer& b) {
+	if (b.pointer == NULL || b.size == 0) {
+		return "";
+	}
+	return std::string(reinterpret_cast<const char*>(b.pointer), b.size);
+}
+
+static DWORD seenOffsetToDWORD(unsigned seenNo, unsigned offset) {
+	return (seenNo << 18) | (offset & 0x3FFFF);
+}
+
+static void dwordToSeenOffset(DWORD dword, unsigned& seenNo, unsigned& offset) {
+	offset = dword & 0x3FFFF;
+	seenNo = dword >> 18;
+}
+
+static bool exactSeenOffset(const char* const bytes, unsigned& seenNo, unsigned& offset) {
+	size_t count = 0;
+	const char* p = bytes;
+	while (count < SHOT_TEXT_SIZE && *p) {
+		p++;
+		count++;
+	}
+	if (count < SHOT_TEXT_SIZE) {
+		return false;
+	}
+	std::vector<BYTE> vec = hexToVector(std::string(bytes, SHOT_TEXT_SIZE));
+	DWORD dword = vec[1] | ((DWORD)vec[2] << 8) | ((DWORD)vec[3] << 16) | ((DWORD)vec[4] << 24);
+	dwordToSeenOffset(dword, seenNo, offset);
+	return true;
+}
+
+static std::string vectorToHex(const std::vector<BYTE>& vec) {
+	std::string hex;
+	hex.reserve(vec.size() * 2);
+	char buf[3];
+	for (BYTE b : vec) {
+		snprintf(buf, sizeof(buf), "%02X", b);
+		hex += buf;
+	}
+	return hex;
+}
+
+static std::vector<BYTE> hexToVector(const std::string& hex) {
+	std::vector<BYTE> vec;
+	vec.reserve(hex.size() / 2);
+	for (size_t i = 0; i < hex.size(); i += 2) {
+		std::string byteStr = hex.substr(i, 2);
+		unsigned value;
+		sscanf_s(byteStr.c_str(), "%02X", &value);
+		vec.push_back(static_cast<BYTE>(value));
+	}
+	return vec;
 }
