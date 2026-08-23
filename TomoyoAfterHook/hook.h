@@ -11,7 +11,8 @@
 #define NAME_DATA_FILE "patch\\name.txt"
 #define BIN_DATA_FILE "patch.vlpt"
 #define SEEN_DATA_DIR "patch"
-#define MESSAGEBOX_TITLE "Tomoyo After Steam°æºº»¯²¹¶¡ v0.0.1"
+#define WINDOW_TITLE "Tomoyo After Steam°æºº»¯²¹¶¡ v0.0.2-dev"
+#define MESSAGEBOX_TITLE "VLSMB"
 #define PATCH_MODE_CONFIG_FILE "patch_mode.cfg"
 
 #define CALL_READ_SEEN_HEADER_RVA 0x526EF

@@ -32,7 +32,7 @@ static DWORD getImageBase();
 static void initForDump();
 static void initPatchHook();
 static void initForArchive();
-static void assemblePatchPackFromTextFile(PatchPack* out);
+static void updatePatchPackFromTextFile(PatchPack* out);
 static void loadPatchPackFromResource(HMODULE hDll, PatchPack* out);
 static void dumpSeenData(ReadSeenDataFuncPtr dataFunc, RealLiveSeenData* data, size_t num, SeenDumpData* out);
 static BOOL readFile(const char* fileName, ByteBuffer* out);
@@ -47,7 +47,8 @@ static void skipAsmCode(DWORD imageBase, DWORD rva, size_t codeLength);
 void HookInit(HMODULE hDll) {
 	initPatchMode();
 	MessageBoxA(NULL, 
-		"本补丁不是完整的汉化补丁，仅用于补丁可行性验证，没有汉化多少文本。\r\n"
+		WINDOW_TITLE
+		"\r\n本补丁不是完整的汉化补丁，仅用于补丁可行性验证。\r\n"
 		"汉化补丁完成进度可以关注：https://github.com/VLSMB/TomoyoAfterSteamCHSPatch\r\n"
 		"本补丁仅用于学习研究用途，禁止用于一切商业活动。"
 		, MESSAGEBOX_TITLE, MB_ICONWARNING);
@@ -61,7 +62,8 @@ void HookInit(HMODULE hDll) {
 		loadPatchPackFromResource(hDll, &pack);
 		goto patch;
 	case PATCH_DEBUG:
-		assemblePatchPackFromTextFile(&pack);
+		loadPatchPackFromResource(hDll, &pack);
+		updatePatchPackFromTextFile(&pack);
 		goto patch;
 	case PATCH_ARCHIVE:
 		initForArchive();
@@ -220,7 +222,8 @@ static void initPatchHook() {
 
 static void initForArchive() {
 	PatchPack pack;
-	assemblePatchPackFromTextFile(&pack);
+	RtlZeroMemory(&pack, sizeof(PatchPack));
+	updatePatchPackFromTextFile(&pack);
 	ByteBuffer buffer;
 	RtlZeroMemory(&buffer, sizeof(ByteBuffer));
 	PatchPackToBinFile(&pack, &buffer);
@@ -230,10 +233,9 @@ static void initForArchive() {
 	ExitProcess(0);
 }
 
-static void assemblePatchPackFromTextFile(PatchPack* out) {
+static void updatePatchPackFromTextFile(PatchPack* out) {
 	ByteBuffer buffer;
 	char path[MAX_PATH];
-	RtlZeroMemory(out, sizeof(PatchPack));
 	RtlZeroMemory(&buffer, sizeof(ByteBuffer));
 	RtlZeroMemory(path, MAX_PATH * sizeof(char));
 	size_t seenCount = 0;
@@ -243,27 +245,48 @@ static void assemblePatchPackFromTextFile(PatchPack* out) {
 			byte_buffer_array[seenCount++] = buffer;
 		}
 	}
-	out->pSize = seenCount;
-	out->pText = (SeenPatchDataArray**)malloc(sizeof(SeenPatchDataArray*) * seenCount);
-	out->pName = (NameDataArray*)malloc(sizeof(NameDataArray));
-	BOOL initFlag = out->pText != NULL && out->pName != NULL;
-	if (initFlag) {
-		RtlZeroMemory(out->pText, sizeof(SeenPatchDataArray*) * seenCount);
-		RtlZeroMemory(out->pName, sizeof(NameDataArray));
-	}
+	SeenPatchDataArray** localText = (SeenPatchDataArray**)malloc(sizeof(SeenPatchDataArray*) * seenCount);
+	BOOL initFlag = localText != NULL;
 	for (size_t i = 0; i < seenCount && initFlag; i++) {
-		out->pText[i] = (SeenPatchDataArray*)malloc(sizeof(SeenPatchDataArray));
-		initFlag = out->pText[i] != NULL;
+		localText[i] = (SeenPatchDataArray*)malloc(sizeof(SeenPatchDataArray));
+		initFlag = localText[i] != NULL;
 	}
 	if (!initFlag) {
-		FreePatchPack(out);
 		logError("内存不足");
 		ExitProcess(1);
 	}
 	for (size_t i = 0; i < seenCount; i++) {
-		TextFileToTextData(&byte_buffer_array[i], out->pText[i]);
+		TextFileToTextData(&byte_buffer_array[i], localText[i]);
 	}
+
+	if (out->pText == NULL || out->pSize == 0) {
+		if (out->pText != NULL) free(out->pText);
+		out->pText = localText;
+		out->pSize = seenCount;
+	} else {
+		SeenPatchDataArray** updatedText = NULL;
+		size_t updatedSize = 0;
+		if (!UpdateSeenPatchDataArray(out->pText, out->pSize, localText, seenCount, &updatedText, &updatedSize)) {
+			logError("内存不足");
+			ExitProcess(1);
+		}
+		free(out->pText);
+		free(localText);
+		localText = updatedText;
+		out->pText = updatedText;
+		out->pSize = updatedSize;
+	}
+
 	if (readFile(NAME_DATA_FILE, &buffer)) {
+		if (out->pName == NULL) {
+			out->pName = (NameDataArray*)malloc(sizeof(NameDataArray));
+			if (out->pName == NULL) {
+				logError("内存不足");
+				ExitProcess(1);
+			}
+		} else {
+			FreeNameDataArray(out->pName);
+		}
 		TextFileToNameData(&buffer, out->pName);
 	}
 	for (size_t i = 0; i < seenCount; i++) {

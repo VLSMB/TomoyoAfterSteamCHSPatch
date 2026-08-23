@@ -115,6 +115,7 @@ void PatchPackToBinFile(PatchPack* in, ByteBuffer* out);
 void BinFileToPatchPack(ByteBuffer* in, PatchPack* out);
 
 NameDataArray* MergeNameDataArray(NameDataArray** arrayList, size_t arraySize);
+BOOL UpdateSeenPatchDataArray(SeenPatchDataArray** fromDll, size_t szDll, SeenPatchDataArray** fromLocal, size_t szLocal, SeenPatchDataArray*** out, size_t* szOut);
 
 void FreeByteBuffer(ByteBuffer* buf);
 void FreeSeenPatchData(SeenPatchData* data);

@@ -119,7 +119,7 @@ void ASM_FUNCTION HookCreateFileA() {
 		push eax
 		call checkFileIsSeen
 		test eax, eax
-		je __create_file_ret
+		je __seen_file_ret
 	}
 	__asm {
 		pushfd
@@ -128,7 +128,7 @@ void ASM_FUNCTION HookCreateFileA() {
 		popad
 		popfd
 	}
-__create_file_ret:
+__seen_file_ret:
 	__asm {
 		pop eax
 		mov edi, edi
@@ -167,7 +167,6 @@ static void WINAPI hookWindowTitle(HWND hWnd, const char** title) {
 	}
 	if (window_handle == hWnd) {
 		// TODO
-		*title = new_title;
 	}
 }
 

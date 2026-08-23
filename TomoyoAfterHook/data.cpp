@@ -524,6 +524,44 @@ EXTERN_C NameDataArray* MergeNameDataArray(NameDataArray** arrayList, size_t arr
 	return result;
 }
 
+EXTERN_C BOOL UpdateSeenPatchDataArray(SeenPatchDataArray** fromDll, size_t szDll, SeenPatchDataArray** fromLocal, size_t szLocal, SeenPatchDataArray*** out, size_t* szOut) {
+	std::unordered_map<unsigned, SeenPatchDataArray*> dllMap;
+	std::unordered_map<unsigned, SeenPatchDataArray*> localMap;
+	std::set<unsigned> seenSet;
+	for (size_t i = 0; i < szDll; i++) {
+		if (fromDll == NULL || fromDll[i] == NULL) continue;
+		seenSet.insert(fromDll[i]->seenNo);
+		dllMap.insert(std::make_pair(fromDll[i]->seenNo, fromDll[i]));
+	}
+	for (size_t i = 0; i < szLocal; i++) {
+		if (fromLocal == NULL || fromLocal[i] == NULL) continue;
+		seenSet.insert(fromLocal[i]->seenNo);
+		localMap.insert(std::make_pair(fromLocal[i]->seenNo, fromLocal[i]));
+	}
+	*szOut = seenSet.size();
+	SeenPatchDataArray** pText = (SeenPatchDataArray**)malloc(sizeof(SeenPatchDataArray*) * seenSet.size());
+	*out = pText;
+	if (*out == NULL) {
+		return FALSE;
+	}
+	size_t idx = 0;
+	for (unsigned seenNo : seenSet) {
+		const auto& local = localMap.find(seenNo);
+		const auto& dll = dllMap.find(seenNo);
+		if (local != localMap.end()) {
+			if (dll != dllMap.end()) {
+				FreeSeenPatchDataArray(dll->second);
+				free(dll->second);
+			}
+			pText[idx] = local->second;
+		} else {
+			pText[idx] = dll != dllMap.end() ? dll->second : NULL;
+		}
+		idx++;
+	}
+	return TRUE;
+}
+
 EXTERN_C void FreeByteBuffer(ByteBuffer* buf) {
 	if (buf == NULL) return;
 	free(buf->pointer);
