@@ -23,6 +23,7 @@
 #define CONSUME_TEXT_IN_QUOTE_MODE_CALLER_2_RVA 0xE9D5B
 #define CONSUME_TEXT_IN_QUITE_MODE_CALLER_3_RVA 0xE9793
 #define HANDLE_INSTANT_TEXT_FUNC_RVA 0xEBEC0
+#define REALLIVE_DEBUG_MODE_FLAG_RVA 0x302FC0
 
 typedef DWORD(__fastcall* ReadSeenHeaderFuncPtr)(void);
 typedef DWORD(__fastcall* ReadSeenDataFuncPtr)(BYTE ctx[64], RealLiveSeenData* out, DWORD scene_no, DWORD flags);

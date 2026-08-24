@@ -104,6 +104,11 @@ void PatchHookAfterOpenSeenFile() {
 	writeHook(imageBase + CONSUME_TEXT_IN_QUOTE_MODE_CALLER_2_RVA, ProxyConsumeTextInQuoteMode);
 	writeHook(imageBase + CONSUME_TEXT_IN_QUITE_MODE_CALLER_3_RVA, ProxyConsumeTextInQuoteMode);
 	writeHookWithNop(imageBase + HANDLE_INSTANT_TEXT_FUNC_RVA, HookHandleInstantText, 1);
+
+	if (patch_mode == PATCH_DEBUG) {
+		BYTE* debugFlag = (BYTE*)(imageBase + REALLIVE_DEBUG_MODE_FLAG_RVA);
+		*debugFlag = TRUE;
+	}
 }
 
 void HookDestroy() {
