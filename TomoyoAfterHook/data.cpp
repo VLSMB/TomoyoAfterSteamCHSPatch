@@ -11,6 +11,7 @@
 #include <map>
 #include <stack>
 #include <new>
+#include <regex>
 
 template<typename T>
 static T* toArrayPointer(const std::vector<T>& vec);
@@ -35,6 +36,9 @@ static std::vector<BYTE> hexToVector(const std::string& hex);
 static const char* const pureGetTranslatedText(const char* const text);
 static bool byteBufferEquals(const ByteBuffer& b1, const ByteBuffer& b2);
 static std::string transferToGbk(const std::string& str);
+static bool startsWith(const std::string& str, const std::string& prefix);
+static std::string removePrefix(const std::string& str, const std::string& prefix);
+static bool extractRlDebugSuffix(const std::string& str, std::string& prefix, std::string& suffix);
 
 static const char* EMPTY_NAME = "NULL";
 static const DWORD BIN_MAGIC = 0x54504C56;
@@ -644,6 +648,7 @@ static std::unordered_map<std::string, std::string> short_text_map;
 static std::unordered_map<unsigned, std::vector<unsigned>> seen_offset_map;
 static std::unordered_map<std::string, std::string> cached_text_map;
 static size_t max_cached_text_length = 0;
+static std::string current_title_text = "";
 
 EXTERN_C BOOL InitPatchData(PatchPack* in) {
 	if (in == NULL) return FALSE;
@@ -835,12 +840,19 @@ EXTERN_C void AckConsumeCharacter(const CharacterInfo* out) {
 	}
 }
 
-BOOL IsWindowTitleText(const char* const text) {
-	return FALSE;
+EXTERN_C BOOL IsWindowTitleText(const char* const text) {
+	return startsWith(text, ORIGIN_TITLE_NAME) ? TRUE : FALSE;
 }
 
-const char* const GetWindowTitleTranslatedText(const char* const text) {
-	return text;
+EXTERN_C const char* const GetWindowTitleTranslatedText(const char* const text) {
+	if(!IsWindowTitleText(text)) return text;
+	std::string subTitle, debugSuf;
+	extractRlDebugSuffix(removePrefix(text, ORIGIN_TITLE_NAME), subTitle, debugSuf);
+	current_title_text = std::string(WINDOW_TITLE"  ") + pureGetTranslatedText(subTitle.c_str());
+	if (!debugSuf.empty()) {
+		current_title_text += " " + debugSuf;
+	}
+	return current_title_text.c_str();
 }
 
 template<typename T>
@@ -1050,4 +1062,33 @@ static std::string transferToGbk(const std::string& str) {
 	std::vector<char> buf(len);
 	WideCharToMultiByte(936, WC_NO_BEST_FIT_CHARS, wBuf.data(), wLen, buf.data(), len, NULL, NULL);
 	return std::string(buf.data(), buf.size());
+}
+
+static bool startsWith(const std::string& str, const std::string& prefix) {
+	if (prefix.length() > str.length()) return false;
+	return str.compare(0, prefix.length(), prefix) == 0;
+}
+
+static std::string removePrefix(const std::string& str, const std::string& prefix) {
+	if (startsWith(str, prefix)) {
+		return str.substr(prefix.length());
+	}
+	return str;
+}
+
+static bool extractRlDebugSuffix(const std::string& str, std::string& prefix, std::string& suffix) {
+	std::regex pattern(
+		R"(Seen\d+\(\d+\)\s*Call\s*\(\d+\)\s*GS\s*\(\d+\)$)",
+		std::regex::icase
+	);
+
+	std::smatch matches;
+	if (std::regex_search(str, matches, pattern)) {
+		suffix = matches.str(0);
+		prefix = str.substr(0, matches.position(0));
+		return true;
+	}
+	prefix = str;
+	suffix.clear();
+	return false;
 }

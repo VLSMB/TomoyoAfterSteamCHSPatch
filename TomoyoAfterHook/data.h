@@ -4,6 +4,9 @@
 #include <Windows.h>
 
 #define SEEN_DATA_NUM 10000
+#define PROCESS_NAME "RealLiveEn.exe"
+#define WINDOW_TITLE "Tomoyo After Steam°æºº»¯²¹¶¡ v0.0.2-dev"
+#define MESSAGEBOX_TITLE "VLSMB"
 
 #ifdef __cplusplus
 extern "C" {
