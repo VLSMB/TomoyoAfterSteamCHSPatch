@@ -34,6 +34,7 @@ static std::string vectorToHex(const std::vector<BYTE>& vec);
 static std::vector<BYTE> hexToVector(const std::string& hex);
 static const char* const pureGetTranslatedText(const char* const text);
 static bool byteBufferEquals(const ByteBuffer& b1, const ByteBuffer& b2);
+static std::string transferToGbk(const std::string& str);
 
 static const char* EMPTY_NAME = "NULL";
 static const DWORD BIN_MAGIC = 0x54504C56;
@@ -42,6 +43,7 @@ static const DWORD NAME_BIN_MAGIC = 0x454D414E;
 static const DWORD PACK_BIN_MAGIC = 0x4B434150;
 static const BYTE  TEXT_META_MAGIC = 0xF0;
 static const size_t SHOT_TEXT_SIZE = 10;
+static const char* ORIGIN_TITLE_NAME = "tomoyo after -It's a Wonderful Life-  English Edition    ";
 
 EXTERN_C void DumpSeenData(RealLiveSeenData* in, SeenDumpData* out) {
 	BYTE* const data = in->decompressed_data;
@@ -223,7 +225,7 @@ EXTERN_C void TextFileToTextData(ByteBuffer* in, SeenPatchDataArray* out) {
 			if (i < L.size()) ++i;
 
 			std::string origin = readBlock(L, i);
-			std::string translated = readBlock(L, i);
+			std::string translated = transferToGbk(readBlock(L, i));
 
 			if (name == EMPTY_NAME) {
 				d.name.pointer = NULL;
@@ -358,9 +360,10 @@ EXTERN_C void TextFileToNameData(ByteBuffer* in, NameDataArray* out) {
 			if (i < L.size()) ++i;
 
 			std::string origin = readBlock(L, i);
-			std::string translated = readBlock(L, i);
+			std::string translated = transferToGbk(readBlock(L, i));
 
 			NameData d;
+			RtlZeroMemory(&d, sizeof(NameData));
 			d.origin = makeBuffer((const BYTE*)origin.data(), origin.size());
 			d.translated = makeBuffer((const BYTE*)translated.data(), translated.size());
 			if (byteBufferEquals(d.origin, d.translated)) {
@@ -832,6 +835,14 @@ EXTERN_C void AckConsumeCharacter(const CharacterInfo* out) {
 	}
 }
 
+BOOL IsWindowTitleText(const char* const text) {
+	return FALSE;
+}
+
+const char* const GetWindowTitleTranslatedText(const char* const text) {
+	return text;
+}
+
 template<typename T>
 static T* toArrayPointer(const std::vector<T>& vec) {
 	static_assert(std::is_trivially_copyable_v<T>, "type must be trivially copyable");
@@ -1022,4 +1033,21 @@ static bool byteBufferEquals(const ByteBuffer& b1, const ByteBuffer& b2) {
 		}
 	}
 	return true;
+}
+
+static std::string transferToGbk(const std::string& str) {
+	if (str.empty()) return str;
+	int wLen = MultiByteToWideChar(CP_UTF8, MB_ERR_INVALID_CHARS, str.c_str(), (int)str.size(), NULL, 0);
+	if (wLen <= 0) {
+		return str;
+	}
+	std::vector<WCHAR> wBuf(wLen);
+	MultiByteToWideChar(CP_UTF8, MB_ERR_INVALID_CHARS, str.c_str(), (int)str.size(), wBuf.data(), wLen);
+	int len = WideCharToMultiByte(936, WC_NO_BEST_FIT_CHARS, wBuf.data(), wLen, NULL, NULL, NULL, NULL);
+	if (len <= 0) {
+		return str;
+	}
+	std::vector<char> buf(len);
+	WideCharToMultiByte(936, WC_NO_BEST_FIT_CHARS, wBuf.data(), wLen, buf.data(), len, NULL, NULL);
+	return std::string(buf.data(), buf.size());
 }

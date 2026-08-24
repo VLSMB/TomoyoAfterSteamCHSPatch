@@ -138,10 +138,6 @@ __seen_file_ret:
 	}
 }
 
-const char* origin_title = "tomoyo after -It's a Wonderful Life-  English Edition    ";
-const char* new_title = "Tomoyo After English Edition ºº»¯°æ v0.0.1";
-HWND window_handle = NULL;
-
 void ASM_FUNCTION HookSetWindowTextA() {
 	__asm {
 		lea eax, [esp + 12]
@@ -159,14 +155,16 @@ void ASM_FUNCTION HookSetWindowTextA() {
 	}
 }
 
+HWND window_handle = NULL;
+
 static void WINAPI hookWindowTitle(HWND hWnd, const char** title) {
 	if (window_handle == NULL) {
-		if (strcmp(*title, origin_title) == 0) {
+		if (IsWindowTitleText(*title)) {
 			window_handle = hWnd;
 		}
 	}
 	if (window_handle == hWnd) {
-		// TODO
+		*title = GetWindowTitleTranslatedText(*title);
 	}
 }
 
