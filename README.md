@@ -121,10 +121,10 @@
 - [ ] seen8132
 - [ ] seen8221
 - [ ] seen8250
-- [ ] seen9032
-- [ ] seen9033
-- [ ] seen9034
-- [ ] seen9035
-- [ ] seen9042
-- [ ] seen9837
+- [x] seen9032
+- [x] seen9033
+- [x] seen9034
+- [x] seen9035
+- [x] seen9042
+- [x] seen9837（进行中）
 - [ ] seen9900
