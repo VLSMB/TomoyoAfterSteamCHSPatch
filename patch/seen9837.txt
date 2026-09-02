@@ -9,7 +9,7 @@ length 14
 ====================
 Term unlocked:
 ====================
-解锁短语：
+解锁词条：
 ====================
 
 ====================
@@ -42,7 +42,7 @@ length 6
 ====================
 Aikido
 ====================
-Aikido
+合气道
 ====================
 
 ====================
@@ -53,7 +53,7 @@ length 273
 ====================
 Aikido is a Japanese martial art that can roughly be translated as \"the way of harmonious spirit\". It was crafted by Morihei Ueshiba during 1920s and 1930s. The central idea behind Aikido is that it can be used to defend oneself effectively without injuring the attacker.
 ====================
-Aikido is a Japanese martial art that can roughly be translated as \"the way of harmonious spirit\". It was crafted by Morihei Ueshiba during 1920s and 1930s. The central idea behind Aikido is that it can be used to defend oneself effectively without injuring the attacker.
+合气道是一种日本武术，大致可以译为“和谐精神之道”。它由植芝盛平在20世纪20年代至30年代期间创立。合气道背后的核心理念是，它可以在不伤害攻击者的情况下有效地用于自卫。
 ====================
 
 ====================
@@ -64,7 +64,7 @@ length 11
 ====================
 Almond Tofu
 ====================
-Almond Tofu
+杏仁豆腐
 ====================
 
 ====================
@@ -75,7 +75,7 @@ length 226
 ====================
 Almond tofu is a type of pudding made with almonds that originated in China. Despite what its name implies, it does not actually contain any tofu or soy products. It is called Almond tofu due to its appearance and consistency.
 ====================
-Almond tofu is a type of pudding made with almonds that originated in China. Despite what its name implies, it does not actually contain any tofu or soy products. It is called Almond tofu due to its appearance and consistency.
+杏仁豆腐是一种用杏仁制成的布丁类甜品，起源于中国。尽管名字如此，它实际上并不含任何豆腐或豆制品。它之所以被称为“杏仁豆腐”，是因为其外观和质地与豆腐相似。
 ====================
 
 ====================
@@ -86,7 +86,7 @@ length 5
 ====================
 Astro
 ====================
-Astro
+阿童木
 ====================
 
 ====================
@@ -97,7 +97,7 @@ length 108
 ====================
 Astro is the main character of the manga/anime Astro Boy. He is a child robot with superhero-like abilities.
 ====================
-Astro is the main character of the manga/anime Astro Boy. He is a child robot with superhero-like abilities.
+阿童木是漫画/动画《铁臂阿童木》中的主角。他是一个拥有超级英雄般能力的儿童机器人。
 ====================
 
 ====================
@@ -108,7 +108,7 @@ length 12
 ====================
 Bon Festival
 ====================
-Bon Festival
+盂兰盆节
 ====================
 
 ====================
@@ -119,7 +119,7 @@ length 382
 ====================
 The Bon Festival is an annual Buddhist holiday that takes place during a three day period around August 15th. During the festival, Japanese people visit their ancestors' graves as it is believed that the spirits of the ancestors visit their altars during those days. As part of the celebration, the bon odori (or bon dance) is performed in neighborhood festivals during the holiday.
 ====================
-The Bon Festival is an annual Buddhist holiday that takes place during a three day period around August 15th. During the festival, Japanese people visit their ancestors' graves as it is believed that the spirits of the ancestors visit their altars during those days. As part of the celebration, the bon odori (or bon dance) is performed in neighborhood festivals during the holiday.
+盂兰盆节是一个年度佛教节日，于每年8月15日前后举行为期三天的活动。节日期间，日本人会前往祖先的墓前祭扫，因为人们相信在这几天里，祖先的灵魂会回到家中祭坛前。作为庆祝活动的一部分，节日期间还会在社区举办的庙会中表演盂兰盆舞。
 ====================
 
 ====================
@@ -130,7 +130,7 @@ length 5
 ====================
 Dango
 ====================
-Dango
+团子
 ====================
 
 ====================
@@ -141,7 +141,7 @@ length 311
 ====================
 Dango is a kind of Japanese dumpling made with glutinous rice flour. It is typically sweet and can be flavored or coated with pastes, though savory variants exist as well. Dango is commonly served on a skewer as a snack and consumed with green tea. You might have heard about it before in anime such as Clannad.
 ====================
-Dango is a kind of Japanese dumpling made with glutinous rice flour. It is typically sweet and can be flavored or coated with pastes, though savory variants exist as well. Dango is commonly served on a skewer as a snack and consumed with green tea. You might have heard about it before in anime such as Clannad.
+团子是一种用糯米粉制成的日本点心。它通常是甜味的，可以加入调味料或裹上各种酱料，不过也有咸味版本。团子常串在竹签上作为零食食用，并搭配绿茶一起享用。你可能之前在《CLANNAD》等动画中听说过它。
 ====================
 
 ====================
@@ -152,7 +152,7 @@ length 8
 ====================
 Doraemon
 ====================
-Doraemon
+哆啦A梦
 ====================
 
 ====================
@@ -163,7 +163,7 @@ length 217
 ====================
 Doraemon is the titular character in the manga/anime series Doraemon. In the series, the protagonist Nobita regularly asks Doraemon, who is a cat robot from the future, to use futuristic gadgets to solve his problems.
 ====================
-Doraemon is the titular character in the manga/anime series Doraemon. In the series, the protagonist Nobita regularly asks Doraemon, who is a cat robot from the future, to use futuristic gadgets to solve his problems.
+哆啦A梦是漫画/动画《哆啦A梦》中的同名主角。在故事中，主人公大雄经常请求哆啦A梦（一只来自未来的猫型机器人）使用未来道具来帮他解决麻烦。
 ====================
 
 ====================
@@ -174,7 +174,7 @@ length 6
 ====================
 Dorami
 ====================
-Dorami
+哆啦美
 ====================
 
 ====================
@@ -185,7 +185,7 @@ length 129
 ====================
 Dorami is the sister of Doraemon in the manga/anime series Doraemon. She occasionally appears in the series as a minor character.
 ====================
-Dorami is the sister of Doraemon in the manga/anime series Doraemon. She occasionally appears in the series as a minor character.
+哆啦美是漫画/动画《哆啦A梦》中哆啦A梦的妹妹。她偶尔会作为配角在该系列中登场。
 ====================
 
 ====================
@@ -196,7 +196,7 @@ length 14
 ====================
 Flower viewing
 ====================
-Flower viewing
+赏花
 ====================
 
 ====================
@@ -207,7 +207,7 @@ length 321
 ====================
 During the blooming season of sakura (or cherry blossoms) in Japan, it is customary for friends and family to gather and enjoy the sight of the blooming sakura in outdoor gatherings. Common activities during flower viewing gatherings include picnicking, karaoke singing, and the wanton consumption of alcoholic beverages.
 ====================
-During the blooming season of sakura (or cherry blossoms) in Japan, it is customary for friends and family to gather and enjoy the sight of the blooming sakura in outdoor gatherings. Common activities during flower viewing gatherings include picnicking, karaoke singing, and the wanton consumption of alcoholic beverages.
+在日本的樱花盛开时节，亲朋好友们按惯例会聚在一起，在户外聚会中欣赏盛开的樱花。赏花聚会的常见活动包括野餐、唱卡拉OK，以及开怀畅饮酒精饮料。
 ====================
 
 ====================
@@ -218,7 +218,7 @@ length 8
 ====================
 Fundoshi
 ====================
-Fundoshi
+兜裆布
 ====================
 
 ====================
@@ -229,7 +229,7 @@ length 181
 ====================
 A type of traditional Japanese loincloth for males that commonly consists of a strip of cotton cloth. They are most frequently worn by men at hadaka matsuri, or \"naked festivals\".
 ====================
-A type of traditional Japanese loincloth for males that commonly consists of a strip of cotton cloth. They are most frequently worn by men at hadaka matsuri, or \"naked festivals\".
+一种传统的日式男士缠腰布，通常由一条棉布组成。男性最常见于裸祭中穿着它，裸祭即所谓“不穿衣服的祭典”。
 ====================
 
 ====================
@@ -240,7 +240,7 @@ length 5
 ====================
 Futon
 ====================
-Futon
+地板床
 ====================
 
 ====================
@@ -251,7 +251,7 @@ length 254
 ====================
 Futon is a type of Japanese bedding that is traditionally laid on the floor. It comprises a mattress that's laid down on the floor and a blanket. It is lightweight and generally made of cotton or wool, and it can be folded and stored away during the day.
 ====================
-Futon is a type of Japanese bedding that is traditionally laid on the floor. It comprises a mattress that's laid down on the floor and a blanket. It is lightweight and generally made of cotton or wool, and it can be folded and stored away during the day.
+地板床是一种传统的日本床上用品，通常直接铺在地板上使用。它由铺在地上的床垫和一条被子组成。它很轻便，通常由棉或羊毛制成，白天可以折叠收纳起来。
 ====================
 
 ====================
@@ -262,7 +262,7 @@ length 5
 ====================
 Gampi
 ====================
-Gampi
+雁皮
 ====================
 
 ====================
@@ -273,7 +273,7 @@ length 189
 ====================
 A group of shrubs that can be found in Asia. In Japan, gampi has been used in paper production since the 8th century to produce a high quality Japanese-style paper otherwise known as washi.
 ====================
-A group of shrubs that can be found in Asia. In Japan, gampi has been used in paper production since the 8th century to produce a high quality Japanese-style paper otherwise known as washi.
+一种分布于亚洲的灌木。在日本，自8世纪起，雁皮就被用于造纸，用以生产高品质的日式纸张，即所谓的和纸。
 ====================
 
 ====================
@@ -284,7 +284,7 @@ length 14
 ====================
 Honorifics (1)
 ====================
-Honorifics (1)
+敬称（一）
 ====================
 
 ====================
@@ -295,7 +295,7 @@ length 203
 ====================
 Japanese people use honorific suffixes when addressing or refering to one another. The specific honorific used depends on the speaker's relationship with the person he or she is referring to.#D#D(cont'd)
 ====================
-Japanese people use honorific suffixes when addressing or refering to one another. The specific honorific used depends on the speaker's relationship with the person he or she is referring to.#D#D(cont'd)
+日本人在称呼彼此时会使用敬称后缀。具体使用何种敬称，取决于说话者与其所称呼对象之间的关系。#D#D（待续）
 ====================
 
 ====================
@@ -306,7 +306,7 @@ length 14
 ====================
 Honorifics (2)
 ====================
-Honorifics (2)
+敬称（二）
 ====================
 
 ====================
@@ -317,7 +317,7 @@ length 583
 ====================
 Commonly used honorifics include: \"-san\", which is gender neutral and used between equals; \"-chan\", commonly used to refer to younger females or children; \"-kun\", used to refer to men of equal or lesser age; \"-sama\", used to respectfully address those of higher importance or station; \"-senpai\", used to refer to senior colleagues in school or workplace; and \"-sensei\" for teachers and doctors. Similarly, honorifics can be used to address family members. Examples include \"Onii-chan\" and \"Onee-chan\", which respectively refers to one's older brother or older sister.
 ====================
-Commonly used honorifics include: \"-san\", which is gender neutral and used between equals; \"-chan\", commonly used to refer to younger females or children; \"-kun\", used to refer to men of equal or lesser age; \"-sama\", used to respectfully address those of higher importance or station; \"-senpai\", used to refer to senior colleagues in school or workplace; and \"-sensei\" for teachers and doctors. Similarly, honorifics can be used to address family members. Examples include \"Onii-chan\" and \"Onee-chan\", which respectively refers to one's older brother or older sister.
+常见的敬称有：#D-san（桑），不分性别，用于平辈之间；#D-chan（酱），常用于称呼年幼的女性或小孩；#D-kun（君），用于称呼年龄相同或更小的男性；#D-sama（大人），用于恭敬称呼地位更高或身份更尊贵者；#D-senpai（前辈），用于称呼学校或职场中的前辈；#D-sensei（老师/医生），用于称呼老师或医生。#D#D同样，敬称也可用来称呼家人，例如“Onii-chan”和#D“Onee-chan”，分别指某人的哥哥或姐姐。
 ====================
 
 ====================
@@ -328,7 +328,7 @@ length 15
 ====================
 Kazuhiro Sasaki
 ====================
-Kazuhiro Sasaki
+佐佐木主浩
 ====================
 
 ====================
@@ -339,7 +339,7 @@ length 169
 ====================
 A famous former professional baseball player both in Japan and America. Played for Yokohama from 1990-1999 and 2004-2005. Played for the Seattle Mariners from 2000-2003.
 ====================
-A famous former professional baseball player both in Japan and America. Played for Yokohama from 1990-1999 and 2004-2005. Played for the Seattle Mariners from 2000-2003.
+一位在日本和美国都很有名的前职业棒球选手。1990年至1999年以及2004年至2005年效力于横滨队，2000年至2003年效力于西雅图水手队。
 ====================
 
 ====================
@@ -350,7 +350,7 @@ length 7
 ====================
 Kendama
 ====================
-Kendama
+剑玉
 ====================
 
 ====================
@@ -361,7 +361,7 @@ length 287
 ====================
 Kendama is a Japanese toy made up of a wooden ball connected to a base with a string. The base has three cups and a spike which are used to catch the ball. There are well over a hundred kendama juggling tricks, and the game and rankings are regulated by the Japanese Kendama Association.
 ====================
-Kendama is a Japanese toy made up of a wooden ball connected to a base with a string. The base has three cups and a spike which are used to catch the ball. There are well over a hundred kendama juggling tricks, and the game and rankings are regulated by the Japanese Kendama Association.
+剑玉是一种日本玩具，由一个木球和用绳子与之相连的底座组成。底座上有三个碗托和一根尖柱，用来接住木球。剑玉的花式玩法多达上百种，其规则与段位评级由日本剑玉协会监管。
 ====================
 
 ====================
@@ -372,7 +372,7 @@ length 5
 ====================
 Kendo
 ====================
-Kendo
+剑道
 ====================
 
 ====================
@@ -383,7 +383,7 @@ length 367
 ====================
 Kendo, literally the \"way of the sword\", is a Japanese martial art using bamboo swords. In kendo matches, two swordsmen duel one another in protective armor. Points are awarded for accurately striking targets on the opponent and assuming the correct posture as judged by three referees. The first contestant to earn two points in a three point match wins the match.
 ====================
-Kendo, literally the \"way of the sword\", is a Japanese martial art using bamboo swords. In kendo matches, two swordsmen duel one another in protective armor. Points are awarded for accurately striking targets on the opponent and assuming the correct posture as judged by three referees. The first contestant to earn two points in a three point match wins the match.
+剑道，字面意为“剑之道”，是一种使用竹刀的日本武术。在剑道比赛中，两名剑士身着护具互相较量。在三位裁判的判定下，准确击中对手的有效部位并保持正确姿势即可得分。在三本制比赛中，率先取得两分的一方获胜。
 ====================
 
 ====================
@@ -394,7 +394,7 @@ length 6
 ====================
 Kyushu
 ====================
-Kyushu
+九州
 ====================
 
 ====================
@@ -405,7 +405,7 @@ length 192
 ====================
 The southernmost of the four main islands of Japan. It is home to major cities such as Fukuoka and Nagasaki and the volcano Mt. Aso. The island fended off Mongolian invasions in 1274 and 1281.
 ====================
-The southernmost of the four main islands of Japan. It is home to major cities such as Fukuoka and Nagasaki and the volcano Mt. Aso. The island fended off Mongolian invasions in 1274 and 1281.
+日本四大主岛中最南端的一个。福冈、长崎等主要城市以及阿苏火山都在此岛上。该岛曾在1274年和1281年两次击退了蒙古人的入侵。
 ====================
 
 ====================
@@ -416,7 +416,7 @@ length 12
 ====================
 Niigata City
 ====================
-Niigata City
+新潟市
 ====================
 
 ====================
@@ -427,7 +427,7 @@ length 84
 ====================
 The capital of Niigata prefecture. It is the largest city on the Sea of Japan coast.
 ====================
-The capital of Niigata prefecture. It is the largest city on the Sea of Japan coast.
+新潟县的首府，也是日本海沿岸最大的城市。
 ====================
 
 ====================
@@ -438,7 +438,7 @@ length 12
 ====================
 Osaka Castle
 ====================
-Osaka Castle
+大阪城
 ====================
 
 ====================
@@ -449,7 +449,7 @@ length 334
 ====================
 A historic Japanese castle located in Osaka first commissioned by Toyotomi Hideyoshi in 1583. The castle was greatly expanded in 1620 after it fell to the Tokugawa clan, and in 1662, the main tower was struck by lightning and razed in fire. The current Osaka Castle was reconstructed in 1930, and is the third iteration of the castle.
 ====================
-A historic Japanese castle located in Osaka first commissioned by Toyotomi Hideyoshi in 1583. The castle was greatly expanded in 1620 after it fell to the Tokugawa clan, and in 1662, the main tower was struck by lightning and razed in fire. The current Osaka Castle was reconstructed in 1930, and is the third iteration of the castle.
+一座位于大阪的日本历史名城，最初由丰臣秀吉于1583年下令兴建。1620年落入德川家手中后，该城得到大规模扩建；1662年，天守阁遭雷击引发大火而被夷为平地。现在的大阪城于1930年重建，是这座城堡的第三代建筑。
 ====================
 
 ====================
@@ -460,7 +460,7 @@ length 6
 ====================
 Papico
 ====================
-Papico
+帕皮可（Papico）
 ====================
 
 ====================
@@ -471,7 +471,7 @@ length 176
 ====================
 Papico is a brand of ice cream and freeze pop that is sold in soft plastic bottles. As they are generally sold in sets of two, they can be snapped apart and shared with others.
 ====================
-Papico is a brand of ice cream and freeze pop that is sold in soft plastic bottles. As they are generally sold in sets of two, they can be snapped apart and shared with others.
+帕皮可是一款装在软塑料瓶内出售的冰淇淋及冷冻冰品品牌。其产品通常成对出售，可以掰开后与他人分享。
 ====================
 
 ====================
@@ -482,7 +482,7 @@ length 19
 ====================
 Photo sticker booth
 ====================
-Photo sticker booth
+大头贴机
 ====================
 
 ====================
@@ -493,7 +493,7 @@ length 462
 ====================
 Photo sticker booths (or purikura as they are frequently called in Japanese) are photo booths that are frequently found in Japanese game arcades. Unlike photo booths designed for taking passport photos, these booths' primary purpose is entertainment, and users may customize their pictures with tools and artwork prior to printing them. They are popular among school-aged girls, but their popularity has been dwindling in recent years due to the rise of selfies.
 ====================
-Photo sticker booths (or purikura as they are frequently called in Japanese) are photo booths that are frequently found in Japanese game arcades. Unlike photo booths designed for taking passport photos, these booths' primary purpose is entertainment, and users may customize their pictures with tools and artwork prior to printing them. They are popular among school-aged girls, but their popularity has been dwindling in recent years due to the rise of selfies.
+大头贴机是经常出现在日本街机厅里的自助照相亭。与专用于拍摄证件照的照相亭不同，这类机器的首要用途是娱乐，使用者可以在打印前用各种工具和图案装饰自己的照片。它在学龄女生中很受欢迎，但近年来由于自拍的兴起，其人气一直在下滑。
 ====================
 
 ====================
@@ -504,7 +504,7 @@ length 12
 ====================
 Rainy season
 ====================
-Rainy season
+梅雨季
 ====================
 
 ====================
@@ -515,7 +515,7 @@ length 312
 ====================
 The rainy season in Japan typically lasts from June to July for mainland Japan and May to June for Okinawa. During this period, Japan typically experiences heavy rainfall and high humidity. The rainy season is called Tsuyu, literally \"plum rain\", in Japanese because it coincides with when plums are in season.
 ====================
-The rainy season in Japan typically lasts from June to July for mainland Japan and May to June for Okinawa. During this period, Japan typically experiences heavy rainfall and high humidity. The rainy season is called Tsuyu, literally \"plum rain\", in Japanese because it coincides with when plums are in season.
+日本的梅雨季在本州等地区通常从6月持续到7月，在冲绳则从5月持续到6月。在此期间，日本通常降雨量大、湿度高。这一季节在日语中被称为“Tsuyu”，字面意为“梅子雨”，因为其时间恰好与梅子成熟的时节重合。
 ====================
 
 ====================
@@ -526,7 +526,7 @@ length 6
 ====================
 Sakura
 ====================
-樱花（Sakura）
+樱花
 ====================
 
 ====================
@@ -537,7 +537,7 @@ length 418
 ====================
 Sakura is the Japanese name for cherry blossom, the flower of cherry trees. It is a significant cultural icon in Japan, and it typically blooms at the end of March or early April. Because of the timing of its blooming season, it carries the symbolism of spring and hope. It is also associated with graduation and new beginnings as it also coincides with the Japanese graduation season, which typically occurs in March.
 ====================
-樱花的日文名称是Sakura，即樱桃树所开的花朵。它是日本重要的文化象征，通常在三月末或四月初绽放。由于其开花季节的时令特点，它承载着春天和希望的象征意义。同时，由于它恰逢日本通常在三月举行的毕业季，因此也与毕业和新起点联系在一起。
+樱花，即樱桃树所开的花朵。它是日本重要的文化象征，通常在三月末或四月初绽放。由于其开花季节的时令特点，它承载着春天和希望的象征意义。同时，由于它恰逢日本通常在三月举行的毕业季，因此也与毕业和新起点联系在一起。
 ====================
 
 ====================
@@ -548,7 +548,7 @@ length 7
 ====================
 Shikoku
 ====================
-Shikoku
+四国
 ====================
 
 ====================
@@ -559,7 +559,7 @@ length 433
 ====================
 One of the four major islands of Japan. Its name means \"four countries\" in reference to its four prefectures. Although American air raids damaged the region during the Second World War, its cultural sites have survived, and it is the home to four ancient castles. The famous 88 Buddhist temple pilgrimage also takes place entirely on this island. There are no major cities or bullet trains on the island, so it is rarely spoken of.
 ====================
-One of the four major islands of Japan. Its name means \"four countries\" in reference to its four prefectures. Although American air raids damaged the region during the Second World War, its cultural sites have survived, and it is the home to four ancient castles. The famous 88 Buddhist temple pilgrimage also takes place entirely on this island. There are no major cities or bullet trains on the island, so it is rarely spoken of.
+日本四大主岛之一。它的名字意为“四个国家”，指的是岛上的四个县。虽然第二次世界大战期间美国的空袭曾对当地造成破坏，但文化遗址得以留存，岛上还保留着四座古城堡。著名的“四国八十八所”寺庙朝圣之旅也完全在这座岛上进行。由于岛上既没有大城市，也没有新干线，所以很少被人提及。
 ====================
 
 ====================
@@ -570,7 +570,7 @@ length 6
 ====================
 Tatami
 ====================
-Tatami
+榻榻米
 ====================
 
 ====================
@@ -581,7 +581,7 @@ length 308
 ====================
 Tatami is a kind of rice straw mat that is typically used as flooring in traditional Japanese houses and rooms. Dimensions can vary, but each mat typically measures 0.91m by 1.82m. In Japan, rooms and apartments are typically measured by the number of tatami mats; a typical studio apartment is six mats big.
 ====================
-Tatami is a kind of rice straw mat that is typically used as flooring in traditional Japanese houses and rooms. Dimensions can vary, but each mat typically measures 0.91m by 1.82m. In Japan, rooms and apartments are typically measured by the number of tatami mats; a typical studio apartment is six mats big.
+榻榻米是一种用稻草编织的席子，通常用作传统日式房屋和房间的地面。尺寸虽各不相同，但每张榻榻米通常为0.91米×1.82米。在日本，房间和公寓通常按榻榻米的张数来计量，一间典型的单间公寓为六张榻榻米大小。
 ====================
 
 ====================
@@ -592,7 +592,7 @@ length 4
 ====================
 Toto
 ====================
-Toto
+TOTO
 ====================
 
 ====================
@@ -603,7 +603,7 @@ length 196
 ====================
 A toilet manufacturer known for their line of toilets with amenities such as heated toilet seats, bidets, and air dryers for your rear. Check next time you're at a urinal. It too may be Toto-made.
 ====================
-A toilet manufacturer known for their line of toilets with amenities such as heated toilet seats, bidets, and air dryers for your rear. Check next time you're at a urinal. It too may be Toto-made.
+一家以生产配备加热马桶座圈、冲洗器和臀部烘干等功能的马桶系列而闻名的卫浴制造商。下次在便池前不妨留意一下，它可能也是TOTO出品的。
 ====================
 
 ====================
@@ -614,7 +614,7 @@ length 8
 ====================
 Tsundere
 ====================
-傲娇（Tsundere）
+傲娇
 ====================
 
 ====================
@@ -636,7 +636,7 @@ length 8
 ====================
 Yokohama
 ====================
-Yokohama
+横滨
 ====================
 
 ====================
@@ -647,27 +647,16 @@ length 189
 ====================
 The capital of Kanagawa prefecture. It is the second most populated city in Japan behind Tokyo. Considered part of the Greater Tokyo Area. Their baseball team is the Yokohama DeNA BayStars.
 ====================
-The capital of Kanagawa prefecture. It is the second most populated city in Japan behind Tokyo. Considered part of the Greater Tokyo Area. Their baseball team is the Yokohama DeNA BayStars.
+神奈川县的首府，是仅次于东京的日本第二大城市。它被视为东京都市圈的一部分。当地的棒球队是横滨DeNA湾星队（Yokohama DeNA BayStars）。
 ====================
 
 ====================
 index 61
-offset 10509
-name NULL
-length 11
-====================
-!UNDEFINED!
-====================
-!UNDEFINED!
-====================
-
-====================
-index 62
 offset 10545
 name NULL
 length 25
 ====================
 This term does not exist.
 ====================
-This term does not exist.
+该词条不存在。
 ====================

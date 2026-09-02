@@ -33,7 +33,7 @@
 
 下阶段里程碑：7月2日（seen0702）之前的所有文本 + 名字列表 + Tomopedia文本（seen9837）
 
-- [x] name（进行中）
+- [x] name
 - [ ] seen0001
 - [x] seen0628（进行中）
 - [ ] seen0629
@@ -106,7 +106,7 @@
 - [ ] seen5007
 - [ ] seen5008
 - [ ] seen5010
-- [ ] seen7010
+- [x] seen7010
 - [ ] seen7140
 - [ ] seen7150
 - [ ] seen7160
@@ -128,5 +128,5 @@
 - [x] seen9034
 - [x] seen9035
 - [x] seen9042
-- [x] seen9837（进行中）
+- [x] seen9837
 - [ ] seen9900
