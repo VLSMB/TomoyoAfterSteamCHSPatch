@@ -5,8 +5,9 @@
 
 #define SEEN_DATA_NUM 10000
 #define PROCESS_NAME "RealLiveEn.exe"
-#define WINDOW_TITLE "Tomoyo After Steam°æºº»¯²¹¶¡ v0.0.2-dev"
+#define WINDOW_TITLE "ÖÇ´úºó¼Ç£¨Steam°æ£©ºº»¯²¹¶¡ v0.0.2-dev"
 #define MESSAGEBOX_TITLE "VLSMB"
+#define ASM_FUNCTION __declspec(naked)
 
 #ifdef __cplusplus
 extern "C" {

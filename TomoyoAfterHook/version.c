@@ -1,270 +1,160 @@
-/*
-	created by AheadLib
-	github:https://github.com/strivexjun/AheadLib-x86-x64
-*/
-
 #include <windows.h>
-#include <Shlwapi.h>
 #include "hook.h"
 
-#pragma comment( lib, "Shlwapi.lib")
+#pragma comment(linker, "/EXPORT:GetFileVersionInfoA=_pGetFileVersionInfoA,@1")
+#pragma comment(linker, "/EXPORT:GetFileVersionInfoByHandle=_pGetFileVersionInfoByHandle,@2")
+#pragma comment(linker, "/EXPORT:GetFileVersionInfoExA=_pGetFileVersionInfoExA,@3")
+#pragma comment(linker, "/EXPORT:GetFileVersionInfoExW=_pGetFileVersionInfoExW,@4")
+#pragma comment(linker, "/EXPORT:GetFileVersionInfoSizeA=_pGetFileVersionInfoSizeA,@5")
+#pragma comment(linker, "/EXPORT:GetFileVersionInfoSizeExA=_pGetFileVersionInfoSizeExA,@6")
+#pragma comment(linker, "/EXPORT:GetFileVersionInfoSizeExW=_pGetFileVersionInfoSizeExW,@7")
+#pragma comment(linker, "/EXPORT:GetFileVersionInfoSizeW=_pGetFileVersionInfoSizeW,@8")
+#pragma comment(linker, "/EXPORT:GetFileVersionInfoW=_pGetFileVersionInfoW,@9")
+#pragma comment(linker, "/EXPORT:VerFindFileA=_pVerFindFileA,@10")
+#pragma comment(linker, "/EXPORT:VerFindFileW=_pVerFindFileW,@11")
+#pragma comment(linker, "/EXPORT:VerInstallFileA=_pVerInstallFileA,@12")
+#pragma comment(linker, "/EXPORT:VerInstallFileW=_pVerInstallFileW,@13")
+#pragma comment(linker, "/EXPORT:VerLanguageNameA=_pVerLanguageNameA,@14")
+#pragma comment(linker, "/EXPORT:VerLanguageNameW=_pVerLanguageNameW,@15")
+#pragma comment(linker, "/EXPORT:VerQueryValueA=_pVerQueryValueA,@16")
+#pragma comment(linker, "/EXPORT:VerQueryValueW=_pVerQueryValueW,@17")
 
-#pragma comment(linker, "/EXPORT:GetFileVersionInfoA=_AheadLib_GetFileVersionInfoA,@1")
-#pragma comment(linker, "/EXPORT:GetFileVersionInfoByHandle=_AheadLib_GetFileVersionInfoByHandle,@2")
-#pragma comment(linker, "/EXPORT:GetFileVersionInfoExA=_AheadLib_GetFileVersionInfoExA,@3")
-#pragma comment(linker, "/EXPORT:GetFileVersionInfoExW=_AheadLib_GetFileVersionInfoExW,@4")
-#pragma comment(linker, "/EXPORT:GetFileVersionInfoSizeA=_AheadLib_GetFileVersionInfoSizeA,@5")
-#pragma comment(linker, "/EXPORT:GetFileVersionInfoSizeExA=_AheadLib_GetFileVersionInfoSizeExA,@6")
-#pragma comment(linker, "/EXPORT:GetFileVersionInfoSizeExW=_AheadLib_GetFileVersionInfoSizeExW,@7")
-#pragma comment(linker, "/EXPORT:GetFileVersionInfoSizeW=_AheadLib_GetFileVersionInfoSizeW,@8")
-#pragma comment(linker, "/EXPORT:GetFileVersionInfoW=_AheadLib_GetFileVersionInfoW,@9")
-#pragma comment(linker, "/EXPORT:VerFindFileA=_AheadLib_VerFindFileA,@10")
-#pragma comment(linker, "/EXPORT:VerFindFileW=_AheadLib_VerFindFileW,@11")
-#pragma comment(linker, "/EXPORT:VerInstallFileA=_AheadLib_VerInstallFileA,@12")
-#pragma comment(linker, "/EXPORT:VerInstallFileW=_AheadLib_VerInstallFileW,@13")
-#pragma comment(linker, "/EXPORT:VerLanguageNameA=_AheadLib_VerLanguageNameA,@14")
-#pragma comment(linker, "/EXPORT:VerLanguageNameW=_AheadLib_VerLanguageNameW,@15")
-#pragma comment(linker, "/EXPORT:VerQueryValueA=_AheadLib_VerQueryValueA,@16")
-#pragma comment(linker, "/EXPORT:VerQueryValueW=_AheadLib_VerQueryValueW,@17")
+void pGetFileVersionInfoA();
+void pGetFileVersionInfoByHandle();
+void pGetFileVersionInfoExA();
+void pGetFileVersionInfoExW();
+void pGetFileVersionInfoSizeA();
+void pGetFileVersionInfoSizeExA();
+void pGetFileVersionInfoSizeExW();
+void pGetFileVersionInfoSizeW();
+void pGetFileVersionInfoW();
+void pVerFindFileA();
+void pVerFindFileW();
+void pVerInstallFileA();
+void pVerInstallFileW();
+void pVerLanguageNameA();
+void pVerLanguageNameW();
+void pVerQueryValueA();
+void pVerQueryValueW();
 
+#define VERSION_FUNC_COUNT 17
+const char* const version_func_name[VERSION_FUNC_COUNT] = {
+	"GetFileVersionInfoA", "GetFileVersionInfoByHandle", "GetFileVersionInfoExA", "GetFileVersionInfoExW",
+	"GetFileVersionInfoSizeA", "GetFileVersionInfoSizeExA", "GetFileVersionInfoSizeExW", "GetFileVersionInfoSizeW",
+	"GetFileVersionInfoW", "VerFindFileA", "VerFindFileW", "VerInstallFileA", "VerInstallFileW",
+	"VerLanguageNameA", "VerLanguageNameW", "VerQueryValueA", "VerQueryValueW"
+};
+DWORD version_func_addr[VERSION_FUNC_COUNT] = { 0 };
+static HMODULE version_module = NULL;
 
-PVOID pfnAheadLib_GetFileVersionInfoA;
-PVOID pfnAheadLib_GetFileVersionInfoByHandle;
-PVOID pfnAheadLib_GetFileVersionInfoExA;
-PVOID pfnAheadLib_GetFileVersionInfoExW;
-PVOID pfnAheadLib_GetFileVersionInfoSizeA;
-PVOID pfnAheadLib_GetFileVersionInfoSizeExA;
-PVOID pfnAheadLib_GetFileVersionInfoSizeExW;
-PVOID pfnAheadLib_GetFileVersionInfoSizeW;
-PVOID pfnAheadLib_GetFileVersionInfoW;
-PVOID pfnAheadLib_VerFindFileA;
-PVOID pfnAheadLib_VerFindFileW;
-PVOID pfnAheadLib_VerInstallFileA;
-PVOID pfnAheadLib_VerInstallFileW;
-PVOID pfnAheadLib_VerLanguageNameA;
-PVOID pfnAheadLib_VerLanguageNameW;
-PVOID pfnAheadLib_VerQueryValueA;
-PVOID pfnAheadLib_VerQueryValueW;
+static BOOL initDllProxy(HMODULE hModule);
+static void freeDllProxy();
 
-
-static
-HMODULE g_OldModule = NULL;
-
-VOID WINAPI Free()
-{
-	if (g_OldModule)
-	{
-		FreeLibrary(g_OldModule);
+BOOL APIENTRY DllMain(HMODULE hModule, DWORD dwReason, PVOID pvReserved) {
+	char szCurName[MAX_PATH];
+	GetModuleFileNameA(NULL, szCurName, MAX_PATH);
+	size_t len = strlen(szCurName);
+	size_t offset = strlen(PROCESS_NAME);
+	if (len >= offset && _stricmp(szCurName + len - offset, PROCESS_NAME)) {
+		return TRUE;
 	}
-}
-
-
-BOOL WINAPI Load()
-{
-	TCHAR tzPath[MAX_PATH];
-	TCHAR tzTemp[MAX_PATH * 2];
-
-	//
-	// 这里是否从系统目录或当前目录加载原始DLL
-	//
-	//GetModuleFileName(NULL,tzPath,MAX_PATH); //获取本目录下的
-	//PathRemoveFileSpec(tzPath);
-
-	GetSystemDirectory(tzPath, MAX_PATH); //默认获取系统目录的
-
-	lstrcat(tzPath, TEXT("\\version.dll"));
-
-	g_OldModule = LoadLibrary(tzPath);
-	if (g_OldModule == NULL)
-	{
-		wsprintf(tzTemp, TEXT("无法找到模块 %s,程序无法正常运行"), tzPath);
-		MessageBox(NULL, tzTemp, TEXT("AheadLib"), MB_ICONSTOP);
-	}
-
-	return (g_OldModule != NULL);
-
-}
-
-
-FARPROC WINAPI GetAddress(PCSTR pszProcName)
-{
-	FARPROC fpAddress;
-	CHAR szProcName[64];
-	TCHAR tzTemp[MAX_PATH];
-
-	fpAddress = GetProcAddress(g_OldModule, pszProcName);
-	if (fpAddress == NULL)
-	{
-		if (HIWORD(pszProcName) == 0)
-		{
-			wsprintf(szProcName, "#%d", pszProcName);
-			pszProcName = szProcName;
-		}
-
-		wsprintf(tzTemp, TEXT("无法找到函数 %hs,程序无法正常运行"), pszProcName);
-		MessageBox(NULL, tzTemp, TEXT("AheadLib"), MB_ICONSTOP);
-		ExitProcess(-2);
-	}
-	return fpAddress;
-}
-
-BOOL WINAPI Init()
-{
-	pfnAheadLib_GetFileVersionInfoA = GetAddress("GetFileVersionInfoA");
-	pfnAheadLib_GetFileVersionInfoByHandle = GetAddress("GetFileVersionInfoByHandle");
-	pfnAheadLib_GetFileVersionInfoExA = GetAddress("GetFileVersionInfoExA");
-	pfnAheadLib_GetFileVersionInfoExW = GetAddress("GetFileVersionInfoExW");
-	pfnAheadLib_GetFileVersionInfoSizeA = GetAddress("GetFileVersionInfoSizeA");
-	pfnAheadLib_GetFileVersionInfoSizeExA = GetAddress("GetFileVersionInfoSizeExA");
-	pfnAheadLib_GetFileVersionInfoSizeExW = GetAddress("GetFileVersionInfoSizeExW");
-	pfnAheadLib_GetFileVersionInfoSizeW = GetAddress("GetFileVersionInfoSizeW");
-	pfnAheadLib_GetFileVersionInfoW = GetAddress("GetFileVersionInfoW");
-	pfnAheadLib_VerFindFileA = GetAddress("VerFindFileA");
-	pfnAheadLib_VerFindFileW = GetAddress("VerFindFileW");
-	pfnAheadLib_VerInstallFileA = GetAddress("VerInstallFileA");
-	pfnAheadLib_VerInstallFileW = GetAddress("VerInstallFileW");
-	pfnAheadLib_VerLanguageNameA = GetAddress("VerLanguageNameA");
-	pfnAheadLib_VerLanguageNameW = GetAddress("VerLanguageNameW");
-	pfnAheadLib_VerQueryValueA = GetAddress("VerQueryValueA");
-	pfnAheadLib_VerQueryValueW = GetAddress("VerQueryValueW");
-	return TRUE;
-}	
-
-DWORD WINAPI ThreadProc(LPVOID lpThreadParameter)
-{
-	HANDLE hProcess;
-
-	PVOID addr1 = (PVOID)(0x00401000);
-	BYTE data1[] = { 0x90, 0x90, 0x90, 0x90 };
-
-	//
-	// 绕过VMP3.x 的内存保护
-	//
-	hProcess = OpenProcess(PROCESS_VM_OPERATION | PROCESS_VM_READ | PROCESS_VM_WRITE, FALSE, GetCurrentProcessId());
-	if (hProcess)
-	{
-		WriteProcessMemory(hProcess, addr1, data1, sizeof(data1), NULL);
-
-		CloseHandle(hProcess);
-	}
-
-	return 0;
-}
-
-
-BOOL APIENTRY DllMain(HMODULE hModule, DWORD dwReason, PVOID pvReserved)
-{
-	if (dwReason == DLL_PROCESS_ATTACH)
-	{
+	if (dwReason == DLL_PROCESS_ATTACH) {
 		DisableThreadLibraryCalls(hModule);
-
-		if (Load() && Init())
-		{
-			TCHAR szAppName[MAX_PATH] = TEXT(PROCESS_NAME);//请修改宿主进程名
-			TCHAR szCurName[MAX_PATH];
-
-			GetModuleFileName(NULL, szCurName, MAX_PATH);
-			PathStripPath(szCurName);
-
-			//是否判断宿主进程名
-			if (StrCmpI(szCurName, szAppName) == 0)
-			{
-				//启动补丁线程或者其他操作
-				HookInit(hModule);
-			}
-		}
+		return initDllProxy(hModule);
+	} else if (dwReason == DLL_PROCESS_DETACH) {
+		freeDllProxy();
 	}
-	else if (dwReason == DLL_PROCESS_DETACH)
-	{
-		HookDestroy();
-		Free();
-	}
-
 	return TRUE;
 }
 
-EXTERN_C __declspec(naked) void __cdecl AheadLib_GetFileVersionInfoA(void)
-{
-	__asm jmp pfnAheadLib_GetFileVersionInfoA;
+static BOOL initDllProxy(HMODULE hModule) {
+	char path[MAX_PATH];
+	const size_t len = sizeof(char) * MAX_PATH;
+	RtlZeroMemory(path, len);
+	GetSystemDirectoryA(path, len);
+	lstrcatA(path, "\\version.dll");
+	version_module = LoadLibraryA(path);
+	if (version_module != NULL) {
+		for (size_t i = 0; i < VERSION_FUNC_COUNT; i++) {
+			version_func_addr[i] = GetProcAddress(version_module, version_func_name[i]);
+		}
+	}
+
+	HookInit(hModule);
+	return TRUE;
 }
 
-EXTERN_C __declspec(naked) void __cdecl AheadLib_GetFileVersionInfoByHandle(void)
-{
-	__asm jmp pfnAheadLib_GetFileVersionInfoByHandle;
+static void freeDllProxy() {
+	HookDestroy();
+	if (version_module != NULL) {
+		FreeLibrary(version_module);
+	}
 }
 
-EXTERN_C __declspec(naked) void __cdecl AheadLib_GetFileVersionInfoExA(void)
-{
-	__asm jmp pfnAheadLib_GetFileVersionInfoExA;
+void ASM_FUNCTION pGetFileVersionInfoA() {
+	__asm jmp dword ptr [version_func_addr + 0 * 4];
 }
 
-EXTERN_C __declspec(naked) void __cdecl AheadLib_GetFileVersionInfoExW(void)
-{
-	__asm jmp pfnAheadLib_GetFileVersionInfoExW;
+void ASM_FUNCTION pGetFileVersionInfoByHandle() {
+	__asm jmp dword ptr[version_func_addr + 1 * 4];
 }
 
-EXTERN_C __declspec(naked) void __cdecl AheadLib_GetFileVersionInfoSizeA(void)
-{
-	__asm jmp pfnAheadLib_GetFileVersionInfoSizeA;
+void ASM_FUNCTION pGetFileVersionInfoExA() {
+	__asm jmp dword ptr[version_func_addr + 2 * 4];
 }
 
-EXTERN_C __declspec(naked) void __cdecl AheadLib_GetFileVersionInfoSizeExA(void)
-{
-	__asm jmp pfnAheadLib_GetFileVersionInfoSizeExA;
+void ASM_FUNCTION pGetFileVersionInfoExW() {
+	__asm jmp dword ptr[version_func_addr + 3 * 4];
 }
 
-EXTERN_C __declspec(naked) void __cdecl AheadLib_GetFileVersionInfoSizeExW(void)
-{
-	__asm jmp pfnAheadLib_GetFileVersionInfoSizeExW;
+void ASM_FUNCTION pGetFileVersionInfoSizeA() {
+	__asm jmp dword ptr[version_func_addr + 4 * 4];
 }
 
-EXTERN_C __declspec(naked) void __cdecl AheadLib_GetFileVersionInfoSizeW(void)
-{
-	__asm jmp pfnAheadLib_GetFileVersionInfoSizeW;
+void ASM_FUNCTION pGetFileVersionInfoSizeExA() {
+	__asm jmp dword ptr[version_func_addr + 5 * 4];
 }
 
-EXTERN_C __declspec(naked) void __cdecl AheadLib_GetFileVersionInfoW(void)
-{
-	__asm jmp pfnAheadLib_GetFileVersionInfoW;
+void ASM_FUNCTION pGetFileVersionInfoSizeExW() {
+	__asm jmp dword ptr[version_func_addr + 6 * 4];
 }
 
-EXTERN_C __declspec(naked) void __cdecl AheadLib_VerFindFileA(void)
-{
-	__asm jmp pfnAheadLib_VerFindFileA;
+void ASM_FUNCTION pGetFileVersionInfoSizeW() {
+	__asm jmp dword ptr[version_func_addr + 7 * 4];
 }
 
-EXTERN_C __declspec(naked) void __cdecl AheadLib_VerFindFileW(void)
-{
-	__asm jmp pfnAheadLib_VerFindFileW;
+void ASM_FUNCTION pGetFileVersionInfoW() {
+	__asm jmp dword ptr[version_func_addr + 8 * 4];
 }
 
-EXTERN_C __declspec(naked) void __cdecl AheadLib_VerInstallFileA(void)
-{
-	__asm jmp pfnAheadLib_VerInstallFileA;
+void ASM_FUNCTION pVerFindFileA() {
+	__asm jmp dword ptr[version_func_addr + 9 * 4];
 }
 
-EXTERN_C __declspec(naked) void __cdecl AheadLib_VerInstallFileW(void)
-{
-	__asm jmp pfnAheadLib_VerInstallFileW;
+void ASM_FUNCTION pVerFindFileW() {
+	__asm jmp dword ptr[version_func_addr + 10 * 4];
 }
 
-EXTERN_C __declspec(naked) void __cdecl AheadLib_VerLanguageNameA(void)
-{
-	__asm jmp pfnAheadLib_VerLanguageNameA;
+void ASM_FUNCTION pVerInstallFileA() {
+	__asm jmp dword ptr[version_func_addr + 11 * 4];
 }
 
-EXTERN_C __declspec(naked) void __cdecl AheadLib_VerLanguageNameW(void)
-{
-	__asm jmp pfnAheadLib_VerLanguageNameW;
+void ASM_FUNCTION pVerInstallFileW() {
+	__asm jmp dword ptr[version_func_addr + 12 * 4];
 }
 
-EXTERN_C __declspec(naked) void __cdecl AheadLib_VerQueryValueA(void)
-{
-	__asm jmp pfnAheadLib_VerQueryValueA;
+void ASM_FUNCTION pVerLanguageNameA() {
+	__asm jmp dword ptr[version_func_addr + 13 * 4];
 }
 
-EXTERN_C __declspec(naked) void __cdecl AheadLib_VerQueryValueW(void)
-{
-	__asm jmp pfnAheadLib_VerQueryValueW;
+void ASM_FUNCTION pVerLanguageNameW() {
+	__asm jmp dword ptr[version_func_addr + 14 * 4];
 }
 
+void ASM_FUNCTION pVerQueryValueA() {
+	__asm jmp dword ptr[version_func_addr + 15 * 4];
+}
+
+void ASM_FUNCTION pVerQueryValueW() {
+	__asm jmp dword ptr[version_func_addr + 16 * 4];
+}

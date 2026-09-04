@@ -1,7 +1,5 @@
 #include "asm.h"
 
-#define ASM_FUNCTION __declspec(naked)
-
 static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, unsigned num);
 static void WINAPI beforeConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4);
 static void WINAPI afterConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4);
