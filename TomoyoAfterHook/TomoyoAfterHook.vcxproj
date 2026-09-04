@@ -22,13 +22,18 @@
     <ClCompile Include="asm.c" />
     <ClCompile Include="data.cpp" />
     <ClCompile Include="hook.c" />
+    <ClCompile Include="patch.cpp" />
+    <ClCompile Include="utils.cpp" />
     <ClCompile Include="version.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="asm.h" />
     <ClInclude Include="data.h" />
     <ClInclude Include="hook.h" />
+    <ClInclude Include="patch.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="struct.h" />
+    <ClInclude Include="utils.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="resource.rc" />
