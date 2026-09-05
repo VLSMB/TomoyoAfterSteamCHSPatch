@@ -25,6 +25,7 @@
 ## 项目贡献者
 
 程序：VLSMB
+
 翻译：VLSMB 冈崎智代 DeepSeek-V4-Flash
 
 ## 翻译进度：
@@ -36,7 +37,7 @@
 - [x] name
 - [ ] seen0001
 - [x] seen0628（进行中）
-- [ ] seen0629
+- [x] seen0629（进行中）
 - [ ] seen0630
 - [ ] seen0701
 - [ ] seen0702
