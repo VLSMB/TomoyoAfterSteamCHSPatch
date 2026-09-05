@@ -9,6 +9,7 @@
 #define PROCESS_NAME "RealLiveEn.exe"
 #define WINDOW_TITLE "智代后记（Steam版）汉化补丁 v0.0.2-dev"
 #define ORIGIN_TITLE_NAME "tomoyo after -It's a Wonderful Life-  English Edition    "
+#define WINDOW_CLASS_NAME "VisualArts_System2000_REALLIVEEN"
 #define MESSAGEBOX_TITLE "VLSMB"
 #define PROCESS_FILE_SHA256 "cbfe30775595145b58af21edca73bc9ed25a54b135adb4702af1d26c1f9aa084"
 #define SEEN_DATA_FILE "patch\\SEEN%04d.txt"
@@ -43,6 +44,10 @@
 extern const DWORD SET_NOP_RVA[SET_NOP_ARRAY_SIZE];
 extern const size_t SET_NOP_COUNT[SET_NOP_ARRAY_SIZE];
 extern const BYTE WINAPI_PATCH_STUB[5];
+extern const char* SHA256_MISMATCH_WARNING;
+extern const char* ALPHA_VERSION_WARNING;
+
+extern BYTE* debug_flag_pointer;
 
 typedef enum PatchModeEnum {
     PATCH_RELEASE,

@@ -2,6 +2,7 @@
 #include "asm.h"
 #include "data.h"
 #include "define.h"
+#include "patch.h"
 #include <Windows.h>
 #include <stdio.h>
 #include <wincrypt.h>
@@ -9,7 +10,6 @@
 static ByteBuffer byte_buffer_array[SEEN_DATA_NUM] = { 0 };
 static BYTE dummy_ctx[64];
 static PatchMode patch_mode = PATCH_RELEASE;
-static BOOL hook_process_after_vm_init_flag = FALSE;
 
 static void initPatchMode();
 static char* calculateSHA256();
@@ -32,12 +32,7 @@ static void skipAsmCode(DWORD imageBase, DWORD rva, size_t codeLength);
 
 void HookInit(HMODULE hDll) {
 	initPatchMode();
-	MessageBoxA(NULL, 
-		WINDOW_TITLE
-		"\r\n本补丁不是完整的汉化补丁，仅用于补丁可行性验证。\r\n"
-		"汉化补丁完成进度可以关注：https://github.com/VLSMB/TomoyoAfterSteamCHSPatch\r\n"
-		"本补丁仅用于学习研究用途，禁止用于一切商业活动。"
-		, MESSAGEBOX_TITLE, MB_ICONWARNING);
+	MessageBoxA(NULL, ALPHA_VERSION_WARNING, MESSAGEBOX_TITLE, MB_ICONWARNING);
 	PatchPack pack;
 	RtlZeroMemory(&pack, sizeof(PatchPack));
 	switch (patch_mode) {
@@ -63,13 +58,9 @@ patch:
 	initPatchHook();
 }
 
-void PatchHookAfterOpenSeenFile() {
-	if (hook_process_after_vm_init_flag) {
-		return;
-	}
-	hook_process_after_vm_init_flag = TRUE;
+void PatchHookAfterVMInit() {
 	if (patch_mode != PATCH_RELEASE && patch_mode != PATCH_DEBUG) {
-		return;
+		goto __patch_hook_init_ret;
 	}
 
 	const DWORD imageBase = getImageBase();
@@ -79,10 +70,6 @@ void PatchHookAfterOpenSeenFile() {
 	callHookOp[5] = 0xC3;
 	updateAsmCode(hookAddress, callHookOp, 6);
 
-	writeHook(EnumFontFamiliesExA, HookEnumFontFamiliesExA);
-	writeHook(CreateFontA, HookCreateFontA);
-	writeHook(SetWindowTextA, HookSetWindowTextA);
-
 	for (size_t i = 0; i < SET_NOP_ARRAY_SIZE; i++) {
 		skipAsmCode(imageBase, SET_NOP_RVA[i], SET_NOP_COUNT[i]);
 	}
@@ -91,10 +78,11 @@ void PatchHookAfterOpenSeenFile() {
 	writeHook(imageBase + CONSUME_TEXT_IN_QUITE_MODE_CALLER_3_RVA, ProxyConsumeTextInQuoteMode);
 	writeHookWithNop(imageBase + HANDLE_INSTANT_TEXT_FUNC_RVA, HookHandleInstantText, 1);
 
-	if (patch_mode == PATCH_DEBUG) {
-		BYTE* debugFlag = (BYTE*)(imageBase + REALLIVE_DEBUG_MODE_FLAG_RVA);
-		*debugFlag = TRUE;
+__patch_hook_init_ret:
+	if (debug_flag_pointer != NULL) {
+		*debug_flag_pointer = TRUE;
 	}
+	updateAsmCode(CreateWindowExA, WINAPI_PATCH_STUB, 5);
 }
 
 void HookDestroy() {
@@ -104,11 +92,7 @@ void HookDestroy() {
 static void initPatchMode() {
 	BYTE* sha256 = calculateSHA256();
 	if (strcmp(sha256, PROCESS_FILE_SHA256)) {
-		int btn = MessageBoxA(NULL, 
-			"检测到当前程序与补丁版本不匹配，本补丁是为Steam版《Tomoyo After English Edition》准备的。\r\n"
-			"如果继续运行汉化补丁可能会出现未知错误，是否仍然要继续运行汉化补丁？\r\n"
-			"（选择“是”则继续启动汉化补丁，选择“否”则关闭补丁运行原版程序）",
-			MESSAGEBOX_TITLE, MB_YESNO | MB_ICONWARNING);
+		int btn = MessageBoxA(NULL, SHA256_MISMATCH_WARNING, MESSAGEBOX_TITLE, MB_YESNO | MB_ICONWARNING);
 		if (btn != IDYES) {
 			patch_mode = PATCH_NONE;
 			return;
@@ -201,14 +185,14 @@ static void initForDump() {
 }
 
 static void initPatchHook() {
-	HMODULE hModule = GetModuleHandleA("kernelbase.dll");
-	if (hModule == NULL) {
-		hModule = LoadLibraryA("kernelbase.dll");
+	writeHook(GetProcAddress(GetModuleHandleA("kernelbase.dll"), "CreateFileA"), HookCreateFileA);
+	writeHook(CreateWindowExA, HookCreateWindowExA);
+	writeHook(EnumFontFamiliesExA, HookEnumFontFamiliesExA);
+	writeHook(CreateFontA, HookCreateFontA);
+	writeHook(SetWindowTextA, HookSetWindowTextA);
+	if (patch_mode == PATCH_DEBUG) {
+		debug_flag_pointer = (BYTE*)(getImageBase() + REALLIVE_DEBUG_MODE_FLAG_RVA);
 	}
-	if (hModule == NULL) {
-		ExitProcess(1);
-	}
-	writeHook(GetProcAddress(hModule, "CreateFileA"), HookCreateFileA);
 }
 
 static void initForArchive() {

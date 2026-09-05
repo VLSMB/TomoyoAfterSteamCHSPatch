@@ -6,6 +6,6 @@
 void HookInit(HMODULE hDll);
 void HookDestroy();
 void RunDump();
-void PatchHookAfterOpenSeenFile();
+void PatchHookAfterVMInit();
 
 #endif

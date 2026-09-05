@@ -15,3 +15,15 @@ const size_t SET_NOP_COUNT[SET_NOP_ARRAY_SIZE] = {
 };
 
 const BYTE WINAPI_PATCH_STUB[5] = { 0x8B, 0xFF, 0x55, 0x8B, 0xEC };
+
+const char* SHA256_MISMATCH_WARNING = 
+"检测到当前程序与补丁版本不匹配，本补丁是为Steam版《Tomoyo After English Edition》准备的。\r\n"
+"如果继续运行汉化补丁可能会出现未知错误，是否仍然要继续运行汉化补丁？\r\n"
+"（选择“是”则继续启动汉化补丁，选择“否”则关闭补丁运行原版程序）";
+
+const char* ALPHA_VERSION_WARNING = WINDOW_TITLE
+"\r\n本补丁不是完整的汉化补丁，仅用于补丁可行性验证。\r\n"
+"汉化补丁完成进度可以关注：https://github.com/VLSMB/TomoyoAfterSteamCHSPatch\r\n"
+"本补丁仅用于学习研究用途，禁止用于一切商业活动。";
+
+BYTE* debug_flag_pointer = NULL;

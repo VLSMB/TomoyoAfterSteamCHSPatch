@@ -7,9 +7,9 @@
 static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, unsigned num);
 static void WINAPI beforeConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4);
 static void WINAPI afterConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4);
-static BOOL WINAPI checkFileIsSeen(const char* fileName);
 static const char* const WINAPI getTranslatedText(const char* const text);
 static void WINAPI hookWindowTitle(HWND hWnd, const char** title);
+static BOOL WINAPI isRealLiveWindow(const char* const lpClassName);
 
 void ASM_FUNCTION HookForDump() {
 	__asm {
@@ -86,10 +86,6 @@ hook_for_patch:
 	}
 }
 
-static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, unsigned num) {
-	UpdateSeenBuffer(ptr->decompressed_data, num);
-}
-
 void ASM_FUNCTION HookEnumFontFamiliesExA() {
 	__asm {
 		pop eax
@@ -97,6 +93,8 @@ void ASM_FUNCTION HookEnumFontFamiliesExA() {
 		mov ebx, [esp + 12]
 		mov byte ptr[ebx + 23], 134
 		pop ebx
+	}
+	__asm {
 		mov edi, edi
 		push ebp
 		mov ebp, esp
@@ -116,21 +114,13 @@ void ASM_FUNCTION HookCreateFontA() {
 }
 
 void ASM_FUNCTION HookCreateFileA() {
-	_asm {
-		mov eax, [esp + 8]
-		push eax
-		call checkFileIsSeen
-		test eax, eax
-		je __seen_file_ret
-	}
 	__asm {
-		pushfd
-		pushad
-		call PatchHookAfterOpenSeenFile
-		popad
-		popfd
+		mov eax, debug_flag_pointer
+		test eax, eax
+		je __hook_create_file_ret
+		mov byte ptr [eax], 1
 	}
-__seen_file_ret:
+__hook_create_file_ret:
 	__asm {
 		pop eax
 		mov edi, edi
@@ -157,7 +147,32 @@ void ASM_FUNCTION HookSetWindowTextA() {
 	}
 }
 
-HWND window_handle = NULL;
+void ASM_FUNCTION HookCreateWindowExA() {
+	__asm {
+		mov eax, [esp + 12]
+		push eax
+		call isRealLiveWindow
+		test eax, eax
+		je __create_window_hook_ret
+	}
+	__asm {
+		pushad
+		pushfd
+		call PatchHookAfterVMInit
+		popfd
+		popad
+	}
+__create_window_hook_ret:
+	__asm {
+		pop eax
+		mov edi, edi
+		push ebp
+		mov ebp, esp
+		jmp eax
+	}
+}
+
+static HWND window_handle = NULL;
 
 static void WINAPI hookWindowTitle(HWND hWnd, const char** title) {
 	if (window_handle == NULL) {
@@ -168,17 +183,6 @@ static void WINAPI hookWindowTitle(HWND hWnd, const char** title) {
 	if (window_handle == hWnd) {
 		*title = GetWindowTitleTranslatedText(*title);
 	}
-}
-
-static BOOL WINAPI checkFileIsSeen(const char* fileName) {
-	const int len = strlen("SEEN.TXT");
-	if (strlen(fileName) < len) {
-		return FALSE;
-	}
-	const char* p = fileName;
-	while (*(++p));
-	p -= len;
-	return lstrcmpiA("SEEN.TXT", p) == 0;
 }
 
 void ASM_FUNCTION ProxyConsumeTextInQuoteMode() {
@@ -256,6 +260,7 @@ __proxy_consume_text:
 		ret
 	}
 }
+
 static BYTE* origin_vm_ip = NULL;
 static CharacterInfo char_info = { 0 };
 
@@ -318,8 +323,16 @@ void ASM_FUNCTION HookHandleInstantText() {
 	}
 }
 
+static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, unsigned num) {
+	UpdateSeenBuffer(ptr->decompressed_data, num);
+}
+
 static const char* const WINAPI getTranslatedText(const char* const text) {
 	const char* name = GetTranslatedName(text);
 	if (name != text) return name;
 	return GetTranslatedText(text);
+}
+
+static BOOL WINAPI isRealLiveWindow(const char* const lpClassName) {
+	return strncmp(WINDOW_CLASS_NAME, lpClassName, strlen(WINDOW_CLASS_NAME)) == 0 ? TRUE : FALSE;
 }

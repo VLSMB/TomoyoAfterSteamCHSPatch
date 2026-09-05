@@ -7,6 +7,7 @@ void HookEnumFontFamiliesExA();
 void HookCreateFontA();
 void HookCreateFileA();
 void HookSetWindowTextA();
+void HookCreateWindowExA();
 
 void ProxyConsumeTextInQuoteMode();
 void HookHandleInstantText();
