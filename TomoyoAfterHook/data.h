@@ -1,7 +1,7 @@
 #ifndef __VLSMB_DATA_H
 #define __VLSMB_DATA_H
 
-#include "struct.h"
+#include "define.h"
 
 #ifdef __cplusplus
 extern "C" {

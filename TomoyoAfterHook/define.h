@@ -2,10 +2,10 @@
 #define __VLSMB_STRUCT_H
 
 #include <Windows.h>
+#include "resource.h"
 
 #define ASM_FUNCTION __declspec(naked)
 
-#define SEEN_DATA_NUM 10000
 #define PROCESS_NAME "RealLiveEn.exe"
 #define WINDOW_TITLE "智代后记（Steam版）汉化补丁 v0.0.2-dev"
 #define ORIGIN_TITLE_NAME "tomoyo after -It's a Wonderful Life-  English Edition    "
@@ -17,12 +17,14 @@
 #define SEEN_DATA_DIR "patch"
 #define PATCH_MODE_CONFIG_FILE "patch_mode.cfg"
 #define EMPTY_NAME "NULL"
+
+#define SEEN_DATA_NUM 10000
+#define SHOT_TEXT_SIZE 10
 #define BIN_MAGIC (DWORD)(0x54504C56)
 #define TEXT_BIN_MAGIC (DWORD)(0x4E454553)
 #define NAME_BIN_MAGIC (DWORD)(0x454D414E)
 #define PACK_BIN_MAGIC (DWORD)(0x4B434150)
 #define TEXT_META_MAGIC (BYTE)(0xF0)
-#define SHOT_TEXT_SIZE 10
 
 #define CALL_READ_SEEN_HEADER_RVA 0x526EF
 #define READ_SEEN_HEADER_FUNC_RVA 0x991B0
@@ -36,6 +38,11 @@
 #define CONSUME_TEXT_IN_QUITE_MODE_CALLER_3_RVA 0xE9793
 #define HANDLE_INSTANT_TEXT_FUNC_RVA 0xEBEC0
 #define REALLIVE_DEBUG_MODE_FLAG_RVA 0x302FC0
+
+#define SET_NOP_ARRAY_SIZE 32
+extern const DWORD SET_NOP_RVA[SET_NOP_ARRAY_SIZE];
+extern const size_t SET_NOP_COUNT[SET_NOP_ARRAY_SIZE];
+extern const BYTE WINAPI_PATCH_STUB[5];
 
 typedef enum PatchModeEnum {
     PATCH_RELEASE,

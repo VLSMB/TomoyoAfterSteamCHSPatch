@@ -1,8 +1,7 @@
 #ifndef __VLSMB_PATCH_H
 #define __VLSMB_PATCH_H
 
-#include "struct.h"
-#include "utils.h"
+#include "define.h"
 
 #ifdef __cplusplus
 extern "C" {

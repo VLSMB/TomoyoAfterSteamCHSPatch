@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="asm.c" />
     <ClCompile Include="data.cpp" />
+    <ClCompile Include="define.c" />
     <ClCompile Include="hook.c" />
     <ClCompile Include="patch.cpp" />
     <ClCompile Include="utils.cpp" />
@@ -32,7 +33,7 @@
     <ClInclude Include="hook.h" />
     <ClInclude Include="patch.h" />
     <ClInclude Include="resource.h" />
-    <ClInclude Include="struct.h" />
+    <ClInclude Include="define.h" />
     <ClInclude Include="utils.h" />
   </ItemGroup>
   <ItemGroup>

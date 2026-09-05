@@ -33,6 +33,9 @@
     <ClCompile Include="utils.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="define.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hook.h">
@@ -53,7 +56,7 @@
     <ClInclude Include="utils.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="struct.h">
+    <ClInclude Include="define.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

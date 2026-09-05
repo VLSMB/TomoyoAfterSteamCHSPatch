@@ -5,7 +5,7 @@
 #error "This header is for CPP only."
 #endif
 
-#include "struct.h"
+#include "define.h"
 #include <vector>
 #include <string>
 

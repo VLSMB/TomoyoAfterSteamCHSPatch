@@ -1,5 +1,6 @@
 #include <windows.h>
 #include "hook.h"
+#include "define.h"
 
 #pragma comment(linker, "/EXPORT:GetFileVersionInfoA=_pGetFileVersionInfoA,@1")
 #pragma comment(linker, "/EXPORT:GetFileVersionInfoByHandle=_pGetFileVersionInfoByHandle,@2")

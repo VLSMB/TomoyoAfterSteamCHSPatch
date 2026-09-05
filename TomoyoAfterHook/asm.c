@@ -1,4 +1,8 @@
 #include "asm.h"
+#include "define.h"
+#include "hook.h"
+#include "patch.h"
+#include <Windows.h>
 
 static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, unsigned num);
 static void WINAPI beforeConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4);
