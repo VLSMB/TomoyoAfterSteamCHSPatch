@@ -43,8 +43,9 @@
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{82892ed8-b602-4f4c-bc09-82cbdf2548e3}</ProjectGuid>
-    <RootNamespace>TomoyoAfterHook</RootNamespace>
+    <RootNamespace>VersionInjectionPatch</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>VersionInjectionPatch</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
