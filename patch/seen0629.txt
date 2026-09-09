@@ -9,7 +9,7 @@ length 15
 ====================
 June 29th (Tue)
 ====================
-June 29th (Tue)
+6月29日（周二）
 ====================
 
 ====================
@@ -20,7 +20,7 @@ length 65
 ====================
 Even with my newfound independence, the work I do hasn't changed.
 ====================
-Even with my newfound independence, the work I do hasn't changed.
+即便我已经能够独当一面了，做的活儿也和以前没什么两样。
 ====================
 
 ====================
@@ -31,7 +31,7 @@ length 78
 ====================
 The sole difference is I am on my own, whether at the workshop or around town.
 ====================
-The sole difference is I am on my own, whether at the workshop or around town.
+唯一的不同，就是无论店里还是外出，都只能靠自己一个人了。
 ====================
 
 ====================
@@ -42,7 +42,7 @@ length 39
 ====================
 Today the boss is taking the truck out.
 ====================
-Today the boss is taking the truck out.
+今天老板要开卡车出去。
 ====================
 
 ====================
@@ -53,7 +53,7 @@ length 109
 ====================
 He said he had to go all the way to the edge of the prefecture, so he told me to just go straight home after.
 ====================
-He said he had to go all the way to the edge of the prefecture, so he told me to just go straight home after.
+他说要去一直跑到县境的尽头，所以让我干完活直接回家就行。
 ====================
 
 ====================
@@ -64,7 +64,7 @@ length 84
 ====================
 (Be that as it may, not being able to ask about things I struggle with is a pain...)
 ====================
-(Be that as it may, not being able to ask about things I struggle with is a pain...)
+（话虽如此，遇到不会的地方也没人能问，还真是麻烦……）
 ====================
 
 ====================
@@ -75,7 +75,7 @@ length 23
 ====================
 I get stuck right away.
 ====================
-I get stuck right away.
+我一下子就卡住了。
 ====================
 
 ====================
@@ -86,7 +86,7 @@ length 113
 ====================
 I can tell just by looking at it that the vacuum cleaner isn't working because something is wrong with the motor.
 ====================
-I can tell just by looking at it that the vacuum cleaner isn't working because something is wrong with the motor.
+光看就知道，吸尘器没法转是马达出了问题。
 ====================
 
 ====================
@@ -97,7 +97,7 @@ length 51
 ====================
 But no matter what I try, I can't find the problem.
 ====================
-But no matter what I try, I can't find the problem.
+可不管怎么弄，都找不出毛病。
 ====================
 
 ====================
@@ -108,7 +108,7 @@ length 70
 ====================
 The motor is getting power, so it doesn't seem to be a break or short.
 ====================
-The motor is getting power, so it doesn't seem to be a break or short.
+马达通着电，看来不是断线或短路。
 ====================
 
 ====================
@@ -119,7 +119,7 @@ length 10
 ====================
 \"...hm?\"
 ====================
-\"...hm?\"
+“……嗯？”
 ====================
 
 ====================
@@ -130,7 +130,7 @@ length 60
 ====================
 There are two black, rod-like objects attached to the motor.
 ====================
-There are two black, rod-like objects attached to the motor.
+马达上连着两根黑色的细棒状物。
 ====================
 
 ====================
@@ -141,7 +141,7 @@ length 69
 ====================
 I remember asking the boss about them before. They're carbon brushes.
 ====================
-I remember asking the boss about them before. They're carbon brushes.
+我记得以前问过老板，这是碳刷。
 ====================
 
 ====================
@@ -152,7 +152,7 @@ length 66
 ====================
 I was told that if those wore down, the motor would cease to work.
 ====================
-I was told that if those wore down, the motor would cease to work.
+他说这东西一旦磨损，马达就转不动了。
 ====================
 
 ====================
@@ -163,7 +163,7 @@ length 143
 ====================
 After checking the make and model number, I look for the materials and find what looks to be the right carbon brushes in the corner of a shelf.
 ====================
-After checking the make and model number, I look for the materials and find what looks to be the right carbon brushes in the corner of a shelf.
+确认完铭牌和型号后，我去找配件，在货架角落里找到了看着正合适的碳刷。
 ====================
 
 ====================
@@ -174,7 +174,7 @@ length 83
 ====================
 I replace the parts and when I connect it to a test power supply, it runs like new.
 ====================
-I replace the parts and when I connect it to a test power supply, it runs like new.
+换上零件，接上测试电源一试，转得跟新的一样。
 ====================
 
 ====================
@@ -185,7 +185,7 @@ length 74
 ====================
 No matter how many times I experience it, that moment is always wonderful.
 ====================
-No matter how many times I experience it, that moment is always wonderful.
+无论经历多少次，那一刻总是让人无比畅快。
 ====================
 
 ====================
@@ -196,7 +196,7 @@ length 45
 ====================
 I then clean all the parts and reassemble it.
 ====================
-I then clean all the parts and reassemble it.
+接着我把所有零件都擦干净，重新组装好。
 ====================
 
 ====================
@@ -207,7 +207,7 @@ length 16
 ====================
 The phone rings.
 ====================
-The phone rings.
+电话响了。
 ====================
 
 ====================
@@ -218,7 +218,7 @@ length 33
 ====================
 \"Hello, this is XX Industries.\"
 ====================
-\"Hello, this is XX Industries.\"
+“你好，这里是XX工业。”
 ====================
 
 ====================
@@ -229,7 +229,7 @@ length 12
 ====================
 \"It's me.\"
 ====================
-\"It's me.\"
+“是我。”
 ====================
 
 ====================
@@ -240,7 +240,7 @@ length 20
 ====================
 \"Good work today.\"
 ====================
-\"Good work today.\"
+“今天辛苦了。”
 ====================
 
 ====================
@@ -251,7 +251,7 @@ length 72
 ====================
 \"When the time comes, you can go on home. Just make sure you lock up.\"
 ====================
-\"When the time comes, you can go on home. Just make sure you lock up.\"
+“时间差不多你就先回家吧。记得把门锁好。”
 ====================
 
 ====================
@@ -262,7 +262,7 @@ length 9
 ====================
 \"Okay.\"
 ====================
-\"Okay.\"
+“好。”
 ====================
 
 ====================
@@ -273,7 +273,7 @@ length 26
 ====================
 And with that, we hang up.
 ====================
-And with that, we hang up.
+就这样，我们挂了电话。
 ====================
 
 ====================
@@ -284,7 +284,7 @@ length 77
 ====================
 The boss and I are both men of few words, so we rarely indulge in small talk.
 ====================
-The boss and I are both men of few words, so we rarely indulge in small talk.
+老板和我都是话不多的人，所以几乎不会闲聊。
 ====================
 
 ====================
@@ -295,7 +295,7 @@ length 55
 ====================
 I decide to simply clean up the workshop and head home.
 ====================
-I decide to simply clean up the workshop and head home.
+我决定把店里收拾干净，然后回家。
 ====================
 
 ====================
@@ -306,7 +306,7 @@ length 67
 ====================
 When I come in, Tomoyo is standing in the kitchen wearing an apron.
 ====================
-When I come in, Tomoyo is standing in the kitchen wearing an apron.
+进门一看，智代正系着围裙站在厨房里。
 ====================
 
 ====================
@@ -317,7 +317,7 @@ length 17
 ====================
 \"Welcome home.\"
 ====================
-\"Welcome home.\"
+“欢迎回来。”
 ====================
 
 ====================
@@ -328,7 +328,7 @@ length 29
 ====================
 She turns to me with a smile.
 ====================
-She turns to me with a smile.
+她笑着转向我。
 ====================
 
 ====================
@@ -339,7 +339,7 @@ length 19
 ====================
 \"Yeah, I'm back.\"
 ====================
-\"Yeah, I'm back.\"
+“嗯，我回来了。”
 ====================
 
 ====================
@@ -350,7 +350,7 @@ length 34
 ====================
 She immediately goes back to work.
 ====================
-She immediately goes back to work.
+她又立刻埋头忙了起来。
 ====================
 
 ====================
@@ -361,7 +361,7 @@ length 27
 ====================
 She's cutting up mushrooms.
 ====================
-She's cutting up mushrooms.
+她在切蘑菇。
 ====================
 
 ====================
@@ -372,7 +372,7 @@ length 17
 ====================
 \"I'll do that.\"
 ====================
-\"I'll do that.\"
+“这个我来吧。”
 ====================
 
 ====================
@@ -383,7 +383,7 @@ length 45
 ====================
 \"I'm just preparing them. You should rest.\"
 ====================
-\"I'm just preparing them. You should rest.\"
+“我来准备就好。你歇着吧。”
 ====================
 
 ====================
@@ -394,7 +394,7 @@ length 115
 ====================
 I've learned enough to cook for myself during the week, but there are a lot of days when Tomoyo does the prep work.
 ====================
-I've learned enough to cook for myself during the week, but there are a lot of days when Tomoyo does the prep work.
+平时自己做饭我已经学会了，但备菜这活儿，大多时候还是智代来做。
 ====================
 
 ====================
@@ -405,7 +405,7 @@ length 53
 ====================
 I just fry, boil, or grill the food after she's done.
 ====================
-I just fry, boil, or grill the food after she's done.
+我只要在她备好之后，负责煎、煮或者烤就行。
 ====================
 
 ====================
@@ -416,7 +416,7 @@ length 31
 ====================
 I decide to rest like she said.
 ====================
-I decide to rest like she said.
+我听了她的话，决定先休息一下。
 ====================
 
 ====================
@@ -427,7 +427,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+“………”
 ====================
 
 ====================
@@ -438,7 +438,7 @@ length 16
 ====================
 \"I'm bored...\"
 ====================
-\"I'm bored...\"
+“好无聊……”
 ====================
 
 ====================
@@ -449,7 +449,7 @@ length 49
 ====================
 I decide to look for something to help kill time.
 ====================
-I decide to look for something to help kill time.
+我打算找点什么来消磨时间。
 ====================
 
 ====================
@@ -460,7 +460,7 @@ length 85
 ====================
 I pull a cardboard box full of miscellaneous items out of the closet and look inside.
 ====================
-I pull a cardboard box full of miscellaneous items out of the closet and look inside.
+我从壁橱里拖出一个装满杂物的纸箱，往里面看。
 ====================
 
 ====================
@@ -471,7 +471,7 @@ length 16
 ====================
 \"A kendama...\"
 ====================
-\"A kendama...\"
+“剑玉……”
 ====================
 
 ====================
@@ -482,7 +482,7 @@ length 14
 ====================
 \"A yo-yo...\"
 ====================
-\"A yo-yo...\"
+“悠悠球……”
 ====================
 
 ====================
@@ -493,7 +493,7 @@ length 29
 ====================
 ...these are kind of lacking.
 ====================
-...these are kind of lacking.
+……都差点意思。
 ====================
 
 ====================
@@ -504,7 +504,7 @@ length 47
 ====================
 I'd have to say I didn't bring anything good...
 ====================
-I'd have to say I didn't bring anything good...
+真要说的话，我一样好东西都没带回来……
 ====================
 
 ====================
@@ -515,7 +515,7 @@ length 9
 ====================
 \"Oh...\"
 ====================
-\"Oh...\"
+“哦……”
 ====================
 
 ====================
@@ -526,7 +526,7 @@ length 26
 ====================
 I find a cat ear headband.
 ====================
-I find a cat ear headband.
+我找到了一只猫耳发箍。
 ====================
 
 ====================
@@ -537,7 +537,7 @@ length 30
 ====================
 ...I have something like this?
 ====================
-...I have something like this?
+……我竟然还有这种东西？
 ====================
 
 ====================
@@ -548,7 +548,7 @@ length 52
 ====================
 I also find a tail that seems to be part of the set.
 ====================
-I also find a tail that seems to be part of the set.
+还找到一条像是配套的尾巴。
 ====================
 
 ====================
@@ -559,7 +559,7 @@ length 129
 ====================
 A lot of Tomoyo's things are mixed in with mine, so they might be something she used for the school festival or some other event.
 ====================
-A lot of Tomoyo's things are mixed in with mine, so they might be something she used for the school festival or some other event.
+我的东西里混着不少智代的物件，这大概是她在学园祭之类的活动上用过的东西吧。
 ====================
 
 ====================
@@ -570,7 +570,7 @@ length 49
 ====================
 They must have somehow gotten thrown in this box.
 ====================
-They must have somehow gotten thrown in this box.
+也不知怎么的，就一起被扔进了这个箱子。
 ====================
 
 ====================
@@ -581,7 +581,7 @@ length 36
 ====================
 Anyway, I decide to put on the ears.
 ====================
-Anyway, I decide to put on the ears.
+总之，我决定先戴上那对耳朵。
 ====================
 
 ====================
@@ -592,7 +592,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+“………”
 ====================
 
 ====================
@@ -603,7 +603,7 @@ length 11
 ====================
 \"Meow...\"
 ====================
-\"Meow...\"
+“喵……”
 ====================
 
 ====================
@@ -614,7 +614,7 @@ length 45
 ====================
 ...I'm left with only a feeling of emptiness.
 ====================
-...I'm left with only a feeling of emptiness.
+……剩下的只有一阵空虚。
 ====================
 
 ====================
@@ -625,7 +625,7 @@ length 18
 ====================
 (What am I doing?)
 ====================
-(What am I doing?)
+（我到底在干什么啊。）
 ====================
 
 ====================
@@ -636,7 +636,7 @@ length 27
 ====================
 I put them back in the box.
 ====================
-I put them back in the box.
+我把它们放回了箱子。
 ====================
 
 ====================
@@ -647,7 +647,7 @@ length 36
 ====================
 (Wait, this could be interesting...)
 ====================
-(Wait, this could be interesting...)
+（等等，说不定会很有意思……）
 ====================
 
 ====================
@@ -658,7 +658,7 @@ length 40
 ====================
 Reconsidering, I take them out and wait.
 ====================
-Reconsidering, I take them out and wait.
+这么一想，我又把它们取出来，静静等着。
 ====================
 
 ====================
@@ -669,7 +669,7 @@ length 41
 ====================
 \"It'll be fried rice with thick sauce.\"
 ====================
-\"It'll be fried rice with thick sauce.\"
+“今天做的是浓汁炒饭哦。”
 ====================
 
 ====================
@@ -680,7 +680,7 @@ length 30
 ====================
 \"Okay, this should be good.\"
 ====================
-\"Okay, this should be good.\"
+“好，这样就差不多了。”
 ====================
 
 ====================
@@ -691,7 +691,7 @@ length 102
 ====================
 She finishes up the preparations. Looking satisfied, she washes her hands and dries them with a towel.
 ====================
-She finishes up the preparations. Looking satisfied, she washes her hands and dries them with a towel.
+备菜大功告成。她露出满意的神情，洗了手，用毛巾擦干。
 ====================
 
 ====================
@@ -702,7 +702,7 @@ length 9
 ====================
 \"Um...\"
 ====================
-\"Um...\"
+“那个……”
 ====================
 
 ====================
@@ -713,7 +713,7 @@ length 74
 ====================
 She turns to me and looks as though she's having trouble saying something.
 ====================
-She turns to me and looks as though she's having trouble saying something.
+她转向我，一副欲言又止的样子。
 ====================
 
 ====================
@@ -724,7 +724,7 @@ length 77
 ====================
 \"...I need to make dinner at home tonight too, so I need to go home early.\"
 ====================
-\"...I need to make dinner at home tonight too, so I need to go home early.\"
+“……今晚我也得回去做饭，所以得早点回家。”
 ====================
 
 ====================
@@ -735,7 +735,7 @@ length 20
 ====================
 \"Really? Already?\"
 ====================
-\"Really? Already?\"
+“是吗？这么快？”
 ====================
 
 ====================
@@ -746,7 +746,7 @@ length 57
 ====================
 \"No, I already finished shopping, so I have some time.\"
 ====================
-\"No, I already finished shopping, so I have some time.\"
+“不，东西已经买好了，所以还有点时间。”
 ====================
 
 ====================
@@ -757,7 +757,7 @@ length 16
 ====================
 \"Well then...\"
 ====================
-\"Well then...\"
+“那么……”
 ====================
 
 ====================
@@ -768,7 +768,7 @@ length 30
 ====================
 I bring my face close to hers.
 ====================
-I bring my face close to hers.
+我把脸凑近了她。
 ====================
 
 ====================
@@ -779,7 +779,7 @@ length 77
 ====================
 \"Hold on... that doesn't mean I have time to do that kind of weird things.\"
 ====================
-\"Hold on... that doesn't mean I have time to do that kind of weird things.\"
+“等一下……有点时间也不代表要做那种奇怪的事吧。”
 ====================
 
 ====================
@@ -790,7 +790,7 @@ length 27
 ====================
 \"The sun is still out...\"
 ====================
-\"The sun is still out...\"
+“天还亮着呢……”
 ====================
 
 ====================
@@ -801,7 +801,7 @@ length 9
 ====================
 \"Oh...\"
 ====================
-\"Oh...\"
+“哦……”
 ====================
 
 ====================
@@ -812,7 +812,7 @@ length 46
 ====================
 \"Don't look so openly disappointed by it...\"
 ====================
-\"Don't look so openly disappointed by it...\"
+“别那么明目张胆地露出失望的表情啊……”
 ====================
 
 ====================
@@ -823,7 +823,7 @@ length 26
 ====================
 \"But I am disappointed.\"
 ====================
-\"But I am disappointed.\"
+“可我就是很失望嘛。”
 ====================
 
 ====================
@@ -834,7 +834,7 @@ length 80
 ====================
 \"I'm glad you feel that way... I was worried you'd grown tired of me again...\"
 ====================
-\"I'm glad you feel that way... I was worried you'd grown tired of me again...\"
+“你这么说我很高兴……我还担心你是不是又厌倦我了呢……”
 ====================
 
 ====================
@@ -845,7 +845,7 @@ length 10
 ====================
 \"Again?\"
 ====================
-\"Again?\"
+“又说这种话？”
 ====================
 
 ====================
@@ -856,7 +856,7 @@ length 23
 ====================
 \"You know, Tomoyo...\"
 ====================
-\"You know, Tomoyo...\"
+“我说，智代……”
 ====================
 
 ====================
@@ -867,7 +867,7 @@ length 10
 ====================
 \"Hm...?\"
 ====================
-\"Hm...?\"
+“嗯……？”
 ====================
 
 ====================
@@ -878,7 +878,7 @@ length 59
 ====================
 \"I have never once been tired of anything I do with you.\"
 ====================
-\"I have never once been tired of anything I do with you.\"
+“只要是和你一起做的事，我从来就没有厌倦过。”
 ====================
 
 ====================
@@ -889,7 +889,7 @@ length 38
 ====================
 \"Yeah... you're right. I'm sorry...\"
 ====================
-\"Yeah... you're right. I'm sorry...\"
+“嗯……你说得对。抱歉……”
 ====================
 
 ====================
@@ -900,7 +900,7 @@ length 61
 ====================
 \"No, it was my fault for leaving you with that impression.\"
 ====================
-\"No, it was my fault for leaving you with that impression.\"
+“不，是我不对，让你产生了那样的误会。”
 ====================
 
 ====================
@@ -911,7 +911,7 @@ length 22
 ====================
 \"That's not true...\"
 ====================
-\"That's not true...\"
+“才不是那样……”
 ====================
 
 ====================
@@ -922,7 +922,7 @@ length 37
 ====================
 \"That didn't come out quite right.\"
 ====================
-\"That didn't come out quite right.\"
+“刚才那句话说得不太对。”
 ====================
 
 ====================
@@ -933,7 +933,7 @@ length 38
 ====================
 \"Then will you do something for me?\"
 ====================
-\"Then will you do something for me?\"
+“那么，能帮我做件事吗？”
 ====================
 
 ====================
@@ -944,7 +944,7 @@ length 29
 ====================
 \"S-Sure... just this once.\"
 ====================
-\"S-Sure... just this once.\"
+“好、好啊……就这一次哦。”
 ====================
 
 ====================
@@ -955,7 +955,7 @@ length 33
 ====================
 \"All right, then put these on.\"
 ====================
-\"All right, then put these on.\"
+“好，那就戴上这个吧。”
 ====================
 
 ====================
@@ -966,7 +966,7 @@ length 50
 ====================
 I hold out the cat ear hairband that's in my hand.
 ====================
-I hold out the cat ear hairband that's in my hand.
+我把拿在手里的猫耳发箍递了过去。
 ====================
 
 ====================
@@ -977,7 +977,7 @@ length 49
 ====================
 She narrows her eyes and gazes into the distance.
 ====================
-She narrows her eyes and gazes into the distance.
+她眯起眼睛，望向远方。
 ====================
 
 ====================
@@ -988,7 +988,7 @@ length 22
 ====================
 \"...I don't get it.\"
 ====================
-\"...I don't get it.\"
+“……我不明白你的意思。”
 ====================
 
 ====================
@@ -999,7 +999,7 @@ length 25
 ====================
 \"It's something weird.\"
 ====================
-\"It's something weird.\"
+“就是有点奇怪的事啦。”
 ====================
 
 ====================
@@ -1010,7 +1010,7 @@ length 33
 ====================
 \"It's definitely weird, but...\"
 ====================
-\"It's definitely weird, but...\"
+“奇怪的事倒是……也不怎么奇怪，不过……”
 ====================
 
 ====================
@@ -1021,7 +1021,7 @@ length 45
 ====================
 \"Eh?! You meant this kind of weird thing?!\"
 ====================
-\"Eh?! You meant this kind of weird thing?!\"
+“诶？！原来你说的是这种奇怪的事？！”
 ====================
 
 ====================
@@ -1032,7 +1032,7 @@ length 19
 ====================
 \"Huh? What's up?\"
 ====================
-\"Huh? What's up?\"
+“嗯？怎么了？”
 ====================
 
 ====================
@@ -1043,7 +1043,7 @@ length 22
 ====================
 \"No... it's fine...\"
 ====================
-\"No... it's fine...\"
+“没什么……”
 ====================
 
 ====================
@@ -1054,7 +1054,7 @@ length 49
 ====================
 \"Were you maybe thinking about something else?\"
 ====================
-\"Were you maybe thinking about something else?\"
+“你刚才是不是在想什么别的事？”
 ====================
 
 ====================
@@ -1065,7 +1065,7 @@ length 79
 ====================
 \"No, it was this. This is definitely the weird thing that I was thinking of.\"
 ====================
-\"No, it was this. This is definitely the weird thing that I was thinking of.\"
+“不是，就是这个。我刚刚想的奇怪的事，就是它。”
 ====================
 
 ====================
@@ -1076,7 +1076,7 @@ length 41
 ====================
 She snatches the hairband out of my hand.
 ====================
-She snatches the hairband out of my hand.
+她一把从我手里把发箍抢了过去。
 ====================
 
 ====================
@@ -1087,7 +1087,7 @@ length 9
 ====================
 \"Uh...\"
 ====================
-\"Uh...\"
+“呃……”
 ====================
 
 ====================
@@ -1098,7 +1098,7 @@ length 37
 ====================
 She takes a closer look and stiffens.
 ====================
-She takes a closer look and stiffens.
+她盯着看了一会儿，僵住了。
 ====================
 
 ====================
@@ -1109,7 +1109,7 @@ length 49
 ====================
 \"Were you maybe thinking about something else?\"
 ====================
-\"Were you maybe thinking about something else?\"
+“你刚才是不是在想什么别的事？”
 ====================
 
 ====================
@@ -1120,7 +1120,7 @@ length 132
 ====================
 \"No, it was this. T-This is definitely the weird thing that I was hoping for. Just what I'd expect from you. You know me so well.\"
 ====================
-\"No, it was this. T-This is definitely the weird thing that I was hoping for. Just what I'd expect from you. You know me so well.\"
+“才不是。就是这个。我、我刚才期盼的奇怪的事，就是它。不愧是朋也，真了解我啊。”
 ====================
 
 ====================
@@ -1131,7 +1131,7 @@ length 9
 ====================
 \"Uh...\"
 ====================
-\"Uh...\"
+“呃……”
 ====================
 
 ====================
@@ -1142,7 +1142,7 @@ length 71
 ====================
 When she takes another look at it, she once again loses her enthusiasm.
 ====================
-When she takes another look at it, she once again loses her enthusiasm.
+她又看了一眼，再一次蔫了下去。
 ====================
 
 ====================
@@ -1153,7 +1153,7 @@ length 30
 ====================
 \"But this is truly weird...\"
 ====================
-\"But this is truly weird...\"
+“不过这玩意儿确实够奇怪的……”
 ====================
 
 ====================
@@ -1164,7 +1164,7 @@ length 44
 ====================
 \"But it'll be cute. I think it'll suit you.
 ====================
-\"But it'll be cute. I think it'll suit you.
+“可是会很可爱的。我觉得一定很衬你。
 ====================
 
 ====================
@@ -1175,7 +1175,7 @@ length 91
 ====================
  The cute Tomoyo will be become a cute cat and the resulting hybrid will be cute squared!\"
 ====================
- The cute Tomoyo will be become a cute cat and the resulting hybrid will be cute squared!\"
+ 可爱的智代，要是再变成一只可爱的猫，两者一合体，可爱程度就是平方啦！”
 ====================
 
 ====================
@@ -1186,7 +1186,7 @@ length 14
 ====================
 \"Really...?\"
 ====================
-\"Really...?\"
+“真的吗……？”
 ====================
 
 ====================
@@ -1197,7 +1197,7 @@ length 19
 ====================
 She looks doubtful.
 ====================
-She looks doubtful.
+她看起来将信将疑。
 ====================
 
 ====================
@@ -1208,7 +1208,7 @@ length 20
 ====================
 I nod to assure her.
 ====================
-I nod to assure her.
+我点点头，向她保证。
 ====================
 
 ====================
@@ -1219,7 +1219,7 @@ length 69
 ====================
 \"I don't know why it came to this, but I guess I have no choice...\"
 ====================
-\"I don't know why it came to this, but I guess I have no choice...\"
+“不知怎的就变成这样了，不过看来也只好认了……”
 ====================
 
 ====================
@@ -1230,7 +1230,7 @@ length 19
 ====================
 \"...h-how is it?\"
 ====================
-\"...h-how is it?\"
+“……怎、怎么样？”
 ====================
 
 ====================
@@ -1241,7 +1241,7 @@ length 14
 ====================
 She put it on.
 ====================
-She put it on.
+她戴上了。
 ====================
 
 ====================
@@ -1252,7 +1252,7 @@ length 25
 ====================
 \"Okay, now say 'Meow.'\"
 ====================
-\"Okay, now say 'Meow.'\"
+“好，现在说一声‘喵’来听听。”
 ====================
 
 ====================
@@ -1263,7 +1263,7 @@ length 7
 ====================
 \"No.\"
 ====================
-\"No.\"
+“不要。”
 ====================
 
 ====================
@@ -1274,7 +1274,7 @@ length 26
 ====================
 \"Tomoyo, you look cute.\"
 ====================
-\"Tomoyo, you look cute.\"
+“智代，你真可爱。”
 ====================
 
 ====================
@@ -1285,7 +1285,7 @@ length 18
 ====================
 \"Huh... really?\"
 ====================
-\"Huh... really?\"
+“诶……真的吗？”
 ====================
 
 ====================
@@ -1296,7 +1296,7 @@ length 26
 ====================
 \"That's 'Really, meow?'\"
 ====================
-\"That's 'Really, meow?'\"
+“要说‘真的喵？’才对啦。”
 ====================
 
 ====================
@@ -1307,7 +1307,7 @@ length 17
 ====================
 \"Really, meow?\"
 ====================
-\"Really, meow?\"
+“真的喵？”
 ====================
 
 ====================
@@ -1318,7 +1318,7 @@ length 56
 ====================
 \"Uwaaaah!! This is so embarrassing I'm going to die!!\"
 ====================
-\"Uwaaaah!! This is so embarrassing I'm going to die!!\"
+“呜哇啊啊！！羞死人了，我要死啦！！”
 ====================
 
 ====================
@@ -1329,7 +1329,7 @@ length 49
 ====================
 \"It's fine. It's not like anyone can hear you.\"
 ====================
-\"It's fine. It's not like anyone can hear you.\"
+“没事的，反正也没人听见。”
 ====================
 
 ====================
@@ -1340,7 +1340,7 @@ length 23
 ====================
 \"That's true, but...\"
 ====================
-\"That's true, but...\"
+“话是这么说，可是……”
 ====================
 
 ====================
@@ -1351,7 +1351,7 @@ length 58
 ====================
 \"Oh, that's right. There's a tail too. Put that on too.\"
 ====================
-\"Oh, that's right. There's a tail too. Put that on too.\"
+“啊，对了。还有尾巴呢。尾巴也戴上吧。”
 ====================
 
 ====================
@@ -1362,7 +1362,7 @@ length 45
 ====================
 \"Eh? W-We don't need to go that far, meow.\"
 ====================
-\"Eh? W-We don't need to go that far, meow.\"
+“诶？不、不用做到那一步吧，喵。”
 ====================
 
 ====================
@@ -1373,7 +1373,7 @@ length 83
 ====================
 \"By putting it on, you can completely become a cat and say meow without reserve.\"
 ====================
-\"By putting it on, you can completely become a cat and say meow without reserve.\"
+“把尾巴也戴上，你就彻底变成一只猫，能毫无顾忌地喵喵叫了。”
 ====================
 
 ====================
@@ -1384,7 +1384,7 @@ length 24
 ====================
 \"I-I'm not so sure...\"
 ====================
-\"I-I'm not so sure...\"
+“我、我还是不太……”
 ====================
 
 ====================
@@ -1395,7 +1395,7 @@ length 15
 ====================
 \"Go ahead...\"
 ====================
-\"Go ahead...\"
+“来吧……”
 ====================
 
 ====================
@@ -1406,7 +1406,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+“………”
 ====================
 
 ====================
@@ -1417,7 +1417,7 @@ length 11
 ====================
 \"M-Meow.\"
 ====================
-\"M-Meow.\"
+“喵、喵。”
 ====================
 
 ====================
@@ -1428,7 +1428,7 @@ length 31
 ====================
 ...oh man, that's super cute...
 ====================
-...oh man, that's super cute...
+……天哪，这也太可爱了……
 ====================
 
 ====================
@@ -1439,7 +1439,7 @@ length 70
 ====================
 \"Okay, once more, but can you put a 'play with me' feeling into it?\"
 ====================
-\"Okay, once more, but can you put a 'play with me' feeling into it?\"
+“好，再来一次，不过要带上‘来陪我玩嘛’的感觉。”
 ====================
 
 ====================
@@ -1450,7 +1450,7 @@ length 17
 ====================
 \"Meow... meow.\"
 ====================
-\"Meow... meow.\"
+“喵……喵。”
 ====================
 
 ====================
@@ -1461,7 +1461,7 @@ length 46
 ====================
 \"That wasn't quite right. Please try again.\"
 ====================
-\"That wasn't quite right. Please try again.\"
+“这次不太对。再试一次。”
 ====================
 
 ====================
@@ -1472,7 +1472,7 @@ length 17
 ====================
 \"Meow... meow.\"
 ====================
-\"Meow... meow.\"
+“喵……喵。”
 ====================
 
 ====================
@@ -1483,7 +1483,7 @@ length 50
 ====================
 \"Oh, that was pretty good! Can you do it again?\"
 ====================
-\"Oh, that was pretty good! Can you do it again?\"
+“哦，这次很不错！还能再来一次吗？”
 ====================
 
 ====================
@@ -1494,7 +1494,7 @@ length 17
 ====================
 \"Meow... meow.\"
 ====================
-\"Meow... meow.\"
+“喵……喵。”
 ====================
 
 ====================
@@ -1505,7 +1505,7 @@ length 28
 ====================
 \"It was better last time.\"
 ====================
-\"It was better last time.\"
+“刚才那遍更好。”
 ====================
 
 ====================
@@ -1516,7 +1516,7 @@ length 17
 ====================
 \"Meow... meow.\"
 ====================
-\"Meow... meow.\"
+“喵……喵。”
 ====================
 
 ====================
@@ -1527,7 +1527,7 @@ length 14
 ====================
 \"Once more.\"
 ====================
-\"Once more.\"
+“再来一次。”
 ====================
 
 ====================
@@ -1538,7 +1538,7 @@ length 17
 ====================
 \"Meow... meow.\"
 ====================
-\"Meow... meow.\"
+“喵……喵。”
 ====================
 
 ====================
@@ -1549,7 +1549,7 @@ length 33
 ====================
 \"Nee-chan, what are you doing?\"
 ====================
-\"Nee-chan, what are you doing?\"
+“姐姐，你在干什么呢？”
 ====================
 
 ====================
@@ -1560,7 +1560,7 @@ length 15
 ====================
 *Thuuuuuuuuuud*
 ====================
-*Thuuuuuuuuuud*
+咚————！！
 ====================
 
 ====================
@@ -1571,7 +1571,7 @@ length 44
 ====================
 Tomoyo hits the floor so hard, it's audible.
 ====================
-Tomoyo hits the floor so hard, it's audible.
+智代砸到地板上的声音响得清清楚楚。
 ====================
 
 ====================
@@ -1582,7 +1582,7 @@ length 41
 ====================
 \"Woah, Nee-chan, what are you wearing?\"
 ====================
-\"Woah, Nee-chan, what are you wearing?\"
+“哇，姐姐，你穿的这是什么啊？”
 ====================
 
 ====================
@@ -1593,7 +1593,7 @@ length 28
 ====================
 \"Say nothing and leave...\"
 ====================
-\"Say nothing and leave...\"
+“什么都别说，给我出去……”
 ====================
 
 ====================
@@ -1604,7 +1604,7 @@ length 46
 ====================
 \"No, I came over to hang out with Nii-chan.\"
 ====================
-\"No, I came over to hang out with Nii-chan.\"
+“不要嘛，我是来找哥哥玩的。”
 ====================
 
 ====================
@@ -1615,7 +1615,7 @@ length 12
 ====================
 \"Leave...\"
 ====================
-\"Leave...\"
+“快出去……”
 ====================
 
 ====================
@@ -1626,7 +1626,7 @@ length 14
 ====================
 \"I said no.\"
 ====================
-\"I said no.\"
+“我说了不要。”
 ====================
 
 ====================
@@ -1637,7 +1637,7 @@ length 61
 ====================
 \"Look Nii-chan, I brought over a game console. Let's play.\"
 ====================
-\"Look Nii-chan, I brought over a game console. Let's play.\"
+“哥哥你看，我把游戏机带来了。一起玩吧。”
 ====================
 
 ====================
@@ -1648,7 +1648,7 @@ length 26
 ====================
 He's carrying a large bag.
 ====================
-He's carrying a large bag.
+他背着一只大包。
 ====================
 
 ====================
@@ -1659,7 +1659,7 @@ length 31
 ====================
 \"Can I connect it to the TV?\"
 ====================
-\"Can I connect it to the TV?\"
+“能接到电视上吗？”
 ====================
 
 ====================
@@ -1670,7 +1670,7 @@ length 23
 ====================
 \"Yeah, in the front.\"
 ====================
-\"Yeah, in the front.\"
+“嗯，用前面那台电视吧。”
 ====================
 
 ====================
@@ -1681,7 +1681,7 @@ length 50
 ====================
 He takes out the console and starts setting it up.
 ====================
-He takes out the console and starts setting it up.
+他把游戏机取出来，开始安装。
 ====================
 
 ====================
@@ -1692,7 +1692,7 @@ length 14
 ====================
 \"What game?\"
 ====================
-\"What game?\"
+“什么游戏？”
 ====================
 
 ====================
@@ -1703,7 +1703,7 @@ length 53
 ====================
 \"I've got baseball. I thought you'd prefer sports.\"
 ====================
-\"I've got baseball. I thought you'd prefer sports.\"
+“带了棒球的。我觉得你会比较喜欢运动类的。”
 ====================
 
 ====================
@@ -1714,7 +1714,7 @@ length 46
 ====================
 \"Well, competitive games are more exciting.\"
 ====================
-\"Well, competitive games are more exciting.\"
+“嘛，竞技类的确实更带劲。”
 ====================
 
 ====================
@@ -1725,7 +1725,7 @@ length 28
 ====================
 \"Hey, let's play, Tomoyo.\"
 ====================
-\"Hey, let's play, Tomoyo.\"
+“喂，智代也来一起玩吧。”
 ====================
 
 ====================
@@ -1736,7 +1736,7 @@ length 18
 ====================
 \"I'm leaving...\"
 ====================
-\"I'm leaving...\"
+“我回去了……”
 ====================
 
 ====================
@@ -1747,7 +1747,7 @@ length 8
 ====================
 \"Huh?\"
 ====================
-\"Huh?\"
+“诶？”
 ====================
 
 ====================
@@ -1758,7 +1758,7 @@ length 57
 ====================
 She opens the closet and shoves the hairband deep inside.
 ====================
-She opens the closet and shoves the hairband deep inside.
+她打开壁橱，把发箍使劲塞到了最里面。
 ====================
 
 ====================
@@ -1769,7 +1769,7 @@ length 8
 ====================
 \"Bye.\"
 ====================
-\"Bye.\"
+“拜拜。”
 ====================
 
 ====================
@@ -1780,7 +1780,7 @@ length 34
 ====================
 \"You're still wearing the tail!\"
 ====================
-\"You're still wearing the tail!\"
+“你尾巴还戴着呢！”
 ====================
 
 ====================
@@ -1791,7 +1791,7 @@ length 42
 ====================
 She leaves the room before I can stop her.
 ====================
-She leaves the room before I can stop her.
+我还没来得及拦住她，她已经走出了房间。
 ====================
 
 ====================
@@ -1802,7 +1802,7 @@ length 19
 ====================
 \"Was she mad...?\"
 ====================
-\"Was she mad...?\"
+“她生气了吗……？”
 ====================
 
 ====================
@@ -1813,7 +1813,7 @@ length 38
 ====================
 \"...a girl's heart is unfathomable.\"
 ====================
-\"...a girl's heart is unfathomable.\"
+“……女孩子的心思，真是深不可测。”
 ====================
 
 ====================
@@ -1824,5 +1824,5 @@ length 9
 ====================
 \"True.\"
 ====================
-\"True.\"
+“确实。”
 ====================

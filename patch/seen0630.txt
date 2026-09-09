@@ -9,7 +9,7 @@ length 15
 ====================
 June 30th (Wed)
 ====================
-June 30th (Wed)
+6月30日（周三）
 ====================
 
 ====================
@@ -20,7 +20,7 @@ length 26
 ====================
 Today I'm working outside.
 ====================
-Today I'm working outside.
+今天我外出干活。
 ====================
 
 ====================
@@ -31,7 +31,7 @@ length 50
 ====================
 I drive the truck around and collect broken items.
 ====================
-I drive the truck around and collect broken items.
+我开着卡车四处跑，回收坏掉的东西。
 ====================
 
 ====================
@@ -42,7 +42,7 @@ length 36
 ====================
 We accept a lot of different things.
 ====================
-We accept a lot of different things.
+我们回收的种类还真不少。
 ====================
 
 ====================
@@ -53,7 +53,7 @@ length 110
 ====================
 We take household appliances like refrigerators and washing machines, as well as AV devices like TVs and VCRs.
 ====================
-We take household appliances like refrigerators and washing machines, as well as AV devices like TVs and VCRs.
+冰箱、洗衣机等家电自不必说，电视、录像机之类的影音设备也收。
 ====================
 
 ====================
@@ -64,7 +64,7 @@ length 53
 ====================
 On rare occasions, we also get things like computers.
 ====================
-On rare occasions, we also get things like computers.
+偶尔也会收到电脑之类的东西。
 ====================
 
 ====================
@@ -75,7 +75,7 @@ length 47
 ====================
 Sometimes we get scooters and small motorbikes.
 ====================
-Sometimes we get scooters and small motorbikes.
+有时候还会收到踏板车和轻型摩托车。
 ====================
 
 ====================
@@ -86,7 +86,7 @@ length 139
 ====================
 I keep driving with my cassette player on loop, and whenever someone signals for me, I get out of the truck and load the goods in the back.
 ====================
-I keep driving with my cassette player on loop, and whenever someone signals for me, I get out of the truck and load the goods in the back.
+我一边让录音机循环播放着磁带，一边继续开车，只要有人冲我招手，我就下车把货物装到车斗里。
 ====================
 
 ====================
@@ -97,7 +97,7 @@ length 33
 ====================
 But there's more to it than that.
 ====================
-But there's more to it than that.
+不过，我的活儿还不止这些。
 ====================
 
 ====================
@@ -108,7 +108,7 @@ length 70
 ====================
 I also visit houses that have reported broken down items and fix them.
 ====================
-I also visit houses that have reported broken down items and fix them.
+我还要上门去那些报修的人家，帮他们修理坏掉的电器。
 ====================
 
 ====================
@@ -119,7 +119,7 @@ length 76
 ====================
 I used to go around with the boss, but from today on, I have to go it alone.
 ====================
-I used to go around with the boss, but from today on, I have to go it alone.
+以前都是跟老板一起出去的，可从今天起，就得我一个人跑了。
 ====================
 
 ====================
@@ -130,7 +130,7 @@ length 22
 ====================
 Can I really do it...?
 ====================
-Can I really do it...?
+我一个人能行吗……？
 ====================
 
 ====================
@@ -141,7 +141,7 @@ length 48
 ====================
 I continue driving slowly as my thoughts wander.
 ====================
-I continue driving slowly as my thoughts wander.
+我一边胡思乱想，一边缓缓地开着车。
 ====================
 
 ====================
@@ -152,7 +152,7 @@ length 68
 ====================
 When I return to the workplace, the boss is fixing a moped's engine.
 ====================
-When I return to the workplace, the boss is fixing a moped's engine.
+回到店里，老板正在修一辆轻便摩托车的发动机。
 ====================
 
 ====================
@@ -163,7 +163,7 @@ length 13
 ====================
 \"I'm back.\"
 ====================
-\"I'm back.\"
+“我回来了。”
 ====================
 
 ====================
@@ -174,7 +174,7 @@ length 14
 ====================
 \"Good work.\"
 ====================
-\"Good work.\"
+“辛苦啦。”
 ====================
 
 ====================
@@ -185,7 +185,7 @@ length 50
 ====================
 He speaks in a whisper without turning to face me.
 ====================
-He speaks in a whisper without turning to face me.
+他没有转身，只是低声应了一句。
 ====================
 
 ====================
@@ -196,7 +196,7 @@ length 46
 ====================
 It's nothing new, so I'm not worried about it.
 ====================
-It's nothing new, so I'm not worried about it.
+这种事早已习以为常，所以我也不以为意。
 ====================
 
 ====================
@@ -207,7 +207,7 @@ length 41
 ====================
 \"I put today's haul in the storehouse.\"
 ====================
-\"I put today's haul in the storehouse.\"
+“今天回收的东西，我都放进仓库了。”
 ====================
 
 ====================
@@ -218,7 +218,7 @@ length 9
 ====================
 \"Okay.\"
 ====================
-\"Okay.\"
+“好。”
 ====================
 
 ====================
@@ -229,7 +229,7 @@ length 22
 ====================
 \"So... what's this?\"
 ====================
-\"So... what's this?\"
+“那么……这是什么？”
 ====================
 
 ====================
@@ -240,7 +240,7 @@ length 49
 ====================
 There's a pile of cardboard boxes in front of me.
 ====================
-There's a pile of cardboard boxes in front of me.
+眼前堆着一摞纸箱。
 ====================
 
 ====================
@@ -251,7 +251,7 @@ length 46
 ====================
 They appear to be full, but aren't very heavy.
 ====================
-They appear to be full, but aren't very heavy.
+看起来装得满满当当，可并不怎么重。
 ====================
 
 ====================
@@ -262,7 +262,7 @@ length 64
 ====================
 When I open one, I find something we don't deal in: old clothes.
 ====================
-When I open one, I find something we don't deal in: old clothes.
+打开一看，里面装的竟是些我们本不该收的东西——旧衣服。
 ====================
 
 ====================
@@ -273,7 +273,7 @@ length 25
 ====================
 \"Hm? Oh, they arrived?\"
 ====================
-\"Hm? Oh, they arrived?\"
+“嗯？哦，已经到了吗？”
 ====================
 
 ====================
@@ -284,7 +284,7 @@ length 57
 ====================
 \"Sorry, but could you put those in the storehouse too?\"
 ====================
-\"Sorry, but could you put those in the storehouse too?\"
+“抱歉，能把这些也一起搬进仓库吗？”
 ====================
 
 ====================
@@ -295,7 +295,7 @@ length 61
 ====================
 \"Understood, but we don't deal in old clothes here, do we?\"
 ====================
-\"Understood, but we don't deal in old clothes here, do we?\"
+“可以是可以……不过我们这儿不是不收旧衣服的吗？”
 ====================
 
 ====================
@@ -306,7 +306,7 @@ length 80
 ====================
 \"They're Yokoyama-san's. Their daughter-in-law is recovering from childbirth.\"
 ====================
-\"They're Yokoyama-san's. Their daughter-in-law is recovering from childbirth.\"
+“那是横山先生家的。他家儿媳妇刚生完孩子，正在休养。”
 ====================
 
 ====================
@@ -317,7 +317,7 @@ length 72
 ====================
 \"We're only holding on to them for a bit, so put them near the front.\"
 ====================
-\"We're only holding on to them for a bit, so put them near the front.\"
+“只是暂时替他保管一阵子，放到靠门口的地方就行。”
 ====================
 
 ====================
@@ -328,7 +328,7 @@ length 11
 ====================
 \"Got it.\"
 ====================
-\"Got it.\"
+“明白了。”
 ====================
 
 ====================
@@ -339,7 +339,7 @@ length 16
 ====================
 \"Oh, hold on.\"
 ====================
-\"Oh, hold on.\"
+“哦，等等。”
 ====================
 
 ====================
@@ -350,7 +350,7 @@ length 50
 ====================
 As I go to get the hand truck, he calls out to me.
 ====================
-As I go to get the hand truck, he calls out to me.
+我正要去拉手推车，老板叫住了我。
 ====================
 
 ====================
@@ -361,7 +361,7 @@ length 77
 ====================
 \"Have a look, you can take a few things home if there's anything you want.\"
 ====================
-\"Have a look, you can take a few things home if there's anything you want.\"
+“你翻翻看吧，有想要的就挑几件带回家。”
 ====================
 
 ====================
@@ -372,7 +372,7 @@ length 80
 ====================
 \"Well, they're from a clothes rental shop, so there might be a suit in there.\"
 ====================
-\"Well, they're from a clothes rental shop, so there might be a suit in there.\"
+“这些是从租衣店那边送来的，说不定里面会有西装。”
 ====================
 
 ====================
@@ -383,7 +383,7 @@ length 24
 ====================
 \"Is that really okay?\"
 ====================
-\"Is that really okay?\"
+“真的可以吗？”
 ====================
 
 ====================
@@ -394,7 +394,7 @@ length 34
 ====================
 \"You don't have a suit, do you?\"
 ====================
-\"You don't have a suit, do you?\"
+“你不是没有西装嘛。”
 ====================
 
 ====================
@@ -405,7 +405,7 @@ length 18
 ====================
 \"Yeah, I don't.\"
 ====================
-\"Yeah, I don't.\"
+“嗯，确实没有。”
 ====================
 
 ====================
@@ -416,7 +416,7 @@ length 67
 ====================
 \"It could be useful. Sooner or later, you'll be doing sales too.\"
 ====================
-\"It could be useful. Sooner or later, you'll be doing sales too.\"
+“有备无患嘛。早晚有一天，你也要出去跑业务的。”
 ====================
 
 ====================
@@ -427,7 +427,7 @@ length 24
 ====================
 \"Thank you very much.\"
 ====================
-\"Thank you very much.\"
+“非常感谢。”
 ====================
 
 ====================
@@ -438,7 +438,7 @@ length 46
 ====================
 When I say that, the boss cracks a rare smile.
 ====================
-When I say that, the boss cracks a rare smile.
+听我这么说，老板难得地露出了笑容。
 ====================
 
 ====================
@@ -449,7 +449,7 @@ length 58
 ====================
 And so I load the boxes onto the hand truck and move them.
 ====================
-And so I load the boxes onto the hand truck and move them.
+于是我把纸箱搬上手推车，一趟趟地运过去。
 ====================
 
 ====================
@@ -460,7 +460,7 @@ length 87
 ====================
 Once they're all in the storehouse, I open them one by one and go through the contents.
 ====================
-Once they're all in the storehouse, I open them one by one and go through the contents.
+全部搬进仓库后，我一个一个拆开，翻看里面的东西。
 ====================
 
 ====================
@@ -471,7 +471,7 @@ length 27
 ====================
 \"...it's a little loose.\"
 ====================
-\"...it's a little loose.\"
+“……腰身有点松。”
 ====================
 
 ====================
@@ -482,7 +482,7 @@ length 87
 ====================
 I have found a suit that's right for my height, but it's a little big around the waist.
 ====================
-I have found a suit that's right for my height, but it's a little big around the waist.
+我找到一件长度正合身的西装，可腰围稍微大了些。
 ====================
 
 ====================
@@ -493,7 +493,7 @@ length 48
 ====================
 But I can probably manage if I tighten the belt.
 ====================
-But I can probably manage if I tighten the belt.
+不过只要把腰带勒紧一点，应该就能凑合着穿。
 ====================
 
 ====================
@@ -504,7 +504,7 @@ length 59
 ====================
 I decide to take the boss up on his offer and take it home.
 ====================
-I decide to take the boss up on his offer and take it home.
+我决定领老板的情，把这套西装带回家。
 ====================
 
 ====================
@@ -515,7 +515,7 @@ length 64
 ====================
 As I repack the clothes into the boxes, I find an old paper bag.
 ====================
-As I repack the clothes into the boxes, I find an old paper bag.
+我把衣服重新装回箱子时，发现了一只旧纸袋。
 ====================
 
 ====================
@@ -526,7 +526,7 @@ length 69
 ====================
 Inside, there's a tight skirt and jacket that make up a ladies' suit.
 ====================
-Inside, there's a tight skirt and jacket that make up a ladies' suit.
+里面装着一套女式西装，由紧身裙和上衣组成。
 ====================
 
 ====================
@@ -537,7 +537,7 @@ length 36
 ====================
 (...this might look good on Tomoyo.)
 ====================
-(...this might look good on Tomoyo.)
+（……这套智代穿上应该会很好看。）
 ====================
 
 ====================
@@ -548,7 +548,7 @@ length 62
 ====================
 I decide to get permission from the boss and take it home too.
 ====================
-I decide to get permission from the boss and take it home too.
+我决定征得老板的同意，把这套也带回家。
 ====================
 
 ====================
@@ -559,7 +559,7 @@ length 64
 ====================
 The boss looks at the clock. It's a little past our usual hours.
 ====================
-The boss looks at the clock. It's a little past our usual hours.
+老板看了看钟，已经过了平时下班的点了。
 ====================
 
 ====================
@@ -570,7 +570,7 @@ length 35
 ====================
 \"That's enough. You can go home.\"
 ====================
-\"That's enough. You can go home.\"
+“今天差不多了，你先回去吧。”
 ====================
 
 ====================
@@ -581,7 +581,7 @@ length 72
 ====================
 After changing, I say my farewells, bow, and leave the workplace behind.
 ====================
-After changing, I say my farewells, bow, and leave the workplace behind.
+换好衣服后，我打了声招呼，鞠躬告辞，走出了店门。
 ====================
 
 ====================
@@ -592,7 +592,7 @@ length 30
 ====================
 Tomoyo is walking ahead of me.
 ====================
-Tomoyo is walking ahead of me.
+智代正走在我前面。
 ====================
 
 ====================
@@ -603,7 +603,7 @@ length 73
 ====================
 As I'm about to call out to her, I realize I'd be wasting an opportunity.
 ====================
-As I'm about to call out to her, I realize I'd be wasting an opportunity.
+我正要开口喊她，转念一想，就这么叫住她，岂不可惜。
 ====================
 
 ====================
@@ -614,7 +614,7 @@ length 65
 ====================
 I want to watch her walking alone toward my room a little longer.
 ====================
-I want to watch her walking alone toward my room a little longer.
+我想再多看一会儿她一个人朝我家走去的背影。
 ====================
 
 ====================
@@ -625,7 +625,7 @@ length 83
 ====================
 I want to see the look on her face, so I keep my distance and walk parallel to her.
 ====================
-I want to see the look on her face, so I keep my distance and walk parallel to her.
+可我又想看看她脸上的表情，于是拉开一段距离，从旁边与她并肩走着。
 ====================
 
 ====================
@@ -636,7 +636,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+“…………”
 ====================
 
 ====================
@@ -647,7 +647,7 @@ length 34
 ====================
 When I take a peek, she's smiling.
 ====================
-When I take a peek, she's smiling.
+我偷偷一瞧，发现她正微笑着。
 ====================
 
 ====================
@@ -658,7 +658,7 @@ length 65
 ====================
 When I see her smiling so happily, I feel a little embarrassed...
 ====================
-When I see her smiling so happily, I feel a little embarrassed...
+看她笑得那么开心，我反倒有点不好意思起来……
 ====================
 
 ====================
@@ -669,7 +669,7 @@ length 7
 ====================
 \"Yo.\"
 ====================
-\"Yo.\"
+“哟。”
 ====================
 
 ====================
@@ -680,7 +680,7 @@ length 62
 ====================
 When I call out, she draws back in surprise then smiles again.
 ====================
-When I call out, she draws back in surprise then smiles again.
+我出声招呼，她先是吓了一跳，随后又露出了笑容。
 ====================
 
 ====================
@@ -691,7 +691,7 @@ length 17
 ====================
 \"Welcome back.\"
 ====================
-\"Welcome back.\"
+“欢迎回来。”
 ====================
 
 ====================
@@ -702,7 +702,7 @@ length 11
 ====================
 \"Thanks.\"
 ====================
-\"Thanks.\"
+“谢啦。”
 ====================
 
 ====================
@@ -713,7 +713,7 @@ length 73
 ====================
 That same day, we stand in front of the sink and prepare dinner together.
 ====================
-That same day, we stand in front of the sink and prepare dinner together.
+当天，我们并肩站在水池前，一起准备晚饭。
 ====================
 
 ====================
@@ -724,7 +724,7 @@ length 70
 ====================
 When we're finished, Tomoyo puts away her apron and stands there idly.
 ====================
-When we're finished, Tomoyo puts away her apron and stands there idly.
+都收拾妥当后，智代解下围裙，无所事事地站在那儿。
 ====================
 
 ====================
@@ -735,7 +735,7 @@ length 54
 ====================
 Then, as if remembering something, she locks the door.
 ====================
-Then, as if remembering something, she locks the door.
+接着，她像突然想起什么似的，走过去把门锁上了。
 ====================
 
 ====================
@@ -746,7 +746,7 @@ length 17
 ====================
 \"What's wrong?\"
 ====================
-\"What's wrong?\"
+“怎么了？”
 ====================
 
 ====================
@@ -757,7 +757,7 @@ length 46
 ====================
 \"It's nothing... just making doubly sure...\"
 ====================
-\"It's nothing... just making doubly sure...\"
+“没什么……只是想再确认一下锁好了没有……”
 ====================
 
 ====================
@@ -768,7 +768,7 @@ length 25
 ====================
 \"Now he can't come in.\"
 ====================
-\"Now he can't come in.\"
+“这下他就进不来了。”
 ====================
 
 ====================
@@ -779,7 +779,7 @@ length 18
 ====================
 \"Huh? Takafumi?\"
 ====================
-\"Huh? Takafumi?\"
+“嗯？你是说鹰文？”
 ====================
 
 ====================
@@ -790,7 +790,7 @@ length 8
 ====================
 \"Yes.\"
 ====================
-\"Yes.\"
+“嗯。”
 ====================
 
 ====================
@@ -801,7 +801,7 @@ length 22
 ====================
 \"You're going to...\"
 ====================
-\"You're going to...\"
+“你该不会是想……”
 ====================
 
 ====================
@@ -812,7 +812,7 @@ length 29
 ====================
 She looks down and hesitates.
 ====================
-She looks down and hesitates.
+她低下头，欲言又止。
 ====================
 
 ====================
@@ -823,7 +823,7 @@ length 46
 ====================
 \"We'll probably do something weird again...\"
 ====================
-\"We'll probably do something weird again...\"
+“我们大概又要做什么奇怪的事了……”
 ====================
 
 ====================
@@ -834,7 +834,7 @@ length 30
 ====================
 \"I have time again today...\"
 ====================
-\"I have time again today...\"
+“我今天也有空……”
 ====================
 
 ====================
@@ -845,7 +845,7 @@ length 24
 ====================
 *Scribble* *Scribble*...
 ====================
-*Scribble* *Scribble*...
+沙沙……沙沙……
 ====================
 
 ====================
@@ -856,7 +856,7 @@ length 59
 ====================
 \"Hey, why are you at your desk studying all of a sudden!\"
 ====================
-\"Hey, why are you at your desk studying all of a sudden!\"
+“喂，你怎么突然跑到书桌前用功起来了！”
 ====================
 
 ====================
@@ -867,7 +867,7 @@ length 45
 ====================
 I started taking notes from a reference book.
 ====================
-I started taking notes from a reference book.
+我翻开参考书，开始做笔记。
 ====================
 
 ====================
@@ -878,7 +878,7 @@ length 75
 ====================
 \"Even though I'm over here embarrassing myself with such a confession...\"
 ====================
-\"Even though I'm over here embarrassing myself with such a confession...\"
+“我都豁出脸面说出那种话了，你却……”
 ====================
 
 ====================
@@ -889,7 +889,7 @@ length 62
 ====================
 \"Well, if I don't get certifications, my pay won't go up...\"
 ====================
-\"Well, if I don't get certifications, my pay won't go up...\"
+“话虽如此，可要是考不到资格证，工资就涨不上去……”
 ====================
 
 ====================
@@ -900,7 +900,7 @@ length 37
 ====================
 \"Really...? I guess that's true...\"
 ====================
-\"Really...? I guess that's true...\"
+“是吗……这么说倒也没错……”
 ====================
 
 ====================
@@ -911,7 +911,7 @@ length 30
 ====================
 \"Sorry for getting upset...\"
 ====================
-\"Sorry for getting upset...\"
+“抱歉，刚才是我太激动了……”
 ====================
 
 ====================
@@ -922,7 +922,7 @@ length 60
 ====================
 \"Is there anything I can do? I'll help you any way I can.\"
 ====================
-\"Is there anything I can do? I'll help you any way I can.\"
+“有什么我能帮上忙的吗？只要是我能做到的，我都愿意帮你。”
 ====================
 
 ====================
@@ -933,7 +933,7 @@ length 48
 ====================
 \"Hm... how about you try asking me questions?\"
 ====================
-\"Hm... how about you try asking me questions?\"
+“嗯……不如你来考考我吧？”
 ====================
 
 ====================
@@ -944,7 +944,7 @@ length 15
 ====================
 \"No problem.\"
 ====================
-\"No problem.\"
+“没问题。”
 ====================
 
 ====================
@@ -955,7 +955,7 @@ length 52
 ====================
 \"Wear this and play the part of a female teacher.\"
 ====================
-\"Wear this and play the part of a female teacher.\"
+“你穿上这个，来扮演一回女老师吧。”
 ====================
 
 ====================
@@ -966,7 +966,7 @@ length 52
 ====================
 I take the suit out of the paper bag I brought home.
 ====================
-I take the suit out of the paper bag I brought home.
+我把带回来的纸袋里的那套西装取了出来。
 ====================
 
 ====================
@@ -977,7 +977,7 @@ length 49
 ====================
 She narrows her eyes and gazes into the distance.
 ====================
-She narrows her eyes and gazes into the distance.
+她眯起眼睛，眺望着远方。
 ====================
 
 ====================
@@ -988,7 +988,7 @@ length 22
 ====================
 \"...I don't get it.\"
 ====================
-\"...I don't get it.\"
+“……我不明白你的意思。”
 ====================
 
 ====================
@@ -999,7 +999,7 @@ length 61
 ====================
 \"Well, didn't you say you'd do anything you could to help?\"
 ====================
-\"Well, didn't you say you'd do anything you could to help?\"
+“你不是说了，只要能帮上忙，什么都愿意做吗？”
 ====================
 
 ====================
@@ -1010,7 +1010,7 @@ length 50
 ====================
 \"But having me go as far as changing clothes...\"
 ====================
-\"But having me go as far as changing clothes...\"
+“可是，你竟然要我做到换衣服这种地步……”
 ====================
 
 ====================
@@ -1021,7 +1021,7 @@ length 119
 ====================
 \"If you're in your school uniform, it'll feel like we're working together and I won't be able to put my all into it.\"
 ====================
-\"If you're in your school uniform, it'll feel like we're working together and I won't be able to put my all into it.\"
+“你要是穿着校服，我总觉得像是在和同学一起学习，没法专心。”
 ====================
 
 ====================
@@ -1032,7 +1032,7 @@ length 67
 ====================
 \"...I have to ask. You're not thinking something weird, are you?\"
 ====================
-\"...I have to ask. You're not thinking something weird, are you?\"
+“……我得先问清楚，你没在想什么奇怪的事吧？”
 ====================
 
 ====================
@@ -1043,7 +1043,7 @@ length 70
 ====================
 \"It's fine, I won't do anything. It's enough that you just wear it.\"
 ====================
-\"It's fine, I won't do anything. It's enough that you just wear it.\"
+“没事的，我什么也不会做。你只要穿上它就好了。”
 ====================
 
 ====================
@@ -1054,7 +1054,7 @@ length 19
 ====================
 \"Perveeeeeeert!!\"
 ====================
-\"Perveeeeeeert!!\"
+“变——态！！”
 ====================
 
 ====================
@@ -1065,7 +1065,7 @@ length 35
 ====================
 \"Are you really okay with that?!\"
 ====================
-\"Are you really okay with that?!\"
+“你真的能忍得住吗？！”
 ====================
 
 ====================
@@ -1076,7 +1076,7 @@ length 46
 ====================
 \"I'm only going to put it on and teach you.\"
 ====================
-\"I'm only going to put it on and teach you.\"
+“我只会穿上它给你讲课哦。”
 ====================
 
 ====================
@@ -1087,7 +1087,7 @@ length 34
 ====================
 \"Isn't it okay to be wholesome?\"
 ====================
-\"Isn't it okay to be wholesome?\"
+“纯纯地学习，不是很好吗？”
 ====================
 
 ====================
@@ -1098,7 +1098,7 @@ length 35
 ====================
 \"So my boyfriend is a pervert...\"
 ====================
-\"So my boyfriend is a pervert...\"
+“这么说来，我的男朋友是个变态……”
 ====================
 
 ====================
@@ -1109,7 +1109,7 @@ length 55
 ====================
 \"Yeah, this a request from your perverted boyfriend.\"
 ====================
-\"Yeah, this a request from your perverted boyfriend.\"
+“没错，这是你那位变态男朋友的请求。”
 ====================
 
 ====================
@@ -1120,7 +1120,7 @@ length 53
 ====================
 \"Uh... that makes me a pervert too, doesn't it...?\"
 ====================
-\"Uh... that makes me a pervert too, doesn't it...?\"
+“呃……我要是答应了，我不也成变态了吗……”
 ====================
 
 ====================
@@ -1131,7 +1131,7 @@ length 50
 ====================
 Reluctantly, she goes into the bathroom to change.
 ====================
-Reluctantly, she goes into the bathroom to change.
+她不情不愿地走进浴室去换衣服。
 ====================
 
 ====================
@@ -1142,7 +1142,7 @@ length 25
 ====================
 \"...are you satisfied?\"
 ====================
-\"...are you satisfied?\"
+“……你满意了吗？”
 ====================
 
 ====================
@@ -1153,7 +1153,7 @@ length 32
 ====================
 \"It's better than I expected.\"
 ====================
-\"It's better than I expected.\"
+“比我想象的还要好。”
 ====================
 
 ====================
@@ -1164,7 +1164,7 @@ length 70
 ====================
 \"But having me sit on the desk... isn't this extremely bad manners?\"
 ====================
-\"But having me sit on the desk... isn't this extremely bad manners?\"
+“可你还让我坐到书桌上……这也太没规矩了吧？”
 ====================
 
 ====================
@@ -1175,7 +1175,7 @@ length 21
 ====================
 \"That's the point.\"
 ====================
-\"That's the point.\"
+“要的就是这种感觉。”
 ====================
 
 ====================
@@ -1186,7 +1186,7 @@ length 19
 ====================
 \"Perveeeeeeert!!\"
 ====================
-\"Perveeeeeeert!!\"
+“变——态！！”
 ====================
 
 ====================
@@ -1197,7 +1197,7 @@ length 44
 ====================
 \"I don't understand how perverts think...\"
 ====================
-\"I don't understand how perverts think...\"
+“变态的心思，我真搞不懂……”
 ====================
 
 ====================
@@ -1208,7 +1208,7 @@ length 42
 ====================
 \"Well then, let's get to the questions.\"
 ====================
-\"Well then, let's get to the questions.\"
+“那好，我们开始提问吧。”
 ====================
 
 ====================
@@ -1219,7 +1219,7 @@ length 74
 ====================
 \"...quizzing you like this makes me a really high and mighty teacher...\"
 ====================
-\"...quizzing you like this makes me a really high and mighty teacher...\"
+“……像这样考你，我还真有点高高在上的老师做派呢……”
 ====================
 
 ====================
@@ -1230,7 +1230,7 @@ length 15
 ====================
 \"Um, Sensei.\"
 ====================
-\"Um, Sensei.\"
+“那个，老师。”
 ====================
 
 ====================
@@ -1241,7 +1241,7 @@ length 16
 ====================
 I raise my hand.
 ====================
-I raise my hand.
+我举起手。
 ====================
 
 ====================
@@ -1252,7 +1252,7 @@ length 9
 ====================
 \"What?\"
 ====================
-\"What?\"
+“什么事？”
 ====================
 
 ====================
@@ -1263,7 +1263,7 @@ length 56
 ====================
 \"If I get the answer right, could you move your hand?\"
 ====================
-\"If I get the answer right, could you move your hand?\"
+“如果我答对了，能把你的手移开一下吗？”
 ====================
 
 ====================
@@ -1274,7 +1274,7 @@ length 19
 ====================
 \"Perveeeeeeert!!\"
 ====================
-\"Perveeeeeeert!!\"
+“变——态！！”
 ====================
 
 ====================
@@ -1285,7 +1285,7 @@ length 36
 ====================
 \"Well, I'm a student at that age.\"
 ====================
-\"Well, I'm a student at that age.\"
+“我也是这个年纪的学生嘛。”
 ====================
 
 ====================
@@ -1296,7 +1296,7 @@ length 84
 ====================
 \"What a student... how humiliating to be in charge of such a perverted student...\"
 ====================
-\"What a student... how humiliating to be in charge of such a perverted student...\"
+“有你这样的学生……摊上这么个变态学生，真是丢死人了……”
 ====================
 
 ====================
@@ -1307,7 +1307,7 @@ length 109
 ====================
 \"This skirt is pretty short and you made me sit here, so I covered up thinking you might be able to see...\"
 ====================
-\"This skirt is pretty short and you made me sit here, so I covered up thinking you might be able to see...\"
+“这条裙子本来就短，你还让我坐在这儿，我怕被你看光，一直用手压着呢……”
 ====================
 
 ====================
@@ -1318,7 +1318,7 @@ length 44
 ====================
 \"And to think you actually went for it...\"
 ====================
-\"And to think you actually went for it...\"
+“可你倒好，还真打这种主意……”
 ====================
 
 ====================
@@ -1329,7 +1329,7 @@ length 45
 ====================
 \"You're a hopeless pervert of a student...\"
 ====================
-\"You're a hopeless pervert of a student...\"
+“你这个学生，简直是无可救药的变态……”
 ====================
 
 ====================
@@ -1340,7 +1340,7 @@ length 32
 ====================
 \"But this is very motivating.\"
 ====================
-\"But this is very motivating.\"
+“可这样我学习起来才更有干劲嘛。”
 ====================
 
 ====================
@@ -1351,7 +1351,7 @@ length 49
 ====================
 \"What are you, a perverted middle schooler...?\"
 ====================
-\"What are you, a perverted middle schooler...?\"
+“你是哪来的变态初中生啊……？”
 ====================
 
 ====================
@@ -1362,7 +1362,7 @@ length 33
 ====================
 \"Fine... I get it. I'll do it.\"
 ====================
-\"Fine... I get it. I'll do it.\"
+“好吧……我知道了，我做就是了。”
 ====================
 
 ====================
@@ -1373,7 +1373,7 @@ length 63
 ====================
 \"That'll be your reward for getting all the answers correct.\"
 ====================
-\"That'll be your reward for getting all the answers correct.\"
+“要是你全答对了，这就算给你的奖励。”
 ====================
 
 ====================
@@ -1384,7 +1384,7 @@ length 36
 ====================
 \"Do your best, so you can see it.\"
 ====================
-\"Do your best, so you can see it.\"
+“想看的话，就好好加油吧。”
 ====================
 
 ====================
@@ -1395,7 +1395,7 @@ length 6
 ====================
 Lucky.
 ====================
-Lucky.
+赚到了。
 ====================
 
 ====================
@@ -1406,7 +1406,7 @@ length 74
 ====================
 \"So because of that, I'm going to give you the hardest questions I can.\"
 ====================
-\"So because of that, I'm going to give you the hardest questions I can.\"
+“既然如此，我可要拿最难的题来考你了。”
 ====================
 
 ====================
@@ -1417,7 +1417,7 @@ length 28
 ====================
 \"Here we go, Okazaki-kun.\"
 ====================
-\"Here we go, Okazaki-kun.\"
+“要开始咯，冈崎同学。”
 ====================
 
 ====================
@@ -1428,7 +1428,7 @@ length 9
 ====================
 \"Okay!\"
 ====================
-\"Okay!\"
+“好嘞！”
 ====================
 
 ====================
@@ -1439,7 +1439,7 @@ length 33
 ====================
 \"What a waste of enthusiasm...\"
 ====================
-\"What a waste of enthusiasm...\"
+“这干劲，还真是浪费……”
 ====================
 
 ====================
@@ -1450,7 +1450,7 @@ length 23
 ====================
 \"Okay, question one.\"
 ====================
-\"Okay, question one.\"
+“好，第一题。”
 ====================
 
 ====================
@@ -1461,7 +1461,7 @@ length 152
 ====================
 \"What is the formal name of the motor that is used in items such as vacuum cleaners and coffee grinders and is commonly known as the universal motor?\"
 ====================
-\"What is the formal name of the motor that is used in items such as vacuum cleaners and coffee grinders and is commonly known as the universal motor?\"
+“吸尘器、咖啡研磨机等家电里使用的、俗称万能电动机（universal motor）的电动机，正式名称是什么？”
 ====================
 
 ====================
@@ -1472,7 +1472,7 @@ length 42
 ====================
 Single-phase commutated series-wound motor
 ====================
-Single-phase commutated series-wound motor
+单相换向器串励电动机
 ====================
 
 ====================
@@ -1483,7 +1483,7 @@ length 39
 ====================
 Wound rotor three-phase induction motor
 ====================
-Wound rotor three-phase induction motor
+绕线式三相感应电动机
 ====================
 
 ====================
@@ -1494,7 +1494,7 @@ length 33
 ====================
 Electromagnetic synchronous motor
 ====================
-Electromagnetic synchronous motor
+电磁同步电动机
 ====================
 
 ====================
@@ -1505,7 +1505,7 @@ length 15
 ====================
 \"...correct.\"
 ====================
-\"...correct.\"
+“……答对了。”
 ====================
 
 ====================
@@ -1516,7 +1516,7 @@ length 21
 ====================
 \"Hell yeeeeeeeah!!\"
 ====================
-\"Hell yeeeeeeeah!!\"
+“好耶————！！”
 ====================
 
 ====================
@@ -1527,7 +1527,7 @@ length 70
 ====================
 \"I don't even want to ask where that abnormal joy is coming from...\"
 ====================
-\"I don't even want to ask where that abnormal joy is coming from...\"
+“你那反常的兴奋劲儿是从哪儿来的，我都不想问了……”
 ====================
 
 ====================
@@ -1538,7 +1538,7 @@ length 15
 ====================
 \"Perversion.\"
 ====================
-\"Perversion.\"
+“因为变态嘛。”
 ====================
 
 ====================
@@ -1549,7 +1549,7 @@ length 19
 ====================
 \"Don't answer...\"
 ====================
-\"Don't answer...\"
+“别回答……”
 ====================
 
 ====================
@@ -1560,7 +1560,7 @@ length 14
 ====================
 \"Incorrect.\"
 ====================
-\"Incorrect.\"
+“答错了。”
 ====================
 
 ====================
@@ -1571,7 +1571,7 @@ length 65
 ====================
 \"The three-phase induction motor is a type of induction motor.\"
 ====================
-\"The three-phase induction motor is a type of induction motor.\"
+“三相感应电动机属于感应电动机的一种。”
 ====================
 
 ====================
@@ -1582,7 +1582,7 @@ length 79
 ====================
 \"Induction motors are AC motors; a universal motor can use DC power as well.\"
 ====================
-\"Induction motors are AC motors; a universal motor can use DC power as well.\"
+“感应电动机只能用交流电，而万能电动机是连直流电也能用的。”
 ====================
 
 ====================
@@ -1593,7 +1593,7 @@ length 25
 ====================
 \"...wh-what... damn...\"
 ====================
-\"...wh-what... damn...\"
+“……什、什么……可恶……”
 ====================
 
 ====================
@@ -1604,7 +1604,7 @@ length 27
 ====================
 \"You seem really down...\"
 ====================
-\"You seem really down...\"
+“你看上去好失落啊……”
 ====================
 
 ====================
@@ -1615,7 +1615,7 @@ length 14
 ====================
 \"Incorrect.\"
 ====================
-\"Incorrect.\"
+“答错了。”
 ====================
 
 ====================
@@ -1626,7 +1626,7 @@ length 69
 ====================
 \"It is possible to manufacture a large-capacity synchronous motor.\"
 ====================
-\"It is possible to manufacture a large-capacity synchronous motor.\"
+“同步电动机也是可以造出大容量的。”
 ====================
 
 ====================
@@ -1637,7 +1637,7 @@ length 100
 ====================
 \"They are used in machines such as air conditioners by attaching an inverter to the power supply.\"
 ====================
-\"They are used in machines such as air conditioners by attaching an inverter to the power supply.\"
+“在电源上加装变频器后，它也会用在空调等设备上。”
 ====================
 
 ====================
@@ -1648,7 +1648,7 @@ length 25
 ====================
 \"...wh-what... damn...\"
 ====================
-\"...wh-what... damn...\"
+“……什、什么……可恶……”
 ====================
 
 ====================
@@ -1659,7 +1659,7 @@ length 27
 ====================
 \"You seem really down...\"
 ====================
-\"You seem really down...\"
+“你看上去好失落啊……”
 ====================
 
 ====================
@@ -1670,7 +1670,7 @@ length 23
 ====================
 \"Okay, question two.\"
 ====================
-\"Okay, question two.\"
+“好，第二题。”
 ====================
 
 ====================
@@ -1681,7 +1681,7 @@ length 85
 ====================
 \"For insulation classes, what is the maximum operating temperature of the F-class?\"
 ====================
-\"For insulation classes, what is the maximum operating temperature of the F-class?\"
+“关于绝缘等级，F级绝缘材料的最高使用温度是多少？”
 ====================
 
 ====================
@@ -1692,7 +1692,7 @@ length 11
 ====================
 120 degrees
 ====================
-120 degrees
+120度
 ====================
 
 ====================
@@ -1703,7 +1703,7 @@ length 11
 ====================
 155 degrees
 ====================
-155 degrees
+155度
 ====================
 
 ====================
@@ -1714,7 +1714,7 @@ length 11
 ====================
 180 degrees
 ====================
-180 degrees
+180度
 ====================
 
 ====================
@@ -1725,7 +1725,7 @@ length 17
 ====================
 \"...incorrect.\"
 ====================
-\"...incorrect.\"
+“……答错了。”
 ====================
 
 ====================
@@ -1736,7 +1736,7 @@ length 19
 ====================
 \"Aaaaaaaaaaagh!!\"
 ====================
-\"Aaaaaaaaaaagh!!\"
+“啊——————！！”
 ====================
 
 ====================
@@ -1747,7 +1747,7 @@ length 36
 ====================
 \"Well, it doesn't matter anymore.\"
 ====================
-\"Well, it doesn't matter anymore.\"
+“嘛，反正也已经无所谓了。”
 ====================
 
 ====================
@@ -1758,7 +1758,7 @@ length 32
 ====================
 \"Of course it matters, idiot.\"
 ====================
-\"Of course it matters, idiot.\"
+“当然有关系了，笨蛋。”
 ====================
 
 ====================
@@ -1769,7 +1769,7 @@ length 79
 ====================
 \"120 degrees is the E-class that uses polyester and phenol as raw materials.\"
 ====================
-\"120 degrees is the E-class that uses polyester and phenol as raw materials.\"
+“120度是用聚酯和酚醛树脂作原材料的E级绝缘材料的上限温度。”
 ====================
 
 ====================
@@ -1780,7 +1780,7 @@ length 79
 ====================
 \"120 degrees is the E-class that uses polyester and phenol as raw materials.\"
 ====================
-\"120 degrees is the E-class that uses polyester and phenol as raw materials.\"
+“120度是用聚酯和酚醛树脂作原材料的E级绝缘材料的上限温度。”
 ====================
 
 ====================
@@ -1791,7 +1791,7 @@ length 22
 ====================
 \"It doesn't matter.\"
 ====================
-\"It doesn't matter.\"
+“无所谓了。”
 ====================
 
 ====================
@@ -1802,7 +1802,7 @@ length 32
 ====================
 \"Idiot, of course it matters.\"
 ====================
-\"Idiot, of course it matters.\"
+“笨蛋，当然有关系了。”
 ====================
 
 ====================
@@ -1813,7 +1813,7 @@ length 19
 ====================
 \"...uh, correct.\"
 ====================
-\"...uh, correct.\"
+“……唔，答对了。”
 ====================
 
 ====================
@@ -1824,7 +1824,7 @@ length 21
 ====================
 \"Hell yeeeeeeeah!!\"
 ====================
-\"Hell yeeeeeeeah!!\"
+“好耶————！！”
 ====================
 
 ====================
@@ -1835,7 +1835,7 @@ length 70
 ====================
 \"I don't even want to ask where that abnormal joy is coming from...\"
 ====================
-\"I don't even want to ask where that abnormal joy is coming from...\"
+“你那反常的兴奋劲儿是从哪儿来的，我都不想问了……”
 ====================
 
 ====================
@@ -1846,7 +1846,7 @@ length 15
 ====================
 \"Perversion.\"
 ====================
-\"Perversion.\"
+“因为变态嘛。”
 ====================
 
 ====================
@@ -1857,7 +1857,7 @@ length 31
 ====================
 \"I told you not to answer...\"
 ====================
-\"I told you not to answer...\"
+“都说了让你别回答……”
 ====================
 
 ====================
@@ -1868,7 +1868,7 @@ length 70
 ====================
 \"Incidentally, silicone alkyd resins are used as the raw materials.\"
 ====================
-\"Incidentally, silicone alkyd resins are used as the raw materials.\"
+“顺便一提，这一类用的是硅醇酸树脂作原材料。”
 ====================
 
 ====================
@@ -1879,7 +1879,7 @@ length 26
 ====================
 \"I studied this before.\"
 ====================
-\"I studied this before.\"
+“这个我以前学过。”
 ====================
 
 ====================
@@ -1890,7 +1890,7 @@ length 84
 ====================
 \"I'm happy about your growth, but honestly I'm having mixed feelings right now...\"
 ====================
-\"I'm happy about your growth, but honestly I'm having mixed feelings right now...\"
+“你的进步我很高兴，可说实话，我现在的心情有点复杂……”
 ====================
 
 ====================
@@ -1901,7 +1901,7 @@ length 24
 ====================
 \"Yes, that's correct.\"
 ====================
-\"Yes, that's correct.\"
+“嗯，答对了。”
 ====================
 
 ====================
@@ -1912,7 +1912,7 @@ length 70
 ====================
 \"Incidentally, silicone alkyd resins are used as the raw materials.\"
 ====================
-\"Incidentally, silicone alkyd resins are used as the raw materials.\"
+“顺便一提，这一类用的是硅醇酸树脂作原材料。”
 ====================
 
 ====================
@@ -1923,7 +1923,7 @@ length 27
 ====================
 \"I studied this earlier.\"
 ====================
-\"I studied this earlier.\"
+“这个我先前刚学过。”
 ====================
 
 ====================
@@ -1934,7 +1934,7 @@ length 39
 ====================
 \"You can do it if you try. Good boy.\"
 ====================
-\"You can do it if you try. Good boy.\"
+“只要肯学，你还是做得到的嘛。好孩子。”
 ====================
 
 ====================
@@ -1945,7 +1945,7 @@ length 14
 ====================
 \"Incorrect.\"
 ====================
-\"Incorrect.\"
+“答错了。”
 ====================
 
 ====================
@@ -1956,7 +1956,7 @@ length 19
 ====================
 \"Aaaaaaaaaaagh!!\"
 ====================
-\"Aaaaaaaaaaagh!!\"
+“啊——————！！”
 ====================
 
 ====================
@@ -1967,7 +1967,7 @@ length 36
 ====================
 \"Well, it doesn't matter anymore.\"
 ====================
-\"Well, it doesn't matter anymore.\"
+“嘛，反正也已经无所谓了。”
 ====================
 
 ====================
@@ -1978,7 +1978,7 @@ length 32
 ====================
 \"Of course it matters, idiot.\"
 ====================
-\"Of course it matters, idiot.\"
+“当然有关系了，笨蛋。”
 ====================
 
 ====================
@@ -1989,7 +1989,7 @@ length 110
 ====================
 \"Silicone resins that are resistant to high temperatures are used as the raw material for that temperature.\"
 ====================
-\"Silicone resins that are resistant to high temperatures are used as the raw material for that temperature.\"
+“能达到那个温度的材料，用的是耐高温的硅树脂。”
 ====================
 
 ====================
@@ -2000,7 +2000,7 @@ length 110
 ====================
 \"Silicone resins that are resistant to high temperatures are used as the raw material for that temperature.\"
 ====================
-\"Silicone resins that are resistant to high temperatures are used as the raw material for that temperature.\"
+“能达到那个温度的材料，用的是耐高温的硅树脂。”
 ====================
 
 ====================
@@ -2011,7 +2011,7 @@ length 22
 ====================
 \"It doesn't matter.\"
 ====================
-\"It doesn't matter.\"
+“无所谓了。”
 ====================
 
 ====================
@@ -2022,7 +2022,7 @@ length 32
 ====================
 \"Idiot, of course it matters.\"
 ====================
-\"Idiot, of course it matters.\"
+“笨蛋，当然有关系了。”
 ====================
 
 ====================
@@ -2033,7 +2033,7 @@ length 18
 ====================
 ...*rattle rattle*
 ====================
-...*rattle rattle*
+……咔啦、咔啦……
 ====================
 
 ====================
@@ -2044,7 +2044,7 @@ length 42
 ====================
 We hear the sound of the doorknob turning.
 ====================
-We hear the sound of the doorknob turning.
+我们听到了转动门把手的声音。
 ====================
 
 ====================
@@ -2055,7 +2055,7 @@ length 18
 ====================
 \"It's Takafumi.\"
 ====================
-\"It's Takafumi.\"
+“是鹰文来了。”
 ====================
 
 ====================
@@ -2066,7 +2066,7 @@ length 58
 ====================
 \"I can't show myself dressed like this. We're not home.\"
 ====================
-\"I can't show myself dressed like this. We're not home.\"
+“这副打扮可不能让他看到。就说我们不在家好了。”
 ====================
 
 ====================
@@ -2077,7 +2077,7 @@ length 53
 ====================
 \"Okay, time for the last question. Question three.\"
 ====================
-\"Okay, time for the last question. Question three.\"
+“好，最后一题，第三问。”
 ====================
 
 ====================
@@ -2088,7 +2088,7 @@ length 93
 ====================
 \"Aside from bimetallic strips and thermistors, what type of switch is used in thermostats?\"
 ====================
-\"Aside from bimetallic strips and thermistors, what type of switch is used in thermostats?\"
+“除双金属片和热敏电阻之外，恒温器中还会使用哪种开关？”
 ====================
 
 ====================
@@ -2099,7 +2099,7 @@ length 11
 ====================
 Gyro Sensor
 ====================
-Gyro Sensor
+陀螺仪传感器
 ====================
 
 ====================
@@ -2110,7 +2110,7 @@ length 9
 ====================
 Diaphragm
 ====================
-Diaphragm
+膜片式
 ====================
 
 ====================
@@ -2121,7 +2121,7 @@ length 11
 ====================
 Non-contact
 ====================
-Non-contact
+非接触式
 ====================
 
 ====================
@@ -2132,7 +2132,7 @@ length 14
 ====================
 \"Incorrect.\"
 ====================
-\"Incorrect.\"
+“答错了。”
 ====================
 
 ====================
@@ -2143,7 +2143,7 @@ length 19
 ====================
 \"Aaaaaaaaaaagh!!\"
 ====================
-\"Aaaaaaaaaaagh!!\"
+“啊——————！！”
 ====================
 
 ====================
@@ -2154,7 +2154,7 @@ length 106
 ====================
 \"A gyro sensor is a vibration sensor that is used in things such as heater overturn prevention devices.\"
 ====================
-\"A gyro sensor is a vibration sensor that is used in things such as heater overturn prevention devices.\"
+“陀螺仪传感器是一种振动传感器，用于暖炉等的倾倒防止装置上。”
 ====================
 
 ====================
@@ -2165,7 +2165,7 @@ length 32
 ====================
 \"It resembles a spinning top.\"
 ====================
-\"It resembles a spinning top.\"
+“它的外形就像一只旋转的陀螺。”
 ====================
 
 ====================
@@ -2176,7 +2176,7 @@ length 30
 ====================
 \"It doesn't matter anymore.\"
 ====================
-\"It doesn't matter anymore.\"
+“算了，已经无所谓了。”
 ====================
 
 ====================
@@ -2187,7 +2187,7 @@ length 32
 ====================
 \"Idiot, of course it matters.\"
 ====================
-\"Idiot, of course it matters.\"
+“笨蛋，当然有关系了。”
 ====================
 
 ====================
@@ -2198,7 +2198,7 @@ length 24
 ====================
 \"What was that again?\"
 ====================
-\"What was that again?\"
+“刚才说到哪儿了？”
 ====================
 
 ====================
@@ -2209,7 +2209,7 @@ length 106
 ====================
 \"A gyro sensor is a vibration sensor that is used in things such as heater overturn prevention devices.\"
 ====================
-\"A gyro sensor is a vibration sensor that is used in things such as heater overturn prevention devices.\"
+“陀螺仪传感器是一种振动传感器，用于暖炉等的倾倒防止装置上。”
 ====================
 
 ====================
@@ -2220,7 +2220,7 @@ length 32
 ====================
 \"It resembles a spinning top.\"
 ====================
-\"It resembles a spinning top.\"
+“它的外形就像一只旋转的陀螺。”
 ====================
 
 ====================
@@ -2231,7 +2231,7 @@ length 21
 ====================
 \"...uh... correct.\"
 ====================
-\"...uh... correct.\"
+“……唔……答对了。”
 ====================
 
 ====================
@@ -2242,7 +2242,7 @@ length 21
 ====================
 \"Hell yeeeeeeeah!!\"
 ====================
-\"Hell yeeeeeeeah!!\"
+“好耶————！！”
 ====================
 
 ====================
@@ -2253,7 +2253,7 @@ length 34
 ====================
 \"Studying so hard was worth it!\"
 ====================
-\"Studying so hard was worth it!\"
+“那么拼命地学习，总算没白费！”
 ====================
 
 ====================
@@ -2264,7 +2264,7 @@ length 34
 ====================
 \"What were you studying for...?\"
 ====================
-\"What were you studying for...?\"
+“你到底是为了什么在学啊……”
 ====================
 
 ====================
@@ -2275,7 +2275,7 @@ length 19
 ====================
 \"For perversion.\"
 ====================
-\"For perversion.\"
+“为了变态。”
 ====================
 
 ====================
@@ -2286,7 +2286,7 @@ length 23
 ====================
 \"That's not right...\"
 ====================
-\"That's not right...\"
+“这动机不太对劲吧……”
 ====================
 
 ====================
@@ -2297,7 +2297,7 @@ length 12
 ====================
 \"Correct.\"
 ====================
-\"Correct.\"
+“答对了。”
 ====================
 
 ====================
@@ -2308,7 +2308,7 @@ length 64
 ====================
 \"A diaphragm is a type of switch that utilizes gas expansion.\"
 ====================
-\"A diaphragm is a type of switch that utilizes gas expansion.\"
+“膜片式是利用气体膨胀而动作的一种开关。”
 ====================
 
 ====================
@@ -2319,7 +2319,7 @@ length 30
 ====================
 \"Oh, aren't you incredible.\"
 ====================
-\"Oh, aren't you incredible.\"
+“哦，你还挺厉害的嘛。”
 ====================
 
 ====================
@@ -2330,7 +2330,7 @@ length 39
 ====================
 \"But it doesn't even matter anymore.\"
 ====================
-\"But it doesn't even matter anymore.\"
+“不过，已经无所谓了。”
 ====================
 
 ====================
@@ -2341,7 +2341,7 @@ length 32
 ====================
 \"Of course it matters, idiot.\"
 ====================
-\"Of course it matters, idiot.\"
+“当然有关系了，笨蛋。”
 ====================
 
 ====================
@@ -2352,7 +2352,7 @@ length 14
 ====================
 \"Incorrect.\"
 ====================
-\"Incorrect.\"
+“答错了。”
 ====================
 
 ====================
@@ -2363,7 +2363,7 @@ length 32
 ====================
 \"Gyaiagreiiiiiibodododooooo!!\"
 ====================
-\"Gyaiagreiiiiiibodododooooo!!\"
+“嘎呀咯嘞咿咿咿咿——波哆哆哆哆哦哦哦哦！！”
 ====================
 
 ====================
@@ -2374,7 +2374,7 @@ length 35
 ====================
 \"Gyaiagreibodododo? What's that?\"
 ====================
-\"Gyaiagreibodododo? What's that?\"
+“嘎呀咯嘞波哆哆哆？那是什么叫声啊？”
 ====================
 
 ====================
@@ -2385,7 +2385,7 @@ length 86
 ====================
 \"It's the cry of my soul that just naturally welled up in response to such a shock.\"
 ====================
-\"It's the cry of my soul that just naturally welled up in response to such a shock.\"
+“那是我的灵魂在受到冲击时，不由自主涌出来的呐喊。”
 ====================
 
 ====================
@@ -2396,7 +2396,7 @@ length 52
 ====================
 \"Something like that welled up... you're gross...\"
 ====================
-\"Something like that welled up... you're gross...\"
+“那种东西也会涌出来……你好恶心……”
 ====================
 
 ====================
@@ -2407,7 +2407,7 @@ length 122
 ====================
 \"Non-contact is a type of thermistor that is used in sensors that detect the liquid level of kerosene or other liquids.\"
 ====================
-\"Non-contact is a type of thermistor that is used in sensors that detect the liquid level of kerosene or other liquids.\"
+“非接触式是热敏电阻的一种，用于检测煤油等液体液位的传感器中。”
 ====================
 
 ====================
@@ -2418,7 +2418,7 @@ length 30
 ====================
 \"It doesn't matter anymore.\"
 ====================
-\"It doesn't matter anymore.\"
+“算了，已经无所谓了。”
 ====================
 
 ====================
@@ -2429,7 +2429,7 @@ length 32
 ====================
 \"Idiot, of course it matters.\"
 ====================
-\"Idiot, of course it matters.\"
+“笨蛋，当然有关系了。”
 ====================
 
 ====================
@@ -2440,7 +2440,7 @@ length 122
 ====================
 \"Non-contact is a type of thermistor that is used in sensors that detect the liquid level of kerosene or other liquids.\"
 ====================
-\"Non-contact is a type of thermistor that is used in sensors that detect the liquid level of kerosene or other liquids.\"
+“非接触式是热敏电阻的一种，用于检测煤油等液体液位的传感器中。”
 ====================
 
 ====================
@@ -2451,7 +2451,7 @@ length 44
 ====================
 \"Oh, I remember hearing that somewhere...\"
 ====================
-\"Oh, I remember hearing that somewhere...\"
+“哦，这个我好像在哪儿听说过……”
 ====================
 
 ====================
@@ -2462,7 +2462,7 @@ length 34
 ====================
 \"Your results... all incorrect.\"
 ====================
-\"Your results... all incorrect.\"
+“你的成绩……三题全错。”
 ====================
 
 ====================
@@ -2473,7 +2473,7 @@ length 26
 ====================
 \"That's no good at all.\"
 ====================
-\"That's no good at all.\"
+“这可完全不行呢。”
 ====================
 
 ====================
@@ -2484,7 +2484,7 @@ length 33
 ====================
 \"I'm disappointed in myself...\"
 ====================
-\"I'm disappointed in myself...\"
+“我对自己太失望了……”
 ====================
 
 ====================
@@ -2495,7 +2495,7 @@ length 76
 ====================
 \"Hey, don't get so down. It's okay if we study like this once in a while.\"
 ====================
-\"Hey, don't get so down. It's okay if we study like this once in a while.\"
+“喂，别那么消沉嘛。偶尔像这样学学习也不错啊。”
 ====================
 
 ====================
@@ -2506,7 +2506,7 @@ length 57
 ====================
 \"I've come to rather like playing the role of teacher.\"
 ====================
-\"I've come to rather like playing the role of teacher.\"
+“我还挺喜欢扮演老师的感觉呢。”
 ====================
 
 ====================
@@ -2517,7 +2517,7 @@ length 55
 ====================
 \"Well, I definitely can't show this to other people.\"
 ====================
-\"Well, I definitely can't show this to other people.\"
+“不过，这个样子可千万不能让别人看到。”
 ====================
 
 ====================
@@ -2528,7 +2528,7 @@ length 45
 ====================
 \"Your results... one out of three correct.\"
 ====================
-\"Your results... one out of three correct.\"
+“你的成绩……三题里答对了一题。”
 ====================
 
 ====================
@@ -2539,7 +2539,7 @@ length 26
 ====================
 \"That's no good at all.\"
 ====================
-\"That's no good at all.\"
+“这可完全不行呢。”
 ====================
 
 ====================
@@ -2550,7 +2550,7 @@ length 33
 ====================
 \"I'm disappointed in myself...\"
 ====================
-\"I'm disappointed in myself...\"
+“我对自己太失望了……”
 ====================
 
 ====================
@@ -2561,7 +2561,7 @@ length 76
 ====================
 \"Hey, don't get so down. It's okay if we study like this once in a while.\"
 ====================
-\"Hey, don't get so down. It's okay if we study like this once in a while.\"
+“喂，别那么消沉嘛。偶尔像这样学学习也不错啊。”
 ====================
 
 ====================
@@ -2572,7 +2572,7 @@ length 57
 ====================
 \"I've come to rather like playing the role of teacher.\"
 ====================
-\"I've come to rather like playing the role of teacher.\"
+“我还挺喜欢扮演老师的感觉呢。”
 ====================
 
 ====================
@@ -2583,7 +2583,7 @@ length 55
 ====================
 \"Well, I definitely can't show this to other people.\"
 ====================
-\"Well, I definitely can't show this to other people.\"
+“不过，这个样子可千万不能让别人看到。”
 ====================
 
 ====================
@@ -2594,7 +2594,7 @@ length 45
 ====================
 \"Your results... two out of three correct.\"
 ====================
-\"Your results... two out of three correct.\"
+“你的成绩……三题里答对了两题。”
 ====================
 
 ====================
@@ -2605,7 +2605,7 @@ length 19
 ====================
 \"You were close.\"
 ====================
-\"You were close.\"
+“差一点就全对了。”
 ====================
 
 ====================
@@ -2616,7 +2616,7 @@ length 33
 ====================
 \"I feel like hitting myself...\"
 ====================
-\"I feel like hitting myself...\"
+“真想狠狠抽自己一顿……”
 ====================
 
 ====================
@@ -2627,7 +2627,7 @@ length 76
 ====================
 \"Hey, don't get so down. It's okay if we study like this once in a while.\"
 ====================
-\"Hey, don't get so down. It's okay if we study like this once in a while.\"
+“喂，别那么消沉嘛。偶尔像这样学学习也不错啊。”
 ====================
 
 ====================
@@ -2638,7 +2638,7 @@ length 57
 ====================
 \"I've come to rather like playing the role of teacher.\"
 ====================
-\"I've come to rather like playing the role of teacher.\"
+“我还挺喜欢扮演老师的感觉呢。”
 ====================
 
 ====================
@@ -2649,7 +2649,7 @@ length 55
 ====================
 \"Well, I definitely can't show this to other people.\"
 ====================
-\"Well, I definitely can't show this to other people.\"
+“不过，这个样子可千万不能让别人看到。”
 ====================
 
 ====================
@@ -2660,7 +2660,7 @@ length 32
 ====================
 \"Your results... all correct.\"
 ====================
-\"Your results... all correct.\"
+“你的成绩……三题全对。”
 ====================
 
 ====================
@@ -2671,7 +2671,7 @@ length 23
 ====================
 \"I'm pretty excited.\"
 ====================
-\"I'm pretty excited.\"
+“我有点兴奋起来了。”
 ====================
 
 ====================
@@ -2682,7 +2682,7 @@ length 58
 ====================
 \"You're incredible, Tomoya. Good job. Okay, we're done.\"
 ====================
-\"You're incredible, Tomoya. Good job. Okay, we're done.\"
+“朋也，你真了不起。干得漂亮。好，问答到此结束。”
 ====================
 
 ====================
@@ -2693,7 +2693,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+“…………”
 ====================
 
 ====================
@@ -2704,7 +2704,7 @@ length 56
 ====================
 \"Don't give me that look like the world just ended...\"
 ====================
-\"Don't give me that look like the world just ended...\"
+“别摆出一副世界末日来临的表情嘛……”
 ====================
 
 ====================
@@ -2715,7 +2715,7 @@ length 21
 ====================
 \"Okay, I get it...\"
 ====================
-\"Okay, I get it...\"
+“好啦好啦，我知道了……”
 ====================
 
 ====================
@@ -2726,7 +2726,7 @@ length 46
 ====================
 \"Um... what is it? Should I move this hand?\"
 ====================
-\"Um... what is it? Should I move this hand?\"
+“那个……是要我……把这只手移开吗？”
 ====================
 
 ====================
@@ -2737,7 +2737,7 @@ length 18
 ====================
 I give a huge nod.
 ====================
-I give a huge nod.
+我重重地点了点头。
 ====================
 
 ====================
@@ -2748,7 +2748,7 @@ length 60
 ====================
 \"But from that angle, you'll definitely be able to see...\"
 ====================
-\"But from that angle, you'll definitely be able to see...\"
+“可是从那个角度看的话，你肯定会看到的吧……”
 ====================
 
 ====================
@@ -2759,7 +2759,7 @@ length 34
 ====================
 \"Maybe I can recross my legs...\"
 ====================
-\"Maybe I can recross my legs...\"
+“要不，我把腿换个方向叠起来……”
 ====================
 
 ====================
@@ -2770,7 +2770,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+“…………”
 ====================
 
 ====================
@@ -2781,7 +2781,7 @@ length 45
 ====================
 \"Instead, I'll put on glasses. How's that?\"
 ====================
-\"Instead, I'll put on glasses. How's that?\"
+“那这样吧，我戴上眼镜，你觉得如何？”
 ====================
 
 ====================
@@ -2792,7 +2792,7 @@ length 76
 ====================
 \"I'll look more like a teacher and that'll make it even better, won't it?\"
 ====================
-\"I'll look more like a teacher and that'll make it even better, won't it?\"
+“戴上眼镜我看起来会更像老师，你也会更来劲，对吧？”
 ====================
 
 ====================
@@ -2803,7 +2803,7 @@ length 21
 ====================
 \"What am I saying?\"
 ====================
-\"What am I saying?\"
+“我到底在说些什么啊……”
 ====================
 
 ====================
@@ -2814,7 +2814,7 @@ length 57
 ====================
 \"...so, how about it... will you let me off with that?\"
 ====================
-\"...so, how about it... will you let me off with that?\"
+“……所以说，这样就可以了……这一回，就饶了我吧？”
 ====================
 
 ====================
@@ -2825,7 +2825,7 @@ length 21
 ====================
 ...I nod reluctantly.
 ====================
-...I nod reluctantly.
+……我不情愿地点了点头。
 ====================
 
 ====================
@@ -2836,7 +2836,7 @@ length 22
 ====================
 \"Okay, here I go...\"
 ====================
-\"Okay, here I go...\"
+“好，那我可要戴上了……”
 ====================
 
 ====================
@@ -2847,7 +2847,7 @@ length 6
 ====================
 *Gulp*
 ====================
-*Gulp*
+咕咚。
 ====================
 
 ====================
@@ -2858,7 +2858,7 @@ length 5
 ====================
 Oh...
 ====================
-Oh...
+噢……
 ====================
 
 ====================
@@ -2869,7 +2869,7 @@ length 52
 ====================
 She really does look like a teacher or a home tutor.
 ====================
-She really does look like a teacher or a home tutor.
+她看上去，简直就像真正的老师或家庭教师。
 ====================
 
 ====================
@@ -2880,7 +2880,7 @@ length 73
 ====================
 Her sitting on the desk looking down at me arouses a number of fantasies.
 ====================
-Her sitting on the desk looking down at me arouses a number of fantasies.
+她坐在书桌上居高临下地俯视着我，让我的脑海里涌起各种遐想。
 ====================
 
 ====================
@@ -2891,7 +2891,7 @@ length 73
 ====================
 It feels like she's going to teach me about things other than studying...
 ====================
-It feels like she's going to teach me about things other than studying...
+总觉得，她接下来要教给我的，不只是书本上的知识……
 ====================
 
 ====================
@@ -2902,7 +2902,7 @@ length 34
 ====================
 \"This is really embarrassing...\"
 ====================
-\"This is really embarrassing...\"
+“这个样子，实在太羞人了……”
 ====================
 
 ====================
@@ -2913,7 +2913,7 @@ length 19
 ====================
 \"Is that enough?\"
 ====================
-\"Is that enough?\"
+“这样可以了吗？”
 ====================
 
 ====================
@@ -2924,7 +2924,7 @@ length 23
 ====================
 \"What are you doing?\"
 ====================
-\"What are you doing?\"
+“你们在做什么啊？”
 ====================
 
 ====================
@@ -2935,7 +2935,7 @@ length 15
 ====================
 *Thuuuuuuuuuud*
 ====================
-*Thuuuuuuuuuud*
+咚————！！
 ====================
 
 ====================
@@ -2946,7 +2946,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+“…………”
 ====================
 
 ====================
@@ -2957,7 +2957,7 @@ length 52
 ====================
 \"Do you enjoy having Nee-chan dress up like that?\"
 ====================
-\"Do you enjoy having Nee-chan dress up like that?\"
+“让姐姐打扮成那样，很好玩吗？”
 ====================
 
 ====================
@@ -2968,7 +2968,7 @@ length 78
 ====================
 \"Well, yeah I do. But I'm sure Tomoyo locked the door, so how'd you get in?\"
 ====================
-\"Well, yeah I do. But I'm sure Tomoyo locked the door, so how'd you get in?\"
+“嗯，是挺开心的。不过智代明明把门锁上了，你是怎么进来的？”
 ====================
 
 ====================
@@ -2979,7 +2979,7 @@ length 34
 ====================
 \"Huh? The window wasn't locked.\"
 ====================
-\"Huh? The window wasn't locked.\"
+“嗯？窗户没锁啊。”
 ====================
 
 ====================
@@ -2990,7 +2990,7 @@ length 28
 ====================
 \"Don't come in like that.\"
 ====================
-\"Don't come in like that.\"
+“别从那种地方进来啊。”
 ====================
 
 ====================
@@ -3001,7 +3001,7 @@ length 26
 ====================
 \"You've done it before.\"
 ====================
-\"You've done it before.\"
+“你自己不也干过嘛。”
 ====================
 
 ====================
@@ -3012,7 +3012,7 @@ length 35
 ====================
 \"That was because I lost my key.\"
 ====================
-\"That was because I lost my key.\"
+“那是因为我把钥匙弄丢了。”
 ====================
 
 ====================
@@ -3023,7 +3023,7 @@ length 86
 ====================
 \"So it's usually open. You should be careful since thieves can get in that way too.\"
 ====================
-\"So it's usually open. You should be careful since thieves can get in that way too.\"
+“所以说嘛，这儿平时总是开着的。小心小偷也从那儿爬进来哦。”
 ====================
 
 ====================
@@ -3034,7 +3034,7 @@ length 44
 ====================
 \"There's nothing really for them to take.\"
 ====================
-\"There's nothing really for them to take.\"
+“反正也没什么可偷的。”
 ====================
 
 ====================
@@ -3045,7 +3045,7 @@ length 20
 ====================
 \"Well, okay then.\"
 ====================
-\"Well, okay then.\"
+“那倒也是哦。”
 ====================
 
 ====================
@@ -3056,7 +3056,7 @@ length 23
 ====================
 \"Wait here a minute.\"
 ====================
-\"Wait here a minute.\"
+“你们俩给我在这儿等着。”
 ====================
 
 ====================
@@ -3067,7 +3067,7 @@ length 24
 ====================
 \"Like hell it's fine!\"
 ====================
-\"Like hell it's fine!\"
+“没问题的才怪！！”
 ====================
 
 ====================
@@ -3078,7 +3078,7 @@ length 26
 ====================
 She changed and came back.
 ====================
-She changed and came back.
+她换回原来的衣服回来了。
 ====================
 
 ====================
@@ -3089,7 +3089,7 @@ length 43
 ====================
 \"Woah, Nee-chan, what are you mad about?\"
 ====================
-\"Woah, Nee-chan, what are you mad about?\"
+“哇，姐姐，你怎么气成这样？”
 ====================
 
 ====================
@@ -3100,7 +3100,7 @@ length 15
 ====================
 \"Everything!\"
 ====================
-\"Everything!\"
+“全都让我生气！”
 ====================
 
 ====================
@@ -3111,7 +3111,7 @@ length 35
 ====================
 \"Did something happen at school?\"
 ====================
-\"Did something happen at school?\"
+“在学校发生什么事了吗？”
 ====================
 
 ====================
@@ -3122,7 +3122,7 @@ length 37
 ====================
 \"Something happened here just now!\"
 ====================
-\"Something happened here just now!\"
+“刚才就在这儿发生事了！”
 ====================
 
 ====================
@@ -3133,7 +3133,7 @@ length 49
 ====================
 \"Huh? You mean Nii-chan peeking up your skirt?\"
 ====================
-\"Huh? You mean Nii-chan peeking up your skirt?\"
+“嗯？你是说哥哥偷看姐姐的裙底？”
 ====================
 
 ====================
@@ -3144,7 +3144,7 @@ length 26
 ====================
 \"No, that was a reward!\"
 ====================
-\"No, that was a reward!\"
+“不是，那是奖励！”
 ====================
 
 ====================
@@ -3155,7 +3155,7 @@ length 7
 ====================
 \"Eh?\"
 ====================
-\"Eh?\"
+“诶？”
 ====================
 
 ====================
@@ -3166,7 +3166,7 @@ length 9
 ====================
 \"Ah...\"
 ====================
-\"Ah...\"
+“啊……”
 ====================
 
 ====================
@@ -3177,7 +3177,7 @@ length 14
 ====================
 \"..........\"
 ====================
-\"..........\"
+“………………”
 ====================
 
 ====================
@@ -3188,7 +3188,7 @@ length 26
 ====================
 \"Say nothing and leave.\"
 ====================
-\"Say nothing and leave.\"
+“你什么都别说，快走。”
 ====================
 
 ====================
@@ -3199,7 +3199,7 @@ length 7
 ====================
 \"No.\"
 ====================
-\"No.\"
+“不要。”
 ====================
 
 ====================
@@ -3210,7 +3210,7 @@ length 11
 ====================
 *Pow* *Pow*
 ====================
-*Pow* *Pow*
+咚！咚！
 ====================
 
 ====================
@@ -3221,5 +3221,5 @@ length 76
 ====================
 Not concerning myself with their sibling dispute, I head for the bath alone.
 ====================
-Not concerning myself with their sibling dispute, I head for the bath alone.
+我不去管他们姐弟俩的争吵，自顾自去洗澡了。
 ====================
