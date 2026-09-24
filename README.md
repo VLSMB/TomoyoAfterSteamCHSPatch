@@ -4,6 +4,8 @@
 
 本补丁是适用于Steam版本《Tomoyo After English Edition》的内存动态汉化补丁，并且可以积累steam游玩时长、解锁成就以及获得集换式卡牌。目前已实现中文的渲染，正在进行文本翻译中，欢迎有意向一起翻译文本的贡献者参与到本项目中。（可以直接在Issue中提及认领翻译进度中处于未处理的部分，并通过pr提交文本，如果不会使用Github可以通过我的邮箱`vlsmb@foxmail.com`进行交流）
 
+欢迎随时反馈bug或者文本翻译的疏漏。
+
 效果图：
 
 ![Main Pic](docs/img/main.png)
