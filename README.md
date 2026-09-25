@@ -40,9 +40,9 @@
 - [ ] seen0001
 - [x] seen0628
 - [x] seen0629
-- [x] seen0630（进行中）
-- [ ] seen0701
-- [ ] seen0702
+- [x] seen0630
+- [x] seen0701（进行中）
+- [x] seen0702（进行中）
 - [ ] seen0707
 - [ ] seen0708
 - [ ] seen0709
