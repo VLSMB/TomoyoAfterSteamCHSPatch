@@ -9,7 +9,7 @@ length 14
 ====================
 July 1st (Thu)
 ====================
-July 1st (Thu)
+7月1日（周四）
 ====================
 
 ====================
@@ -20,7 +20,7 @@ length 26
 ====================
 Today I'm at the workshop.
 ====================
-Today I'm at the workshop.
+今天我在店里干活。
 ====================
 
 ====================
@@ -31,7 +31,7 @@ length 18
 ====================
 \"...21, 22, 23.\"
 ====================
-\"...21, 22, 23.\"
+“……21、22、23。”
 ====================
 
 ====================
@@ -42,7 +42,7 @@ length 29
 ====================
 I'm doing an inventory check.
 ====================
-I'm doing an inventory check.
+我在盘点库存。
 ====================
 
 ====================
@@ -53,7 +53,7 @@ length 114
 ====================
 In order to be in the home appliance repair business, you need to have a ridiculous number of spare parts on hand.
 ====================
-In order to be in the home appliance repair business, you need to have a ridiculous number of spare parts on hand.
+干家电维修这一行，手头得备着多得离谱的零件。
 ====================
 
 ====================
@@ -64,7 +64,7 @@ length 89
 ====================
 A good number of them are things like capacitors and resistors that are used in circuits.
 ====================
-A good number of them are things like capacitors and resistors that are used in circuits.
+其中不少是电容、电阻这类用在电路上的元件。
 ====================
 
 ====================
@@ -75,7 +75,7 @@ length 74
 ====================
 A large one might be a few centimeters, but most are around 5 millimeters.
 ====================
-A large one might be a few centimeters, but most are around 5 millimeters.
+大的能有几厘米，但多数只有五毫米左右。
 ====================
 
 ====================
@@ -86,7 +86,7 @@ length 64
 ====================
 Counting them one by one is simple but extremely sensitive work.
 ====================
-Counting them one by one is simple but extremely sensitive work.
+一个一个地数，虽然简单，却是极耗心神的工作。
 ====================
 
 ====================
@@ -97,7 +97,7 @@ length 16
 ====================
 \"...I'm done.\"
 ====================
-\"...I'm done.\"
+“……数完了。”
 ====================
 
 ====================
@@ -108,7 +108,7 @@ length 15
 ====================
 I'm dead tired.
 ====================
-I'm dead tired.
+我累得半死。
 ====================
 
 ====================
@@ -119,7 +119,7 @@ length 68
 ====================
 I lay down on the couch in the reception room outside the work area.
 ====================
-I lay down on the couch in the reception room outside the work area.
+我一屁股躺倒在作业区外的接待室沙发上。
 ====================
 
 ====================
@@ -130,7 +130,7 @@ length 89
 ====================
 The boss said it was okay to go home, but there's work to do, so I'm just taking a break.
 ====================
-The boss said it was okay to go home, but there's work to do, so I'm just taking a break.
+师傅说可以先回去，但还有活儿要干，我只好先歇口气。
 ====================
 
 ====================
@@ -141,7 +141,7 @@ length 62
 ====================
 I'll head home after I finish ordering the parts we're low on.
 ====================
-I'll head home after I finish ordering the parts we're low on.
+等把缺的零件订完，我就回家。
 ====================
 
 ====================
@@ -152,7 +152,7 @@ length 13
 ====================
 \"I'm home.\"
 ====================
-\"I'm home.\"
+“我回来了。”
 ====================
 
 ====================
@@ -163,7 +163,7 @@ length 17
 ====================
 \"Welcome back.\"
 ====================
-\"Welcome back.\"
+“欢迎回来。”
 ====================
 
 ====================
@@ -174,7 +174,7 @@ length 54
 ====================
 As soon as I take off my shoes, Tomoyo locks the door.
 ====================
-As soon as I take off my shoes, Tomoyo locks the door.
+我刚脱完鞋，智代就把门锁上了。
 ====================
 
 ====================
@@ -185,7 +185,7 @@ length 32
 ====================
 She also checks the window lock.
 ====================
-She also checks the window lock.
+还顺手检查了窗户的锁。
 ====================
 
 ====================
@@ -196,7 +196,7 @@ length 11
 ====================
 \"Phew...\"
 ====================
-\"Phew...\"
+“呼……”
 ====================
 
 ====================
@@ -207,7 +207,7 @@ length 63
 ====================
 \"Ah, well, I'm not doing this so that we can do something...\"
 ====================
-\"Ah, well, I'm not doing this so that we can do something...\"
+“啊，那个，我锁门可不是为了要做什么哦……”
 ====================
 
 ====================
@@ -218,7 +218,7 @@ length 38
 ====================
 \"It's just in case. Just in case...\"
 ====================
-\"It's just in case. Just in case...\"
+“只是以防万一，以防万一而已……”
 ====================
 
 ====================
@@ -229,7 +229,7 @@ length 65
 ====================
 She's justifying her actions, even though I haven't said a thing.
 ====================
-She's justifying her actions, even though I haven't said a thing.
+我明明什么都没说，她倒自己解释起来了。
 ====================
 
 ====================
@@ -240,7 +240,7 @@ length 31
 ====================
 \"Okay, let's prepare dinner.\"
 ====================
-\"Okay, let's prepare dinner.\"
+“好，来做晚饭吧。”
 ====================
 
 ====================
@@ -251,7 +251,7 @@ length 42
 ====================
 She turns away from me toward the kitchen.
 ====================
-She turns away from me toward the kitchen.
+她背过身，朝厨房走去。
 ====================
 
 ====================
@@ -262,7 +262,7 @@ length 22
 ====================
 I hug her from behind.
 ====================
-I hug her from behind.
+我从背后抱住了她。
 ====================
 
 ====================
@@ -273,7 +273,7 @@ length 62
 ====================
 I bury my face in her hair; Tomoyo's scent floods my nostrils.
 ====================
-I bury my face in her hair; Tomoyo's scent floods my nostrils.
+我把脸埋进她的发丝里，智代的气息扑面而来。
 ====================
 
 ====================
@@ -284,7 +284,7 @@ length 40
 ====================
 I feel happy just being enveloped in it.
 ====================
-I feel happy just being enveloped in it.
+只是被这股气息包裹着，我就觉得幸福。
 ====================
 
 ====================
@@ -295,7 +295,7 @@ length 62
 ====================
 \"Don't smell me like that. I haven't even taken a shower...\"
 ====================
-\"Don't smell me like that. I haven't even taken a shower...\"
+“别那样闻我啦，我还没洗澡呢……”
 ====================
 
 ====================
@@ -306,7 +306,7 @@ length 28
 ====================
 Suddenly the doorbell rings.
 ====================
-Suddenly the doorbell rings.
+门铃突然响了。
 ====================
 
 ====================
@@ -317,7 +317,7 @@ length 24
 ====================
 \"Afternoon. Delivery.\"
 ====================
-\"Afternoon. Delivery.\"
+“下午好，送快递的。”
 ====================
 
 ====================
@@ -328,7 +328,7 @@ length 20
 ====================
 \"Oh, I'll get it.\"
 ====================
-\"Oh, I'll get it.\"
+“啊，我去开。”
 ====================
 
 ====================
@@ -339,7 +339,7 @@ length 83
 ====================
 ...she sets her knife on the cutting board and heads for the entrance in her apron.
 ====================
-...she sets her knife on the cutting board and heads for the entrance in her apron.
+……她把菜刀搁在砧板上，系着围裙走向玄关。
 ====================
 
 ====================
@@ -350,7 +350,7 @@ length 95
 ====================
 (Ah... if she's dressed like that he'll probably think we're a newlywed couple or something...)
 ====================
-(Ah... if she's dressed like that he'll probably think we're a newlywed couple or something...)
+（啊……她穿成那样去开门，对方八成会以为我们是新婚夫妇吧……）
 ====================
 
 ====================
@@ -361,7 +361,7 @@ length 63
 ====================
 \"What do you think? You must be jealous, Mr. Delivery Man...\"
 ====================
-\"What do you think? You must be jealous, Mr. Delivery Man...\"
+“怎么样？快递小哥，你是不是很羡慕……”
 ====================
 
 ====================
@@ -372,7 +372,7 @@ length 27
 ====================
 \"That's my girlfriend...\"
 ====================
-\"That's my girlfriend...\"
+“那可是我的女朋友哦……”
 ====================
 
 ====================
@@ -383,7 +383,7 @@ length 34
 ====================
 I whisper to no one in particular.
 ====================
-I whisper to no one in particular.
+我对着空气小声嘀咕。
 ====================
 
 ====================
@@ -394,7 +394,7 @@ length 82
 ====================
 \"I wonder what this is. It has the name of some magazine company written on it.\"
 ====================
-\"I wonder what this is. It has the name of some magazine company written on it.\"
+“这是什么呀？上面写着某家杂志社的名字。”
 ====================
 
 ====================
@@ -405,7 +405,7 @@ length 22
 ====================
 \"Mind if I open it?\"
 ====================
-\"Mind if I open it?\"
+“可以拆开看看吗？”
 ====================
 
 ====================
@@ -416,7 +416,7 @@ length 17
 ====================
 \"No, go ahead.\"
 ====================
-\"No, go ahead.\"
+“嗯，拆吧。”
 ====================
 
 ====================
@@ -427,7 +427,7 @@ length 53
 ====================
 There's a rustling noise as Tomoyo opens the package.
 ====================
-There's a rustling noise as Tomoyo opens the package.
+智代拆开包裹，发出窸窸窣窣的声响。
 ====================
 
 ====================
@@ -438,7 +438,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+“…………”
 ====================
 
 ====================
@@ -449,7 +449,7 @@ length 20
 ====================
 \"What is this...?\"
 ====================
-\"What is this...?\"
+“这是什么啊……？”
 ====================
 
 ====================
@@ -460,7 +460,7 @@ length 23
 ====================
 \"Waitress outfit...?\"
 ====================
-\"Waitress outfit...?\"
+“服务生制服……？”
 ====================
 
 ====================
@@ -471,7 +471,7 @@ length 9
 ====================
 \"Oh...\"
 ====================
-\"Oh...\"
+“哦……”
 ====================
 
 ====================
@@ -482,7 +482,7 @@ length 11
 ====================
 I remember.
 ====================
-I remember.
+我想起来了。
 ====================
 
 ====================
@@ -493,7 +493,7 @@ length 76
 ====================
 \"Now that you mention it, you brought over those unused New Years stamps.\"
 ====================
-\"Now that you mention it, you brought over those unused New Years stamps.\"
+“说起来，你之前把没用完的贺年明信片拿过来了。”
 ====================
 
 ====================
@@ -504,7 +504,7 @@ length 26
 ====================
 \"Oh... I remember that.\"
 ====================
-\"Oh... I remember that.\"
+“啊……我想起来了。”
 ====================
 
 ====================
@@ -515,7 +515,7 @@ length 76
 ====================
 \"I had some free time, so I used them to send out some contest postcards.\"
 ====================
-\"I had some free time, so I used them to send out some contest postcards.\"
+“我闲着没事，就用那些寄了几张抽奖明信片。”
 ====================
 
 ====================
@@ -526,7 +526,7 @@ length 43
 ====================
 \"...y-you wanted something like this...?\"
 ====================
-\"...y-you wanted something like this...?\"
+“……你、你想要这种东西……？”
 ====================
 
 ====================
@@ -537,7 +537,7 @@ length 35
 ====================
 ...she gives me a questioning look.
 ====================
-...she gives me a questioning look.
+……她用满是怀疑的眼神看着我。
 ====================
 
 ====================
@@ -548,7 +548,7 @@ length 39
 ====================
 \"Well... I didn't think I would win.\"
 ====================
-\"Well... I didn't think I would win.\"
+“这个嘛……我也没想到真能中。”
 ====================
 
 ====================
@@ -559,7 +559,7 @@ length 48
 ====================
 \"Then enter for something you'd want to win!!\"
 ====================
-\"Then enter for something you'd want to win!!\"
+“那就去抽你真正想要的东西啊！！”
 ====================
 
 ====================
@@ -570,7 +570,7 @@ length 31
 ====================
 \"But I'm pretty happy I did.\"
 ====================
-\"But I'm pretty happy I did.\"
+“不过中了还挺开心的。”
 ====================
 
 ====================
@@ -581,7 +581,7 @@ length 63
 ====================
 \"...you aren't planning on telling me to wear this, are you?\"
 ====================
-\"...you aren't planning on telling me to wear this, are you?\"
+“……你该不会是想让我穿这个吧？”
 ====================
 
 ====================
@@ -592,7 +592,7 @@ length 57
 ====================
 \"I'm sure my boyfriend isn't that much of a pervert...\"
 ====================
-\"I'm sure my boyfriend isn't that much of a pervert...\"
+“我的男朋友肯定没那么变态……”
 ====================
 
 ====================
@@ -603,7 +603,7 @@ length 5
 ====================
 I am.
 ====================
-I am.
+我就是。
 ====================
 
 ====================
@@ -614,7 +614,7 @@ length 30
 ====================
 \"I-Is this okay, Tomoya...?\"
 ====================
-\"I-Is this okay, Tomoya...?\"
+“这、这样可以吗，朋也……？”
 ====================
 
 ====================
@@ -625,7 +625,7 @@ length 52
 ====================
 \"Could you act like a waitress and take my order?\"
 ====================
-\"Could you act like a waitress and take my order?\"
+“你能扮成服务生，帮我点单吗？”
 ====================
 
 ====================
@@ -636,7 +636,7 @@ length 72
 ====================
 \"N-No... if I stop and think about it, this is extremely perverted...\"
 ====================
-\"N-No... if I stop and think about it, this is extremely perverted...\"
+“不、不行……冷静下来想想，这实在是太变态了……”
 ====================
 
 ====================
@@ -647,7 +647,7 @@ length 78
 ====================
 \"I'm telling you, a new side of your charm will definitely manifest itself.\"
 ====================
-\"I'm telling you, a new side of your charm will definitely manifest itself.\"
+“我跟你说，你全新的魅力一定会就此展现出来。”
 ====================
 
 ====================
@@ -658,7 +658,7 @@ length 19
 ====================
 \"Hello, welcome.\"
 ====================
-\"Hello, welcome.\"
+“欢迎光临。”
 ====================
 
 ====================
@@ -669,7 +669,7 @@ length 24
 ====================
 \"What would you like?\"
 ====================
-\"What would you like?\"
+“请问您要点什么？”
 ====================
 
 ====================
@@ -680,7 +680,7 @@ length 6
 ====================
 A kiss
 ====================
-A kiss
+一个吻
 ====================
 
 ====================
@@ -691,7 +691,7 @@ length 6
 ====================
 Coffee
 ====================
-Coffee
+咖啡
 ====================
 
 ====================
@@ -702,7 +702,7 @@ length 11
 ====================
 \"A kiss.\"
 ====================
-\"A kiss.\"
+“一个吻。”
 ====================
 
 ====================
@@ -713,7 +713,7 @@ length 39
 ====================
 \"...Manager, please call the police.\"
 ====================
-\"...Manager, please call the police.\"
+“……店长，请报警。”
 ====================
 
 ====================
@@ -724,7 +724,7 @@ length 9
 ====================
 \"Why?!\"
 ====================
-\"Why?!\"
+“为什么啊！？”
 ====================
 
 ====================
@@ -735,7 +735,7 @@ length 86
 ====================
 \"If a customer orders a kiss out of the blue, of course the police would be called.\"
 ====================
-\"If a customer orders a kiss out of the blue, of course the police would be called.\"
+“客人突然点一个吻，当然要报警了。”
 ====================
 
 ====================
@@ -746,7 +746,7 @@ length 77
 ====================
 \"Hey, we're actually lovers, so don't worry so much about that part, okay?\"
 ====================
-\"Hey, we're actually lovers, so don't worry so much about that part, okay?\"
+“喂，我们实际上是情侣，那部分就别那么计较了吧？”
 ====================
 
 ====================
@@ -757,7 +757,7 @@ length 21
 ====================
 \"How convenient...\"
 ====================
-\"How convenient...\"
+“可真方便啊……”
 ====================
 
 ====================
@@ -768,7 +768,7 @@ length 27
 ====================
 \"Come on, one more time.\"
 ====================
-\"Come on, one more time.\"
+“来吧，再来一次。”
 ====================
 
 ====================
@@ -779,7 +779,7 @@ length 19
 ====================
 \"Hello, welcome.\"
 ====================
-\"Hello, welcome.\"
+“欢迎光临。”
 ====================
 
 ====================
@@ -790,7 +790,7 @@ length 23
 ====================
 \"What will you have?\"
 ====================
-\"What will you have?\"
+“请问您要点什么？”
 ====================
 
 ====================
@@ -801,7 +801,7 @@ length 11
 ====================
 \"A kiss.\"
 ====================
-\"A kiss.\"
+“一个吻。”
 ====================
 
 ====================
@@ -812,7 +812,7 @@ length 19
 ====================
 \"Certainly, sir.\"
 ====================
-\"Certainly, sir.\"
+“好的，先生。”
 ====================
 
 ====================
@@ -823,7 +823,7 @@ length 83
 ====================
 After looking at me with what was definitely a glare, she presses her lips to mine.
 ====================
-After looking at me with what was definitely a glare, she presses her lips to mine.
+她分明是瞪了我一眼，然后把嘴唇贴了上来。
 ====================
 
 ====================
@@ -834,7 +834,7 @@ length 35
 ====================
 \"Will that be all? Please leave.\"
 ====================
-\"Will that be all? Please leave.\"
+“就这些了吗？请您离开。”
 ====================
 
 ====================
@@ -845,7 +845,7 @@ length 31
 ====================
 \"Why?! Keep taking my order!\"
 ====================
-\"Why?! Keep taking my order!\"
+“为什么啊！？继续点啊！”
 ====================
 
 ====================
@@ -856,7 +856,7 @@ length 30
 ====================
 \"Such a selfish customer...\"
 ====================
-\"Such a selfish customer...\"
+“真是个任性的客人……”
 ====================
 
 ====================
@@ -867,7 +867,7 @@ length 33
 ====================
 \"Would you like anything else?\"
 ====================
-\"Would you like anything else?\"
+“您还需要别的吗？”
 ====================
 
 ====================
@@ -878,7 +878,7 @@ length 10
 ====================
 Your scent
 ====================
-Your scent
+你的气味
 ====================
 
 ====================
@@ -889,7 +889,7 @@ length 6
 ====================
 Coffee
 ====================
-Coffee
+咖啡
 ====================
 
 ====================
@@ -900,7 +900,7 @@ length 15
 ====================
 \"Your scent.\"
 ====================
-\"Your scent.\"
+“你的气味。”
 ====================
 
 ====================
@@ -911,7 +911,7 @@ length 34
 ====================
 \"...Manager, get me the pistol.\"
 ====================
-\"...Manager, get me the pistol.\"
+“……店长，把枪给我。”
 ====================
 
 ====================
@@ -922,7 +922,7 @@ length 50
 ====================
 \"Why?! And we're a gun owning society now too?!\"
 ====================
-\"Why?! And we're a gun owning society now too?!\"
+“为什么啊！？而且这儿什么时候变成持枪社会了！？”
 ====================
 
 ====================
@@ -933,7 +933,7 @@ length 105
 ====================
 \"If you suddenly order something so perverted, you have no right to complain even if you're shot dead.\"
 ====================
-\"If you suddenly order something so perverted, you have no right to complain even if you're shot dead.\"
+“突然点这种变态的东西，就算被一枪打死也无话可说。”
 ====================
 
 ====================
@@ -944,7 +944,7 @@ length 67
 ====================
 \"I told you, we're actually lovers, so that should make it okay.\"
 ====================
-\"I told you, we're actually lovers, so that should make it okay.\"
+“我都说了，我们实际上是情侣，这样应该没问题吧。”
 ====================
 
 ====================
@@ -955,7 +955,7 @@ length 33
 ====================
 \"Isn't that too convenient...?\"
 ====================
-\"Isn't that too convenient...?\"
+“这也太方便了吧……？”
 ====================
 
 ====================
@@ -966,7 +966,7 @@ length 37
 ====================
 \"Geez... guess I have no choice...\"
 ====================
-\"Geez... guess I have no choice...\"
+“真是的……真拿你没办法……”
 ====================
 
 ====================
@@ -977,7 +977,7 @@ length 122
 ====================
 \"Hey, what do you mean by my scent?! What am I supposed to let you smell?! Even if we're lovers, that request is weird!\"
 ====================
-\"Hey, what do you mean by my scent?! What am I supposed to let you smell?! Even if we're lovers, that request is weird!\"
+“喂，‘我的气味’是什么意思啊！？要我让你闻哪里啊！？就算是情侣，这种要求也很奇怪吧！”
 ====================
 
 ====================
@@ -988,7 +988,7 @@ length 27
 ====================
 \"Well, anywhere is fine.\"
 ====================
-\"Well, anywhere is fine.\"
+“哪里都行啦。”
 ====================
 
 ====================
@@ -999,7 +999,7 @@ length 33
 ====================
 \"Geez, what are you, crazy...?\"
 ====================
-\"Geez, what are you, crazy...?\"
+“真是的，你这人有毛病吧……？”
 ====================
 
 ====================
@@ -1010,7 +1010,7 @@ length 112
 ====================
 She shakes her head so that her hair is all on one side, then takes it in her hand and thrusts it under my nose.
 ====================
-She shakes her head so that her hair is all on one side, then takes it in her hand and thrusts it under my nose.
+她把头一甩，让头发全拢到一侧，然后抓起来凑到我鼻子底下。
 ====================
 
 ====================
@@ -1021,7 +1021,7 @@ length 23
 ====================
 I smell her nice scent.
 ====================
-I smell her nice scent.
+我闻到了一股好闻的气味。
 ====================
 
 ====================
@@ -1032,7 +1032,7 @@ length 46
 ====================
 \"Will that be all? Please never come again.\"
 ====================
-\"Will that be all? Please never come again.\"
+“就这些了吗？请您再也别来了。”
 ====================
 
 ====================
@@ -1043,7 +1043,7 @@ length 31
 ====================
 \"Why?! Keep taking my order.\"
 ====================
-\"Why?! Keep taking my order.\"
+“为什么啊！？继续点啊。”
 ====================
 
 ====================
@@ -1054,7 +1054,7 @@ length 39
 ====================
 \"Then please order something normal.\"
 ====================
-\"Then please order something normal.\"
+“那就请您点些正常的东西。”
 ====================
 
 ====================
@@ -1065,7 +1065,7 @@ length 21
 ====================
 \"I'll have coffee.\"
 ====================
-\"I'll have coffee.\"
+“我要咖啡。”
 ====================
 
 ====================
@@ -1076,7 +1076,7 @@ length 21
 ====================
 \"Will that be all?\"
 ====================
-\"Will that be all?\"
+“就要这些吗？”
 ====================
 
 ====================
@@ -1087,7 +1087,7 @@ length 26
 ====================
 \"With an indirect kiss.\"
 ====================
-\"With an indirect kiss.\"
+“外加一个间接接吻。”
 ====================
 
 ====================
@@ -1098,7 +1098,7 @@ length 24
 ====================
 \"...from the manager?\"
 ====================
-\"...from the manager?\"
+“……要店长的？”
 ====================
 
 ====================
@@ -1109,7 +1109,7 @@ length 17
 ====================
 \"No, from you.\"
 ====================
-\"No, from you.\"
+“不，要你的。”
 ====================
 
 ====================
@@ -1120,7 +1120,7 @@ length 7
 ====================
 \"No.\"
 ====================
-\"No.\"
+“不行。”
 ====================
 
 ====================
@@ -1131,7 +1131,7 @@ length 58
 ====================
 \"Since we've just kissed not long ago, it's fine right?\"
 ====================
-\"Since we've just kissed not long ago, it's fine right?\"
+“刚才我们才接过吻，没关系吧？”
 ====================
 
 ====================
@@ -1142,7 +1142,7 @@ length 41
 ====================
 \"Every one of your requests is creepy.\"
 ====================
-\"Every one of your requests is creepy.\"
+“你每一个要求都很恶心。”
 ====================
 
 ====================
@@ -1153,7 +1153,7 @@ length 61
 ====================
 \"It's fine. Consider it an extra. This'll be the last one.\"
 ====================
-\"It's fine. Consider it an extra. This'll be the last one.\"
+“没事的。就当是附赠的，这是最后一个了。”
 ====================
 
 ====================
@@ -1164,7 +1164,7 @@ length 10
 ====================
 \"Ngh...\"
 ====================
-\"Ngh...\"
+“唔……”
 ====================
 
 ====================
@@ -1175,7 +1175,7 @@ length 33
 ====================
 She scowls and is about to leave.
 ====================
-She scowls and is about to leave.
+她沉着脸，正要转身离开。
 ====================
 
 ====================
@@ -1186,7 +1186,7 @@ length 30
 ====================
 \"Could you repeat my order?\"
 ====================
-\"Could you repeat my order?\"
+“能重复一遍我的点单吗？”
 ====================
 
 ====================
@@ -1197,7 +1197,7 @@ length 40
 ====================
 Before she can leave, I call out to her.
 ====================
-Before she can leave, I call out to her.
+趁她还没走开，我叫住了她。
 ====================
 
 ====================
@@ -1208,7 +1208,7 @@ length 37
 ====================
 \"Okay... I will repeat your order.\"
 ====================
-\"Okay... I will repeat your order.\"
+“好的……我重复一遍您的点单。”
 ====================
 
 ====================
@@ -1219,7 +1219,7 @@ length 35
 ====================
 \"A coffee with an indirect kiss.\"
 ====================
-\"A coffee with an indirect kiss.\"
+“一杯咖啡，外加一个间接接吻。”
 ====================
 
 ====================
@@ -1230,7 +1230,7 @@ length 14
 ====================
 \"From whom?\"
 ====================
-\"From whom?\"
+“是谁的？”
 ====================
 
 ====================
@@ -1241,7 +1241,7 @@ length 52
 ====================
 \"A coffee with an indirect kiss from the manager.\"
 ====================
-\"A coffee with an indirect kiss from the manager.\"
+“一杯咖啡，外加店长的间接接吻。”
 ====================
 
 ====================
@@ -1252,7 +1252,7 @@ length 17
 ====================
 \"That's wrong.\"
 ====================
-\"That's wrong.\"
+“不对。”
 ====================
 
 ====================
@@ -1263,7 +1263,7 @@ length 46
 ====================
 \"A coffee with an indirect kiss from... me.\"
 ====================
-\"A coffee with an indirect kiss from... me.\"
+“一杯咖啡，外加……我的间接接吻。”
 ====================
 
 ====================
@@ -1274,7 +1274,7 @@ length 21
 ====================
 \"Will that be all?\"
 ====================
-\"Will that be all?\"
+“就要这些吗？”
 ====================
 
 ====================
@@ -1285,7 +1285,7 @@ length 15
 ====================
 \"That's all.\"
 ====================
-\"That's all.\"
+“就这些。”
 ====================
 
 ====================
@@ -1296,7 +1296,7 @@ length 81
 ====================
 \"Thank you for waiting. Here's your coffee. I have already put my mouth on it.\"
 ====================
-\"Thank you for waiting. Here's your coffee. I have already put my mouth on it.\"
+“让您久等了。这是您的咖啡。我已经沾过嘴了。”
 ====================
 
 ====================
@@ -1307,7 +1307,7 @@ length 87
 ====================
 \"You're lying, aren't you? There's no evidence of the coffee cup having been tilted.\"
 ====================
-\"You're lying, aren't you? There's no evidence of the coffee cup having been tilted.\"
+“你骗人的吧？杯子上完全没有倾斜过的痕迹。”
 ====================
 
 ====================
@@ -1318,7 +1318,7 @@ length 10
 ====================
 \"Ngh...\"
 ====================
-\"Ngh...\"
+“唔……”
 ====================
 
 ====================
@@ -1329,7 +1329,7 @@ length 28
 ====================
 \"Then I'll have a little.\"
 ====================
-\"Then I'll have a little.\"
+“那我喝一小口。”
 ====================
 
 ====================
@@ -1340,7 +1340,7 @@ length 37
 ====================
 She puts the coffee cup to her mouth.
 ====================
-She puts the coffee cup to her mouth.
+她把咖啡杯送到嘴边。
 ====================
 
 ====================
@@ -1351,7 +1351,7 @@ length 27
 ====================
 \"Drink about half of it.\"
 ====================
-\"Drink about half of it.\"
+“喝一半左右。”
 ====================
 
 ====================
@@ -1362,7 +1362,7 @@ length 50
 ====================
 She tilts the cup and coffee flows into her mouth.
 ====================
-She tilts the cup and coffee flows into her mouth.
+她倾过杯子，咖啡流进嘴里。
 ====================
 
 ====================
@@ -1373,7 +1373,7 @@ length 20
 ====================
 \"Now put it back.\"
 ====================
-\"Now put it back.\"
+“现在放回去。”
 ====================
 
 ====================
@@ -1384,7 +1384,7 @@ length 24
 ====================
 \"Pffffffffffffttttt!!\"
 ====================
-\"Pffffffffffffttttt!!\"
+“噗————————！！”
 ====================
 
 ====================
@@ -1395,7 +1395,7 @@ length 17
 ====================
 She spits it out.
 ====================
-She spits it out.
+她一口喷了出来。
 ====================
 
 ====================
@@ -1406,7 +1406,7 @@ length 18
 ====================
 \"You pervert...\"
 ====================
-\"You pervert...\"
+“你这个变态……”
 ====================
 
 ====================
@@ -1417,7 +1417,7 @@ length 20
 ====================
 \"I've had enough.\"
 ====================
-\"I've had enough.\"
+“我受够了。”
 ====================
 
 ====================
@@ -1428,7 +1428,7 @@ length 73
 ====================
 She throws the headband on the floor and heads to the bathroom to change.
 ====================
-She throws the headband on the floor and heads to the bathroom to change.
+她把头饰扔到地上，转身去浴室换衣服。
 ====================
 
 ====================
@@ -1439,7 +1439,7 @@ length 21
 ====================
 \"I'll have coffee.\"
 ====================
-\"I'll have coffee.\"
+“我要咖啡。”
 ====================
 
 ====================
@@ -1450,7 +1450,7 @@ length 21
 ====================
 \"Will that be all?\"
 ====================
-\"Will that be all?\"
+“就要这些吗？”
 ====================
 
 ====================
@@ -1461,7 +1461,7 @@ length 21
 ====================
 With an indirect kiss
 ====================
-With an indirect kiss
+外加间接接吻
 ====================
 
 ====================
@@ -1472,7 +1472,7 @@ length 20
 ====================
 Given mouth to mouth
 ====================
-Given mouth to mouth
+嘴对嘴喂
 ====================
 
 ====================
@@ -1483,7 +1483,7 @@ length 26
 ====================
 \"With an indirect kiss.\"
 ====================
-\"With an indirect kiss.\"
+“外加一个间接接吻。”
 ====================
 
 ====================
@@ -1494,7 +1494,7 @@ length 39
 ====================
 \"...Manager, please call the police.\"
 ====================
-\"...Manager, please call the police.\"
+“……店长，请报警。”
 ====================
 
 ====================
@@ -1505,7 +1505,7 @@ length 9
 ====================
 \"Why?!\"
 ====================
-\"Why?!\"
+“为什么啊！？”
 ====================
 
 ====================
@@ -1516,7 +1516,7 @@ length 84
 ====================
 \"If a customer orders that out of the blue, obviously the police would be called.\"
 ====================
-\"If a customer orders that out of the blue, obviously the police would be called.\"
+“客人突然点那种东西，当然要报警了。”
 ====================
 
 ====================
@@ -1527,7 +1527,7 @@ length 77
 ====================
 \"Hey, we're actually lovers, so don't worry so much about that part, okay?\"
 ====================
-\"Hey, we're actually lovers, so don't worry so much about that part, okay?\"
+“喂，我们实际上是情侣，那部分就别那么计较了吧？”
 ====================
 
 ====================
@@ -1538,7 +1538,7 @@ length 21
 ====================
 \"How convenient...\"
 ====================
-\"How convenient...\"
+“可真方便啊……”
 ====================
 
 ====================
@@ -1549,7 +1549,7 @@ length 27
 ====================
 \"Come on, one more time.\"
 ====================
-\"Come on, one more time.\"
+“来吧，再来一次。”
 ====================
 
 ====================
@@ -1560,7 +1560,7 @@ length 19
 ====================
 \"Hello, welcome.\"
 ====================
-\"Hello, welcome.\"
+“欢迎光临。”
 ====================
 
 ====================
@@ -1571,7 +1571,7 @@ length 23
 ====================
 \"What will you have?\"
 ====================
-\"What will you have?\"
+“请问您要点什么？”
 ====================
 
 ====================
@@ -1582,7 +1582,7 @@ length 21
 ====================
 \"I'll have coffee.\"
 ====================
-\"I'll have coffee.\"
+“我要咖啡。”
 ====================
 
 ====================
@@ -1593,7 +1593,7 @@ length 21
 ====================
 \"Will that be all?\"
 ====================
-\"Will that be all?\"
+“就要这些吗？”
 ====================
 
 ====================
@@ -1604,7 +1604,7 @@ length 26
 ====================
 \"With an indirect kiss.\"
 ====================
-\"With an indirect kiss.\"
+“外加一个间接接吻。”
 ====================
 
 ====================
@@ -1615,7 +1615,7 @@ length 21
 ====================
 \"Will that be all?\"
 ====================
-\"Will that be all?\"
+“就要这些吗？”
 ====================
 
 ====================
@@ -1626,7 +1626,7 @@ length 15
 ====================
 \"That's all.\"
 ====================
-\"That's all.\"
+“就这些。”
 ====================
 
 ====================
@@ -1637,7 +1637,7 @@ length 19
 ====================
 \"Certainly, sir.\"
 ====================
-\"Certainly, sir.\"
+“好的，先生。”
 ====================
 
 ====================
@@ -1648,7 +1648,7 @@ length 30
 ====================
 \"Could you repeat my order?\"
 ====================
-\"Could you repeat my order?\"
+“能重复一遍我的点单吗？”
 ====================
 
 ====================
@@ -1659,7 +1659,7 @@ length 46
 ====================
 As she's about to leave, I call out to Tomoyo.
 ====================
-As she's about to leave, I call out to Tomoyo.
+她正要走开，我叫住了智代。
 ====================
 
 ====================
@@ -1670,7 +1670,7 @@ length 37
 ====================
 \"Okay... I will repeat your order.\"
 ====================
-\"Okay... I will repeat your order.\"
+“好的……我重复一遍您的点单。”
 ====================
 
 ====================
@@ -1681,7 +1681,7 @@ length 35
 ====================
 \"A coffee with an indirect kiss.\"
 ====================
-\"A coffee with an indirect kiss.\"
+“一杯咖啡，外加一个间接接吻。”
 ====================
 
 ====================
@@ -1692,7 +1692,7 @@ length 14
 ====================
 \"From whom?\"
 ====================
-\"From whom?\"
+“是谁的？”
 ====================
 
 ====================
@@ -1703,7 +1703,7 @@ length 46
 ====================
 \"A coffee with an indirect kiss from... me.\"
 ====================
-\"A coffee with an indirect kiss from... me.\"
+“一杯咖啡，外加……我的间接接吻。”
 ====================
 
 ====================
@@ -1714,7 +1714,7 @@ length 21
 ====================
 \"Will that be all?\"
 ====================
-\"Will that be all?\"
+“就要这些吗？”
 ====================
 
 ====================
@@ -1725,7 +1725,7 @@ length 15
 ====================
 \"That's all.\"
 ====================
-\"That's all.\"
+“就这些。”
 ====================
 
 ====================
@@ -1736,7 +1736,7 @@ length 25
 ====================
 \"Given mouth to mouth.\"
 ====================
-\"Given mouth to mouth.\"
+“嘴对嘴喂我。”
 ====================
 
 ====================
@@ -1747,7 +1747,7 @@ length 39
 ====================
 \"...Manager, please call the police.\"
 ====================
-\"...Manager, please call the police.\"
+“……店长，请报警。”
 ====================
 
 ====================
@@ -1758,7 +1758,7 @@ length 9
 ====================
 \"Why?!\"
 ====================
-\"Why?!\"
+“为什么啊！？”
 ====================
 
 ====================
@@ -1769,7 +1769,7 @@ length 84
 ====================
 \"If a customer orders that out of the blue, obviously the police would be called.\"
 ====================
-\"If a customer orders that out of the blue, obviously the police would be called.\"
+“客人突然点那种东西，当然要报警了。”
 ====================
 
 ====================
@@ -1780,7 +1780,7 @@ length 77
 ====================
 \"Hey, we're actually lovers, so don't worry so much about that part, okay?\"
 ====================
-\"Hey, we're actually lovers, so don't worry so much about that part, okay?\"
+“喂，我们实际上是情侣，那部分就别那么计较了吧？”
 ====================
 
 ====================
@@ -1791,7 +1791,7 @@ length 21
 ====================
 \"How convenient...\"
 ====================
-\"How convenient...\"
+“可真方便啊……”
 ====================
 
 ====================
@@ -1802,7 +1802,7 @@ length 27
 ====================
 \"Come on, one more time.\"
 ====================
-\"Come on, one more time.\"
+“来吧，再来一次。”
 ====================
 
 ====================
@@ -1813,7 +1813,7 @@ length 19
 ====================
 \"Hello, welcome.\"
 ====================
-\"Hello, welcome.\"
+“欢迎光临。”
 ====================
 
 ====================
@@ -1824,7 +1824,7 @@ length 23
 ====================
 \"What will you have?\"
 ====================
-\"What will you have?\"
+“请问您要点什么？”
 ====================
 
 ====================
@@ -1835,7 +1835,7 @@ length 21
 ====================
 \"I'll have coffee.\"
 ====================
-\"I'll have coffee.\"
+“我要咖啡。”
 ====================
 
 ====================
@@ -1846,7 +1846,7 @@ length 21
 ====================
 \"Will that be all?\"
 ====================
-\"Will that be all?\"
+“就要这些吗？”
 ====================
 
 ====================
@@ -1857,7 +1857,7 @@ length 25
 ====================
 \"Given mouth to mouth.\"
 ====================
-\"Given mouth to mouth.\"
+“嘴对嘴喂我。”
 ====================
 
 ====================
@@ -1868,7 +1868,7 @@ length 19
 ====================
 \"By the manager?\"
 ====================
-\"By the manager?\"
+“要店长喂？”
 ====================
 
 ====================
@@ -1879,7 +1879,7 @@ length 15
 ====================
 \"No, by you.\"
 ====================
-\"No, by you.\"
+“不，要你喂。”
 ====================
 
 ====================
@@ -1890,7 +1890,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+“…………”
 ====================
 
 ====================
@@ -1901,7 +1901,7 @@ length 21
 ====================
 \"Will that be all?\"
 ====================
-\"Will that be all?\"
+“就要这些吗？”
 ====================
 
 ====================
@@ -1912,7 +1912,7 @@ length 15
 ====================
 \"That's all.\"
 ====================
-\"That's all.\"
+“就这些。”
 ====================
 
 ====================
@@ -1923,7 +1923,7 @@ length 19
 ====================
 \"Certainly, sir.\"
 ====================
-\"Certainly, sir.\"
+“好的，先生。”
 ====================
 
 ====================
@@ -1934,7 +1934,7 @@ length 30
 ====================
 \"Could you repeat my order?\"
 ====================
-\"Could you repeat my order?\"
+“能重复一遍我的点单吗？”
 ====================
 
 ====================
@@ -1945,7 +1945,7 @@ length 46
 ====================
 As she's about to leave, I call out to Tomoyo.
 ====================
-As she's about to leave, I call out to Tomoyo.
+她正要走开，我叫住了智代。
 ====================
 
 ====================
@@ -1956,7 +1956,7 @@ length 37
 ====================
 \"Okay... I will repeat your order.\"
 ====================
-\"Okay... I will repeat your order.\"
+“好的……我重复一遍您的点单。”
 ====================
 
 ====================
@@ -1967,7 +1967,7 @@ length 34
 ====================
 \"A coffee given mouth to mouth.\"
 ====================
-\"A coffee given mouth to mouth.\"
+“一杯嘴对嘴喂的咖啡。”
 ====================
 
 ====================
@@ -1978,7 +1978,7 @@ length 12
 ====================
 \"By whom?\"
 ====================
-\"By whom?\"
+“谁来喂？”
 ====================
 
 ====================
@@ -1989,7 +1989,7 @@ length 43
 ====================
 \"A coffee given mouth to mouth... by me.\"
 ====================
-\"A coffee given mouth to mouth... by me.\"
+“一杯嘴对嘴喂的咖啡……由我来喂。”
 ====================
 
 ====================
@@ -2000,7 +2000,7 @@ length 24
 ====================
 \"...will that be all?\"
 ====================
-\"...will that be all?\"
+“……就要这些吗？”
 ====================
 
 ====================
@@ -2011,7 +2011,7 @@ length 15
 ====================
 \"That's all.\"
 ====================
-\"That's all.\"
+“就这些。”
 ====================
 
 ====================
@@ -2022,7 +2022,7 @@ length 26
 ====================
 \"Thank you for waiting.\"
 ====================
-\"Thank you for waiting.\"
+“让您久等了。”
 ====================
 
 ====================
@@ -2033,7 +2033,7 @@ length 18
 ====================
 \"I'm excited...\"
 ====================
-\"I'm excited...\"
+“好激动……”
 ====================
 
 ====================
@@ -2044,7 +2044,7 @@ length 10
 ====================
 \"Ngh...\"
 ====================
-\"Ngh...\"
+“唔……”
 ====================
 
 ====================
@@ -2055,7 +2055,7 @@ length 22
 ====================
 \"Okay, excuse me...\"
 ====================
-\"Okay, excuse me...\"
+“好，失礼了……”
 ====================
 
 ====================
@@ -2066,7 +2066,7 @@ length 37
 ====================
 She puts the coffee cup to her mouth.
 ====================
-She puts the coffee cup to her mouth.
+她把咖啡杯送到嘴边。
 ====================
 
 ====================
@@ -2077,7 +2077,7 @@ length 95
 ====================
 \"Wait, if I stop and think about it, why am I obligated to do something perverted like this?\"
 ====================
-\"Wait, if I stop and think about it, why am I obligated to do something perverted like this?\"
+“等等，冷静下来想想，我凭什么非要做这种变态的事啊？”
 ====================
 
 ====================
@@ -2088,7 +2088,7 @@ length 27
 ====================
 \"Because we're lovers...\"
 ====================
-\"Because we're lovers...\"
+“因为我们是在交往啊……”
 ====================
 
 ====================
@@ -2099,7 +2099,7 @@ length 65
 ====================
 \"No girlfriend would give her boyfriend coffee mouth to mouth.\"
 ====================
-\"No girlfriend would give her boyfriend coffee mouth to mouth.\"
+“哪有女朋友会嘴对嘴给男朋友喂咖啡的。”
 ====================
 
 ====================
@@ -2110,7 +2110,7 @@ length 60
 ====================
 \"And isn't it bitter? I didn't even put anything in it...\"
 ====================
-\"And isn't it bitter? I didn't even put anything in it...\"
+“而且这很苦吧？我明明什么都没加……”
 ====================
 
 ====================
@@ -2121,7 +2121,7 @@ length 36
 ====================
 \"It's like I'm a pervert toooooo!\"
 ====================
-\"It's like I'm a pervert toooooo!\"
+“搞得我自己也像个变态一样啊————！”
 ====================
 
 ====================
@@ -2132,7 +2132,7 @@ length 11
 ====================
 \"I quit.\"
 ====================
-\"I quit.\"
+“我不干了。”
 ====================
 
 ====================
@@ -2143,7 +2143,7 @@ length 73
 ====================
 She throws the headband on the floor and heads to the bathroom to change.
 ====================
-She throws the headband on the floor and heads to the bathroom to change.
+她把头饰扔到地上，转身去浴室换衣服。
 ====================
 
 ====================
@@ -2154,7 +2154,7 @@ length 34
 ====================
 \"Now it's your turn to wear it.\"
 ====================
-\"Now it's your turn to wear it.\"
+“这回轮到你穿了。”
 ====================
 
 ====================
@@ -2165,7 +2165,7 @@ length 46
 ====================
 ...she thrusts the waitress uniform toward me.
 ====================
-...she thrusts the waitress uniform toward me.
+……她把那身服务生制服塞到我面前。
 ====================
 
 ====================
@@ -2176,7 +2176,7 @@ length 59
 ====================
 \"Huh? But this is meant for a woman. It wouldn't fit me.\"
 ====================
-\"Huh? But this is meant for a woman. It wouldn't fit me.\"
+“哈？可这是女式的吧。我穿不下啊。”
 ====================
 
 ====================
@@ -2187,7 +2187,7 @@ length 65
 ====================
 \"Shut up... you're going to put on these super tight tights...\"
 ====================
-\"Shut up... you're going to put on these super tight tights...\"
+“少废话……你给我把这紧绷绷的连裤袜穿上……”
 ====================
 
 ====================
@@ -2198,7 +2198,7 @@ length 28
 ====================
 That would just be creepy...
 ====================
-That would just be creepy...
+那画面只会很恶心……
 ====================
 
 ====================
@@ -2209,7 +2209,7 @@ length 57
 ====================
 \"It's fine. It was cute and looked really good on you.\"
 ====================
-\"It's fine. It was cute and looked really good on you.\"
+“算了吧。那身衣服很可爱，你穿着也确实好看。”
 ====================
 
 ====================
@@ -2220,7 +2220,7 @@ length 17
 ====================
 \"Eh? R-Really?\"
 ====================
-\"Eh? R-Really?\"
+“诶？真、真的吗？”
 ====================
 
 ====================
@@ -2231,7 +2231,7 @@ length 54
 ====================
 \"Even if you say that now, it won't make me happy!!\"
 ====================
-\"Even if you say that now, it won't make me happy!!\"
+“就算你现在这么说，我也不会高兴的！！”
 ====================
 
 ====================
@@ -2242,7 +2242,7 @@ length 84
 ====================
 \"It's weird that I'm the only one who always has to do these embarrassing things.\"
 ====================
-\"It's weird that I'm the only one who always has to do these embarrassing things.\"
+“总是只有我一个人做这种丢人的事，太不公平了。”
 ====================
 
 ====================
@@ -2253,7 +2253,7 @@ length 47
 ====================
 \"To be fair, you need to be embarrassed too.\"
 ====================
-\"To be fair, you need to be embarrassed too.\"
+“公平起见，你也该丢丢脸。”
 ====================
 
 ====================
@@ -2264,7 +2264,7 @@ length 28
 ====================
 \"Is it that embarrassing?\"
 ====================
-\"Is it that embarrassing?\"
+“有那么丢脸吗？”
 ====================
 
 ====================
@@ -2275,7 +2275,7 @@ length 14
 ====================
 \"Of course.\"
 ====================
-\"Of course.\"
+“当然了。”
 ====================
 
 ====================
@@ -2286,7 +2286,7 @@ length 84
 ====================
 \"Dressing up like a waitress here... it's like I have some kind of weird hobby...\"
 ====================
-\"Dressing up like a waitress here... it's like I have some kind of weird hobby...\"
+“在自家打扮成服务生……简直像是有某种奇怪癖好的人……”
 ====================
 
 ====================
@@ -2297,7 +2297,7 @@ length 37
 ====================
 \"But the design really was cute...\"
 ====================
-\"But the design really was cute...\"
+“不过那款式确实挺可爱的……”
 ====================
 
 ====================
@@ -2308,7 +2308,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+“…………”
 ====================
 
 ====================
@@ -2319,7 +2319,7 @@ length 30
 ====================
 \"W-Was it really that cute?\"
 ====================
-\"W-Was it really that cute?\"
+“真、真的有那么可爱吗？”
 ====================
 
 ====================
@@ -2330,7 +2330,7 @@ length 32
 ====================
 Oh, Tomoyo is kind of into it...
 ====================
-Oh, Tomoyo is kind of into it...
+哦，智代好像还挺中意的……
 ====================
 
 ====================
@@ -2341,7 +2341,7 @@ length 29
 ====================
 \"It was ridiculously cute.\"
 ====================
-\"It was ridiculously cute.\"
+“可爱得离谱。”
 ====================
 
 ====================
@@ -2352,7 +2352,7 @@ length 41
 ====================
 \"It was so cute that it was dangerous.\"
 ====================
-\"It was so cute that it was dangerous.\"
+“可爱到危险的程度。”
 ====================
 
 ====================
@@ -2363,7 +2363,7 @@ length 69
 ====================
 \"It was so cute that I don't even know how to put it into words...\"
 ====================
-\"It was so cute that I don't even know how to put it into words...\"
+“可爱得我都不知道该怎么形容了……”
 ====================
 
 ====================
@@ -2374,7 +2374,7 @@ length 44
 ====================
 \"R-Really? If you enjoyed it that much...\"
 ====================
-\"R-Really? If you enjoyed it that much...\"
+“真、真的吗？既然你看得那么开心……”
 ====================
 
 ====================
@@ -2385,7 +2385,7 @@ length 39
 ====================
 \"I could wear it just one more time.\"
 ====================
-\"I could wear it just one more time.\"
+“那我再穿一次也行。”
 ====================
 
 ====================
@@ -2396,7 +2396,7 @@ length 15
 ====================
 \"Eh? Really?\"
 ====================
-\"Eh? Really?\"
+“诶？真的？”
 ====================
 
 ====================
@@ -2407,7 +2407,7 @@ length 79
 ====================
 \"But I'm not going to take any more weird orders. I'm only going to wear it.\"
 ====================
-\"But I'm not going to take any more weird orders. I'm only going to wear it.\"
+“但这次我不接任何奇怪的点单了，只是穿而已。”
 ====================
 
 ====================
@@ -2418,7 +2418,7 @@ length 47
 ====================
 She heads toward the bathroom as she says this.
 ====================
-She heads toward the bathroom as she says this.
+她说着朝浴室走去。
 ====================
 
 ====================
@@ -2429,7 +2429,7 @@ length 43
 ====================
 As if to replace her, the front door opens.
 ====================
-As if to replace her, the front door opens.
+仿佛与她交错一般，玄关的门开了。
 ====================
 
 ====================
@@ -2440,7 +2440,7 @@ length 20
 ====================
 \"Nii-chan, hello.\"
 ====================
-\"Nii-chan, hello.\"
+“大哥，你好啊。”
 ====================
 
 ====================
@@ -2451,7 +2451,7 @@ length 28
 ====================
 Takafumi sticks his face in.
 ====================
-Takafumi sticks his face in.
+鹰文探进头来。
 ====================
 
 ====================
@@ -2462,7 +2462,7 @@ length 21
 ====================
 \"Is it okay today?\"
 ====================
-\"Is it okay today?\"
+“今天方便吗？”
 ====================
 
 ====================
@@ -2473,7 +2473,7 @@ length 34
 ====================
 \"Well, I don't know about that.\"
 ====================
-\"Well, I don't know about that.\"
+“这个嘛，不太方便吧。”
 ====================
 
 ====================
@@ -2484,7 +2484,7 @@ length 25
 ====================
 \"Pardon the intrusion.\"
 ====================
-\"Pardon the intrusion.\"
+“那我就打扰啦。”
 ====================
 
 ====================
@@ -2495,7 +2495,7 @@ length 52
 ====================
 He comes in without giving much thought to my reply.
 ====================
-He comes in without giving much thought to my reply.
+他完全没把我的回答当回事，径自走了进来。
 ====================
 
 ====================
@@ -2506,7 +2506,7 @@ length 46
 ====================
 \"Look Nii-chan, I brought a new game today.\"
 ====================
-\"Look Nii-chan, I brought a new game today.\"
+“大哥你看，我今天带了新游戏来。”
 ====================
 
 ====================
@@ -2517,7 +2517,7 @@ length 11
 ====================
 \"Hm? Oh.\"
 ====================
-\"Hm? Oh.\"
+“嗯？哦。”
 ====================
 
 ====================
@@ -2528,7 +2528,7 @@ length 37
 ====================
 The bathroom door opens with a click.
 ====================
-The bathroom door opens with a click.
+浴室的门咔哒一声开了。
 ====================
 
 ====================
@@ -2539,7 +2539,7 @@ length 19
 ====================
 \"Hello, welcome.\"
 ====================
-\"Hello, welcome.\"
+“欢迎光临。”
 ====================
 
 ====================
@@ -2550,7 +2550,7 @@ length 12
 ====================
 \"Huh? Me?\"
 ====================
-\"Huh? Me?\"
+“嗯？我？”
 ====================
 
 ====================
@@ -2561,7 +2561,7 @@ length 15
 ====================
 *Thuuuuuuuuuud*
 ====================
-*Thuuuuuuuuuud*
+咚————！！
 ====================
 
 ====================
@@ -2572,7 +2572,7 @@ length 42
 ====================
 \"What? Did you start working at a shop?\"
 ====================
-\"What? Did you start working at a shop?\"
+“什么？你开始在店里打工了？”
 ====================
 
 ====================
@@ -2583,7 +2583,7 @@ length 29
 ====================
 \"Please take your leave...\"
 ====================
-\"Please take your leave...\"
+“请您回去吧……”
 ====================
 
 ====================
@@ -2594,7 +2594,7 @@ length 32
 ====================
 \"Maybe I'll have some coffee.\"
 ====================
-\"Maybe I'll have some coffee.\"
+“那我要杯咖啡吧。”
 ====================
 
 ====================
@@ -2605,7 +2605,7 @@ length 22
 ====================
 \"Get it yourself...\"
 ====================
-\"Get it yourself...\"
+“自己倒……”
 ====================
 
 ====================
@@ -2616,7 +2616,7 @@ length 34
 ====================
 \"You're a waitress, aren't you?\"
 ====================
-\"You're a waitress, aren't you?\"
+“你不是服务生吗？”
 ====================
 
 ====================
@@ -2627,7 +2627,7 @@ length 49
 ====================
 \"No, I don't know what you're talking about...\"
 ====================
-\"No, I don't know what you're talking about...\"
+“没有，我不知道你在说什么……”
 ====================
 
 ====================
@@ -2638,7 +2638,7 @@ length 43
 ====================
 \"You said 'welcome' earlier, didn't you?\"
 ====================
-\"You said 'welcome' earlier, didn't you?\"
+“你刚才不是说了‘欢迎光临’吗？”
 ====================
 
 ====================
@@ -2649,7 +2649,7 @@ length 37
 ====================
 \"No, you were hearing things, sir.\"
 ====================
-\"No, you were hearing things, sir.\"
+“没有，是您听错了，先生。”
 ====================
 
 ====================
@@ -2660,7 +2660,7 @@ length 33
 ====================
 \"You're definitely a waitress.\"
 ====================
-\"You're definitely a waitress.\"
+“你绝对是服务生。”
 ====================
 
 ====================
@@ -2671,7 +2671,7 @@ length 45
 ====================
 \"You're mistaken. You were hearing things.\"
 ====================
-\"You're mistaken. You were hearing things.\"
+“您搞错了。是您听错了。”
 ====================
 
 ====================
@@ -2682,7 +2682,7 @@ length 41
 ====================
 \"But aren't you dressed as a waitress?\"
 ====================
-\"But aren't you dressed as a waitress?\"
+“可你不是打扮成服务生了吗？”
 ====================
 
 ====================
@@ -2693,7 +2693,7 @@ length 45
 ====================
 \"Please pretend you didn't see anything...\"
 ====================
-\"Please pretend you didn't see anything...\"
+“请您当什么都没看见……”
 ====================
 
 ====================
@@ -2704,7 +2704,7 @@ length 28
 ====================
 \"That nothing happened...\"
 ====================
-\"That nothing happened...\"
+“什么都没发生过……”
 ====================
 
 ====================
@@ -2715,7 +2715,7 @@ length 17
 ====================
 \"Starting now.\"
 ====================
-\"Starting now.\"
+“就从现在开始。”
 ====================
 
 ====================
@@ -2726,7 +2726,7 @@ length 55
 ====================
 \"But you're right in the middle of the discussion...\"
 ====================
-\"But you're right in the middle of the discussion...\"
+“可这话正说到一半呢……”
 ====================
 
 ====================
@@ -2737,7 +2737,7 @@ length 34
 ====================
 \"Then let's change the topic...\"
 ====================
-\"Then let's change the topic...\"
+“那就换个话题……”
 ====================
 
 ====================
@@ -2748,7 +2748,7 @@ length 15
 ====================
 \"Ah, sure...\"
 ====================
-\"Ah, sure...\"
+“啊，好……”
 ====================
 
 ====================
@@ -2759,7 +2759,7 @@ length 33
 ====================
 \"Takafumi, how did you get in?\"
 ====================
-\"Takafumi, how did you get in?\"
+“鹰文，你是怎么进来的？”
 ====================
 
 ====================
@@ -2770,7 +2770,7 @@ length 23
 ====================
 \"Huh? The spare key.\"
 ====================
-\"Huh? The spare key.\"
+“嗯？用备用钥匙啊。”
 ====================
 
 ====================
@@ -2781,7 +2781,7 @@ length 28
 ====================
 \"Oh, did I give you that?\"
 ====================
-\"Oh, did I give you that?\"
+“哦，我给过你备用钥匙吗？”
 ====================
 
 ====================
@@ -2792,7 +2792,7 @@ length 30
 ====================
 \"Don't give him thaaaaaaat!\"
 ====================
-\"Don't give him thaaaaaaat!\"
+“别把那种东西给他啊————！”
 ====================
 
 ====================
@@ -2803,7 +2803,7 @@ length 39
 ====================
 \"What is Takafumi? Your girlfriend?!\"
 ====================
-\"What is Takafumi? Your girlfriend?!\"
+“鹰文算你的什么人啊！？女朋友吗！？”
 ====================
 
 ====================
@@ -2814,7 +2814,7 @@ length 47
 ====================
 \"Hey, don't get mad in such a cute outfit...\"
 ====================
-\"Hey, don't get mad in such a cute outfit...\"
+“喂，别穿着这么可爱的衣服发火啊……”
 ====================
 
 ====================
@@ -2825,7 +2825,7 @@ length 24
 ====================
 \"Wait a minute, okay.\"
 ====================
-\"Wait a minute, okay.\"
+“你先等一下。”
 ====================
 
 ====================
@@ -2836,7 +2836,7 @@ length 92
 ====================
 \"I'm your girlfriend and Takafumi is your girlfriend's little brother. Isn't that right?!\"
 ====================
-\"I'm your girlfriend and Takafumi is your girlfriend's little brother. Isn't that right?!\"
+“我是你女朋友，鹰文是你女朋友的弟弟。没错吧！？”
 ====================
 
 ====================
@@ -2847,7 +2847,7 @@ length 25
 ====================
 \"Yeah, that's right...\"
 ====================
-\"Yeah, that's right...\"
+“嗯，没错……”
 ====================
 
 ====================
@@ -2858,7 +2858,7 @@ length 36
 ====================
 \"Then don't give him a spare key!\"
 ====================
-\"Then don't give him a spare key!\"
+“那就别给他备用钥匙啊！”
 ====================
 
 ====================
@@ -2869,7 +2869,7 @@ length 67
 ====================
 \"It's fine. Even if you're into cosplay, Nee-chan, I don't mind.\"
 ====================
-\"It's fine. Even if you're into cosplay, Nee-chan, I don't mind.\"
+“没关系啦。姐姐就算喜欢玩cosplay，我也不介意。”
 ====================
 
 ====================
@@ -2880,7 +2880,7 @@ length 29
 ====================
 \"I'm not. You should mind.\"
 ====================
-\"I'm not. You should mind.\"
+“我没有那种爱好。你倒是该介意一下。”
 ====================
 
 ====================
@@ -2891,7 +2891,7 @@ length 24
 ====================
 \"I'm taking your key.\"
 ====================
-\"I'm taking your key.\"
+“你的钥匙我没收了。”
 ====================
 
 ====================
@@ -2902,5 +2902,5 @@ length 20
 ====================
 \"Such a tyrant...\"
 ====================
-\"Such a tyrant...\"
+“真是个暴君……”
 ====================
