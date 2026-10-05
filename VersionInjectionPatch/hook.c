@@ -40,8 +40,6 @@ void HookInit(HMODULE hDll) {
 		initForDump();
 		break;
 	case PATCH_RELEASE:
-		loadPatchPackFromResource(hDll, &pack);
-		goto patch;
 	case PATCH_DEBUG:
 		loadPatchPackFromResource(hDll, &pack);
 		updatePatchPackFromTextFile(&pack);
