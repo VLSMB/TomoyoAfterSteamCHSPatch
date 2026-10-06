@@ -71,9 +71,9 @@ void PatchHookAfterVMInit() {
 	for (size_t i = 0; i < SET_NOP_ARRAY_SIZE; i++) {
 		skipAsmCode(imageBase, SET_NOP_RVA[i], SET_NOP_COUNT[i]);
 	}
-	writeHook(imageBase + CONSUME_TEXT_IN_QUOTE_MODE_CALLER_1_RVA, ProxyConsumeTextInQuoteMode);
-	writeHook(imageBase + CONSUME_TEXT_IN_QUOTE_MODE_CALLER_2_RVA, ProxyConsumeTextInQuoteMode);
-	writeHook(imageBase + CONSUME_TEXT_IN_QUITE_MODE_CALLER_3_RVA, ProxyConsumeTextInQuoteMode);
+	for (size_t i = 0; i < CONSUME_TEXT_IN_QUOTE_MODE_CALLER_SIZE; i++) {
+		writeHook(imageBase + CONSUME_TEXT_IN_QUOTE_MODE_CALLER_RVA[i], ProxyConsumeTextInQuoteMode);
+	}
 	writeHookWithNop(imageBase + HANDLE_INSTANT_TEXT_FUNC_RVA, HookHandleInstantText, 1);
 
 __patch_hook_init_ret:
