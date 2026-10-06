@@ -20,7 +20,7 @@ length 33
 ====================
 The story that I am about to tell
 ====================
-The story that I am about to tell
+接下来要讲述的故事
 ====================
 
 ====================
@@ -31,7 +31,7 @@ length 36
 ====================
 is something that happened long ago.
 ====================
-is something that happened long ago.
+是遥远的往事。
 ====================
 
 ====================
@@ -42,7 +42,7 @@ length 9
 ====================
 Even now,
 ====================
-Even now,
+时至今日，
 ====================
 
 ====================
@@ -53,7 +53,7 @@ length 32
 ====================
 it is still shining brilliantly.
 ====================
-it is still shining brilliantly.
+仍然闪耀发光的往事。
 ====================
 
 ====================
