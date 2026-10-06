@@ -46,7 +46,7 @@
 - [x] seen0629
 - [x] seen0630
 - [x] seen0701
-- [x] seen0702（进行中）
+- [x] seen0702
 - [ ] seen0707
 - [ ] seen0708
 - [ ] seen0709
