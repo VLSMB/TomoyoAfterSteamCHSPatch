@@ -123,6 +123,14 @@ EXTERN_C void DumpSeenData(RealLiveSeenData* in, SeenDumpData* out) {
 	out->nameData.size = nameArray.size();
 }
 
+EXTERN_C void transferBufferToGbk(ByteBuffer* in, ByteBuffer* out) {
+	RtlZeroMemory(out, sizeof(ByteBuffer));
+	std::string str = transferToGbk(bufferToStdString(*in));
+	out->size = str.size();
+	out->pointer = (BYTE*)malloc(out->size * sizeof(BYTE));
+	memcpy(out->pointer, str.c_str(), out->size);
+}
+
 EXTERN_C void TextDataToTextFile(SeenPatchDataArray* in, ByteBuffer* out) {
 	if (in == NULL) {
 		out->pointer = NULL;
@@ -183,7 +191,7 @@ EXTERN_C void TextFileToTextData(ByteBuffer* in, SeenPatchDataArray* out) {
 			if (i < L.size()) ++i;
 
 			std::string origin = readBlock(L, i);
-			std::string translated = transferToGbk(readBlock(L, i));
+			std::string translated = readBlock(L, i);
 
 			if (name == EMPTY_NAME) {
 				d.name.pointer = NULL;
@@ -318,7 +326,7 @@ EXTERN_C void TextFileToNameData(ByteBuffer* in, NameDataArray* out) {
 			if (i < L.size()) ++i;
 
 			std::string origin = readBlock(L, i);
-			std::string translated = transferToGbk(readBlock(L, i));
+			std::string translated = readBlock(L, i);
 
 			NameData d;
 			RtlZeroMemory(&d, sizeof(NameData));

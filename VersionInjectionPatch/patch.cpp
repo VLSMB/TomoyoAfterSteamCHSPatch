@@ -229,6 +229,7 @@ EXTERN_C const char* const GetWindowTitleTranslatedText(const char* const text) 
 }
 
 static const char* const pureGetTranslatedText(const char* const text) {
+	if (*text == '\0') return text;
 	unsigned seenNo = 0;
 	unsigned offset = 0;
 	if (exactSeenOffset(text, seenNo, offset)) {

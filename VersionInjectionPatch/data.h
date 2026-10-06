@@ -8,6 +8,7 @@ extern "C" {
 #endif
 
 void DumpSeenData(RealLiveSeenData* in, SeenDumpData* out);
+void transferBufferToGbk(ByteBuffer* in, ByteBuffer* out);
 
 void TextDataToTextFile(SeenPatchDataArray* in, ByteBuffer* out);
 void TextFileToTextData(ByteBuffer* in, SeenPatchDataArray* out);

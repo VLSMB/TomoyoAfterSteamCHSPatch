@@ -376,28 +376,29 @@ static BOOL readFile(const char* fileName, ByteBuffer* out) {
 		CloseHandle(hFile);
 		return FALSE;
 	}
-	out->size = fileSize;
-	out->pointer = (BYTE*)malloc(fileSize * sizeof(BYTE));
-	if (out->pointer == NULL) {
+	ByteBuffer buffer;
+	RtlZeroMemory(&buffer, sizeof(ByteBuffer));
+	buffer.size = fileSize;
+	buffer.pointer = (BYTE*)malloc(fileSize * sizeof(BYTE));
+	if (buffer.pointer == NULL) {
 		CloseHandle(hFile);
 		return FALSE;
 	}
 
 	DWORD bytesRead;
-	if (!ReadFile(hFile, out->pointer, fileSize, &bytesRead, NULL)) {
-		free(out->pointer);
-		RtlZeroMemory(out, sizeof(ByteBuffer));
+	if (!ReadFile(hFile, buffer.pointer, fileSize, &bytesRead, NULL)) {
+		free(buffer.pointer);
 		CloseHandle(hFile);
 		return FALSE;
 	}
 
-	if (bytesRead != out->size) {
-		free(out->pointer);
-		RtlZeroMemory(out, sizeof(ByteBuffer));
+	if (bytesRead != buffer.size) {
+		free(buffer.pointer);
 		CloseHandle(hFile);
 		return FALSE;
 	}
 
+	transferBufferToGbk(&buffer, out);
 	CloseHandle(hFile);
 	return TRUE;
 }
