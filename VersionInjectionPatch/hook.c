@@ -32,7 +32,9 @@ static void skipAsmCode(DWORD imageBase, DWORD rva, size_t codeLength);
 
 void HookInit(HMODULE hDll) {
 	initPatchMode();
-	MessageBoxA(NULL, ALPHA_VERSION_WARNING, MESSAGEBOX_TITLE, MB_ICONWARNING);
+	if (patch_mode != PATCH_DEBUG) {
+		MessageBoxA(NULL, ALPHA_VERSION_WARNING, MESSAGEBOX_TITLE, MB_ICONWARNING);
+	}
 	PatchPack pack;
 	RtlZeroMemory(&pack, sizeof(PatchPack));
 	switch (patch_mode) {
@@ -89,25 +91,26 @@ void HookDestroy() {
 
 static void initPatchMode() {
 	BYTE* sha256 = calculateSHA256();
-	if (strcmp(sha256, PROCESS_FILE_SHA256)) {
+	FILE* fp = fopen(PATCH_MODE_CONFIG_FILE, "rb");
+	if (fp == NULL) {
+		patch_mode = PATCH_RELEASE;
+		goto check;
+	}
+	int ch = fgetc(fp);
+	fclose(fp);
+	if (ch == EOF || ch < '0' || ch > '4') {
+		patch_mode = PATCH_RELEASE;
+		goto check;
+	}
+	patch_mode = (PatchMode)(ch - '0');
+check:
+	if (patch_mode != PATCH_DEBUG && strcmp(sha256, PROCESS_FILE_SHA256)) {
 		int btn = MessageBoxA(NULL, SHA256_MISMATCH_WARNING, MESSAGEBOX_TITLE, MB_YESNO | MB_ICONWARNING);
 		if (btn != IDYES) {
 			patch_mode = PATCH_NONE;
 			return;
 		}
 	}
-	FILE* fp = fopen(PATCH_MODE_CONFIG_FILE, "rb");
-	if (fp == NULL) {
-		patch_mode = PATCH_RELEASE;
-		return;
-	}
-	int ch = fgetc(fp);
-	fclose(fp);
-	if (ch == EOF || ch < '0' || ch > '4') {
-		patch_mode = PATCH_RELEASE;
-		return;
-	}
-	patch_mode = (PatchMode)(ch - '0');
 }
 
 static char* calculateSHA256() {

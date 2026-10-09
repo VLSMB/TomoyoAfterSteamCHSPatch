@@ -104,14 +104,17 @@ void dwordToSeenOffset(DWORD dword, unsigned& seenNo, unsigned& offset) {
 bool exactSeenOffset(const char* const bytes, unsigned& seenNo, unsigned& offset) {
 	size_t count = 0;
 	const char* p = bytes;
-	while (count < SHOT_TEXT_SIZE && *p) {
+	while (count <= SHOT_TEXT_SIZE && *p) {
 		p++;
 		count++;
 	}
-	if (count < SHOT_TEXT_SIZE) {
+	if (count <= SHOT_TEXT_SIZE) {
 		return false;
 	}
-	std::vector<BYTE> vec = hexToVector(std::string(bytes, SHOT_TEXT_SIZE));
+	std::vector<BYTE> vec;
+	if (!hexToVector(vec, std::string(bytes, SHOT_TEXT_SIZE))) {
+		return false;
+	}
 	DWORD dword = vec[1] | ((DWORD)vec[2] << 8) | ((DWORD)vec[3] << 16) | ((DWORD)vec[4] << 24);
 	dwordToSeenOffset(dword, seenNo, offset);
 	return true;
@@ -128,16 +131,18 @@ std::string vectorToHex(const std::vector<BYTE>& vec) {
 	return hex;
 }
 
-std::vector<BYTE> hexToVector(const std::string& hex) {
-	std::vector<BYTE> vec;
+bool hexToVector(std::vector<BYTE>& vec, const std::string& hex) {
+	vec.clear();
 	vec.reserve(hex.size() / 2);
 	for (size_t i = 0; i < hex.size(); i += 2) {
 		std::string byteStr = hex.substr(i, 2);
 		unsigned value;
-		sscanf_s(byteStr.c_str(), "%02X", &value);
+		if (sscanf_s(byteStr.c_str(), "%02X", &value) != 1) {
+			return false;
+		}
 		vec.push_back(static_cast<BYTE>(value));
 	}
-	return vec;
+	return true;
 }
 
 bool byteBufferEquals(const ByteBuffer& b1, const ByteBuffer& b2) {

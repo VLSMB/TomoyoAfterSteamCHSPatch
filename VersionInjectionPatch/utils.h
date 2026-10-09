@@ -25,7 +25,7 @@ DWORD seenOffsetToDWORD(unsigned seenNo, unsigned offset);
 void dwordToSeenOffset(DWORD dword, unsigned& seenNo, unsigned& offset);
 bool exactSeenOffset(const char* const bytes, unsigned& seenNo, unsigned& offset);
 std::string vectorToHex(const std::vector<BYTE>& vec);
-std::vector<BYTE> hexToVector(const std::string& hex);
+bool hexToVector(std::vector<BYTE>& vec, const std::string& hex);
 bool byteBufferEquals(const ByteBuffer& b1, const ByteBuffer& b2);
 std::string transferToGbk(const std::string& str);
 bool startsWith(const std::string& str, const std::string& prefix);
