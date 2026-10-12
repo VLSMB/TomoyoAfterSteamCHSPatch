@@ -15,8 +15,9 @@ static size_t max_name_length = 0;
 static seen_map<std::string> text_map;
 static seen_map<unsigned> text_length_map;
 static seen_map<std::stack<BYTE>> text_stack;
+static std::unordered_map<unsigned, std::vector<unsigned>> replace_flag_map;
 static std::unordered_map<std::string, std::string> short_text_map;
-static std::unordered_map<unsigned, std::vector<unsigned>> seen_offset_map;
+static std::unordered_map<unsigned, std::vector<unsigned>> long_text_seen_offset_map;
 static std::unordered_map<std::string, std::string> cached_text_map;
 static size_t max_cached_text_length = 0;
 static std::string current_title_text = "";
@@ -41,23 +42,30 @@ EXTERN_C BOOL InitPatchData(PatchPack* in) {
 		text_map.reserve(in->pSize);
 		text_stack.reserve(in->pSize);
 		text_length_map.reserve(in->pSize);
-		seen_offset_map.reserve(in->pSize);
+		long_text_seen_offset_map.reserve(in->pSize);
+		replace_flag_map.reserve(in->pSize);
 		for (size_t i = 0; i < in->pSize; i++) {
 			SeenPatchDataArray* pArray = in->pText[i];
-			auto& map = text_map[pArray->seenNo];
-			map.reserve(pArray->size);
+			text_map[pArray->seenNo].reserve(pArray->size);
 			text_stack[pArray->seenNo].reserve(pArray->size);
 			text_length_map[pArray->seenNo].reserve(pArray->size);
+			replace_flag_map[pArray->seenNo].reserve(pArray->size);
 			for (size_t j = 0; j < pArray->size; j++) {
-				map[pArray->pointer[j].offset] = bufferToStdString(pArray->pointer[j].translated);
+				text_map[pArray->seenNo][pArray->pointer[j].offset] = bufferToStdString(pArray->pointer[j].translated);
 				text_length_map[pArray->seenNo][pArray->pointer[j].offset] = pArray->pointer[j].length;
-				if (pArray->pointer[j].length <= SHOT_TEXT_SIZE) {
+				if (pArray->pointer[j].replaceFlag) {
+					if (pArray->pointer[j].translated.size > pArray->pointer[j].length) {
+						MessageBoxA(window_handle, "补丁文本不符合要求：replace_flag的文本不可超过原文本字节数。", MESSAGEBOX_TITLE, MB_ICONERROR);
+						ExitProcess(-1);
+					}
+					replace_flag_map[pArray->seenNo].push_back(pArray->pointer[j].offset);
+				} else if (pArray->pointer[j].length <= SHOT_TEXT_SIZE) {
 					short_text_map.insert(std::make_pair(
 						bufferToStdString(pArray->pointer[j].origin),
 						bufferToStdString(pArray->pointer[j].translated)
 					));
 				} else {
-					seen_offset_map[pArray->seenNo].push_back(pArray->pointer[j].offset);
+					long_text_seen_offset_map[pArray->seenNo].push_back(pArray->pointer[j].offset);
 				}
 			}
 		}
@@ -71,7 +79,8 @@ EXTERN_C void CleanPatchData() {
 	text_stack.clear();
 	text_length_map.clear();
 	short_text_map.clear();
-	seen_offset_map.clear();
+	long_text_seen_offset_map.clear();
+	replace_flag_map.clear();
 	cached_text_map.clear();
 }
 
@@ -116,10 +125,10 @@ EXTERN_C const char* const GetTranslatedText(const char* const text) {
 }
 
 EXTERN_C void UpdateSeenBuffer(BYTE* buffer, unsigned seenNo) {
-	std::vector<BYTE> bytes;
-	for (const auto& offset : seen_offset_map[seenNo]) {
+	for (const auto& offset : long_text_seen_offset_map[seenNo]) {
 		DWORD dword = seenOffsetToDWORD(seenNo, offset);
 		BYTE* p = buffer + offset;
+		std::vector<BYTE> bytes;
 		bytes.push_back(TEXT_META_MAGIC);
 		bytes.push_back(dword & 0xFF);
 		bytes.push_back((dword >> 8) & 0xFF);
@@ -130,7 +139,11 @@ EXTERN_C void UpdateSeenBuffer(BYTE* buffer, unsigned seenNo) {
 			*p = static_cast<BYTE>(c);
 			p++;
 		}
-		bytes.clear();
+	}
+	for (const auto& offset : replace_flag_map[seenNo]) {
+		const std::string& text = text_map[seenNo][offset];
+		if (text == "") continue;
+		memcpy(buffer + offset, text.c_str(), text.length());
 	}
 }
 

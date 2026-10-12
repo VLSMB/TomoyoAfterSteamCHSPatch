@@ -33,3 +33,5 @@ const char* ALPHA_VERSION_WARNING = WINDOW_TITLE
 "本补丁仅用于学习研究用途，禁止用于一切商业活动。";
 
 BYTE* debug_flag_pointer = NULL;
+
+HWND window_handle = NULL;

@@ -4,7 +4,7 @@
 #include "patch.h"
 #include <Windows.h>
 
-static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, unsigned num);
+static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, unsigned seenNo);
 static void WINAPI beforeConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4);
 static void WINAPI afterConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4);
 static const char* const WINAPI getTranslatedText(const char* const text);
@@ -172,8 +172,6 @@ __create_window_hook_ret:
 	}
 }
 
-static HWND window_handle = NULL;
-
 static void WINAPI hookWindowTitle(HWND hWnd, const char** title) {
 	if (window_handle == NULL) {
 		if (IsWindowTitleText(*title)) {
@@ -323,8 +321,8 @@ void ASM_FUNCTION HookHandleInstantText() {
 	}
 }
 
-static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, unsigned num) {
-	UpdateSeenBuffer(ptr->decompressed_data, num);
+static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, unsigned seenNo) {
+	UpdateSeenBuffer(ptr->decompressed_data, seenNo);
 }
 
 static const char* const WINAPI getTranslatedText(const char* const text) {

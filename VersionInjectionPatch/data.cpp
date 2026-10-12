@@ -151,6 +151,7 @@ EXTERN_C void TextDataToTextFile(SeenPatchDataArray* in, ByteBuffer* out) {
 		else t += EMPTY_NAME;
 		t += "\n";
 		t += "length " + std::to_string(d.length) + "\n";
+		if (d.replaceFlag) t += REPLACE_FLAG"\n";
 		t += "====================\n";
 		if (d.origin.pointer != NULL) t.append((const char*)d.origin.pointer, d.origin.size);
 		t += "\n====================\n";
@@ -186,6 +187,7 @@ EXTERN_C void TextFileToTextData(ByteBuffer* in, SeenPatchDataArray* out) {
 				else if (startsWith(s, "offset ")) d.offset = (unsigned)strtoul(s.c_str() + 7, NULL, 10);
 				else if (startsWith(s, "name ")) name = s.substr(5);
 				else if (startsWith(s, "length ")) d.length = (size_t)strtoul(s.c_str() + 7, NULL, 10);
+				else if (startsWith(s, REPLACE_FLAG)) d.replaceFlag = 1;
 				++i;
 			}
 			if (i < L.size()) ++i;
@@ -227,6 +229,7 @@ EXTERN_C void TextDataToBinFile(SeenPatchDataArray* in, ByteBuffer* out) {
 	appendDWORD(b, (DWORD)n);
 	for (size_t i = 0; i < n; ++i) {
 		const SeenPatchData& d = in->pointer[i];
+		appendDWORD(b, (DWORD)d.replaceFlag);
 		appendDWORD(b, (DWORD)d.offset);
 		appendDWORD(b, (DWORD)d.length);
 		appendDWORD(b, (DWORD)d.translated.size);
@@ -253,13 +256,14 @@ EXTERN_C void BinFileToTextData(ByteBuffer* in, SeenPatchDataArray* out) {
 			count = 0;
 		}
 		for (size_t i = 0; i < count; ++i) {
-			DWORD offset, length, ts;
-			if (!readDWORD(p, end, offset) || !readDWORD(p, end, length) 
-				|| !readDWORD(p, end, ts)) break;
+			DWORD replaceFlag, offset, length, ts;
+			if (!readDWORD(p, end, replaceFlag) || !readDWORD(p, end, offset) 
+				|| !readDWORD(p, end, length) || !readDWORD(p, end, ts)) break;
 			if ((size_t)(end - p) < (size_t)ts) break;
 
 			SeenPatchData d;
 			RtlZeroMemory(&d, sizeof(d));
+			d.replaceFlag = replaceFlag ? 1 : 0;
 			d.index = 0;
 			d.offset = offset;
 			d.length = length;

@@ -18,6 +18,7 @@
 #define SEEN_DATA_DIR "patch"
 #define PATCH_MODE_CONFIG_FILE "patch_mode.cfg"
 #define EMPTY_NAME "NULL"
+#define REPLACE_FLAG "replace_flag"
 
 #define SEEN_DATA_NUM 10000
 #define SHOT_TEXT_SIZE 10
@@ -38,16 +39,24 @@
 #define REALLIVE_DEBUG_MODE_FLAG_RVA 0x302FC0
 
 #define SET_NOP_ARRAY_SIZE 33
-extern const DWORD SET_NOP_RVA[SET_NOP_ARRAY_SIZE];
-extern const size_t SET_NOP_COUNT[SET_NOP_ARRAY_SIZE];
 #define CONSUME_TEXT_IN_QUOTE_MODE_CALLER_SIZE 6
-extern const DWORD CONSUME_TEXT_IN_QUOTE_MODE_CALLER_RVA[CONSUME_TEXT_IN_QUOTE_MODE_CALLER_SIZE];
 
-extern const BYTE WINAPI_PATCH_STUB[5];
-extern const char* SHA256_MISMATCH_WARNING;
-extern const char* ALPHA_VERSION_WARNING;
+#ifdef __cplusplus
+extern "C" {
+#endif
+    extern const DWORD SET_NOP_RVA[SET_NOP_ARRAY_SIZE];
+    extern const size_t SET_NOP_COUNT[SET_NOP_ARRAY_SIZE];
+    extern const DWORD CONSUME_TEXT_IN_QUOTE_MODE_CALLER_RVA[CONSUME_TEXT_IN_QUOTE_MODE_CALLER_SIZE];
 
-extern BYTE* debug_flag_pointer;
+    extern const BYTE WINAPI_PATCH_STUB[5];
+    extern const char* SHA256_MISMATCH_WARNING;
+    extern const char* ALPHA_VERSION_WARNING;
+
+    extern BYTE* debug_flag_pointer;
+    extern HWND window_handle;
+#ifdef __cplusplus
+}
+#endif
 
 typedef enum PatchModeEnum {
     PATCH_RELEASE,
@@ -98,6 +107,7 @@ typedef struct SeenPatchDataStruct {
     unsigned index;
     unsigned offset;
     size_t length;
+    unsigned char replaceFlag;
     ByteBuffer name;
     ByteBuffer origin;
     ByteBuffer translated;

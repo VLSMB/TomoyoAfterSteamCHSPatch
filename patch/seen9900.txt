@@ -17,6 +17,7 @@ index 2
 offset 1975
 name NULL
 length 33
+replace_flag
 ====================
 The story that I am about to tell
 ====================
@@ -28,6 +29,7 @@ index 3
 offset 2045
 name NULL
 length 36
+replace_flag
 ====================
 is something that happened long ago.
 ====================
@@ -39,10 +41,11 @@ index 4
 offset 2118
 name NULL
 length 9
+replace_flag
 ====================
 Even now,
 ====================
-时至今日，
+是至今，
 ====================
 
 ====================
@@ -50,6 +53,7 @@ index 5
 offset 2164
 name NULL
 length 32
+replace_flag
 ====================
 it is still shining brilliantly.
 ====================
