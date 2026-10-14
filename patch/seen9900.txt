@@ -21,7 +21,7 @@ replace_flag
 ====================
 The story that I am about to tell
 ====================
-接下来要讲述的故事
+The story that I am about to tell
 ====================
 
 ====================
@@ -33,7 +33,7 @@ replace_flag
 ====================
 is something that happened long ago.
 ====================
-是遥远的往事。
+is something that happened long ago.
 ====================
 
 ====================
@@ -45,7 +45,7 @@ replace_flag
 ====================
 Even now,
 ====================
-是至今，
+Even now,
 ====================
 
 ====================
@@ -57,7 +57,7 @@ replace_flag
 ====================
 it is still shining brilliantly.
 ====================
-仍然闪耀发光的往事。
+it is still shining brilliantly.
 ====================
 
 ====================
