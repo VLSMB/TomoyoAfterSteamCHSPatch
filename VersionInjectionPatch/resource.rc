@@ -1,4 +1,4 @@
 #include <windows.h>
 #include "resource.h"
 
-IDR_PATCH_BIN RCDATA "patch.vlpt"
+IDR_PATCH_BIN RCDATA "SEEN_CHS.TXT"

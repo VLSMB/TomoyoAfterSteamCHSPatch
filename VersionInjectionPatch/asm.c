@@ -321,6 +321,31 @@ void ASM_FUNCTION HookHandleInstantText() {
 	}
 }
 
+void ASM_FUNCTION JmpSignature() {
+	__asm {
+		push esi
+		dec esp
+		push ebx
+		dec ebp
+		inc edx
+		sub eax, 5F4E4F4EH
+		inc ebx
+		dec edi
+		dec ebp
+		dec ebp
+		inc ebp
+		push edx
+		inc ebx
+		dec ecx
+		inc ecx
+		dec esp
+		pop edi
+		push ebp
+		push ebx
+		inc ebp
+	}
+}
+
 static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, unsigned seenNo) {
 	UpdateSeenBuffer(ptr->decompressed_data, seenNo);
 }

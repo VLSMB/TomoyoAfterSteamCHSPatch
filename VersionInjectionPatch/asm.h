@@ -11,5 +11,6 @@ void HookCreateWindowExA();
 
 void ProxyConsumeTextInQuoteMode();
 void HookHandleInstantText();
+void JmpSignature();
 
 #endif

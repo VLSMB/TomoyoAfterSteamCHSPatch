@@ -362,5 +362,5 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
-patch.vlpt
+SEEN_CHS.TXT
 .claude/

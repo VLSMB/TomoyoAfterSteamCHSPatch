@@ -29,6 +29,8 @@ static void assembleCallOp(BYTE* buffer, size_t len, void* targetFuncAddr, void*
 static void writeHook(void* targetFuncAddr, void* hookFuncAddr);
 static void writeHookWithNop(void* targetFuncAddr, void* hookFuncAddr, unsigned nopLength);
 static void skipAsmCode(DWORD imageBase, DWORD rva, size_t codeLength);
+static BYTE scramble(BYTE b);
+static void transform(const ByteBuffer* in, ByteBuffer* out);
 
 void HookInit(HMODULE hDll) {
 	initPatchMode();
@@ -200,11 +202,19 @@ static void initForArchive() {
 	PatchPack pack;
 	RtlZeroMemory(&pack, sizeof(PatchPack));
 	updatePatchPackFromTextFile(&pack);
+
 	ByteBuffer buffer;
 	RtlZeroMemory(&buffer, sizeof(ByteBuffer));
 	PatchPackToBinFile(&pack, &buffer);
-	saveFile(BIN_DATA_FILE, buffer);
+
+	ByteBuffer fileBuffer;
+	RtlZeroMemory(&fileBuffer, sizeof(ByteBuffer));
+	transform(&buffer, &fileBuffer);
+	saveFile(BIN_DATA_FILE, fileBuffer);
+
 	FreePatchPack(&pack);
+	FreeByteBuffer(&buffer);
+	FreeByteBuffer(&fileBuffer);
 	MessageBoxA(NULL, "打包成功！", MESSAGEBOX_TITLE, MB_OK | MB_ICONINFORMATION);
 	ExitProcess(0);
 }
@@ -281,11 +291,17 @@ static void loadPatchPackFromResource(HMODULE hDll, PatchPack* out) {
 	}
 	BYTE* pData = (BYTE*)LockResource(hData);
 	DWORD size = SizeofResource(hDll, hRes);
+
+	ByteBuffer fileBuffer;
+	RtlZeroMemory(&fileBuffer, sizeof(ByteBuffer));
+	fileBuffer.pointer = pData;
+	fileBuffer.size = size;
+
 	ByteBuffer buffer;
 	RtlZeroMemory(&buffer, sizeof(ByteBuffer));
-	buffer.pointer = pData;
-	buffer.size = size;
+	transform(&fileBuffer, &buffer);
 	BinFileToPatchPack(&buffer, out);
+	FreeByteBuffer(&buffer);
 	return;
 fail:
 	logError("读取资源失败！");
@@ -469,6 +485,28 @@ static void skipAsmCode(DWORD imageBase, DWORD rva, size_t codeLength) {
 		buffer[0] = 0xE9;
 		DWORD offset = codeLength - 0x5;
 		memcpy_s(buffer + 1, 4, &offset, 4);
+		size_t len = codeLength - 5;
+		if (len >= 5) {
+			memcpy_s(buffer + 5, len, JmpSignature, len >= 24 ? 24 : (len >= 20 ? 20 : 5));
+		}
 	}
 	updateAsmCode(imageBase + rva, buffer, codeLength);
+}
+
+static BYTE scramble(BYTE b) {
+	b = (BYTE)(((b & 0x0F) << 4) | ((b & 0xF0) >> 4));
+	b = (BYTE)(((b & 0x33) << 2) | ((b & 0xCC) >> 2));
+	b = (BYTE)(((b & 0x55) << 1) | ((b & 0xAA) >> 1));
+	return b;
+}
+
+static void transform(const ByteBuffer* in, ByteBuffer* out) {
+	if (!in || !out || !in->pointer) return;
+	out->pointer = (BYTE*)malloc(in->size);
+	if (!out->pointer) return;
+	out->size = in->size;
+
+	for (size_t i = 0; i < in->size; ++i) {
+		out->pointer[i] = scramble(in->pointer[i]);
+	}
 }
