@@ -390,6 +390,92 @@ EXTERN_C void BinFileToNameData(ByteBuffer* in, NameDataArray* out) {
 	out->size = arr.size();
 }
 
+EXTERN_C void TextFileToPEResource(ByteBuffer* in, PEResourceArray* out) {
+	std::vector<PEResource> arr;
+	if (in != NULL && in->pointer != NULL && in->size > 0) {
+		std::vector<std::string> L = splitLines(in->pointer, in->size);
+		size_t i = 2;
+		while (i < L.size()) {
+			i = nextSep(L, i);
+			if (i >= L.size()) break;
+			++i;
+
+			DWORD rva = 0;
+			size_t length = 0;
+			while (i < L.size() && !isSep(L[i])) {
+				const std::string& s = L[i];
+				if (startsWith(s, "rva ")) rva = (DWORD)strtoul(s.c_str() + 4, NULL, 10);
+				else if(startsWith(s, "length ")) length = (size_t)strtoul(s.c_str() + 7, NULL, 10);
+				i++;
+			}
+			if (i < L.size()) ++i;
+
+			std::string origin = readBlock(L, i);
+			std::string translated = readBlock(L, i);
+
+			if (rva == 0 || length == 0 || origin == translated) {
+				continue;
+			}
+
+			PEResource res;
+			RtlZeroMemory(&res, sizeof(PEResource));
+			res.index = arr.size() + 1;
+			res.length = length;
+			res.rva = rva;
+			res.origin = makeBuffer((const BYTE*)origin.data(), origin.size());
+			res.translated = makeBuffer((const BYTE*)translated.data(), translated.size());
+			arr.push_back(res);
+		}
+	}
+	out->pointer = toArrayPointer(arr);
+	out->size = arr.size();
+}
+
+EXTERN_C void PEResourceToBinFile(PEResourceArray* in, ByteBuffer* out) {
+	std::vector<BYTE> b;
+	size_t n = (in != NULL && in->pointer != NULL) ? in->size : 0;
+	appendDWORD(b, BIN_MAGIC);
+	appendDWORD(b, PERES_BIN_MAGIC);
+	appendDWORD(b, (DWORD)n);
+	for (size_t i = 0; i < n; ++i) {
+		const PEResource& res = in->pointer[i];
+		appendDWORD(b, (DWORD)res.length);
+		appendDWORD(b, (DWORD)res.rva);
+		appendDWORD(b, (DWORD)res.translated.size);
+		appendBytes(b, res.translated.pointer, res.translated.size);
+	}
+	out->pointer = toArrayPointer(b);
+	out->size = b.size();
+}
+
+EXTERN_C void BinFileToPEResource(ByteBuffer* in, PEResourceArray* out) {
+	std::vector<PEResource> arr;
+	if (in != NULL && in->pointer != NULL) {
+		const BYTE* p = in->pointer;
+		const BYTE* end = p + in->size;
+		DWORD magic1 = 0, magic2 = 0, count = 0;
+		if (!readDWORD(p, end, magic1) || !readDWORD(p, end, magic2) ||
+			!readDWORD(p, end, count) || magic1 != BIN_MAGIC || magic2 != PERES_BIN_MAGIC) {
+			count = 0;
+		}
+		for (DWORD i = 0; i < count; ++i) {
+			DWORD length, rva, ts;
+			if (!readDWORD(p, end, length) || !readDWORD(p, end, rva)
+				|| !readDWORD(p, end, ts)) break;
+			if ((size_t)(end - p) < (size_t)ts) break;
+			PEResource res;
+			RtlZeroMemory(&res, sizeof(PEResource));
+			res.index = i;
+			res.length = length;
+			res.rva = rva;
+			res.translated = makeBuffer(p, ts); p += ts;
+			arr.push_back(res);
+		}
+	}
+	out->pointer = toArrayPointer(arr);
+	out->size = arr.size();
+}
+
 EXTERN_C void PatchPackToBinFile(PatchPack* in, ByteBuffer* out) {
 	RtlZeroMemory(out, sizeof(ByteBuffer));
 	if (in == NULL) {
@@ -399,6 +485,7 @@ EXTERN_C void PatchPackToBinFile(PatchPack* in, ByteBuffer* out) {
 	appendDWORD(b, BIN_MAGIC);
 	appendDWORD(b, PACK_BIN_MAGIC);
 	appendDWORD(b, (DWORD)in->pSize);
+
 	ByteBuffer buffer;
 	for (size_t i = 0; i < in->pSize; i++) {
 		RtlZeroMemory(&buffer, sizeof(ByteBuffer));
@@ -407,11 +494,18 @@ EXTERN_C void PatchPackToBinFile(PatchPack* in, ByteBuffer* out) {
 		appendBytes(b, buffer.pointer, buffer.size);
 		FreeByteBuffer(&buffer);
 	}
+
 	RtlZeroMemory(&buffer, sizeof(ByteBuffer));
 	NameDataToBinFile(in->pName, &buffer);
 	appendDWORD(b, (DWORD)buffer.size);
 	appendBytes(b, buffer.pointer, buffer.size);
 	FreeByteBuffer(&buffer);
+
+	RtlZeroMemory(&buffer, sizeof(ByteBuffer));
+	PEResourceToBinFile(in->pRes, &buffer);
+	appendDWORD(b, (DWORD)buffer.size);
+	appendBytes(b, buffer.pointer, buffer.size);
+
 	out->pointer = toArrayPointer(b);
 	out->size = b.size();
 }
@@ -421,6 +515,7 @@ EXTERN_C void BinFileToPatchPack(ByteBuffer* in, PatchPack* out) {
 	if (in == NULL || in->pointer == NULL || in->size == 0) {
 		return;
 	}
+
 	DWORD magic1 = 0, magic2 = 0, pSize = 0;
 	const BYTE* p = in->pointer;
 	const BYTE* const end = p + in->size;
@@ -430,34 +525,45 @@ EXTERN_C void BinFileToPatchPack(ByteBuffer* in, PatchPack* out) {
 	}
 	out->pSize = pSize;
 	out->pText = (SeenPatchDataArray**)malloc(sizeof(SeenPatchDataArray*) * out->pSize);
+	if (out->pText == NULL) goto fail;
+	RtlZeroMemory(out->pText, sizeof(SeenPatchDataArray*) * out->pSize);
+
 	ByteBuffer buffer;
-	DWORD size = 0;
+	DWORD size;
 	RtlZeroMemory(&buffer, sizeof(ByteBuffer));
 	for (size_t i = 0; i < out->pSize; i++) {
+		size = 0;
 		if (!readDWORD(p, end, size) || size == 0) goto fail;
 		buffer.pointer = (BYTE*)p;
 		buffer.size = size;
 		SeenPatchDataArray* text = (SeenPatchDataArray*)malloc(sizeof(SeenPatchDataArray));
 		if (text == NULL) goto fail;
+		RtlZeroMemory(text, sizeof(SeenPatchDataArray));
 		BinFileToTextData(&buffer, text);
 		out->pText[i] = text;
 		p += size;
 	}
+
 	out->pName = (NameDataArray*)malloc(sizeof(NameDataArray));
 	if (out->pName == NULL) goto fail;
-	if (!readDWORD(p, end, size) || size == 0) goto fail;
+	RtlZeroMemory(out->pName, sizeof(NameDataArray));
+	if (!readDWORD(p, end, size) || size == 0) goto pe_res;
 	buffer.pointer = (BYTE*)p;
 	buffer.size = size;
 	BinFileToNameData(&buffer, out->pName);
+	p += size;
+
+pe_res:
+	out->pRes = (PEResourceArray*)malloc(sizeof(PEResourceArray));
+	if (out->pRes == NULL) goto fail;
+	RtlZeroMemory(out->pRes, sizeof(PEResourceArray));
+	if (!readDWORD(p, end, size) || size == 0) return;
+	buffer.pointer = (BYTE*)p;
+	buffer.size = size;
+	BinFileToPEResource(&buffer, out->pRes);
 	return;
 fail:
-	if (out->pText != NULL) {
-		for (size_t i = 0; i < out->pSize; i++) {
-			if(out->pText[i] != NULL) FreeSeenPatchDataArray(out->pText[i]);
-		}
-		if (out->pName != NULL) FreeNameDataArray(out->pName);
-		free(out->pText);
-	}
+	FreePatchPack(out);
 	RtlZeroMemory(out, sizeof(PatchPackStruct));
 }
 
@@ -578,6 +684,24 @@ EXTERN_C void FreeNameDataArray(NameDataArray* array) {
 	array->size = 0;
 }
 
+EXTERN_C void FreePEResource(PEResource* data) {
+	if (data == NULL) return;
+	FreeByteBuffer(&data->origin);
+	FreeByteBuffer(&data->translated);
+}
+
+EXTERN_C void FreePEResourceArray(PEResourceArray* array) {
+	if (array == NULL) return;
+	if (array->pointer != NULL) {
+		for (size_t i = 0; i < array->size; ++i) {
+			FreePEResource(&array->pointer[i]);
+		}
+		free(array->pointer);
+		array->pointer = NULL;
+	}
+	array->size = 0;
+}
+
 EXTERN_C void FreeSeenDumpData(SeenDumpData* dump) {
 	if (dump == NULL) return;
 	FreeSeenPatchDataArray(&dump->textData);
@@ -586,6 +710,7 @@ EXTERN_C void FreeSeenDumpData(SeenDumpData* dump) {
 
 EXTERN_C void FreePatchPack(PatchPack* pack) {
 	if (pack->pName != NULL) FreeNameDataArray(pack->pName);
+	if (pack->pRes != NULL) FreePEResourceArray(pack->pRes);
 	if (pack->pText != NULL && pack->pSize > 0) {
 		for (size_t i = 0; i < pack->pSize; i++) {
 			FreeSeenPatchDataArray(pack->pText[i]);
@@ -594,5 +719,6 @@ EXTERN_C void FreePatchPack(PatchPack* pack) {
 	free(pack->pText);
 	pack->pText = NULL;
 	pack->pName = NULL;
+	pack->pRes = NULL;
 	pack->pSize = 0;
 }

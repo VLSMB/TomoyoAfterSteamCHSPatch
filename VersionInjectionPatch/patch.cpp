@@ -19,6 +19,8 @@ static std::unordered_map<unsigned, std::vector<unsigned>> replace_flag_map;
 static std::unordered_map<std::string, std::string> short_text_map;
 static std::unordered_map<unsigned, std::vector<unsigned>> long_text_seen_offset_map;
 static std::unordered_map<std::string, std::string> cached_text_map;
+static std::unordered_map<DWORD, std::string> pe_resource_str_map;
+static std::unordered_map<DWORD, DWORD> pe_resource_length_map;
 static size_t max_cached_text_length = 0;
 static std::string current_title_text = "";
 
@@ -26,10 +28,11 @@ static const char* const pureGetTranslatedText(const char* const text);
 
 EXTERN_C BOOL InitPatchData(PatchPack* in) {
 	if (in == NULL) return FALSE;
-	if (in->pName->pointer != NULL && in->pName->size > 0) {
+
+	if (in->pName != NULL && in->pName->pointer != NULL && in->pName->size > 0) {
 		name_map.reserve(in->pName->size);
 		for (size_t i = 0; i < in->pName->size; i++) {
-			NameData& e = in->pName->pointer[i];
+			const NameData& e = in->pName->pointer[i];
 			name_map.insert(std::make_pair(
 				bufferToStdString(e.origin), bufferToStdString(e.translated)
 			));
@@ -38,6 +41,24 @@ EXTERN_C BOOL InitPatchData(PatchPack* in) {
 			}
 		}
 	}
+
+	if (in->pRes != NULL && in->pRes->pointer != NULL && in->pRes->size > 0) {
+		pe_resource_str_map.reserve(in->pRes->size);
+		pe_resource_length_map.reserve(in->pRes->size);
+		for (size_t i = 0; i < in->pRes->size; i++) {
+			const PEResource& res = in->pRes->pointer[i];
+			if (res.translated.size > res.length) {
+				return FALSE;
+			}
+			pe_resource_str_map.insert(std::make_pair(
+				res.rva, bufferToStdString(res.translated)
+			));
+			pe_resource_length_map.insert(std::make_pair(
+				res.rva, res.length
+			));
+		}
+	}
+
 	if (in->pSize > 0 && in->pText != NULL) {
 		text_map.reserve(in->pSize);
 		text_stack.reserve(in->pSize);
@@ -55,8 +76,7 @@ EXTERN_C BOOL InitPatchData(PatchPack* in) {
 				text_length_map[pArray->seenNo][pArray->pointer[j].offset] = pArray->pointer[j].length;
 				if (pArray->pointer[j].replaceFlag) {
 					if (pArray->pointer[j].translated.size > pArray->pointer[j].length) {
-						MessageBoxA(window_handle, "补丁文本不符合要求：replace_flag的文本不可超过原文本字节数。", MESSAGEBOX_TITLE, MB_ICONERROR);
-						ExitProcess(-1);
+						return FALSE;
 					}
 					replace_flag_map[pArray->seenNo].push_back(pArray->pointer[j].offset);
 				} else if (pArray->pointer[j].length <= SHOT_TEXT_SIZE) {
@@ -82,6 +102,8 @@ EXTERN_C void CleanPatchData() {
 	long_text_seen_offset_map.clear();
 	replace_flag_map.clear();
 	cached_text_map.clear();
+	pe_resource_length_map.clear();
+	pe_resource_str_map.clear();
 }
 
 EXTERN_C const char* const GetTranslatedName(const char* const name) {
@@ -122,6 +144,21 @@ EXTERN_C const char* const GetTranslatedText(const char* const text) {
 	}
 	cached_text_map[std::string(text)] = str;
 	return cached_text_map[std::string(text)].c_str();
+}
+
+EXTERN_C void SetTranslatedPEResource(void* imageBase) {
+	for (const auto& p : pe_resource_str_map) {
+		void* addr = (void*)((DWORD)imageBase + p.first);
+		size_t len = pe_resource_length_map[p.first];
+		BYTE* buffer = new BYTE[len];
+		RtlZeroMemory(buffer, sizeof(BYTE) * len);
+		memcpy_s(buffer, len, p.second.c_str(), p.second.length());
+		DWORD oldProtect = 0;
+		VirtualProtect(addr, len, PAGE_READWRITE, &oldProtect);
+		memcpy_s(addr, len, buffer, len);
+		DWORD tmp = 0;
+		VirtualProtect(addr, len, oldProtect, &tmp);
+	}
 }
 
 EXTERN_C void UpdateSeenBuffer(BYTE* buffer, unsigned seenNo) {

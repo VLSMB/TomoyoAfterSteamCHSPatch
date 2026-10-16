@@ -20,6 +20,10 @@ void TextFileToNameData(ByteBuffer* in, NameDataArray* out);
 void NameDataToBinFile(NameDataArray* in, ByteBuffer* out);
 void BinFileToNameData(ByteBuffer* in, NameDataArray* out);
 
+void TextFileToPEResource(ByteBuffer* in, PEResourceArray* out);
+void PEResourceToBinFile(PEResourceArray* in, ByteBuffer* out);
+void BinFileToPEResource(ByteBuffer* in, PEResourceArray* out);
+
 void PatchPackToBinFile(PatchPack* in, ByteBuffer* out);
 void BinFileToPatchPack(ByteBuffer* in, PatchPack* out);
 
@@ -31,6 +35,8 @@ void FreeSeenPatchData(SeenPatchData* data);
 void FreeSeenPatchDataArray(SeenPatchDataArray* array);
 void FreeNameData(NameData* data);
 void FreeNameDataArray(NameDataArray* array);
+void FreePEResource(PEResource* data);
+void FreePEResourceArray(PEResourceArray* array);
 void FreeSeenDumpData(SeenDumpData* dump);
 void FreePatchPack(PatchPack* pack);
 

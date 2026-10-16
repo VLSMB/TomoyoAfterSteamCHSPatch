@@ -15,7 +15,7 @@
 #define SEEN_DATA_DIR "patch"
 #define SEEN_DATA_FILE SEEN_DATA_DIR"\\SEEN%04d.txt"
 #define NAME_DATA_FILE SEEN_DATA_DIR"\\name.txt"
-#define PE_DATA_FILE SEEN_DATA_DIR"\\pe_resource.txt"
+#define PERES_DATA_FILE SEEN_DATA_DIR"\\pe_resource.txt"
 #define BIN_DATA_FILE "SEEN_CHS.TXT"
 #define PATCH_MODE_CONFIG_FILE "patch_mode.cfg"
 #define EMPTY_NAME "NULL"
@@ -26,6 +26,7 @@
 #define BIN_MAGIC (DWORD)(0x54504C56)
 #define TEXT_BIN_MAGIC (DWORD)(0x4E454553)
 #define NAME_BIN_MAGIC (DWORD)(0x454D414E)
+#define PERES_BIN_MAGIC (DWORD)(0x53524550)
 #define PACK_BIN_MAGIC (DWORD)(0x4B434150)
 #define TEXT_META_MAGIC (BYTE)(0xF0)
 
@@ -130,6 +131,19 @@ typedef struct NameDataArrayStruct {
     size_t size;
 } NameDataArray;
 
+typedef struct PEResourceStruct {
+    unsigned index;
+    DWORD rva;
+    size_t length;
+    ByteBuffer origin;
+    ByteBuffer translated;
+} PEResource;
+
+typedef struct PEResourceArrayStruct {
+    PEResource* pointer;
+    size_t size;
+} PEResourceArray;
+
 typedef struct SeenDumpDataStruct {
     SeenPatchDataArray textData;
     NameDataArray nameData;
@@ -139,6 +153,7 @@ typedef struct PatchPackStruct {
     SeenPatchDataArray** pText;
     size_t pSize;
     NameDataArray* pName;
+    PEResourceArray* pRes;
 } PatchPack;
 
 typedef struct CharacterInfoStruct {

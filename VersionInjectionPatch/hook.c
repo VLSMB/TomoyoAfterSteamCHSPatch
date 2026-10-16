@@ -56,7 +56,11 @@ void HookInit(HMODULE hDll) {
 	}
 	return;
 patch:
-	InitPatchData(&pack);
+	if (!InitPatchData(&pack)) {
+		MessageBoxA(window_handle, "补丁初始化失败，以原版程序运行。", MESSAGEBOX_TITLE, MB_ICONERROR);
+		patch_mode = PATCH_NONE;
+		return;
+	}
 	initPatchHook();
 }
 
@@ -79,6 +83,8 @@ void PatchHookAfterVMInit() {
 		writeHook(imageBase + CONSUME_TEXT_IN_QUOTE_MODE_CALLER_RVA[i], ProxyConsumeTextInQuoteMode);
 	}
 	writeHookWithNop(imageBase + HANDLE_INSTANT_TEXT_FUNC_RVA, HookHandleInstantText, 1);
+
+	SetTranslatedPEResource(imageBase);
 
 __patch_hook_init_ret:
 	if (debug_flag_pointer != NULL) {
@@ -188,6 +194,7 @@ static void initForDump() {
 }
 
 static void initPatchHook() {
+	if (patch_mode == PATCH_NONE) return;
 	writeHook(GetProcAddress(GetModuleHandleA("kernelbase.dll"), "CreateFileA"), HookCreateFileA);
 	writeHook(CreateWindowExA, HookCreateWindowExA);
 	writeHook(EnumFontFamiliesExA, HookEnumFontFamiliesExA);
@@ -275,6 +282,20 @@ static void updatePatchPackFromTextFile(PatchPack* out) {
 		}
 		TextFileToNameData(&buffer, out->pName);
 	}
+
+	if (readFile(PERES_DATA_FILE, &buffer)) {
+		if (out->pRes == NULL) {
+			out->pRes = (PEResourceArray*)malloc(sizeof(PEResourceArray));
+			if (out->pName == NULL) {
+				logError("内存不足");
+				ExitProcess(1);
+			}
+		} else {
+			FreePEResourceArray(out->pRes);
+		}
+		TextFileToPEResource(&buffer, out->pRes);
+	}
+
 	for (size_t i = 0; i < seenCount; i++) {
 		FreeByteBuffer(&byte_buffer_array[i]);
 	}
