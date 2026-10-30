@@ -281,6 +281,7 @@ static void updatePatchPackFromTextFile(PatchPack* out) {
 			FreeNameDataArray(out->pName);
 		}
 		TextFileToNameData(&buffer, out->pName);
+		FreeByteBuffer(&buffer);
 	}
 
 	if (readFile(PERES_DATA_FILE, &buffer)) {
@@ -294,6 +295,21 @@ static void updatePatchPackFromTextFile(PatchPack* out) {
 			FreePEResourceArray(out->pRes);
 		}
 		TextFileToPEResource(&buffer, out->pRes);
+		FreeByteBuffer(&buffer);
+	}
+
+	if (readFile(FMAP_DATA_FILE, &buffer)) {
+		if (out->pFileMap == NULL) {
+			out->pFileMap = (FileMappingArray*)malloc(sizeof(FileMappingArray));
+			if (out->pFileMap == NULL) {
+				logError("ÄÚ´æ²»×ã");
+				ExitProcess(1);
+			}
+		} else {
+			FreeFileMappingArray(out->pFileMap);
+		}
+		TextFileToFileMapping(&buffer, out->pFileMap);
+		FreeByteBuffer(&buffer);
 	}
 
 	for (size_t i = 0; i < seenCount; i++) {

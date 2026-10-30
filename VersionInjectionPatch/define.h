@@ -16,6 +16,7 @@
 #define SEEN_DATA_FILE SEEN_DATA_DIR"\\SEEN%04d.txt"
 #define NAME_DATA_FILE SEEN_DATA_DIR"\\name.txt"
 #define PERES_DATA_FILE SEEN_DATA_DIR"\\pe_resource.txt"
+#define FMAP_DATA_FILE SEEN_DATA_DIR"\\file_mapping.txt"
 #define BIN_DATA_FILE "SEEN_CHS.TXT"
 #define PATCH_MODE_CONFIG_FILE "patch_mode.cfg"
 #define EMPTY_NAME "NULL"
@@ -27,6 +28,7 @@
 #define TEXT_BIN_MAGIC (DWORD)(0x4E454553)
 #define NAME_BIN_MAGIC (DWORD)(0x454D414E)
 #define PERES_BIN_MAGIC (DWORD)(0x53524550)
+#define FMAP_BIN_MAGIC (DWORD)(0x50414D46)
 #define PACK_BIN_MAGIC (DWORD)(0x4B434150)
 #define TEXT_META_MAGIC (BYTE)(0xF0)
 
@@ -144,6 +146,16 @@ typedef struct PEResourceArrayStruct {
     size_t size;
 } PEResourceArray;
 
+typedef struct FileMappingStruct {
+    ByteBuffer origin;
+    ByteBuffer target;
+} FileMapping;
+
+typedef struct FileMappingArrayStruct {
+    FileMapping* pointer;
+    size_t size;
+} FileMappingArray;
+
 typedef struct SeenDumpDataStruct {
     SeenPatchDataArray textData;
     NameDataArray nameData;
@@ -154,6 +166,7 @@ typedef struct PatchPackStruct {
     size_t pSize;
     NameDataArray* pName;
     PEResourceArray* pRes;
+    FileMappingArray* pFileMap;
 } PatchPack;
 
 typedef struct CharacterInfoStruct {

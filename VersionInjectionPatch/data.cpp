@@ -476,6 +476,76 @@ EXTERN_C void BinFileToPEResource(ByteBuffer* in, PEResourceArray* out) {
 	out->size = arr.size();
 }
 
+EXTERN_C void TextFileToFileMapping(ByteBuffer* in, FileMappingArray* out) {
+	std::vector<FileMapping> arr;
+	if (in != NULL && in->pointer != NULL && in->size > 0) {
+		std::vector<std::string> L = splitLines(in->pointer, in->size);
+		size_t i = 2;
+		while (i < L.size()) {
+			i = nextSep(L, i);
+			if (i >= L.size()) break;
+			++i;
+
+			std::string origin = readBlock(L, i);
+			std::string target = readBlock(L, i);
+
+			if (origin == target) {
+				continue;
+			}
+
+			FileMapping map;
+			RtlZeroMemory(&map, sizeof(FileMapping));
+			map.origin = makeBuffer((const BYTE*)origin.data(), origin.size());
+			map.target = makeBuffer((const BYTE*)target.data(), target.size());
+			arr.push_back(map);
+		}
+	}
+	out->pointer = toArrayPointer(arr);
+	out->size = arr.size();
+}
+
+EXTERN_C void FileMappingToBinFile(FileMappingArray* in, ByteBuffer* out) {
+	std::vector<BYTE> b;
+	size_t n = (in != NULL && in->pointer != NULL) ? in->size : 0;
+	appendDWORD(b, BIN_MAGIC);
+	appendDWORD(b, FMAP_BIN_MAGIC);
+	appendDWORD(b, (DWORD)n);
+	for (size_t i = 0; i < n; ++i) {
+		const FileMapping& res = in->pointer[i];
+		appendDWORD(b, (DWORD)res.origin.size);
+		appendDWORD(b, (DWORD)res.target.size);
+		appendBytes(b, res.origin.pointer, res.origin.size);
+		appendBytes(b, res.target.pointer, res.target.size);
+	}
+	out->pointer = toArrayPointer(b);
+	out->size = b.size();
+}
+
+EXTERN_C void BinFileToFileMapping(ByteBuffer* in, FileMappingArray* out) {
+	std::vector<FileMapping> arr;
+	if (in != NULL && in->pointer != NULL) {
+		const BYTE* p = in->pointer;
+		const BYTE* end = p + in->size;
+		DWORD magic1 = 0, magic2 = 0, count = 0;
+		if (!readDWORD(p, end, magic1) || !readDWORD(p, end, magic2) ||
+			!readDWORD(p, end, count) || magic1 != BIN_MAGIC || magic2 != FMAP_BIN_MAGIC) {
+			count = 0;
+		}
+		for (DWORD i = 0; i < count; ++i) {
+			DWORD os, ts;
+			if (!readDWORD(p, end, os) || !readDWORD(p, end, ts)) break;
+			if ((size_t)(end - p) < (size_t)(os + ts)) break;
+			FileMapping map;
+			RtlZeroMemory(&map, sizeof(FileMapping));
+			map.origin = makeBuffer(p, os); p += os;
+			map.target = makeBuffer(p, ts); p += ts;
+			arr.push_back(map);
+		}
+	}
+	out->pointer = toArrayPointer(arr);
+	out->size = arr.size();
+}
+
 EXTERN_C void PatchPackToBinFile(PatchPack* in, ByteBuffer* out) {
 	RtlZeroMemory(out, sizeof(ByteBuffer));
 	if (in == NULL) {
@@ -495,17 +565,22 @@ EXTERN_C void PatchPackToBinFile(PatchPack* in, ByteBuffer* out) {
 		FreeByteBuffer(&buffer);
 	}
 
-	RtlZeroMemory(&buffer, sizeof(ByteBuffer));
 	NameDataToBinFile(in->pName, &buffer);
 	appendDWORD(b, (DWORD)buffer.size);
 	appendBytes(b, buffer.pointer, buffer.size);
 	FreeByteBuffer(&buffer);
 
-	RtlZeroMemory(&buffer, sizeof(ByteBuffer));
+	FreeByteBuffer(&buffer);
 	PEResourceToBinFile(in->pRes, &buffer);
 	appendDWORD(b, (DWORD)buffer.size);
 	appendBytes(b, buffer.pointer, buffer.size);
 
+	FreeByteBuffer(&buffer);
+	FileMappingToBinFile(in->pFileMap, &buffer);
+	appendDWORD(b, (DWORD)buffer.size);
+	appendBytes(b, buffer.pointer, buffer.size);
+
+	FreeByteBuffer(&buffer);
 	out->pointer = toArrayPointer(b);
 	out->size = b.size();
 }
@@ -557,10 +632,20 @@ pe_res:
 	out->pRes = (PEResourceArray*)malloc(sizeof(PEResourceArray));
 	if (out->pRes == NULL) goto fail;
 	RtlZeroMemory(out->pRes, sizeof(PEResourceArray));
-	if (!readDWORD(p, end, size) || size == 0) return;
+	if (!readDWORD(p, end, size) || size == 0) goto file_mapping;
 	buffer.pointer = (BYTE*)p;
 	buffer.size = size;
 	BinFileToPEResource(&buffer, out->pRes);
+	p += size;
+
+file_mapping:
+	out->pFileMap = (FileMappingArray*)malloc(sizeof(FileMappingArray));
+	if (out->pFileMap == NULL) goto fail;
+	RtlZeroMemory(out->pFileMap, sizeof(FileMappingArray));
+	if (!readDWORD(p, end, size) || size == 0) return;
+	buffer.pointer = (BYTE*)p;
+	buffer.size = size;
+	BinFileToFileMapping(&buffer, out->pFileMap);
 	return;
 fail:
 	FreePatchPack(out);
@@ -702,6 +787,24 @@ EXTERN_C void FreePEResourceArray(PEResourceArray* array) {
 	array->size = 0;
 }
 
+EXTERN_C void FreeFileMapping(FileMapping* data) {
+	if (data == NULL) return;
+	FreeByteBuffer(&data->origin);
+	FreeByteBuffer(&data->target);
+}
+
+EXTERN_C void FreeFileMappingArray(FileMappingArray* array) {
+	if (array == NULL) return;
+	if (array->pointer != NULL) {
+		for (size_t i = 0; i < array->size; ++i) {
+			FreeFileMapping(&array->pointer[i]);
+		}
+		free(array->pointer);
+		array->pointer = NULL;
+	}
+	array->size = 0;
+}
+
 EXTERN_C void FreeSeenDumpData(SeenDumpData* dump) {
 	if (dump == NULL) return;
 	FreeSeenPatchDataArray(&dump->textData);
@@ -709,8 +812,18 @@ EXTERN_C void FreeSeenDumpData(SeenDumpData* dump) {
 }
 
 EXTERN_C void FreePatchPack(PatchPack* pack) {
-	if (pack->pName != NULL) FreeNameDataArray(pack->pName);
-	if (pack->pRes != NULL) FreePEResourceArray(pack->pRes);
+	if (pack->pName != NULL) {
+		FreeNameDataArray(pack->pName);
+		pack->pName = NULL;
+	}
+	if (pack->pRes != NULL) {
+		FreePEResourceArray(pack->pRes);;
+		pack->pRes = NULL;
+	}
+	if (pack->pFileMap != NULL) {
+		FreeFileMappingArray(pack->pFileMap);
+		pack->pFileMap = NULL;
+	}
 	if (pack->pText != NULL && pack->pSize > 0) {
 		for (size_t i = 0; i < pack->pSize; i++) {
 			FreeSeenPatchDataArray(pack->pText[i]);
@@ -718,7 +831,5 @@ EXTERN_C void FreePatchPack(PatchPack* pack) {
 	}
 	free(pack->pText);
 	pack->pText = NULL;
-	pack->pName = NULL;
-	pack->pRes = NULL;
 	pack->pSize = 0;
 }

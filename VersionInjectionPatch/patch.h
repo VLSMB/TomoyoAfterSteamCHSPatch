@@ -18,6 +18,7 @@ void AckConsumeCharacter(const CharacterInfo* out);
 
 BOOL IsWindowTitleText(const char* const text);
 const char* const GetWindowTitleTranslatedText(const char* const text);
+const char* const ApplyFilePathMapping(const char* const text);
 
 #ifdef __cplusplus
 }

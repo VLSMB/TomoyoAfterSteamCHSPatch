@@ -21,6 +21,7 @@ static std::unordered_map<unsigned, std::vector<unsigned>> long_text_seen_offset
 static std::unordered_map<std::string, std::string> cached_text_map;
 static std::unordered_map<DWORD, std::string> pe_resource_str_map;
 static std::unordered_map<DWORD, DWORD> pe_resource_length_map;
+static std::unordered_map<std::string, std::string> file_mapping;
 static size_t max_cached_text_length = 0;
 static std::string current_title_text = "";
 
@@ -55,6 +56,19 @@ EXTERN_C BOOL InitPatchData(PatchPack* in) {
 			));
 			pe_resource_length_map.insert(std::make_pair(
 				res.rva, res.length
+			));
+		}
+	}
+
+	if (in->pFileMap != NULL && in->pFileMap->pointer != NULL && in->pFileMap->size > 0) {
+		file_mapping.reserve(in->pFileMap->size);
+		for (size_t i = 0; i < in->pFileMap->size; i++) {
+			const FileMapping& e = in->pFileMap->pointer[i];
+			std::string origin = bufferToStdString(e.origin);
+			std::transform(origin.begin(), origin.end(), origin.begin(),
+				[](unsigned char c) { return std::toupper(c); });
+			file_mapping.insert(std::make_pair(
+				origin, bufferToStdString(e.target)
 			));
 		}
 	}
@@ -104,6 +118,7 @@ EXTERN_C void CleanPatchData() {
 	cached_text_map.clear();
 	pe_resource_length_map.clear();
 	pe_resource_str_map.clear();
+	file_mapping.clear();
 }
 
 EXTERN_C const char* const GetTranslatedName(const char* const name) {
@@ -276,6 +291,14 @@ EXTERN_C const char* const GetWindowTitleTranslatedText(const char* const text) 
 		current_title_text += " " + debugSuf;
 	}
 	return current_title_text.c_str();
+}
+
+EXTERN_C const char* const ApplyFilePathMapping(const char* const text) {
+	std::string s(text);
+	std::transform(s.begin(), s.end(), s.begin(),
+		[](unsigned char c) { return std::toupper(c); });
+	const auto& p = file_mapping.find(s);
+	return p != file_mapping.end() ? p->second.c_str() : text;
 }
 
 static const char* const pureGetTranslatedText(const char* const text) {

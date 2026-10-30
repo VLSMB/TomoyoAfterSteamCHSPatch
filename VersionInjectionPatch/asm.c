@@ -3,6 +3,8 @@
 #include "hook.h"
 #include "patch.h"
 #include <Windows.h>
+#include <shlwapi.h>
+#pragma comment(lib, "shlwapi.lib")
 
 static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, unsigned seenNo);
 static void WINAPI beforeConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4);
@@ -10,6 +12,11 @@ static void WINAPI afterConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* 
 static const char* const WINAPI getTranslatedText(const char* const text);
 static void WINAPI hookWindowTitle(HWND hWnd, const char** title);
 static BOOL WINAPI isRealLiveWindow(const char* const lpClassName);
+static BOOL WINAPI ToRelativeToCwd(const char* inPath, char* outRel, size_t outSize);
+static const char* const WINAPI applyFileMapping(const char* const text);
+
+static BYTE* origin_vm_ip = NULL;
+static CharacterInfo char_info = { 0 };
 
 void ASM_FUNCTION HookForDump() {
 	__asm {
@@ -117,8 +124,17 @@ void ASM_FUNCTION HookCreateFileA() {
 	__asm {
 		mov eax, debug_flag_pointer
 		test eax, eax
-		je __hook_create_file_ret
+		je __file_mapping
 		mov byte ptr [eax], 1
+	}
+__file_mapping:
+	__asm {
+		mov eax, [esp + 8]
+		push eax
+		call applyFileMapping
+		test eax, eax
+		je __hook_create_file_ret
+		mov [esp + 8], eax
 	}
 __hook_create_file_ret:
 	__asm {
@@ -259,9 +275,6 @@ __proxy_consume_text:
 	}
 }
 
-static BYTE* origin_vm_ip = NULL;
-static CharacterInfo char_info = { 0 };
-
 static void WINAPI beforeConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4) {
 	origin_vm_ip = NULL;
 	if (GetNextCharacterInfo(sp->seenNo, cp->vmIp - cp->vmBase, &char_info)) {
@@ -358,4 +371,46 @@ static const char* const WINAPI getTranslatedText(const char* const text) {
 
 static BOOL WINAPI isRealLiveWindow(const char* const lpClassName) {
 	return strncmp(WINDOW_CLASS_NAME, lpClassName, strlen(WINDOW_CLASS_NAME)) == 0 ? TRUE : FALSE;
+}
+
+static const char* const WINAPI applyFileMapping(const char* const text) {
+	char path[MAX_PATH] = { 0 };
+	if (!ToRelativeToCwd(text, path, MAX_PATH * sizeof(char))) {
+		return NULL;
+	}
+	const char* result = ApplyFilePathMapping(path);
+	return result == path ? NULL : result;
+}
+
+static BOOL WINAPI ToRelativeToCwd(const char* inPath, char* outRel, size_t outSize) {
+	char cwd[MAX_PATH] = { 0 };
+	if (GetCurrentDirectoryA(MAX_PATH, cwd) == 0) return FALSE;
+
+	char base[MAX_PATH] = { 0 };
+	strncpy_s(base, sizeof(base), cwd, _TRUNCATE);
+	size_t len = strlen(base);
+	if (len == 0 || base[len - 1] != '\\') {
+		if (len + 1 >= sizeof(base)) return FALSE;
+		base[len] = '\\';
+		base[len + 1] = '\0';
+	}
+
+	char combined[MAX_PATH] = { 0 };
+	if (!PathCombineA(combined, cwd, inPath)) return FALSE;
+
+	char absIn[MAX_PATH] = { 0 };
+	if (!PathCanonicalizeA(absIn, combined)) return FALSE;
+
+	char rel[MAX_PATH] = { 0 };
+	if (!PathRelativePathToA(rel, base, FILE_ATTRIBUTE_DIRECTORY, absIn, 0)) return FALSE;
+
+	const char* out = rel;
+	if (out[0] == '.' && out[1] == '\\') {
+		out += 2;
+		if (*out == '\0') out = ".";
+	}
+	if (strlen(out) + 1 > outSize) return FALSE;
+
+	strncpy_s(outRel, outSize, out, _TRUNCATE);
+	return TRUE;
 }
