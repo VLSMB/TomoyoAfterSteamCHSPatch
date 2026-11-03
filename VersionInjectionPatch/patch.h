@@ -20,6 +20,11 @@ BOOL IsWindowTitleText(const char* const text);
 const char* const GetWindowTitleTranslatedText(const char* const text);
 const char* const ApplyFilePathMapping(const char* const text);
 
+const char* const CheckTextForSeen9900(const char* const text);
+void CheckG00ForSeen9900(const char* const file);
+BOOL IsInSeen9900Mode();
+void PaintCurFrameInSeen9900Mode(HWND hwnd, HDC hdc);
+
 #ifdef __cplusplus
 }
 #endif

@@ -1,27 +1,15 @@
 type seen9900
-count 150
-
-====================
-index 1
-offset 1866
-name NULL
-length 72
-====================
-0123456789 ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz ,.!?'\"
-====================
-0123456789 ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz ,.!?'\"
-====================
+count 147
 
 ====================
 index 2
 offset 1975
 name NULL
 length 33
-replace_flag
 ====================
 The story that I am about to tell
 ====================
-The story that I am about to tell
+我要讲的故事
 ====================
 
 ====================
@@ -29,11 +17,10 @@ index 3
 offset 2045
 name NULL
 length 36
-replace_flag
 ====================
 is something that happened long ago.
 ====================
-is something that happened long ago.
+是发生在好久前的事
 ====================
 
 ====================
@@ -45,7 +32,7 @@ replace_flag
 ====================
 Even now,
 ====================
-Even now,
+即使现在，
 ====================
 
 ====================
@@ -53,11 +40,10 @@ index 5
 offset 2164
 name NULL
 length 32
-replace_flag
 ====================
 it is still shining brilliantly.
 ====================
-it is still shining brilliantly.
+依然灿烂辉煌。
 ====================
 
 ====================
@@ -1631,26 +1617,4 @@ length 22
 It's a wonderful life!
 ====================
 It's a wonderful life!
-====================
-
-====================
-index 149
-offset 12619
-name NULL
-length 13
-====================
-??? UnDefine!
-====================
-??? UnDefine!
-====================
-
-====================
-index 220
-offset 20720
-name NULL
-length 2
-====================
-\"
-====================
-\"
 ====================

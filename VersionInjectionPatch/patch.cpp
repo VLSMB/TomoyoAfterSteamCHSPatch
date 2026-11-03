@@ -10,6 +10,80 @@
 template<typename T>
 using seen_map = std::unordered_map<unsigned, std::unordered_map<unsigned, T>>;
 
+namespace Patch {
+	class Seen9900Flag {
+	private:
+		bool typeEnFlag;
+		bool type999Flag;
+		int index;
+		std::string text;
+		unsigned frameCount;
+		unsigned curFrame;
+		const std::vector<std::string>& seen9900_vector;
+
+		void loadTextAndFrame() {
+			resetFrame();
+			if (!isFlag()) return;
+			text = seen9900_vector[index];
+			curFrame = 0;
+			frameCount = 0;
+		}
+		void resetFrame() {
+			if (frameCount > 0) {
+				MessageBoxA(window_handle, 
+					("text: " + text + "\nframeCount: " + std::to_string(frameCount)).c_str(), NULL, MB_OK);
+			}
+			text = "";
+			frameCount = 0;
+			curFrame = 0;
+		}
+
+	public:
+		Seen9900Flag(const std::vector<std::string>& v) : seen9900_vector(v) {
+			reset();
+		}
+		void reset() {
+			typeEnFlag = false;
+			type999Flag = false;
+			index = -1;
+			resetFrame();
+		}
+		void setIndex(size_t idx) {
+			reset();
+			if (idx < seen9900_vector.size()) {
+				index = idx;
+			}
+		}
+		void setTypeEn() {
+			if (index == -1) {
+				reset();
+			} else {
+				typeEnFlag = true;
+				type999Flag = false;
+				resetFrame();
+			}
+		}
+		void setType999() {
+			if (index == -1 || !typeEnFlag) {
+				reset();
+			} else {
+				type999Flag = true;
+				loadTextAndFrame();
+			}
+		}
+		bool isFlag() const {
+			return index >= 0 && typeEnFlag && type999Flag;
+		}
+		unsigned currentFrame() {
+			return frameCount++;
+			//return curFrame < frameCount ? (curFrame++) : curFrame;
+		}
+		std::string curText() const {
+			return text;
+		}
+	};
+};
+
 static std::unordered_map<std::string, std::string> name_map;
 static size_t max_name_length = 0;
 static seen_map<std::string> text_map;
@@ -24,6 +98,8 @@ static std::unordered_map<DWORD, DWORD> pe_resource_length_map;
 static std::unordered_map<std::string, std::string> file_mapping;
 static size_t max_cached_text_length = 0;
 static std::string current_title_text = "";
+static std::vector<std::string> seen9900_vector;
+static Patch::Seen9900Flag seen9900_flag(seen9900_vector);
 
 static const char* const pureGetTranslatedText(const char* const text);
 
@@ -81,6 +157,17 @@ EXTERN_C BOOL InitPatchData(PatchPack* in) {
 		replace_flag_map.reserve(in->pSize);
 		for (size_t i = 0; i < in->pSize; i++) {
 			SeenPatchDataArray* pArray = in->pText[i];
+			if (pArray->seenNo == SEEN_9900) {
+				seen9900_vector.reserve(pArray->size);
+				long_text_seen_offset_map[pArray->seenNo].reserve(pArray->size);
+				for (size_t j = 0; j < pArray->size; j++) {
+					seen9900_vector.push_back(
+						bufferToStdString(pArray->pointer[j].translated)
+					);
+					long_text_seen_offset_map[pArray->seenNo].push_back(pArray->pointer[j].offset);
+				}
+				continue;
+			}
 			text_map[pArray->seenNo].reserve(pArray->size);
 			text_stack[pArray->seenNo].reserve(pArray->size);
 			text_length_map[pArray->seenNo].reserve(pArray->size);
@@ -119,6 +206,8 @@ EXTERN_C void CleanPatchData() {
 	pe_resource_length_map.clear();
 	pe_resource_str_map.clear();
 	file_mapping.clear();
+	seen9900_vector.clear();
+	seen9900_flag.reset();
 }
 
 EXTERN_C const char* const GetTranslatedName(const char* const name) {
@@ -177,6 +266,23 @@ EXTERN_C void SetTranslatedPEResource(void* imageBase) {
 }
 
 EXTERN_C void UpdateSeenBuffer(BYTE* buffer, unsigned seenNo) {
+	if (seenNo == SEEN_9900) {
+		if (long_text_seen_offset_map[seenNo].size() > 256) {
+			return;
+		}
+		for (size_t i = 0; i < long_text_seen_offset_map[seenNo].size(); ++i) {
+			if (seen9900_vector[i].length() < 3) {
+				continue;
+			}
+			std::string s = "&" + vectorToHex({ (BYTE)i });
+			BYTE* p = buffer + long_text_seen_offset_map[seenNo][i];
+			for (const char& c : s) {
+				*p = static_cast<BYTE>(c);
+				p++;
+			}
+		}
+		return;
+	}
 	for (const auto& offset : long_text_seen_offset_map[seenNo]) {
 		DWORD dword = seenOffsetToDWORD(seenNo, offset);
 		BYTE* p = buffer + offset;
@@ -299,6 +405,70 @@ EXTERN_C const char* const ApplyFilePathMapping(const char* const text) {
 		[](unsigned char c) { return std::toupper(c); });
 	const auto& p = file_mapping.find(s);
 	return p != file_mapping.end() ? p->second.c_str() : text;
+}
+
+EXTERN_C const char* const CheckTextForSeen9900(const char* const text) {
+	if (std::string(text, strnlen(text, 8)) == "S_TYPING") {
+		return text;
+	}
+	std::string s(text, strnlen(text, 3));
+	std::vector<BYTE> vec;
+	if (s.length() == 3 && s[0] == '&' 
+		&& hexToVector(vec, s.substr(1)) && vec.size() == 1) {
+		size_t idx = (size_t)vec[0];
+		seen9900_flag.setIndex(idx);
+		memset(TRASH_BUFFER, 'A', sizeof(TRASH_BUFFER));
+		TRASH_BUFFER[seen9900_vector[idx].length()] = '\0';
+		return TRASH_BUFFER;
+	} else {
+		seen9900_flag.reset();
+		return text;
+	}
+}
+
+EXTERN_C void CheckG00ForSeen9900(const char* const file) {
+	std::string s(file, strnlen(file, 15));
+	if (s == "S_TYPING999.g00") {
+		seen9900_flag.setType999();
+	} else if (s == "S_TYPING_EN.g00") {
+		seen9900_flag.setTypeEn();
+	} else {
+		seen9900_flag.reset();
+	}
+}
+
+EXTERN_C BOOL IsInSeen9900Mode() {
+	return seen9900_flag.isFlag() ? TRUE : FALSE;
+}
+
+EXTERN_C void PaintCurFrameInSeen9900Mode(HWND hwnd, HDC hdc) {
+	std::string text = seen9900_flag.curText();
+	if (text.empty()) return;
+
+	RECT rc;
+	GetClientRect(hwnd, &rc);
+	FillRect(hdc, &rc, (HBRUSH)GetStockObject(WHITE_BRUSH));
+
+	int fontSize = (rc.bottom - rc.top) / 25;
+	if (fontSize < 12) fontSize = 12;
+	if (fontSize > 96) fontSize = 96;
+
+	HFONT hFont = CreateFontA(
+		-fontSize, 0, 0, 0, FW_BOLD, FALSE, FALSE, FALSE,
+		DEFAULT_CHARSET, OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS,
+		CLEARTYPE_QUALITY, DEFAULT_PITCH | FF_DONTCARE, "Consolas");
+	HGDIOBJ oldFont = SelectObject(hdc, hFont);
+
+	int oldMode = SetBkMode(hdc, TRANSPARENT);
+	COLORREF oldColor = SetTextColor(hdc, RGB(0, 0, 0));
+
+	DrawTextA(hdc, text.c_str(), (int)text.length(), &rc,
+		DT_CENTER | DT_VCENTER | DT_SINGLELINE);
+
+	SetTextColor(hdc, oldColor);
+	SetBkMode(hdc, oldMode);
+	SelectObject(hdc, oldFont);
+	DeleteObject(hFont);
 }
 
 static const char* const pureGetTranslatedText(const char* const text) {

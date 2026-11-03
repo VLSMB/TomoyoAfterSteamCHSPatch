@@ -21,6 +21,7 @@
 #define PATCH_MODE_CONFIG_FILE "patch_mode.cfg"
 #define EMPTY_NAME "NULL"
 #define REPLACE_FLAG "replace_flag"
+#define SEEN_9900 9900
 
 #define SEEN_DATA_NUM 10000
 #define SHOT_TEXT_SIZE 10
@@ -41,6 +42,11 @@
 #define CONSUME_TEXT_IN_QUOTE_MODE_FUNC_RVA 0xECA80
 #define HANDLE_INSTANT_TEXT_FUNC_RVA 0xEBEC0
 #define REALLIVE_DEBUG_MODE_FLAG_RVA 0x302FC0
+#define OPEN_G00_FILE_FUNC_CALLER_RVA 0xC5371
+#define OPEN_G00_FILE_FUNC_RVA 0xC4810
+#define HANDLE_SEEN_9900_FUNC_CALLER_RVA 0x13E7C3
+#define HANDLE_SEEN_9900_FUNC_RVA 0xA4620
+#define INVALIDATE_RECT_IAT_RVA 0x2064B0
 
 #define SET_NOP_ARRAY_SIZE 33
 #define CONSUME_TEXT_IN_QUOTE_MODE_CALLER_SIZE 6
@@ -51,6 +57,7 @@ extern "C" {
     extern const DWORD SET_NOP_RVA[SET_NOP_ARRAY_SIZE];
     extern const size_t SET_NOP_COUNT[SET_NOP_ARRAY_SIZE];
     extern const DWORD CONSUME_TEXT_IN_QUOTE_MODE_CALLER_RVA[CONSUME_TEXT_IN_QUOTE_MODE_CALLER_SIZE];
+    extern char TRASH_BUFFER[1000];
 
     extern const BYTE WINAPI_PATCH_STUB[5];
     extern const char* SHA256_MISMATCH_WARNING;
@@ -58,6 +65,8 @@ extern "C" {
 
     extern BYTE* debug_flag_pointer;
     extern HWND window_handle;
+    extern WNDPROC window_proc;
+    extern DWORD image_base;
 #ifdef __cplusplus
 }
 #endif

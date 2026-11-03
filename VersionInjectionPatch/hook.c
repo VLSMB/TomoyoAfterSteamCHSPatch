@@ -84,6 +84,11 @@ void PatchHookAfterVMInit() {
 	}
 	writeHookWithNop(imageBase + HANDLE_INSTANT_TEXT_FUNC_RVA, HookHandleInstantText, 1);
 
+	writeHook(imageBase + OPEN_G00_FILE_FUNC_CALLER_RVA, ProxyOpenG00File);
+	writeHook(imageBase + HANDLE_SEEN_9900_FUNC_CALLER_RVA, ProxySeen9900Text);
+	DWORD addr = ProxyInvalidateRect;
+	updateAsmCode(imageBase + INVALIDATE_RECT_IAT_RVA, &addr, 4);
+
 	SetTranslatedPEResource(imageBase);
 
 __patch_hook_init_ret:
@@ -95,6 +100,20 @@ __patch_hook_init_ret:
 
 void HookDestroy() {
 	CleanPatchData();
+}
+
+LRESULT CALLBACK ProxyWndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam) {
+	if (uMsg == WM_PAINT && IsInSeen9900Mode()) {
+		PAINTSTRUCT ps = { 0 };
+		HDC hdc = BeginPaint(hWnd, &ps);
+		PaintCurFrameInSeen9900Mode(hWnd, hdc);
+		EndPaint(hWnd, &ps);
+	}
+	return CallWindowProcA(window_proc, hWnd, uMsg, wParam, lParam);
+}
+
+BOOL WINAPI ProxyInvalidateRect(HWND hWnd, const RECT* lpRect, BOOL bErase) {
+	InvalidateRect(hWnd, IsInSeen9900Mode() ? NULL : lpRect, bErase);
 }
 
 static void initPatchMode() {
@@ -180,11 +199,15 @@ static char singleHexToChar(BYTE b) {
 }
 
 static DWORD getImageBase() {
+	if (image_base != NULL) {
+		return image_base;
+	}
 	DWORD imageBase = (DWORD)GetModuleHandleA(PROCESS_NAME);
 	if (imageBase == NULL) {
 		logError("寻找进程基地址失败！");
 		TerminateProcess(GetCurrentProcess(), 1);
 	}
+	image_base = imageBase;
 	return imageBase;
 }
 

@@ -20,6 +20,8 @@ const DWORD CONSUME_TEXT_IN_QUOTE_MODE_CALLER_RVA[CONSUME_TEXT_IN_QUOTE_MODE_CAL
 	0xE9F9D, 0xE9D5B, 0xE9793, 0xE95D5, 0xE977F, 0xE95BF
 };
 
+char TRASH_BUFFER[1000] = { 0 };
+
 const BYTE WINAPI_PATCH_STUB[5] = { 0x8B, 0xFF, 0x55, 0x8B, 0xEC };
 
 const char* SHA256_MISMATCH_WARNING = 
@@ -33,5 +35,6 @@ const char* ALPHA_VERSION_WARNING = WINDOW_TITLE
 "本补丁仅用于学习研究用途，禁止用于一切商业活动。";
 
 BYTE* debug_flag_pointer = NULL;
-
 HWND window_handle = NULL;
+WNDPROC window_proc = NULL;
+DWORD image_base = NULL;

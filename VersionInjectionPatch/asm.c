@@ -192,6 +192,7 @@ static void WINAPI hookWindowTitle(HWND hWnd, const char** title) {
 	if (window_handle == NULL) {
 		if (IsWindowTitleText(*title)) {
 			window_handle = hWnd;
+			window_proc = (WNDPROC)SetWindowLongA(hWnd, GWLP_WNDPROC, (LONG_PTR)ProxyWndProc);
 		}
 	}
 	if (window_handle == hWnd) {
@@ -356,6 +357,47 @@ void ASM_FUNCTION JmpSignature() {
 		push ebp
 		push ebx
 		inc ebp
+	}
+}
+
+void ASM_FUNCTION ProxyOpenG00File() {
+	__asm {
+		pushad
+		pushfd
+
+		push ecx
+		call CheckG00ForSeen9900
+		add esp, 4
+
+		popfd
+		popad
+	}
+	__asm {
+		mov eax, image_base
+		add eax, OPEN_G00_FILE_FUNC_RVA
+		jmp eax
+	}
+}
+
+void ASM_FUNCTION ProxySeen9900Text() {
+	__asm {
+		sub esp, 4
+		pushad
+		pushfd
+
+		push edx
+		call CheckTextForSeen9900
+		add esp, 4
+		mov [esp + 36], eax
+
+		popfd
+		popad
+		pop edx
+	}
+	__asm {
+		mov eax, image_base
+		add eax, HANDLE_SEEN_9900_FUNC_RVA
+		jmp eax
 	}
 }
 

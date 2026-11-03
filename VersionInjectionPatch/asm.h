@@ -13,4 +13,7 @@ void ProxyConsumeTextInQuoteMode();
 void HookHandleInstantText();
 void JmpSignature();
 
+void ProxyOpenG00File();
+void ProxySeen9900Text();
+
 #endif
