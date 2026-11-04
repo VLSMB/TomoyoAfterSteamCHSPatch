@@ -88,6 +88,10 @@ void PatchHookAfterVMInit() {
 	writeHook(imageBase + HANDLE_SEEN_9900_FUNC_CALLER_RVA, ProxySeen9900Text);
 	DWORD addr = ProxyInvalidateRect;
 	updateAsmCode(imageBase + INVALIDATE_RECT_IAT_RVA, &addr, 4);
+	addr = ProxySetDIBitsToDevice;
+	updateAsmCode(imageBase + SET_DIB_TO_DEVICE_IAT_RVA, &addr, 4);
+	assembleCallOp(callHookOp, 6, imageBase + RLD3D_PRESENT_CALLER_RVA, ProxyRld3dPresent);
+	updateAsmCode(imageBase + RLD3D_PRESENT_CALLER_RVA, callHookOp, 6);
 
 	SetTranslatedPEResource(imageBase);
 
@@ -108,12 +112,19 @@ LRESULT CALLBACK ProxyWndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam
 		HDC hdc = BeginPaint(hWnd, &ps);
 		PaintCurFrameInSeen9900Mode(hWnd, hdc);
 		EndPaint(hWnd, &ps);
+		ValidateRect(hWnd, NULL);
 	}
 	return CallWindowProcA(window_proc, hWnd, uMsg, wParam, lParam);
 }
 
 BOOL WINAPI ProxyInvalidateRect(HWND hWnd, const RECT* lpRect, BOOL bErase) {
 	InvalidateRect(hWnd, IsInSeen9900Mode() ? NULL : lpRect, bErase);
+}
+
+int WINAPI ProxySetDIBitsToDevice(HDC hdc, int xDest, int yDest, DWORD w, DWORD h, int xSrc,
+	int ySrc, UINT StartScan, UINT cLines, const void* lpvBits, const BITMAPINFO* lpbmi, UINT ColorUse) {
+	if (IsInSeen9900Mode()) return 0;
+	return SetDIBitsToDevice(hdc, xDest, yDest, w, h, xSrc, ySrc, StartScan, cLines, lpvBits, lpbmi, ColorUse);
 }
 
 static void initPatchMode() {

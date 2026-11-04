@@ -401,6 +401,34 @@ void ASM_FUNCTION ProxySeen9900Text() {
 	}
 }
 
+void ASM_FUNCTION ProxyRld3dPresent() {
+	__asm {
+		sub esp, 4
+		pushad
+		pushfd
+
+		call IsInSeen9900Mode
+		mov[esp + 36], eax
+
+		popfd
+		popad
+	}
+	__asm {
+		pop eax
+		test eax, eax
+		je __rl_d3d
+		mov eax, 1
+		ret
+	}
+__rl_d3d:
+	__asm {
+		mov eax, image_base
+		add eax, RLD3D_PRESENT_IAT_RVA
+		mov eax, [eax]
+		jmp eax
+	}
+}
+
 static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, unsigned seenNo) {
 	UpdateSeenBuffer(ptr->decompressed_data, seenNo);
 }
