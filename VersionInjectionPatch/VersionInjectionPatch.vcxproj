@@ -32,12 +32,8 @@
     <ClInclude Include="data.h" />
     <ClInclude Include="hook.h" />
     <ClInclude Include="patch.h" />
-    <ClInclude Include="resource.h" />
     <ClInclude Include="define.h" />
     <ClInclude Include="utils.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="resource.rc" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

@@ -6,6 +6,7 @@
 void HookInit(HMODULE hDll);
 void HookDestroy();
 void RunDump();
+void RunPack();
 void PatchHookAfterVMInit();
 
 LRESULT CALLBACK ProxyWndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam);

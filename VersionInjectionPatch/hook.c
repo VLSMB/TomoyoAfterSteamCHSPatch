@@ -19,9 +19,9 @@ static void initForDump();
 static void initPatchHook();
 static void initForArchive();
 static void updatePatchPackFromTextFile(PatchPack* out);
-static void loadPatchPackFromResource(HMODULE hDll, PatchPack* out);
+static BOOL loadPatchPackFromPackedFile(PatchPack* out);
 static void dumpSeenData(ReadSeenDataFuncPtr dataFunc, RealLiveSeenData* data, size_t num, SeenDumpData* out);
-static BOOL readFile(const char* fileName, ByteBuffer* out);
+static BOOL readFile(const char* fileName, ByteBuffer* out, BOOL needGbk);
 static void saveFile(const char* fileName, ByteBuffer buffer);
 static void logError(const char* msg);
 static void updateAsmCode(void* address, BYTE* codeArr, size_t len);
@@ -45,7 +45,7 @@ void HookInit(HMODULE hDll) {
 		break;
 	case PATCH_RELEASE:
 	case PATCH_DEBUG:
-		loadPatchPackFromResource(hDll, &pack);
+		loadPatchPackFromPackedFile(&pack);
 		updatePatchPackFromTextFile(&pack);
 		goto patch;
 	case PATCH_ARCHIVE:
@@ -240,22 +240,7 @@ static void initPatchHook() {
 }
 
 static void initForArchive() {
-	PatchPack pack;
-	RtlZeroMemory(&pack, sizeof(PatchPack));
-	updatePatchPackFromTextFile(&pack);
-
-	ByteBuffer buffer;
-	RtlZeroMemory(&buffer, sizeof(ByteBuffer));
-	PatchPackToBinFile(&pack, &buffer);
-
-	ByteBuffer fileBuffer;
-	RtlZeroMemory(&fileBuffer, sizeof(ByteBuffer));
-	transform(&buffer, &fileBuffer);
-	saveFile(BIN_DATA_FILE, fileBuffer);
-
-	FreePatchPack(&pack);
-	FreeByteBuffer(&buffer);
-	FreeByteBuffer(&fileBuffer);
+	RunPack();
 	MessageBoxA(NULL, "打包成功！", MESSAGEBOX_TITLE, MB_OK | MB_ICONINFORMATION);
 	ExitProcess(0);
 }
@@ -268,7 +253,7 @@ static void updatePatchPackFromTextFile(PatchPack* out) {
 	size_t seenCount = 0;
 	for (size_t i = 0; i < SEEN_DATA_NUM; i++) {
 		wsprintfA(path, SEEN_DATA_FILE, i);
-		if (readFile(path, &buffer)) {
+		if (readFile(path, &buffer, TRUE)) {
 			byte_buffer_array[seenCount++] = buffer;
 		}
 	}
@@ -304,7 +289,7 @@ static void updatePatchPackFromTextFile(PatchPack* out) {
 		out->pSize = updatedSize;
 	}
 
-	if (readFile(NAME_DATA_FILE, &buffer)) {
+	if (readFile(NAME_DATA_FILE, &buffer, TRUE)) {
 		if (out->pName == NULL) {
 			out->pName = (NameDataArray*)malloc(sizeof(NameDataArray));
 			if (out->pName == NULL) {
@@ -318,7 +303,7 @@ static void updatePatchPackFromTextFile(PatchPack* out) {
 		FreeByteBuffer(&buffer);
 	}
 
-	if (readFile(PERES_DATA_FILE, &buffer)) {
+	if (readFile(PERES_DATA_FILE, &buffer, TRUE)) {
 		if (out->pRes == NULL) {
 			out->pRes = (PEResourceArray*)malloc(sizeof(PEResourceArray));
 			if (out->pName == NULL) {
@@ -332,7 +317,7 @@ static void updatePatchPackFromTextFile(PatchPack* out) {
 		FreeByteBuffer(&buffer);
 	}
 
-	if (readFile(FMAP_DATA_FILE, &buffer)) {
+	if (readFile(FMAP_DATA_FILE, &buffer, TRUE)) {
 		if (out->pFileMap == NULL) {
 			out->pFileMap = (FileMappingArray*)malloc(sizeof(FileMappingArray));
 			if (out->pFileMap == NULL) {
@@ -351,32 +336,21 @@ static void updatePatchPackFromTextFile(PatchPack* out) {
 	}
 }
 
-static void loadPatchPackFromResource(HMODULE hDll, PatchPack* out) {
-	HRSRC hRes = FindResourceA(hDll, MAKEINTRESOURCEA(IDR_PATCH_BIN), RT_RCDATA);
-	if (hRes == NULL) {
-		goto fail;
-	}
-	HGLOBAL hData = LoadResource(hDll, hRes);
-	if (hData == NULL) {
-		goto fail;
-	}
-	BYTE* pData = (BYTE*)LockResource(hData);
-	DWORD size = SizeofResource(hDll, hRes);
-
+static BOOL loadPatchPackFromPackedFile(PatchPack* out) {
 	ByteBuffer fileBuffer;
 	RtlZeroMemory(&fileBuffer, sizeof(ByteBuffer));
-	fileBuffer.pointer = pData;
-	fileBuffer.size = size;
+	if (!readFile(BIN_DATA_FILE, &fileBuffer, FALSE)) {
+		return FALSE;
+	}
 
 	ByteBuffer buffer;
 	RtlZeroMemory(&buffer, sizeof(ByteBuffer));
 	transform(&fileBuffer, &buffer);
 	BinFileToPatchPack(&buffer, out);
+
+	FreeByteBuffer(&fileBuffer);
 	FreeByteBuffer(&buffer);
-	return;
-fail:
-	logError("读取资源失败！");
-	ExitProcess(2);
+	return TRUE;
 }
 
 void RunDump() {
@@ -443,6 +417,25 @@ void RunDump() {
 	ExitProcess(0);
 }
 
+void RunPack() {
+	PatchPack pack;
+	RtlZeroMemory(&pack, sizeof(PatchPack));
+	updatePatchPackFromTextFile(&pack);
+
+	ByteBuffer buffer;
+	RtlZeroMemory(&buffer, sizeof(ByteBuffer));
+	PatchPackToBinFile(&pack, &buffer);
+
+	ByteBuffer fileBuffer;
+	RtlZeroMemory(&fileBuffer, sizeof(ByteBuffer));
+	transform(&buffer, &fileBuffer);
+	saveFile(BIN_DATA_FILE, fileBuffer);
+
+	FreePatchPack(&pack);
+	FreeByteBuffer(&buffer);
+	FreeByteBuffer(&fileBuffer);
+}
+
 static void dumpSeenData(ReadSeenDataFuncPtr dataFunc, RealLiveSeenData* data, size_t num, SeenDumpData* out) {
 	RtlZeroMemory(data, sizeof(RealLiveSeenData));
 	RtlZeroMemory(dummy_ctx, sizeof(dummy_ctx));
@@ -453,7 +446,7 @@ static void dumpSeenData(ReadSeenDataFuncPtr dataFunc, RealLiveSeenData* data, s
 	DumpSeenData(data, out);
 }
 
-static BOOL readFile(const char* fileName, ByteBuffer* out) {
+static BOOL readFile(const char* fileName, ByteBuffer* out, BOOL needGbk) {
 	RtlZeroMemory(out, sizeof(ByteBuffer));
 
 	HANDLE hFile = CreateFileA(fileName, GENERIC_READ, FILE_SHARE_READ, NULL,
@@ -488,7 +481,13 @@ static BOOL readFile(const char* fileName, ByteBuffer* out) {
 		return FALSE;
 	}
 
-	transferBufferToGbk(&buffer, out);
+	if (needGbk) {
+		transferBufferToGbk(&buffer, out);
+		FreeByteBuffer(&buffer);
+	} else {
+		out->pointer = buffer.pointer;
+		out->size = buffer.size;
+	}
 	CloseHandle(hFile);
 	return TRUE;
 }

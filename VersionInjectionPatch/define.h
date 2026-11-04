@@ -2,7 +2,6 @@
 #define __VLSMB_STRUCT_H
 
 #include <Windows.h>
-#include "resource.h"
 
 #define ASM_FUNCTION __declspec(naked)
 
