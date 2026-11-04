@@ -6,7 +6,7 @@
 #define ASM_FUNCTION __declspec(naked)
 
 #define PROCESS_NAME "RealLiveEn.exe"
-#define WINDOW_TITLE "智代后记（Steam版）汉化补丁 v0.0.3"
+#define WINDOW_TITLE "智代后记（Steam版）汉化补丁 v0.0.4-dev"
 #define ORIGIN_TITLE_NAME "tomoyo after -It's a Wonderful Life-  English Edition    "
 #define WINDOW_CLASS_NAME "VisualArts_System2000_REALLIVEEN"
 #define MESSAGEBOX_TITLE "VLSMB"
