@@ -16,17 +16,11 @@
 
 ## 编译
 
-本项目使用 Microsoft Visual Studio 2022（工具集版本 v143，Windows SDK 10.0）编译，目标平台为 Win32，配置类型为动态链接库（DLL），使用多字节字符集。
+本项目使用 Microsoft Visual Studio 2022（工具集版本 v143，Windows SDK 10.0）编译，目标平台为 Win32，配置类型为动态链接库（`VersionInjectionPatch`项目），使用多字节字符集。
 
-编译后的 `version.dll` 可以直接放在游戏所在的文件夹，即可实现汉化补丁的功能。另外可以在游戏所在的文件夹创建一个 `patch_mode.cfg` 配置文件，文件里面写一个数字，可以用的数字以及对应的含义为：
+可以直接将编译后的 `version.dll` 和 `patch` 文件夹的文本资源放在游戏所在的文件夹，即可实现汉化补丁的功能。编译产物中还有一个 `PatchResourcePacker.exe`，可以将 `patch` 文件夹的文本内容打包成一个 `SEEN_CHS.TXT` 二进制文件，在分发汉化补丁时只分发 `version.dll` 和 `SEEN_CHS.TXT` 这两个文件的效果与 `version.dll` 和 `patch` 文件夹相同。（补丁优先读取 `patch` 文件夹的内容）。
 
-- 0 = PATCH_RELEASE（正式版汉化补丁模式，只从DLL的资源文件中加载汉化文本，当这个配置文件不存在时的缺省值）
-- 1 = PATCH_DUMP （导出模式，导出原始文本）
-- 2 = PATCH_ARCHIVE （打包模式，将汉化后的文本打包成一个bin文件，用于将这个bin文件打包进dll中）
-- 3 = PATCH_DEBUG （调试补丁模式，优先从DLL的资源文件中加载汉化文本，之后如果patch文件夹有对应的文本文件，则使用patch文件夹中的）
-- 4 = PATCH_NONE （禁用汉化补丁）
-
-翻译可以使用 模式 3 + patch 文件夹来测试文本显示效果。
+> 如果只修改了文本而没有修改补丁程序的代码，则可以直接使用已有的 [编译产物](https://github.com/VLSMB/TomoyoAfterSteamCHSPatch/releases) 而无需再次编译。
 
 ## 项目贡献者
 
