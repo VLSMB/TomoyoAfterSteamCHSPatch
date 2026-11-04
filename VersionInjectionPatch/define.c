@@ -34,6 +34,8 @@ const char* ALPHA_VERSION_WARNING = WINDOW_TITLE
 "汉化补丁完成进度可以关注：https://github.com/VLSMB/TomoyoAfterSteamCHSPatch\r\n"
 "本补丁仅用于学习研究用途，禁止用于一切商业活动。";
 
+const char* GAME_QUIT_MESSAGE = "确定要退出游戏吗？";
+
 BYTE* debug_flag_pointer = NULL;
 HWND window_handle = NULL;
 WNDPROC window_proc = NULL;

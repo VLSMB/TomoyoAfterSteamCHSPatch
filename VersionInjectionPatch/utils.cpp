@@ -202,3 +202,20 @@ bool extractRlDebugSuffix(const std::string& str, std::string& prefix, std::stri
 	suffix.clear();
 	return false;
 }
+
+bool GbkToUtf16Le(const std::string& gbk, std::string& out) {
+	out.clear();
+	if (gbk.empty()) return true;
+
+	int wlen = MultiByteToWideChar(936, 0, gbk.data(), (int)gbk.size(), nullptr, 0);
+	if (wlen <= 0) return false;
+
+	std::wstring wstr(static_cast<size_t>(wlen), L'\0');
+	if (MultiByteToWideChar(936, 0, gbk.data(), (int)gbk.size(),
+		&wstr[0], wlen) <= 0)
+		return false;
+
+	out.resize(wstr.size() * sizeof(wchar_t));
+	memcpy((void*)out.data(), wstr.data(), out.size());
+	return true;
+}

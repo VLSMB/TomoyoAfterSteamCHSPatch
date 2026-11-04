@@ -1,12 +1,26 @@
 type pe_resource
-count 1
+count 2
 
 ====================
 index 1
 rva 2201688
 length 12
+gbk
+fill_null
 ====================
 Confirmation
 ====================
 确认
+====================
+
+====================
+index 2
+rva 30413094
+length 30
+utf16le
+fill_space
+====================
+Screen Settings
+====================
+屏幕设置
 ====================

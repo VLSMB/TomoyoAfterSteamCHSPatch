@@ -6,7 +6,7 @@
 #define ASM_FUNCTION __declspec(naked)
 
 #define PROCESS_NAME "RealLiveEn.exe"
-#define WINDOW_TITLE "智代后记（Steam版）汉化补丁 v0.0.3-dev"
+#define WINDOW_TITLE "智代后记（Steam版）汉化补丁 v0.0.3"
 #define ORIGIN_TITLE_NAME "tomoyo after -It's a Wonderful Life-  English Edition    "
 #define WINDOW_CLASS_NAME "VisualArts_System2000_REALLIVEEN"
 #define MESSAGEBOX_TITLE "VLSMB"
@@ -22,6 +22,11 @@
 #define REPLACE_FLAG "replace_flag"
 #define SEEN_9900 9900
 #define SEEN_9900_MODE_FONT "Consolas"
+
+#define GBK_STR "gbk"
+#define UTF16_STR "utf16le"
+#define NULL_STRATEGY "fill_null"
+#define SPACE_STRATEGY "fill_space"
 
 #define SEEN_DATA_NUM 10000
 #define SHOT_TEXT_SIZE 10
@@ -50,6 +55,7 @@
 #define SET_DIB_TO_DEVICE_IAT_RVA 0x2060A0
 #define RLD3D_PRESENT_IAT_RVA 0xF32B70
 #define RLD3D_PRESENT_CALLER_RVA 0x1AE11
+#define GAME_QUIT_MESSAGE_ADDR_RVA 0xE41A5
 
 #define SET_NOP_ARRAY_SIZE 33
 #define CONSUME_TEXT_IN_QUOTE_MODE_CALLER_SIZE 6
@@ -65,6 +71,7 @@ extern "C" {
     extern const BYTE WINAPI_PATCH_STUB[5];
     extern const char* SHA256_MISMATCH_WARNING;
     extern const char* ALPHA_VERSION_WARNING;
+    extern const char* GAME_QUIT_MESSAGE;
 
     extern BYTE* debug_flag_pointer;
     extern HWND window_handle;
@@ -145,12 +152,22 @@ typedef struct NameDataArrayStruct {
     size_t size;
 } NameDataArray;
 
+typedef enum PEResourceEncodeEnum {
+    ENCODE_UNKNOWN, GBK, UTF16LE
+} PEResourceEncode;
+
+typedef enum PEResourceStrategyEnum {
+    STRATEGY_UNKNOWN, FILL_NULL, FILL_SPACE
+} PEResourceStrategy;
+
 typedef struct PEResourceStruct {
     unsigned index;
     DWORD rva;
     size_t length;
     ByteBuffer origin;
     ByteBuffer translated;
+    PEResourceEncode encode;
+    PEResourceStrategy strategy;
 } PEResource;
 
 typedef struct PEResourceArrayStruct {

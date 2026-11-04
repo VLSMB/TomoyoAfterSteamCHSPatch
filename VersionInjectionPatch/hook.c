@@ -94,6 +94,8 @@ void PatchHookAfterVMInit() {
 	updateAsmCode(imageBase + RLD3D_PRESENT_CALLER_RVA, callHookOp, 6);
 
 	SetTranslatedPEResource(imageBase);
+	addr = GAME_QUIT_MESSAGE;
+	updateAsmCode(imageBase + GAME_QUIT_MESSAGE_ADDR_RVA, &addr, 4);
 
 __patch_hook_init_ret:
 	if (debug_flag_pointer != NULL) {
@@ -118,7 +120,7 @@ LRESULT CALLBACK ProxyWndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam
 }
 
 BOOL WINAPI ProxyInvalidateRect(HWND hWnd, const RECT* lpRect, BOOL bErase) {
-	InvalidateRect(hWnd, IsInSeen9900Mode() ? NULL : lpRect, bErase);
+	return InvalidateRect(hWnd, IsInSeen9900Mode() ? NULL : lpRect, bErase);
 }
 
 int WINAPI ProxySetDIBitsToDevice(HDC hdc, int xDest, int yDest, DWORD w, DWORD h, int xSrc,

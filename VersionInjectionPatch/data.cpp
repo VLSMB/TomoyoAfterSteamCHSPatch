@@ -402,10 +402,16 @@ EXTERN_C void TextFileToPEResource(ByteBuffer* in, PEResourceArray* out) {
 
 			DWORD rva = 0;
 			size_t length = 0;
+			PEResourceEncode encode = ENCODE_UNKNOWN;
+			PEResourceStrategy strategy = STRATEGY_UNKNOWN;
 			while (i < L.size() && !isSep(L[i])) {
 				const std::string& s = L[i];
 				if (startsWith(s, "rva ")) rva = (DWORD)strtoul(s.c_str() + 4, NULL, 10);
-				else if(startsWith(s, "length ")) length = (size_t)strtoul(s.c_str() + 7, NULL, 10);
+				else if (startsWith(s, "length ")) length = (size_t)strtoul(s.c_str() + 7, NULL, 10);
+				else if (startsWith(s, GBK_STR)) encode = GBK;
+				else if (startsWith(s, UTF16_STR))encode = UTF16LE;
+				else if (startsWith(s, NULL_STRATEGY))strategy = FILL_NULL;
+				else if (startsWith(s, SPACE_STRATEGY)) strategy = FILL_SPACE;
 				i++;
 			}
 			if (i < L.size()) ++i;
@@ -424,6 +430,8 @@ EXTERN_C void TextFileToPEResource(ByteBuffer* in, PEResourceArray* out) {
 			res.rva = rva;
 			res.origin = makeBuffer((const BYTE*)origin.data(), origin.size());
 			res.translated = makeBuffer((const BYTE*)translated.data(), translated.size());
+			res.encode = encode;
+			res.strategy = strategy;
 			arr.push_back(res);
 		}
 	}
@@ -441,6 +449,8 @@ EXTERN_C void PEResourceToBinFile(PEResourceArray* in, ByteBuffer* out) {
 		const PEResource& res = in->pointer[i];
 		appendDWORD(b, (DWORD)res.length);
 		appendDWORD(b, (DWORD)res.rva);
+		appendDWORD(b, (DWORD)res.encode);
+		appendDWORD(b, (DWORD)res.strategy);
 		appendDWORD(b, (DWORD)res.translated.size);
 		appendBytes(b, res.translated.pointer, res.translated.size);
 	}
@@ -459,8 +469,9 @@ EXTERN_C void BinFileToPEResource(ByteBuffer* in, PEResourceArray* out) {
 			count = 0;
 		}
 		for (DWORD i = 0; i < count; ++i) {
-			DWORD length, rva, ts;
+			DWORD length, rva, ts, e, s;
 			if (!readDWORD(p, end, length) || !readDWORD(p, end, rva)
+				|| !readDWORD(p, end, e) || !readDWORD(p, end, s)
 				|| !readDWORD(p, end, ts)) break;
 			if ((size_t)(end - p) < (size_t)ts) break;
 			PEResource res;
@@ -468,6 +479,8 @@ EXTERN_C void BinFileToPEResource(ByteBuffer* in, PEResourceArray* out) {
 			res.index = i;
 			res.length = length;
 			res.rva = rva;
+			res.encode = (PEResourceEncode)e;
+			res.strategy = (PEResourceStrategy)s;
 			res.translated = makeBuffer(p, ts); p += ts;
 			arr.push_back(res);
 		}

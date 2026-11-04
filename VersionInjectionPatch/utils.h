@@ -31,6 +31,7 @@ std::string transferToGbk(const std::string& str);
 bool startsWith(const std::string& str, const std::string& prefix);
 std::string removePrefix(const std::string& str, const std::string& prefix);
 bool extractRlDebugSuffix(const std::string& str, std::string& prefix, std::string& suffix);
+bool GbkToUtf16Le(const std::string& gbk, std::string& out);
 
 template<typename T>
 T* toArrayPointer(const std::vector<T>& vec) {

@@ -124,11 +124,28 @@ EXTERN_C BOOL InitPatchData(PatchPack* in) {
 		pe_resource_length_map.reserve(in->pRes->size);
 		for (size_t i = 0; i < in->pRes->size; i++) {
 			const PEResource& res = in->pRes->pointer[i];
-			if (res.translated.size > res.length) {
-				return FALSE;
+			std::string str = bufferToStdString(res.translated);
+			if (res.encode == UTF16LE) {
+				std::string newStr;
+				if (!GbkToUtf16Le(str, newStr)) {
+					continue;
+				}
+				str = newStr;
+			}
+			if (str.length() > res.length) {
+				continue;
+			}
+			if (res.strategy == FILL_SPACE) {
+				if (res.encode == GBK) {
+					str += std::string(res.length - str.length(), ' ');
+				} else if (res.encode == UTF16LE) {
+					std::string space;
+					GbkToUtf16Le(std::string((res.length - str.length()) / 2, ' '), space);
+					str += space;
+				}
 			}
 			pe_resource_str_map.insert(std::make_pair(
-				res.rva, bufferToStdString(res.translated)
+				res.rva, str
 			));
 			pe_resource_length_map.insert(std::make_pair(
 				res.rva, res.length
