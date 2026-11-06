@@ -30,7 +30,7 @@ namespace Patch {
 		}
 		void resetFrame() {
 			if (frameCount > 0) {
-				MessageBoxA(window_handle, 
+				MessageBoxA(window_handle,
 					("text: " + text + "\nframeCount: " + std::to_string(frameCount)).c_str(), NULL, MB_OK);
 			}
 			text = "";
@@ -236,6 +236,7 @@ EXTERN_C const char* const GetTranslatedName(const char* const name) {
 }
 
 EXTERN_C const char* const GetTranslatedText(const char* const text) {
+	if (text == NULL || *text == '\0') return text;
 	const char* translated = pureGetTranslatedText(text);
 	if (translated != text) return translated;
 	size_t count = 0;
@@ -409,7 +410,7 @@ EXTERN_C const char* const GetWindowTitleTranslatedText(const char* const text) 
 	if (!IsWindowTitleText(text)) return text;
 	std::string subTitle, debugSuf;
 	extractRlDebugSuffix(removePrefix(text, ORIGIN_TITLE_NAME), subTitle, debugSuf);
-	current_title_text = std::string(WINDOW_TITLE"  ") + pureGetTranslatedText(subTitle.c_str());
+	current_title_text = std::string(WINDOW_TITLE"  ") + GetTranslatedName(subTitle.c_str());
 	if (!debugSuf.empty()) {
 		current_title_text += " " + debugSuf;
 	}
@@ -430,7 +431,7 @@ EXTERN_C const char* const CheckTextForSeen9900(const char* const text) {
 	}
 	std::string s(text, strnlen(text, 3));
 	std::vector<BYTE> vec;
-	if (s.length() == 3 && s[0] == '&' 
+	if (s.length() == 3 && s[0] == '&'
 		&& hexToVector(vec, s.substr(1)) && vec.size() == 1) {
 		size_t idx = (size_t)vec[0];
 		seen9900_flag.setIndex(idx);
