@@ -83,6 +83,7 @@ void PatchHookAfterVMInit() {
 		writeHook(imageBase + CONSUME_TEXT_IN_QUOTE_MODE_CALLER_RVA[i], ProxyConsumeTextInQuoteMode);
 	}
 	writeHookWithNop(imageBase + HANDLE_INSTANT_TEXT_FUNC_RVA, HookHandleInstantText, 1);
+	writeHookWithNop(imageBase + HANDLE_FRAGMENTED_TEXT_FUNC_RVA, HookHandleFragmentedText, 1);
 
 	writeHook(imageBase + OPEN_G00_FILE_FUNC_CALLER_RVA, ProxyOpenG00File);
 	writeHook(imageBase + HANDLE_SEEN_9900_FUNC_CALLER_RVA, ProxySeen9900Text);

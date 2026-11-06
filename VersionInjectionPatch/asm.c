@@ -335,6 +335,30 @@ void ASM_FUNCTION HookHandleInstantText() {
 	}
 }
 
+void ASM_FUNCTION HookHandleFragmentedText() {
+	__asm {
+		sub esp, 4
+		pushfd
+		pushad
+
+		push edx
+		call GetTranslatedText
+		add esp, 4
+		mov [esp + 36], eax
+
+		popad
+		popfd
+	}
+	__asm {
+		pop edx
+		pop eax
+		push ebp
+		mov ebp, esp
+		sub esp, 24
+		jmp eax
+	}
+}
+
 void ASM_FUNCTION JmpSignature() {
 	__asm {
 		push esi
@@ -434,6 +458,7 @@ static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, unsigned seenNo) {
 }
 
 static const char* const WINAPI getTranslatedText(const char* const text) {
+	if (text == NULL || *text == '\0') return text;
 	const char* name = GetTranslatedName(text);
 	if (name != text) return name;
 	return GetTranslatedText(text);

@@ -11,6 +11,7 @@ void HookCreateWindowExA();
 
 void ProxyConsumeTextInQuoteMode();
 void HookHandleInstantText();
+void HookHandleFragmentedText();
 void JmpSignature();
 
 void ProxyOpenG00File();
