@@ -9,14 +9,19 @@
 static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, unsigned seenNo);
 static void WINAPI beforeConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4);
 static void WINAPI afterConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4);
-static const char* const WINAPI getTranslatedText(const char* const text);
 static void WINAPI hookWindowTitle(HWND hWnd, const char** title);
 static BOOL WINAPI isRealLiveWindow(const char* const lpClassName);
 static BOOL WINAPI ToRelativeToCwd(const char* inPath, char* outRel, size_t outSize);
 static const char* const WINAPI applyFileMapping(const char* const text);
 
+static BOOL WINAPI loadTranslatedTextInfo(const char* const current_ip);
+static size_t WINAPI getOriginTextLength();
+static size_t WINAPI getTranslatedTextLength();
+static void WINAPI copyTranslatedText(char* const to);
+
 static BYTE* origin_vm_ip = NULL;
 static CharacterInfo char_info = { 0 };
+static TextInfo text_info = { 0 };
 
 void ASM_FUNCTION HookForDump() {
 	__asm {
@@ -310,55 +315,6 @@ static void WINAPI afterConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* 
 	origin_vm_ip = NULL;
 }
 
-void ASM_FUNCTION HookHandleInstantText() {
-	__asm {
-		sub esp, 4
-		pushfd
-		pushad
-
-		mov eax, [esp + 48]
-		push eax
-		call getTranslatedText
-		mov [esp + 36], eax
-
-		popad
-		popfd
-	}
-	__asm {
-		pop eax
-		mov [esp + 8], eax
-		pop eax
-		push ebp
-		mov ebp, esp
-		sub esp, 64
-		jmp eax
-	}
-}
-
-void ASM_FUNCTION HookHandleFragmentedText() {
-	__asm {
-		sub esp, 4
-		pushfd
-		pushad
-
-		push edx
-		call GetTranslatedText
-		add esp, 4
-		mov [esp + 36], eax
-
-		popad
-		popfd
-	}
-	__asm {
-		pop edx
-		pop eax
-		push ebp
-		mov ebp, esp
-		sub esp, 24
-		jmp eax
-	}
-}
-
 void ASM_FUNCTION JmpSignature() {
 	__asm {
 		push esi
@@ -453,15 +409,150 @@ __rl_d3d:
 	}
 }
 
-static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, unsigned seenNo) {
-	UpdateSeenBuffer(ptr->decompressed_data, seenNo);
+void ASM_FUNCTION HookSelectText() {
+	__asm {
+		mov eax, image_base
+		mov [esp], eax
+		push esi
+		push edi
+		push ebx
+		pushad
+		pushfd
+	}
+	__asm {
+		inc esi
+		push esi
+		call loadTranslatedTextInfo
+		test eax, eax
+		je __hook_select_text_fail
+	}
+	__asm {
+		push edi
+		call copyTranslatedText
+		call getTranslatedTextLength
+		add edi, eax
+		mov ebx, eax
+		call getOriginTextLength
+		add esi, eax
+	}
+__hook_select_text_success:
+	__asm {
+		add dword ptr [esp + 48], 0x1265C2
+		mov [esp + 36], ebx
+		mov [esp + 40], edi
+		mov [esp + 44], esi
+		jmp __hook_select_text_ret
+	}
+__hook_select_text_fail:
+	__asm {
+		add dword ptr [esp + 48], 0x12656A
+		jmp __hook_select_text_ret
+	}
+__hook_select_text_ret:
+	__asm {
+		popfd
+		popad
+		pop ebx
+		pop edi
+		pop esi
+		ret
+	}
 }
 
-static const char* const WINAPI getTranslatedText(const char* const text) {
-	if (text == NULL || *text == '\0') return text;
-	const char* name = GetTranslatedName(text);
-	if (name != text) return name;
-	return GetTranslatedText(text);
+void ASM_FUNCTION HookChunkTextLength() {
+	__asm {
+		mov eax, image_base
+		mov [esp], eax
+		push edi
+		push esi
+		push ebx
+		pushad
+		pushfd
+	}
+	__asm {
+		inc ecx
+		mov edi, ecx
+		push ecx
+		call loadTranslatedTextInfo
+		test eax, eax
+		je __hook_chunk_text_length_fail
+		call getOriginTextLength
+		mov ebx, edi
+		add ebx, eax
+		call getTranslatedTextLength
+		mov esi, eax
+	}
+__hook_chunk_text_length_success:
+	__asm {
+		add dword ptr [esp + 48], 0xEF265
+		mov [esp + 36], ebx
+		mov [esp + 40], esi
+		mov [esp + 44], edi
+		jmp __hook_chunk_text_length_ret
+	}
+__hook_chunk_text_length_fail:
+	__asm {
+		add dword ptr [esp + 48], 0xEF21D
+		jmp __hook_chunk_text_length_ret
+	}
+__hook_chunk_text_length_ret:
+	__asm {
+		popfd
+		popad
+		pop ebx
+		pop esi
+		pop edi
+		ret
+	}
+}
+
+void ASM_FUNCTION HookChunkText() {
+	__asm {
+		mov ebx, image_base
+		mov [esp], ebx
+		push eax
+		push edi
+		pushad
+		pushfd
+	}
+	__asm {
+		mov esi, edi
+		mov edi, eax
+		push esi
+		call loadTranslatedTextInfo
+		test eax, eax
+		je __hook_chunk_text_fail
+		push edi
+		call copyTranslatedText
+		call getOriginTextLength
+		add esi, eax
+		call getTranslatedTextLength
+		add edi, eax
+	}
+__hook_chunk_text_success:
+	__asm {
+		add dword ptr [esp + 44], 0xEF2DC
+		mov dword ptr [esp + 36], esi
+		mov dword ptr [esp + 40], edi
+		jmp __hook_chunk_text_ret
+	}
+__hook_chunk_text_fail:
+	__asm {
+		add dword ptr [esp + 44], 0xEF288
+		jmp __hook_chunk_text_ret
+	}
+__hook_chunk_text_ret:
+	__asm {
+		popfd
+		popad
+		pop ebx
+		pop eax
+		ret
+	}
+}
+
+static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, unsigned seenNo) {
+	UpdateSeenBuffer(ptr->decompressed_data, seenNo);
 }
 
 static BOOL WINAPI isRealLiveWindow(const char* const lpClassName) {
@@ -508,4 +599,25 @@ static BOOL WINAPI ToRelativeToCwd(const char* inPath, char* outRel, size_t outS
 
 	strncpy_s(outRel, outSize, out, _TRUNCATE);
 	return TRUE;
+}
+
+static BOOL WINAPI loadTranslatedTextInfo(const char* const current_ip) {
+	RtlZeroMemory(&text_info, sizeof(TextInfo));
+	int offset = current_ip - context_pointer->vmBase;
+	if (offset <= 0) return FALSE;
+	text_info.seenNo = state_pointer->seenNo;
+	text_info.offset = offset;
+	return GetTranslatedText(&text_info);
+}
+
+static size_t WINAPI getOriginTextLength() {
+	return text_info.origin_length;
+}
+
+static size_t WINAPI getTranslatedTextLength() {
+	return text_info.translated_length;
+}
+
+static void WINAPI copyTranslatedText(char* const to) {
+	memcpy(to, text_info.translated_text, text_info.translated_length);
 }

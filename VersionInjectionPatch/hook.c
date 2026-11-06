@@ -82,8 +82,8 @@ void PatchHookAfterVMInit() {
 	for (size_t i = 0; i < CONSUME_TEXT_IN_QUOTE_MODE_CALLER_SIZE; i++) {
 		writeHook(imageBase + CONSUME_TEXT_IN_QUOTE_MODE_CALLER_RVA[i], ProxyConsumeTextInQuoteMode);
 	}
-	writeHookWithNop(imageBase + HANDLE_INSTANT_TEXT_FUNC_RVA, HookHandleInstantText, 1);
-	writeHookWithNop(imageBase + HANDLE_FRAGMENTED_TEXT_FUNC_RVA, HookHandleFragmentedText, 1);
+	/*writeHookWithNop(imageBase + HANDLE_INSTANT_TEXT_FUNC_RVA, HookHandleInstantText, 1);
+	writeHookWithNop(imageBase + HANDLE_FRAGMENTED_TEXT_FUNC_RVA, HookHandleFragmentedText, 1);*/
 
 	writeHook(imageBase + OPEN_G00_FILE_FUNC_CALLER_RVA, ProxyOpenG00File);
 	writeHook(imageBase + HANDLE_SEEN_9900_FUNC_CALLER_RVA, ProxySeen9900Text);
@@ -97,6 +97,18 @@ void PatchHookAfterVMInit() {
 	SetTranslatedPEResource(imageBase);
 	addr = GAME_QUIT_MESSAGE;
 	updateAsmCode(imageBase + GAME_QUIT_MESSAGE_ADDR_RVA, &addr, 4);
+
+	context_pointer = imageBase + RLVM_CONTEXT_POINTET_RVA;
+	state_pointer = imageBase + RLVM_STATE_POINTER_RVA;
+
+	BYTE* opcode = SET_OPCODE;
+	for (size_t i = 0; i < SET_OPCODE_ARRAY_SIZE; i++) {
+		updateAsmCode(imageBase + SET_OPCODE_RVA[i], opcode, SET_OPCODE_LEN[i]);
+		opcode += SET_OPCODE_LEN[i];
+	}
+	writeHook(imageBase + HOOK_SELECT_TEXT_RVA, HookSelectText);
+	writeHook(imageBase + HOOK_CHUNK_TEXT_LEN_RVA, HookChunkTextLength);
+	writeHook(imageBase + HOOK_CHUNK_TEXT_RVA, HookChunkText);
 
 __patch_hook_init_ret:
 	if (debug_flag_pointer != NULL) {

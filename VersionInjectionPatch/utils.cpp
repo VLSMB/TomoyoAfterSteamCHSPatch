@@ -92,34 +92,6 @@ std::string bufferToStdString(const ByteBuffer& b) {
 	return std::string(reinterpret_cast<const char*>(b.pointer), b.size);
 }
 
-DWORD seenOffsetToDWORD(unsigned seenNo, unsigned offset) {
-	return (seenNo << 18) | (offset & 0x3FFFF);
-}
-
-void dwordToSeenOffset(DWORD dword, unsigned& seenNo, unsigned& offset) {
-	offset = dword & 0x3FFFF;
-	seenNo = dword >> 18;
-}
-
-bool exactSeenOffset(const char* const bytes, unsigned& seenNo, unsigned& offset) {
-	size_t count = 0;
-	const char* p = bytes;
-	while (count <= SHOT_TEXT_SIZE && *p) {
-		p++;
-		count++;
-	}
-	if (count <= SHOT_TEXT_SIZE) {
-		return false;
-	}
-	std::vector<BYTE> vec;
-	if (!hexToVector(vec, std::string(bytes, SHOT_TEXT_SIZE))) {
-		return false;
-	}
-	DWORD dword = vec[1] | ((DWORD)vec[2] << 8) | ((DWORD)vec[3] << 16) | ((DWORD)vec[4] << 24);
-	dwordToSeenOffset(dword, seenNo, offset);
-	return true;
-}
-
 std::string vectorToHex(const std::vector<BYTE>& vec) {
 	std::string hex;
 	hex.reserve(vec.size() * 2);

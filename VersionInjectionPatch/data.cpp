@@ -234,10 +234,6 @@ EXTERN_C void TextDataToBinFile(SeenPatchDataArray* in, ByteBuffer* out) {
 		appendDWORD(b, (DWORD)d.length);
 		appendDWORD(b, (DWORD)d.translated.size);
 		appendBytes(b, d.translated.pointer, d.translated.size);
-		if (d.length <= SHOT_TEXT_SIZE) {
-			appendDWORD(b, (DWORD)d.origin.size);
-			appendBytes(b, d.origin.pointer, d.origin.size);
-		}
 	}
 	out->pointer = toArrayPointer(b);
 	out->size = b.size();
@@ -273,15 +269,6 @@ EXTERN_C void BinFileToTextData(ByteBuffer* in, SeenPatchDataArray* out) {
 			d.origin.size = 0;
 			d.translated = makeBuffer(p, ts); 
 			p += ts;
-
-			if (d.length <= SHOT_TEXT_SIZE) {
-				DWORD os = 0;
-				if (!readDWORD(p, end, os) || os == 0 ||
-					(size_t)(end - p) < (size_t)os) break;
-				d.origin = makeBuffer(p, os);
-				p += os;
-			}
-
 			arr.push_back(d);
 		}
 	}

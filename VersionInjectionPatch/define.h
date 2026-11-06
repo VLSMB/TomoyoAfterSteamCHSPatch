@@ -29,14 +29,12 @@
 #define SPACE_STRATEGY "fill_space"
 
 #define SEEN_DATA_NUM 10000
-#define SHOT_TEXT_SIZE 10
 #define BIN_MAGIC (DWORD)(0x54504C56)
 #define TEXT_BIN_MAGIC (DWORD)(0x4E454553)
 #define NAME_BIN_MAGIC (DWORD)(0x454D414E)
 #define PERES_BIN_MAGIC (DWORD)(0x53524550)
 #define FMAP_BIN_MAGIC (DWORD)(0x50414D46)
 #define PACK_BIN_MAGIC (DWORD)(0x4B434150)
-#define TEXT_META_MAGIC (BYTE)(0xF0)
 
 #define CALL_READ_SEEN_HEADER_RVA 0x526EF
 #define READ_SEEN_HEADER_FUNC_RVA 0x991B0
@@ -58,29 +56,16 @@
 #define RLD3D_PRESENT_CALLER_RVA 0x1AE11
 #define GAME_QUIT_MESSAGE_ADDR_RVA 0xE41A5
 
+#define RLVM_STATE_POINTER_RVA 0x319B6C
+#define RLVM_CONTEXT_POINTET_RVA 0x576F90
+
+#define HOOK_SELECT_TEXT_RVA 0x12657A
+#define HOOK_CHUNK_TEXT_LEN_RVA 0xEF22C
+#define HOOK_CHUNK_TEXT_RVA 0xEF29B
+
 #define SET_NOP_ARRAY_SIZE 33
+#define SET_OPCODE_ARRAY_SIZE 6
 #define CONSUME_TEXT_IN_QUOTE_MODE_CALLER_SIZE 6
-
-#ifdef __cplusplus
-extern "C" {
-#endif
-    extern const DWORD SET_NOP_RVA[SET_NOP_ARRAY_SIZE];
-    extern const size_t SET_NOP_COUNT[SET_NOP_ARRAY_SIZE];
-    extern const DWORD CONSUME_TEXT_IN_QUOTE_MODE_CALLER_RVA[CONSUME_TEXT_IN_QUOTE_MODE_CALLER_SIZE];
-    extern char TRASH_BUFFER[1000];
-
-    extern const BYTE WINAPI_PATCH_STUB[5];
-    extern const char* SHA256_MISMATCH_WARNING;
-    extern const char* ALPHA_VERSION_WARNING;
-    extern const char* GAME_QUIT_MESSAGE;
-
-    extern BYTE* debug_flag_pointer;
-    extern HWND window_handle;
-    extern WNDPROC window_proc;
-    extern DWORD image_base;
-#ifdef __cplusplus
-}
-#endif
 
 typedef enum PatchModeEnum {
     PATCH_RELEASE,
@@ -208,9 +193,44 @@ typedef struct CharacterInfoStruct {
     WORD character;
 } CharacterInfo;
 
+typedef struct TextInfoStruct {
+    unsigned seenNo;
+    unsigned offset;
+    size_t origin_length;
+    size_t translated_length;
+    const char* translated_text;
+} TextInfo;
+
 typedef DWORD(__fastcall* ReadSeenHeaderFuncPtr)(void);
 typedef DWORD(__fastcall* ReadSeenDataFuncPtr)(BYTE ctx[64], RealLiveSeenData* out, DWORD scene_no, DWORD flags);
 typedef DWORD(__fastcall* DrawSingleCharacterFuncPtr)(DWORD a1, DWORD a2, DWORD a3, DWORD a4, DWORD character, DWORD a6, DWORD a7, DWORD a8, DWORD a9, DWORD a10, DWORD a11, DWORD a12);
 typedef DWORD(__fastcall* ConsumeTextInQuoteModeFuncPtr)(RealLiveVMState* sp, RealLiveVMContext* cp, int byteMode, int a4);
+
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+    extern const DWORD SET_NOP_RVA[SET_NOP_ARRAY_SIZE];
+    extern const size_t SET_NOP_COUNT[SET_NOP_ARRAY_SIZE];
+    extern const DWORD SET_OPCODE_RVA[SET_OPCODE_ARRAY_SIZE];
+    extern const size_t SET_OPCODE_LEN[SET_OPCODE_ARRAY_SIZE];
+    extern const BYTE SET_OPCODE[1000];
+    extern const DWORD CONSUME_TEXT_IN_QUOTE_MODE_CALLER_RVA[CONSUME_TEXT_IN_QUOTE_MODE_CALLER_SIZE];
+    extern char TRASH_BUFFER[1000];
+
+    extern const BYTE WINAPI_PATCH_STUB[5];
+    extern const char* SHA256_MISMATCH_WARNING;
+    extern const char* ALPHA_VERSION_WARNING;
+    extern const char* GAME_QUIT_MESSAGE;
+
+    extern BYTE* debug_flag_pointer;
+    extern HWND window_handle;
+    extern WNDPROC window_proc;
+    extern DWORD image_base;
+    extern RealLiveVMContext* context_pointer;
+    extern RealLiveVMState* state_pointer;
+#ifdef __cplusplus
+}
+#endif
 
 #endif

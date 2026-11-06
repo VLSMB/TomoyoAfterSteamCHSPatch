@@ -10,12 +10,14 @@ void HookSetWindowTextA();
 void HookCreateWindowExA();
 
 void ProxyConsumeTextInQuoteMode();
-void HookHandleInstantText();
-void HookHandleFragmentedText();
 void JmpSignature();
 
 void ProxyOpenG00File();
 void ProxySeen9900Text();
 void ProxyRld3dPresent();
+
+void HookSelectText();
+void HookChunkTextLength();
+void HookChunkText();
 
 #endif

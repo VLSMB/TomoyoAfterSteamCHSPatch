@@ -7,9 +7,6 @@
 #include <new>
 #include <regex>
 
-template<typename T>
-using seen_map = std::unordered_map<unsigned, std::unordered_map<unsigned, T>>;
-
 namespace Patch {
 	class Seen9900Flag {
 	private:
@@ -29,10 +26,6 @@ namespace Patch {
 			frameCount = 0;
 		}
 		void resetFrame() {
-			if (frameCount > 0) {
-				MessageBoxA(window_handle,
-					("text: " + text + "\nframeCount: " + std::to_string(frameCount)).c_str(), NULL, MB_OK);
-			}
 			text = "";
 			frameCount = 0;
 			curFrame = 0;
@@ -84,24 +77,23 @@ namespace Patch {
 	};
 };
 
+template<typename T>
+using seen_map = std::unordered_map<unsigned, std::unordered_map<unsigned, T>>;
+
 static std::unordered_map<std::string, std::string> name_map;
 static size_t max_name_length = 0;
 static seen_map<std::string> text_map;
 static seen_map<unsigned> text_length_map;
 static seen_map<std::stack<BYTE>> text_stack;
 static std::unordered_map<unsigned, std::vector<unsigned>> replace_flag_map;
-static std::unordered_map<std::string, std::string> short_text_map;
-static std::unordered_map<unsigned, std::vector<unsigned>> long_text_seen_offset_map;
-static std::unordered_map<std::string, std::string> cached_text_map;
+static std::unordered_map<unsigned, std::vector<unsigned>> seen_offset_map;
+
 static std::unordered_map<DWORD, std::string> pe_resource_str_map;
 static std::unordered_map<DWORD, DWORD> pe_resource_length_map;
 static std::unordered_map<std::string, std::string> file_mapping;
-static size_t max_cached_text_length = 0;
 static std::string current_title_text = "";
 static std::vector<std::string> seen9900_vector;
 static Patch::Seen9900Flag seen9900_flag(seen9900_vector);
-
-static const char* const pureGetTranslatedText(const char* const text);
 
 EXTERN_C BOOL InitPatchData(PatchPack* in) {
 	if (in == NULL) return FALSE;
@@ -170,18 +162,18 @@ EXTERN_C BOOL InitPatchData(PatchPack* in) {
 		text_map.reserve(in->pSize);
 		text_stack.reserve(in->pSize);
 		text_length_map.reserve(in->pSize);
-		long_text_seen_offset_map.reserve(in->pSize);
+		seen_offset_map.reserve(in->pSize);
 		replace_flag_map.reserve(in->pSize);
 		for (size_t i = 0; i < in->pSize; i++) {
 			SeenPatchDataArray* pArray = in->pText[i];
 			if (pArray->seenNo == SEEN_9900) {
 				seen9900_vector.reserve(pArray->size);
-				long_text_seen_offset_map[pArray->seenNo].reserve(pArray->size);
+				seen_offset_map[pArray->seenNo].reserve(pArray->size);
 				for (size_t j = 0; j < pArray->size; j++) {
 					seen9900_vector.push_back(
 						bufferToStdString(pArray->pointer[j].translated)
 					);
-					long_text_seen_offset_map[pArray->seenNo].push_back(pArray->pointer[j].offset);
+					seen_offset_map[pArray->seenNo].push_back(pArray->pointer[j].offset);
 				}
 				continue;
 			}
@@ -197,13 +189,8 @@ EXTERN_C BOOL InitPatchData(PatchPack* in) {
 						return FALSE;
 					}
 					replace_flag_map[pArray->seenNo].push_back(pArray->pointer[j].offset);
-				} else if (pArray->pointer[j].length <= SHOT_TEXT_SIZE) {
-					short_text_map.insert(std::make_pair(
-						bufferToStdString(pArray->pointer[j].origin),
-						bufferToStdString(pArray->pointer[j].translated)
-					));
 				} else {
-					long_text_seen_offset_map[pArray->seenNo].push_back(pArray->pointer[j].offset);
+					seen_offset_map[pArray->seenNo].push_back(pArray->pointer[j].offset);
 				}
 			}
 		}
@@ -216,10 +203,8 @@ EXTERN_C void CleanPatchData() {
 	text_map.clear();
 	text_stack.clear();
 	text_length_map.clear();
-	short_text_map.clear();
-	long_text_seen_offset_map.clear();
+	seen_offset_map.clear();
 	replace_flag_map.clear();
-	cached_text_map.clear();
 	pe_resource_length_map.clear();
 	pe_resource_str_map.clear();
 	file_mapping.clear();
@@ -235,37 +220,28 @@ EXTERN_C const char* const GetTranslatedName(const char* const name) {
 	return it == name_map.end() ? name : it->second.c_str();
 }
 
-EXTERN_C const char* const GetTranslatedText(const char* const text) {
-	if (text == NULL || *text == '\0') return text;
-	const char* translated = pureGetTranslatedText(text);
-	if (translated != text) return translated;
-	size_t count = 0;
-	const char* p = text;
-	while (p[count] && count <= max_cached_text_length) count++;
-	if (count <= max_cached_text_length) {
-		const auto& it = cached_text_map.find(std::string(text));
-		if (it != cached_text_map.end()) {
-			return it->second.c_str();
-		}
+EXTERN_C BOOL GetTranslatedText(TextInfo* info) {
+	if (info == NULL) return FALSE;
+	const auto& textMap = text_map.find(info->seenNo);
+	if (textMap == text_map.end()) {
+		return FALSE;
 	}
-	p = text;
-	while (*p && (isdigit(*p) || isspace(*p))) p++;
-	translated = pureGetTranslatedText(p);
-	if (translated == p) {
-		return text;
+	const auto& textIt = textMap->second.find(info->offset);
+	if (textIt == textMap->second.end()) {
+		return FALSE;
 	}
-	std::string str;
-	const char* q = text;
-	while (q < p) {
-		str += *q;
-		q++;
+	const auto& lenMap = text_length_map.find(info->seenNo);
+	if (lenMap == text_length_map.end()) {
+		return FALSE;
 	}
-	str += translated;
-	if (max_cached_text_length < str.size()) {
-		max_cached_text_length = str.size();
+	const auto& lenIt = lenMap->second.find(info->offset);
+	if (lenIt == lenMap->second.end()) {
+		return FALSE;
 	}
-	cached_text_map[std::string(text)] = str;
-	return cached_text_map[std::string(text)].c_str();
+	info->origin_length = lenIt->second;
+	info->translated_length = textIt->second.length();
+	info->translated_text = textIt->second.c_str();
+	return TRUE;
 }
 
 EXTERN_C void SetTranslatedPEResource(void* imageBase) {
@@ -285,36 +261,21 @@ EXTERN_C void SetTranslatedPEResource(void* imageBase) {
 
 EXTERN_C void UpdateSeenBuffer(BYTE* buffer, unsigned seenNo) {
 	if (seenNo == SEEN_9900) {
-		if (long_text_seen_offset_map[seenNo].size() > 256) {
+		if (seen_offset_map[seenNo].size() > 256) {
 			return;
 		}
-		for (size_t i = 0; i < long_text_seen_offset_map[seenNo].size(); ++i) {
+		for (size_t i = 0; i < seen_offset_map[seenNo].size(); ++i) {
 			if (seen9900_vector[i].length() < 3) {
 				continue;
 			}
 			std::string s = "&" + vectorToHex({ (BYTE)i });
-			BYTE* p = buffer + long_text_seen_offset_map[seenNo][i];
+			BYTE* p = buffer + seen_offset_map[seenNo][i];
 			for (const char& c : s) {
 				*p = static_cast<BYTE>(c);
 				p++;
 			}
 		}
 		return;
-	}
-	for (const auto& offset : long_text_seen_offset_map[seenNo]) {
-		DWORD dword = seenOffsetToDWORD(seenNo, offset);
-		BYTE* p = buffer + offset;
-		std::vector<BYTE> bytes;
-		bytes.push_back(TEXT_META_MAGIC);
-		bytes.push_back(dword & 0xFF);
-		bytes.push_back((dword >> 8) & 0xFF);
-		bytes.push_back((dword >> 16) & 0xFF);
-		bytes.push_back((dword >> 24) & 0xFF);
-		std::string s = vectorToHex(bytes);
-		for (const char& c : s) {
-			*p = static_cast<BYTE>(c);
-			p++;
-		}
 	}
 	for (const auto& offset : replace_flag_map[seenNo]) {
 		const std::string& text = text_map[seenNo][offset];
@@ -487,30 +448,4 @@ EXTERN_C void PaintCurFrameInSeen9900Mode(HWND hwnd, HDC hdc) {
 	SetBkMode(hdc, oldMode);
 	SelectObject(hdc, oldFont);
 	DeleteObject(hFont);
-}
-
-static const char* const pureGetTranslatedText(const char* const text) {
-	if (*text == '\0') return text;
-	unsigned seenNo = 0;
-	unsigned offset = 0;
-	if (exactSeenOffset(text, seenNo, offset)) {
-		const auto& map = text_map.find(seenNo);
-		if (map == text_map.end()) {
-			return text;
-		}
-		const auto& it = map->second.find(offset);
-		if (it == map->second.end()) {
-			return text;
-		}
-		return it->second.c_str();
-	}
-	bool isShortText = false;
-	for (int i = 0; i <= SHOT_TEXT_SIZE && !isShortText; i++) {
-		isShortText = text[i] == '\0';
-	}
-	if (!isShortText) {
-		return text;
-	}
-	const auto& it = short_text_map.find(std::string(text));
-	return it == short_text_map.end() ? text : it->second.c_str();
 }
