@@ -551,6 +551,27 @@ __hook_chunk_text_ret:
 	}
 }
 
+void ASM_FUNCTION HookNameText() {
+	__asm {
+		pushad
+		pushfd
+	}
+	__asm {
+		mov eax, [esp + 40]
+		push eax
+		call GetTranslatedName
+		add esp, 4
+		mov [esp + 40], eax
+	}
+	__asm {
+		popfd
+		popad
+		push image_base
+		add dword ptr [esp], HANDLE_NAME_TEXT_RVA
+		ret
+	}
+}
+
 static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, unsigned seenNo) {
 	UpdateSeenBuffer(ptr->decompressed_data, seenNo);
 }

@@ -19,5 +19,6 @@ void ProxyRld3dPresent();
 void HookSelectText();
 void HookChunkTextLength();
 void HookChunkText();
+void HookNameText();
 
 #endif

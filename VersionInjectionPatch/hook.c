@@ -109,6 +109,7 @@ void PatchHookAfterVMInit() {
 	writeHook(imageBase + HOOK_SELECT_TEXT_RVA, HookSelectText);
 	writeHook(imageBase + HOOK_CHUNK_TEXT_LEN_RVA, HookChunkTextLength);
 	writeHook(imageBase + HOOK_CHUNK_TEXT_RVA, HookChunkText);
+	writeHook(imageBase + HANDLE_NAME_TEXT_CALLER_RVA, HookNameText);
 
 __patch_hook_init_ret:
 	if (debug_flag_pointer != NULL) {
