@@ -282,6 +282,12 @@ EXTERN_C void UpdateSeenBuffer(BYTE* buffer, unsigned seenNo) {
 		if (text == "") continue;
 		memcpy(buffer + offset, text.c_str(), text.length());
 	}
+	if (seenNo == SEEN_PATCH_NO) {
+		BYTE* p = buffer + SEEN_PATCH_OFFSET;
+		for (size_t i = 0; i < SEEN_PATCH_LEN; i++) {
+			p[i] = SEEN_PATCH_DATA[i];
+		}
+	}
 }
 
 EXTERN_C BOOL GetNextCharacterInfo(unsigned seenNo, unsigned offset, CharacterInfo* out) {
