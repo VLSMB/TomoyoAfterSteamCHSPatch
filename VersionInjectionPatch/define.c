@@ -43,6 +43,10 @@ const DWORD CONSUME_TEXT_IN_QUOTE_MODE_CALLER_RVA[CONSUME_TEXT_IN_QUOTE_MODE_CAL
 	0xE9F9D, 0xE9D5B, 0xE9793, 0xE95D5, 0xE977F, 0xE95BF
 };
 
+extern const DWORD WINDOW_TITLE_ADDR_RVA[WINDOW_TITLE_ADDR_RVA_SIZE] = {
+	0xA5BAD, 0xA5BC2, 0xA5C31, 0xA5C46
+};
+
 char TRASH_BUFFER[1000] = { 0 };
 
 const BYTE WINAPI_PATCH_STUB[5] = { 0x8B, 0xFF, 0x55, 0x8B, 0xEC };
@@ -58,6 +62,7 @@ const char* ALPHA_VERSION_WARNING = WINDOW_TITLE
 "本补丁仅用于学习研究用途，禁止用于一切商业活动。";
 
 const char* GAME_QUIT_MESSAGE = "确定要退出游戏吗？";
+extern const char* WINDOW_TITLE_TEXT = WINDOW_TITLE"  ";
 
 BYTE* debug_flag_pointer = NULL;
 HWND window_handle = NULL;

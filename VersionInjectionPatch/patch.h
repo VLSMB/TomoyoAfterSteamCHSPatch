@@ -15,9 +15,6 @@ void SetTranslatedPEResource(void* imageBase);
 void UpdateSeenBuffer(BYTE* buffer, unsigned seenNo);
 BOOL GetNextCharacterInfo(unsigned seenNo, unsigned offset, CharacterInfo* out);
 void AckConsumeCharacter(const CharacterInfo* out);
-
-BOOL IsWindowTitleText(const char* const text);
-const char* const GetWindowTitleTranslatedText(const char* const text);
 const char* const ApplyFilePathMapping(const char* const text);
 
 const char* const CheckTextForSeen9900(const char* const text);

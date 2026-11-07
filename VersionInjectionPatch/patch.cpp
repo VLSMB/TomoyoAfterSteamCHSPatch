@@ -369,21 +369,6 @@ EXTERN_C void AckConsumeCharacter(const CharacterInfo* out) {
 	}
 }
 
-EXTERN_C BOOL IsWindowTitleText(const char* const text) {
-	return startsWith(text, ORIGIN_TITLE_NAME) ? TRUE : FALSE;
-}
-
-EXTERN_C const char* const GetWindowTitleTranslatedText(const char* const text) {
-	if (!IsWindowTitleText(text)) return text;
-	std::string subTitle, debugSuf;
-	extractRlDebugSuffix(removePrefix(text, ORIGIN_TITLE_NAME), subTitle, debugSuf);
-	current_title_text = std::string(WINDOW_TITLE"  ") + GetTranslatedName(subTitle.c_str());
-	if (!debugSuf.empty()) {
-		current_title_text += " " + debugSuf;
-	}
-	return current_title_text.c_str();
-}
-
 EXTERN_C const char* const ApplyFilePathMapping(const char* const text) {
 	std::string s(text);
 	std::transform(s.begin(), s.end(), s.begin(),

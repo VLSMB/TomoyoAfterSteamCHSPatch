@@ -82,8 +82,10 @@ void PatchHookAfterVMInit() {
 	for (size_t i = 0; i < CONSUME_TEXT_IN_QUOTE_MODE_CALLER_SIZE; i++) {
 		writeHook(imageBase + CONSUME_TEXT_IN_QUOTE_MODE_CALLER_RVA[i], ProxyConsumeTextInQuoteMode);
 	}
-	/*writeHookWithNop(imageBase + HANDLE_INSTANT_TEXT_FUNC_RVA, HookHandleInstantText, 1);
-	writeHookWithNop(imageBase + HANDLE_FRAGMENTED_TEXT_FUNC_RVA, HookHandleFragmentedText, 1);*/
+	for (size_t i = 0; i < WINDOW_TITLE_ADDR_RVA_SIZE; i++) {
+		const char* title = WINDOW_TITLE_TEXT;
+		updateAsmCode(imageBase + WINDOW_TITLE_ADDR_RVA[i], &title, 4);
+	}
 
 	writeHook(imageBase + OPEN_G00_FILE_FUNC_CALLER_RVA, ProxyOpenG00File);
 	writeHook(imageBase + HANDLE_SEEN_9900_FUNC_CALLER_RVA, ProxySeen9900Text);
@@ -249,7 +251,6 @@ static void initPatchHook() {
 	writeHook(CreateWindowExA, HookCreateWindowExA);
 	writeHook(EnumFontFamiliesExA, HookEnumFontFamiliesExA);
 	writeHook(CreateFontA, HookCreateFontA);
-	writeHook(SetWindowTextA, HookSetWindowTextA);
 	if (patch_mode == PATCH_DEBUG) {
 		debug_flag_pointer = (BYTE*)(getImageBase() + REALLIVE_DEBUG_MODE_FLAG_RVA);
 	}

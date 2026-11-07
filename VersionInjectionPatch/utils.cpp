@@ -151,30 +151,6 @@ bool startsWith(const std::string& str, const std::string& prefix) {
 	return str.compare(0, prefix.length(), prefix) == 0;
 }
 
-std::string removePrefix(const std::string& str, const std::string& prefix) {
-	if (startsWith(str, prefix)) {
-		return str.substr(prefix.length());
-	}
-	return str;
-}
-
-bool extractRlDebugSuffix(const std::string& str, std::string& prefix, std::string& suffix) {
-	std::regex pattern(
-		R"(Seen\d+\(\d+\)\s*Call\s*\(\d+\)\s*GS\s*\(\d+\)$)",
-		std::regex::icase
-	);
-
-	std::smatch matches;
-	if (std::regex_search(str, matches, pattern)) {
-		suffix = matches.str(0);
-		prefix = str.substr(0, matches.position(0));
-		return true;
-	}
-	prefix = str;
-	suffix.clear();
-	return false;
-}
-
 bool GbkToUtf16Le(const std::string& gbk, std::string& out) {
 	out.clear();
 	if (gbk.empty()) return true;

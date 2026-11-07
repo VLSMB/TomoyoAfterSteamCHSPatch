@@ -6,8 +6,7 @@
 #define ASM_FUNCTION __declspec(naked)
 
 #define PROCESS_NAME "RealLiveEn.exe"
-#define WINDOW_TITLE "智代后记（Steam版）汉化补丁 v0.0.4-dev"
-#define ORIGIN_TITLE_NAME "tomoyo after -It's a Wonderful Life-  English Edition    "
+#define WINDOW_TITLE "智代后记（Steam版）汉化补丁 v0.0.4"
 #define WINDOW_CLASS_NAME "VisualArts_System2000_REALLIVEEN"
 #define MESSAGEBOX_TITLE "VLSMB"
 #define PROCESS_FILE_SHA256 "cbfe30775595145b58af21edca73bc9ed25a54b135adb4702af1d26c1f9aa084"
@@ -69,6 +68,7 @@
 
 #define SET_NOP_ARRAY_SIZE 33
 #define SET_OPCODE_ARRAY_SIZE 6
+#define WINDOW_TITLE_ADDR_RVA_SIZE 4
 #define CONSUME_TEXT_IN_QUOTE_MODE_CALLER_SIZE 6
 
 typedef enum PatchModeEnum {
@@ -221,12 +221,14 @@ extern "C" {
     extern const BYTE SET_OPCODE[1000];
     extern const BYTE SEEN_PATCH_DATA[SEEN_PATCH_LEN];
     extern const DWORD CONSUME_TEXT_IN_QUOTE_MODE_CALLER_RVA[CONSUME_TEXT_IN_QUOTE_MODE_CALLER_SIZE];
+    extern const DWORD WINDOW_TITLE_ADDR_RVA[WINDOW_TITLE_ADDR_RVA_SIZE];
     extern char TRASH_BUFFER[1000];
 
     extern const BYTE WINAPI_PATCH_STUB[5];
     extern const char* SHA256_MISMATCH_WARNING;
     extern const char* ALPHA_VERSION_WARNING;
     extern const char* GAME_QUIT_MESSAGE;
+    extern const char* WINDOW_TITLE_TEXT;
 
     extern BYTE* debug_flag_pointer;
     extern HWND window_handle;

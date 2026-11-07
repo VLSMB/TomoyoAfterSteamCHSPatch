@@ -9,10 +9,10 @@
 static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, unsigned seenNo);
 static void WINAPI beforeConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4);
 static void WINAPI afterConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4);
-static void WINAPI hookWindowTitle(HWND hWnd, const char** title);
 static BOOL WINAPI isRealLiveWindow(const char* const lpClassName);
 static BOOL WINAPI ToRelativeToCwd(const char* inPath, char* outRel, size_t outSize);
 static const char* const WINAPI applyFileMapping(const char* const text);
+static void HookAfterCreateWindowExA();
 
 static BOOL WINAPI loadTranslatedTextInfo(const char* const current_ip);
 static size_t WINAPI getOriginTextLength();
@@ -22,6 +22,7 @@ static void WINAPI copyTranslatedText(char* const to);
 static BYTE* origin_vm_ip = NULL;
 static CharacterInfo char_info = { 0 };
 static TextInfo text_info = { 0 };
+static DWORD tmp_data;
 
 void ASM_FUNCTION HookForDump() {
 	__asm {
@@ -151,23 +152,6 @@ __hook_create_file_ret:
 	}
 }
 
-void ASM_FUNCTION HookSetWindowTextA() {
-	__asm {
-		lea eax, [esp + 12]
-		push eax
-		mov eax, [esp + 12]
-		push eax
-		call hookWindowTitle
-	}
-	__asm {
-		pop eax
-		mov edi, edi
-		push ebp
-		mov ebp, esp
-		jmp eax
-	}
-}
-
 void ASM_FUNCTION HookCreateWindowExA() {
 	__asm {
 		mov eax, [esp + 12]
@@ -183,6 +167,12 @@ void ASM_FUNCTION HookCreateWindowExA() {
 		popfd
 		popad
 	}
+	__asm {
+		mov eax, [esp + 4]
+		mov tmp_data, eax
+		mov eax, HookAfterCreateWindowExA
+		mov[esp + 4], eax
+	}
 __create_window_hook_ret:
 	__asm {
 		pop eax
@@ -193,15 +183,21 @@ __create_window_hook_ret:
 	}
 }
 
-static void WINAPI hookWindowTitle(HWND hWnd, const char** title) {
-	if (window_handle == NULL) {
-		if (IsWindowTitleText(*title)) {
-			window_handle = hWnd;
-			window_proc = (WNDPROC)SetWindowLongA(hWnd, GWLP_WNDPROC, (LONG_PTR)ProxyWndProc);
-		}
+static void ASM_FUNCTION HookAfterCreateWindowExA() {
+	__asm {
+		mov window_handle, eax
+		sub esp, 4
+		pushfd
+		pushad
+		mov eax, tmp_data
+		mov [esp + 36], eax
+		mov tmp_data, 0
 	}
-	if (window_handle == hWnd) {
-		*title = GetWindowTitleTranslatedText(*title);
+	window_proc = (WNDPROC)SetWindowLongA(window_handle, GWLP_WNDPROC, (LONG_PTR)ProxyWndProc);
+	__asm {
+		popad
+		popfd
+		ret
 	}
 }
 
