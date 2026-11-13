@@ -6,7 +6,7 @@
 #define ASM_FUNCTION __declspec(naked)
 
 #define PROCESS_NAME "RealLiveEn.exe"
-#define WINDOW_TITLE "智代后记（Steam版）汉化补丁 v0.0.4"
+#define WINDOW_TITLE "智代后记（Steam版）汉化补丁 v0.0.5-dev"
 #define WINDOW_CLASS_NAME "VisualArts_System2000_REALLIVEEN"
 #define MESSAGEBOX_TITLE "VLSMB"
 #define PROCESS_FILE_SHA256 "cbfe30775595145b58af21edca73bc9ed25a54b135adb4702af1d26c1f9aa084"
