@@ -6,6 +6,7 @@
 #include <Windows.h>
 #include <stdio.h>
 #include <wincrypt.h>
+#include <cstdint>
 
 static ByteBuffer byte_buffer_array[SEEN_DATA_NUM] = { 0 };
 static BYTE dummy_ctx[64];
@@ -14,7 +15,6 @@ static PatchMode patch_mode = PATCH_RELEASE;
 static void initPatchMode();
 static char* calculateSHA256();
 static char singleHexToChar(BYTE b);
-static DWORD getImageBase();
 static void initForDump();
 static void initPatchHook();
 static void initForArchive();
@@ -24,7 +24,7 @@ static void dumpSeenData(ReadSeenDataFuncPtr dataFunc, RealLiveSeenData* data, s
 static BOOL readFile(const char* fileName, ByteBuffer* out, BOOL needGbk);
 static void saveFile(const char* fileName, ByteBuffer buffer);
 static void logError(const char* msg);
-static void updateAsmCode(void* address, BYTE* codeArr, size_t len);
+static void updateAsmCode(void* address, const BYTE* codeArr, size_t len);
 static void assembleCallOp(BYTE* buffer, size_t len, void* targetFuncAddr, void* hookFuncAddr);
 static void writeHook(void* targetFuncAddr, void* hookFuncAddr);
 static void writeHookWithNop(void* targetFuncAddr, void* hookFuncAddr, unsigned nopLength);
@@ -65,55 +65,50 @@ patch:
 }
 
 void PatchHookAfterVMInit() {
-	if (patch_mode != PATCH_RELEASE && patch_mode != PATCH_DEBUG) {
-		goto __patch_hook_init_ret;
-	}
-
-	const DWORD imageBase = getImageBase();
-	DWORD hookAddress = imageBase + READ_SEEN_DATA_FUNC_RVA;
+	image_base = static_cast<void*>(GetModuleHandleA(PROCESS_NAME));
+	std::uintptr_t imageBase = reinterpret_cast<std::uintptr_t>(image_base);
 	BYTE callHookOp[6];
-	assembleCallOp(callHookOp, 6, hookAddress, HookForPatch);
+	assembleCallOp(callHookOp, 6, reinterpret_cast<void*>(imageBase + READ_SEEN_DATA_FUNC_RVA), HookForPatch);
 	callHookOp[5] = 0xC3;
-	updateAsmCode(hookAddress, callHookOp, 6);
+	updateAsmCode(reinterpret_cast<void*>(imageBase + READ_SEEN_DATA_FUNC_RVA), callHookOp, 6);
 
 	for (size_t i = 0; i < SET_NOP_ARRAY_SIZE; i++) {
 		skipAsmCode(imageBase, SET_NOP_RVA[i], SET_NOP_COUNT[i]);
 	}
 	for (size_t i = 0; i < CONSUME_TEXT_IN_QUOTE_MODE_CALLER_SIZE; i++) {
-		writeHook(imageBase + CONSUME_TEXT_IN_QUOTE_MODE_CALLER_RVA[i], ProxyConsumeTextInQuoteMode);
+		writeHook(reinterpret_cast<void*>(imageBase + CONSUME_TEXT_IN_QUOTE_MODE_CALLER_RVA[i]), ProxyConsumeTextInQuoteMode);
 	}
 	for (size_t i = 0; i < WINDOW_TITLE_ADDR_RVA_SIZE; i++) {
 		const char* title = WINDOW_TITLE_TEXT;
-		updateAsmCode(imageBase + WINDOW_TITLE_ADDR_RVA[i], &title, 4);
+		updateAsmCode(reinterpret_cast<void*>(imageBase + WINDOW_TITLE_ADDR_RVA[i]), reinterpret_cast<const BYTE*>(&title), 4);
 	}
 
-	writeHook(imageBase + OPEN_G00_FILE_FUNC_CALLER_RVA, ProxyOpenG00File);
-	writeHook(imageBase + HANDLE_SEEN_9900_FUNC_CALLER_RVA, ProxySeen9900Text);
-	DWORD addr = ProxyInvalidateRect;
-	updateAsmCode(imageBase + INVALIDATE_RECT_IAT_RVA, &addr, 4);
+	writeHook(reinterpret_cast<void*>(imageBase + OPEN_G00_FILE_FUNC_CALLER_RVA), ProxyOpenG00File);
+	writeHook(reinterpret_cast<void*>(imageBase + HANDLE_SEEN_9900_FUNC_CALLER_RVA), ProxySeen9900Text);
+	void* addr = ProxyInvalidateRect;
+	updateAsmCode(reinterpret_cast<void*>(imageBase + INVALIDATE_RECT_IAT_RVA), reinterpret_cast<const BYTE*>(&addr), 4);
 	addr = ProxySetDIBitsToDevice;
-	updateAsmCode(imageBase + SET_DIB_TO_DEVICE_IAT_RVA, &addr, 4);
-	assembleCallOp(callHookOp, 6, imageBase + RLD3D_PRESENT_CALLER_RVA, ProxyRld3dPresent);
-	updateAsmCode(imageBase + RLD3D_PRESENT_CALLER_RVA, callHookOp, 6);
+	updateAsmCode(reinterpret_cast<void*>(imageBase + SET_DIB_TO_DEVICE_IAT_RVA), reinterpret_cast<const BYTE*>(&addr), 4);
+	assembleCallOp(callHookOp, 6, reinterpret_cast<void*>(imageBase + RLD3D_PRESENT_CALLER_RVA), ProxyRld3dPresent);
+	updateAsmCode(reinterpret_cast<void*>(imageBase + RLD3D_PRESENT_CALLER_RVA), callHookOp, 6);
 
-	SetTranslatedPEResource(imageBase);
-	addr = GAME_QUIT_MESSAGE;
-	updateAsmCode(imageBase + GAME_QUIT_MESSAGE_ADDR_RVA, &addr, 4);
+	SetTranslatedPEResource(image_base);
+	addr = const_cast<void*>(static_cast<const void*>(GAME_QUIT_MESSAGE));
+	updateAsmCode(reinterpret_cast<void*>(imageBase + GAME_QUIT_MESSAGE_ADDR_RVA),  (const BYTE*) &addr, 4);
 
-	context_pointer = imageBase + RLVM_CONTEXT_POINTET_RVA;
-	state_pointer = imageBase + RLVM_STATE_POINTER_RVA;
+	context_pointer = reinterpret_cast<RealLiveVMContext*>(imageBase + RLVM_CONTEXT_POINTET_RVA);
+	state_pointer = reinterpret_cast<RealLiveVMState*>(imageBase + RLVM_STATE_POINTER_RVA);
 
-	BYTE* opcode = SET_OPCODE;
+	const BYTE* opcode = SET_OPCODE;
 	for (size_t i = 0; i < SET_OPCODE_ARRAY_SIZE; i++) {
-		updateAsmCode(imageBase + SET_OPCODE_RVA[i], opcode, SET_OPCODE_LEN[i]);
+		updateAsmCode(reinterpret_cast<void*>(imageBase + SET_OPCODE_RVA[i]), opcode, SET_OPCODE_LEN[i]);
 		opcode += SET_OPCODE_LEN[i];
 	}
-	writeHook(imageBase + HOOK_SELECT_TEXT_RVA, HookSelectText);
-	writeHook(imageBase + HOOK_CHUNK_TEXT_LEN_RVA, HookChunkTextLength);
-	writeHook(imageBase + HOOK_CHUNK_TEXT_RVA, HookChunkText);
-	writeHook(imageBase + HANDLE_NAME_TEXT_CALLER_RVA, HookNameText);
+	writeHook(reinterpret_cast<void*>(imageBase + HOOK_SELECT_TEXT_RVA), HookSelectText);
+	writeHook(reinterpret_cast<void*>(imageBase + HOOK_CHUNK_TEXT_LEN_RVA), HookChunkTextLength);
+	writeHook(reinterpret_cast<void*>(imageBase + HOOK_CHUNK_TEXT_RVA), HookChunkText);
+	writeHook(reinterpret_cast<void*>(imageBase + HANDLE_NAME_TEXT_CALLER_RVA), HookNameText);
 
-__patch_hook_init_ret:
 	if (debug_flag_pointer != NULL) {
 		*debug_flag_pointer = TRUE;
 	}
@@ -146,13 +141,14 @@ int WINAPI ProxySetDIBitsToDevice(HDC hdc, int xDest, int yDest, DWORD w, DWORD 
 }
 
 static void initPatchMode() {
-	BYTE* sha256 = calculateSHA256();
-	FILE* fp = fopen(PATCH_MODE_CONFIG_FILE, "rb");
-	if (fp == NULL) {
+	const char* sha256 = calculateSHA256();
+	int ch{};
+	FILE* fp = NULL;
+	if (fopen_s(&fp, PATCH_MODE_CONFIG_FILE, "rb") || fp == NULL) {
 		patch_mode = PATCH_RELEASE;
 		goto check;
 	}
-	int ch = fgetc(fp);
+	ch = fgetc(fp);
 	fclose(fp);
 	if (ch == EOF || ch < '0' || ch > '4') {
 		patch_mode = PATCH_RELEASE;
@@ -227,21 +223,8 @@ static char singleHexToChar(BYTE b) {
 	}
 }
 
-static DWORD getImageBase() {
-	if (image_base != NULL) {
-		return image_base;
-	}
-	DWORD imageBase = (DWORD)GetModuleHandleA(PROCESS_NAME);
-	if (imageBase == NULL) {
-		logError("寻找进程基地址失败！");
-		TerminateProcess(GetCurrentProcess(), 1);
-	}
-	image_base = imageBase;
-	return imageBase;
-}
-
 static void initForDump() {
-	DWORD hookAddress = getImageBase() + CALL_READ_SEEN_HEADER_RVA;
+	void* hookAddress = reinterpret_cast<void*>((DWORD)image_base + CALL_READ_SEEN_HEADER_RVA);
 	writeHook(hookAddress, HookForDump);
 }
 
@@ -252,7 +235,7 @@ static void initPatchHook() {
 	writeHook(EnumFontFamiliesExA, HookEnumFontFamiliesExA);
 	writeHook(CreateFontA, HookCreateFontA);
 	if (patch_mode == PATCH_DEBUG) {
-		debug_flag_pointer = (BYTE*)(getImageBase() + REALLIVE_DEBUG_MODE_FLAG_RVA);
+		debug_flag_pointer = (BYTE*)((DWORD)image_base + REALLIVE_DEBUG_MODE_FLAG_RVA);
 	}
 }
 
@@ -371,7 +354,7 @@ static BOOL loadPatchPackFromPackedFile(PatchPack* out) {
 }
 
 void RunDump() {
-	DWORD imageBase = getImageBase();
+	DWORD imageBase = (DWORD)image_base;
 	ReadSeenDataFuncPtr dataFunc = (ReadSeenDataFuncPtr)(imageBase + READ_SEEN_DATA_FUNC_RVA);
 	RealLiveSeenHeader* entryArray = *(RealLiveSeenHeader**)(imageBase + SEEN_HEADER_ENTRY_POINTER_RVA);
 	RealLiveSeenData data;
@@ -525,7 +508,7 @@ static void logError(const char* msg) {
 	MessageBoxA(NULL, msg, MESSAGEBOX_TITLE, MB_ICONERROR);
 }
 
-static void updateAsmCode(void* address, BYTE* codeArr, size_t len) {
+static void updateAsmCode(void* address, const BYTE* codeArr, size_t len) {
 	DWORD oldProtect = 0;
 	VirtualProtect(address, len, PAGE_EXECUTE_READWRITE, &oldProtect);
 	memcpy_s(address, len, codeArr, len);
@@ -577,7 +560,7 @@ static void skipAsmCode(DWORD imageBase, DWORD rva, size_t codeLength) {
 			memcpy_s(buffer + 5, len, JmpSignature, len >= 24 ? 24 : (len >= 20 ? 20 : 5));
 		}
 	}
-	updateAsmCode(imageBase + rva, buffer, codeLength);
+	updateAsmCode(reinterpret_cast<void*>(imageBase + rva), buffer, codeLength);
 }
 
 static BYTE scramble(BYTE b) {

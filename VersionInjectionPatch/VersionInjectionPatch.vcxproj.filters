@@ -15,13 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="hook.c">
+    <ClCompile Include="hook.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="version.c">
+    <ClCompile Include="version.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="asm.c">
+    <ClCompile Include="asm.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="data.cpp">
@@ -33,7 +33,7 @@
     <ClCompile Include="utils.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="define.c">
+    <ClCompile Include="define.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

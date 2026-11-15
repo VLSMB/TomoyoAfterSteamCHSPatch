@@ -1,6 +1,6 @@
 #include <windows.h>
 #include "hook.h"
-#include "define.h"
+#include "asm.h"
 
 #pragma comment(linker, "/EXPORT:GetFileVersionInfoA=_pGetFileVersionInfoA,@1")
 #pragma comment(linker, "/EXPORT:GetFileVersionInfoByHandle=_pGetFileVersionInfoByHandle,@2")
@@ -20,23 +20,25 @@
 #pragma comment(linker, "/EXPORT:VerQueryValueA=_pVerQueryValueA,@16")
 #pragma comment(linker, "/EXPORT:VerQueryValueW=_pVerQueryValueW,@17")
 
-void pGetFileVersionInfoA();
-void pGetFileVersionInfoByHandle();
-void pGetFileVersionInfoExA();
-void pGetFileVersionInfoExW();
-void pGetFileVersionInfoSizeA();
-void pGetFileVersionInfoSizeExA();
-void pGetFileVersionInfoSizeExW();
-void pGetFileVersionInfoSizeW();
-void pGetFileVersionInfoW();
-void pVerFindFileA();
-void pVerFindFileW();
-void pVerInstallFileA();
-void pVerInstallFileW();
-void pVerLanguageNameA();
-void pVerLanguageNameW();
-void pVerQueryValueA();
-void pVerQueryValueW();
+extern "C" {
+	void pGetFileVersionInfoA();
+	void pGetFileVersionInfoByHandle();
+	void pGetFileVersionInfoExA();
+	void pGetFileVersionInfoExW();
+	void pGetFileVersionInfoSizeA();
+	void pGetFileVersionInfoSizeExA();
+	void pGetFileVersionInfoSizeExW();
+	void pGetFileVersionInfoSizeW();
+	void pGetFileVersionInfoW();
+	void pVerFindFileA();
+	void pVerFindFileW();
+	void pVerInstallFileA();
+	void pVerInstallFileW();
+	void pVerLanguageNameA();
+	void pVerLanguageNameW();
+	void pVerQueryValueA();
+	void pVerQueryValueW();
+}
 
 #define VERSION_FUNC_COUNT 17
 const char* const version_func_name[VERSION_FUNC_COUNT] = {
@@ -77,7 +79,7 @@ static BOOL initDllProxy(HMODULE hModule) {
 	version_module = LoadLibraryA(path);
 	if (version_module != NULL) {
 		for (size_t i = 0; i < VERSION_FUNC_COUNT; i++) {
-			version_func_addr[i] = GetProcAddress(version_module, version_func_name[i]);
+			version_func_addr[i] = reinterpret_cast<DWORD>(GetProcAddress(version_module, version_func_name[i]));
 		}
 	}
 

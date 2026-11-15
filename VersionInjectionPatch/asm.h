@@ -1,6 +1,9 @@
 #ifndef __VLSMB_ASM_H
 #define __VLSMB_ASM_H
 
+#define ASM_FUNCTION __declspec(naked)
+#define PROCESS_NAME "RealLiveEn.exe"
+
 void HookForDump();
 void HookForPatch();
 void HookEnumFontFamiliesExA();

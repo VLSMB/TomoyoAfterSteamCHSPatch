@@ -15,25 +15,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\VersionInjectionPatch\hook.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\VersionInjectionPatch\asm.c">
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="..\VersionInjectionPatch\data.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\VersionInjectionPatch\define.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="..\VersionInjectionPatch\patch.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="..\VersionInjectionPatch\utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VersionInjectionPatch\asm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VersionInjectionPatch\define.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VersionInjectionPatch\hook.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

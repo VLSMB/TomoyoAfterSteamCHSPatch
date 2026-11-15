@@ -14,7 +14,7 @@ static BOOL WINAPI ToRelativeToCwd(const char* inPath, char* outRel, size_t outS
 static const char* const WINAPI applyFileMapping(const char* const text);
 static void HookAfterCreateWindowExA();
 
-static BOOL WINAPI loadTranslatedTextInfo(const char* const current_ip);
+static BOOL WINAPI loadTranslatedTextInfo(const BYTE* const current_ip);
 static size_t WINAPI getOriginTextLength();
 static size_t WINAPI getTranslatedTextLength();
 static void WINAPI copyTranslatedText(char* const to);
@@ -618,7 +618,7 @@ static BOOL WINAPI ToRelativeToCwd(const char* inPath, char* outRel, size_t outS
 	return TRUE;
 }
 
-static BOOL WINAPI loadTranslatedTextInfo(const char* const current_ip) {
+static BOOL WINAPI loadTranslatedTextInfo(const BYTE* const current_ip) {
 	RtlZeroMemory(&text_info, sizeof(TextInfo));
 	int offset = current_ip - context_pointer->vmBase;
 	if (offset <= 0) return FALSE;

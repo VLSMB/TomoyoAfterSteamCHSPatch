@@ -3,9 +3,6 @@
 
 #include <Windows.h>
 
-#define ASM_FUNCTION __declspec(naked)
-
-#define PROCESS_NAME "RealLiveEn.exe"
 #define WINDOW_TITLE "智代后记（Steam版）汉化补丁 v0.0.5-dev"
 #define WINDOW_CLASS_NAME "VisualArts_System2000_REALLIVEEN"
 #define MESSAGEBOX_TITLE "VLSMB"
@@ -233,7 +230,7 @@ extern "C" {
     extern BYTE* debug_flag_pointer;
     extern HWND window_handle;
     extern WNDPROC window_proc;
-    extern DWORD image_base;
+    extern void* image_base;
     extern RealLiveVMContext* context_pointer;
     extern RealLiveVMState* state_pointer;
 #ifdef __cplusplus

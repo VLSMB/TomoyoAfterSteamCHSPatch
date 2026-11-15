@@ -67,6 +67,6 @@ extern const char* WINDOW_TITLE_TEXT = WINDOW_TITLE"  ";
 BYTE* debug_flag_pointer = NULL;
 HWND window_handle = NULL;
 WNDPROC window_proc = NULL;
-DWORD image_base = NULL;
+void* image_base = NULL;
 RealLiveVMContext* context_pointer = NULL;
 RealLiveVMState* state_pointer = NULL;
