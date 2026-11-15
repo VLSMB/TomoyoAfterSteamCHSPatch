@@ -2,26 +2,32 @@
 #include "define.h"
 #include "hook.h"
 #include "patch.h"
-#include <Windows.h>
-#include <shlwapi.h>
-#pragma comment(lib, "shlwapi.lib")
+#include <filesystem>
+#include <string>
+#include <system_error>
+#include <optional>
 
-static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, unsigned seenNo);
-static void WINAPI beforeConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4);
-static void WINAPI afterConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4);
-static BOOL WINAPI isRealLiveWindow(const char* const lpClassName);
-static BOOL WINAPI ToRelativeToCwd(const char* inPath, char* outRel, size_t outSize);
-static const char* const WINAPI applyFileMapping(const char* const text);
+static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, unsigned seenNo) noexcept;
+static void WINAPI beforeConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4) noexcept;
+static void WINAPI afterConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4) noexcept;
+static BOOL WINAPI isRealLiveWindow(const char* const lpClassName) noexcept;
+static std::optional<std::string> ToRelativeToCwd(const std::string& inPath) noexcept;
+static const char* const WINAPI applyFileMapping(const char* const text) noexcept;
 
-static BOOL WINAPI loadTranslatedTextInfo(const BYTE* const current_ip);
-static size_t WINAPI getOriginTextLength();
-static size_t WINAPI getTranslatedTextLength();
-static void WINAPI copyTranslatedText(char* const to);
+static void WINAPI checkG00(const char* const file) noexcept;
+static void WINAPI checkTextForSeen9900(const char* text) noexcept;
+static BOOL WINAPI isInSeen9900Mode() noexcept;
 
-static BYTE* origin_vm_ip = NULL;
-static CharacterInfo char_info = { 0 };
-static TextInfo text_info = { 0 };
-static DWORD tmp_data;
+static BOOL WINAPI loadTranslatedTextInfo(const BYTE* const current_ip) noexcept;
+static size_t WINAPI getOriginTextLength() noexcept;
+static size_t WINAPI getTranslatedTextLength() noexcept;
+static void WINAPI copyTranslatedText(char* const to) noexcept;
+static const char* WINAPI getTranslatedName(const char* const name) noexcept;
+
+static BYTE* origin_vm_ip{};
+static CharacterInfo char_info{};
+static std::optional<std::reference_wrapper<const SeenTextItem>> text_item_ref{};
+static DWORD tmp_data{};
 
 C_NAKED_FUNCTION(HookForPatch) {
 	__asm {
@@ -98,13 +104,6 @@ C_NAKED_FUNCTION(HookCreateFontA) {
 
 C_NAKED_FUNCTION(HookCreateFileA) {
 	__asm {
-		mov eax, debug_flag_pointer
-		test eax, eax
-		je __file_mapping
-		mov byte ptr [eax], 1
-	}
-__file_mapping:
-	__asm {
 		mov eax, [esp + 8]
 		push eax
 		call applyFileMapping
@@ -163,7 +162,7 @@ C_NAKED_FUNCTION(HookAfterCreateWindowExA) {
 		mov [esp + 36], eax
 		mov tmp_data, 0
 	}
-	window_proc = (WNDPROC)SetWindowLongA(window_handle, GWLP_WNDPROC, (LONG_PTR)ProxyWndProc);
+	window_proc = reinterpret_cast<WNDPROC>(SetWindowLongA(window_handle, GWLP_WNDPROC, reinterpret_cast<LONG>(ProxyWndProc)));
 	__asm {
 		popad
 		popfd
@@ -247,14 +246,14 @@ __proxy_consume_text:
 	}
 }
 
-static void WINAPI beforeConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4) {
-	origin_vm_ip = NULL;
-	if (GetNextCharacterInfo(sp->seenNo, cp->vmIp - cp->vmBase, &char_info)) {
+static void WINAPI beforeConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4) noexcept {
+	origin_vm_ip = nullptr;
+	if (patch_rt->getNextCharacterInfo(sp->seenNo, cp->vmIp - cp->vmBase, char_info)) {
 		if (char_info.asciiFlag) {
 			cp->vmIp[0] = char_info.character & 0x00FF;
 		} else {
 			cp->vmIp[0] = char_info.character & 0x00FF;
-			cp->vmIp[1] = (BYTE)((char_info.character & 0xFF00) >> 8);
+			cp->vmIp[1] = static_cast<BYTE>((char_info.character & 0xFF00) >> 8);
 		}
 		if (cp->vmIp[0] == '\\') {
 			*byteMode = 2;
@@ -267,18 +266,18 @@ static void WINAPI beforeConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext*
 	}
 }
 
-static void WINAPI afterConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4) {
-	if (origin_vm_ip == NULL) {
+static void WINAPI afterConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* cp, int* byteMode, int a4) noexcept {
+	if (origin_vm_ip == nullptr) {
 		return;
 	}
-	BOOL consumeFlag = cp->vmIp != origin_vm_ip;
+	bool consumeFlag = cp->vmIp != origin_vm_ip;
 	if (consumeFlag) {
-		AckConsumeCharacter(&char_info);
+		patch_rt->ackConsumeCharacter(char_info);
 	}
 	cp->vmIp = (consumeFlag && char_info.lastFlag) ? 
 		origin_vm_ip + char_info.length : origin_vm_ip;
-	RtlZeroMemory(&char_info, sizeof(CharacterInfo));
-	origin_vm_ip = NULL;
+	char_info = {};
+	origin_vm_ip = nullptr;
 }
 
 C_NAKED_FUNCTION(JmpSignature) {
@@ -312,8 +311,7 @@ C_NAKED_FUNCTION(ProxyOpenG00File) {
 		pushfd
 
 		push ecx
-		call CheckG00ForSeen9900
-		add esp, 4
+		call checkG00
 
 		popfd
 		popad
@@ -332,8 +330,7 @@ C_NAKED_FUNCTION(ProxySeen9900Text) {
 		pushfd
 
 		push edx
-		call CheckTextForSeen9900
-		add esp, 4
+		call checkTextForSeen9900
 		mov [esp + 36], eax
 
 		popfd
@@ -353,7 +350,7 @@ C_NAKED_FUNCTION(ProxyRld3dPresent) {
 		pushad
 		pushfd
 
-		call IsInSeen9900Mode
+		call isInSeen9900Mode
 		mov[esp + 36], eax
 
 		popfd
@@ -525,25 +522,24 @@ C_NAKED_FUNCTION(HookNameText) {
 	__asm {
 		mov eax, [esp + 40]
 		push eax
-		call GetTranslatedName
-		add esp, 4
+		call getTranslatedName
 		mov [esp + 40], eax
 	}
 	__asm {
 		popfd
 		popad
 		push image_base
-		add dword ptr [esp], HANDLE_NAME_TEXT_RVA
+		add dword ptr [esp], 0xEBEC0
 		ret
 	}
 }
 
 
 EXTERN_C LRESULT CALLBACK ProxyWndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam) noexcept {
-	if (uMsg == WM_PAINT && IsInSeen9900Mode()) {
-		PAINTSTRUCT ps = { 0 };
+	if (uMsg == WM_PAINT && isInSeen9900Mode()) {
+		PAINTSTRUCT ps{};
 		HDC hdc = BeginPaint(hWnd, &ps);
-		PaintCurFrameInSeen9900Mode(hWnd, hdc);
+		patch_rt->paintCurFrameInSeen9900Mode(hWnd, hdc);
 		EndPaint(hWnd, &ps);
 		ValidateRect(hWnd, NULL);
 	}
@@ -551,82 +547,99 @@ EXTERN_C LRESULT CALLBACK ProxyWndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPAR
 }
 
 EXTERN_C BOOL WINAPI ProxyInvalidateRect(HWND hWnd, const RECT* lpRect, BOOL bErase) noexcept {
-	return InvalidateRect(hWnd, IsInSeen9900Mode() ? NULL : lpRect, bErase);
+	return InvalidateRect(hWnd, isInSeen9900Mode() ? NULL : lpRect, bErase);
 }
 
 EXTERN_C int WINAPI ProxySetDIBitsToDevice(HDC hdc, int xDest, int yDest, DWORD w, DWORD h, int xSrc,
 	int ySrc, UINT StartScan, UINT cLines, const void* lpvBits, const BITMAPINFO* lpbmi, UINT ColorUse) noexcept {
-	if (IsInSeen9900Mode()) return 0;
+	if (isInSeen9900Mode()) return 0;
 	return SetDIBitsToDevice(hdc, xDest, yDest, w, h, xSrc, ySrc, StartScan, cLines, lpvBits, lpbmi, ColorUse);
 }
 
-static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, unsigned seenNo) {
-	UpdateSeenBuffer(ptr->decompressed_data, seenNo);
+static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, unsigned seenNo) noexcept {
+	patch_rt->updateSeenBuffer(ptr->decompressed_data, seenNo);
 }
 
-static BOOL WINAPI isRealLiveWindow(const char* const lpClassName) {
+static BOOL WINAPI isRealLiveWindow(const char* const lpClassName) noexcept {
 	return strncmp(WINDOW_CLASS_NAME, lpClassName, strlen(WINDOW_CLASS_NAME)) == 0 ? TRUE : FALSE;
 }
 
-static const char* const WINAPI applyFileMapping(const char* const text) {
+static const char* const WINAPI applyFileMapping(const char* const text) noexcept {
 	char path[MAX_PATH] = { 0 };
-	if (!ToRelativeToCwd(text, path, MAX_PATH * sizeof(char))) {
+	std::optional<std::string> opt = ToRelativeToCwd(text);
+	if (!opt) {
 		return NULL;
 	}
-	const char* result = ApplyFilePathMapping(path);
-	return result == path ? NULL : result;
+	auto result = patch_rt->applyFilePathMapping(*opt);
+	if (!result) {
+		return NULL;
+	}
+	return result->get().c_str();
 }
 
-static BOOL WINAPI ToRelativeToCwd(const char* inPath, char* outRel, size_t outSize) {
-	char cwd[MAX_PATH] = { 0 };
-	if (GetCurrentDirectoryA(MAX_PATH, cwd) == 0) return FALSE;
+static std::optional<std::string> ToRelativeToCwd(const std::string& inPath) noexcept {
+	namespace fs = std::filesystem;
+	try {
+		std::error_code ec;
+		fs::path cwd = fs::current_path(ec);
+		if (ec) return std::nullopt;
 
-	char base[MAX_PATH] = { 0 };
-	strncpy_s(base, sizeof(base), cwd, _TRUNCATE);
-	size_t len = strlen(base);
-	if (len == 0 || base[len - 1] != '\\') {
-		if (len + 1 >= sizeof(base)) return FALSE;
-		base[len] = '\\';
-		base[len + 1] = '\0';
+		fs::path in = fs::path(inPath);
+		fs::path absIn = in.is_absolute() ? in : (cwd / in);
+
+		absIn = absIn.lexically_normal();
+
+		fs::path rel = absIn.lexically_relative(cwd);
+		if (rel.empty()) return std::nullopt;
+
+		std::string out = rel.string();
+
+		if (out.rfind(".\\", 0) == 0) {
+			out.erase(0, 2);
+			if (out.empty()) out = ".";
+		}
+		return out;
+	} catch (...) {
+		return std::nullopt;
 	}
+}
 
-	char combined[MAX_PATH] = { 0 };
-	if (!PathCombineA(combined, cwd, inPath)) return FALSE;
+static void WINAPI checkG00(const char* const file) noexcept {
+	patch_rt->checkG00ForSeen9900(file);
+}
 
-	char absIn[MAX_PATH] = { 0 };
-	if (!PathCanonicalizeA(absIn, combined)) return FALSE;
+static void WINAPI checkTextForSeen9900(const char* text) noexcept {
+	patch_rt->checkTextForSeen9900(text);
+}
 
-	char rel[MAX_PATH] = { 0 };
-	if (!PathRelativePathToA(rel, base, FILE_ATTRIBUTE_DIRECTORY, absIn, 0)) return FALSE;
+static BOOL WINAPI isInSeen9900Mode() noexcept {
+	return patch_rt->isInSeen9900Mode() ? TRUE : FALSE;
+}
 
-	const char* out = rel;
-	if (out[0] == '.' && out[1] == '\\') {
-		out += 2;
-		if (*out == '\0') out = ".";
-	}
-	if (strlen(out) + 1 > outSize) return FALSE;
-
-	strncpy_s(outRel, outSize, out, _TRUNCATE);
+static BOOL WINAPI loadTranslatedTextInfo(const BYTE* const current_ip) noexcept {
+	text_item_ref = std::nullopt;
+	int offset = current_ip - context_pointer->vmBase;
+	if (offset <= 0) return FALSE;
+	auto opt = patch_rt->getTranslatedText(state_pointer->seenNo, offset);
+	if (!opt) return FALSE;
+	text_item_ref = opt;
 	return TRUE;
 }
 
-static BOOL WINAPI loadTranslatedTextInfo(const BYTE* const current_ip) {
-	RtlZeroMemory(&text_info, sizeof(TextInfo));
-	int offset = current_ip - context_pointer->vmBase;
-	if (offset <= 0) return FALSE;
-	text_info.seenNo = state_pointer->seenNo;
-	text_info.offset = offset;
-	return GetTranslatedText(&text_info);
+static size_t WINAPI getOriginTextLength() noexcept {
+	return text_item_ref->get().length;
 }
 
-static size_t WINAPI getOriginTextLength() {
-	return text_info.origin_length;
+static size_t WINAPI getTranslatedTextLength() noexcept {
+	return text_item_ref->get().translated.length();
 }
 
-static size_t WINAPI getTranslatedTextLength() {
-	return text_info.translated_length;
+static void WINAPI copyTranslatedText(char* const to) noexcept {
+	const std::string& text = text_item_ref->get().translated;
+	memcpy(to, text.c_str(), text.length());
 }
 
-static void WINAPI copyTranslatedText(char* const to) {
-	memcpy(to, text_info.translated_text, text_info.translated_length);
+static const char* WINAPI getTranslatedName(const char* const name) noexcept {
+	auto opt = patch_rt->getTranslatedName(name);
+	return opt ? opt->get().c_str() : name;
 }

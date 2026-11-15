@@ -2,9 +2,7 @@
 #define __VLSMB_ASM_H
 
 #include <Windows.h>
-
-#define C_NAKED_FUNCTION(x) extern "C" void __declspec(naked) x()
-constexpr const char* PROCESS_NAME = "RealLiveEn.exe";
+#include "define.h"
 
 extern "C" {
 	void HookForPatch();

@@ -3,45 +3,55 @@
 #include "data.h"
 #include "define.h"
 #include "patch.h"
+#include "utils.h"
 #include <Windows.h>
 #include <stdio.h>
 #include <wincrypt.h>
 #include <cstdint>
+#include <filesystem>
+#include <fstream>
+#include <optional>
+#include <string>
+#include <array>
+#include <algorithm>
+
+namespace fs = std::filesystem;
 
 static ByteBuffer byte_buffer_array[SEEN_DATA_NUM] = { 0 };
-static BYTE dummy_ctx[64];
 
-static char* calculateSHA256();
-static char singleHexToChar(BYTE b);
+static std::optional<std::string> calculateSHA256();
 static void initPatchHook();
-static void updatePatchPackFromTextFile(PatchPack* out);
-static BOOL loadPatchPackFromPackedFile(PatchPack* out);
-static BOOL readFile(const char* fileName, ByteBuffer* out, BOOL needGbk);
-static void saveFile(const char* fileName, ByteBuffer buffer);
-static void logError(const char* msg);
-static void updateAsmCode(void* address, const BYTE* codeArr, size_t len);
-static void assembleCallOp(BYTE* buffer, size_t len, void* targetFuncAddr, void* hookFuncAddr);
+std::optional<PatchPack> packFromTextFile();
+std::optional<std::vector<BYTE>> readBinFile(const std::string& path);
+std::optional<std::string> readTextFile(const std::string& path);
+static void updateMemoryData(void* address, std::vector<BYTE> bytes);
+static std::vector<BYTE> assembleCallOp(void* targetFuncAddr, void* hookFuncAddr);
 static void writeHook(void* targetFuncAddr, void* hookFuncAddr);
 static void writeHookWithNop(void* targetFuncAddr, void* hookFuncAddr, unsigned nopLength);
-static void skipAsmCode(DWORD imageBase, DWORD rva, size_t codeLength);
-static BYTE scramble(BYTE b);
-static void transform(const ByteBuffer* in, ByteBuffer* out);
+static void skipAsmCode(void* targetAddr, size_t codeLength);
+static std::vector<BYTE> scrambleAll(const std::vector<BYTE>& in);
 
 void HookInit(HMODULE hDll) {
-	const char* sha256 = calculateSHA256();
-	if (strcmp(sha256, PROCESS_FILE_SHA256)) {
+	std::optional<std::string> sha256 = calculateSHA256();
+	if (sha256 && *sha256 != PROCESS_FILE_SHA256) {
 		int btn = MessageBoxA(NULL, SHA256_MISMATCH_WARNING, MESSAGEBOX_TITLE, MB_YESNO | MB_ICONWARNING);
 		if (btn != IDYES) {
 			return;
 		}
 	}
 	MessageBoxA(NULL, ALPHA_VERSION_WARNING, MESSAGEBOX_TITLE, MB_ICONWARNING);
-	PatchPack pack;
-	RtlZeroMemory(&pack, sizeof(PatchPack));
-	loadPatchPackFromPackedFile(&pack);
-	updatePatchPackFromTextFile(&pack);
-	if (!InitPatchData(&pack)) {
-		MessageBoxA(window_handle, "补丁初始化失败，以原版程序运行。", MESSAGEBOX_TITLE, MB_ICONERROR);
+	PatchPack pack{};
+	std::optional<std::vector<BYTE>> binFile = readBinFile(BIN_DATA_FILE);
+	std::optional<PatchPack> textFile = packFromTextFile();
+	if (binFile) {
+		pack.loadFromBinFile(scrambleAll(*binFile));
+		if (textFile) {
+			pack.update(std::move(*textFile));
+		}
+		patch_rt = std::make_unique<PatchRT>(std::move(pack));
+	} else if (textFile) {
+		patch_rt = std::make_unique<PatchRT>(std::move(*textFile));
+	} else {
 		return;
 	}
 	initPatchHook();
@@ -49,382 +59,233 @@ void HookInit(HMODULE hDll) {
 
 void PatchHookAfterVMInit() {
 	image_base = static_cast<void*>(GetModuleHandleA(PROCESS_NAME));
-	std::uintptr_t imageBase = reinterpret_cast<std::uintptr_t>(image_base);
-	BYTE callHookOp[6];
-	assembleCallOp(callHookOp, 6, reinterpret_cast<void*>(imageBase + READ_SEEN_DATA_FUNC_RVA), HookForPatch);
-	callHookOp[5] = 0xC3;
-	updateAsmCode(reinterpret_cast<void*>(imageBase + READ_SEEN_DATA_FUNC_RVA), callHookOp, 6);
+	auto addr = [](DWORD rva) {
+			return reinterpret_cast<void*>(reinterpret_cast<DWORD>(image_base) + rva); 
+		};
+	auto change = [](void* addr) {
+			std::vector<BYTE> v;
+			v.reserve(4);
+			appendDWORD(v, reinterpret_cast<DWORD>(addr));
+			return v;
+		};
 
-	for (size_t i = 0; i < SET_NOP_ARRAY_SIZE; i++) {
-		skipAsmCode(imageBase, SET_NOP_RVA[i], SET_NOP_COUNT[i]);
+	patch_rt->setTranslatedPERes(image_base);
+	context_pointer = static_cast<RealLiveVMContext*>(addr(RLVM_CONTEXT_POINTET_RVA));
+	state_pointer = static_cast<RealLiveVMState*>(addr(RLVM_STATE_POINTER_RVA));
+	
+	for (size_t i = 0; i < SET_NOP_ARRAY_SIZE; ++i) {
+		skipAsmCode(addr(SET_NOP_RVA[i]), SET_NOP_COUNT[i]);
 	}
-	for (size_t i = 0; i < CONSUME_TEXT_IN_QUOTE_MODE_CALLER_SIZE; i++) {
-		writeHook(reinterpret_cast<void*>(imageBase + CONSUME_TEXT_IN_QUOTE_MODE_CALLER_RVA[i]), ProxyConsumeTextInQuoteMode);
+
+	std::vector<std::pair<DWORD, void*>> prepareHook = {
+		{OPEN_G00_FILE_FUNC_CALLER_RVA, ProxyOpenG00File},
+		{HANDLE_SEEN_9900_FUNC_CALLER_RVA, ProxySeen9900Text},
+		{HOOK_SELECT_TEXT_RVA, HookSelectText},
+		{HOOK_CHUNK_TEXT_LEN_RVA, HookChunkTextLength},
+		{HOOK_CHUNK_TEXT_RVA, HookChunkText},
+		{HANDLE_NAME_TEXT_CALLER_RVA, HookNameText}
+	};
+	for (size_t i = 0; i < CONSUME_TEXT_IN_QUOTE_MODE_CALLER_SIZE; ++i) {
+		prepareHook.push_back({ CONSUME_TEXT_IN_QUOTE_MODE_CALLER_RVA[i], ProxyConsumeTextInQuoteMode });
 	}
-	for (size_t i = 0; i < WINDOW_TITLE_ADDR_RVA_SIZE; i++) {
-		const char* title = WINDOW_TITLE_TEXT;
-		updateAsmCode(reinterpret_cast<void*>(imageBase + WINDOW_TITLE_ADDR_RVA[i]), reinterpret_cast<const BYTE*>(&title), 4);
+	for (const auto& [t, h] : prepareHook) {
+		writeHook(addr(t), h);
 	}
 
-	writeHook(reinterpret_cast<void*>(imageBase + OPEN_G00_FILE_FUNC_CALLER_RVA), ProxyOpenG00File);
-	writeHook(reinterpret_cast<void*>(imageBase + HANDLE_SEEN_9900_FUNC_CALLER_RVA), ProxySeen9900Text);
-	void* addr = ProxyInvalidateRect;
-	updateAsmCode(reinterpret_cast<void*>(imageBase + INVALIDATE_RECT_IAT_RVA), reinterpret_cast<const BYTE*>(&addr), 4);
-	addr = ProxySetDIBitsToDevice;
-	updateAsmCode(reinterpret_cast<void*>(imageBase + SET_DIB_TO_DEVICE_IAT_RVA), reinterpret_cast<const BYTE*>(&addr), 4);
-	assembleCallOp(callHookOp, 6, reinterpret_cast<void*>(imageBase + RLD3D_PRESENT_CALLER_RVA), ProxyRld3dPresent);
-	updateAsmCode(reinterpret_cast<void*>(imageBase + RLD3D_PRESENT_CALLER_RVA), callHookOp, 6);
-
-	SetTranslatedPEResource(image_base);
-	addr = const_cast<void*>(static_cast<const void*>(GAME_QUIT_MESSAGE));
-	updateAsmCode(reinterpret_cast<void*>(imageBase + GAME_QUIT_MESSAGE_ADDR_RVA),  (const BYTE*) &addr, 4);
-
-	context_pointer = reinterpret_cast<RealLiveVMContext*>(imageBase + RLVM_CONTEXT_POINTET_RVA);
-	state_pointer = reinterpret_cast<RealLiveVMState*>(imageBase + RLVM_STATE_POINTER_RVA);
-
-	const BYTE* opcode = SET_OPCODE;
-	for (size_t i = 0; i < SET_OPCODE_ARRAY_SIZE; i++) {
-		updateAsmCode(reinterpret_cast<void*>(imageBase + SET_OPCODE_RVA[i]), opcode, SET_OPCODE_LEN[i]);
-		opcode += SET_OPCODE_LEN[i];
+	std::vector<std::pair<DWORD, std::vector<BYTE>>> prepareUpdate = {
+		{INVALIDATE_RECT_IAT_RVA, change(ProxyInvalidateRect)},
+		{SET_DIB_TO_DEVICE_IAT_RVA, change(ProxySetDIBitsToDevice)},
+		{GAME_QUIT_MESSAGE_ADDR_RVA, change(const_cast<char*>(GAME_QUIT_MESSAGE))}
+	};
+	std::vector<BYTE> patch = assembleCallOp(addr(READ_SEEN_DATA_FUNC_RVA), HookForPatch);
+	patch.push_back(static_cast<BYTE>(0xC3));
+	prepareUpdate.push_back({ READ_SEEN_DATA_FUNC_RVA, patch });
+	std::vector<BYTE> patch2 = assembleCallOp(addr(RLD3D_PRESENT_CALLER_RVA), ProxyRld3dPresent);
+	patch2.push_back(static_cast<BYTE>(0x90));
+	prepareUpdate.push_back({ RLD3D_PRESENT_CALLER_RVA, patch2 });
+	for (size_t i = 0; i < WINDOW_TITLE_ADDR_RVA_SIZE; ++i) {
+		prepareUpdate.push_back({ WINDOW_TITLE_ADDR_RVA[i], change(const_cast<char*>(WINDOW_TITLE_TEXT))});
 	}
-	writeHook(reinterpret_cast<void*>(imageBase + HOOK_SELECT_TEXT_RVA), HookSelectText);
-	writeHook(reinterpret_cast<void*>(imageBase + HOOK_CHUNK_TEXT_LEN_RVA), HookChunkTextLength);
-	writeHook(reinterpret_cast<void*>(imageBase + HOOK_CHUNK_TEXT_RVA), HookChunkText);
-	writeHook(reinterpret_cast<void*>(imageBase + HANDLE_NAME_TEXT_CALLER_RVA), HookNameText);
-
-	if (debug_flag_pointer != NULL) {
-		*debug_flag_pointer = TRUE;
+	for (size_t i = 0; i < SET_OPCODE_ARRAY_SIZE; ++i) {
+		prepareUpdate.push_back({ SET_OPCODE_RVA[i], SET_OPCODE[i] });
 	}
-	updateAsmCode(CreateWindowExA, WINAPI_PATCH_STUB, 5);
+	for (const auto& [t, v] : prepareUpdate) {
+		updateMemoryData(addr(t), v);
+	}
+	updateMemoryData(CreateWindowExA, WINAPI_PATCH_STUB);	
 }
 
 void HookDestroy() {
-	CleanPatchData();
+	patch_rt.reset();
 }
 
-static char* calculateSHA256() {
-	HANDLE hFile = CreateFileA(PROCESS_NAME, GENERIC_READ, FILE_SHARE_READ,
-		NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);
-	if (hFile == INVALID_HANDLE_VALUE) {
-		return NULL;
+static std::optional<std::string> calculateSHA256() {
+	std::optional<std::vector<BYTE>> data = readBinFile(PROCESS_NAME);
+	if (!data) {
+		return std::nullopt;
 	}
 
 	HCRYPTPROV hProv = 0;
 	HCRYPTHASH hHash = 0;
-	BYTE out_hash[32] = { 0 };
-	int flag = 1;
+	std::array<BYTE, 32> out_hash{};
+	bool ok = false;
 
 	if (CryptAcquireContextA(&hProv, NULL, NULL, PROV_RSA_AES, CRYPT_VERIFYCONTEXT)) {
 		if (CryptCreateHash(hProv, CALG_SHA_256, 0, 0, &hHash)) {
-			BYTE buffer[8192];
-			DWORD bytesRead;
-			while (flag && ReadFile(hFile, buffer, sizeof(buffer), &bytesRead, NULL) && bytesRead > 0) {
-				if (!CryptHashData(hHash, buffer, bytesRead, 0)) {
-					flag = 0;
+			ok = true;
+			if (!data->empty()) {
+				if (data->size() > (std::numeric_limits<DWORD>::max)()) {
+					ok = false;
+				} else if (!CryptHashData(hHash, data->data(), static_cast<DWORD>(data->size()), 0)) {
+					ok = false;
 				}
 			}
-			if (flag) {
-				DWORD hashLen = 32;
-				flag = CryptGetHashParam(hHash, HP_HASHVAL, out_hash, &hashLen, 0);
+			if (ok) {
+				DWORD hashLen = static_cast<DWORD>(out_hash.size());
+				ok = CryptGetHashParam(hHash, HP_HASHVAL, out_hash.data(), &hashLen, 0) != FALSE;
 			}
 			CryptDestroyHash(hHash);
 		}
 		CryptReleaseContext(hProv, 0);
 	}
-	CloseHandle(hFile);
 
-	if (flag) {
-		char* result = (char*)malloc(65 * sizeof(char));
-		char* rp = result;
-		if (result == NULL) {
-			return NULL;
-		}
-		for (int i = 0; i < 32; i++) {
-			*(rp++) = singleHexToChar((out_hash[i] >> 4) & 0xF);
-			*(rp++) = singleHexToChar(out_hash[i] & 0xF);
-		}
-		*rp = '\0';
-		return result;
-	} else {
-		return NULL;
+	if (!ok) {
+		return std::nullopt;
 	}
-}
 
-static char singleHexToChar(BYTE b) {
-	if (b >= 0 && b <= 9) {
-		return '0' + b;
-	} else if (b < 16) {
-		return 'a' + (b - 10);
-	} else {
-		return '?';
+	static constexpr char hexDigits[] = "0123456789abcdef";
+	std::string result(64, '\0');
+	for (size_t i = 0; i < out_hash.size(); ++i) {
+		result[i * 2] = hexDigits[(out_hash[i] >> 4) & 0xF];
+		result[i * 2 + 1] = hexDigits[out_hash[i] & 0xF];
 	}
+	return result;
 }
 
 static void initPatchHook() {
-	writeHook(GetProcAddress(GetModuleHandleA("kernelbase.dll"), "CreateFileA"), HookCreateFileA);
-	writeHook(CreateWindowExA, HookCreateWindowExA);
-	writeHook(EnumFontFamiliesExA, HookEnumFontFamiliesExA);
-	writeHook(CreateFontA, HookCreateFontA);
-}
-
-static void updatePatchPackFromTextFile(PatchPack* out) {
-	ByteBuffer buffer;
-	char path[MAX_PATH];
-	RtlZeroMemory(&buffer, sizeof(ByteBuffer));
-	RtlZeroMemory(path, MAX_PATH * sizeof(char));
-	size_t seenCount = 0;
-	for (size_t i = 0; i < SEEN_DATA_NUM; i++) {
-		wsprintfA(path, SEEN_DATA_FILE, i);
-		if (readFile(path, &buffer, TRUE)) {
-			byte_buffer_array[seenCount++] = buffer;
-		}
-	}
-	SeenPatchDataArray** localText = (SeenPatchDataArray**)malloc(sizeof(SeenPatchDataArray*) * seenCount);
-	BOOL initFlag = localText != NULL;
-	for (size_t i = 0; i < seenCount && initFlag; i++) {
-		localText[i] = (SeenPatchDataArray*)malloc(sizeof(SeenPatchDataArray));
-		initFlag = localText[i] != NULL;
-	}
-	if (!initFlag) {
-		logError("内存不足");
-		ExitProcess(1);
-	}
-	for (size_t i = 0; i < seenCount; i++) {
-		TextFileToTextData(&byte_buffer_array[i], localText[i]);
-	}
-
-	if (out->pText == NULL || out->pSize == 0) {
-		if (out->pText != NULL) free(out->pText);
-		out->pText = localText;
-		out->pSize = seenCount;
-	} else {
-		SeenPatchDataArray** updatedText = NULL;
-		size_t updatedSize = 0;
-		if (!UpdateSeenPatchDataArray(out->pText, out->pSize, localText, seenCount, &updatedText, &updatedSize)) {
-			logError("内存不足");
-			ExitProcess(1);
-		}
-		free(out->pText);
-		free(localText);
-		localText = updatedText;
-		out->pText = updatedText;
-		out->pSize = updatedSize;
-	}
-
-	if (readFile(NAME_DATA_FILE, &buffer, TRUE)) {
-		if (out->pName == NULL) {
-			out->pName = (NameDataArray*)malloc(sizeof(NameDataArray));
-			if (out->pName == NULL) {
-				logError("内存不足");
-				ExitProcess(1);
-			}
-		} else {
-			FreeNameDataArray(out->pName);
-		}
-		TextFileToNameData(&buffer, out->pName);
-		FreeByteBuffer(&buffer);
-	}
-
-	if (readFile(PERES_DATA_FILE, &buffer, TRUE)) {
-		if (out->pRes == NULL) {
-			out->pRes = (PEResourceArray*)malloc(sizeof(PEResourceArray));
-			if (out->pName == NULL) {
-				logError("内存不足");
-				ExitProcess(1);
-			}
-		} else {
-			FreePEResourceArray(out->pRes);
-		}
-		TextFileToPEResource(&buffer, out->pRes);
-		FreeByteBuffer(&buffer);
-	}
-
-	if (readFile(FMAP_DATA_FILE, &buffer, TRUE)) {
-		if (out->pFileMap == NULL) {
-			out->pFileMap = (FileMappingArray*)malloc(sizeof(FileMappingArray));
-			if (out->pFileMap == NULL) {
-				logError("内存不足");
-				ExitProcess(1);
-			}
-		} else {
-			FreeFileMappingArray(out->pFileMap);
-		}
-		TextFileToFileMapping(&buffer, out->pFileMap);
-		FreeByteBuffer(&buffer);
-	}
-
-	for (size_t i = 0; i < seenCount; i++) {
-		FreeByteBuffer(&byte_buffer_array[i]);
+	std::vector<std::pair<void*, void*>> addr = {
+		{GetProcAddress(GetModuleHandleA("kernelbase.dll"), "CreateFileA"), HookCreateFileA},
+		{CreateWindowExA, HookCreateWindowExA},
+		{EnumFontFamiliesExA, HookEnumFontFamiliesExA},
+		{CreateFontA, HookCreateFontA}
+	};
+	for (const auto& [t, h] : addr) {
+		writeHook(t, h);
 	}
 }
 
-static BOOL loadPatchPackFromPackedFile(PatchPack* out) {
-	ByteBuffer fileBuffer;
-	RtlZeroMemory(&fileBuffer, sizeof(ByteBuffer));
-	if (!readFile(BIN_DATA_FILE, &fileBuffer, FALSE)) {
-		return FALSE;
-	}
-
-	ByteBuffer buffer;
-	RtlZeroMemory(&buffer, sizeof(ByteBuffer));
-	transform(&fileBuffer, &buffer);
-	BinFileToPatchPack(&buffer, out);
-
-	FreeByteBuffer(&fileBuffer);
-	FreeByteBuffer(&buffer);
-	return TRUE;
-}
-
-void RunPack() {
+std::optional<PatchPack> packFromTextFile() {
+	std::error_code ec;
+	if (!fs::is_directory(SEEN_DATA_DIR, ec)) return std::nullopt;
 	PatchPack pack;
-	RtlZeroMemory(&pack, sizeof(PatchPack));
-	updatePatchPackFromTextFile(&pack);
+	auto loadFile = [](const std::string& file) -> std::optional<std::string> {
+			auto opt = readTextFile(file);
+			if (!opt) return std::nullopt;
+			return transferToGbk(*opt);
+		};
+	auto asmSeen = [](size_t idx) {
+			char buf[MAX_PATH];
+			std::snprintf(buf, sizeof(buf), SEEN_DATA_FILE, idx);
+			return std::string(buf);
+		};
 
-	ByteBuffer buffer;
-	RtlZeroMemory(&buffer, sizeof(ByteBuffer));
-	PatchPackToBinFile(&pack, &buffer);
+	std::optional<std::string> nameFile = loadFile(NAME_DATA_FILE);
+	if (nameFile) pack.name.loadFromTextFile(*nameFile);
+	std::optional<std::string> peFile = loadFile(PERES_DATA_FILE);
+	if (peFile) pack.res.loadFromTextFile(*peFile);
+	std::optional<std::string> fileMap = loadFile(FMAP_DATA_FILE);
+	if (fileMap) pack.fileMap.loadFromTextFile(*fileMap);
 
-	ByteBuffer fileBuffer;
-	RtlZeroMemory(&fileBuffer, sizeof(ByteBuffer));
-	transform(&buffer, &fileBuffer);
-	saveFile(BIN_DATA_FILE, fileBuffer);
-
-	FreePatchPack(&pack);
-	FreeByteBuffer(&buffer);
-	FreeByteBuffer(&fileBuffer);
+	pack.text.reserve(SEEN_DATA_NUM);
+	for (size_t i = 0; i < SEEN_DATA_NUM; i++) {
+		std::optional<std::string> seenFile = loadFile(asmSeen(i));
+		if (seenFile) {
+			SeenTextData data;
+			data.loadFromTextFile(*seenFile);
+			pack.text.push_back(std::move(data));
+		}
+	}
+	return pack;
 }
 
-static BOOL readFile(const char* fileName, ByteBuffer* out, BOOL needGbk) {
-	RtlZeroMemory(out, sizeof(ByteBuffer));
+std::optional<std::vector<BYTE>> readBinFile(const std::string& path) {
+	try {
+		std::ifstream in(fs::path(path), std::ios::binary | std::ios::ate);
+		if (!in) return std::nullopt;
 
-	HANDLE hFile = CreateFileA(fileName, GENERIC_READ, FILE_SHARE_READ, NULL,
-		OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);
-	if (hFile == INVALID_HANDLE_VALUE) {
-		return FALSE;
-	}
-	size_t fileSize = GetFileSize(hFile, NULL);
-	if (fileSize == 0) {
-		CloseHandle(hFile);
-		return FALSE;
-	}
-	ByteBuffer buffer;
-	RtlZeroMemory(&buffer, sizeof(ByteBuffer));
-	buffer.size = fileSize;
-	buffer.pointer = (BYTE*)malloc(fileSize * sizeof(BYTE));
-	if (buffer.pointer == NULL) {
-		CloseHandle(hFile);
-		return FALSE;
-	}
+		const std::streamoff size = in.tellg();
+		if (size < 0) return std::nullopt;
 
-	DWORD bytesRead;
-	if (!ReadFile(hFile, buffer.pointer, fileSize, &bytesRead, NULL)) {
-		free(buffer.pointer);
-		CloseHandle(hFile);
-		return FALSE;
+		std::vector<BYTE> data(static_cast<std::size_t>(size));
+		in.seekg(0, std::ios::beg);
+		if (size > 0) {
+			in.read(reinterpret_cast<char*>(data.data()),
+				static_cast<std::streamsize>(size));
+			if (!in) return std::nullopt;
+		}
+		return data;
+	} catch (...) {
+		return std::nullopt;
 	}
-
-	if (bytesRead != buffer.size) {
-		free(buffer.pointer);
-		CloseHandle(hFile);
-		return FALSE;
-	}
-
-	if (needGbk) {
-		transferBufferToGbk(&buffer, out);
-		FreeByteBuffer(&buffer);
-	} else {
-		out->pointer = buffer.pointer;
-		out->size = buffer.size;
-	}
-	CloseHandle(hFile);
-	return TRUE;
 }
 
-static void saveFile(const char* fileName, ByteBuffer buffer) {
-	CreateDirectoryA(SEEN_DATA_DIR, NULL);
-	HANDLE hFile = CreateFileA(fileName, GENERIC_WRITE, 0, NULL, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, NULL);
-	if (hFile == INVALID_HANDLE_VALUE) {
-		logError("文件创建失败");
-		ExitProcess(2);
+std::optional<std::string> readTextFile(const std::string& path) {
+	try {
+		std::ifstream in(fs::path(path), std::ios::binary);
+		if (!in) return std::nullopt;
+
+		std::string data((std::istreambuf_iterator<char>(in)),
+			std::istreambuf_iterator<char>());
+		if (in.bad()) return std::nullopt;
+		return data;
+	} catch (...) {
+		return std::nullopt;
 	}
-	DWORD written = 0;
-	WriteFile(hFile, buffer.pointer, buffer.size, &written, NULL);
-	CloseHandle(hFile);
 }
 
-static void logError(const char* msg) {
-	MessageBoxA(NULL, msg, MESSAGEBOX_TITLE, MB_ICONERROR);
-}
-
-static void updateAsmCode(void* address, const BYTE* codeArr, size_t len) {
+static void updateMemoryData(void* address, std::vector<BYTE> bytes) {
 	DWORD oldProtect = 0;
+	size_t len = sizeof(BYTE) * bytes.size();
 	VirtualProtect(address, len, PAGE_EXECUTE_READWRITE, &oldProtect);
-	memcpy_s(address, len, codeArr, len);
+	memcpy_s(address, len, bytes.data(), len);
 	DWORD tmp = 0;
 	VirtualProtect(address, len, oldProtect, &tmp);
 	FlushInstructionCache(GetCurrentProcess(), address, len);
 }
 
-static void assembleCallOp(BYTE* buffer, size_t len, void* targetFuncAddr, void* hookFuncAddr) {
-	RtlFillMemory(buffer, len * sizeof(BYTE), 0x90);
-	if (len < 5) {
-		return;
-	}
-	buffer[0] = 0xE8;
+static std::vector<BYTE> assembleCallOp(void* targetFuncAddr, void* hookFuncAddr) {
+	std::vector<BYTE> buffer;
+	buffer.reserve(5);
+	buffer.push_back(0xE8);
 	DWORD rva = (DWORD)hookFuncAddr - ((DWORD)targetFuncAddr + 0x5);
-	memcpy_s(buffer + 1, 4, &rva, 4);
+	appendDWORD(buffer, rva);
 }
 
 static void writeHookWithNop(void* targetFuncAddr, void* hookFuncAddr, unsigned nopLength) {
-	size_t len = 5 + nopLength;
-	BYTE* callHookOp = (BYTE*)malloc(len);
-	if (callHookOp == NULL) {
-		logError("内存不足");
-		ExitProcess(1);
+	std::vector<BYTE> op = assembleCallOp(targetFuncAddr, hookFuncAddr);
+	for (size_t i = 0; i < nopLength; ++i) {
+		op.push_back(0x90);
 	}
-	RtlFillMemory(callHookOp, len, 0x90);
-	assembleCallOp(callHookOp, len, targetFuncAddr, hookFuncAddr);
-	updateAsmCode(targetFuncAddr, callHookOp, len);
+	updateMemoryData(targetFuncAddr, op);
 }
 
 static void writeHook(void* targetFuncAddr, void* hookFuncAddr) {
 	writeHookWithNop(targetFuncAddr, hookFuncAddr, 0);
 }
 
-static void skipAsmCode(DWORD imageBase, DWORD rva, size_t codeLength) {
-	BYTE* buffer = (BYTE*)malloc(codeLength);
-	if (buffer == NULL) {
-		logError("内存不足");
-		TerminateProcess(GetCurrentProcess(), 1);
-		return;
-	}
-	RtlFillMemory(buffer, codeLength, 0x90);
-	if (codeLength >= 5) {
-		buffer[0] = 0xE9;
-		DWORD offset = codeLength - 0x5;
-		memcpy_s(buffer + 1, 4, &offset, 4);
-		size_t len = codeLength - 5;
-		if (len >= 5) {
-			memcpy_s(buffer + 5, len, JmpSignature, len >= 24 ? 24 : (len >= 20 ? 20 : 5));
-		}
-	}
-	updateAsmCode(reinterpret_cast<void*>(imageBase + rva), buffer, codeLength);
+static void skipAsmCode(void* targetAddr, size_t codeLength) {
+	std::vector<BYTE> buffer(codeLength, 0x90);
+	updateMemoryData(targetAddr, buffer);
 }
 
-static BYTE scramble(BYTE b) {
-	b = (BYTE)(((b & 0x0F) << 4) | ((b & 0xF0) >> 4));
-	b = (BYTE)(((b & 0x33) << 2) | ((b & 0xCC) >> 2));
-	b = (BYTE)(((b & 0x55) << 1) | ((b & 0xAA) >> 1));
-	return b;
-}
-
-static void transform(const ByteBuffer* in, ByteBuffer* out) {
-	if (!in || !out || !in->pointer) return;
-	out->pointer = (BYTE*)malloc(in->size);
-	if (!out->pointer) return;
-	out->size = in->size;
-
-	for (size_t i = 0; i < in->size; ++i) {
-		out->pointer[i] = scramble(in->pointer[i]);
-	}
+static std::vector<BYTE> scrambleAll(const std::vector<BYTE>& in) {
+	std::vector<BYTE> out(in.size());
+	std::transform(in.begin(), in.end(), out.begin(),
+		[](BYTE b) { 
+			b = (BYTE)(((b & 0x0F) << 4) | ((b & 0xF0) >> 4));
+			b = (BYTE)(((b & 0x33) << 2) | ((b & 0xCC) >> 2));
+			b = (BYTE)(((b & 0x55) << 1) | ((b & 0xAA) >> 1));
+			return b;
+		});
+	return out;
 }

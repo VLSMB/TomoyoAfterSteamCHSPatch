@@ -22,17 +22,13 @@ const DWORD SET_OPCODE_RVA[SET_OPCODE_ARRAY_SIZE] = {
 	0xEF286, 0xEF297
 };
 
-const size_t SET_OPCODE_LEN[SET_OPCODE_ARRAY_SIZE] = {
-	2, 4, 6, 12, 2, 4
-};
-
-const BYTE SET_OPCODE[1000] = {
-	0xEB, 0x0E,
-	0xEB, 0x0A, 0x75, 0x44,
-	0x75, 0x18, 0xEB, 0x11, 0x90, 0x90,
-	0xEB, 0x0A, 0x90, 0x90, 0x90, 0x90, 0x90, 0xE9, 0xBD, 0x00, 0x00, 0x00,
-	0xEB, 0x11,
-	0xEB, 0x0D, 0x7E, 0x42
+const std::vector<BYTE> SET_OPCODE[SET_OPCODE_ARRAY_SIZE] = {
+	{0xEB, 0x0E},
+	{0xEB, 0x0A, 0x75, 0x44},
+	{0x75, 0x18, 0xEB, 0x11, 0x90, 0x90},
+	{0xEB, 0x0A, 0x90, 0x90, 0x90, 0x90, 0x90, 0xE9, 0xBD, 0x00, 0x00, 0x00},
+	{0xEB, 0x11},
+	{0xEB, 0x0D, 0x7E, 0x42}
 };
 
 const BYTE SEEN_PATCH_DATA[SEEN_PATCH_LEN] = {
@@ -49,24 +45,25 @@ extern const DWORD WINDOW_TITLE_ADDR_RVA[WINDOW_TITLE_ADDR_RVA_SIZE] = {
 
 char TRASH_BUFFER[1000] = { 0 };
 
-const BYTE WINAPI_PATCH_STUB[5] = { 0x8B, 0xFF, 0x55, 0x8B, 0xEC };
+const std::vector<BYTE> WINAPI_PATCH_STUB = { 0x8B, 0xFF, 0x55, 0x8B, 0xEC };
 
 const char* SHA256_MISMATCH_WARNING = 
 "检测到当前程序与补丁版本不匹配，本补丁是为Steam版《Tomoyo After English Edition》准备的。\r\n"
 "如果继续运行汉化补丁可能会出现未知错误，是否仍然要继续运行汉化补丁？\r\n"
 "（选择“是”则继续启动汉化补丁，选择“否”则关闭补丁运行原版程序）";
 
-const char* ALPHA_VERSION_WARNING = WINDOW_TITLE
+const char* ALPHA_VERSION_WARNING = WINDOW_TITLE__
 "\r\n本补丁不是完整的汉化补丁，仅用于补丁可行性验证。\r\n"
 "汉化补丁完成进度可以关注：https://github.com/VLSMB/TomoyoAfterSteamCHSPatch\r\n"
 "本补丁仅用于学习研究用途，禁止用于一切商业活动。";
 
 const char* GAME_QUIT_MESSAGE = "确定要退出游戏吗？";
-extern const char* WINDOW_TITLE_TEXT = WINDOW_TITLE"  ";
+extern const char* WINDOW_TITLE_TEXT = WINDOW_TITLE__"  ";
 
-BYTE* debug_flag_pointer = NULL;
-HWND window_handle = NULL;
-WNDPROC window_proc = NULL;
-void* image_base = NULL;
-RealLiveVMContext* context_pointer = NULL;
-RealLiveVMState* state_pointer = NULL;
+HWND window_handle = nullptr;
+WNDPROC window_proc = nullptr;
+void* image_base = nullptr;
+RealLiveVMContext* context_pointer = nullptr;
+RealLiveVMState* state_pointer = nullptr;
+
+std::unique_ptr<PatchRT> patch_rt;

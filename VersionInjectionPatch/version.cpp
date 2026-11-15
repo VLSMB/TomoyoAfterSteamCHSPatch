@@ -40,7 +40,7 @@ extern "C" {
 	void pVerQueryValueW();
 }
 
-#define VERSION_FUNC_COUNT 17
+constexpr size_t VERSION_FUNC_COUNT = 17;
 const char* const version_func_name[VERSION_FUNC_COUNT] = {
 	"GetFileVersionInfoA", "GetFileVersionInfoByHandle", "GetFileVersionInfoExA", "GetFileVersionInfoExW",
 	"GetFileVersionInfoSizeA", "GetFileVersionInfoSizeExA", "GetFileVersionInfoSizeExW", "GetFileVersionInfoSizeW",
@@ -48,7 +48,7 @@ const char* const version_func_name[VERSION_FUNC_COUNT] = {
 	"VerLanguageNameA", "VerLanguageNameW", "VerQueryValueA", "VerQueryValueW"
 };
 DWORD version_func_addr[VERSION_FUNC_COUNT] = { 0 };
-static HMODULE version_module = NULL;
+static HMODULE version_module = nullptr;
 
 static BOOL initDllProxy(HMODULE hModule);
 static void freeDllProxy();
@@ -71,10 +71,8 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD dwReason, PVOID pvReserved) {
 }
 
 static BOOL initDllProxy(HMODULE hModule) {
-	char path[MAX_PATH];
-	const size_t len = sizeof(char) * MAX_PATH;
-	RtlZeroMemory(path, len);
-	GetSystemDirectoryA(path, len);
+	char path[MAX_PATH] = { 0 };
+	GetSystemDirectoryA(path, MAX_PATH);
 	lstrcatA(path, "\\version.dll");
 	version_module = LoadLibraryA(path);
 	if (version_module != NULL) {

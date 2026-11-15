@@ -2,70 +2,74 @@
 #define __VLSMB_STRUCT_H
 
 #include <Windows.h>
+#include <array>
+#include "patch.h"
 
-#define WINDOW_TITLE "智代后记（Steam版）汉化补丁 v0.0.5-dev"
-#define WINDOW_CLASS_NAME "VisualArts_System2000_REALLIVEEN"
-#define MESSAGEBOX_TITLE "VLSMB"
-#define PROCESS_FILE_SHA256 "cbfe30775595145b58af21edca73bc9ed25a54b135adb4702af1d26c1f9aa084"
-#define SEEN_DATA_DIR "patch"
-#define SEEN_DATA_FILE SEEN_DATA_DIR"\\SEEN%04d.txt"
-#define NAME_DATA_FILE SEEN_DATA_DIR"\\name.txt"
-#define PERES_DATA_FILE SEEN_DATA_DIR"\\pe_resource.txt"
-#define FMAP_DATA_FILE SEEN_DATA_DIR"\\file_mapping.txt"
-#define BIN_DATA_FILE "SEEN_CHS.TXT"
-#define EMPTY_NAME "NULL"
-#define REPLACE_FLAG "replace_flag"
-#define SEEN_9900 9900
-#define SEEN_9900_MODE_FONT "Consolas"
+#define SEEN_DATA_DIR__ "patch"
+#define WINDOW_TITLE__ "智代后记（Steam版）汉化补丁 v0.0.5-dev"
+#define C_NAKED_FUNCTION(x) extern "C" void __declspec(naked) x()
 
-#define GBK_STR "gbk"
-#define UTF16_STR "utf16le"
-#define NULL_STRATEGY "fill_null"
-#define SPACE_STRATEGY "fill_space"
+constexpr const char* PROCESS_NAME = "RealLiveEn.exe";
+constexpr const char* WINDOW_TITLE = WINDOW_TITLE__;
+constexpr const char* WINDOW_CLASS_NAME = "VisualArts_System2000_REALLIVEEN";
+constexpr const char* MESSAGEBOX_TITLE = "VLSMB";
+constexpr const char* PROCESS_FILE_SHA256 = "cbfe30775595145b58af21edca73bc9ed25a54b135adb4702af1d26c1f9aa084";
 
-#define SEEN_DATA_NUM 10000
-#define BIN_MAGIC (DWORD)(0x54504C56)
-#define TEXT_BIN_MAGIC (DWORD)(0x4E454553)
-#define NAME_BIN_MAGIC (DWORD)(0x454D414E)
-#define PERES_BIN_MAGIC (DWORD)(0x53524550)
-#define FMAP_BIN_MAGIC (DWORD)(0x50414D46)
-#define PACK_BIN_MAGIC (DWORD)(0x4B434150)
+constexpr const char* SEEN_DATA_DIR = SEEN_DATA_DIR__;
+constexpr const char* SEEN_DATA_FILE = SEEN_DATA_DIR__"\\SEEN%04d.txt";
+constexpr const char* NAME_DATA_FILE = SEEN_DATA_DIR__"\\name.txt";
+constexpr const char* PERES_DATA_FILE = SEEN_DATA_DIR__"\\pe_resource.txt";
+constexpr const char* FMAP_DATA_FILE = SEEN_DATA_DIR__"\\file_mapping.txt";
+constexpr const char* BIN_DATA_FILE = "SEEN_CHS.TXT";
+constexpr const char* EMPTY_NAME = "NULL";
+constexpr const char* REPLACE_FLAG = "replace_flag";
+constexpr unsigned SEEN_9900 = 9900;
+constexpr const char* SEEN_9900_MODE_FONT = "Consolas";
 
-#define CALL_READ_SEEN_HEADER_RVA 0x526EF
-#define READ_SEEN_HEADER_FUNC_RVA 0x991B0
-#define READ_SEEN_DATA_FUNC_RVA 0x8E950
-#define READ_SEEN_DATA_AFTER_HOOK_RVA 0x8E956
-#define SEEN_HEADER_ENTRY_POINTER_RVA 0x178BE84
-#define DRAW_SINGLE_CHAR_FUNC_RVA 0xC7F10
-#define CONSUME_TEXT_IN_QUOTE_MODE_FUNC_RVA 0xECA80
-#define HANDLE_INSTANT_TEXT_FUNC_RVA 0xEBEC0
-#define HANDLE_FRAGMENTED_TEXT_FUNC_RVA 0xA4760
-#define REALLIVE_DEBUG_MODE_FLAG_RVA 0x302FC0
-#define OPEN_G00_FILE_FUNC_CALLER_RVA 0xC5371
-#define OPEN_G00_FILE_FUNC_RVA 0xC4810
-#define HANDLE_SEEN_9900_FUNC_CALLER_RVA 0x13E7C3
-#define HANDLE_SEEN_9900_FUNC_RVA 0xA4620
-#define INVALIDATE_RECT_IAT_RVA 0x2064B0
-#define SET_DIB_TO_DEVICE_IAT_RVA 0x2060A0
-#define RLD3D_PRESENT_IAT_RVA 0xF32B70
-#define RLD3D_PRESENT_CALLER_RVA 0x1AE11
-#define GAME_QUIT_MESSAGE_ADDR_RVA 0xE41A5
+constexpr const char* GBK_STR = "gbk";
+constexpr const char* UTF16_STR = "utf16le";
+constexpr const char* NULL_STRATEGY = "fill_null";
+constexpr const char* SPACE_STRATEGY = "fill_space";
 
-#define RLVM_STATE_POINTER_RVA 0x319B6C
-#define RLVM_CONTEXT_POINTET_RVA 0x576F90
-#define HOOK_SELECT_TEXT_RVA 0x12657A
-#define HOOK_CHUNK_TEXT_LEN_RVA 0xEF22C
-#define HOOK_CHUNK_TEXT_RVA 0xEF29B
-#define HANDLE_NAME_TEXT_CALLER_RVA 0xEE02A
-#define HANDLE_NAME_TEXT_RVA 0xEBEC0
-#define SEEN_PATCH_NO 9836
-#define SEEN_PATCH_OFFSET 0x2CF0
-#define SEEN_PATCH_LEN 4
+constexpr unsigned SEEN_DATA_NUM = 10000;
+constexpr DWORD BIN_MAGIC = 0x54504C56;
+constexpr DWORD TEXT_BIN_MAGIC = 0x4E454553;
+constexpr DWORD NAME_BIN_MAGIC = 0x454D414E;
+constexpr DWORD PERES_BIN_MAGIC = 0x53524550;
+constexpr DWORD FMAP_BIN_MAGIC = 0x50414D46;
+constexpr DWORD PACK_BIN_MAGIC = 0x4B434150;
 
-#define SET_NOP_ARRAY_SIZE 33
-#define SET_OPCODE_ARRAY_SIZE 6
-#define WINDOW_TITLE_ADDR_RVA_SIZE 4
-#define CONSUME_TEXT_IN_QUOTE_MODE_CALLER_SIZE 6
+constexpr DWORD CALL_READ_SEEN_HEADER_RVA = 0x526EF;
+constexpr DWORD READ_SEEN_HEADER_FUNC_RVA = 0x991B0;
+constexpr DWORD READ_SEEN_DATA_FUNC_RVA = 0x8E950;
+constexpr DWORD READ_SEEN_DATA_AFTER_HOOK_RVA = 0x8E956;
+constexpr DWORD SEEN_HEADER_ENTRY_POINTER_RVA = 0x178BE84;
+constexpr DWORD CONSUME_TEXT_IN_QUOTE_MODE_FUNC_RVA = 0xECA80;
+constexpr DWORD OPEN_G00_FILE_FUNC_CALLER_RVA = 0xC5371;
+constexpr DWORD OPEN_G00_FILE_FUNC_RVA = 0xC4810;
+constexpr DWORD HANDLE_SEEN_9900_FUNC_CALLER_RVA = 0x13E7C3;
+constexpr DWORD HANDLE_SEEN_9900_FUNC_RVA = 0xA4620;
+constexpr DWORD INVALIDATE_RECT_IAT_RVA = 0x2064B0;
+constexpr DWORD SET_DIB_TO_DEVICE_IAT_RVA = 0x2060A0;
+constexpr DWORD RLD3D_PRESENT_IAT_RVA = 0xF32B70;
+constexpr DWORD RLD3D_PRESENT_CALLER_RVA = 0x1AE11;
+constexpr DWORD GAME_QUIT_MESSAGE_ADDR_RVA = 0xE41A5;
+
+constexpr DWORD RLVM_STATE_POINTER_RVA = 0x319B6C;
+constexpr DWORD RLVM_CONTEXT_POINTET_RVA = 0x576F90;
+constexpr DWORD HOOK_SELECT_TEXT_RVA = 0x12657A;
+constexpr DWORD HOOK_CHUNK_TEXT_LEN_RVA = 0xEF22C;
+constexpr DWORD HOOK_CHUNK_TEXT_RVA = 0xEF29B;
+constexpr DWORD HANDLE_NAME_TEXT_CALLER_RVA = 0xEE02A;
+constexpr DWORD HANDLE_NAME_TEXT_RVA = 0xEBEC0;
+constexpr unsigned SEEN_PATCH_NO = 9836;
+constexpr unsigned SEEN_PATCH_OFFSET = 0x2CF0;
+constexpr size_t SEEN_PATCH_LEN = 4;
+
+constexpr size_t SET_NOP_ARRAY_SIZE = 33;
+constexpr size_t SET_OPCODE_ARRAY_SIZE = 6;
+constexpr size_t WINDOW_TITLE_ADDR_RVA_SIZE = 4;
+constexpr size_t CONSUME_TEXT_IN_QUOTE_MODE_CALLER_SIZE = 6;
 
 typedef struct RealLiveSeenDataStruct {
     DWORD unknown1;
@@ -99,112 +103,27 @@ typedef struct ByteBufferStruct {
     size_t size;
 } ByteBuffer;
 
-typedef struct SeenPatchDataStruct {
-    unsigned index;
-    unsigned offset;
-    size_t length;
-    unsigned char replaceFlag;
-    ByteBuffer name;
-    ByteBuffer origin;
-    ByteBuffer translated;
-} SeenPatchData;
+extern const DWORD SET_NOP_RVA[SET_NOP_ARRAY_SIZE];
+extern const size_t SET_NOP_COUNT[SET_NOP_ARRAY_SIZE];
+extern const DWORD SET_OPCODE_RVA[SET_OPCODE_ARRAY_SIZE];
+extern const std::vector<BYTE> SET_OPCODE[SET_OPCODE_ARRAY_SIZE];
+extern const BYTE SEEN_PATCH_DATA[SEEN_PATCH_LEN];
+extern const DWORD CONSUME_TEXT_IN_QUOTE_MODE_CALLER_RVA[CONSUME_TEXT_IN_QUOTE_MODE_CALLER_SIZE];
+extern const DWORD WINDOW_TITLE_ADDR_RVA[WINDOW_TITLE_ADDR_RVA_SIZE];
+extern char TRASH_BUFFER[1000];
 
-typedef struct SeenPatchDataArrayStruct {
-    unsigned seenNo;
-    SeenPatchData* pointer;
-    size_t size;
-} SeenPatchDataArray;
+extern const std::vector<BYTE> WINAPI_PATCH_STUB;
+extern const char* SHA256_MISMATCH_WARNING;
+extern const char* ALPHA_VERSION_WARNING;
+extern const char* GAME_QUIT_MESSAGE;
+extern const char* WINDOW_TITLE_TEXT;
 
-typedef struct NameDataStruct {
-    ByteBuffer origin;
-    ByteBuffer translated;
-} NameData;
+extern HWND window_handle;
+extern WNDPROC window_proc;
+extern void* image_base;
+extern RealLiveVMContext* context_pointer;
+extern RealLiveVMState* state_pointer;
 
-typedef struct NameDataArrayStruct {
-    NameData* pointer;
-    size_t size;
-} NameDataArray;
+extern std::unique_ptr<PatchRT> patch_rt;
 
-typedef enum PEResourceEncodeEnum {
-    ENCODE_UNKNOWN, GBK, UTF16LE
-} PEResourceEncode;
-
-typedef enum PEResourceStrategyEnum {
-    STRATEGY_UNKNOWN, FILL_NULL, FILL_SPACE
-} PEResourceStrategy;
-
-typedef struct PEResourceStruct {
-    unsigned index;
-    DWORD rva;
-    size_t length;
-    ByteBuffer origin;
-    ByteBuffer translated;
-    PEResourceEncode encode;
-    PEResourceStrategy strategy;
-} PEResource;
-
-typedef struct PEResourceArrayStruct {
-    PEResource* pointer;
-    size_t size;
-} PEResourceArray;
-
-typedef struct FileMappingStruct {
-    ByteBuffer origin;
-    ByteBuffer target;
-} FileMapping;
-
-typedef struct FileMappingArrayStruct {
-    FileMapping* pointer;
-    size_t size;
-} FileMappingArray;
-
-typedef struct PatchPackStruct {
-    SeenPatchDataArray** pText;
-    size_t pSize;
-    NameDataArray* pName;
-    PEResourceArray* pRes;
-    FileMappingArray* pFileMap;
-} PatchPack;
-
-typedef struct CharacterInfoStruct {
-    unsigned seenNo;
-    unsigned offset;
-    unsigned length;
-    BYTE asciiFlag;
-    BYTE lastFlag;
-    WORD character;
-} CharacterInfo;
-
-typedef struct TextInfoStruct {
-    unsigned seenNo;
-    unsigned offset;
-    size_t origin_length;
-    size_t translated_length;
-    const char* translated_text;
-} TextInfo;
-
-extern "C" {
-    extern const DWORD SET_NOP_RVA[SET_NOP_ARRAY_SIZE];
-    extern const size_t SET_NOP_COUNT[SET_NOP_ARRAY_SIZE];
-    extern const DWORD SET_OPCODE_RVA[SET_OPCODE_ARRAY_SIZE];
-    extern const size_t SET_OPCODE_LEN[SET_OPCODE_ARRAY_SIZE];
-    extern const BYTE SET_OPCODE[1000];
-    extern const BYTE SEEN_PATCH_DATA[SEEN_PATCH_LEN];
-    extern const DWORD CONSUME_TEXT_IN_QUOTE_MODE_CALLER_RVA[CONSUME_TEXT_IN_QUOTE_MODE_CALLER_SIZE];
-    extern const DWORD WINDOW_TITLE_ADDR_RVA[WINDOW_TITLE_ADDR_RVA_SIZE];
-    extern char TRASH_BUFFER[1000];
-
-    extern const BYTE WINAPI_PATCH_STUB[5];
-    extern const char* SHA256_MISMATCH_WARNING;
-    extern const char* ALPHA_VERSION_WARNING;
-    extern const char* GAME_QUIT_MESSAGE;
-    extern const char* WINDOW_TITLE_TEXT;
-
-    extern BYTE* debug_flag_pointer;
-    extern HWND window_handle;
-    extern WNDPROC window_proc;
-    extern void* image_base;
-    extern RealLiveVMContext* context_pointer;
-    extern RealLiveVMState* state_pointer;
-}
 #endif

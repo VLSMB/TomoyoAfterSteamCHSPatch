@@ -5,7 +5,6 @@
 
 void HookInit(HMODULE hDll);
 void HookDestroy();
-void RunPack();
 void PatchHookAfterVMInit();
 
 #endif

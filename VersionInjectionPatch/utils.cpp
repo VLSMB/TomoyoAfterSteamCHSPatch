@@ -1,26 +1,5 @@
 #include "utils.h"
 #include <Windows.h>
-#include <regex>
-
-BYTE* copyBytes(const BYTE* p, size_t n) {
-	if (p == NULL || n == 0) return NULL;
-	BYTE* r = (BYTE*)malloc(n);
-	memcpy(r, p, n);
-	return r;
-}
-
-ByteBuffer makeBuffer(const BYTE* p, size_t n) {
-	ByteBuffer b;
-	RtlZeroMemory(&b, sizeof(ByteBuffer));
-	b.pointer = copyBytes(p, n);
-	b.size = n;
-	return b;
-}
-
-std::vector<BYTE> bufferToVec(const ByteBuffer& b) {
-	if (b.pointer == NULL || b.size == 0) return std::vector<BYTE>();
-	return std::vector<BYTE>(b.pointer, b.pointer + b.size);
-}
 
 void appendDWORD(std::vector<BYTE>& b, DWORD v) {
 	b.push_back((BYTE)(v & 0xFF));
@@ -29,21 +8,25 @@ void appendDWORD(std::vector<BYTE>& b, DWORD v) {
 	b.push_back((BYTE)((v >> 24) & 0xFF));
 }
 
-void appendBytes(std::vector<BYTE>& b, const BYTE* p, size_t n) {
-	if (p != NULL && n > 0) b.insert(b.end(), p, p + n);
+void appendString(std::vector<BYTE>& b, const std::string& text) {
+	b.insert(b.end(), text.begin(), text.end());
 }
 
-bool readDWORD(const BYTE*& p, const BYTE* const end, DWORD& v) {
-	if (end - p < 4) return false;
-	v = (DWORD)p[0] | ((DWORD)p[1] << 8) | ((DWORD)p[2] << 16) | ((DWORD)p[3] << 24);
-	p += 4;
+bool readDWORD(const std::vector<BYTE>& buf, size_t& offset, DWORD& v) {
+	if (offset > buf.size() || buf.size() - offset < 4) return false;
+	const BYTE* p = buf.data() + offset;
+	v = static_cast<DWORD>(p[0]) |
+		(static_cast<DWORD>(p[1]) << 8) |
+		(static_cast<DWORD>(p[2]) << 16) |
+		(static_cast<DWORD>(p[3]) << 24);
+	offset += 4;
 	return true;
 }
 
-std::vector<std::string> splitLines(const BYTE* p, size_t n) {
+std::vector<std::string> splitLines(const std::string& p) {
 	std::vector<std::string> L;
 	std::string cur;
-	for (size_t i = 0; i < n; ++i) {
+	for (size_t i = 0; i < p.length(); ++i) {
 		char c = (char)p[i];
 		if (c == '\n') {
 			if (!cur.empty() && cur.back() == '\r') cur.pop_back();
@@ -78,55 +61,6 @@ std::string readBlock(const std::vector<std::string>& L, size_t& i) {
 	}
 	if (i < L.size()) ++i;
 	return s;
-}
-
-bool startsWith(const std::string& s, const char* p) {
-	size_t n = strlen(p);
-	return s.size() >= n && memcmp(s.data(), p, n) == 0;
-}
-
-std::string bufferToStdString(const ByteBuffer& b) {
-	if (b.pointer == NULL || b.size == 0) {
-		return "";
-	}
-	return std::string(reinterpret_cast<const char*>(b.pointer), b.size);
-}
-
-std::string vectorToHex(const std::vector<BYTE>& vec) {
-	std::string hex;
-	hex.reserve(vec.size() * 2);
-	char buf[3];
-	for (BYTE b : vec) {
-		snprintf(buf, sizeof(buf), "%02X", b);
-		hex += buf;
-	}
-	return hex;
-}
-
-bool hexToVector(std::vector<BYTE>& vec, const std::string& hex) {
-	vec.clear();
-	vec.reserve(hex.size() / 2);
-	for (size_t i = 0; i < hex.size(); i += 2) {
-		std::string byteStr = hex.substr(i, 2);
-		unsigned value;
-		if (sscanf_s(byteStr.c_str(), "%02X", &value) != 1) {
-			return false;
-		}
-		vec.push_back(static_cast<BYTE>(value));
-	}
-	return true;
-}
-
-bool byteBufferEquals(const ByteBuffer& b1, const ByteBuffer& b2) {
-	if (b1.size != b2.size) return false;
-	if (b1.size == 0 || b1.pointer == b2.pointer) return true;
-	if (b1.pointer == NULL || b2.pointer == NULL) return false;
-	for (size_t i = 0; i < b1.size; i++) {
-		if (b1.pointer[i] != b2.pointer[i]) {
-			return false;
-		}
-	}
-	return true;
 }
 
 std::string transferToGbk(const std::string& str) {
