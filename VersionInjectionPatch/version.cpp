@@ -94,70 +94,70 @@ static void freeDllProxy() {
 	}
 }
 
-void ASM_FUNCTION pGetFileVersionInfoA() {
+C_NAKED_FUNCTION(pGetFileVersionInfoA) {
 	__asm jmp dword ptr [version_func_addr + 0 * 4];
 }
 
-void ASM_FUNCTION pGetFileVersionInfoByHandle() {
+C_NAKED_FUNCTION(pGetFileVersionInfoByHandle) {
 	__asm jmp dword ptr[version_func_addr + 1 * 4];
 }
 
-void ASM_FUNCTION pGetFileVersionInfoExA() {
+C_NAKED_FUNCTION(pGetFileVersionInfoExA) {
 	__asm jmp dword ptr[version_func_addr + 2 * 4];
 }
 
-void ASM_FUNCTION pGetFileVersionInfoExW() {
+C_NAKED_FUNCTION(pGetFileVersionInfoExW) {
 	__asm jmp dword ptr[version_func_addr + 3 * 4];
 }
 
-void ASM_FUNCTION pGetFileVersionInfoSizeA() {
+C_NAKED_FUNCTION(pGetFileVersionInfoSizeA) {
 	__asm jmp dword ptr[version_func_addr + 4 * 4];
 }
 
-void ASM_FUNCTION pGetFileVersionInfoSizeExA() {
+C_NAKED_FUNCTION(pGetFileVersionInfoSizeExA) {
 	__asm jmp dword ptr[version_func_addr + 5 * 4];
 }
 
-void ASM_FUNCTION pGetFileVersionInfoSizeExW() {
+C_NAKED_FUNCTION(pGetFileVersionInfoSizeExW) {
 	__asm jmp dword ptr[version_func_addr + 6 * 4];
 }
 
-void ASM_FUNCTION pGetFileVersionInfoSizeW() {
+C_NAKED_FUNCTION(pGetFileVersionInfoSizeW) {
 	__asm jmp dword ptr[version_func_addr + 7 * 4];
 }
 
-void ASM_FUNCTION pGetFileVersionInfoW() {
+C_NAKED_FUNCTION(pGetFileVersionInfoW) {
 	__asm jmp dword ptr[version_func_addr + 8 * 4];
 }
 
-void ASM_FUNCTION pVerFindFileA() {
+C_NAKED_FUNCTION(pVerFindFileA) {
 	__asm jmp dword ptr[version_func_addr + 9 * 4];
 }
 
-void ASM_FUNCTION pVerFindFileW() {
+C_NAKED_FUNCTION(pVerFindFileW) {
 	__asm jmp dword ptr[version_func_addr + 10 * 4];
 }
 
-void ASM_FUNCTION pVerInstallFileA() {
+C_NAKED_FUNCTION(pVerInstallFileA) {
 	__asm jmp dword ptr[version_func_addr + 11 * 4];
 }
 
-void ASM_FUNCTION pVerInstallFileW() {
+C_NAKED_FUNCTION(pVerInstallFileW) {
 	__asm jmp dword ptr[version_func_addr + 12 * 4];
 }
 
-void ASM_FUNCTION pVerLanguageNameA() {
+C_NAKED_FUNCTION(pVerLanguageNameA) {
 	__asm jmp dword ptr[version_func_addr + 13 * 4];
 }
 
-void ASM_FUNCTION pVerLanguageNameW() {
+C_NAKED_FUNCTION(pVerLanguageNameW) {
 	__asm jmp dword ptr[version_func_addr + 14 * 4];
 }
 
-void ASM_FUNCTION pVerQueryValueA() {
+C_NAKED_FUNCTION(pVerQueryValueA) {
 	__asm jmp dword ptr[version_func_addr + 15 * 4];
 }
 
-void ASM_FUNCTION pVerQueryValueW() {
+C_NAKED_FUNCTION(pVerQueryValueW) {
 	__asm jmp dword ptr[version_func_addr + 16 * 4];
 }

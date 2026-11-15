@@ -12,7 +12,6 @@ static void WINAPI afterConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* 
 static BOOL WINAPI isRealLiveWindow(const char* const lpClassName);
 static BOOL WINAPI ToRelativeToCwd(const char* inPath, char* outRel, size_t outSize);
 static const char* const WINAPI applyFileMapping(const char* const text);
-static void HookAfterCreateWindowExA();
 
 static BOOL WINAPI loadTranslatedTextInfo(const BYTE* const current_ip);
 static size_t WINAPI getOriginTextLength();
@@ -24,36 +23,7 @@ static CharacterInfo char_info = { 0 };
 static TextInfo text_info = { 0 };
 static DWORD tmp_data;
 
-void ASM_FUNCTION HookForDump() {
-	__asm {
-		push offset hook_for_dump
-		sub esp, 4
-		pushad
-		pushfd
-	}
-	GetModuleHandleA(PROCESS_NAME);
-	__asm {
-		add eax, READ_SEEN_HEADER_FUNC_RVA
-		mov[esp + 36], eax
-
-		popfd
-		popad
-		ret
-	}
-hook_for_dump:
-	__asm {
-		pushad
-		pushfd
-	}
-	RunDump();
-	__asm {
-		popfd
-		popad
-		ret
-	}
-}
-
-void ASM_FUNCTION HookForPatch() {
+C_NAKED_FUNCTION(HookForPatch) {
 	__asm {
 		mov eax, 0
 		mov[edx + 28], eax
@@ -99,7 +69,7 @@ hook_for_patch:
 	}
 }
 
-void ASM_FUNCTION HookEnumFontFamiliesExA() {
+C_NAKED_FUNCTION(HookEnumFontFamiliesExA) {
 	__asm {
 		pop eax
 		push ebx
@@ -115,7 +85,7 @@ void ASM_FUNCTION HookEnumFontFamiliesExA() {
 	}
 }
 
-void ASM_FUNCTION HookCreateFontA() {
+C_NAKED_FUNCTION(HookCreateFontA) {
 	__asm {
 		pop eax
 		mov dword ptr ss : [esp + 36] , 134
@@ -126,7 +96,7 @@ void ASM_FUNCTION HookCreateFontA() {
 	}
 }
 
-void ASM_FUNCTION HookCreateFileA() {
+C_NAKED_FUNCTION(HookCreateFileA) {
 	__asm {
 		mov eax, debug_flag_pointer
 		test eax, eax
@@ -152,7 +122,7 @@ __hook_create_file_ret:
 	}
 }
 
-void ASM_FUNCTION HookCreateWindowExA() {
+C_NAKED_FUNCTION(HookCreateWindowExA) {
 	__asm {
 		mov eax, [esp + 12]
 		push eax
@@ -183,7 +153,7 @@ __create_window_hook_ret:
 	}
 }
 
-static void ASM_FUNCTION HookAfterCreateWindowExA() {
+C_NAKED_FUNCTION(HookAfterCreateWindowExA) {
 	__asm {
 		mov window_handle, eax
 		sub esp, 4
@@ -201,7 +171,7 @@ static void ASM_FUNCTION HookAfterCreateWindowExA() {
 	}
 }
 
-void ASM_FUNCTION ProxyConsumeTextInQuoteMode() {
+C_NAKED_FUNCTION(ProxyConsumeTextInQuoteMode) {
 	__asm {
 		push ebp
 		mov ebp, esp
@@ -311,7 +281,7 @@ static void WINAPI afterConsumeTextHook(RealLiveVMState* sp, RealLiveVMContext* 
 	origin_vm_ip = NULL;
 }
 
-void ASM_FUNCTION JmpSignature() {
+C_NAKED_FUNCTION(JmpSignature) {
 	__asm {
 		push esi
 		dec esp
@@ -336,7 +306,7 @@ void ASM_FUNCTION JmpSignature() {
 	}
 }
 
-void ASM_FUNCTION ProxyOpenG00File() {
+C_NAKED_FUNCTION(ProxyOpenG00File) {
 	__asm {
 		pushad
 		pushfd
@@ -355,7 +325,7 @@ void ASM_FUNCTION ProxyOpenG00File() {
 	}
 }
 
-void ASM_FUNCTION ProxySeen9900Text() {
+C_NAKED_FUNCTION(ProxySeen9900Text) {
 	__asm {
 		sub esp, 4
 		pushad
@@ -377,7 +347,7 @@ void ASM_FUNCTION ProxySeen9900Text() {
 	}
 }
 
-void ASM_FUNCTION ProxyRld3dPresent() {
+C_NAKED_FUNCTION(ProxyRld3dPresent) {
 	__asm {
 		sub esp, 4
 		pushad
@@ -405,7 +375,7 @@ __rl_d3d:
 	}
 }
 
-void ASM_FUNCTION HookSelectText() {
+C_NAKED_FUNCTION(HookSelectText) {
 	__asm {
 		mov eax, image_base
 		mov [esp], eax
@@ -455,7 +425,7 @@ __hook_select_text_ret:
 	}
 }
 
-void ASM_FUNCTION HookChunkTextLength() {
+C_NAKED_FUNCTION(HookChunkTextLength) {
 	__asm {
 		mov eax, image_base
 		mov [esp], eax
@@ -502,7 +472,7 @@ __hook_chunk_text_length_ret:
 	}
 }
 
-void ASM_FUNCTION HookChunkText() {
+C_NAKED_FUNCTION(HookChunkText) {
 	__asm {
 		mov ebx, image_base
 		mov [esp], ebx
@@ -547,7 +517,7 @@ __hook_chunk_text_ret:
 	}
 }
 
-void ASM_FUNCTION HookNameText() {
+C_NAKED_FUNCTION(HookNameText) {
 	__asm {
 		pushad
 		pushfd
@@ -566,6 +536,28 @@ void ASM_FUNCTION HookNameText() {
 		add dword ptr [esp], HANDLE_NAME_TEXT_RVA
 		ret
 	}
+}
+
+
+EXTERN_C LRESULT CALLBACK ProxyWndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam) noexcept {
+	if (uMsg == WM_PAINT && IsInSeen9900Mode()) {
+		PAINTSTRUCT ps = { 0 };
+		HDC hdc = BeginPaint(hWnd, &ps);
+		PaintCurFrameInSeen9900Mode(hWnd, hdc);
+		EndPaint(hWnd, &ps);
+		ValidateRect(hWnd, NULL);
+	}
+	return CallWindowProcA(window_proc, hWnd, uMsg, wParam, lParam);
+}
+
+EXTERN_C BOOL WINAPI ProxyInvalidateRect(HWND hWnd, const RECT* lpRect, BOOL bErase) noexcept {
+	return InvalidateRect(hWnd, IsInSeen9900Mode() ? NULL : lpRect, bErase);
+}
+
+EXTERN_C int WINAPI ProxySetDIBitsToDevice(HDC hdc, int xDest, int yDest, DWORD w, DWORD h, int xSrc,
+	int ySrc, UINT StartScan, UINT cLines, const void* lpvBits, const BITMAPINFO* lpbmi, UINT ColorUse) noexcept {
+	if (IsInSeen9900Mode()) return 0;
+	return SetDIBitsToDevice(hdc, xDest, yDest, w, h, xSrc, ySrc, StartScan, cLines, lpvBits, lpbmi, ColorUse);
 }
 
 static void WINAPI handleSeenDataPatch(RealLiveSeenData* ptr, unsigned seenNo) {

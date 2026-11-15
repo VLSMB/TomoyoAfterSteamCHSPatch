@@ -1,27 +1,35 @@
 #ifndef __VLSMB_ASM_H
 #define __VLSMB_ASM_H
 
-#define ASM_FUNCTION __declspec(naked)
-#define PROCESS_NAME "RealLiveEn.exe"
+#include <Windows.h>
 
-void HookForDump();
-void HookForPatch();
-void HookEnumFontFamiliesExA();
-void HookCreateFontA();
-void HookCreateFileA();
-void HookSetWindowTextA();
-void HookCreateWindowExA();
+#define C_NAKED_FUNCTION(x) extern "C" void __declspec(naked) x()
+constexpr const char* PROCESS_NAME = "RealLiveEn.exe";
 
-void ProxyConsumeTextInQuoteMode();
-void JmpSignature();
+extern "C" {
+	void HookForPatch();
+	void HookEnumFontFamiliesExA();
+	void HookCreateFontA();
+	void HookCreateFileA();
+	void HookCreateWindowExA();
+	void HookAfterCreateWindowExA();
 
-void ProxyOpenG00File();
-void ProxySeen9900Text();
-void ProxyRld3dPresent();
+	void ProxyConsumeTextInQuoteMode();
+	void JmpSignature();
 
-void HookSelectText();
-void HookChunkTextLength();
-void HookChunkText();
-void HookNameText();
+	void ProxyOpenG00File();
+	void ProxySeen9900Text();
+	void ProxyRld3dPresent();
+
+	void HookSelectText();
+	void HookChunkTextLength();
+	void HookChunkText();
+	void HookNameText();
+
+	LRESULT CALLBACK ProxyWndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam) noexcept;
+	BOOL WINAPI ProxyInvalidateRect(HWND hWnd, const RECT* lpRect, BOOL bErase) noexcept;
+	int WINAPI ProxySetDIBitsToDevice(HDC hdc, int xDest, int yDest, DWORD w, DWORD h, int xSrc,
+		int ySrc, UINT StartScan, UINT cLines, const void* lpvBits, const BITMAPINFO* lpbmi, UINT ColorUse) noexcept;
+}
 
 #endif

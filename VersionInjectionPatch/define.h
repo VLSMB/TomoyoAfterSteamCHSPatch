@@ -13,7 +13,6 @@
 #define PERES_DATA_FILE SEEN_DATA_DIR"\\pe_resource.txt"
 #define FMAP_DATA_FILE SEEN_DATA_DIR"\\file_mapping.txt"
 #define BIN_DATA_FILE "SEEN_CHS.TXT"
-#define PATCH_MODE_CONFIG_FILE "patch_mode.cfg"
 #define EMPTY_NAME "NULL"
 #define REPLACE_FLAG "replace_flag"
 #define SEEN_9900 9900
@@ -67,19 +66,6 @@
 #define SET_OPCODE_ARRAY_SIZE 6
 #define WINDOW_TITLE_ADDR_RVA_SIZE 4
 #define CONSUME_TEXT_IN_QUOTE_MODE_CALLER_SIZE 6
-
-typedef enum PatchModeEnum {
-    PATCH_RELEASE,
-    PATCH_DUMP,
-    PATCH_ARCHIVE,
-    PATCH_DEBUG,
-    PATCH_NONE
-} PatchMode;
-
-typedef struct RealLiveSeenHeaderStruct {
-    DWORD offset;
-    DWORD size;
-} RealLiveSeenHeader;
 
 typedef struct RealLiveSeenDataStruct {
     DWORD unknown1;
@@ -172,11 +158,6 @@ typedef struct FileMappingArrayStruct {
     size_t size;
 } FileMappingArray;
 
-typedef struct SeenDumpDataStruct {
-    SeenPatchDataArray textData;
-    NameDataArray nameData;
-} SeenDumpData;
-
 typedef struct PatchPackStruct {
     SeenPatchDataArray** pText;
     size_t pSize;
@@ -202,15 +183,7 @@ typedef struct TextInfoStruct {
     const char* translated_text;
 } TextInfo;
 
-typedef DWORD(__fastcall* ReadSeenHeaderFuncPtr)(void);
-typedef DWORD(__fastcall* ReadSeenDataFuncPtr)(BYTE ctx[64], RealLiveSeenData* out, DWORD scene_no, DWORD flags);
-typedef DWORD(__fastcall* DrawSingleCharacterFuncPtr)(DWORD a1, DWORD a2, DWORD a3, DWORD a4, DWORD character, DWORD a6, DWORD a7, DWORD a8, DWORD a9, DWORD a10, DWORD a11, DWORD a12);
-typedef DWORD(__fastcall* ConsumeTextInQuoteModeFuncPtr)(RealLiveVMState* sp, RealLiveVMContext* cp, int byteMode, int a4);
-
-
-#ifdef __cplusplus
 extern "C" {
-#endif
     extern const DWORD SET_NOP_RVA[SET_NOP_ARRAY_SIZE];
     extern const size_t SET_NOP_COUNT[SET_NOP_ARRAY_SIZE];
     extern const DWORD SET_OPCODE_RVA[SET_OPCODE_ARRAY_SIZE];
@@ -233,8 +206,5 @@ extern "C" {
     extern void* image_base;
     extern RealLiveVMContext* context_pointer;
     extern RealLiveVMState* state_pointer;
-#ifdef __cplusplus
 }
-#endif
-
 #endif

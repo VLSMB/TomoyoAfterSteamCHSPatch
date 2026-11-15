@@ -3,164 +3,12 @@
 #include <set>
 #include <unordered_map>
 
-EXTERN_C void DumpSeenData(RealLiveSeenData* in, SeenDumpData* out) {
-	BYTE* const data = in->decompressed_data;
-	const size_t size = in->decompressed_size;
-	RtlZeroMemory(out, sizeof(SeenDumpData));
-	std::vector<SeenPatchData> textArray;
-	std::vector<BYTE> textBuffer;
-	std::vector<BYTE> nameBuffer;
-	std::set<std::vector<BYTE>> nameSet;
-
-	bool inQuote = false;
-	bool inName = false;
-	size_t i = 0;
-	while (i < size) {
-		const BYTE b = data[i];
-		if (inQuote) {
-			if (b == '\\' && i + 1 < size && data[i + 1] == '"') {
-				textBuffer.push_back('\\');
-				textBuffer.push_back('"');
-				i += 2;
-				continue;
-			}
-			if (b == '"') {
-				bool hasInvalidChar = false;
-				for (size_t j = 0; j < textBuffer.size(); ++j) {
-					BYTE c = textBuffer[j];
-					if (!(c >= 0x20 && c <= 0x7E)) {
-						hasInvalidChar = true;
-						break;
-					}
-				}
-				if (hasInvalidChar) {
-					textBuffer.clear();
-					if (i >= 2 && data[i - 2] == 0x81 && data[i - 1] == 0x79) {
-						inQuote = false;
-						i -= 2;
-					} else {
-						inQuote = true;
-						++i;
-					}
-					continue;
-				}
-				inQuote = false;
-				if (inName) {
-					nameBuffer.insert(nameBuffer.end(), textBuffer.begin(), textBuffer.end());
-					nameSet.insert(std::move(textBuffer));
-				} else {
-					SeenPatchData data;
-					RtlZeroMemory(&data, sizeof(SeenPatchData));
-					data.index = textArray.size() + 1;
-					data.offset = i - textBuffer.size();
-					data.name.pointer = nameBuffer.empty() ? NULL : toArrayPointer(nameBuffer);
-					data.origin.pointer = toArrayPointer(textBuffer);
-					data.translated.pointer = toArrayPointer(textBuffer);
-					data.name.size = nameBuffer.size();
-					data.origin.size = textBuffer.size();
-					data.translated.size = textBuffer.size();
-					data.length = textBuffer.size();
-					textArray.push_back(data);
-					nameBuffer.clear();
-				}
-				textBuffer.clear();
-			} else {
-				textBuffer.push_back(b);
-			}
-			++i;
-			continue;
-		}
-
-		if (b == 0x81 && i + 1 < size) {
-			if (data[i + 1] == 0x79) {
-				inName = true;
-				i += 2;
-				continue;
-			}
-			if (data[i + 1] == 0x7A) {
-				inName = false;
-				i += 2;
-				continue;
-			}
-		}
-
-		if (b == '@' || b == '!' || b == '$' || b == '#') {
-			i += 3;
-			continue;
-		}
-
-		if (b == '"') {
-			textBuffer.clear();
-			inQuote = true;
-		}
-		++i;
-	}
-
-	std::vector<NameData> nameArray;
-	for (const std::vector<BYTE>& vec : nameSet) {
-		if (vec.empty()) continue;
-		NameData data;
-		RtlZeroMemory(&data, sizeof(NameData));
-		data.origin.pointer = toArrayPointer(vec);
-		data.translated.pointer = toArrayPointer(vec);
-		data.origin.size = vec.size();
-		data.translated.size = vec.size();
-		nameArray.push_back(data);
-	}
-
-	textArray.erase(std::remove_if(textArray.begin(), textArray.end(), 
-		[](SeenPatchData& data) { 
-			if (data.length <= 1) {
-				FreeSeenPatchData(&data);
-				return true;
-			}
-			return false;
-		}),textArray.end());
-
-	out->textData.pointer = toArrayPointer(textArray);
-	out->textData.size = textArray.size();
-	out->nameData.pointer = toArrayPointer(nameArray);
-	out->nameData.size = nameArray.size();
-}
-
 EXTERN_C void transferBufferToGbk(ByteBuffer* in, ByteBuffer* out) {
 	RtlZeroMemory(out, sizeof(ByteBuffer));
 	std::string str = transferToGbk(bufferToStdString(*in));
 	out->size = str.size();
 	out->pointer = (BYTE*)malloc(out->size * sizeof(BYTE));
 	memcpy(out->pointer, str.c_str(), out->size);
-}
-
-EXTERN_C void TextDataToTextFile(SeenPatchDataArray* in, ByteBuffer* out) {
-	if (in == NULL) {
-		out->pointer = NULL;
-		out->size = 0;
-		return;
-	}
-	std::string t;
-	size_t n = (in->pointer != NULL) ? in->size : 0;
-	t += "type seen" + std::to_string(in->seenNo) + "\n";
-	t += "count " + std::to_string(n) + "\n";
-	for (size_t i = 0; i < n; ++i) {
-		const SeenPatchData& d = in->pointer[i];
-		t += "\n====================\n";
-		t += "index " + std::to_string(d.index) + "\n";
-		t += "offset " + std::to_string(d.offset) + "\n";
-		t += "name ";
-		if (d.name.pointer != NULL) t.append((const char*)d.name.pointer, d.name.size);
-		else t += EMPTY_NAME;
-		t += "\n";
-		t += "length " + std::to_string(d.length) + "\n";
-		if (d.replaceFlag) t += REPLACE_FLAG"\n";
-		t += "====================\n";
-		if (d.origin.pointer != NULL) t.append((const char*)d.origin.pointer, d.origin.size);
-		t += "\n====================\n";
-		if (d.translated.pointer != NULL) t.append((const char*)d.translated.pointer, d.translated.size);
-		t += "\n====================\n";
-	}
-	std::vector<BYTE> buf(t.begin(), t.end());
-	out->pointer = toArrayPointer(buf);
-	out->size = buf.size();
 }
 
 EXTERN_C void TextFileToTextData(ByteBuffer* in, SeenPatchDataArray* out) {
@@ -283,25 +131,6 @@ EXTERN_C void BinFileToTextData(ByteBuffer* in, SeenPatchDataArray* out) {
 	}
 }
 
-EXTERN_C void NameDataToTextFile(NameDataArray* in, ByteBuffer* out) {
-	std::string t;
-	size_t n = (in != NULL && in->pointer != NULL) ? in->size : 0;
-	t += "type name\n";
-	t += "count " + std::to_string(n) + "\n";
-	for (size_t i = 0; i < n; ++i) {
-		const NameData& d = in->pointer[i];
-		t += "\n====================\n";
-		t += "length " + std::to_string(d.origin.size) + "\n";
-		t += "====================\n";
-		if (d.origin.pointer != NULL) t.append((const char*)d.origin.pointer, d.origin.size);
-		t += "\n====================\n";
-		if (d.translated.pointer != NULL) t.append((const char*)d.translated.pointer, d.translated.size);
-		t += "\n====================\n";
-	}
-	std::vector<BYTE> buf(t.begin(), t.end());
-	out->pointer = toArrayPointer(buf);
-	out->size = buf.size();
-}
 
 EXTERN_C void TextFileToNameData(ByteBuffer* in, NameDataArray* out) {
 	std::vector<NameData> arr;
@@ -652,37 +481,6 @@ fail:
 	RtlZeroMemory(out, sizeof(PatchPackStruct));
 }
 
-EXTERN_C NameDataArray* MergeNameDataArray(NameDataArray** arrayList, size_t arraySize) {
-	std::set<std::pair<std::vector<BYTE>, std::vector<BYTE>>> seen;
-	std::vector<std::pair<std::vector<BYTE>, std::vector<BYTE>>> unique;
-
-	if (arrayList != NULL) {
-		for (size_t i = 0; i < arraySize; ++i) {
-			NameDataArray* a = arrayList[i];
-			if (a == NULL || a->pointer == NULL) continue;
-			for (size_t j = 0; j < a->size; ++j) {
-				std::pair<std::vector<BYTE>, std::vector<BYTE>> key(
-					bufferToVec(a->pointer[j].origin),
-					bufferToVec(a->pointer[j].translated));
-				if (seen.insert(key).second) unique.push_back(std::move(key));
-			}
-		}
-	}
-
-	NameDataArray* result = (NameDataArray*)malloc(sizeof(NameDataArray));
-	result->size = unique.size();
-	if (unique.empty()) {
-		result->pointer = NULL;
-	} else {
-		result->pointer = (NameData*)malloc(unique.size() * sizeof(NameData));
-		for (size_t i = 0; i < unique.size(); ++i) {
-			result->pointer[i].origin = makeBuffer(unique[i].first.data(), unique[i].first.size());
-			result->pointer[i].translated = makeBuffer(unique[i].second.data(), unique[i].second.size());
-		}
-	}
-	return result;
-}
-
 EXTERN_C BOOL UpdateSeenPatchDataArray(SeenPatchDataArray** fromDll, size_t szDll, SeenPatchDataArray** fromLocal, size_t szLocal, SeenPatchDataArray*** out, size_t* szOut) {
 	std::unordered_map<unsigned, SeenPatchDataArray*> dllMap;
 	std::unordered_map<unsigned, SeenPatchDataArray*> localMap;
@@ -803,12 +601,6 @@ EXTERN_C void FreeFileMappingArray(FileMappingArray* array) {
 		array->pointer = NULL;
 	}
 	array->size = 0;
-}
-
-EXTERN_C void FreeSeenDumpData(SeenDumpData* dump) {
-	if (dump == NULL) return;
-	FreeSeenPatchDataArray(&dump->textData);
-	FreeNameDataArray(&dump->nameData);
 }
 
 EXTERN_C void FreePatchPack(PatchPack* pack) {

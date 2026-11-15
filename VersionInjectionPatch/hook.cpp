@@ -10,17 +10,12 @@
 
 static ByteBuffer byte_buffer_array[SEEN_DATA_NUM] = { 0 };
 static BYTE dummy_ctx[64];
-static PatchMode patch_mode = PATCH_RELEASE;
 
-static void initPatchMode();
 static char* calculateSHA256();
 static char singleHexToChar(BYTE b);
-static void initForDump();
 static void initPatchHook();
-static void initForArchive();
 static void updatePatchPackFromTextFile(PatchPack* out);
 static BOOL loadPatchPackFromPackedFile(PatchPack* out);
-static void dumpSeenData(ReadSeenDataFuncPtr dataFunc, RealLiveSeenData* data, size_t num, SeenDumpData* out);
 static BOOL readFile(const char* fileName, ByteBuffer* out, BOOL needGbk);
 static void saveFile(const char* fileName, ByteBuffer buffer);
 static void logError(const char* msg);
@@ -33,32 +28,20 @@ static BYTE scramble(BYTE b);
 static void transform(const ByteBuffer* in, ByteBuffer* out);
 
 void HookInit(HMODULE hDll) {
-	initPatchMode();
-	if (patch_mode != PATCH_DEBUG) {
-		MessageBoxA(NULL, ALPHA_VERSION_WARNING, MESSAGEBOX_TITLE, MB_ICONWARNING);
+	const char* sha256 = calculateSHA256();
+	if (strcmp(sha256, PROCESS_FILE_SHA256)) {
+		int btn = MessageBoxA(NULL, SHA256_MISMATCH_WARNING, MESSAGEBOX_TITLE, MB_YESNO | MB_ICONWARNING);
+		if (btn != IDYES) {
+			return;
+		}
 	}
+	MessageBoxA(NULL, ALPHA_VERSION_WARNING, MESSAGEBOX_TITLE, MB_ICONWARNING);
 	PatchPack pack;
 	RtlZeroMemory(&pack, sizeof(PatchPack));
-	switch (patch_mode) {
-	case PATCH_DUMP:
-		initForDump();
-		break;
-	case PATCH_RELEASE:
-	case PATCH_DEBUG:
-		loadPatchPackFromPackedFile(&pack);
-		updatePatchPackFromTextFile(&pack);
-		goto patch;
-	case PATCH_ARCHIVE:
-		initForArchive();
-		break;
-	case PATCH_NONE:
-		break;
-	}
-	return;
-patch:
+	loadPatchPackFromPackedFile(&pack);
+	updatePatchPackFromTextFile(&pack);
 	if (!InitPatchData(&pack)) {
 		MessageBoxA(window_handle, "补丁初始化失败，以原版程序运行。", MESSAGEBOX_TITLE, MB_ICONERROR);
-		patch_mode = PATCH_NONE;
 		return;
 	}
 	initPatchHook();
@@ -119,52 +102,6 @@ void HookDestroy() {
 	CleanPatchData();
 }
 
-LRESULT CALLBACK ProxyWndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam) {
-	if (uMsg == WM_PAINT && IsInSeen9900Mode()) {
-		PAINTSTRUCT ps = { 0 };
-		HDC hdc = BeginPaint(hWnd, &ps);
-		PaintCurFrameInSeen9900Mode(hWnd, hdc);
-		EndPaint(hWnd, &ps);
-		ValidateRect(hWnd, NULL);
-	}
-	return CallWindowProcA(window_proc, hWnd, uMsg, wParam, lParam);
-}
-
-BOOL WINAPI ProxyInvalidateRect(HWND hWnd, const RECT* lpRect, BOOL bErase) {
-	return InvalidateRect(hWnd, IsInSeen9900Mode() ? NULL : lpRect, bErase);
-}
-
-int WINAPI ProxySetDIBitsToDevice(HDC hdc, int xDest, int yDest, DWORD w, DWORD h, int xSrc,
-	int ySrc, UINT StartScan, UINT cLines, const void* lpvBits, const BITMAPINFO* lpbmi, UINT ColorUse) {
-	if (IsInSeen9900Mode()) return 0;
-	return SetDIBitsToDevice(hdc, xDest, yDest, w, h, xSrc, ySrc, StartScan, cLines, lpvBits, lpbmi, ColorUse);
-}
-
-static void initPatchMode() {
-	const char* sha256 = calculateSHA256();
-	int ch{};
-	FILE* fp = NULL;
-	if (fopen_s(&fp, PATCH_MODE_CONFIG_FILE, "rb") || fp == NULL) {
-		patch_mode = PATCH_RELEASE;
-		goto check;
-	}
-	ch = fgetc(fp);
-	fclose(fp);
-	if (ch == EOF || ch < '0' || ch > '4') {
-		patch_mode = PATCH_RELEASE;
-		goto check;
-	}
-	patch_mode = (PatchMode)(ch - '0');
-check:
-	if (patch_mode != PATCH_DEBUG && strcmp(sha256, PROCESS_FILE_SHA256)) {
-		int btn = MessageBoxA(NULL, SHA256_MISMATCH_WARNING, MESSAGEBOX_TITLE, MB_YESNO | MB_ICONWARNING);
-		if (btn != IDYES) {
-			patch_mode = PATCH_NONE;
-			return;
-		}
-	}
-}
-
 static char* calculateSHA256() {
 	HANDLE hFile = CreateFileA(PROCESS_NAME, GENERIC_READ, FILE_SHARE_READ,
 		NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);
@@ -223,26 +160,11 @@ static char singleHexToChar(BYTE b) {
 	}
 }
 
-static void initForDump() {
-	void* hookAddress = reinterpret_cast<void*>((DWORD)image_base + CALL_READ_SEEN_HEADER_RVA);
-	writeHook(hookAddress, HookForDump);
-}
-
 static void initPatchHook() {
-	if (patch_mode == PATCH_NONE) return;
 	writeHook(GetProcAddress(GetModuleHandleA("kernelbase.dll"), "CreateFileA"), HookCreateFileA);
 	writeHook(CreateWindowExA, HookCreateWindowExA);
 	writeHook(EnumFontFamiliesExA, HookEnumFontFamiliesExA);
 	writeHook(CreateFontA, HookCreateFontA);
-	if (patch_mode == PATCH_DEBUG) {
-		debug_flag_pointer = (BYTE*)((DWORD)image_base + REALLIVE_DEBUG_MODE_FLAG_RVA);
-	}
-}
-
-static void initForArchive() {
-	RunPack();
-	MessageBoxA(NULL, "打包成功！", MESSAGEBOX_TITLE, MB_OK | MB_ICONINFORMATION);
-	ExitProcess(0);
 }
 
 static void updatePatchPackFromTextFile(PatchPack* out) {
@@ -353,70 +275,6 @@ static BOOL loadPatchPackFromPackedFile(PatchPack* out) {
 	return TRUE;
 }
 
-void RunDump() {
-	DWORD imageBase = (DWORD)image_base;
-	ReadSeenDataFuncPtr dataFunc = (ReadSeenDataFuncPtr)(imageBase + READ_SEEN_DATA_FUNC_RVA);
-	RealLiveSeenHeader* entryArray = *(RealLiveSeenHeader**)(imageBase + SEEN_HEADER_ENTRY_POINTER_RVA);
-	RealLiveSeenData data;
-	SeenDumpData** pDumpData = (SeenDumpData**)malloc(SEEN_DATA_NUM * sizeof(SeenDumpData*));
-	if (pDumpData == NULL) {
-		ExitProcess(1);
-	}
-	RtlZeroMemory(pDumpData, SEEN_DATA_NUM * sizeof(SeenDumpData*));
-	for (size_t i = 0; i < SEEN_DATA_NUM; i++) {
-		if ((entryArray + i)->offset == 0 || (entryArray + i)->size == 0) {
-			continue;
-		}
-		pDumpData[i] = (SeenDumpData*)malloc(sizeof(SeenDumpData));
-		if (pDumpData[i] == NULL) {
-			ExitProcess(1);
-		}
-		RtlZeroMemory(pDumpData[i], sizeof(SeenDumpData));
-		RtlZeroMemory(&data, sizeof(RealLiveSeenData));
-		dumpSeenData(dataFunc, &data, i, pDumpData[i]);
-		pDumpData[i]->textData.seenNo = i;
-	}
-
-	char path[MAX_PATH];
-	for (size_t i = 0; i < SEEN_DATA_NUM; i++) {
-		if (pDumpData[i] == NULL) continue;
-		ByteBuffer buffer;
-		RtlZeroMemory(&buffer, sizeof(ByteBuffer));
-		if (pDumpData[i]->textData.size > 0) {
-			TextDataToTextFile(&pDumpData[i]->textData, &buffer);
-			wsprintfA(path, SEEN_DATA_FILE, i);
-			saveFile(path, buffer);
-			FreeByteBuffer(&buffer);
-		}
-	}
-	NameDataArray** pNameDataArray = (NameDataArray**)malloc(SEEN_DATA_NUM * sizeof(NameDataArray*));
-	if (pNameDataArray == NULL) {
-		ExitProcess(1);
-	}
-
-	size_t pSize = 0;
-	for (size_t i = 0; i < SEEN_DATA_NUM; i++) {
-		if (pDumpData[i] == NULL) continue;
-		pNameDataArray[pSize++] = &pDumpData[i]->nameData;
-	}
-	NameDataArray* nameData = MergeNameDataArray(pNameDataArray, pSize);
-	ByteBuffer buffer;
-	RtlZeroMemory(&buffer, sizeof(ByteBuffer));
-	NameDataToTextFile(nameData, &buffer);
-	saveFile(NAME_DATA_FILE, buffer);
-
-	for (size_t i = 0; i < SEEN_DATA_NUM; i++) {
-		FreeSeenDumpData(pDumpData[i]);
-		free(pDumpData[i]);
-	}
-	FreeNameDataArray(nameData);
-	free(nameData);
-	free(pDumpData);
-	free(pNameDataArray);
-	MessageBoxA(NULL, "seen解包成功！", MESSAGEBOX_TITLE, MB_ICONINFORMATION);
-	ExitProcess(0);
-}
-
 void RunPack() {
 	PatchPack pack;
 	RtlZeroMemory(&pack, sizeof(PatchPack));
@@ -434,16 +292,6 @@ void RunPack() {
 	FreePatchPack(&pack);
 	FreeByteBuffer(&buffer);
 	FreeByteBuffer(&fileBuffer);
-}
-
-static void dumpSeenData(ReadSeenDataFuncPtr dataFunc, RealLiveSeenData* data, size_t num, SeenDumpData* out) {
-	RtlZeroMemory(data, sizeof(RealLiveSeenData));
-	RtlZeroMemory(dummy_ctx, sizeof(dummy_ctx));
-	dataFunc(dummy_ctx, data, num, 0);
-	__asm {
-		add esp, 8
-	}
-	DumpSeenData(data, out);
 }
 
 static BOOL readFile(const char* fileName, ByteBuffer* out, BOOL needGbk) {
