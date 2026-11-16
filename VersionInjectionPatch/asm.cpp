@@ -15,7 +15,6 @@ static std::optional<std::string> ToRelativeToCwd(const std::string& inPath) noe
 static const char* const WINAPI applyFileMapping(const char* const text) noexcept;
 
 static void WINAPI checkG00(const char* const file) noexcept;
-static const char* WINAPI checkTextForSeen9900(const char* text) noexcept;
 static BOOL WINAPI isInSeen9900Mode() noexcept;
 
 static BOOL WINAPI loadTranslatedTextInfo(const BYTE* const current_ip) noexcept;
@@ -323,27 +322,6 @@ C_NAKED_FUNCTION(ProxyOpenG00File) {
 	}
 }
 
-C_NAKED_FUNCTION(ProxySeen9900Text) {
-	__asm {
-		sub esp, 4
-		pushad
-		pushfd
-
-		push edx
-		call checkTextForSeen9900
-		mov [esp + 36], eax
-
-		popfd
-		popad
-		pop edx
-	}
-	__asm {
-		mov eax, image_base
-		add eax, HANDLE_SEEN_9900_FUNC_RVA
-		jmp eax
-	}
-}
-
 C_NAKED_FUNCTION(ProxyRld3dPresent) {
 	__asm {
 		sub esp, 4
@@ -606,11 +584,6 @@ static std::optional<std::string> ToRelativeToCwd(const std::string& inPath) noe
 
 static void WINAPI checkG00(const char* const file) noexcept {
 	patch_rt->checkG00ForSeen9900(file);
-}
-
-static const char* WINAPI checkTextForSeen9900(const char* text) noexcept {
-	auto ref = patch_rt->checkTextForSeen9900(text);
-	return ref ? ref->get().c_str() : text;
 }
 
 static BOOL WINAPI isInSeen9900Mode() noexcept {

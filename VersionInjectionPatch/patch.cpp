@@ -4,26 +4,21 @@
 
 static bool GbkToUtf16Le(const std::string& gbk, std::string& out);
 
-void Seen9900Flag::updateTexts(std::vector<SeenTextItem>&& t) {
-	this->texts = std::move(t);
-	this->reset();
-}
+static Seen9900Flag seen9900_flag{};
 
 void Seen9900Flag::reset() {
 	this->typeEnFlag = false;
 	this->type999Flag = false;
-	this->index = -1;
+	this->offset = 0;
 }
 
-void Seen9900Flag::setIndex(size_t idx) {
+void Seen9900Flag::setOffset(unsigned off) {
 	this->reset();
-	if (idx < this->texts.size()) {
-		this->index = idx;
-	}
+	this->offset = off;
 }
 
 void Seen9900Flag::setTypeEn() {
-	if (this->index == -1) {
+	if (this->offset == 0) {
 		this->reset();
 	} else {
 		this->typeEnFlag = true;
@@ -32,7 +27,7 @@ void Seen9900Flag::setTypeEn() {
 }
 
 void Seen9900Flag::setType999() {
-	if (this->index == -1 || !this->typeEnFlag) {
+	if (this->offset == 0 || !this->typeEnFlag) {
 		this->reset();
 	} else {
 		this->type999Flag = true;
@@ -40,17 +35,11 @@ void Seen9900Flag::setType999() {
 }
 
 bool Seen9900Flag::isFlag() const {
-	return this->index >= 0 && this->index < this->texts.size() 
-		&& this->typeEnFlag && this->type999Flag;
+	return this->offset > 0 && this->typeEnFlag && this->type999Flag;
 }
 
-std::optional<std::reference_wrapper<const std::string>> Seen9900Flag::curText() const {
-	if (!this->isFlag()) return std::nullopt;
-	return std::cref(this->texts[this->index].translated);
-}
-
-const std::vector<SeenTextItem>& Seen9900Flag::seen9900Texts() const {
-	return this->texts;
+unsigned Seen9900Flag::getOffset() const {
+	return this->offset;
 }
 
 SeenTextRT::SeenTextRT(SeenTextItem&& item) : SeenTextItem(std::move(item)) {
@@ -76,17 +65,9 @@ PatchRT::PatchRT(PatchPack&& pack) {
 	}
 
 	this->seen_map.reserve(pack.text.size());
-	std::vector<SeenTextItem> seen9900_text;
 	for (const SeenTextData& text : pack.text) {
-		if (text.seenNo == SEEN_9900) {
-			seen9900_text.reserve(text.items.size());
-			for (const SeenTextItem& item : text.items) {
-				seen9900_text.push_back(item);
-			}
-		}
 		this->seen_map[text.seenNo].reserve(text.items.size());
 	}
-	seen9900_flag.updateTexts(std::move(seen9900_text));
 	for (SeenTextData& text : pack.text) {
 		std::unordered_map<unsigned, SeenTextRT>& map = this->seen_map[text.seenNo];
 		for (SeenTextItem& item : text.items) {
@@ -109,6 +90,9 @@ std::optional<std::reference_wrapper<const SeenTextItem>>
 	if (p1 == this->seen_map.end()) return std::nullopt;
 	auto p2 = p1->second.find(offset);
 	if (p2 == p1->second.end()) return std::nullopt;
+	if (seenNo == SEEN_9900) {
+		seen9900_flag.setOffset(offset);
+	}
 	return std::cref(p2->second);
 }
 
@@ -155,39 +139,12 @@ void PatchRT::setTranslatedPERes(void* imageBase) const {
 }
 
 void PatchRT::updateSeenBuffer(BYTE* buffer, unsigned seenNo) const {
-	if (seenNo == SEEN_9900) {
-		const std::vector<SeenTextItem>& vec = this->seen9900_flag.seen9900Texts();
-		if (vec.size() > 256) {
-			return;
-		}
-		auto toHex = [](size_t i) {
-				constexpr char hex_chars[] = "0123456789ABCDEF";
-				std::string hex;
-				hex += hex_chars[(i >> 4) & 0x0F];
-				hex += hex_chars[i & 0x0F];
-				return hex;
-			};
-		for (size_t i = 0; i < vec.size(); ++i) {
-			if (vec[i].translated.length() < 3) {
-				continue;
-			}
-			std::string s = "&" + toHex(i);
-			BYTE* p = buffer + vec[i].offset;
-			for (const char& c : s) {
-				*p = static_cast<BYTE>(c);
-				p++;
-			}
-		}
-		return;
-	}
-
 	if (seenNo == SEEN_PATCH_NO) {
 		BYTE* p = buffer + SEEN_PATCH_OFFSET;
 		for (size_t i = 0; i < SEEN_PATCH_LEN; i++) {
 			p[i] = SEEN_PATCH_DATA[i];
 		}
 	}
-
 	/*auto map = this->seen_map.find(seenNo);
 	if (map == this->seen_map.end()) return;
 	for (const auto& [offset, item] : map->second) {
@@ -195,7 +152,6 @@ void PatchRT::updateSeenBuffer(BYTE* buffer, unsigned seenNo) const {
 			|| item.translated.length() > item.length) continue;
 		memcpy(buffer + offset, item.translated.c_str(), item.translated.length());
 	}*/
-	
 }
 
 bool PatchRT::getNextCharacterInfo(unsigned seenNo, unsigned offset, CharacterInfo& info) {
@@ -279,38 +235,6 @@ void PatchRT::ackConsumeCharacter(const CharacterInfo& info) {
 	}
 }
 
-std::optional<std::reference_wrapper<const std::string>>
-	PatchRT::checkTextForSeen9900(const std::string& text) {
-	if (text == "S_TYPING") {
-		return std::nullopt;
-	}
-	std::string s = text.substr(0, 3);
-
-	auto hexToIndex = [](std::string hex) -> std::optional<size_t> {
-			if (hex.size() != 2) return std::nullopt;
-			auto get = [](char c) -> int {
-					if (c >= '0' && c <= '9') return c - '0';
-					if (c >= 'A' && c <= 'F') return c - 'A' + 10;
-					if (c >= 'a' && c <= 'f') return c - 'a' + 10;
-					return -1;
-				};
-			int high = get(hex[0]);
-			int low = get(hex[1]);
-			if (high == -1 || low == -1) return std::nullopt;
-			return static_cast<size_t>((high << 4) | low);
-		};
-
-	std::optional<size_t> opt = hexToIndex(s.substr(1));
-	if (s.length() == 3 && s[0] == '&' && opt) {
-		size_t idx = *opt;
-		seen9900_flag.setIndex(idx);
-		return std::cref(TRASH_BUFFER);
-	} else {
-		seen9900_flag.reset();
-	}
-	return std::nullopt;
-}
-
 void PatchRT::checkG00ForSeen9900(const std::string& file) {
 	if (file == "S_TYPING999.g00") {
 		seen9900_flag.setType999();
@@ -322,13 +246,14 @@ void PatchRT::checkG00ForSeen9900(const std::string& file) {
 }
 
 bool PatchRT::isInSeen9900Mode() const {
-	return this->seen9900_flag.isFlag();
+	return seen9900_flag.isFlag();
 }
 
 void PatchRT::paintCurFrameInSeen9900Mode(HWND hwnd, HDC hdc) {
-	auto opt = this->seen9900_flag.curText();
-	if (!opt) return;
-	const std::string& text = *opt;
+	if (!isInSeen9900Mode()) return;
+	unsigned offset = seen9900_flag.getOffset();
+	const std::string& text = this->seen_map[SEEN_9900][offset].translated;
+	if (text == "") return;
 
 	RECT rc;
 	GetClientRect(hwnd, &rc);

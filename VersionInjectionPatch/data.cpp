@@ -311,20 +311,24 @@ void PatchPack::loadFromBinFile(std::vector<BYTE>::const_iterator begin,
 			SeenTextData data;
 			data.loadFromBinFile(begin, begin + size);
 			this->text.push_back(std::move(data));
+			begin += size;
 		}
 	}
 
 	size = 0;
 	if (readDWORD(begin, end, size) && size > 0) {
 		this->name.loadFromBinFile(begin, begin + size);
+		begin += size;
 	}
 	size = 0;
 	if (readDWORD(begin, end, size) && size > 0) {
 		this->res.loadFromBinFile(begin, begin + size);
+		begin += size;
 	}
 	size = 0;
 	if (readDWORD(begin, end, size) && size > 0) {
 		this->fileMap.loadFromBinFile(begin, begin + size);
+		begin += size;
 	}
 }
 

@@ -16,7 +16,6 @@ extern "C" {
 	void JmpSignature();
 
 	void ProxyOpenG00File();
-	void ProxySeen9900Text();
 	void ProxyRld3dPresent();
 
 	void HookSelectText();

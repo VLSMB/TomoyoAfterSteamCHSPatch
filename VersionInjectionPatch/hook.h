@@ -8,6 +8,7 @@
 void HookInit(HMODULE hDll);
 void HookDestroy();
 std::optional<PatchPack> PackFromTextFile();
+void TransferBinBytes(std::vector<BYTE>& in);
 void PatchHookAfterVMInit();
 
 #endif

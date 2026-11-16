@@ -20,17 +20,14 @@ class Seen9900Flag {
 private:
     bool typeEnFlag{};
     bool type999Flag{};
-    int index{};
-    std::vector<SeenTextItem> texts{};
+    unsigned offset{};
 public:
-    void updateTexts(std::vector<SeenTextItem>&& t);
     void reset();
-    void setIndex(size_t idx);
+    void setOffset(unsigned off);
     void setTypeEn();
     void setType999();
     bool isFlag() const;
-    std::optional<std::reference_wrapper<const std::string>> curText() const;
-    const std::vector<SeenTextItem>& seen9900Texts() const;
+    unsigned getOffset() const;
 };
 
 struct SeenTextRT : SeenTextItem {
@@ -48,7 +45,6 @@ struct SeenTextRT : SeenTextItem {
 
 class PatchRT {
 private:
-    Seen9900Flag seen9900_flag{};
     std::unordered_map<std::string, NameItem> name_map{};
     std::unordered_map<unsigned, std::unordered_map<unsigned, SeenTextRT>> seen_map{};
     std::vector<PEResourceItem> pe_res{};
@@ -75,9 +71,6 @@ public:
     void updateSeenBuffer(BYTE* buffer, unsigned seenNo) const;
     bool getNextCharacterInfo(unsigned seenNo, unsigned offset, CharacterInfo& info);
     void ackConsumeCharacter(const CharacterInfo& info);
-
-    std::optional<std::reference_wrapper<const std::string>>
-        checkTextForSeen9900(const std::string& text);
 
     void checkG00ForSeen9900(const std::string& file);
     bool isInSeen9900Mode() const;

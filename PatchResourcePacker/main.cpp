@@ -6,7 +6,7 @@
 #include <system_error>
 #include <cstdint>
 
-bool SaveBytesToFile(const std::vector<BYTE>& data, const std::string& path) {
+static bool SaveBytesToFile(const std::vector<BYTE>& data, const std::string& path) {
     namespace fs = std::filesystem;
     try {
         fs::path p(path);
@@ -42,7 +42,9 @@ int main(void) {
 		std::cout << "Pack Files FAIL" << std::endl;
 		return 1;
 	}
-    if (!SaveBytesToFile(opt->saveAsBinFile(), BIN_DATA_FILE)) {
+    std::vector<BYTE> vec = opt->saveAsBinFile();
+    TransferBinBytes(vec);
+    if (!SaveBytesToFile(vec, BIN_DATA_FILE)) {
         std::cout << "Save Pack File FAIL" << std::endl;
         return 2;
     }

@@ -19,7 +19,6 @@ static std::vector<BYTE> assembleCallOp(void* targetFuncAddr, void* hookFuncAddr
 static void writeHook(void* targetFuncAddr, void* hookFuncAddr);
 static void writeHookWithNop(void* targetFuncAddr, void* hookFuncAddr, unsigned nopLength);
 static void skipAsmCode(void* targetAddr, size_t codeLength);
-static void scrambleAll(std::vector<BYTE>& in);
 static std::string transferToGbk(const std::string& str);
 
 void HookInit(HMODULE hDll) {
@@ -36,7 +35,7 @@ void HookInit(HMODULE hDll) {
 	std::optional<PatchPack> textFile = PackFromTextFile();
 	if (binFile) {
 		std::vector<BYTE> res = std::move(*binFile);
-		scrambleAll(res);
+		TransferBinBytes(res);
 		pack.loadFromBinFile(res.cbegin(), res.cend());
 		if (textFile) {
 			pack.update(std::move(*textFile));
@@ -73,10 +72,12 @@ void PatchHookAfterVMInit() {
 	for (size_t i = 0; i < SET_NOP_ARRAY_SIZE; ++i) {
 		skipAsmCode(addr(SET_NOP_RVA[i]), SET_NOP_COUNT[i]);
 	}
+	for (size_t i = 0; i < SET_OPCODE_ARRAY_SIZE; ++i) {
+		updateMemoryData(addr(SET_OPCODE_RVA[i]), SET_OPCODE[i]);
+	}
 
 	std::vector<std::pair<DWORD, void*>> prepareHook = {
 		{OPEN_G00_FILE_FUNC_CALLER_RVA, ProxyOpenG00File},
-		{HANDLE_SEEN_9900_FUNC_CALLER_RVA, ProxySeen9900Text},
 		{HOOK_SELECT_TEXT_RVA, HookSelectText},
 		{HOOK_CHUNK_TEXT_LEN_RVA, HookChunkTextLength},
 		{HOOK_CHUNK_TEXT_RVA, HookChunkText},
@@ -102,9 +103,6 @@ void PatchHookAfterVMInit() {
 	prepareUpdate.push_back({ RLD3D_PRESENT_CALLER_RVA, patch2 });
 	for (size_t i = 0; i < WINDOW_TITLE_ADDR_RVA_SIZE; ++i) {
 		prepareUpdate.push_back({ WINDOW_TITLE_ADDR_RVA[i], change(const_cast<char*>(WINDOW_TITLE_TEXT))});
-	}
-	for (size_t i = 0; i < SET_OPCODE_ARRAY_SIZE; ++i) {
-		prepareUpdate.push_back({ SET_OPCODE_RVA[i], SET_OPCODE[i] });
 	}
 	for (const auto& [t, v] : prepareUpdate) {
 		updateMemoryData(addr(t), v);
@@ -279,7 +277,7 @@ static void skipAsmCode(void* targetAddr, size_t codeLength) {
 	updateMemoryData(targetAddr, buffer);
 }
 
-static void scrambleAll(std::vector<BYTE>& in) {
+void TransferBinBytes(std::vector<BYTE>& in) {
 	std::transform(in.begin(), in.end(), in.begin(),
 		[](BYTE b) { 
 			b = (BYTE)(((b & 0x0F) << 4) | ((b & 0xF0) >> 4));
