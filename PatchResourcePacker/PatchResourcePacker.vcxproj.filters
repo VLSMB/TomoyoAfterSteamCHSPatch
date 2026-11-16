@@ -24,9 +24,6 @@
     <ClCompile Include="..\VersionInjectionPatch\patch.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\VersionInjectionPatch\utils.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="..\VersionInjectionPatch\asm.cpp">
       <Filter>源文件</Filter>
     </ClCompile>

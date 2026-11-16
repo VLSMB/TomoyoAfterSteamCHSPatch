@@ -1,23 +1,14 @@
 #include "hook.h"
 #include "asm.h"
 #include "data.h"
-#include "define.h"
-#include "patch.h"
-#include "utils.h"
 #include <Windows.h>
-#include <stdio.h>
-#include <wincrypt.h>
-#include <cstdint>
 #include <filesystem>
 #include <fstream>
 #include <optional>
 #include <string>
-#include <array>
 #include <algorithm>
 
 namespace fs = std::filesystem;
-
-static ByteBuffer byte_buffer_array[SEEN_DATA_NUM] = { 0 };
 
 static std::optional<std::string> calculateSHA256();
 static void initPatchHook();
@@ -29,6 +20,7 @@ static void writeHook(void* targetFuncAddr, void* hookFuncAddr);
 static void writeHookWithNop(void* targetFuncAddr, void* hookFuncAddr, unsigned nopLength);
 static void skipAsmCode(void* targetAddr, size_t codeLength);
 static void scrambleAll(std::vector<BYTE>& in);
+static std::string transferToGbk(const std::string& str);
 
 void HookInit(HMODULE hDll) {
 	std::optional<std::string> sha256 = calculateSHA256();
@@ -66,7 +58,11 @@ void PatchHookAfterVMInit() {
 	auto change = [](void* addr) {
 			std::vector<BYTE> v;
 			v.reserve(4);
-			appendDWORD(v, reinterpret_cast<DWORD>(addr));
+			DWORD d = reinterpret_cast<DWORD>(addr);
+			v.push_back(static_cast<BYTE>(d & 0xFF));
+			v.push_back(static_cast<BYTE>((d >> 8) & 0xFF));
+			v.push_back(static_cast<BYTE>((d >> 16) & 0xFF));
+			v.push_back(static_cast<BYTE>((d >> 24) & 0xFF));
 			return v;
 		};
 
@@ -259,7 +255,10 @@ static std::vector<BYTE> assembleCallOp(void* targetFuncAddr, void* hookFuncAddr
 	buffer.reserve(5);
 	buffer.push_back(0xE8);
 	DWORD rva = (DWORD)hookFuncAddr - ((DWORD)targetFuncAddr + 0x5);
-	appendDWORD(buffer, rva);
+	buffer.push_back(static_cast<BYTE>(rva & 0xFF));
+	buffer.push_back(static_cast<BYTE>((rva >> 8) & 0xFF));
+	buffer.push_back(static_cast<BYTE>((rva >> 16) & 0xFF));
+	buffer.push_back(static_cast<BYTE>((rva >> 24) & 0xFF));
 	return buffer;
 }
 
@@ -288,4 +287,21 @@ static void scrambleAll(std::vector<BYTE>& in) {
 			b = (BYTE)(((b & 0x55) << 1) | ((b & 0xAA) >> 1));
 			return b;
 		});
+}
+
+static std::string transferToGbk(const std::string& str) {
+	if (str.empty()) return str;
+	int wLen = MultiByteToWideChar(CP_UTF8, MB_ERR_INVALID_CHARS, str.c_str(), (int)str.size(), NULL, 0);
+	if (wLen <= 0) {
+		return str;
+	}
+	std::vector<WCHAR> wBuf(wLen);
+	MultiByteToWideChar(CP_UTF8, MB_ERR_INVALID_CHARS, str.c_str(), (int)str.size(), wBuf.data(), wLen);
+	int len = WideCharToMultiByte(936, WC_NO_BEST_FIT_CHARS, wBuf.data(), wLen, NULL, NULL, NULL, NULL);
+	if (len <= 0) {
+		return str;
+	}
+	std::vector<char> buf(len);
+	WideCharToMultiByte(936, WC_NO_BEST_FIT_CHARS, wBuf.data(), wLen, buf.data(), len, NULL, NULL);
+	return std::string(buf.data(), buf.size());
 }

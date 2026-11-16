@@ -1,7 +1,21 @@
 #include "data.h"
-#include "utils.h"
+#include "define.h"
 #include <set>
 #include <unordered_map>
+
+static void appendDWORD(std::vector<BYTE>& b, DWORD v);
+static void appendString(std::vector<BYTE>& b, const std::string& text);
+static bool readDWORD(std::vector<BYTE>::const_iterator& begin,
+	const std::vector<BYTE>::const_iterator& end,
+	DWORD& v);
+static bool readString(std::vector<BYTE>::const_iterator& begin,
+	const std::vector<BYTE>::const_iterator& end,
+	size_t len, std::string& out);
+static std::vector<std::string> splitLines(const std::string& p);
+static bool isSep(const std::string& s);
+static size_t nextSep(const std::vector<std::string>& L, size_t i);
+static std::string readBlock(const std::vector<std::string>& L, size_t& i);
+static bool startsWith(const std::string& str, const std::string& prefix);
 
 void SeenTextData::loadFromBinFile(std::vector<BYTE>::const_iterator begin,
 	std::vector<BYTE>::const_iterator end) {
@@ -370,4 +384,86 @@ void PatchPack::update(PatchPack&& other) {
 			this->text.push_back(std::move(ref.get()));
 		}
 	}
+}
+
+static void appendDWORD(std::vector<BYTE>& b, DWORD v) {
+	b.push_back(static_cast<BYTE>(v & 0xFF));
+	b.push_back(static_cast<BYTE>((v >> 8) & 0xFF));
+	b.push_back(static_cast<BYTE>((v >> 16) & 0xFF));
+	b.push_back(static_cast<BYTE>((v >> 24) & 0xFF));
+}
+
+static void appendString(std::vector<BYTE>& b, const std::string& text) {
+	b.insert(b.end(), text.begin(), text.end());
+}
+
+static bool readDWORD(std::vector<BYTE>::const_iterator& begin,
+	const std::vector<BYTE>::const_iterator& end,
+	DWORD& v) {
+	if (std::distance(begin, end) < 4) return false;
+
+	v = static_cast<DWORD>(begin[0]) |
+		(static_cast<DWORD>(begin[1]) << 8) |
+		(static_cast<DWORD>(begin[2]) << 16) |
+		(static_cast<DWORD>(begin[3]) << 24);
+
+	begin += 4;
+	return true;
+}
+
+static bool readString(std::vector<BYTE>::const_iterator& begin,
+	const std::vector<BYTE>::const_iterator& end,
+	size_t len, std::string& out) {
+	if (std::distance(begin, end) < static_cast<std::ptrdiff_t>(len)) return false;
+
+	const BYTE* p = &*begin;
+	out.assign(reinterpret_cast<const char*>(p), len);
+
+	begin += len;
+	return true;
+}
+
+static std::vector<std::string> splitLines(const std::string& p) {
+	std::vector<std::string> L;
+	std::string cur;
+	for (size_t i = 0; i < p.length(); ++i) {
+		char c = (char)p[i];
+		if (c == '\n') {
+			if (!cur.empty() && cur.back() == '\r') cur.pop_back();
+			L.push_back(std::move(cur));
+			cur.clear();
+		} else {
+			cur.push_back(c);
+		}
+	}
+	if (!cur.empty()) {
+		if (cur.back() == '\r') cur.pop_back();
+		L.push_back(std::move(cur));
+	}
+	return L;
+}
+
+static bool isSep(const std::string& s) {
+	return !s.empty() && s[0] == '=';
+}
+
+static size_t nextSep(const std::vector<std::string>& L, size_t i) {
+	while (i < L.size() && !isSep(L[i])) ++i;
+	return i;
+}
+
+static std::string readBlock(const std::vector<std::string>& L, size_t& i) {
+	std::string s;
+	while (i < L.size() && !isSep(L[i])) {
+		if (!s.empty()) s += '\n';
+		s += L[i];
+		++i;
+	}
+	if (i < L.size()) ++i;
+	return s;
+}
+
+static bool startsWith(const std::string& str, const std::string& prefix) {
+	if (prefix.length() > str.length()) return false;
+	return str.compare(0, prefix.length(), prefix) == 0;
 }

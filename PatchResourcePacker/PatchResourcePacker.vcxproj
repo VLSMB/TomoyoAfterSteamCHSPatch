@@ -142,7 +142,6 @@
     <ClCompile Include="..\VersionInjectionPatch\define.cpp" />
     <ClCompile Include="..\VersionInjectionPatch\hook.cpp" />
     <ClCompile Include="..\VersionInjectionPatch\patch.cpp" />
-    <ClCompile Include="..\VersionInjectionPatch\utils.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

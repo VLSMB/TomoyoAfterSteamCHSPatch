@@ -24,7 +24,6 @@
     <ClCompile Include="define.cpp" />
     <ClCompile Include="hook.cpp" />
     <ClCompile Include="patch.cpp" />
-    <ClCompile Include="utils.cpp" />
     <ClCompile Include="version.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -33,7 +32,6 @@
     <ClInclude Include="hook.h" />
     <ClInclude Include="patch.h" />
     <ClInclude Include="define.h" />
-    <ClInclude Include="utils.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
