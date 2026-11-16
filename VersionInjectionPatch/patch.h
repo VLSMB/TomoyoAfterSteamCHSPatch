@@ -7,15 +7,12 @@
 #include <stack>
 #include <memory>
 
-template<typename T>
-using seen_map = std::unordered_map<unsigned, std::unordered_map<unsigned, T>>;
-
 struct CharacterInfo {
     unsigned seenNo{};
     unsigned offset{};
     unsigned length{};
-    BYTE asciiFlag{};
-    BYTE lastFlag{};
+    bool asciiFlag{};
+    bool lastFlag{};
     WORD character{};
 };
 
@@ -24,27 +21,36 @@ private:
     bool typeEnFlag{};
     bool type999Flag{};
     int index{};
-    const std::vector<std::string> texts{};
+    std::vector<SeenTextItem> texts{};
 public:
-    Seen9900Flag();
-    explicit Seen9900Flag(std::vector<std::string>&& t);
+    void updateTexts(std::vector<SeenTextItem>&& t);
     void reset();
     void setIndex(size_t idx);
     void setTypeEn();
     void setType999();
     bool isFlag() const;
-    std::string curText() const;
+    std::optional<std::reference_wrapper<const std::string>> curText() const;
+    const std::vector<SeenTextItem>& seen9900Texts() const;
 };
 
 struct SeenTextRT : SeenTextItem {
-    std::stack<BYTE> text_stack;
+    bool inStack{};
+    std::stack<BYTE> text_stack{};
+
+    explicit SeenTextRT(SeenTextItem&&);
+    SeenTextRT() = default;
+    ~SeenTextRT() = default;
+    SeenTextRT(SeenTextRT&&) = default;
+    SeenTextRT(const SeenTextRT&) = delete;
+    SeenTextRT& operator=(SeenTextRT&&) = default;
+    SeenTextRT& operator=(const SeenTextRT&) = delete;
 };
 
 class PatchRT {
 private:
     Seen9900Flag seen9900_flag{};
     std::unordered_map<std::string, NameItem> name_map{};
-    seen_map<SeenTextRT> seen_map{};
+    std::unordered_map<unsigned, std::unordered_map<unsigned, SeenTextRT>> seen_map{};
     std::vector<PEResourceItem> pe_res{};
     std::unordered_map<std::string, FileMappingItem> file_mapping{};
 public:
@@ -67,7 +73,7 @@ public:
 
     void setTranslatedPERes(void* imageBase) const;
     void updateSeenBuffer(BYTE* buffer, unsigned seenNo) const;
-    bool getNextCharacterInfo(unsigned seenNo, unsigned offset, CharacterInfo& info) const;
+    bool getNextCharacterInfo(unsigned seenNo, unsigned offset, CharacterInfo& info);
     void ackConsumeCharacter(const CharacterInfo& info);
 
     std::optional<std::reference_wrapper<const std::string>>

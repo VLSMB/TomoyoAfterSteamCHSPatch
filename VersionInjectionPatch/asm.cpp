@@ -15,7 +15,7 @@ static std::optional<std::string> ToRelativeToCwd(const std::string& inPath) noe
 static const char* const WINAPI applyFileMapping(const char* const text) noexcept;
 
 static void WINAPI checkG00(const char* const file) noexcept;
-static void WINAPI checkTextForSeen9900(const char* text) noexcept;
+static const char* WINAPI checkTextForSeen9900(const char* text) noexcept;
 static BOOL WINAPI isInSeen9900Mode() noexcept;
 
 static BOOL WINAPI loadTranslatedTextInfo(const BYTE* const current_ip) noexcept;
@@ -608,8 +608,9 @@ static void WINAPI checkG00(const char* const file) noexcept {
 	patch_rt->checkG00ForSeen9900(file);
 }
 
-static void WINAPI checkTextForSeen9900(const char* text) noexcept {
-	patch_rt->checkTextForSeen9900(text);
+static const char* WINAPI checkTextForSeen9900(const char* text) noexcept {
+	auto ref = patch_rt->checkTextForSeen9900(text);
+	return ref ? ref->get().c_str() : text;
 }
 
 static BOOL WINAPI isInSeen9900Mode() noexcept {

@@ -7,7 +7,12 @@
 
 void appendDWORD(std::vector<BYTE>& b, DWORD v);
 void appendString(std::vector<BYTE>& b, const std::string& text);
-bool readDWORD(const std::vector<BYTE>& buf, size_t& offset, DWORD& v);
+bool readDWORD(std::vector<BYTE>::const_iterator& begin,
+	const std::vector<BYTE>::const_iterator& end,
+	DWORD& v);
+bool readString(std::vector<BYTE>::const_iterator& begin,
+	const std::vector<BYTE>::const_iterator& end,
+	size_t len, std::string& out);
 std::vector<std::string> splitLines(const std::string& p);
 bool isSep(const std::string& s);
 size_t nextSep(const std::vector<std::string>& L, size_t i);

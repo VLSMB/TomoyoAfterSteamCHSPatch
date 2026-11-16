@@ -21,7 +21,6 @@ static ByteBuffer byte_buffer_array[SEEN_DATA_NUM] = { 0 };
 
 static std::optional<std::string> calculateSHA256();
 static void initPatchHook();
-std::optional<PatchPack> packFromTextFile();
 std::optional<std::vector<BYTE>> readBinFile(const std::string& path);
 std::optional<std::string> readTextFile(const std::string& path);
 static void updateMemoryData(void* address, std::vector<BYTE> bytes);
@@ -29,7 +28,7 @@ static std::vector<BYTE> assembleCallOp(void* targetFuncAddr, void* hookFuncAddr
 static void writeHook(void* targetFuncAddr, void* hookFuncAddr);
 static void writeHookWithNop(void* targetFuncAddr, void* hookFuncAddr, unsigned nopLength);
 static void skipAsmCode(void* targetAddr, size_t codeLength);
-static std::vector<BYTE> scrambleAll(const std::vector<BYTE>& in);
+static void scrambleAll(std::vector<BYTE>& in);
 
 void HookInit(HMODULE hDll) {
 	std::optional<std::string> sha256 = calculateSHA256();
@@ -42,9 +41,11 @@ void HookInit(HMODULE hDll) {
 	MessageBoxA(NULL, ALPHA_VERSION_WARNING, MESSAGEBOX_TITLE, MB_ICONWARNING);
 	PatchPack pack{};
 	std::optional<std::vector<BYTE>> binFile = readBinFile(BIN_DATA_FILE);
-	std::optional<PatchPack> textFile = packFromTextFile();
+	std::optional<PatchPack> textFile = PackFromTextFile();
 	if (binFile) {
-		pack.loadFromBinFile(scrambleAll(*binFile));
+		std::vector<BYTE> res = std::move(*binFile);
+		scrambleAll(res);
+		pack.loadFromBinFile(res.cbegin(), res.cend());
 		if (textFile) {
 			pack.update(std::move(*textFile));
 		}
@@ -174,7 +175,7 @@ static void initPatchHook() {
 	}
 }
 
-std::optional<PatchPack> packFromTextFile() {
+std::optional<PatchPack> PackFromTextFile() {
 	std::error_code ec;
 	if (!fs::is_directory(SEEN_DATA_DIR, ec)) return std::nullopt;
 	PatchPack pack;
@@ -259,6 +260,7 @@ static std::vector<BYTE> assembleCallOp(void* targetFuncAddr, void* hookFuncAddr
 	buffer.push_back(0xE8);
 	DWORD rva = (DWORD)hookFuncAddr - ((DWORD)targetFuncAddr + 0x5);
 	appendDWORD(buffer, rva);
+	return buffer;
 }
 
 static void writeHookWithNop(void* targetFuncAddr, void* hookFuncAddr, unsigned nopLength) {
@@ -278,14 +280,12 @@ static void skipAsmCode(void* targetAddr, size_t codeLength) {
 	updateMemoryData(targetAddr, buffer);
 }
 
-static std::vector<BYTE> scrambleAll(const std::vector<BYTE>& in) {
-	std::vector<BYTE> out(in.size());
-	std::transform(in.begin(), in.end(), out.begin(),
+static void scrambleAll(std::vector<BYTE>& in) {
+	std::transform(in.begin(), in.end(), in.begin(),
 		[](BYTE b) { 
 			b = (BYTE)(((b & 0x0F) << 4) | ((b & 0xF0) >> 4));
 			b = (BYTE)(((b & 0x33) << 2) | ((b & 0xCC) >> 2));
 			b = (BYTE)(((b & 0x55) << 1) | ((b & 0xAA) >> 1));
 			return b;
 		});
-	return out;
 }

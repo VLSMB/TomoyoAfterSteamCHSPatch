@@ -3,10 +3,11 @@
 
 #include <string>
 #include <vector>
-#include <windef.h>
+#include <Windows.h>
 
 struct BinFileConverter {
-    virtual void loadFromBinFile(const std::vector<BYTE>& bytes) = 0;
+    virtual void loadFromBinFile(std::vector<BYTE>::const_iterator begin,
+        std::vector<BYTE>::const_iterator end) = 0;
     virtual std::vector<BYTE> saveAsBinFile() const = 0;
 };
 
@@ -15,31 +16,33 @@ struct TextFileConverter {
 };
 
 struct SeenTextItem {
-    unsigned index;
-    unsigned offset;
-    size_t length;
-    bool replaceFlag;
-    std::string translated;
+    unsigned index{};
+    unsigned offset{};
+    size_t length{};
+    bool replaceFlag{};
+    std::string translated{};
 };
 
 struct SeenTextData : BinFileConverter, TextFileConverter {
-    unsigned seenNo;
-    std::vector<SeenTextItem> items;
+    unsigned seenNo{};
+    std::vector<SeenTextItem> items{};
 
-    void loadFromBinFile(const std::vector<BYTE>& bytes) override;
+    void loadFromBinFile(std::vector<BYTE>::const_iterator begin,
+        std::vector<BYTE>::const_iterator end) override;
     std::vector<BYTE> saveAsBinFile() const override;
     void loadFromTextFile(const std::string& text) override;
 };
 
 struct NameItem {
-    std::string origin;
-    std::string translated;
+    std::string origin{};
+    std::string translated{};
 };
 
 struct NameData : BinFileConverter, TextFileConverter {
-    std::vector<NameItem> data;
+    std::vector<NameItem> data{};
 
-    void loadFromBinFile(const std::vector<BYTE>& bytes) override;
+    void loadFromBinFile(std::vector<BYTE>::const_iterator begin,
+        std::vector<BYTE>::const_iterator end) override;
     std::vector<BYTE> saveAsBinFile() const override;
     void loadFromTextFile(const std::string& text) override;
 };
@@ -53,42 +56,45 @@ enum class PEResourceStrategy : DWORD {
 };
 
 struct PEResourceItem {
-    unsigned index;
-    DWORD rva;
-    size_t length;
-    std::string translated;
-    PEResourceEncode encode;
-    PEResourceStrategy strategy;
+    unsigned index{};
+    DWORD rva{};
+    size_t length{};
+    std::string translated{};
+    PEResourceEncode encode{};
+    PEResourceStrategy strategy{};
 };
 
 struct PEResourceData : BinFileConverter, TextFileConverter {
-    std::vector<PEResourceItem> data;
+    std::vector<PEResourceItem> data{};
 
-    void loadFromBinFile(const std::vector<BYTE>& bytes) override;
+    void loadFromBinFile(std::vector<BYTE>::const_iterator begin,
+        std::vector<BYTE>::const_iterator end) override;
     std::vector<BYTE> saveAsBinFile() const override;
     void loadFromTextFile(const std::string& text) override;
 };
 
 struct FileMappingItem {
-    std::string origin;
-    std::string target;
+    std::string origin{};
+    std::string target{};
 };
 
 struct FileMappringData : BinFileConverter, TextFileConverter {
-    std::vector<FileMappingItem> data;
+    std::vector<FileMappingItem> data{};
 
-    void loadFromBinFile(const std::vector<BYTE>& bytes) override;
+    void loadFromBinFile(std::vector<BYTE>::const_iterator begin,
+        std::vector<BYTE>::const_iterator end) override;
     std::vector<BYTE> saveAsBinFile() const override;
     void loadFromTextFile(const std::string& text) override;
 };
 
 struct PatchPack : BinFileConverter {
-    std::vector<SeenTextData> text;
-    NameData name;
-    PEResourceData res;
-    FileMappringData fileMap;
+    std::vector<SeenTextData> text{};
+    NameData name{};
+    PEResourceData res{};
+    FileMappringData fileMap{};
 
-    void loadFromBinFile(const std::vector<BYTE>& bytes) override;
+    void loadFromBinFile(std::vector<BYTE>::const_iterator begin,
+        std::vector<BYTE>::const_iterator end) override;
     std::vector<BYTE> saveAsBinFile() const override;
     void update(PatchPack&& other);
 };

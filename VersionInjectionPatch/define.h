@@ -6,7 +6,7 @@
 #include "patch.h"
 
 #define SEEN_DATA_DIR__ "patch"
-#define WINDOW_TITLE__ "智代后记（Steam版）汉化补丁 v0.0.5-dev"
+#define WINDOW_TITLE__ "智代后记（Steam版）汉化补丁 v0.1.0-dev"
 #define C_NAKED_FUNCTION(x) extern "C" void __declspec(naked) x()
 
 constexpr const char* PROCESS_NAME = "RealLiveEn.exe";
@@ -21,7 +21,6 @@ constexpr const char* NAME_DATA_FILE = SEEN_DATA_DIR__"\\name.txt";
 constexpr const char* PERES_DATA_FILE = SEEN_DATA_DIR__"\\pe_resource.txt";
 constexpr const char* FMAP_DATA_FILE = SEEN_DATA_DIR__"\\file_mapping.txt";
 constexpr const char* BIN_DATA_FILE = "SEEN_CHS.TXT";
-constexpr const char* EMPTY_NAME = "NULL";
 constexpr const char* REPLACE_FLAG = "replace_flag";
 constexpr unsigned SEEN_9900 = 9900;
 constexpr const char* SEEN_9900_MODE_FONT = "Consolas";
@@ -110,7 +109,7 @@ extern const std::vector<BYTE> SET_OPCODE[SET_OPCODE_ARRAY_SIZE];
 extern const BYTE SEEN_PATCH_DATA[SEEN_PATCH_LEN];
 extern const DWORD CONSUME_TEXT_IN_QUOTE_MODE_CALLER_RVA[CONSUME_TEXT_IN_QUOTE_MODE_CALLER_SIZE];
 extern const DWORD WINDOW_TITLE_ADDR_RVA[WINDOW_TITLE_ADDR_RVA_SIZE];
-extern char TRASH_BUFFER[1000];
+extern const std::string TRASH_BUFFER;
 
 extern const std::vector<BYTE> WINAPI_PATCH_STUB;
 extern const char* SHA256_MISMATCH_WARNING;

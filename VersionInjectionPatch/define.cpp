@@ -43,7 +43,7 @@ extern const DWORD WINDOW_TITLE_ADDR_RVA[WINDOW_TITLE_ADDR_RVA_SIZE] = {
 	0xA5BAD, 0xA5BC2, 0xA5C31, 0xA5C46
 };
 
-char TRASH_BUFFER[1000] = { 0 };
+const std::string TRASH_BUFFER = MESSAGEBOX_TITLE;
 
 const std::vector<BYTE> WINAPI_PATCH_STUB = { 0x8B, 0xFF, 0x55, 0x8B, 0xEC };
 

@@ -12,14 +12,29 @@ void appendString(std::vector<BYTE>& b, const std::string& text) {
 	b.insert(b.end(), text.begin(), text.end());
 }
 
-bool readDWORD(const std::vector<BYTE>& buf, size_t& offset, DWORD& v) {
-	if (offset > buf.size() || buf.size() - offset < 4) return false;
-	const BYTE* p = buf.data() + offset;
-	v = static_cast<DWORD>(p[0]) |
-		(static_cast<DWORD>(p[1]) << 8) |
-		(static_cast<DWORD>(p[2]) << 16) |
-		(static_cast<DWORD>(p[3]) << 24);
-	offset += 4;
+bool readDWORD(std::vector<BYTE>::const_iterator& begin,
+	const std::vector<BYTE>::const_iterator& end,
+	DWORD& v) {
+	if (std::distance(begin, end) < 4) return false;
+
+	v = static_cast<DWORD>(begin[0]) |
+		(static_cast<DWORD>(begin[1]) << 8) |
+		(static_cast<DWORD>(begin[2]) << 16) |
+		(static_cast<DWORD>(begin[3]) << 24);
+
+	begin += 4;
+	return true;
+}
+
+bool readString(std::vector<BYTE>::const_iterator& begin,
+	const std::vector<BYTE>::const_iterator& end,
+	size_t len, std::string& out) {
+	if (std::distance(begin, end) < static_cast<std::ptrdiff_t>(len)) return false;
+
+	const BYTE* p = &*begin;
+	out.assign(reinterpret_cast<const char*>(p), len);
+
+	begin += len;
 	return true;
 }
 
