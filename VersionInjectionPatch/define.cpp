@@ -58,7 +58,8 @@ const char* ALPHA_VERSION_WARNING = WINDOW_TITLE__
 "本补丁仅用于学习研究用途，禁止用于一切商业活动。";
 
 const char* GAME_QUIT_MESSAGE = "确定要退出游戏吗？";
-extern const char* WINDOW_TITLE_TEXT = WINDOW_TITLE__"  ";
+const char* WINDOW_TITLE_TEXT = WINDOW_TITLE__"  ";
+const char* FONT_SETTINGS_TITLE = "字体设置";
 
 HWND window_handle = nullptr;
 WNDPROC window_proc = nullptr;

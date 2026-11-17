@@ -52,6 +52,7 @@ constexpr DWORD SET_DIB_TO_DEVICE_IAT_RVA = 0x2060A0;
 constexpr DWORD RLD3D_PRESENT_IAT_RVA = 0xF32B70;
 constexpr DWORD RLD3D_PRESENT_CALLER_RVA = 0x1AE11;
 constexpr DWORD GAME_QUIT_MESSAGE_ADDR_RVA = 0xE41A5;
+constexpr DWORD FONT_SETTING_TITLE_ADDR_RVA = 0xC6B27;
 
 constexpr DWORD RLVM_STATE_POINTER_RVA = 0x319B6C;
 constexpr DWORD RLVM_CONTEXT_POINTET_RVA = 0x576F90;
@@ -115,6 +116,7 @@ extern const char* SHA256_MISMATCH_WARNING;
 extern const char* ALPHA_VERSION_WARNING;
 extern const char* GAME_QUIT_MESSAGE;
 extern const char* WINDOW_TITLE_TEXT;
+extern const char* FONT_SETTINGS_TITLE;
 
 extern HWND window_handle;
 extern WNDPROC window_proc;

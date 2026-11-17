@@ -93,7 +93,8 @@ void PatchHookAfterVMInit() {
 	std::vector<std::pair<DWORD, std::vector<BYTE>>> prepareUpdate = {
 		{INVALIDATE_RECT_IAT_RVA, change(ProxyInvalidateRect)},
 		{SET_DIB_TO_DEVICE_IAT_RVA, change(ProxySetDIBitsToDevice)},
-		{GAME_QUIT_MESSAGE_ADDR_RVA, change(const_cast<char*>(GAME_QUIT_MESSAGE))}
+		{GAME_QUIT_MESSAGE_ADDR_RVA, change(const_cast<char*>(GAME_QUIT_MESSAGE))},
+		{FONT_SETTING_TITLE_ADDR_RVA, change(const_cast<char*>(FONT_SETTINGS_TITLE))}
 	};
 	std::vector<BYTE> patch = assembleCallOp(addr(READ_SEEN_DATA_FUNC_RVA), HookForPatch);
 	patch.push_back(static_cast<BYTE>(0xC3));

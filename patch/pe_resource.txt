@@ -1,5 +1,5 @@
 type pe_resource
-count 2
+count 14
 
 ====================
 index 1
@@ -23,4 +23,1003 @@ fill_space
 Screen Settings
 ====================
 屏幕设置
+====================
+
+====================
+index 3
+rva 30409624
+length 150
+utf16le
+fill_space
+====================
+Depending on the font that is chosen, Characters may appear false. Proceed?
+====================
+根据所选字体不同，字符可能显示不正确。是否继续？
+====================
+
+====================
+index 4
+rva 30409464
+length 14
+utf16le
+fill_space
+====================
+Initial
+====================
+初始值
+====================
+
+====================
+index 5
+rva 30409512
+length 12
+utf16le
+fill_space
+====================
+Cancel
+====================
+取消
+====================
+
+====================
+index 6
+rva 30409556
+length 4
+utf16le
+fill_space
+====================
+OK
+====================
+确认
+====================
+
+====================
+index 7
+rva 30409808
+length 38
+utf16le
+fill_space
+====================
+AWWWWWWWWWWWWWWWWZ.
+====================
+这是Example示例文字。
+====================
+
+====================
+index 8
+rva 30409880
+length 32
+utf16le
+fill_space
+====================
+No Anti-Aliasing
+====================
+关闭抗锯齿
+====================
+
+====================
+index 9
+rva 30409944
+length 54
+utf16le
+fill_space
+====================
+Anti-Aliasing (Low quality)
+====================
+抗锯齿（低质量）
+====================
+
+====================
+index 10
+rva 30410032
+length 56
+utf16le
+fill_space
+====================
+Anti-Aliasing (High quality)
+====================
+抗锯齿（高质量）
+====================
+
+====================
+index 11
+rva 30410120
+length 36
+utf16le
+fill_space
+====================
+Deactivate shadows
+====================
+停用阴影
+====================
+
+====================
+index 12
+rva 30410188
+length 32
+utf16le
+fill_space
+====================
+Activate shadows
+====================
+启用阴影
+====================
+
+====================
+index 13
+rva 30410252
+length 24
+utf16le
+fill_space
+====================
+With borders
+====================
+显示边框
+====================
+
+====================
+index 14
+rva 30410308
+length 18
+utf16le
+fill_space
+====================
+Bold text
+====================
+加粗文字
+====================
+
+====================
+index 15
+rva 30413248
+length 60
+utf16le
+fill_space
+====================
+Full Screen
+
+Change resolution
+====================
+全屏模式
+
+     更改分辨率
+====================
+
+====================
+index 16
+rva 30413340
+length 34
+utf16le
+fill_space
+====================
+Direct3D settings
+====================
+Direct3D 设置
+====================
+
+====================
+index 17
+rva 30413408
+length 40
+utf16le
+fill_space
+====================
+About the resolution
+====================
+关于分辨率
+====================
+
+====================
+index 18
+rva 30413480
+length 48
+utf16le
+fill_space
+====================
+Standard window ( 100% )
+====================
+标准窗口（100%）
+====================
+
+====================
+index 19
+rva 2227468
+length 2
+gbk
+fill_null
+====================
+仠
+====================
+->
+====================
+
+====================
+index 20
+rva 2213660
+length 10
+gbk
+fill_null
+====================
+Font Error
+====================
+字体错误
+====================
+
+====================
+index 21
+rva 2213672
+length 46
+gbk
+fill_null
+====================
+Font Error
+
+Failed to get Glyph Outline Size.
+
+====================
+字体错误
+
+获取字形轮廓大小失败。
+====================
+
+====================
+index 22
+rva 2213720
+length 46
+gbk
+fill_null
+====================
+Font Error
+
+Failed to get Glyph Outline Data.
+
+====================
+字体错误
+
+获取字形轮廓数据失败。
+====================
+
+====================
+index 23
+rva 30413720
+length 26
+utf16le
+fill_space
+====================
+Original size
+====================
+原始大小
+====================
+
+====================
+index 24
+rva 30413780
+length 66
+utf16le
+fill_space
+====================
+Full Screen ( keep aspect ratio )
+====================
+全屏（保持宽高比）
+====================
+
+====================
+index 25
+rva 30413880
+length 22
+utf16le
+fill_space
+====================
+Full Screen
+====================
+全屏
+====================
+
+====================
+index 26
+rva 30413936
+length 48
+utf16le
+fill_space
+====================
+Fit to Screen vertically
+====================
+按屏幕高度适配
+====================
+
+====================
+index 27
+rva 30414016
+length 40
+utf16le
+fill_space
+====================
+Show Custom Settings
+====================
+显示自定义设置
+====================
+
+====================
+index 28
+rva 30414328
+length 70
+utf16le
+fill_space
+====================
+Sync the ratio of height and width.
+====================
+同步高度与宽度的比例。
+====================
+
+====================
+index 29
+rva 30414664
+length 102
+utf16le
+fill_space
+====================
+Show screen resolution change notification message.
+====================
+显示屏幕分辨率更改通知消息。
+====================
+
+====================
+index 30
+rva 30414800
+length 108
+utf16le
+fill_space
+====================
+ If changed with [Alt + Enter], the window will close.
+====================
+如果通过 [Alt + Enter] 更改，窗口将关闭。
+====================
+
+====================
+index 31
+rva 30414940
+length 10
+utf16le
+fill_space
+====================
+Close
+====================
+关闭
+====================
+
+====================
+index 32
+rva 30414986
+length 48
+utf16le
+fill_space
+====================
+Full Screen display mode
+====================
+全屏显示模式
+====================
+
+====================
+index 33
+rva 30415152
+length 30
+utf16le
+fill_space
+====================
+Screen height :
+====================
+屏幕高度：
+====================
+
+====================
+index 34
+rva 30415260
+length 30
+utf16le
+fill_space
+====================
+Scroll height :
+====================
+滚动高度：
+====================
+
+====================
+index 35
+rva 30415368
+length 28
+utf16le
+fill_space
+====================
+Scroll width :
+====================
+滚动宽度：
+====================
+
+====================
+index 36
+rva 30415472
+length 28
+utf16le
+fill_space
+====================
+Screen width :
+====================
+屏幕宽度：
+====================
+
+====================
+index 37
+rva 30415578
+length 38
+utf16le
+fill_space
+====================
+Customized Settings
+====================
+自定义设置
+====================
+
+====================
+index 38
+rva 30415654
+length 40
+utf16le
+fill_space
+====================
+About the resolution
+====================
+关于分辨率
+====================
+
+====================
+index 39
+rva 2227984
+length 338
+gbk
+fill_null
+====================
+The recommended resolution of this game is %d * %d.
+
+ * Please select the %d * %d resolution if it is available and supported by your system.
+
+ * If %d * %d is not available, a resolution with a width of %d is recommended.
+
+ * If a resolution with %d width is not available, a resolution as close to %d * %d as
+   possible is recommended.
+====================
+本游戏推荐的分辨率为 %d * %d。
+
+ * 如果系统支持且可用，请选择 %d * %d 分辨率。
+
+ * 如果 %d * %d 不可用，建议选择宽度为 %d 的分辨率。
+
+ * 如果宽度为 %d 的分辨率不可用，建议选择尽可能接近 %d * %d 的分辨率。
+====================
+
+====================
+index 40
+rva 2227480
+length 104
+gbk
+fill_null
+====================
+High Resolution results makes surroundings turn black.
+Low Resolution results lets the screen stick out.
+====================
+高分辨率会导致周围区域变黑。
+低分辨率会导致屏幕显示超出范围。
+====================
+
+====================
+index 41
+rva 2227592
+length 79
+gbk
+fill_null
+====================
+Deviating aspect ratio leads to the area under and above the screen turn black.
+====================
+偏离宽高比会导致屏幕上下区域变黑。
+====================
+
+====================
+index 42
+rva 2227672
+length 65
+gbk
+fill_null
+====================
+When the aspect ratio is different, the screen will be stretched.
+====================
+当宽高比不同时，屏幕会被拉伸。
+====================
+
+====================
+index 43
+rva 2227744
+length 90
+gbk
+fill_null
+====================
+When the aspect ratio is different, horizontal area will leave the screen.
+Or turns black.
+====================
+当宽高比不同时，水平区域会超出屏幕，或变黑。
+====================
+
+====================
+index 44
+rva 2227836
+length 33
+gbk
+fill_null
+====================
+Please adjust by custom settings.
+====================
+请通过自定义设置进行调整。
+====================
+
+====================
+index 45
+rva 2227872
+length 10
+gbk
+fill_null
+====================
+Resolution
+====================
+X
+====================
+
+====================
+index 46
+rva 2227884
+length 34
+gbk
+fill_null
+====================
+The current resolution is %d * %d.
+====================
+当前分辨率为 %d * %d。
+====================
+
+====================
+index 47
+rva 2227920
+length 62
+gbk
+fill_null
+====================
+The game will return to the previous resolution in %d seconds.
+====================
+游戏将在 %d 秒后恢复为之前的分辨率。
+====================
+
+====================
+index 48
+rva 30415886
+length 50
+utf16le
+fill_space
+====================
+About changing resolution
+====================
+关于分辨率变更
+====================
+
+====================
+index 49
+rva 30416028
+length 12
+utf16le
+fill_space
+====================
+Cancel
+====================
+取消
+====================
+
+====================
+index 50
+rva 30416072
+length 62
+utf16le
+fill_space
+====================
+Do not show this message again.
+====================
+不再显示本条消息。
+====================
+
+====================
+index 51
+rva 30416200
+length 494
+utf16le
+fill_space
+====================
+The display resolution will now be changed.
+
+The game's visuals may become distorted or black out.
+
+After 15 seconds, the game will automatically return to the previous resolution.
+You may also hit the Esc key to return to the previous resolution.
+====================
+显示分辨率即将更改。
+
+游戏画面可能会变形或黑屏。
+
+15 秒后，游戏将自动恢复为之前的分辨率。
+你也可以按 Esc 键恢复为之前的分辨率。
+====================
+
+====================
+index 52
+rva 30416734
+length 34
+utf16le
+fill_space
+====================
+Change resolution
+====================
+分辨率变更
+====================
+
+====================
+index 53
+rva 30416892
+length 80
+utf16le
+fill_space
+====================
+The display resolution has been changed.
+====================
+当前屏幕分辨率已变更。
+====================
+
+====================
+index 54
+rva 30417004
+length 92
+utf16le
+fill_space
+====================
+Please check this box to enable the OK button.
+====================
+勾选此复选框以启用“确定”按钮。
+====================
+
+====================
+index 55
+rva 30416856
+length 4
+utf16le
+fill_space
+====================
+OK
+====================
+确定
+====================
+
+====================
+index 56
+rva 30417284
+length 12
+utf16le
+fill_space
+====================
+Cancel
+====================
+取消
+====================
+
+====================
+index 57
+rva 30417436
+length 56
+utf16le
+fill_space
+====================
+Keep these display settings?
+====================
+保存这些显示配置？
+====================
+
+====================
+index 58
+rva 30417526
+length 34
+utf16le
+fill_space
+====================
+Direct3D Settings
+====================
+Direct3D设置
+====================
+
+====================
+index 59
+rva 30417616
+length 4
+utf16le
+fill_space
+====================
+OK
+====================
+确定
+====================
+
+====================
+index 60
+rva 30417652
+length 12
+utf16le
+fill_space
+====================
+Cancel
+====================
+取消
+====================
+
+====================
+index 61
+rva 30417788
+length 404
+utf16le
+fill_space
+====================
+Graphics processing using Direct3D can be enabled or disabled here.
+
+When set to "Enable", the game's visuals will appear smoother when scaled,
+such as when the display settings is set to "Full screen".
+====================
+此处可以启用或禁用使用 Direct3D 的图形处理。
+
+设置为“启用”时，游戏画面在缩放时会显得更平滑，
+例如当显示设置设为“全屏”时。
+====================
+
+====================
+index 62
+rva 30418224
+length 254
+utf16le
+fill_space
+====================
+Set this to "Disable" if any problems arise with Direct3D processing.
+
+Your graphics processor must support DirectX 9 or above.
+====================
+如果 Direct3D 处理出现任何问题，请将其设为“禁用”。
+
+你的图形处理器必须支持 DirectX 9 或更高版本。
+====================
+
+====================
+index 63
+rva 30417696
+length 12
+utf16le
+fill_space
+====================
+Enable
+====================
+启用
+====================
+
+====================
+index 64
+rva 30417740
+length 14
+utf16le
+fill_space
+====================
+Disable
+====================
+禁用
+====================
+
+====================
+index 65
+rva 30418518
+length 28
+utf16le
+fill_space
+====================
+Movie Settings
+====================
+视频设置
+====================
+
+====================
+index 66
+rva 30418600
+length 4
+utf16le
+fill_space
+====================
+OK
+====================
+确定
+====================
+
+====================
+index 67
+rva 30418636
+length 12
+utf16le
+fill_space
+====================
+Cancel
+====================
+取消
+====================
+
+====================
+index 68
+rva 30418680
+length 26
+utf16le
+fill_space
+====================
+MCI (Default)
+====================
+MCI（默认）
+====================
+
+====================
+index 69
+rva 30418860
+length 278
+utf16le
+fill_space
+====================
+"DirectShow" needs for operation DirectX greater or equal than 8.1.
+*Depending on the environment of your computer, it might not work well.
+====================
+“DirectShow”需要 DirectX 8.1 或更高版本才能运行。
+*根据你的计算机环境，它可能无法正常工作。
+====================
+
+====================
+index 70
+rva 30419172
+length 310
+utf16le
+fill_space
+====================
+"WindowsMediaPlayer" needs for operation Varsion9, 10, or 11 of WindowsMediaPlayer.
+*Depending on the environment of your computer, it might not work well.
+====================
+“WindowsMediaPlayer”需要 Windows Media Player 版本 9、10 或 11 才能运行。
+*根据你的计算机环境，它可能无法正常工作。
+====================
+
+====================
+index 71
+rva 30419516
+length 354
+utf16le
+fill_space
+====================
+This sets the movies reproduction method.
+When movies are not played well in the game, please change this.
+
+*When there is not a problem particularly, please set this for "MCI".
+====================
+此设置用于设定视频的播放方式。
+当游戏中的视频无法正常播放时，请更改此项。
+
+*如果没有任何问题，请将其设为“MCI”。
+====================
+
+====================
+index 72
+rva 30419910
+length 24
+utf16le
+fill_space
+====================
+MMX Settings
+====================
+MMX设置
+====================
+
+====================
+index 73
+rva 30419988
+length 4
+utf16le
+fill_space
+====================
+OK
+====================
+确定
+====================
+
+====================
+index 74
+rva 30420024
+length 12
+utf16le
+fill_space
+====================
+Cancel
+====================
+取消
+====================
+
+====================
+index 75
+rva 30420068
+length 16
+utf16le
+fill_space
+====================
+Enabling
+====================
+启用
+====================
+
+====================
+index 76
+rva 30420116
+length 18
+utf16le
+fill_space
+====================
+Disabling
+====================
+禁用
+====================
+
+====================
+index 77
+rva 30420168
+length 316
+utf16le
+fill_space
+====================
+This sets "Enabling/Disabling" of MMX data-processing.
+
+If MMX is set "Enabling", the rotation, enlargement,
+and reduction rendering of graphics become vivid.
+====================
+此设置用于设定 MMX 数据处理的“启用/禁用”。
+
+如果将 MMX 设为“启用”，图形的旋转、放大
+和缩小渲染会变得更加清晰。
+====================
+
+====================
+index 78
+rva 30420516
+length 382
+utf16le
+fill_space
+====================
+Or, if it is set "Disabling", the vividness decreases,
+but improves in the processing speed.
+
+Besides, when MMX data-processing has some problem,
+this can evade it if this is set "Disabling".
+====================
+或者，如果将其设为“禁用”，清晰度会降低，
+但处理速度会提升。
+
+此外，当 MMX 数据处理出现某些问题时，
+将其设为“禁用”可以规避该问题。
+====================
+
+====================
+index 79
+rva 30420932
+length 180
+utf16le
+fill_space
+====================
+*When your using CPU is not adaptable to MMX data-processing,
+this feature is unavailable.
+====================
+*当你使用的 CPU 不支持 MMX 数据处理时，此功能不可用。
 ====================
