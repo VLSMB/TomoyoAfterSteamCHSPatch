@@ -6,7 +6,7 @@
 #include "patch.h"
 
 #define SEEN_DATA_DIR__ "patch"
-#define WINDOW_TITLE__ "智代后记（Steam版）汉化补丁 v0.1.0-dev"
+#define WINDOW_TITLE__ "智代后记（Steam版）汉化补丁 v0.1.0"
 #define C_NAKED_FUNCTION(x) extern "C" void __declspec(naked) x()
 
 constexpr const char* PROCESS_NAME = "RealLiveEn.exe";
