@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VersionInjectionPatch", "Ve
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PatchResourcePacker", "PatchResourcePacker\PatchResourcePacker.vcxproj", "{8B6FEAE1-B3C8-4631-B5BD-4FBD1FD563D4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PatchInstaller", "PatchInstaller\PatchInstaller.vcxproj", "{6897B401-FE8B-4228-9240-7F6E795E4B67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{8B6FEAE1-B3C8-4631-B5BD-4FBD1FD563D4}.Release|x64.Build.0 = Release|x64
 		{8B6FEAE1-B3C8-4631-B5BD-4FBD1FD563D4}.Release|x86.ActiveCfg = Release|Win32
 		{8B6FEAE1-B3C8-4631-B5BD-4FBD1FD563D4}.Release|x86.Build.0 = Release|Win32
+		{6897B401-FE8B-4228-9240-7F6E795E4B67}.Debug|x64.ActiveCfg = Debug|x64
+		{6897B401-FE8B-4228-9240-7F6E795E4B67}.Debug|x64.Build.0 = Debug|x64
+		{6897B401-FE8B-4228-9240-7F6E795E4B67}.Debug|x86.ActiveCfg = Debug|Win32
+		{6897B401-FE8B-4228-9240-7F6E795E4B67}.Debug|x86.Build.0 = Debug|Win32
+		{6897B401-FE8B-4228-9240-7F6E795E4B67}.Release|x64.ActiveCfg = Release|x64
+		{6897B401-FE8B-4228-9240-7F6E795E4B67}.Release|x64.Build.0 = Release|x64
+		{6897B401-FE8B-4228-9240-7F6E795E4B67}.Release|x86.ActiveCfg = Release|Win32
+		{6897B401-FE8B-4228-9240-7F6E795E4B67}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
