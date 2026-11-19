@@ -10,7 +10,12 @@
 #include <cctype>
 #include <cwctype>
 #include "define.h"
+
+#if __has_include("generated/resource.h")
 #include "generated/resource.h"
+#else
+#include "resource.h"
+#endif
 
 #pragma comment(lib, "comctl32.lib")
 #pragma comment(lib, "ole32.lib")
@@ -23,6 +28,7 @@ constexpr auto IDC_EDIT_DIR = 1001;
 constexpr auto IDC_BTN_BROWSE = 1002;
 constexpr auto IDC_BTN_OK = 1003;
 constexpr auto IDC_BTN_CANCEL = 1004;
+constexpr auto IDC_BTN_UNINSTALL = 1005;
 constexpr auto GAME_APPID_STR = L"462990";
 constexpr auto PATCH_WINDOW_CLASS = L"VLSMB_PATCH";
 
@@ -204,6 +210,43 @@ static bool ExtractResource(HMODULE hMod, unsigned resId,
     return true;
 }
 
+static bool UninstallPatch(const fs::path& gameDir, std::wstring& msg) {
+    std::error_code ec;
+    if (!fs::exists(gameDir, ec) || ec || !fs::is_directory(gameDir, ec) || ec) {
+        msg = L"游戏目录不存在: " + gameDir.wstring();
+        return false;
+    }
+
+    int removed = 0;
+    int missing = 0;
+
+    for (auto& [relPath, resId] : PATCH_FILES) {
+        fs::path target = gameDir / fs::path(relPath);
+
+        std::error_code e2;
+        if (!fs::exists(target, e2) || e2) {
+            ++missing;
+            continue;
+        }
+
+        if (!fs::is_regular_file(target, e2) || e2) {
+            msg = L"目标不是普通文件，无法删除: " + target.wstring();
+            return false;
+        }
+
+        if (!fs::remove(target, e2) || e2) {
+            msg = L"删除失败: " + target.wstring()
+                + L" (" + std::to_wstring(e2.value()) + L")";
+            return false;
+        }
+        ++removed;
+    }
+
+    msg = L"卸载完成：删除 " + std::to_wstring(removed)
+        + L" 个文件，跳过 " + std::to_wstring(missing) + L" 个不存在的文件";
+    return true;
+}
+
 static bool ApplyPatch(const fs::path& gameDir, std::wstring& msg) {
     std::error_code ec;
     if (!fs::exists(gameDir, ec) || ec || !fs::is_directory(gameDir, ec) || ec) {
@@ -211,7 +254,7 @@ static bool ApplyPatch(const fs::path& gameDir, std::wstring& msg) {
         return false;
     }
 
-    HMODULE hMod = GetModuleHandleW(nullptr);  // 资源在本 exe 内
+    HMODULE hMod = GetModuleHandleW(nullptr);
     int okCount = 0;
 
     for (auto& [relPath, resId] : PATCH_FILES) {
@@ -229,7 +272,7 @@ static bool ApplyPatch(const fs::path& gameDir, std::wstring& msg) {
     return true;
 }
 
-static void OnConfirm(HWND hWnd) {
+static void OnUninstallConfim(HWND hWnd) {
     wchar_t buf[MAX_PATH * 4]{};
     GetWindowTextW(handle_edit, buf, MAX_PATH * 4);
     std::wstring dir = buf;
@@ -243,6 +286,41 @@ static void OnConfirm(HWND hWnd) {
     if (dir.empty()) {
         MessageBoxW(hWnd, L"请先选择或输入游戏所在的目录", L"提示", MB_OK | MB_ICONWARNING);
         return;
+    } else {
+        int val = MessageBoxW(hWnd, L"确定要卸载汉化补丁资源吗？", L"提示", MB_ICONWARNING | MB_YESNO);
+        if (val != IDYES) {
+            return;
+        }
+    }
+
+    std::wstring msg;
+    if (!UninstallPatch(dir, msg)) {
+        MessageBoxW(hWnd, msg.c_str(), L"失败", MB_OK | MB_ICONERROR);
+        return;
+    }
+
+    MessageBoxW(hWnd, msg.c_str(), L"成功", MB_OK | MB_ICONINFORMATION);
+}
+
+static void OnInstallConfirm(HWND hWnd) {
+    wchar_t buf[MAX_PATH * 4]{};
+    GetWindowTextW(handle_edit, buf, MAX_PATH * 4);
+    std::wstring dir = buf;
+
+    auto trim = [](std::wstring& s) {
+        while (!s.empty() && iswspace(s.front())) s.erase(s.begin());
+        while (!s.empty() && iswspace(s.back())) s.pop_back();
+        };
+    trim(dir);
+
+    if (dir.empty()) {
+        MessageBoxW(hWnd, L"请先选择或输入游戏所在的目录", L"提示", MB_OK | MB_ICONWARNING);
+        return;
+    } else {
+        int val = MessageBoxW(hWnd, PATCH_INFORMATION, L"补丁信息", MB_ICONWARNING | MB_YESNO);
+        if (val != IDYES) {
+            return;
+        }
     }
 
     std::wstring msg;
@@ -252,7 +330,6 @@ static void OnConfirm(HWND hWnd) {
     }
 
     MessageBoxW(hWnd, msg.c_str(), L"成功", MB_OK | MB_ICONINFORMATION);
-    DestroyWindow(hWnd);
 }
 
 static LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
@@ -268,9 +345,12 @@ static LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lPara
             CreateWindowW(L"BUTTON", L"浏览...",
                 WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_PUSHBUTTON,
                 540, 18, 80, 26, hWnd, (HMENU)IDC_BTN_BROWSE, nullptr, nullptr);
-            CreateWindowW(L"BUTTON", L"确认",
+            CreateWindowW(L"BUTTON", L"安装",
                 WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_DEFPUSHBUTTON,
-                380, 70, 110, 32, hWnd, (HMENU)IDC_BTN_OK, nullptr, nullptr);
+                250, 70, 110, 32, hWnd, (HMENU)IDC_BTN_OK, nullptr, nullptr);
+            CreateWindowW(L"BUTTON", L"卸载",
+                WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_PUSHBUTTON,
+                380, 70, 110, 32, hWnd, (HMENU)IDC_BTN_UNINSTALL, nullptr, nullptr);
             CreateWindowW(L"BUTTON", L"取消",
                 WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_PUSHBUTTON,
                 510, 70, 110, 32, hWnd, (HMENU)IDC_BTN_CANCEL, nullptr, nullptr);
@@ -306,7 +386,10 @@ static LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lPara
                     break;
                 }
                 case IDC_BTN_OK:
-                    OnConfirm(hWnd);
+                    OnInstallConfirm(hWnd);
+                    break;
+                case IDC_BTN_UNINSTALL:
+                    OnUninstallConfim(hWnd);
                     break;
                 case IDC_BTN_CANCEL:
                     DestroyWindow(hWnd);

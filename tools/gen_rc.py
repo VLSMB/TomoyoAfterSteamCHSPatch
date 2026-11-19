@@ -4,15 +4,49 @@ import re
 import shutil
 import subprocess
 
+import os
+
+def loadInformation(path):
+    if not os.path.isfile(path):
+        return 'L"确定要安装汉化补丁吗？"'
+
+    try:
+        with open(path, "r", encoding="utf-8", newline="") as f:
+            text = f.read()
+    except (OSError, UnicodeDecodeError):
+        return 'L"确定要安装汉化补丁吗？"'
+
+    out = []
+    for ch in text:
+        if ch == "\\":
+            out.append("\\\\")
+        elif ch == '"':
+            out.append('\\"')
+        elif ch == "\n":
+            out.append("\\n")
+        elif ch == "\r":
+            out.append("\\r")
+        elif ch == "\t":
+            out.append("\\t")
+        elif ord(ch) < 0x20:
+            out.append("\\u%04x" % ord(ch))
+        else:
+            out.append(ch)
+
+    return 'L"' + "".join(out) + '"'
+
 def main():
-    if len(sys.argv) != 5:
-        print(f"用法: {sys.argv[0]} <generated_dir> <packer_exe> <version_dll> <solution_dir>")
+    if len(sys.argv) not in (5, 6):
+        print(f"用法: {sys.argv[0]} <generated_dir> <packer_exe> <version_dll> <solution_dir> [patch_flag]")
         sys.exit(1)
 
     generated_dir = os.path.abspath(sys.argv[1])
     packer_exe    = os.path.abspath(sys.argv[2])
     version_dll   = os.path.abspath(sys.argv[3])
     solution_dir  = os.path.abspath(sys.argv[4])
+    patch_flag = False
+    if len(sys.argv) == 6:
+        patch_flag = sys.argv[5].strip().lower() == "true"
 
     for label, p in [("Packer", packer_exe), ("version.dll", version_dll), ("SolutionDir", solution_dir)]:
         if not os.path.exists(p):
@@ -53,8 +87,15 @@ def main():
         shutil.rmtree(res_dir, ignore_errors=True)
     os.makedirs(res_dir, exist_ok=True)
 
-    # 3.1 SEEN_CHS.TXT
-    shutil.copy2(seen_chs, os.path.join(res_dir, "SEEN_CHS.TXT"))
+    # 3.1 SEEN_CHS.TXT / patch 文件夹
+    if patch_flag:
+        src_txt = os.path.join(solution_dir, "patch")
+        if os.path.isdir(src_txt):
+            shutil.copytree(src_txt, os.path.join(res_dir, "patch"))
+        else:
+            print(f"[警告] patch 文件夹不存在，跳过: {src_txt}")
+    else:
+        shutil.copy2(seen_chs, os.path.join(res_dir, "SEEN_CHS.TXT"))
 
     # 3.2 传入的 version.dll
     shutil.copy2(version_dll, os.path.join(res_dir, "version.dll"))
@@ -85,26 +126,28 @@ def main():
             res_id += 1
 
     def macro_of(rel: str) -> str:
-        return "IDR_" + re.sub(r'[^A-Za-z0-9]', '_', rel).upper()
+        return "VLIDR_" + re.sub(r'[^A-Za-z0-9]', '_', rel).upper()
 
     header_path = os.path.join(generated_dir, "resource.h")
-    with open(header_path, "w", encoding="utf-8", newline="\n") as h:
-        h.write("#pragma once\n")
+    with open(header_path, "w", encoding="gbk", newline="\n") as h:
+        h.write("#ifndef __VLSMB_RESOURCE_GEN_H\n")
+        h.write("#define __VLSMB_RESOURCE_GEN_H\n")
         h.write("#include <array>\n")
         h.write("#include <utility>\n\n")
         h.write(f"// 自动生成，请勿手改。资源数: {len(files)}\n\n")
         for rid, rel, _ in files:
             h.write(f"#define {macro_of(rel)} {rid}\n")
-        h.write(f"\n#define IDR_FILE_COUNT {len(files)}\n\n")
-        h.write("constexpr std::array<std::pair<const wchar_t*, unsigned>, "
+        h.write("\nconstexpr std::array<std::pair<const wchar_t*, unsigned>, "
                 f"{len(files)}> PATCH_FILES = {{{{\n")
         for rid, rel, _ in files:
             wrel = rel.replace("/", "\\\\")
             h.write(f'    {{ L"{wrel}", {rid} }},\n')
         h.write("}};\n")
+        h.write(f"\nconstexpr auto PATCH_INFORMATION = {loadInformation(os.path.join(solution_dir, "INFORMATION.md"))};\n")
+        h.write("\n#endif\n")
 
     rc_path = os.path.join(generated_dir, "resource.rc")
-    with open(rc_path, "w", encoding="utf-8", newline="\r\n") as rc:
+    with open(rc_path, "w", encoding="gbk", newline="\r\n") as rc:
         rc.write('#include "resource.h"\n')
         rc.write('#include <windows.h>\n\n')
         for rid, rel, full in files:
