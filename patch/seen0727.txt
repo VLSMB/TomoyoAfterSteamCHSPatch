@@ -9,7 +9,7 @@ length 15
 ====================
 July 27th (Tue)
 ====================
-July 27th (Tue)
+7月27日(星期二)
 ====================
 
 ====================
@@ -20,7 +20,7 @@ length 46
 ====================
 \"Takafumi, why don't you take part in this?\"
 ====================
-\"Takafumi, why don't you take part in this?\"
+「鹰文，不试试参加这个吗」
 ====================
 
 ====================
@@ -31,7 +31,7 @@ length 109
 ====================
 After Kanako goes out to buy ice cream, Tomoya sets a pamphlet on the table that's been cleared after dinner.
 ====================
-After Kanako goes out to buy ice cream, Tomoya sets a pamphlet on the table that's been cleared after dinner.
+在河南子出去买冰激凌后，收拾完晚餐的智代将一本小册子搁在了矮脚桌上。
 ====================
 
 ====================
@@ -42,7 +42,7 @@ length 43
 ====================
 Takafumi and I peek at it at the same time.
 ====================
-Takafumi and I peek at it at the same time.
+我和鹰文同时凑了过去看。
 ====================
 
 ====================
@@ -53,7 +53,7 @@ length 40
 ====================
 The words \"public marathon\" are on it.
 ====================
-The words \"public marathon\" are on it.
+封面上印着『市民马拉松大会』的字样。
 ====================
 
 ====================
@@ -64,7 +64,7 @@ length 54
 ====================
 \"You went and told her everything, right, Nii-chan?\"
 ====================
-\"You went and told her everything, right, Nii-chan?\"
+「你果然还是跟她说了啊…大哥」
 ====================
 
 ====================
@@ -75,7 +75,7 @@ length 10
 ====================
 \"Dunno.\"
 ====================
-\"Dunno.\"
+「巧合吧」
 ====================
 
 ====================
@@ -86,7 +86,7 @@ length 41
 ====================
 \"There's no way this is a coincidence!\"
 ====================
-\"There's no way this is a coincidence!\"
+「话题真出奇地相关啊」
 ====================
 
 ====================
@@ -97,7 +97,7 @@ length 42
 ====================
 \"I'm telling you I didn't say anything.\"
 ====================
-\"I'm telling you I didn't say anything.\"
+「我没说过」
 ====================
 
 ====================
@@ -108,7 +108,7 @@ length 56
 ====================
 \"Yeah... well, I heard the story. Don't blame Tomoya.\"
 ====================
-\"Yeah... well, I heard the story. Don't blame Tomoya.\"
+「嗯…不瞒你了，我是听他说了。但你也别怪朋也了」
 ====================
 
 ====================
@@ -119,7 +119,7 @@ length 19
 ====================
 \"But he spilled.\"
 ====================
-\"But he spilled.\"
+「被揭发了哦」
 ====================
 
 ====================
@@ -130,7 +130,7 @@ length 21
 ====================
 \"Tomo, let's play.\"
 ====================
-\"Tomo, let's play.\"
+「小智，来玩吧—」
 ====================
 
 ====================
@@ -141,7 +141,7 @@ length 48
 ====================
 \"What, you're free? Guess I've got no choice.\"
 ====================
-\"What, you're free? Guess I've got no choice.\"
+「怎么了怎么了，很无聊吗？真拿你没办法啊—」
 ====================
 
 ====================
@@ -152,7 +152,7 @@ length 43
 ====================
 \"You are clearly running away, Nii-chan!\"
 ====================
-\"You are clearly running away, Nii-chan!\"
+「别那么明显地逃避话题啊，大哥」
 ====================
 
 ====================
@@ -163,7 +163,7 @@ length 33
 ====================
 \"Takafumi, I'm talking to you.\"
 ====================
-\"Takafumi, I'm talking to you.\"
+「鹰文，我在和你说话哦」
 ====================
 
 ====================
@@ -174,7 +174,7 @@ length 36
 ====================
 \"I don't feel like participating.\"
 ====================
-\"I don't feel like participating.\"
+「没兴趣参加啦，那种玩意」
 ====================
 
 ====================
@@ -185,7 +185,7 @@ length 29
 ====================
 \"I'll just exhaust myself.\"
 ====================
-\"I'll just exhaust myself.\"
+「只会让我更累哦」
 ====================
 
 ====================
@@ -196,7 +196,7 @@ length 23
 ====================
 \"Yeah, I understand.\"
 ====================
-\"Yeah, I understand.\"
+「嗯，我知道啊」
 ====================
 
 ====================
@@ -207,7 +207,7 @@ length 34
 ====================
 \"Even so, you should run again.\"
 ====================
-\"Even so, you should run again.\"
+「但就算如此，你仍该再一次跑起来」
 ====================
 
 ====================
@@ -218,7 +218,7 @@ length 22
 ====================
 \"For your own sake.\"
 ====================
-\"For your own sake.\"
+「为了你自己」
 ====================
 
 ====================
@@ -229,7 +229,7 @@ length 38
 ====================
 \"If you do, you'll surely remember.\"
 ====================
-\"If you do, you'll surely remember.\"
+「那样的话，你一定会回忆起来的」
 ====================
 
 ====================
@@ -240,7 +240,7 @@ length 56
 ====================
 \"The passion you had when you ran among other things.\"
 ====================
-\"The passion you had when you ran among other things.\"
+「奔跑时的激情啊，还有其余种种事情啊」
 ====================
 
 ====================
@@ -251,7 +251,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+「………」
 ====================
 
 ====================
@@ -262,7 +262,7 @@ length 47
 ====================
 \"You know, I couldn't walk at all last year.\"
 ====================
-\"You know, I couldn't walk at all last year.\"
+「我说啊，我，去年一直连路都没走过吧？」
 ====================
 
 ====================
@@ -273,7 +273,7 @@ length 9
 ====================
 \"Yeah.\"
 ====================
-\"Yeah.\"
+「嗯」
 ====================
 
 ====================
@@ -284,7 +284,7 @@ length 70
 ====================
 \"You realize because of that, all of my leg muscles have atrophied?\"
 ====================
-\"You realize because of that, all of my leg muscles have atrophied?\"
+「所以说，你该清楚我腿上的肌肉都已松弛了吧？」
 ====================
 
 ====================
@@ -295,7 +295,7 @@ length 25
 ====================
 \"Yeah... you're right.\"
 ====================
-\"Yeah... you're right.\"
+「嗯…是啊」
 ====================
 
 ====================
@@ -306,7 +306,7 @@ length 80
 ====================
 \"Also, I haven't been training at all, so I'll run out of breath immediately.\"
 ====================
-\"Also, I haven't been training at all, so I'll run out of breath immediately.\"
+「而且，因为训练之类的全然都没进行过，就算是呼吸也会很快就混乱的哦？」
 ====================
 
 ====================
@@ -317,7 +317,7 @@ length 11
 ====================
 \"Yeah...\"
 ====================
-\"Yeah...\"
+「嗯…」
 ====================
 
 ====================
@@ -328,7 +328,7 @@ length 44
 ====================
 \"And you want me to run despite all that?\"
 ====================
-\"And you want me to run despite all that?\"
+「就算这样你仍要叫我跑吗？」
 ====================
 
 ====================
@@ -339,7 +339,7 @@ length 57
 ====================
 Takafumi stares directly at Tomoyo as though testing her.
 ====================
-Takafumi stares directly at Tomoyo as though testing her.
+鹰文用试问的目光直直地注视着智代。
 ====================
 
 ====================
@@ -350,7 +350,7 @@ length 9
 ====================
 \"Yeah.\"
 ====================
-\"Yeah.\"
+「嗯」
 ====================
 
 ====================
@@ -361,7 +361,7 @@ length 34
 ====================
 She nods without a second thought.
 ====================
-She nods without a second thought.
+智代毫不犹豫地点下头。
 ====================
 
 ====================
@@ -372,7 +372,7 @@ length 56
 ====================
 There's no one who can stop Tomoyo when she's like this.
 ====================
-There's no one who can stop Tomoyo when she's like this.
+已成这样的智代，是谁也无法阻止的。
 ====================
 
 ====================
@@ -383,5 +383,5 @@ length 59
 ====================
 No one knows that better than her little brother, Takafumi.
 ====================
-No one knows that better than her little brother, Takafumi.
+而最清楚这点的，莫过于作为弟弟的鹰文自己了。
 ====================

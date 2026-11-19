@@ -9,7 +9,7 @@ length 15
 ====================
 July 25th (Sun)
 ====================
-July 25th (Sun)
+7月25日(星期日)
 ====================
 
 ====================
@@ -20,7 +20,7 @@ length 108
 ====================
 \"When I'm watching you from the side, I can't see a difference between you and Takafumi hitting the keys.\"
 ====================
-\"When I'm watching you from the side, I can't see a difference between you and Takafumi hitting the keys.\"
+「在旁观者眼中看来，已难以看出与鹰文打起来的有何差别啰」
 ====================
 
 ====================
@@ -31,7 +31,7 @@ length 42
 ====================
 Taking what Tomoyo said, I prepare myself.
 ====================
-Taking what Tomoyo said, I prepare myself.
+听过智代这番话后，我做好了觉悟。
 ====================
 
 ====================
@@ -42,7 +42,7 @@ length 30
 ====================
 \"This is revenge, Takafumi.\"
 ====================
-\"This is revenge, Takafumi.\"
+「我来复仇了，鹰文」
 ====================
 
 ====================
@@ -53,7 +53,7 @@ length 66
 ====================
 \"You remember that if you lose, you can't challenge me anymore?\"
 ====================
-\"You remember that if you lose, you can't challenge me anymore?\"
+「又输了的话，就不再接受挑战的惩罚，还记得吗？」
 ====================
 
 ====================
@@ -64,7 +64,7 @@ length 9
 ====================
 \"Yeah.\"
 ====================
-\"Yeah.\"
+「啊」
 ====================
 
 ====================
@@ -75,7 +75,7 @@ length 63
 ====================
 I expended all of my willpower, so that I could bet it on this.
 ====================
-I expended all of my willpower, so that I could bet it on this.
+就当我对此的坚持全都白费了。
 ====================
 
 ====================
@@ -86,7 +86,7 @@ length 29
 ====================
 \"Okay. Then I'll go first.\"
 ====================
-\"Okay. Then I'll go first.\"
+「O—K—。那我先来啰」
 ====================
 
 ====================
@@ -97,7 +97,7 @@ length 82
 ====================
 Takafumi starts up the typing practice software like he's been doing up until now.
 ====================
-Takafumi starts up the typing practice software like he's been doing up until now.
+鹰文启动了至今为止都未换过的打字练习软件。
 ====================
 
 ====================
@@ -108,7 +108,7 @@ length 77
 ====================
 He sets it to the highest difficulty and starts tapping away at the keyboard.
 ====================
-He sets it to the highest difficulty and starts tapping away at the keyboard.
+设置为最高难度后，鹰文便敲起键盘来。
 ====================
 
 ====================
@@ -119,7 +119,7 @@ length 13
 ====================
 His result...
 ====================
-His result...
+结果…
 ====================
 
 ====================
@@ -130,7 +130,7 @@ length 10
 ====================
 \"Ngh...\"
 ====================
-\"Ngh...\"
+「嗯—…」
 ====================
 
 ====================
@@ -141,7 +141,7 @@ length 37
 ====================
 1428 characters entered. 18 mistakes.
 ====================
-1428 characters entered. 18 mistakes.
+输入文字共1428个。错误18处。
 ====================
 
 ====================
@@ -152,7 +152,7 @@ length 69
 ====================
 Mistakes are subtracted from the total, so Takafumi's result is 1410.
 ====================
-Mistakes are subtracted from the total, so Takafumi's result is 1410.
+若减掉输错的，鹰文共打了1410字。
 ====================
 
 ====================
@@ -163,7 +163,7 @@ length 46
 ====================
 It's a lower score than he's had up until now.
 ====================
-It's a lower score than he's had up until now.
+是迄今为止的最低得分。
 ====================
 
 ====================
@@ -174,7 +174,7 @@ length 40
 ====================
 \"But oh well, I should still be safe.\"
 ====================
-\"But oh well, I should still be safe.\"
+「不过还好，还在安全范围内吧」
 ====================
 
 ====================
@@ -185,7 +185,7 @@ length 100
 ====================
 Like he says, even though that number doesn't reflect his actual level, it's one I've never reached.
 ====================
-Like he says, even though that number doesn't reflect his actual level, it's one I've never reached.
+正是如此，即使对鹰文来说连正常状态都谈不上的这个分数，我也从未没达到过。
 ====================
 
 ====================
@@ -196,7 +196,7 @@ length 22
 ====================
 But I've gotten close.
 ====================
-But I've gotten close.
+但是，与之接近的得分打出过。
 ====================
 
 ====================
@@ -207,7 +207,7 @@ length 41
 ====================
 All that's left is for me to concentrate.
 ====================
-All that's left is for me to concentrate.
+之后必须全神贯注了。
 ====================
 
 ====================
@@ -218,7 +218,7 @@ length 52
 ====================
 I put my fingers on the keyboard and prepare myself.
 ====================
-I put my fingers on the keyboard and prepare myself.
+我将手指置于键盘上，准备打字。
 ====================
 
 ====================
@@ -229,7 +229,7 @@ length 46
 ====================
 As it starts, characters appear on the screen.
 ====================
-As it starts, characters appear on the screen.
+选择开始后，屏幕上随即浮现出文字。
 ====================
 
 ====================
@@ -240,7 +240,7 @@ length 73
 ====================
 My fingers move faster than my brain and I input the characters as shown.
 ====================
-My fingers move faster than my brain and I input the characters as shown.
+手指以意识所不及的速度运动着，敲击出相同的文字。
 ====================
 
 ====================
@@ -251,7 +251,7 @@ length 26
 ====================
 I'm different from before.
 ====================
-I'm different from before.
+与之前不同。
 ====================
 
 ====================
@@ -262,7 +262,7 @@ length 27
 ====================
 I'm completely in the zone.
 ====================
-I'm completely in the zone.
+此刻已然心无杂念。
 ====================
 
 ====================
@@ -273,7 +273,7 @@ length 101
 ====================
 Before I know it, I've forgotten about the contest and find myself absorbed in just hitting the keys.
 ====================
-Before I know it, I've forgotten about the contest and find myself absorbed in just hitting the keys.
+不知何时起，我甚至连胜负都抛诸脑后了，只顾埋头于敲击键盘。
 ====================
 
 ====================
@@ -284,7 +284,7 @@ length 36
 ====================
 The end sign comes up and it's over.
 ====================
-The end sign comes up and it's over.
+结束的提示弹出，比赛就此结束。
 ====================
 
 ====================
@@ -295,7 +295,7 @@ length 36
 ====================
 \"...you've improved like crazy...\"
 ====================
-\"...you've improved like crazy...\"
+「…进步神速啊…」
 ====================
 
 ====================
@@ -306,7 +306,7 @@ length 35
 ====================
 Takafumi sounds like he's groaning.
 ====================
-Takafumi sounds like he's groaning.
+传来了鹰文的感叹的声。
 ====================
 
 ====================
@@ -317,7 +317,7 @@ length 26
 ====================
 I hold my breath and wait.
 ====================
-I hold my breath and wait.
+我咽下口水等待结果。
 ====================
 
 ====================
@@ -328,7 +328,7 @@ length 16
 ====================
 The result is...
 ====================
-The result is...
+结果是…
 ====================
 
 ====================
@@ -339,7 +339,7 @@ length 9
 ====================
 \"Uwah!\"
 ====================
-\"Uwah!\"
+「哇」
 ====================
 
 ====================
@@ -350,7 +350,7 @@ length 49
 ====================
 1419 characters. 6 mistakes. For a total of 1413.
 ====================
-1419 characters. 6 mistakes. For a total of 1413.
+输入1419字。错误6处。减去仍有1413字。
 ====================
 
 ====================
@@ -361,5 +361,5 @@ length 33
 ====================
 \"To think I've lost at this...\"
 ====================
-\"To think I've lost at this...\"
+「竟然就这么输了…」
 ====================

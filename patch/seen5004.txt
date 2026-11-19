@@ -9,7 +9,7 @@ length 13
 ====================
 After - Day 5
 ====================
-After - Day 5
+后记 第5日
 ====================
 
 ====================
@@ -20,7 +20,7 @@ length 46
 ====================
 It's a holiday today, so there are no classes.
 ====================
-It's a holiday today, so there are no classes.
+今天放假，所以没有课。
 ====================
 
 ====================
@@ -31,7 +31,7 @@ length 64
 ====================
 \"What should we do today? We can't go to school on a day off.\"
 ====================
-\"What should we do today? We can't go to school on a day off.\"
+「今天做什么？学校放假的话就不能进去了吧」
 ====================
 
 ====================
@@ -42,7 +42,7 @@ length 100
 ====================
 \"Yeah. To start, I was thinking about going shopping. After all, you're running low on groceries.\"
 ====================
-\"Yeah. To start, I was thinking about going shopping. After all, you're running low on groceries.\"
+「嗯。我想先去买点东西。食物已没多少了」
 ====================
 
 ====================
@@ -53,7 +53,7 @@ length 109
 ====================
 \"Even though I bring food from my home and leave some in your fridge, it's about time for you to stock up.\"
 ====================
-\"Even though I bring food from my home and leave some in your fridge, it's about time for you to stock up.\"
+「尽管从我家拿了些过来，放在朋也家的冰箱里，但也要去补充一些了」
 ====================
 
 ====================
@@ -64,7 +64,7 @@ length 8
 ====================
 I agree.
 ====================
-I agree.
+我赞成这个意见。
 ====================
 
 ====================
@@ -75,7 +75,7 @@ length 115
 ====================
 Whenever I went out these past few days, the only place I went was school. We should take a breather and cut loose.
 ====================
-Whenever I went out these past few days, the only place I went was school. We should take a breather and cut loose.
+这几天一直往学校跑，也该放松一下了。
 ====================
 
 ====================
@@ -86,7 +86,7 @@ length 34
 ====================
 We head for the shopping district.
 ====================
-We head for the shopping district.
+我们走向了商店街。
 ====================
 
 ====================
@@ -97,7 +97,7 @@ length 41
 ====================
 \"This area's changed a lot, hasn't it?\"
 ====================
-\"This area's changed a lot, hasn't it?\"
+「这一带变化很大啊」
 ====================
 
 ====================
@@ -108,7 +108,7 @@ length 77
 ====================
 \"Ah, that's true. It's much more developed compared to what it used to be.\"
 ====================
-\"Ah, that's true. It's much more developed compared to what it used to be.\"
+「啊，是呢。与过去相比，繁华了不少呢」
 ====================
 
 ====================
@@ -119,7 +119,7 @@ length 49
 ====================
 \"There are a lot more people living here, too.\"
 ====================
-\"There are a lot more people living here, too.\"
+「因为这座小镇的人也增多了吧」
 ====================
 
 ====================
@@ -130,7 +130,7 @@ length 44
 ====================
 I walk down the street together with Tomoyo.
 ====================
-I walk down the street together with Tomoyo.
+和智代一起走在这条街上。
 ====================
 
 ====================
@@ -141,7 +141,7 @@ length 78
 ====================
 It goes without saying. The scenery looks very different from what I remember.
 ====================
-It goes without saying. The scenery looks very different from what I remember.
+当然，这里的样子已和我记忆中的大不相同了。
 ====================
 
 ====================
@@ -152,7 +152,7 @@ length 106
 ====================
 So much that I would think \"I didn't know there was a building here\" and \"so there was a street here\".
 ====================
-So much that I would think \"I didn't know there was a building here\" and \"so there was a street here\".
+『这种地方，竟也有这样的建筑啊』，或者『这里也有一条路了吗？』这样。
 ====================
 
 ====================
@@ -163,7 +163,7 @@ length 49
 ====================
 We can't help but succumb to the passage of time.
 ====================
-We can't help but succumb to the passage of time.
+切实地感受到了时间的流逝。
 ====================
 
 ====================
@@ -174,7 +174,7 @@ length 16
 ====================
 \"What's that?\"
 ====================
-\"What's that?\"
+「那是什么？」
 ====================
 
 ====================
@@ -185,7 +185,7 @@ length 72
 ====================
 A pink machine sticking out onto the street corner catches my attention.
 ====================
-A pink machine sticking out onto the street corner catches my attention.
+我的目光被街角处露出的粉红色机器吸引住了。
 ====================
 
 ====================
@@ -196,7 +196,7 @@ length 26
 ====================
 \"Is that... the arcade?\"
 ====================
-\"Is that... the arcade?\"
+「那里是…游戏厅吗？」
 ====================
 
 ====================
@@ -207,7 +207,7 @@ length 50
 ====================
 I hypothesize based on how lively it seems inside.
 ====================
-I hypothesize based on how lively it seems inside.
+我想象着建筑物里嘈杂的情形。
 ====================
 
 ====================
@@ -218,7 +218,7 @@ length 106
 ====================
 I used to go to the arcade pretty often when I was in middle school, even though students weren't allowed.
 ====================
-I used to go to the arcade pretty often when I was in middle school, even though students weren't allowed.
+初中时经常去里面玩的。虽然本来是禁止学生进入的。
 ====================
 
 ====================
@@ -229,7 +229,7 @@ length 69
 ====================
 However, this isn't the one I went to. There was another one in town.
 ====================
-However, this isn't the one I went to. There was another one in town.
+只是，当时游戏厅并不是在这。在这座小镇里，应该还有一处的。
 ====================
 
 ====================
@@ -240,7 +240,7 @@ length 48
 ====================
 In comparison, this one seems to be much larger.
 ====================
-In comparison, this one seems to be much larger.
+比起那里，这的规模更加大。
 ====================
 
 ====================
@@ -251,7 +251,7 @@ length 28
 ====================
 \"Yeah, that's the arcade.\"
 ====================
-\"Yeah, that's the arcade.\"
+「嗯，那是游戏厅」
 ====================
 
 ====================
@@ -262,7 +262,7 @@ length 35
 ====================
 \"Though, I didn't go there much.\"
 ====================
-\"Though, I didn't go there much.\"
+「虽然我几乎没进去过」
 ====================
 
 ====================
@@ -273,7 +273,7 @@ length 20
 ====================
 I am very intrigued.
 ====================
-I am very intrigued.
+突然有了兴致。
 ====================
 
 ====================
@@ -284,7 +284,7 @@ length 21
 ====================
 \"Shall we drop by?\"
 ====================
-\"Shall we drop by?\"
+「可以稍微去看看吗？」
 ====================
 
 ====================
@@ -295,7 +295,7 @@ length 9
 ====================
 \"Okay.\"
 ====================
-\"Okay.\"
+「嗯」
 ====================
 
 ====================
@@ -306,7 +306,7 @@ length 94
 ====================
 \"However, it was just completed this last spring, so I don't think you've ever been inside.\"
 ====================
-\"However, it was just completed this last spring, so I don't think you've ever been inside.\"
+「只是，那里是今年春天左右才建好的，我想你应该还没去过」
 ====================
 
 ====================
@@ -317,7 +317,7 @@ length 44
 ====================
 \"Did I used to go to the other one a lot?\"
 ====================
-\"Did I used to go to the other one a lot?\"
+「另一个地方，我是不是经常去？」
 ====================
 
 ====================
@@ -328,7 +328,7 @@ length 94
 ====================
 \"It seemed so. I couldn't go considering my situation back then, so I felt rather left out.\"
 ====================
-\"It seemed so. I couldn't go considering my situation back then, so I felt rather left out.\"
+「好像是呢。因为我自己的立场，是不能去那里的」
 ====================
 
 ====================
@@ -339,7 +339,7 @@ length 14
 ====================
 \"Situation?\"
 ====================
-\"Situation?\"
+「立场？」
 ====================
 
 ====================
@@ -350,7 +350,7 @@ length 44
 ====================
 \"Yeah. It was against school regulations.\"
 ====================
-\"Yeah. It was against school regulations.\"
+「嗯。因为校规里禁止了嘛」
 ====================
 
 ====================
@@ -361,7 +361,7 @@ length 100
 ====================
 \"It wouldn't look too good if the student council president was caught doing something like that.\"
 ====================
-\"It wouldn't look too good if the student council president was caught doing something like that.\"
+「学生会长总不能带头去吧」
 ====================
 
 ====================
@@ -372,7 +372,7 @@ length 17
 ====================
 ...wait a second.
 ====================
-...wait a second.
+…等等。
 ====================
 
 ====================
@@ -383,7 +383,7 @@ length 47
 ====================
 I just heard something I've never heard before.
 ====================
-I just heard something I've never heard before.
+刚才，听到了从没听过的词语。
 ====================
 
 ====================
@@ -394,7 +394,7 @@ length 30
 ====================
 \"Student council president?\"
 ====================
-\"Student council president?\"
+「学生会长？」
 ====================
 
 ====================
@@ -405,7 +405,7 @@ length 89
 ====================
 \"Yeah, that's right. I was the student council president. Do you know what that means?\"
 ====================
-\"Yeah, that's right. I was the student council president. Do you know what that means?\"
+「嗯，是啊。学生会长。朋也不知道学生会长的意思吗？」
 ====================
 
 ====================
@@ -416,7 +416,7 @@ length 72
 ====================
 \"A student council president is the president of the student council,\"
 ====================
-\"A student council president is the president of the student council,\"
+「学生会的会长，就叫做学生会长」
 ====================
 
 ====================
@@ -427,7 +427,7 @@ length 65
 ====================
 \"and the student council represents the entire student body...\"
 ====================
-\"and the student council represents the entire student body...\"
+「所谓学生会，就是作为全校学生的代表…」
 ====================
 
 ====================
@@ -438,7 +438,7 @@ length 29
 ====================
 \"Well, I know that, but...\"
 ====================
-\"Well, I know that, but...\"
+「不，这个我知道…」
 ====================
 
 ====================
@@ -449,7 +449,7 @@ length 85
 ====================
 \"...this is the first time I've heard that you were the student council president.\"
 ====================
-\"...this is the first time I've heard that you were the student council president.\"
+「不过我还是头一次听说，智代就是那个学生会长啊」
 ====================
 
 ====================
@@ -460,7 +460,7 @@ length 12
 ====================
 \"I see...\"
 ====================
-\"I see...\"
+「这样啊…」
 ====================
 
 ====================
@@ -471,7 +471,7 @@ length 33
 ====================
 She thinks about it for a moment.
 ====================
-She thinks about it for a moment.
+智代稍微想了想。
 ====================
 
 ====================
@@ -482,7 +482,7 @@ length 23
 ====================
 \"I haven't told you?\"
 ====================
-\"I haven't told you?\"
+「我没说过吗」
 ====================
 
 ====================
@@ -493,7 +493,7 @@ length 43
 ====================
 \"No, this is the first I've heard of it.\"
 ====================
-\"No, this is the first I've heard of it.\"
+「嗯。第一次听说」
 ====================
 
 ====================
@@ -504,7 +504,7 @@ length 40
 ====================
 \"Well, it's not like it's a big deal.\"
 ====================
-\"Well, it's not like it's a big deal.\"
+「算了，反正也不是什么大不了的事情吧」
 ====================
 
 ====================
@@ -515,7 +515,7 @@ length 77
 ====================
 \"Then I've been, you know... going out with the student council president?\"
 ====================
-\"Then I've been, you know... going out with the student council president?\"
+「那，我，那个…是不是在和学生会长交往啊？」
 ====================
 
 ====================
@@ -526,7 +526,7 @@ length 24
 ====================
 \"Something like that.\"
 ====================
-\"Something like that.\"
+「也不能这么说」
 ====================
 
 ====================
@@ -537,7 +537,7 @@ length 64
 ====================
 \"Though, I wasn't elected until after we started hanging out.\"
 ====================
-\"Though, I wasn't elected until after we started hanging out.\"
+「起初，我们交往的时候，我还没当选」
 ====================
 
 ====================
@@ -548,7 +548,7 @@ length 65
 ====================
 \"I've been friends with a really amazing person, haven't I...?\"
 ====================
-\"I've been friends with a really amazing person, haven't I...?\"
+「我竟认识这么厉害的家伙啊…」
 ====================
 
 ====================
@@ -559,7 +559,7 @@ length 31
 ====================
 \"It's not like that, Tomoya.\"
 ====================
-\"It's not like that, Tomoya.\"
+「错了哦，朋也」
 ====================
 
 ====================
@@ -570,7 +570,7 @@ length 41
 ====================
 \"We aren't just friends. We're lovers.\"
 ====================
-\"We aren't just friends. We're lovers.\"
+「不是认识。是恋人」
 ====================
 
 ====================
@@ -581,7 +581,7 @@ length 19
 ====================
 Tomoyo corrects me.
 ====================
-Tomoyo corrects me.
+智代订正了我的话语。
 ====================
 
 ====================
@@ -592,7 +592,7 @@ length 27
 ====================
 \"Oh, yeah, that's right.\"
 ====================
-\"Oh, yeah, that's right.\"
+「啊，是呢」
 ====================
 
 ====================
@@ -603,7 +603,7 @@ length 62
 ====================
 \"It's like I'm seeing you as a much more impressive person.\"
 ====================
-\"It's like I'm seeing you as a much more impressive person.\"
+「突然感觉到智代是个很厉害家伙呢」
 ====================
 
 ====================
@@ -614,7 +614,7 @@ length 62
 ====================
 \"Being student council president isn't all that impressive.\"
 ====================
-\"Being student council president isn't all that impressive.\"
+「学生会长也没那么厉害啦」
 ====================
 
 ====================
@@ -625,7 +625,7 @@ length 44
 ====================
 So Tomoyo was the student council president.
 ====================
-So Tomoyo was the student council president.
+智代是学生会长。
 ====================
 
 ====================
@@ -636,7 +636,7 @@ length 52
 ====================
 Isn't that supposed to be an important memory to me?
 ====================
-Isn't that supposed to be an important memory to me?
+这对我的记忆而言，不是什么重要的事情吗？
 ====================
 
 ====================
@@ -647,7 +647,7 @@ length 54
 ====================
 There are probably more details that I've yet to hear.
 ====================
-There are probably more details that I've yet to hear.
+还没听说过这些事的来龙去脉。
 ====================
 
 ====================
@@ -658,7 +658,7 @@ length 52
 ====================
 Apparently, I was considered a delinquent at school.
 ====================
-Apparently, I was considered a delinquent at school.
+我在学校里似乎被称为不良学生。
 ====================
 
 ====================
@@ -669,7 +669,7 @@ length 94
 ====================
 There must have been problems if I, a delinquent, went out with the student council president.
 ====================
-There must have been problems if I, a delinquent, went out with the student council president.
+而这样的我和学生会长交往的话，肯定是发生了什么。
 ====================
 
 ====================
@@ -680,7 +680,7 @@ length 52
 ====================
 Tomoyo seems like she really forgot to mention this.
 ====================
-Tomoyo seems like she really forgot to mention this.
+而智代似乎完全忘记说这件事情了。
 ====================
 
 ====================
@@ -691,7 +691,7 @@ length 13
 ====================
 I wonder why.
 ====================
-I wonder why.
+为什么呢？
 ====================
 
 ====================
@@ -702,7 +702,7 @@ length 18
 ====================
 I start wondering.
 ====================
-I start wondering.
+我有些疑问。
 ====================
 
 ====================
@@ -713,7 +713,7 @@ length 36
 ====================
 \"That's a... photo sticker booth.\"
 ====================
-\"That's a... photo sticker booth.\"
+「那个是大头贴机」
 ====================
 
 ====================
@@ -724,7 +724,7 @@ length 7
 ====================
 \"Eh?\"
 ====================
-\"Eh?\"
+「诶？」
 ====================
 
 ====================
@@ -735,7 +735,7 @@ length 51
 ====================
 I'm caught off guard by the sudden change in topic.
 ====================
-I'm caught off guard by the sudden change in topic.
+智代突然改变话题，让我有些困惑。
 ====================
 
 ====================
@@ -746,7 +746,7 @@ length 70
 ====================
 \"That machine over there. You asked about that earlier, didn't you?\"
 ====================
-\"That machine over there. You asked about that earlier, didn't you?\"
+「就是放在那的机器啊。刚才你问过我的吧」
 ====================
 
 ====================
@@ -757,7 +757,7 @@ length 54
 ====================
 \"Ah, yeah. That's right, now that you mention it...\"
 ====================
-\"Ah, yeah. That's right, now that you mention it...\"
+「哦，嗯。这么说的话，确实有问过」
 ====================
 
 ====================
@@ -768,7 +768,7 @@ length 66
 ====================
 \"...it's a machine that takes a photo and puts it on a sticker.\"
 ====================
-\"...it's a machine that takes a photo and puts it on a sticker.\"
+「是可以照像，然后生成贴纸的机器」
 ====================
 
 ====================
@@ -779,7 +779,7 @@ length 61
 ====================
 \"It was a popular thing for girls to do several years ago.\"
 ====================
-\"It was a popular thing for girls to do several years ago.\"
+「不久以前，在女孩子中很流行呢」
 ====================
 
 ====================
@@ -790,7 +790,7 @@ length 34
 ====================
 \"Heh, things sure have changed.\"
 ====================
-\"Heh, things sure have changed.\"
+「嘿—，变了不少呢」
 ====================
 
 ====================
@@ -801,7 +801,7 @@ length 111
 ====================
 Whenever you think of arcades, it's all about fighting games and strip mahjong. You'd think it's a man's world.
 ====================
-Whenever you think of arcades, it's all about fighting games and strip mahjong. You'd think it's a man's world.
+要说起游戏厅的话，都是对战格斗游戏、脱衣麻将之类的。我想应该是男人和男人的世界吧。
 ====================
 
 ====================
@@ -812,7 +812,7 @@ length 44
 ====================
 It seems that girls are going nowadays, too.
 ====================
-It seems that girls are going nowadays, too.
+最近，女孩子也常来玩了吗？
 ====================
 
 ====================
@@ -823,7 +823,7 @@ length 75
 ====================
 \"Hey, how about we take a photo? It's been a while since I've taken one.\"
 ====================
-\"Hey, how about we take a photo? It's been a while since I've taken one.\"
+「对了，要不要拍拍看呢？我也很久没玩过了」
 ====================
 
 ====================
@@ -834,7 +834,7 @@ length 47
 ====================
 \"It would be lonely if I take one by myself.\"
 ====================
-\"It would be lonely if I take one by myself.\"
+「一个人照的话，会很寂寞的」
 ====================
 
 ====================
@@ -845,7 +845,7 @@ length 48
 ====================
 \"It's really something friends and lovers do.\"
 ====================
-\"It's really something friends and lovers do.\"
+「本来就是要和朋友啊恋人啊一起照的」
 ====================
 
 ====================
@@ -856,7 +856,7 @@ length 17
 ====================
 \"I don't mind.\"
 ====================
-\"I don't mind.\"
+「我随便啦」
 ====================
 
 ====================
@@ -867,7 +867,7 @@ length 52
 ====================
 I'm also rather interested. I support this proposal.
 ====================
-I'm also rather interested. I support this proposal.
+我也有些兴趣，于是赞成了这个提议。
 ====================
 
 ====================
@@ -878,7 +878,7 @@ length 53
 ====================
 Tomoyo takes a coin out of her wallet and puts it in.
 ====================
-Tomoyo takes a coin out of her wallet and puts it in.
+智代从钱包里拿出硬币，投了进去。
 ====================
 
 ====================
@@ -889,7 +889,7 @@ length 49
 ====================
 The screen brightens; Tomoyo and I are displayed.
 ====================
-The screen brightens; Tomoyo and I are displayed.
+画面开始亮了起来，里面映出了我和智代的脸。
 ====================
 
 ====================
@@ -900,7 +900,7 @@ length 62
 ====================
 It looks like we can choose a picture frame and add some text.
 ====================
-It looks like we can choose a picture frame and add some text.
+好像能选择相框，还可以往照片上写字。
 ====================
 
 ====================
@@ -911,7 +911,7 @@ length 30
 ====================
 \"Right. Let's go with this.\"
 ====================
-\"Right. Let's go with this.\"
+「嗯。这就行了」
 ====================
 
 ====================
@@ -922,7 +922,7 @@ length 59
 ====================
 Tomoyo chooses a heart frame and puts us under an umbrella.
 ====================
-Tomoyo chooses a heart frame and puts us under an umbrella.
+智代选择了心形的边框，还画上了情人伞。
 ====================
 
 ====================
@@ -933,7 +933,7 @@ length 34
 ====================
 \"Isn't that kinda embarrassing?\"
 ====================
-\"Isn't that kinda embarrassing?\"
+「感觉有点难为情啊」
 ====================
 
 ====================
@@ -944,7 +944,7 @@ length 37
 ====================
 \"It's fine once in a while, right?\"
 ====================
-\"It's fine once in a while, right?\"
+「偶尔这样也没关系吧」
 ====================
 
 ====================
@@ -955,7 +955,7 @@ length 35
 ====================
 Having said that, she grabs my arm.
 ====================
-Having said that, she grabs my arm.
+说完，挽住了我的手臂。
 ====================
 
 ====================
@@ -966,7 +966,7 @@ length 38
 ====================
 I end up staring at her involuntarily.
 ====================
-I end up staring at her involuntarily.
+我不禁往身边看去。
 ====================
 
 ====================
@@ -977,7 +977,7 @@ length 14
 ====================
 She's so soft.
 ====================
-She's so soft.
+真柔软。
 ====================
 
 ====================
@@ -988,7 +988,7 @@ length 45
 ====================
 I can feel something pressing against my arm.
 ====================
-I can feel something pressing against my arm.
+手臂上有种不一样的触感。
 ====================
 
 ====================
@@ -999,7 +999,7 @@ length 18
 ====================
 This feeling is...
 ====================
-This feeling is...
+这个感觉是…
 ====================
 
 ====================
@@ -1010,7 +1010,7 @@ length 17
 ====================
 It couldn't be...
 ====================
-It couldn't be...
+莫非…
 ====================
 
 ====================
@@ -1021,7 +1021,7 @@ length 7
 ====================
 *Click*
 ====================
-*Click*
+咔嚓。
 ====================
 
 ====================
@@ -1032,7 +1032,7 @@ length 50
 ====================
 Suddenly, there's the sound of the camera shutter.
 ====================
-Suddenly, there's the sound of the camera shutter.
+突然，响起了快门的声音。
 ====================
 
 ====================
@@ -1043,7 +1043,7 @@ length 30
 ====================
 Tomoyo had pressed the switch.
 ====================
-Tomoyo had pressed the switch.
+因为智代按下了按钮。
 ====================
 
 ====================
@@ -1054,7 +1054,7 @@ length 75
 ====================
 \"Look, we ended up taking an awkward photo, since you were looking away.\"
 ====================
-\"Look, we ended up taking an awkward photo, since you were looking away.\"
+「看啦，都怪朋也你在看旁边，结果照出一张奇怪的照片啊」
 ====================
 
 ====================
@@ -1065,7 +1065,7 @@ length 34
 ====================
 She says that, but she's giggling.
 ====================
-She says that, but she's giggling.
+虽然这么说着，智代却笑了起来。
 ====================
 
 ====================
@@ -1076,7 +1076,7 @@ length 27
 ====================
 I'm sure it was on purpose.
 ====================
-I'm sure it was on purpose.
+绝对是故意的。
 ====================
 
 ====================
@@ -1087,7 +1087,7 @@ length 34
 ====================
 \"At least give me some warning.\"
 ====================
-\"At least give me some warning.\"
+「在照之前，先和我说下嘛」
 ====================
 
 ====================
@@ -1098,7 +1098,7 @@ length 37
 ====================
 I complain to her for the hell of it.
 ====================
-I complain to her for the hell of it.
+我还是抱怨了一下。
 ====================
 
 ====================
@@ -1109,7 +1109,7 @@ length 76
 ====================
 After a little while, four small pictures make their way out of the machine.
 ====================
-After a little while, four small pictures make their way out of the machine.
+等了片刻，机器吐出了四张小小的照片。
 ====================
 
 ====================
@@ -1120,7 +1120,7 @@ length 65
 ====================
 As expected, I looked very weird because I was looking at Tomoyo.
 ====================
-As expected, I looked very weird because I was looking at Tomoyo.
+和预想的一样，看着智代的我的脸显得很奇怪。
 ====================
 
 ====================
@@ -1131,7 +1131,7 @@ length 11
 ====================
 This sucks.
 ====================
-This sucks.
+拍得很糟糕。
 ====================
 
 ====================
@@ -1142,7 +1142,7 @@ length 29
 ====================
 \"Hehe. Tomoya, you weirdo.\"
 ====================
-\"Hehe. Tomoya, you weirdo.\"
+「嘿嘿。好奇怪呢，朋也」
 ====================
 
 ====================
@@ -1153,7 +1153,7 @@ length 23
 ====================
 She looks rather happy.
 ====================
-She looks rather happy.
+智代不知为何显得很高兴。
 ====================
 
 ====================
@@ -1164,7 +1164,7 @@ length 28
 ====================
 \"They're little stickers.\"
 ====================
-\"They're little stickers.\"
+「这个可以作为贴纸」
 ====================
 
 ====================
@@ -1175,7 +1175,7 @@ length 62
 ====================
 \"It used to be popular to exchange these with your friends.\"
 ====================
-\"It used to be popular to exchange these with your friends.\"
+「不久前，很流行和朋友交换这个呢」
 ====================
 
 ====================
@@ -1186,7 +1186,7 @@ length 49
 ====================
 Having said that, Tomoyo takes one off the sheet.
 ====================
-Having said that, Tomoyo takes one off the sheet.
+说完，智代取下了一枚。
 ====================
 
 ====================
@@ -1197,7 +1197,7 @@ length 28
 ====================
 She slaps it on my forehead.
 ====================
-She slaps it on my forehead.
+轻轻地贴在我的脑门上。
 ====================
 
 ====================
@@ -1208,7 +1208,7 @@ length 32
 ====================
 \"Mm. That's Tomoya all right.\"
 ====================
-\"Mm. That's Tomoya all right.\"
+「嗯。是朋也」
 ====================
 
 ====================
@@ -1219,7 +1219,7 @@ length 30
 ====================
 It feels fuzzy on my forehead.
 ====================
-It feels fuzzy on my forehead.
+额头上像有什么东西在爬一样。
 ====================
 
 ====================
@@ -1230,7 +1230,7 @@ length 94
 ====================
 The adhesive is meant to be used on paper. It should fall right off if it's stuck to a person.
 ====================
-The adhesive is meant to be used on paper. It should fall right off if it's stuck to a person.
+这东西本来是要贴在纸上的吧。贴在人身上的话，似乎很快就会掉下来的。
 ====================
 
 ====================
@@ -1241,7 +1241,7 @@ length 35
 ====================
 Regardless, don't stick that on me.
 ====================
-Regardless, don't stick that on me.
+虽然是这么说，我还是叫她不要贴的好。
 ====================
 
 ====================
@@ -1252,7 +1252,7 @@ length 43
 ====================
 When I move to rip it off, Tomoyo stops me.
 ====================
-When I move to rip it off, Tomoyo stops me.
+在我正准备取下来时，智代阻止了我。
 ====================
 
 ====================
@@ -1263,7 +1263,7 @@ length 59
 ====================
 \"Come on, isn't it okay? I wish it'd stay there forever.\"
 ====================
-\"Come on, isn't it okay? I wish it'd stay there forever.\"
+「不是很好嘛。我想要你一直贴着嘛」
 ====================
 
 ====================
@@ -1274,7 +1274,7 @@ length 25
 ====================
 \"I can't wash my face.\"
 ====================
-\"I can't wash my face.\"
+「那就不能洗脸了」
 ====================
 
 ====================
@@ -1285,7 +1285,7 @@ length 42
 ====================
 \"Even if you don't, you're cool enough.\"
 ====================
-\"Even if you don't, you're cool enough.\"
+「就算不洗脸，也足够帅了」
 ====================
 
 ====================
@@ -1296,7 +1296,7 @@ length 29
 ====================
 \"It's already falling off.\"
 ====================
-\"It's already falling off.\"
+「很快就会掉下来的哦」
 ====================
 
 ====================
@@ -1307,7 +1307,7 @@ length 40
 ====================
 \"Let's reinforce it with scotch tape.\"
 ====================
-\"Let's reinforce it with scotch tape.\"
+「用透明胶固定住吧」
 ====================
 
 ====================
@@ -1318,7 +1318,7 @@ length 47
 ====================
 \"Yeah. Let's do that as soon as we get home.\"
 ====================
-\"Yeah. Let's do that as soon as we get home.\"
+「嗯。回家后就立刻这么做吧」
 ====================
 
 ====================
@@ -1329,7 +1329,7 @@ length 49
 ====================
 \"Wait. It's embarrassing enough to start with.\"
 ====================
-\"Wait. It's embarrassing enough to start with.\"
+「等等。话说这让我很难为情啊」
 ====================
 
 ====================
@@ -1340,7 +1340,7 @@ length 35
 ====================
 \"It'd make me look like a freak.\"
 ====================
-\"It'd make me look like a freak.\"
+「这看上去，就好像我是怪人一样」
 ====================
 
 ====================
@@ -1351,7 +1351,7 @@ length 42
 ====================
 \"I'm just kidding. Don't be so serious.\"
 ====================
-\"I'm just kidding. Don't be so serious.\"
+「开玩笑的。别当真嘛」
 ====================
 
 ====================
@@ -1362,7 +1362,7 @@ length 45
 ====================
 After a quick laugh, she seems a little down.
 ====================
-After a quick laugh, she seems a little down.
+智代笑了一会后，露出了寂寞的表情。
 ====================
 
 ====================
@@ -1373,7 +1373,7 @@ length 92
 ====================
 \"However, I would like it if you carried my photo. That way I can always be by your side.\"
 ====================
-\"However, I would like it if you carried my photo. That way I can always be by your side.\"
+「但是，我希望你能保留着我的照片。并且，想要你一直放在身边」
 ====================
 
 ====================
@@ -1384,7 +1384,7 @@ length 86
 ====================
 \"That way, if you forget about me again, you might be able to remember immediately.\"
 ====================
-\"That way, if you forget about me again, you might be able to remember immediately.\"
+「这样的话，即使忘记了，可能也会立即回忆起我来的」
 ====================
 
 ====================
@@ -1395,7 +1395,7 @@ length 21
 ====================
 \"Isn't that right?\"
 ====================
-\"Isn't that right?\"
+「是吧？」
 ====================
 
 ====================
@@ -1406,7 +1406,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+「………」
 ====================
 
 ====================
@@ -1417,7 +1417,7 @@ length 38
 ====================
 I have no idea how to respond to that.
 ====================
-I have no idea how to respond to that.
+我不知该如何回答。
 ====================
 
 ====================
@@ -1428,7 +1428,7 @@ length 32
 ====================
 \"Sorry... forget I said that.\"
 ====================
-\"Sorry... forget I said that.\"
+「抱歉…没事」
 ====================
 
 ====================
@@ -1439,7 +1439,7 @@ length 74
 ====================
 \"Anyway, I will take the other three. You get the one on your forehead.\"
 ====================
-\"Anyway, I will take the other three. You get the one on your forehead.\"
+「总之，剩下的三张就归我了，朋也的份嘛，就是额头上这张」
 ====================
 
 ====================
@@ -1450,7 +1450,7 @@ length 59
 ====================
 \"Make sure to stick it firmly so that you don't lose it.\"
 ====================
-\"Make sure to stick it firmly so that you don't lose it.\"
+「要好好贴在头上，别弄掉了哦」
 ====================
 
 ====================
@@ -1461,7 +1461,7 @@ length 76
 ====================
 For a moment, I just keep walking while holding my hand against my forehead.
 ====================
-For a moment, I just keep walking while holding my hand against my forehead.
+我只好暂时用手按着额头走路了。
 ====================
 
 ====================
@@ -1472,7 +1472,7 @@ length 116
 ====================
 I eventually realize it would be impossible to do that forever. And so, I'll just keep it safe in my pocket for now.
 ====================
-I eventually realize it would be impossible to do that forever. And so, I'll just keep it safe in my pocket for now.
+但也不能一直这样，于是我小心地将贴纸放进了裤子口袋里。
 ====================
 
 ====================
@@ -1483,7 +1483,7 @@ length 60
 ====================
 Since it's kind of small, I wrap it up with my handkerchief.
 ====================
-Since it's kind of small, I wrap it up with my handkerchief.
+由于是很小的东西，我便用手帕包起来了。
 ====================
 
 ====================
@@ -1494,7 +1494,7 @@ length 77
 ====================
 When Tomoyo sees me doing this, she watches on quietly, looking at me in joy.
 ====================
-When Tomoyo sees me doing this, she watches on quietly, looking at me in joy.
+智代似乎很高兴地默默看着我的行动。
 ====================
 
 ====================
@@ -1505,7 +1505,7 @@ length 48
 ====================
 Next, we go to the supermarket to buy groceries.
 ====================
-Next, we go to the supermarket to buy groceries.
+接着，我们就去超市购买食物了。
 ====================
 
 ====================
@@ -1516,7 +1516,7 @@ length 118
 ====================
 There's an older lady sitting by herself at the dango display. The \"Big Dango Family\" theme is playing on cassette. 
 ====================
-There's an older lady sitting by herself at the dango display. The \"Big Dango Family\" theme is playing on cassette. 
+在卖团子的地方，有个老奶奶坐在那，一旁的录音机里则放着『团子大家族』的歌。
 ====================
 
 ====================
@@ -1527,7 +1527,7 @@ length 26
 ====================
 \"Is that still popular?\"
 ====================
-\"Is that still popular?\"
+「还在流行这个吗」
 ====================
 
 ====================
@@ -1538,7 +1538,7 @@ length 66
 ====================
 From what I remember, there was a huge dango fad throughout Japan.
 ====================
-From what I remember, there was a huge dango fad throughout Japan.
+在我记忆中的那段时间里，日本正好是团子热的时候。
 ====================
 
 ====================
@@ -1549,7 +1549,7 @@ length 143
 ====================
 It's a song that both children and the elderly know, and it was said that this would be in the singing competition show at the end of the year.
 ====================
-It's a song that both children and the elderly know, and it was said that this would be in the singing competition show at the end of the year.
+是从小孩到老人都无人不晓的歌曲，据说甚至登上了岁末的红白歌唱大赛。
 ====================
 
 ====================
@@ -1560,7 +1560,7 @@ length 55
 ====================
 Did it actually become such a famous and timeless song?
 ====================
-Did it actually become such a famous and timeless song?
+难道说已经成为国民性的歌了吗？
 ====================
 
 ====================
@@ -1571,7 +1571,7 @@ length 113
 ====================
 \"Sorry to tell you, but it's not. This dango stand is pretty much the only place you can still hear this song.\"
 ====================
-\"Sorry to tell you, but it's not. This dango stand is pretty much the only place you can still hear this song.\"
+「很可惜没有呢。能听到这首歌的地方，大概就只有这家团子店了」
 ====================
 
 ====================
@@ -1582,7 +1582,7 @@ length 19
 ====================
 \"I suppose so...\"
 ====================
-\"I suppose so...\"
+「也是啊…」
 ====================
 
 ====================
@@ -1593,7 +1593,7 @@ length 85
 ====================
 After dropping off our haul at home and having some lunch, we head toward the school.
 ====================
-After dropping off our haul at home and having some lunch, we head toward the school.
+把东西放在家里，吃过午饭后，就一起去了学校。
 ====================
 
 ====================
@@ -1604,7 +1604,7 @@ length 66
 ====================
 We can't get into the building today. Instead, we go to the field.
 ====================
-We can't get into the building today. Instead, we go to the field.
+因为今天进不了教学楼，所以只走到了球场。
 ====================
 
 ====================
@@ -1615,7 +1615,7 @@ length 115
 ====================
 Since this is where I learned that I can't play basketball the other day, this place has left me with a sour taste.
 ====================
-Since this is where I learned that I can't play basketball the other day, this place has left me with a sour taste.
+由于前几天知道了自己不能打篮球的事情，因此对这并没什么好印象。
 ====================
 
 ====================
@@ -1626,7 +1626,7 @@ length 66
 ====================
 Even though it's a holiday, the baseball team is here practicing. 
 ====================
-Even though it's a holiday, the baseball team is here practicing. 
+虽然是节日，但棒球部仍在练习。
 ====================
 
 ====================
@@ -1637,7 +1637,7 @@ length 79
 ====================
 Tomoyo is thinking of something. She gazes toward them at the end of the field.
 ====================
-Tomoyo is thinking of something. She gazes toward them at the end of the field.
+智代好像在思考着什么，出神地望着球场另一边的他们。
 ====================
 
 ====================
@@ -1648,7 +1648,7 @@ length 49
 ====================
 With nothing else to do, I space out next to her.
 ====================
-With nothing else to do, I space out next to her.
+没办法，我也只能呆呆地站在她身边了。
 ====================
 
 ====================
@@ -1659,7 +1659,7 @@ length 157
 ====================
 A metal bat clinking against a ball, a ball slamming into a mitt, a teammate chanting a cheer: a myriad of sounds meld together to form a captivating melody.
 ====================
-A metal bat clinking against a ball, a ball slamming into a mitt, a teammate chanting a cheer: a myriad of sounds meld together to form a captivating melody.
+金属球棒发出的清脆的击打声，球被手套接住的声音，球员的叫声，各种声音混杂在了一起。
 ====================
 
 ====================
@@ -1670,7 +1670,7 @@ length 88
 ====================
 Even if I don't want to, I can feel just how every single one of those sounds is moving.
 ====================
-Even if I don't want to, I can feel just how every single one of those sounds is moving.
+即使我不愿意听到他们运动的声音，但是这些声音还是固执地传进了我的耳朵里。
 ====================
 
 ====================
@@ -1681,7 +1681,7 @@ length 8
 ====================
 \"Hey.\"
 ====================
-\"Hey.\"
+「我说」
 ====================
 
 ====================
@@ -1692,7 +1692,7 @@ length 47
 ====================
 I was just thinking I wanted to be elsewhere...
 ====================
-I was just thinking I wanted to be elsewhere...
+我很想换个地方。
 ====================
 
 ====================
@@ -1703,7 +1703,7 @@ length 7
 ====================
 When...
 ====================
-When...
+这时。
 ====================
 
 ====================
@@ -1714,7 +1714,7 @@ length 31
 ====================
 \"Is that you, Sakagami-san?!\"
 ====================
-\"Is that you, Sakagami-san?!\"
+「这不是坂上吗」
 ====================
 
 ====================
@@ -1725,7 +1725,7 @@ length 53
 ====================
 The pitcher from the baseball field shouts toward us.
 ====================
-The pitcher from the baseball field shouts toward us.
+在球场上练习投球的一名队员，注意到这边后喊了起来。
 ====================
 
 ====================
@@ -1736,7 +1736,7 @@ length 22
 ====================
 He then heads our way.
 ====================
-He then heads our way.
+然后，朝这边走了过来。
 ====================
 
 ====================
@@ -1747,7 +1747,7 @@ length 86
 ====================
 He must be the captain. The rest of the team stops for a break as he leaves the field.
 ====================
-He must be the captain. The rest of the team stops for a break as he leaves the field.
+是队长吧。他离场后，其他队员也都纷纷停下来休息了。
 ====================
 
 ====================
@@ -1758,7 +1758,7 @@ length 28
 ====================
 He grins as he sees my face.
 ====================
-He grins as he sees my face.
+那家伙认出了我，朝我笑着。
 ====================
 
 ====================
@@ -1769,7 +1769,7 @@ length 36
 ====================
 \"You're here too, Okazaki-senpai.\"
 ====================
-\"You're here too, Okazaki-senpai.\"
+「冈崎前辈也在一起呢」
 ====================
 
 ====================
@@ -1780,7 +1780,7 @@ length 30
 ====================
 Apparently, he knows who I am.
 ====================
-Apparently, he knows who I am.
+他似乎知道我的事情。
 ====================
 
 ====================
@@ -1791,7 +1791,7 @@ length 58
 ====================
 Judging by how he says it, we must have been fairly close.
 ====================
-Judging by how he says it, we must have been fairly close.
+那话听上去，似乎我们的关系很亲密似的。
 ====================
 
 ====================
@@ -1802,7 +1802,7 @@ length 40
 ====================
 \"Will you join us for practice again?\"
 ====================
-\"Will you join us for practice again?\"
+「请再和我们练习吧」
 ====================
 
 ====================
@@ -1813,7 +1813,7 @@ length 13
 ====================
 \"Practice?\"
 ====================
-\"Practice?\"
+「练习？」
 ====================
 
 ====================
@@ -1824,7 +1824,7 @@ length 29
 ====================
 \"Yes, please. Like before.\"
 ====================
-\"Yes, please. Like before.\"
+「是的，拜托了。就像以前一样」
 ====================
 
 ====================
@@ -1835,7 +1835,7 @@ length 74
 ====================
 \"I didn't have any intentions to do so today. We're just here to watch.\"
 ====================
-\"I didn't have any intentions to do so today. We're just here to watch.\"
+「不，今天并没这打算。只是看看而已」
 ====================
 
 ====================
@@ -1846,7 +1846,7 @@ length 26
 ====================
 Tomoyo moves to intercept.
 ====================
-Tomoyo moves to intercept.
+智代插话进来。
 ====================
 
 ====================
@@ -1857,7 +1857,7 @@ length 31
 ====================
 \"Is that so? That's a shame.\"
 ====================
-\"Is that so? That's a shame.\"
+「这样啊…太可惜了」
 ====================
 
 ====================
@@ -1868,7 +1868,7 @@ length 74
 ====================
 \"It would really give everyone a boost if Sakagami-senpai were to join.\"
 ====================
-\"It would really give everyone a boost if Sakagami-senpai were to join.\"
+「如果坂上前辈加入的话，大家都会干劲十足的」
 ====================
 
 ====================
@@ -1879,7 +1879,7 @@ length 50
 ====================
 \"Isn't it about time for you to leave the team?\"
 ====================
-\"Isn't it about time for you to leave the team?\"
+「你也快要退部了吧？」
 ====================
 
 ====================
@@ -1890,7 +1890,7 @@ length 57
 ====================
 \"Well, I would like to, but we're kind of shorthanded.\"
 ====================
-\"Well, I would like to, but we're kind of shorthanded.\"
+「还没，虽然有这个打算，但队员太少了」
 ====================
 
 ====================
@@ -1901,7 +1901,7 @@ length 70
 ====================
 \"I have to keep practicing with them until the Fall season is over.\"
 ====================
-\"I have to keep practicing with them until the Fall season is over.\"
+「因此在秋季大会结束前，不得不陪他们一起练习啊」
 ====================
 
 ====================
@@ -1912,7 +1912,7 @@ length 61
 ====================
 \"That's why we would love it if you would join in, Senpai.\"
 ====================
-\"That's why we would love it if you would join in, Senpai.\"
+「所以，如果前辈也能一起来的话，那就太高兴了」
 ====================
 
 ====================
@@ -1923,7 +1923,7 @@ length 34
 ====================
 \"Sorry. Today's not a good day.\"
 ====================
-\"Sorry. Today's not a good day.\"
+「不好意思。今天可能不行」
 ====================
 
 ====================
@@ -1934,7 +1934,7 @@ length 40
 ====================
 \"No, it's fine. Some other time then.\"
 ====================
-\"No, it's fine. Some other time then.\"
+「啊，没关系。又拜托你了」
 ====================
 
 ====================
@@ -1945,7 +1945,7 @@ length 52
 ====================
 With that said, he bows and heads back to the field.
 ====================
-With that said, he bows and heads back to the field.
+说完这些，他行了个礼，回到了操场上。
 ====================
 
 ====================
@@ -1956,7 +1956,7 @@ length 98
 ====================
 The other members look over and appear disappointed when they see that Tomoyo isn't going to join.
 ====================
-The other members look over and appear disappointed when they see that Tomoyo isn't going to join.
+其他队员也都看着这边，当得知智代不加入后，看起来好像都垂头丧气似的。
 ====================
 
 ====================
@@ -1967,7 +1967,7 @@ length 41
 ====================
 The field returns to its previous clamor.
 ====================
-The field returns to its previous clamor.
+球场上的声音再次响起。
 ====================
 
 ====================
@@ -1978,7 +1978,7 @@ length 45
 ====================
 \"You're acquainted with the baseball team?\"
 ====================
-\"You're acquainted with the baseball team?\"
+「和棒球部的人认识吗？」
 ====================
 
 ====================
@@ -1989,7 +1989,7 @@ length 21
 ====================
 \"Yeah, somewhat...\"
 ====================
-\"Yeah, somewhat...\"
+「嗯，算是吧…」
 ====================
 
 ====================
@@ -2000,7 +2000,7 @@ length 63
 ====================
 \"I met them as part of my student council election campaign.\"
 ====================
-\"I met them as part of my student council election campaign.\"
+「是竞选学生会长的一环呢」
 ====================
 
 ====================
@@ -2011,7 +2011,7 @@ length 7
 ====================
 \"Eh?\"
 ====================
-\"Eh?\"
+「诶？」
 ====================
 
 ====================
@@ -2022,7 +2022,7 @@ length 66
 ====================
 \"It was something you suggested. It was almost like a turf war.\"
 ====================
-\"It was something you suggested. It was almost like a turf war.\"
+「是朋也你提出来的主意。那简直就像踢馆一样呢」
 ====================
 
 ====================
@@ -2033,7 +2033,7 @@ length 120
 ====================
 \"I was against it. I didn't know how to play baseball anyway, and I didn't want to turn it into a popularity contest.\"
 ====================
-\"I was against it. I didn't know how to play baseball anyway, and I didn't want to turn it into a popularity contest.\"
+「本来我是反对的。我既没打过棒球，也讨厌像这种聚集人气的方法」
 ====================
 
 ====================
@@ -2044,7 +2044,7 @@ length 14
 ====================
 She's pouting.
 ====================
-She's pouting.
+智代稍稍皱起了眉头。
 ====================
 
 ====================
@@ -2055,7 +2055,7 @@ length 33
 ====================
 But then, she puts on a big grin.
 ====================
-But then, she puts on a big grin.
+然后，又突然浮现出笑容。
 ====================
 
 ====================
@@ -2066,7 +2066,7 @@ length 63
 ====================
 \"Yeah. Now that I think about it, that was rather enjoyable.\"
 ====================
-\"Yeah. Now that I think about it, that was rather enjoyable.\"
+「嗯。现在想起来，那时可真开心呢」
 ====================
 
 ====================
@@ -2077,7 +2077,7 @@ length 134
 ====================
 Having taken notice of Tomoyo's reflexes, Sunohara and I challenged various clubs in order to raise her popularity among the students.
 ====================
-Having taken notice of Tomoyo's reflexes, Sunohara and I challenged various clubs in order to raise her popularity among the students.
+亲眼见识过智代运动神经的我和春原一起，为了让智代在普通学生中更有名，向各个俱乐部发起了挑战。
 ====================
 
 ====================
@@ -2088,7 +2088,7 @@ length 95
 ====================
 I didn't participate much because of my bad shoulder. That's where Sunohara came in and helped.
 ====================
-I didn't participate much because of my bad shoulder. That's where Sunohara came in and helped.
+我由于肩膀的伤，实际并未参加，于是春原连我的份也一起努力了。
 ====================
 
 ====================
@@ -2099,7 +2099,7 @@ length 50
 ====================
 Tomoyo played pitcher and Sunohara played catcher.
 ====================
-Tomoyo played pitcher and Sunohara played catcher.
+智代是投手，春原是捕手。
 ====================
 
 ====================
@@ -2110,7 +2110,7 @@ length 54
 ====================
 I feel as if I have a vague recollection of that time.
 ====================
-I feel as if I have a vague recollection of that time.
+总觉得当时的情形就浮现在眼前一般。
 ====================
 
 ====================
@@ -2121,7 +2121,7 @@ length 57
 ====================
 This Sunohara guy's face is still blocked out in my mind.
 ====================
-This Sunohara guy's face is still blocked out in my mind.
+只是想不起的春原的脸，被打上了马赛克。
 ====================
 
 ====================
@@ -2132,7 +2132,7 @@ length 99
 ====================
 And so, just as I wished, the baseball team has been idolizing Tomoyo ever since she defeated them.
 ====================
-And so, just as I wished, the baseball team has been idolizing Tomoyo ever since she defeated them.
+于是，就如我打算的一样，彻底打败了棒球部的智代，从此就被棒球部所仰慕。
 ====================
 
 ====================
@@ -2143,7 +2143,7 @@ length 36
 ====================
 No, it's not just the baseball team.
 ====================
-No, it's not just the baseball team.
+不，不仅是棒球部。
 ====================
 
 ====================
@@ -2154,7 +2154,7 @@ length 96
 ====================
 After defeating the softball team, kendo team, and many others, Tomoyo became extremely popular.
 ====================
-After defeating the softball team, kendo team, and many others, Tomoyo became extremely popular.
+智代还赢了垒球部、剑道部等其他很多俱乐部的比赛，获得很高的人气。
 ====================
 
 ====================
@@ -2165,7 +2165,7 @@ length 78
 ====================
 \"If all that hadn't happened, the election may have turned out differently.\"
 ====================
-\"If all that hadn't happened, the election may have turned out differently.\"
+「如果没有这些事，说不定结果就不是那样了」
 ====================
 
 ====================
@@ -2176,7 +2176,7 @@ length 32
 ====================
 \"I don't think it would have.\"
 ====================
-\"I don't think it would have.\"
+「没这样的事情哦」
 ====================
 
 ====================
@@ -2187,7 +2187,7 @@ length 85
 ====================
 Since I don't actually remember that time, I don't know the details of what happened.
 ====================
-Since I don't actually remember that time, I don't know the details of what happened.
+我不记得当时的情形，因此详情并不清楚。
 ====================
 
 ====================
@@ -2198,7 +2198,7 @@ length 32
 ====================
 Regardless, that's what I think.
 ====================
-Regardless, that's what I think.
+但我仍旧认为。
 ====================
 
 ====================
@@ -2209,7 +2209,7 @@ length 131
 ====================
 \"Since this is you we're talking about, I think you would have been elected as student council president no matter what, Tomoyo.\"
 ====================
-\"Since this is you we're talking about, I think you would have been elected as student council president no matter what, Tomoyo.\"
+「如果是智代的话，无论发生什么，都会当选学生会长的」
 ====================
 
 ====================
@@ -2220,7 +2220,7 @@ length 46
 ====================
 \"I know this from seeing who you are today.\"
 ====================
-\"I know this from seeing who you are today.\"
+「只要看到现在的智代，我就能明白」
 ====================
 
 ====================
@@ -2231,7 +2231,7 @@ length 34
 ====================
 \"Since you're so captivating...\"
 ====================
-\"Since you're so captivating...\"
+「非常有魅力…」
 ====================
 
 ====================
@@ -2242,7 +2242,7 @@ length 37
 ====================
 Saying this is a little embarrassing.
 ====================
-Saying this is a little embarrassing.
+说完这句话，我感到有点不好意思。
 ====================
 
 ====================
@@ -2253,7 +2253,7 @@ length 24
 ====================
 \"...I see. Thank you.\"
 ====================
-\"...I see. Thank you.\"
+「…是吗，谢谢」
 ====================
 
 ====================
@@ -2264,7 +2264,7 @@ length 52
 ====================
 \"Your words always manage to cheer me up, Tomoya.\"
 ====================
-\"Your words always manage to cheer me up, Tomoya.\"
+「朋也的话一直都让我打起精神呢」
 ====================
 
 ====================
@@ -2275,5 +2275,5 @@ length 65
 ====================
 And so, just like that, we gaze at the field until practice ends.
 ====================
-And so, just like that, we gaze at the field until practice ends.
+结果就这样，我们一直看到练习结束。
 ====================

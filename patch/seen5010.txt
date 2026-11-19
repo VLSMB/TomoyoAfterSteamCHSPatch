@@ -9,7 +9,7 @@ length 18
 ====================
 Several days later
 ====================
-Several days later
+数日后
 ====================
 
 ====================
@@ -20,7 +20,7 @@ length 19
 ====================
 Several days later.
 ====================
-Several days later.
+数日后。
 ====================
 
 ====================
@@ -31,7 +31,7 @@ length 46
 ====================
 \"All right! Now, let's head to the dungeon!\"
 ====================
-\"All right! Now, let's head to the dungeon!\"
+「好了，向地下城进军！」
 ====================
 
 ====================
@@ -42,7 +42,7 @@ length 50
 ====================
 Kanako gathers everyone around and says excitedly.
 ====================
-Kanako gathers everyone around and says excitedly.
+河南子将大家召集在一起，大声宣布道。
 ====================
 
 ====================
@@ -53,7 +53,7 @@ length 39
 ====================
 \"Oh, that's awesome. Is it finished?\"
 ====================
-\"Oh, that's awesome. Is it finished?\"
+「哦，好厉害，完成了吗」
 ====================
 
 ====================
@@ -64,7 +64,7 @@ length 14
 ====================
 \"Kind of...\"
 ====================
-\"Kind of...\"
+「算是吧…」
 ====================
 
 ====================
@@ -75,7 +75,7 @@ length 43
 ====================
 Takafumi leans against the wall, exhausted.
 ====================
-Takafumi leans against the wall, exhausted.
+鹰文精疲力尽地靠在墙上。
 ====================
 
 ====================
@@ -86,7 +86,7 @@ length 57
 ====================
 He evidently hasn't had enough sleep these last few days.
 ====================
-He evidently hasn't had enough sleep these last few days.
+这几天，他似乎都没怎么好好睡过呢。
 ====================
 
 ====================
@@ -97,7 +97,7 @@ length 79
 ====================
 \"Look, I turned all five of us into characters, so that we can all have fun!\"
 ====================
-\"Look, I turned all five of us into characters, so that we can all have fun!\"
+「听我说哦，为了让大家开心，所以就把登场角色设定为我们5个人了哦！」
 ====================
 
 ====================
@@ -108,7 +108,7 @@ length 44
 ====================
 ...she makes inside jokes however she wants!
 ====================
-...she makes inside jokes however she wants!
+…突然作这种只有内部人员才能看得懂的设定好吗！
 ====================
 
 ====================
@@ -119,7 +119,7 @@ length 57
 ====================
 She probably ignored Takafumi's opinions the entire time.
 ====================
-She probably ignored Takafumi's opinions the entire time.
+大概鹰文的意见，从最初开始就被无视掉了吧。
 ====================
 
 ====================
@@ -130,7 +130,7 @@ length 41
 ====================
 \"That's why you're fighting too, Tomo.\"
 ====================
-\"That's why you're fighting too, Tomo.\"
+「所以呢，小智也要战斗哦—」
 ====================
 
 ====================
@@ -141,7 +141,7 @@ length 30
 ====================
 \"Eh, I can fight too? Cool!\"
 ====================
-\"Eh, I can fight too? Cool!\"
+「诶—，我也要战斗吗—？好棒哦—」
 ====================
 
 ====================
@@ -152,7 +152,7 @@ length 111
 ====================
 \"Presented to you by Kanako, game designer and writer; Takafumi, programmer; and other people from overseas!\"
 ====================
-\"Presented to you by Kanako, game designer and writer; Takafumi, programmer; and other people from overseas!\"
+「企划·脚本 河南子，程序 鹰文，还有其他海外人士的支持」
 ====================
 
 ====================
@@ -163,7 +163,7 @@ length 32
 ====================
 \"Dungeons & Takafumis, start!\"
 ====================
-\"Dungeons & Takafumis, start!\"
+「Dungeons&Takafumis（鹰文与地下城），游戏开始！」
 ====================
 
 ====================
@@ -174,5 +174,5 @@ length 43
 ====================
 Kanako commands Takafumi to start the game.
 ====================
-Kanako commands Takafumi to start the game.
+河南子命令着鹰文，开始了游戏。
 ====================

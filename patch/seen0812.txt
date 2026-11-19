@@ -9,7 +9,7 @@ length 17
 ====================
 August 12th (Thu)
 ====================
-August 12th (Thu)
+8月12日(星期四)
 ====================
 
 ====================
@@ -20,7 +20,7 @@ length 77
 ====================
 I was awoken this morning by the dazzling morning sun and then left the room.
 ====================
-I was awoken this morning by the dazzling morning sun and then left the room.
+被刺眼的阳光照醒，我走出了房间。
 ====================
 
 ====================
@@ -31,7 +31,7 @@ length 55
 ====================
 I left a note to tell Tomoyo that I'm going for a walk.
 ====================
-I left a note to tell Tomoyo that I'm going for a walk.
+只对智代说了句『我去散散步』。
 ====================
 
 ====================
@@ -42,7 +42,7 @@ length 54
 ====================
 No matter how brief, I just needed some time to think.
 ====================
-No matter how brief, I just needed some time to think.
+多少还需要一点思考的时间。
 ====================
 
 ====================
@@ -53,7 +53,7 @@ length 91
 ====================
 We've already accomplished what we came here for; to figure out why Tomo's mother left her.
 ====================
-We've already accomplished what we came here for; to figure out why Tomo's mother left her.
+来此的目的。弄清小智的母亲遗弃她的理由。这个目的已经达到了。
 ====================
 
 ====================
@@ -64,7 +64,7 @@ length 28
 ====================
 But I'm still not satisfied.
 ====================
-But I'm still not satisfied.
+但我却无法认同。
 ====================
 
 ====================
@@ -75,7 +75,7 @@ length 90
 ====================
 Now that I've learned the truth, I think that them living together is even more important.
 ====================
-Now that I've learned the truth, I think that them living together is even more important.
+知晓真相之后，我更加觉得，她们母女俩应该一同度过这最后一段日子。
 ====================
 
 ====================
@@ -86,7 +86,7 @@ length 46
 ====================
 That is why I'll make sure Tomo can live here.
 ====================
-That is why I'll make sure Tomo can live here.
+所以，我想尽力让这里，变得也能适合小智生活。
 ====================
 
 ====================
@@ -97,7 +97,7 @@ length 47
 ====================
 That'll become our new reason for staying here.
 ====================
-That'll become our new reason for staying here.
+这成为了我新的目的，也是继续留在此地的理由。。
 ====================
 
 ====================
@@ -108,7 +108,7 @@ length 48
 ====================
 But I still don't know how I'd make that happen.
 ====================
-But I still don't know how I'd make that happen.
+然而，我却实在想不出究竟该如何办到。
 ====================
 
 ====================
@@ -119,7 +119,7 @@ length 43
 ====================
 I think back on what Tomo's mother told me.
 ====================
-I think back on what Tomo's mother told me.
+我回想起那位母亲的话。
 ====================
 
 ====================
@@ -130,7 +130,7 @@ length 104
 ====================
 \"The people who live here have nothing. They've lost everything, and they are still losing even more.\"
 ====================
-\"The people who live here have nothing. They've lost everything, and they are still losing even more.\"
+「在这里居住的人们，全都一无所有。他们失去了，并且一直在失去中度过」
 ====================
 
 ====================
@@ -141,7 +141,7 @@ length 90
 ====================
 \"And you must not bring her here when she still has a future... hope... and everything.\"
 ====================
-\"And you must not bring her here when she still has a future... hope... and everything.\"
+「不能把有着一切未来和希望的那孩子，带到这来」
 ====================
 
 ====================
@@ -152,7 +152,7 @@ length 31
 ====================
 This is about Tomo living here.
 ====================
-This is about Tomo living here.
+要让小智住在这里。
 ====================
 
 ====================
@@ -163,7 +163,7 @@ length 75
 ====================
 In other words, it's about creating hope and a future in a place like this.
 ====================
-In other words, it's about creating hope and a future in a place like this.
+也就是要让这个不断失去的地方，重新创造出未来与希望。
 ====================
 
 ====================
@@ -174,7 +174,7 @@ length 33
 ====================
 I wonder if that's even possible.
 ====================
-I wonder if that's even possible.
+这种事能做到吗？
 ====================
 
 ====================
@@ -185,7 +185,7 @@ length 24
 ====================
 \"...what should I do?\"
 ====================
-\"...what should I do?\"
+「…该怎么做呢」
 ====================
 
 ====================
@@ -196,7 +196,7 @@ length 88
 ====================
 I come across the caretaker while I am walking through the hallway, muttering to myself.
 ====================
-I come across the caretaker while I am walking through the hallway, muttering to myself.
+我自言自语地走在走廊上，碰上了管理员。
 ====================
 
 ====================
@@ -207,7 +207,7 @@ length 88
 ====================
 She toggles the power switch of the old-fashioned vacuum cleaner in her hand repeatedly.
 ====================
-She toggles the power switch of the old-fashioned vacuum cleaner in her hand repeatedly.
+她手中拿着台古旧的吸尘器，不停地开关着电源开关。
 ====================
 
 ====================
@@ -218,7 +218,7 @@ length 41
 ====================
 \"Ah, good morning. Did you sleep well?\"
 ====================
-\"Ah, good morning. Did you sleep well?\"
+「啊，早上好，睡得还好吗？」
 ====================
 
 ====================
@@ -229,7 +229,7 @@ length 15
 ====================
 \"Not really.\"
 ====================
-\"Not really.\"
+「不怎么样」
 ====================
 
 ====================
@@ -240,7 +240,7 @@ length 18
 ====================
 I answer honestly.
 ====================
-I answer honestly.
+我诚实地答道。
 ====================
 
 ====================
@@ -251,7 +251,7 @@ length 49
 ====================
 \"I see... Hm, I wonder why this won't turn on.\"
 ====================
-\"I see... Hm, I wonder why this won't turn on.\"
+「是吗…啊—，为什么就是通不上电呢」
 ====================
 
 ====================
@@ -262,7 +262,7 @@ length 53
 ====================
 \"Is there something wrong with the vacuum cleaner?\"
 ====================
-\"Is there something wrong with the vacuum cleaner?\"
+「这台吸尘器怎么了？」
 ====================
 
 ====================
@@ -273,7 +273,7 @@ length 39
 ====================
 \"Yeah, it suddenly refused to start.\"
 ====================
-\"Yeah, it suddenly refused to start.\"
+「嗯，突然就通不上电了」
 ====================
 
 ====================
@@ -284,7 +284,7 @@ length 63
 ====================
 \"Did you check the wall socket? That honestly happens a lot.\"
 ====================
-\"Did you check the wall socket? That honestly happens a lot.\"
+「检查过插座了吗？这种事经常是那个引起的」
 ====================
 
 ====================
@@ -295,7 +295,7 @@ length 48
 ====================
 \"It's plugged into the one on the other side.\"
 ====================
-\"It's plugged into the one on the other side.\"
+「接在另一头了」
 ====================
 
 ====================
@@ -306,7 +306,7 @@ length 85
 ====================
 When I look, there's a taut extension cord coming from the other side of the hallway.
 ====================
-When I look, there's a taut extension cord coming from the other side of the hallway.
+我顺着线路看去，从走廊的另一头伸过来一根电源延长线。
 ====================
 
 ====================
@@ -317,7 +317,7 @@ length 74
 ====================
 I look around the corner and see that it's properly plugged into a socket.
 ====================
-I look around the corner and see that it's properly plugged into a socket.
+拐过拐角，看见插头好好地插着。
 ====================
 
 ====================
@@ -328,7 +328,7 @@ length 27
 ====================
 \"Was it working earlier?\"
 ====================
-\"Was it working earlier?\"
+「一开始启动得了吗」
 ====================
 
 ====================
@@ -339,7 +339,7 @@ length 9
 ====================
 \"Yeah.\"
 ====================
-\"Yeah.\"
+「嗯」
 ====================
 
 ====================
@@ -350,7 +350,7 @@ length 90
 ====================
 I try unplugging the extension cord, and then plugging the original cable into the socket.
 ====================
-I try unplugging the extension cord, and then plugging the original cable into the socket.
+我取下延长线，把吸尘器自身的插头直接插入插座。
 ====================
 
 ====================
@@ -361,7 +361,7 @@ length 70
 ====================
 The vacuum cleaner makes long-drawn-out loud noise and starts to work.
 ====================
-The vacuum cleaner makes long-drawn-out loud noise and starts to work.
+吸尘器发出一阵低鸣，启动了。
 ====================
 
 ====================
@@ -372,7 +372,7 @@ length 36
 ====================
 \"Looks like this was the problem.\"
 ====================
-\"Looks like this was the problem.\"
+「这就是原因了」
 ====================
 
 ====================
@@ -383,7 +383,7 @@ length 34
 ====================
 I swing the extension cord around.
 ====================
-I swing the extension cord around.
+我呼啦呼啦地挥挥延长线看看。
 ====================
 
 ====================
@@ -394,7 +394,7 @@ length 51
 ====================
 I see. It makes sense now that I see how old it is.
 ====================
-I see. It makes sense now that I see how old it is.
+原来如此，这根线也很旧了。
 ====================
 
 ====================
@@ -405,7 +405,7 @@ length 50
 ====================
 \"...ah, if only I could check its conductivity.\"
 ====================
-\"...ah, if only I could check its conductivity.\"
+「…啊—，要是可以检查下通电状况就好了」
 ====================
 
 ====================
@@ -416,7 +416,7 @@ length 44
 ====================
 I carefully trace the casing with my finger.
 ====================
-I carefully trace the casing with my finger.
+我用手指仔细地感触着外层的绝缘膜。
 ====================
 
 ====================
@@ -427,7 +427,7 @@ length 107
 ====================
 The part that rubbed against the corner of the hallway bulged, and the casing is cracked in several places.
 ====================
-The part that rubbed against the corner of the hallway bulged, and the casing is cracked in several places.
+发现正好位于走廊拐角处的那段电线，绝缘膜有些开裂了。
 ====================
 
 ====================
@@ -438,7 +438,7 @@ length 44
 ====================
 \"This is probably where the wire snapped.\"
 ====================
-\"This is probably where the wire snapped.\"
+「我想，大概是这里断线了」
 ====================
 
 ====================
@@ -449,7 +449,7 @@ length 17
 ====================
 \"You can tell?\"
 ====================
-\"You can tell?\"
+「你知道这事？」
 ====================
 
 ====================
@@ -460,7 +460,7 @@ length 34
 ====================
 \"I do things like this at work.\"
 ====================
-\"I do things like this at work.\"
+「我的工作就是干这个的」
 ====================
 
 ====================
@@ -471,7 +471,7 @@ length 101
 ====================
 \"If I can cut it, I can fix it using a pair of pliers, a soldering iron, and some electrical tape.\"
 ====================
-\"If I can cut it, I can fix it using a pair of pliers, a soldering iron, and some electrical tape.\"
+「如果不介意剪掉这段的话，那么用钳子和绝缘胶带便能接好」
 ====================
 
 ====================
@@ -482,7 +482,7 @@ length 78
 ====================
 \"We have those tools, but if you cut it, it won't reach the socket anymore.\"
 ====================
-\"We have those tools, but if you cut it, it won't reach the socket anymore.\"
+「这些东西有是有，但是剪掉的话就够不着了啊」
 ====================
 
 ====================
@@ -493,7 +493,7 @@ length 51
 ====================
 The caretaker points toward the end of the hallway.
 ====================
-The caretaker points toward the end of the hallway.
+管理员指着走廊尽头说道。
 ====================
 
 ====================
@@ -504,7 +504,7 @@ length 31
 ====================
 \"It barely reaches as it is.\"
 ====================
-\"It barely reaches as it is.\"
+「这种长度正好能够到啊」
 ====================
 
 ====================
@@ -515,7 +515,7 @@ length 60
 ====================
 I think about it for a minute, and an idea comes to my mind.
 ====================
-I think about it for a minute, and an idea comes to my mind.
+我思考了一阵，想到个好主意。
 ====================
 
 ====================
@@ -526,7 +526,7 @@ length 66
 ====================
 \"...do you happen to have any spare electric appliances around?\"
 ====================
-\"...do you happen to have any spare electric appliances around?\"
+「…有没有已经不用的电器之类的？」
 ====================
 
 ====================
@@ -537,7 +537,7 @@ length 38
 ====================
 \"All I really need is a power cord.\"
 ====================
-\"All I really need is a power cord.\"
+「只要有电源线就行了」
 ====================
 
 ====================
@@ -548,7 +548,7 @@ length 34
 ====================
 \"Hm, I wonder if we have any...\"
 ====================
-\"Hm, I wonder if we have any...\"
+「让我想想，有这样的东西吗…」
 ====================
 
 ====================
@@ -559,7 +559,7 @@ length 15
 ====================
 \"...oh yeah.\"
 ====================
-\"...oh yeah.\"
+「…啊」
 ====================
 
 ====================
@@ -570,7 +570,7 @@ length 42
 ====================
 The caretaker takes me to a mountain road.
 ====================
-The caretaker takes me to a mountain road.
+我跟着管理员走在山路上。
 ====================
 
 ====================
@@ -581,7 +581,7 @@ length 35
 ====================
 The road is steep, but fairly wide.
 ====================
-The road is steep, but fairly wide.
+虽然山路有些陡，但是很宽阔。
 ====================
 
 ====================
@@ -592,7 +592,7 @@ length 77
 ====================
 While it's not paved, the road looks wide enough for cars to pass each other.
 ====================
-While it's not paved, the road looks wide enough for cars to pass each other.
+仅管路并没铺设过，但似乎经常有车辆通过。
 ====================
 
 ====================
@@ -603,7 +603,7 @@ length 36
 ====================
 \"Where exactly are you taking me?\"
 ====================
-\"Where exactly are you taking me?\"
+「要带我去哪呢？」
 ====================
 
 ====================
@@ -614,7 +614,7 @@ length 87
 ====================
 \"Over there. Despite it being a nuisance, this place comes in handy once in a while.\"
 ====================
-\"Over there. Despite it being a nuisance, this place comes in handy once in a while.\"
+「就在那里，虽然平时带来不少麻烦，不过偶尔也能派点用场」
 ====================
 
 ====================
@@ -625,7 +625,7 @@ length 38
 ====================
 The caretaker points at a black mound.
 ====================
-The caretaker points at a black mound.
+顺着管理员指着的方向，我看到了一座黑黑的小山。
 ====================
 
 ====================
@@ -636,7 +636,7 @@ length 56
 ====================
 \"...I feel like I've seen something like this before.\"
 ====================
-\"...I feel like I've seen something like this before.\"
+「…总觉得好像在哪看到过」
 ====================
 
 ====================
@@ -647,7 +647,7 @@ length 60
 ====================
 I can tell they're piles of oversized junk as we get closer.
 ====================
-I can tell they're piles of oversized junk as we get closer.
+走近一看，很多大型的垃圾在那堆积如山。
 ====================
 
 ====================
@@ -658,7 +658,7 @@ length 84
 ====================
 Since I often see things like this at my company, a sense of deja vu washes over me.
 ====================
-Since I often see things like this at my company, a sense of deja vu washes over me.
+之所以会觉得眼熟，是因为这种场景在公司里经常能看见。
 ====================
 
 ====================
@@ -669,7 +669,7 @@ length 36
 ====================
 \"This is an illegal garbage dump.\"
 ====================
-\"This is an illegal garbage dump.\"
+「这些，都是非法丢弃的呢」
 ====================
 
 ====================
@@ -680,7 +680,7 @@ length 44
 ====================
 \"Did they dump whatever they wanted here?\"
 ====================
-\"Did they dump whatever they wanted here?\"
+「随意乱扔的吗？」
 ====================
 
 ====================
@@ -691,7 +691,7 @@ length 76
 ====================
 \"Yeah. I complained several times, but then, the entire company vanished.\"
 ====================
-\"Yeah. I complained several times, but then, the entire company vanished.\"
+「没错。虽然抗议过好几次，但乱扔垃圾的公司最终仍没来处理」
 ====================
 
 ====================
@@ -702,7 +702,7 @@ length 39
 ====================
 \"And all of this just got left here.\"
 ====================
-\"And all of this just got left here.\"
+「结果就一直这样堆在这了」
 ====================
 
 ====================
@@ -713,7 +713,7 @@ length 71
 ====================
 \"I also reported it to the town hall, but you know what that's like.\"
 ====================
-\"I also reported it to the town hall, but you know what that's like.\"
+「虽然也向村公所提出过，但怎么说好呢」
 ====================
 
 ====================
@@ -724,7 +724,7 @@ length 52
 ====================
 The caretaker takes off the vinyl sheet covering it.
 ====================
-The caretaker takes off the vinyl sheet covering it.
+管理员揭开了盖在上面的塑料膜。
 ====================
 
 ====================
@@ -735,7 +735,7 @@ length 58
 ====================
 These electric appliances look to be in fairly good shape.
 ====================
-These electric appliances look to be in fairly good shape.
+里面堆积着不少比较美观的电器制品。
 ====================
 
 ====================
@@ -746,7 +746,7 @@ length 18
 ====================
 \"Will these do?\"
 ====================
-\"Will these do?\"
+「这种可以吗？」
 ====================
 
 ====================
@@ -757,7 +757,7 @@ length 12
 ====================
 \"Perfect.\"
 ====================
-\"Perfect.\"
+「足够了」
 ====================
 
 ====================
@@ -768,7 +768,7 @@ length 63
 ====================
 I look for the longest non-corroded cord I can find and cut it.
 ====================
-I look for the longest non-corroded cord I can find and cut it.
+我尽可能地找了段没被腐蚀的长电源线，切了下来。
 ====================
 
 ====================
@@ -779,7 +779,7 @@ length 17
 ====================
 The rest is easy.
 ====================
-The rest is easy.
+之后就是些简单的工作了。
 ====================
 
 ====================
@@ -790,7 +790,7 @@ length 55
 ====================
 If it's not long enough, I just have to make it longer.
 ====================
-If it's not long enough, I just have to make it longer.
+既然长度不够，那补足就行了。
 ====================
 
 ====================
@@ -801,7 +801,7 @@ length 91
 ====================
 I cut the worn-out parts off the extension cord and connect it to the cable I brought back.
 ====================
-I cut the worn-out parts off the extension cord and connect it to the cable I brought back.
+我只把延长线坏掉的部分切掉，然后和刚才找来的电源线连了起来。
 ====================
 
 ====================
@@ -812,7 +812,7 @@ length 92
 ====================
 After I splice the wires together and wrap it with some electrical tape, the repair is done.
 ====================
-After I splice the wires together and wrap it with some electrical tape, the repair is done.
+捻好导线后，我采用应急处理的办法，用塑料胶带将电线包好就完成了。
 ====================
 
 ====================
@@ -823,7 +823,7 @@ length 32
 ====================
 \"It'll do for the time being.\"
 ====================
-\"It'll do for the time being.\"
+「这样就暂时没问题了」
 ====================
 
 ====================
@@ -834,7 +834,7 @@ length 59
 ====================
 I turn the power on, and the vacuum cleaner starts working.
 ====================
-I turn the power on, and the vacuum cleaner starts working.
+接上电源，吸尘器轻快地运作了起来。
 ====================
 
 ====================
@@ -845,7 +845,7 @@ length 98
 ====================
 \"But you should really buy a new extension cable as soon as possible. It's dangerous otherwise.\"
 ====================
-\"But you should really buy a new extension cable as soon as possible. It's dangerous otherwise.\"
+「不过，还是尽早去买根新的延长线吧。这样挺危险的」
 ====================
 
 ====================
@@ -856,7 +856,7 @@ length 32
 ====================
 The caretaker nods with a smile.
 ====================
-The caretaker nods with a smile.
+管理员笑着点着头。
 ====================
 
 ====================
@@ -867,7 +867,7 @@ length 66
 ====================
 After that, she shows me around the village to show her gratitude.
 ====================
-After that, she shows me around the village to show her gratitude.
+之后，作为回礼，她带着我参观了村子。
 ====================
 
 ====================
@@ -878,7 +878,7 @@ length 135
 ====================
 Even though the villagers still run away when spoken to, I manage to learn about village life and how the different buildings are used.
 ====================
-Even though the villagers still run away when spoken to, I manage to learn about village life and how the different buildings are used.
+和村民们搭话时，他们仍旧会逃跑。尽管如此，仍了解到了村里的生活和收容所的职务之类的事。
 ====================
 
 ====================
@@ -889,7 +889,7 @@ length 60
 ====================
 The building in the middle is like the heart of the village.
 ====================
-The building in the middle is like the heart of the village.
+村中央的那个收容所，简单说来就是村子的主干。
 ====================
 
 ====================
@@ -900,7 +900,7 @@ length 68
 ====================
 Many villagers live there, and they mainly spend their days farming.
 ====================
-Many villagers live there, and they mainly spend their days farming.
+村民大都住在那里，每天的生活也基本都是耕作。
 ====================
 
 ====================
@@ -911,7 +911,7 @@ length 130
 ====================
 I also learn that every couple of days, a doctor comes here from the town at the base of the mountain to see how things are going.
 ====================
-I also learn that every couple of days, a doctor comes here from the town at the base of the mountain to see how things are going.
+也知道了每隔一两天，会有医生从山脚下的小镇过来。
 ====================
 
 ====================
@@ -922,7 +922,7 @@ length 83
 ====================
 In a way, it's like this is a village that had grown from the hospital it once was.
 ====================
-In a way, it's like this is a village that had grown from the hospital it once was.
+从某种意义上来说，就好像把医院搬到了村子里面一样。
 ====================
 
 ====================
@@ -933,7 +933,7 @@ length 37
 ====================
 \"...so, what do you want me to do?\"
 ====================
-\"...so, what do you want me to do?\"
+「…那么，你想让我干什么？」
 ====================
 
 ====================
@@ -944,7 +944,7 @@ length 41
 ====================
 In front of me is an old washing machine.
 ====================
-In front of me is an old washing machine.
+眼前是一台很老的洗衣机。
 ====================
 
 ====================
@@ -955,7 +955,7 @@ length 112
 ====================
 It's an old washing machine and dryer combo set. It's so old, I'm hit by a wave of nostalgia just looking at it.
 ====================
-It's an old washing machine and dryer combo set. It's so old, I'm hit by a wave of nostalgia just looking at it.
+是那种洗衣和脱水分开来的二槽式，看上去有种让人怀念的感觉。
 ====================
 
 ====================
@@ -966,7 +966,7 @@ length 58
 ====================
 \"I was thinking that you might be willing to repair it.\"
 ====================
-\"I was thinking that you might be willing to repair it.\"
+「我在想你能否修好它呢」
 ====================
 
 ====================
@@ -977,7 +977,7 @@ length 41
 ====================
 \"You have nothing better to do, right?\"
 ====================
-\"You have nothing better to do, right?\"
+「反正你也很闲吧？」
 ====================
 
 ====================
@@ -988,7 +988,7 @@ length 40
 ====================
 \"It may not look it, but sadly, I do.\"
 ====================
-\"It may not look it, but sadly, I do.\"
+「虽然表面上看起来如此，但其实我并没空」
 ====================
 
 ====================
@@ -999,7 +999,7 @@ length 36
 ====================
 I have enough things to think about.
 ====================
-I have enough things to think about.
+要考虑的事还堆积如山。
 ====================
 
 ====================
@@ -1010,7 +1010,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+「………」
 ====================
 
 ====================
@@ -1021,7 +1021,7 @@ length 56
 ====================
 There's a frightened-looking woman behind the caretaker.
 ====================
-There's a frightened-looking woman behind the caretaker.
+我看到管理员身后一位畏畏缩缩的女性。
 ====================
 
 ====================
@@ -1032,7 +1032,7 @@ length 29
 ====================
 \"...who's that behind you?\"
 ====================
-\"...who's that behind you?\"
+「…你身后的那位是？」
 ====================
 
 ====================
@@ -1043,7 +1043,7 @@ length 108
 ====================
 \"This is Satomi-san. She handles our laundry. But we're at a loss now that the washing machine is broken.\"
 ====================
-\"This is Satomi-san. She handles our laundry. But we're at a loss now that the washing machine is broken.\"
+「负责洗衣服的聪美。因为洗衣机坏了，所以正困扰着呢。」
 ====================
 
 ====================
@@ -1054,7 +1054,7 @@ length 12
 ====================
 \"...fine.\"
 ====================
-\"...fine.\"
+「…我知道了啦」
 ====================
 
 ====================
@@ -1065,7 +1065,7 @@ length 34
 ====================
 It doesn't look like I can refuse.
 ====================
-It doesn't look like I can refuse.
+看来无论如何都不能拒绝了。
 ====================
 
 ====================
@@ -1076,7 +1076,7 @@ length 35
 ====================
 \"...you've got the tools, right?\"
 ====================
-\"...you've got the tools, right?\"
+「…有工具吗」
 ====================
 
 ====================
@@ -1087,7 +1087,7 @@ length 39
 ====================
 \"Yes, you can use anything you need.\"
 ====================
-\"Yes, you can use anything you need.\"
+「有，用得着的话就请随便用吧」
 ====================
 
 ====================
@@ -1098,7 +1098,7 @@ length 34
 ====================
 She brings up a weathered toolbox.
 ====================
-She brings up a weathered toolbox.
+她拿出了个也算是相当有年份的工具箱。
 ====================
 
 ====================
@@ -1109,7 +1109,7 @@ length 42
 ====================
 \"What happened when it stopped working?\"
 ====================
-\"What happened when it stopped working?\"
+「动不了的时候，是怎么样的情形呢？」
 ====================
 
 ====================
@@ -1120,7 +1120,7 @@ length 85
 ====================
 \"It suddenly started to roar, and soon after that, the switch stopped working too.\"
 ====================
-\"It suddenly started to roar, and soon after that, the switch stopped working too.\"
+「突然就发出呜呜的声音，接着开关就失灵了」
 ====================
 
 ====================
@@ -1131,7 +1131,7 @@ length 43
 ====================
 I can think of a couple of possible causes.
 ====================
-I can think of a couple of possible causes.
+我在头脑中设想了好几种可能性。
 ====================
 
 ====================
@@ -1142,7 +1142,7 @@ length 58
 ====================
 However, there's not much I can do without metering tools.
 ====================
-However, there's not much I can do without metering tools.
+尽管如此，因为没有测试工具，所以能做的事太少了。
 ====================
 
 ====================
@@ -1153,7 +1153,7 @@ length 68
 ====================
 There is a tester in the toolbox, but I have never used one at work.
 ====================
-There is a tester in the toolbox, but I have never used one at work.
+虽然工具箱里也有万用表，但终究派不上什么用场。
 ====================
 
 ====================
@@ -1164,7 +1164,7 @@ length 76
 ====================
 Being able to check the electricity is still better than nothing, I suppose.
 ====================
-Being able to check the electricity is still better than nothing, I suppose.
+不过至少能够检测是否通电，所以终归要比没有好。
 ====================
 
 ====================
@@ -1175,7 +1175,7 @@ length 58
 ====================
 I try each part to make sure they can conduct electricity.
 ====================
-I try each part to make sure they can conduct electricity.
+我一个接一个地检测着部件是否通电正常。
 ====================
 
 ====================
@@ -1186,7 +1186,7 @@ length 55
 ====================
 The woman from earlier watches from behind as I fix it.
 ====================
-The woman from earlier watches from behind as I fix it.
+与此同时，刚才那位女性就在我身后仔细观察着。
 ====================
 
 ====================
@@ -1197,7 +1197,7 @@ length 22
 ====================
 \"...can you fix it?\"
 ====================
-\"...can you fix it?\"
+「…能修好吗？」
 ====================
 
 ====================
@@ -1208,7 +1208,7 @@ length 85
 ====================
 I feel as if it's the first time I've been addressed since I arrived at this village.
 ====================
-I feel as if it's the first time I've been addressed since I arrived at this village.
+感觉这似乎是从我进这村子以来，第一次被人问话。
 ====================
 
 ====================
@@ -1219,7 +1219,7 @@ length 21
 ====================
 \"I don't know yet.\"
 ====================
-\"I don't know yet.\"
+「现在还不确定」
 ====================
 
 ====================
@@ -1230,7 +1230,7 @@ length 96
 ====================
 \"But it doesn't look difficult to fix. If the parts are fine, I think it should be all right.\"
 ====================
-\"But it doesn't look difficult to fix. If the parts are fine, I think it should be all right.\"
+「不过也并非那么困难，我想只要部件没问题的话，应该能修好」
 ====================
 
 ====================
@@ -1241,7 +1241,7 @@ length 139
 ====================
 I turn the power on once to see if anything happens. The dryer is the only part that doesn't turn on, so it's obvious where the problem is.
 ====================
-I turn the power on once to see if anything happens. The dryer is the only part that doesn't turn on, so it's obvious where the problem is.
+试着接通电源，因为只有脱水机不动，所以还是比较容易判定问题所在之处的。
 ====================
 
 ====================
@@ -1252,7 +1252,7 @@ length 73
 ====================
 The washing machine's motor, which I took out, works without any problem.
 ====================
-The washing machine's motor, which I took out, works without any problem.
+我将拆下的马达接上电源，它轻快地转动了起来。
 ====================
 
 ====================
@@ -1263,7 +1263,7 @@ length 44
 ====================
 It seems that there's nothing wrong with it.
 ====================
-It seems that there's nothing wrong with it.
+这里似乎没问题。
 ====================
 
 ====================
@@ -1274,7 +1274,7 @@ length 38
 ====================
 The woman stares intently at my hands.
 ====================
-The woman stares intently at my hands.
+她像是要将我的手吃掉般地观察着。
 ====================
 
 ====================
@@ -1285,7 +1285,7 @@ length 41
 ====================
 \"Are you interested in what I'm doing?\"
 ====================
-\"Are you interested in what I'm doing?\"
+「你也感兴趣吗？」
 ====================
 
 ====================
@@ -1296,7 +1296,7 @@ length 58
 ====================
 When I ask her, she looks surprised and hides in a corner.
 ====================
-When I ask her, she looks surprised and hides in a corner.
+我一问话，她就吃惊似地躲到了角落里。
 ====================
 
 ====================
@@ -1307,7 +1307,7 @@ length 13
 ====================
 \"...sorry.\"
 ====================
-\"...sorry.\"
+「…抱歉」
 ====================
 
 ====================
@@ -1318,7 +1318,7 @@ length 38
 ====================
 I return my focus to the task at hand.
 ====================
-I return my focus to the task at hand.
+我回头继续关注手头的工作。
 ====================
 
 ====================
@@ -1329,7 +1329,7 @@ length 64
 ====================
 I stick the pins of the tester at the roots of the cables again.
 ====================
-I stick the pins of the tester at the roots of the cables again.
+再次将万用表的探针，接在了电线的两端。
 ====================
 
 ====================
@@ -1340,7 +1340,7 @@ length 35
 ====================
 ...the needle doesn't move an inch.
 ====================
-...the needle doesn't move an inch.
+…指针没有动。
 ====================
 
 ====================
@@ -1351,7 +1351,7 @@ length 23
 ====================
 \"Here's the problem.\"
 ====================
-\"Here's the problem.\"
+「是这儿吗」
 ====================
 
 ====================
@@ -1362,7 +1362,7 @@ length 70
 ====================
 I take out a notepad and write down the cable's color and connections.
 ====================
-I take out a notepad and write down the cable's color and connections.
+我取出笔记本，记录下电线的颜色和连接方式。
 ====================
 
 ====================
@@ -1373,7 +1373,7 @@ length 70
 ====================
 I notice a presence behind me. Like me, she is peering at the notepad.
 ====================
-I notice a presence behind me. Like me, she is peering at the notepad.
+察觉到身后有些动静，原来她也在看着我的笔记本。
 ====================
 
 ====================
@@ -1384,7 +1384,7 @@ length 110
 ====================
 \"...the GND is the line where the electricity goes out, and the red line is where the electricity comes in.\"
 ====================
-\"...the GND is the line where the electricity goes out, and the red line is where the electricity comes in.\"
+「…GND是电流流出线，红线是电流流入线」
 ====================
 
 ====================
@@ -1395,7 +1395,7 @@ length 76
 ====================
 \"The circuit was cut somewhere inside. If I can find where, I can fix it.\"
 ====================
-\"The circuit was cut somewhere inside. If I can find where, I can fix it.\"
+「这当中有处地方断了，只要找到在哪就能修理好了」
 ====================
 
 ====================
@@ -1406,7 +1406,7 @@ length 68
 ====================
 Hearing me mutter as if I were talking to myself, she nods, puzzled.
 ====================
-Hearing me mutter as if I were talking to myself, she nods, puzzled.
+我像是自言自语似地说着，她听了也默默地点了点头。
 ====================
 
 ====================
@@ -1417,7 +1417,7 @@ length 101
 ====================
 Although I have no idea whether the soldering iron works, I give it a try and fix the line's contact.
 ====================
-Although I have no idea whether the soldering iron works, I give it a try and fix the line's contact.
+用不知道是否管用的电线把线路接好。
 ====================
 
 ====================
@@ -1428,7 +1428,7 @@ length 113
 ====================
 The fuse in the middle is blown, so I look for a fuse with the same resistance in the trash heap, and replace it.
 ====================
-The fuse in the middle is blown, so I look for a fuse with the same resistance in the trash heap, and replace it.
+其中的保险丝不见了，于是我便从垃圾山里找了个相同阻抗的保险丝装了上去。
 ====================
 
 ====================
@@ -1439,7 +1439,7 @@ length 73
 ====================
 I clean out the dust and filth, and then cover the moving parts with oil.
 ====================
-I clean out the dust and filth, and then cover the moving parts with oil.
+接着，我给可动的部位用油除掉了污垢。
 ====================
 
 ====================
@@ -1450,7 +1450,7 @@ length 36
 ====================
 With that, the assembly is finished.
 ====================
-With that, the assembly is finished.
+然后，重新组装起来，便完工了。
 ====================
 
 ====================
@@ -1461,7 +1461,7 @@ length 51
 ====================
 \"Can you turn on the power and see what happens?\"
 ====================
-\"Can you turn on the power and see what happens?\"
+「你开下开关试试？」
 ====================
 
 ====================
@@ -1472,7 +1472,7 @@ length 49
 ====================
 She nods and timidly turns the dial of the dryer.
 ====================
-She nods and timidly turns the dial of the dryer.
+她点点头，战战兢兢地转了转脱水机的旋钮。
 ====================
 
 ====================
@@ -1483,7 +1483,7 @@ length 65
 ====================
 The washing machine starts to vibrate while making a dull rumble.
 ====================
-The washing machine starts to vibrate while making a dull rumble.
+伴随着低沉的声音，洗衣机开始震动起来。
 ====================
 
 ====================
@@ -1494,7 +1494,7 @@ length 8
 ====================
 \"...!\"
 ====================
-\"...!\"
+「………！」
 ====================
 
 ====================
@@ -1505,7 +1505,7 @@ length 109
 ====================
 She doesn't make a sound, but by the way she's looking at me and the washing machine, I know she's surprised.
 ====================
-She doesn't make a sound, but by the way she's looking at me and the washing machine, I know she's surprised.
+她虽然没有叫出声来，但却不停地盯着我和洗衣机，看得出她很惊讶。
 ====================
 
 ====================
@@ -1516,7 +1516,7 @@ length 26
 ====================
 \"That's good, isn't it?\"
 ====================
-\"That's good, isn't it?\"
+「太好了呢」
 ====================
 
 ====================
@@ -1527,7 +1527,7 @@ length 88
 ====================
 She suddenly grabs my hands after I wipe the oil from my hands with a cloth I was given.
 ====================
-She suddenly grabs my hands after I wipe the oil from my hands with a cloth I was given.
+就在我用破布擦去手上的油渍时，她突然握住了我的手。
 ====================
 
 ====================
@@ -1538,7 +1538,7 @@ length 21
 ====================
 \"H-Hey, what's...?\"
 ====================
-\"H-Hey, what's...?\"
+「喂，喂，等等…」
 ====================
 
 ====================
@@ -1549,7 +1549,7 @@ length 16
 ====================
 \"T-Thank you.\"
 ====================
-\"T-Thank you.\"
+「谢、谢谢你」
 ====================
 
 ====================
@@ -1560,7 +1560,7 @@ length 107
 ====================
 Her voice sounds fragile as she thanks me, but her hands are shaking and she has a happy smile on her face.
 ====================
-Her voice sounds fragile as she thanks me, but her hands are shaking and she has a happy smile on her face.
+与她那小声的道谢相反，她呼呼地摇着我的手，开心地微笑着。
 ====================
 
 ====================
@@ -1571,7 +1571,7 @@ length 58
 ====================
 I end up spending the day repairing things in the village.
 ====================
-I end up spending the day repairing things in the village.
+结果，这天就在为村民们修理东西中结束了。
 ====================
 
 ====================
@@ -1582,7 +1582,7 @@ length 88
 ====================
 That's because the caretaker and the laundry girl told everyone in the village about me.
 ====================
-That's because the caretaker and the laundry girl told everyone in the village about me.
+这都是管理员和负责洗衣的她，在村里到处宣传的结果。
 ====================
 
 ====================
@@ -1593,7 +1593,7 @@ length 14
 ====================
 \"Good work.\"
 ====================
-\"Good work.\"
+「辛苦你了」
 ====================
 
 ====================
@@ -1604,7 +1604,7 @@ length 20
 ====================
 \"Ah, I'm tired...\"
 ====================
-\"Ah, I'm tired...\"
+「啊，真的很累啊…」
 ====================
 
 ====================
@@ -1615,7 +1615,7 @@ length 90
 ====================
 The caretaker sets a glass of tea down in front of me as I sit down, completely exhausted.
 ====================
-The caretaker sets a glass of tea down in front of me as I sit down, completely exhausted.
+她倒了杯茶，放在累倒在座位上的我身边。
 ====================
 
 ====================
@@ -1626,7 +1626,7 @@ length 25
 ====================
 I drink it all in one go.
 ====================
-I drink it all in one go.
+我将它一饮而尽了。
 ====================
 
 ====================
@@ -1637,7 +1637,7 @@ length 41
 ====================
 She pours me some more when I ask for it.
 ====================
-She pours me some more when I ask for it.
+说了句『再来一杯』，她又为我倒满了。
 ====================
 
 ====================
@@ -1648,7 +1648,7 @@ length 55
 ====================
 This really isn't what I should be spending my time on.
 ====================
-This really isn't what I should be spending my time on.
+明明不是该做这种事的时候。
 ====================
 
 ====================
@@ -1659,7 +1659,7 @@ length 82
 ====================
 I force myself to think as I stare at the glass, which is covered in condensation.
 ====================
-I force myself to think as I stare at the glass, which is covered in condensation.
+我凝神地盯着那沾有水珠的玻璃杯，不停地逼着自己快点想。
 ====================
 
 ====================
@@ -1670,7 +1670,7 @@ length 32
 ====================
 \"What are you thinking about?\"
 ====================
-\"What are you thinking about?\"
+「你老在想什么啊？」
 ====================
 
 ====================
@@ -1681,7 +1681,7 @@ length 16
 ====================
 \"Oh? Nothing.\"
 ====================
-\"Oh? Nothing.\"
+「诶？没什么」
 ====================
 
 ====================
@@ -1692,7 +1692,7 @@ length 65
 ====================
 \"What to do to get Yuko-san and her daughter to live together?\"
 ====================
-\"What to do to get Yuko-san and her daughter to live together?\"
+「是想让有子和她女儿一起住这吗？」
 ====================
 
 ====================
@@ -1703,7 +1703,7 @@ length 14
 ====================
 ...bull's-eye.
 ====================
-...bull's-eye.
+…一语中的。
 ====================
 
 ====================
@@ -1714,7 +1714,7 @@ length 24
 ====================
 \"That's not possible.\"
 ====================
-\"That's not possible.\"
+「不可能的」
 ====================
 
 ====================
@@ -1725,7 +1725,7 @@ length 22
 ====================
 It's a frank response.
 ====================
-It's a frank response.
+还真是我最不想听到的回答呢。
 ====================
 
 ====================
@@ -1736,7 +1736,7 @@ length 35
 ====================
 \"You heard from Yuko-san, right?\"
 ====================
-\"You heard from Yuko-san, right?\"
+「你也听有子说了吧」
 ====================
 
 ====================
@@ -1747,7 +1747,7 @@ length 80
 ====================
 The tone of her voice is very kind, as if she's admonishing a disobedient child.
 ====================
-The tone of her voice is very kind, as if she's admonishing a disobedient child.
+她的声音很慈祥，像在教育任性的孩子一般。
 ====================
 
 ====================
@@ -1758,7 +1758,7 @@ length 65
 ====================
 \"This village is a place where people have absolutely nothing.\"
 ====================
-\"This village is a place where people have absolutely nothing.\"
+「这个村子是一无所有的人们生活的地方」
 ====================
 
 ====================
@@ -1769,7 +1769,7 @@ length 98
 ====================
 \"Moreover, there are plenty of other things you have to worry about here, like your daily life.\"
 ====================
-\"Moreover, there are plenty of other things you have to worry about here, like your daily life.\"
+「而且呢，就算要生活下来，也是有诸多困难的」
 ====================
 
 ====================
@@ -1780,7 +1780,7 @@ length 77
 ====================
 \"I'll just ask. When you came here, you climbed up a mountain road, right?\"
 ====================
-\"I'll just ask. When you came here, you climbed up a mountain road, right?\"
+「听你们说过，到这来时是走的山路吧？」
 ====================
 
 ====================
@@ -1791,7 +1791,7 @@ length 25
 ====================
 \"How long did it take?\"
 ====================
-\"How long did it take?\"
+「要花多少时间呢？」
 ====================
 
 ====================
@@ -1802,7 +1802,7 @@ length 40
 ====================
 With adult legs, it took over two hours.
 ====================
-With adult legs, it took over two hours.
+就算是成年人，步行也需要两小时以上。
 ====================
 
 ====================
@@ -1813,7 +1813,7 @@ length 55
 ====================
 \"It takes that long just to buy the things you need.\"
 ====================
-\"It takes that long just to buy the things you need.\"
+「只是买些必需品，就得花那么长时间」
 ====================
 
 ====================
@@ -1824,7 +1824,7 @@ length 65
 ====================
 \"That's because this village doesn't even show up on any maps.\"
 ====================
-\"That's because this village doesn't even show up on any maps.\"
+「似乎是连地图上都不会标记的村子呢」
 ====================
 
 ====================
@@ -1835,7 +1835,7 @@ length 85
 ====================
 \"It gets even worse when you start thinking about how to get your child to school.\"
 ====================
-\"It gets even worse when you start thinking about how to get your child to school.\"
+「如果想要上学的话，那就更麻烦了」
 ====================
 
 ====================
@@ -1846,7 +1846,7 @@ length 58
 ====================
 \"And there's what you call 'society' over there, right?\"
 ====================
-\"And there's what you call 'society' over there, right?\"
+「而且在学校里，还有着叫做『社会』的东西吧？」
 ====================
 
 ====================
@@ -1857,7 +1857,7 @@ length 58
 ====================
 \"It's because she's here that Yuko-san can remain calm.\"
 ====================
-\"It's because she's here that Yuko-san can remain calm.\"
+「正因为住在这，此时的有子才能安稳地生活」
 ====================
 
 ====================
@@ -1868,7 +1868,7 @@ length 35
 ====================
 \"Have you... lost something too?\"
 ====================
-\"Have you... lost something too?\"
+「你也是…失去过什么的人吗？」
 ====================
 
 ====================
@@ -1879,7 +1879,7 @@ length 85
 ====================
 \"I'm only overseeing this place, so that doesn't apply to me... What's your point?\"
 ====================
-\"I'm only overseeing this place, so that doesn't apply to me... What's your point?\"
+「我只是管理着这里，并没那样…怎么了？」
 ====================
 
 ====================
@@ -1890,7 +1890,7 @@ length 62
 ====================
 \"So you can't drop someone off and come pick them up later?\"
 ====================
-\"So you can't drop someone off and come pick them up later?\"
+「那么，你可以负责接送孩子啊」
 ====================
 
 ====================
@@ -1901,7 +1901,7 @@ length 51
 ====================
 \"Who's going to keep an eye on things here then?\"
 ====================
-\"Who's going to keep an eye on things here then?\"
+「那么，谁来管理这里？」
 ====================
 
 ====================
@@ -1912,7 +1912,7 @@ length 13
 ====================
 \"Will you?\"
 ====================
-\"Will you?\"
+「你来做吗？」
 ====================
 
 ====================
@@ -1923,7 +1923,7 @@ length 38
 ====================
 \"You won't get paid for it, though.\"
 ====================
-\"You won't get paid for it, though.\"
+「没有工资的哦」
 ====================
 
 ====================
@@ -1934,7 +1934,7 @@ length 47
 ====================
 \"Will you throw your whole life away for it?\"
 ====================
-\"Will you throw your whole life away for it?\"
+「你能舍弃现在所有的生活吗？」
 ====================
 
 ====================
@@ -1945,7 +1945,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+「………」
 ====================
 
 ====================
@@ -1956,7 +1956,7 @@ length 38
 ====================
 I can't do anything but shake my head.
 ====================
-I can't do anything but shake my head.
+我无法点头。
 ====================
 
 ====================
@@ -1967,7 +1967,7 @@ length 37
 ====================
 I told the villagers my wish as well.
 ====================
-I told the villagers my wish as well.
+我将自己的想法也告诉了村民们。
 ====================
 
 ====================
@@ -1978,5 +1978,5 @@ length 67
 ====================
 They listened to my story, but no one looked that happy to hear it.
 ====================
-They listened to my story, but no one looked that happy to hear it.
+他们只是听了听我的话而已，谁都没有露出好脸色。
 ====================

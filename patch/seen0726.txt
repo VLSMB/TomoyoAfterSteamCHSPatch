@@ -9,7 +9,7 @@ length 15
 ====================
 July 26th (Mon)
 ====================
-July 26th (Mon)
+7月26日(星期一)
 ====================
 
 ====================
@@ -20,7 +20,7 @@ length 23
 ====================
 \"H-Hold on a second.\"
 ====================
-\"H-Hold on a second.\"
+「稍、稍等一下啊—」
 ====================
 
 ====================
@@ -31,7 +31,7 @@ length 36
 ====================
 \"I can't hold on. Keep it steady.\"
 ====================
-\"I can't hold on. Keep it steady.\"
+「等不了。尽力撑着吧」
 ====================
 
 ====================
@@ -42,7 +42,7 @@ length 59
 ====================
 We're holding and carrying a large three-door refrigerator.
 ====================
-We're holding and carrying a large three-door refrigerator.
+我们正抬着有三扇门的大冰箱，卖力地搬运着。
 ====================
 
 ====================
@@ -53,7 +53,7 @@ length 17
 ====================
 \"Don't wobble.\"
 ====================
-\"Don't wobble.\"
+「别晃啊」
 ====================
 
 ====================
@@ -64,7 +64,7 @@ length 23
 ====================
 \"But it's too heavy.\"
 ====================
-\"But it's too heavy.\"
+「可是，这玩意很重啊」
 ====================
 
 ====================
@@ -75,7 +75,7 @@ length 24
 ====================
 \"That side's lighter.\"
 ====================
-\"That side's lighter.\"
+「你那边已算是轻的啦」
 ====================
 
 ====================
@@ -86,7 +86,7 @@ length 111
 ====================
 The center of gravity in a refrigerator is on the bottom, so the person carrying that side has it a lot harder.
 ====================
-The center of gravity in a refrigerator is on the bottom, so the person carrying that side has it a lot harder.
+由于冰箱的重心在下方，因而抬着下侧的人更为吃力。
 ====================
 
 ====================
@@ -97,7 +97,7 @@ length 46
 ====================
 \"The compressor and stuff are on this side.\"
 ====================
-\"The compressor and stuff are on this side.\"
+「压缩机之类的可是在我这边啊」
 ====================
 
 ====================
@@ -108,7 +108,7 @@ length 37
 ====================
 \"My fingers are going to come off.\"
 ====================
-\"My fingers are going to come off.\"
+「手指要断啦—」
 ====================
 
 ====================
@@ -119,7 +119,7 @@ length 19
 ====================
 \"No they aren't.\"
 ====================
-\"No they aren't.\"
+「断不了啦」
 ====================
 
 ====================
@@ -130,7 +130,7 @@ length 22
 ====================
 \"You're hopeless...\"
 ====================
-\"You're hopeless...\"
+「真拿你这家伙没办法啊…」
 ====================
 
 ====================
@@ -141,7 +141,7 @@ length 33
 ====================
 I lower my side below Takafumi's.
 ====================
-I lower my side below Takafumi's.
+我将抬的部位降到鹰文之下。
 ====================
 
 ====================
@@ -152,7 +152,7 @@ length 44
 ====================
 That way, his side will be a little lighter.
 ====================
-That way, his side will be a little lighter.
+这样的话，那边应该会稍微变轻点。
 ====================
 
 ====================
@@ -163,7 +163,7 @@ length 35
 ====================
 \"There are steps, so be careful.\"
 ====================
-\"There are steps, so be careful.\"
+「有台阶哦，注意点」
 ====================
 
 ====================
@@ -174,7 +174,7 @@ length 38
 ====================
 We climb them carefully one at a time.
 ====================
-We climb them carefully one at a time.
+一步步小心翼翼地登上台阶。
 ====================
 
 ====================
@@ -185,7 +185,7 @@ length 57
 ====================
 We enter the storehouse and I carefully set my side down.
 ====================
-We enter the storehouse and I carefully set my side down.
+进入仓库，我小心地放下了自己抬着的一侧。
 ====================
 
 ====================
@@ -196,7 +196,7 @@ length 34
 ====================
 \"Don't let go. You'll break it.\"
 ====================
-\"Don't let go. You'll break it.\"
+「别松手啊。会摔坏哦」
 ====================
 
 ====================
@@ -207,7 +207,7 @@ length 10
 ====================
 \"Hurry!\"
 ====================
-\"Hurry!\"
+「快点—」
 ====================
 
 ====================
@@ -218,7 +218,7 @@ length 38
 ====================
 I quickly switch places with Takafumi.
 ====================
-I quickly switch places with Takafumi.
+我立刻换下了鹰文。
 ====================
 
 ====================
@@ -229,7 +229,7 @@ length 54
 ====================
 I brace myself and slowly push it until it's vertical.
 ====================
-I brace myself and slowly push it until it's vertical.
+沉下腰，慢慢将冰箱竖起来。
 ====================
 
 ====================
@@ -240,7 +240,7 @@ length 95
 ====================
 If I do it too quickly, it might fall the other way or the machinery on the bottom might break.
 ====================
-If I do it too quickly, it might fall the other way or the machinery on the bottom might break.
+太急的话会倒向对面，使底部的零件很容易损坏。
 ====================
 
 ====================
@@ -251,7 +251,7 @@ length 9
 ====================
 \"Phew.\"
 ====================
-\"Phew.\"
+「呼—」
 ====================
 
 ====================
@@ -262,7 +262,7 @@ length 86
 ====================
 I twist my wrists around a few times to get rid of the fatigue I was feeling a little.
 ====================
-I twist my wrists around a few times to get rid of the fatigue I was feeling a little.
+我甩了甩手腕，略微甩掉些疲惫感。
 ====================
 
 ====================
@@ -273,7 +273,7 @@ length 15
 ====================
 \"Okay, next.\"
 ====================
-\"Okay, next.\"
+「好，下一个啰」
 ====================
 
 ====================
@@ -284,7 +284,7 @@ length 24
 ====================
 \"...give me a minute.\"
 ====================
-\"...give me a minute.\"
+「…稍等一下啊」
 ====================
 
 ====================
@@ -295,7 +295,7 @@ length 66
 ====================
 I look and see Takafumi sitting in the shadow of the refrigerator.
 ====================
-I look and see Takafumi sitting in the shadow of the refrigerator.
+只见鹰文正一动不动地坐在冰箱的影子里。
 ====================
 
 ====================
@@ -306,7 +306,7 @@ length 39
 ====================
 \"You sure are lazy for a school kid.\"
 ====================
-\"You sure are lazy for a school kid.\"
+「真没出息啊，亏你还是学生」
 ====================
 
 ====================
@@ -317,7 +317,7 @@ length 49
 ====================
 \"I don't usually carry heavy things like this.\"
 ====================
-\"I don't usually carry heavy things like this.\"
+「平时哪会去搬这么重的东西嘛」
 ====================
 
 ====================
@@ -328,7 +328,7 @@ length 53
 ====================
 \"Well, I understand. I was like that at first too.\"
 ====================
-\"Well, I understand. I was like that at first too.\"
+「算了，我也理解。因为最初我也如此」
 ====================
 
 ====================
@@ -339,7 +339,7 @@ length 20
 ====================
 \"You're fine now?\"
 ====================
-\"You're fine now?\"
+「现在轻而易举了？」
 ====================
 
 ====================
@@ -350,7 +350,7 @@ length 47
 ====================
 \"If you do it every day, you get used to it.\"
 ====================
-\"If you do it every day, you get used to it.\"
+「每天都做的话，怎么都该习惯啦」
 ====================
 
 ====================
@@ -361,7 +361,7 @@ length 78
 ====================
 \"More importantly, get the next one. You should be able to handle it alone.\"
 ====================
-\"More importantly, get the next one. You should be able to handle it alone.\"
+「话说回来，该搬下一个了。那个的话你一个人也能搬动吧」
 ====================
 
 ====================
@@ -372,7 +372,7 @@ length 93
 ====================
 I point him to a fully automatic washing machine and then start carrying other things myself.
 ====================
-I point him to a fully automatic washing machine and then start carrying other things myself.
+我指了指全自动洗衣机，继而开始搬运其他回收品。
 ====================
 
 ====================
@@ -383,7 +383,7 @@ length 25
 ====================
 \"Hey, good work today.\"
 ====================
-\"Hey, good work today.\"
+「拿着，辛苦了」
 ====================
 
 ====================
@@ -394,7 +394,7 @@ length 63
 ====================
 I give Takafumi a sports drink I bought from a vending machine.
 ====================
-I give Takafumi a sports drink I bought from a vending machine.
+我将从自动售货机里买来的运动饮料递给了鹰文。
 ====================
 
 ====================
@@ -405,7 +405,7 @@ length 13
 ====================
 \"Thanks...\"
 ====================
-\"Thanks...\"
+「谢谢…」
 ====================
 
 ====================
@@ -416,7 +416,7 @@ length 31
 ====================
 He gulps it all down in one go.
 ====================
-He gulps it all down in one go.
+鹰文长着大口，一饮而尽。
 ====================
 
 ====================
@@ -427,7 +427,7 @@ length 10
 ====================
 \"Tired?\"
 ====================
-\"Tired?\"
+「累了吗？」
 ====================
 
 ====================
@@ -438,7 +438,7 @@ length 39
 ====================
 \"...Nii-chan, you do this every day?\"
 ====================
-\"...Nii-chan, you do this every day?\"
+「…大哥，你每天都干这种活吗？」
 ====================
 
 ====================
@@ -449,7 +449,7 @@ length 51
 ====================
 \"Well, if I'm not doing repairs, it's like this.\"
 ====================
-\"Well, if I'm not doing repairs, it's like this.\"
+「差不多，不算修理的话，基本就干这些吧」
 ====================
 
 ====================
@@ -460,7 +460,7 @@ length 43
 ====================
 \"Incredible. I see you in a new light...\"
 ====================
-\"Incredible. I see you in a new light...\"
+「好厉害呢，对你刮目相看了啊…」
 ====================
 
 ====================
@@ -471,7 +471,7 @@ length 75
 ====================
 \"Let's head out after we rest a little. We're driving around after this.\"
 ====================
-\"Let's head out after we rest a little. We're driving around after this.\"
+「好好休息会准备出发吧。之后还得外出工作呢」
 ====================
 
 ====================
@@ -482,7 +482,7 @@ length 9
 ====================
 \"Ah...\"
 ====================
-\"Ah...\"
+「呜呃…」
 ====================
 
 ====================
@@ -493,7 +493,7 @@ length 69
 ====================
 After we visit a few of the regular stops, we drive around leisurely.
 ====================
-After we visit a few of the regular stops, we drive around leisurely.
+转遍几个固定地点后，我们慢悠悠地驾驶着卡车。
 ====================
 
 ====================
@@ -504,7 +504,7 @@ length 34
 ====================
 Of course I had Takafumi help too.
 ====================
-Of course I had Takafumi help too.
+当然也让鹰文帮忙了。
 ====================
 
 ====================
@@ -515,7 +515,7 @@ length 94
 ====================
 Thanks to that, Takafumi is sitting dead tired in the passenger's seat like he's going to die.
 ====================
-Thanks to that, Takafumi is sitting dead tired in the passenger's seat like he's going to die.
+也许正因此，精疲力竭的鹰文像死了般地倒在副驾驶座。
 ====================
 
 ====================
@@ -526,7 +526,7 @@ length 20
 ====================
 \"This is tough...\"
 ====================
-\"This is tough...\"
+「累死啦…」
 ====================
 
 ====================
@@ -537,7 +537,7 @@ length 42
 ====================
 \"Well, why don't we talk as we do this?\"
 ====================
-\"Well, why don't we talk as we do this?\"
+「还好吧，就边聊天边开车吧」
 ====================
 
 ====================
@@ -548,7 +548,7 @@ length 16
 ====================
 \"Good idea...\"
 ====================
-\"Good idea...\"
+「也好吧…」
 ====================
 
 ====================
@@ -559,7 +559,7 @@ length 14
 ====================
 \"You, talk.\"
 ====================
-\"You, talk.\"
+「那你来说吧」
 ====================
 
 ====================
@@ -570,7 +570,7 @@ length 7
 ====================
 \"Eh?\"
 ====================
-\"Eh?\"
+「诶—？」
 ====================
 
 ====================
@@ -581,7 +581,7 @@ length 41
 ====================
 \"You promised you'd do whatever I say.\"
 ====================
-\"You promised you'd do whatever I say.\"
+「约好了无论什么都会说的吧」（这里指惩罚游戏的约定）
 ====================
 
 ====================
@@ -592,7 +592,7 @@ length 50
 ====================
 \"I went through a hell of a time just for that.\"
 ====================
-\"I went through a hell of a time just for that.\"
+「毕竟我也遭遇了如此种种乱七八糟的事了」
 ====================
 
 ====================
@@ -603,7 +603,7 @@ length 21
 ====================
 \"Ah... I get it...\"
 ====================
-\"Ah... I get it...\"
+「唉—…知道了啦…」
 ====================
 
 ====================
@@ -614,7 +614,7 @@ length 38
 ====================
 \"What do you want to talk about...?\"
 ====================
-\"What do you want to talk about...?\"
+「说什么好呢…」
 ====================
 
 ====================
@@ -625,7 +625,7 @@ length 16
 ====================
 \"Let's see...\"
 ====================
-\"Let's see...\"
+「让我想想…」
 ====================
 
 ====================
@@ -636,7 +636,7 @@ length 30
 ====================
 \"The story of your teacher.\"
 ====================
-\"The story of your teacher.\"
+「就谈谈你的恩师吧」
 ====================
 
 ====================
@@ -647,7 +647,7 @@ length 7
 ====================
 \"Eh?\"
 ====================
-\"Eh?\"
+「诶？」
 ====================
 
 ====================
@@ -658,7 +658,7 @@ length 39
 ====================
 He looks at me like he's been deceived.
 ====================
-He looks at me like he's been deceived.
+他像是被戳到痛处般凝视着我。
 ====================
 
 ====================
@@ -669,7 +669,7 @@ length 32
 ====================
 \"...I know of no such person.\"
 ====================
-\"...I know of no such person.\"
+「…没什么恩师啦」
 ====================
 
 ====================
@@ -680,7 +680,7 @@ length 27
 ====================
 He looks down and whispers.
 ====================
-He looks down and whispers.
+之后，低着头这样嘟哝道。
 ====================
 
 ====================
@@ -691,7 +691,7 @@ length 19
 ====================
 \"Don't say that.\"
 ====================
-\"Don't say that.\"
+「别那么说啊」
 ====================
 
 ====================
@@ -702,7 +702,7 @@ length 10
 ====================
 \"Hey...\"
 ====================
-\"Hey...\"
+「我说啊…」
 ====================
 
 ====================
@@ -713,7 +713,7 @@ length 71
 ====================
 \"Were you trying so hard so you could ask me something like that...?\"
 ====================
-\"Were you trying so hard so you could ask me something like that...?\"
+「你就为了问这种事，才如此拼命的吗…？」
 ====================
 
 ====================
@@ -724,7 +724,7 @@ length 42
 ====================
 \"That was within my range of interests.\"
 ====================
-\"That was within my range of interests.\"
+「对此感兴趣嘛」
 ====================
 
 ====================
@@ -735,7 +735,7 @@ length 38
 ====================
 \"And this is just normal chit-chat.\"
 ====================
-\"And this is just normal chit-chat.\"
+「而且，这也算无聊时的闲谈之一嘛」
 ====================
 
 ====================
@@ -746,7 +746,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+「………」
 ====================
 
 ====================
@@ -757,7 +757,7 @@ length 38
 ====================
 We drive in silence for a while again.
 ====================
-We drive in silence for a while again.
+又是一阵沉默，只有卡车仍在奔驰。
 ====================
 
 ====================
@@ -768,7 +768,7 @@ length 31
 ====================
 \"...he taught me everything.\"
 ====================
-\"...he taught me everything.\"
+「…他，教会了我一切」
 ====================
 
 ====================
@@ -779,7 +779,7 @@ length 52
 ====================
 He looks out of the window and whispers a few words.
 ====================
-He looks out of the window and whispers a few words.
+他凝望着窗外，断断续续地叙述着。
 ====================
 
 ====================
@@ -790,7 +790,7 @@ length 83
 ====================
 \"Studying, sports, how to make friends... and what it means to live. Everything.\"
 ====================
-\"Studying, sports, how to make friends... and what it means to live. Everything.\"
+「无论学习、运动，还是交友…直至包括生存的意义在内的一切」
 ====================
 
 ====================
@@ -801,7 +801,7 @@ length 31
 ====================
 He's talking about his teacher.
 ====================
-He's talking about his teacher.
+这大概是说他的恩师吧。
 ====================
 
 ====================
@@ -812,7 +812,7 @@ length 68
 ====================
 \"At the time, I didn't really understand what it meant to live...\"
 ====================
-\"At the time, I didn't really understand what it meant to live...\"
+「当时的我，连生存的意义都不甚明白…」
 ====================
 
 ====================
@@ -823,7 +823,7 @@ length 50
 ====================
 \"And I didn't have any desire to do anything...\"
 ====================
-\"And I didn't have any desire to do anything...\"
+「无论做什么都提不起劲来…」
 ====================
 
 ====================
@@ -834,7 +834,7 @@ length 30
 ====================
 \"I was going with the flow.\"
 ====================
-\"I was going with the flow.\"
+「每天就这样随波逐流地生活着」
 ====================
 
 ====================
@@ -845,7 +845,7 @@ length 63
 ====================
 \"If I just did what everyone else did, that was good enough.\"
 ====================
-\"If I just did what everyone else did, that was good enough.\"
+「以为『只要大家都这样做的话，就这样也行吧』」
 ====================
 
 ====================
@@ -856,7 +856,7 @@ length 28
 ====================
 \"While I was like that...\"
 ====================
-\"While I was like that...\"
+「那样的我…」
 ====================
 
 ====================
@@ -867,7 +867,7 @@ length 46
 ====================
 \"He was the only one who took notice of me.\"
 ====================
-\"He was the only one who took notice of me.\"
+「只有那个人，才注意到了」
 ====================
 
 ====================
@@ -878,7 +878,7 @@ length 37
 ====================
 \"He called me over to his house...\"
 ====================
-\"He called me over to his house...\"
+「将我叫到了他家…」
 ====================
 
 ====================
@@ -889,7 +889,7 @@ length 83
 ====================
 \"When I got there, there were a lot of my classmates whom I'd never spoken to...\"
 ====================
-\"When I got there, there were a lot of my classmates whom I'd never spoken to...\"
+「在那，有很多连话都未说过的同年级学生…」
 ====================
 
 ====================
@@ -900,7 +900,7 @@ length 21
 ====================
 \"We ate hot pot...\"
 ====================
-\"We ate hot pot...\"
+「吃着火锅…」
 ====================
 
 ====================
@@ -911,7 +911,7 @@ length 28
 ====================
 \"I alone was stupefied...\"
 ====================
-\"I alone was stupefied...\"
+「而我，只是茫然若失地独自愣在那而已…」
 ====================
 
 ====================
@@ -922,7 +922,7 @@ length 40
 ====================
 \"Everyone there was the same as me...\"
 ====================
-\"Everyone there was the same as me...\"
+「在场的每人，都与我一样…」
 ====================
 
 ====================
@@ -933,7 +933,7 @@ length 76
 ====================
 \"They had all been invited by Sensei and started doing track and field...\"
 ====================
-\"They had all been invited by Sensei and started doing track and field...\"
+「在老师的邀请下，开始了田径运动…」
 ====================
 
 ====================
@@ -944,7 +944,7 @@ length 72
 ====================
 \"They all laughed and said it was like looking at their old selves...\"
 ====================
-\"They all laughed and said it was like looking at their old selves...\"
+「大家都说仿佛看见了昔日的自己般，于是不住笑了起来…」
 ====================
 
 ====================
@@ -955,7 +955,7 @@ length 55
 ====================
 \"But they were a really weak track and field team...\"
 ====================
-\"But they were a really weak track and field team...\"
+「虽然只是个实力很弱的田径队…」
 ====================
 
 ====================
@@ -966,7 +966,7 @@ length 106
 ====================
 \"If they got 6th in the district, they'd make a big deal out of it, as if they'd won the whole thing...\"
 ====================
-\"If they got 6th in the district, they'd make a big deal out of it, as if they'd won the whole thing...\"
+「仅仅在地区比赛中获得第6名，就像夺得冠军般狂欢的家伙…」
 ====================
 
 ====================
@@ -977,7 +977,7 @@ length 43
 ====================
 \"Even so, it seemed like a lot of fun...\"
 ====================
-\"Even so, it seemed like a lot of fun...\"
+「即便如此，看上去却是那么开心…」
 ====================
 
 ====================
@@ -988,7 +988,7 @@ length 18
 ====================
 \"I was jealous.\"
 ====================
-\"I was jealous.\"
+「我也羡慕了起来」
 ====================
 
 ====================
@@ -999,7 +999,7 @@ length 23
 ====================
 \"So I tried running.\"
 ====================
-\"So I tried running.\"
+「于是也试着跑起来」
 ====================
 
 ====================
@@ -1010,7 +1010,7 @@ length 43
 ====================
 \"When I did, they all came over to me...\"
 ====================
-\"When I did, they all came over to me...\"
+「那样做了后，大家都跑了过来…」
 ====================
 
 ====================
@@ -1021,7 +1021,7 @@ length 35
 ====================
 \"They wanted to run together....\"
 ====================
-\"They wanted to run together....\"
+「对我说『你也会来一起跑步吧』…」
 ====================
 
 ====================
@@ -1032,7 +1032,7 @@ length 87
 ====================
 \"But even though they were the track and field team... they were all slower than me.\"
 ====================
-\"But even though they were the track and field team... they were all slower than me.\"
+「但那些家伙，虽说是田径队的…却跑得比我还慢」
 ====================
 
 ====================
@@ -1043,7 +1043,7 @@ length 77
 ====================
 \"I'd run while they showered my back with jeers like 'Wait!' and 'Hey!'...\"
 ====================
-\"I'd run while they showered my back with jeers like 'Wait!' and 'Hey!'...\"
+「在我背后大喊着『等等—！』、『喂—！』之类的…」
 ====================
 
 ====================
@@ -1054,7 +1054,7 @@ length 19
 ====================
 \"That was fun...\"
 ====================
-\"That was fun...\"
+「那让我很开心…」
 ====================
 
 ====================
@@ -1065,7 +1065,7 @@ length 28
 ====================
 \"I rapidly became faster.\"
 ====================
-\"I rapidly became faster.\"
+「所以我就不断地加速着」
 ====================
 
 ====================
@@ -1076,7 +1076,7 @@ length 23
 ====================
 \"It was thrilling...\"
 ====================
-\"It was thrilling...\"
+「真痛快啊…」
 ====================
 
 ====================
@@ -1087,7 +1087,7 @@ length 26
 ====================
 \"I got serious and ran.\"
 ====================
-\"I got serious and ran.\"
+「我认真地跑了起来」
 ====================
 
 ====================
@@ -1098,7 +1098,7 @@ length 56
 ====================
 \"It was the first time I got serious about something.\"
 ====================
-\"It was the first time I got serious about something.\"
+「第一次，变得认真起来」
 ====================
 
 ====================
@@ -1109,7 +1109,7 @@ length 45
 ====================
 \"I don't even remember joining the club...\"
 ====================
-\"I don't even remember joining the club...\"
+「虽然不记得自己是否曾加入过田径队…」
 ====================
 
 ====================
@@ -1120,7 +1120,7 @@ length 43
 ====================
 \"Every day, I would run with everyone...\"
 ====================
-\"Every day, I would run with everyone...\"
+「但每天，都和大家一起跑着…」
 ====================
 
 ====================
@@ -1131,7 +1131,7 @@ length 37
 ====================
 \"I participated in a tournament...\"
 ====================
-\"I participated in a tournament...\"
+「然后参加了运动会…」
 ====================
 
 ====================
@@ -1142,7 +1142,7 @@ length 16
 ====================
 \"And I won...\"
 ====================
-\"And I won...\"
+「获得了冠军…」
 ====================
 
 ====================
@@ -1153,7 +1153,7 @@ length 51
 ====================
 \"When I did, it caused an even bigger commotion.\"
 ====================
-\"When I did, it caused an even bigger commotion.\"
+「于是，又造成了不小的轰动」
 ====================
 
 ====================
@@ -1164,7 +1164,7 @@ length 49
 ====================
 \"I started getting serious about studying too.\"
 ====================
-\"I started getting serious about studying too.\"
+「也开始认真地学习起来」
 ====================
 
 ====================
@@ -1175,7 +1175,7 @@ length 77
 ====================
 \"When I'd make it on the top scorer list, everyone would gather around....\"
 ====================
-\"When I'd make it on the top scorer list, everyone would gather around....\"
+「果然只要表现抢眼的话，大家都会凑过来的…」
 ====================
 
 ====================
@@ -1186,7 +1186,7 @@ length 53
 ====================
 \"We'd go to Sensei's house and eat and have fun...\"
 ====================
-\"We'd go to Sensei's house and eat and have fun...\"
+「我们就这样待在老师家，吃喝玩闹着…」
 ====================
 
 ====================
@@ -1197,7 +1197,7 @@ length 33
 ====================
 \"Every day was like a party...\"
 ====================
-\"Every day was like a party...\"
+「每天都像过节般…」
 ====================
 
 ====================
@@ -1208,7 +1208,7 @@ length 17
 ====================
 \"It was fun...\"
 ====================
-\"It was fun...\"
+「真是开心呢…」
 ====================
 
 ====================
@@ -1219,7 +1219,7 @@ length 42
 ====================
 \"During those days of fooling around...\"
 ====================
-\"During those days of fooling around...\"
+「就在那段终日胡闹的日子里…」
 ====================
 
 ====================
@@ -1230,7 +1230,7 @@ length 17
 ====================
 \"I met Kanako.\"
 ====================
-\"I met Kanako.\"
+「我与河南子相遇了」
 ====================
 
 ====================
@@ -1241,7 +1241,7 @@ length 65
 ====================
 \"When we were at Sensei's house, she'd show up occasionally...\"
 ====================
-\"When we were at Sensei's house, she'd show up occasionally...\"
+「她偶尔会出现在老师家中…」
 ====================
 
 ====================
@@ -1252,7 +1252,7 @@ length 37
 ====================
 \"She'd eat and talk with everyone.\"
 ====================
-\"She'd eat and talk with everyone.\"
+「和大家一起吃吃饭、聊聊天」
 ====================
 
 ====================
@@ -1263,7 +1263,7 @@ length 95
 ====================
 \"Her personality was boyish... so late bloomers like us could relate to her because of that.\"
 ====================
-\"Her personality was boyish... so late bloomers like us could relate to her because of that.\"
+「因为她性格很男性化…所以即使与对那种事比较晚熟的我们也很谈得来」
 ====================
 
 ====================
@@ -1274,7 +1274,7 @@ length 131
 ====================
 \"On top of that, she was actively doing aikido and karate and performing well at both. So she was a little bit of a celebrity...\"
 ====================
-\"On top of that, she was actively doing aikido and karate and performing well at both. So she was a little bit of a celebrity...\"
+「而且，当时她还是合气道和空手道的现役选手，并且两项都非常活跃，也算小有名气…」
 ====================
 
 ====================
@@ -1285,7 +1285,7 @@ length 28
 ====================
 \"I even looked up to her.\"
 ====================
-\"I even looked up to her.\"
+「我也有些憧憬她」
 ====================
 
 ====================
@@ -1296,7 +1296,7 @@ length 29
 ====================
 \"Kanako was cute and cool.\"
 ====================
-\"Kanako was cute and cool.\"
+「河南子她，既可爱，又帅气」
 ====================
 
 ====================
@@ -1307,7 +1307,7 @@ length 24
 ====================
 \"And so, of course...\"
 ====================
-\"And so, of course...\"
+「于是，果然…」
 ====================
 
 ====================
@@ -1318,7 +1318,7 @@ length 42
 ====================
 \"We were all thinking the same thing...\"
 ====================
-\"We were all thinking the same thing...\"
+「大家想的都不约而同…」
 ====================
 
 ====================
@@ -1329,7 +1329,7 @@ length 32
 ====================
 \"Everyone had fallen for her.\"
 ====================
-\"Everyone had fallen for her.\"
+「大家，都为河南子而着迷」
 ====================
 
 ====================
@@ -1340,7 +1340,7 @@ length 69
 ====================
 \"Whenever she'd get brought up, everyone would get really excited.\"
 ====================
-\"Whenever she'd get brought up, everyone would get really excited.\"
+「一谈到有关河南子的话题，就立刻喧腾了起来」
 ====================
 
 ====================
@@ -1351,7 +1351,7 @@ length 54
 ====================
 \"We'd discuss things like who she likes the most...\"
 ====================
-\"We'd discuss things like who she likes the most...\"
+「比如河南子最喜欢谁啦…」
 ====================
 
 ====================
@@ -1362,7 +1362,7 @@ length 25
 ====================
 \"And perverted talk...\"
 ====================
-\"And perverted talk...\"
+「H的话题啦…」
 ====================
 
 ====================
@@ -1373,7 +1373,7 @@ length 61
 ====================
 \"Then... someone would confess their feelings to Kanako...\"
 ====================
-\"Then... someone would confess their feelings to Kanako...\"
+「就这样…有人对河南子表明了心迹…」
 ====================
 
 ====================
@@ -1384,7 +1384,7 @@ length 30
 ====================
 \"And they'd get rejected...\"
 ====================
-\"And they'd get rejected...\"
+「之后，被拒绝了…」
 ====================
 
 ====================
@@ -1395,7 +1395,7 @@ length 46
 ====================
 \"We'd have another party to console them...\"
 ====================
-\"We'd have another party to console them...\"
+「为了安慰他，又大肆喧闹了一番…」
 ====================
 
 ====================
@@ -1406,7 +1406,7 @@ length 66
 ====================
 \"I think it was around when she turned down the third person...\"
 ====================
-\"I think it was around when she turned down the third person...\"
+「大概是第三个人被拒之时吧…」
 ====================
 
 ====================
@@ -1417,7 +1417,7 @@ length 64
 ====================
 \"...that we realized that Kanako must have someone she likes.\"
 ====================
-\"...that we realized that Kanako must have someone she likes.\"
+「我们知道河南子有喜欢的人了…」
 ====================
 
 ====================
@@ -1428,7 +1428,7 @@ length 52
 ====================
 \"I've never been as anxious as I was back then...\"
 ====================
-\"I've never been as anxious as I was back then...\"
+「那是有史以来最紧张的时候…」
 ====================
 
 ====================
@@ -1439,7 +1439,7 @@ length 65
 ====================
 \"Then I came to understand from the way everyone was acting...\"
 ====================
-\"Then I came to understand from the way everyone was acting...\"
+「说起来，从周围的气氛就看得出…」
 ====================
 
 ====================
@@ -1450,7 +1450,7 @@ length 40
 ====================
 \"Everyone started fussing about me...\"
 ====================
-\"Everyone started fussing about me...\"
+「大家都开始关注我了…」
 ====================
 
 ====================
@@ -1461,7 +1461,7 @@ length 27
 ====================
 \"It was really creepy...\"
 ====================
-\"It was really creepy...\"
+「虽然良心上很过意不去…」
 ====================
 
 ====================
@@ -1472,7 +1472,7 @@ length 29
 ====================
 \"But I was really happy...\"
 ====================
-\"But I was really happy...\"
+「但，果然还是非常开心的…」
 ====================
 
 ====================
@@ -1483,7 +1483,7 @@ length 71
 ====================
 \"I felt sorry for everyone else, but I was so happy I could dance...\"
 ====================
-\"I felt sorry for everyone else, but I was so happy I could dance...\"
+「虽然对不住大家，但却是开心得想跳舞一样…」
 ====================
 
 ====================
@@ -1494,7 +1494,7 @@ length 36
 ====================
 \"I guess it was pretty obvious...\"
 ====================
-\"I guess it was pretty obvious...\"
+「已经非常明显了…」
 ====================
 
 ====================
@@ -1505,7 +1505,7 @@ length 31
 ====================
 \"That we liked each other...\"
 ====================
-\"That we liked each other...\"
+「但虽是互有好感…」
 ====================
 
 ====================
@@ -1516,7 +1516,7 @@ length 46
 ====================
 \"But I couldn't bring myself to tell her...\"
 ====================
-\"But I couldn't bring myself to tell her...\"
+「却，总也说不出口…」
 ====================
 
 ====================
@@ -1527,7 +1527,7 @@ length 30
 ====================
 \"Everyone would tease me...\"
 ====================
-\"Everyone would tease me...\"
+「大家便以此开我玩笑…」
 ====================
 
 ====================
@@ -1538,7 +1538,7 @@ length 53
 ====================
 \"At the time, that usually became the hot topic...\"
 ====================
-\"At the time, that usually became the hot topic...\"
+「那时，基本上所有的对话都是围绕这个话题展开的…」
 ====================
 
 ====================
@@ -1549,7 +1549,7 @@ length 78
 ====================
 \"The guys who got shot down would join in on the laughing without a care...\"
 ====================
-\"The guys who got shot down would join in on the laughing without a care...\"
+「被拒绝的那些家伙也全然不介意，与大伙一起说笑着…」
 ====================
 
 ====================
@@ -1560,7 +1560,7 @@ length 85
 ====================
 \"There was always an air of awkwardness and embarrassment between me and Kanako...\"
 ====================
-\"There was always an air of awkwardness and embarrassment between me and Kanako...\"
+「这种洋溢着拘谨和害羞的空气，一直都在我和河南子之间流动着…」
 ====================
 
 ====================
@@ -1571,7 +1571,7 @@ length 72
 ====================
 \"In the end, I felt like I'd been backed into a corner by everyone...\"
 ====================
-\"In the end, I felt like I'd been backed into a corner by everyone...\"
+「最后感觉像是被大家逼得走投无路般…」
 ====================
 
 ====================
@@ -1582,7 +1582,7 @@ length 62
 ====================
 \"In that room... I confessed to her in front of everyone...\"
 ====================
-\"In that room... I confessed to her in front of everyone...\"
+「在活动室里…就在大家的面前，告白了…」
 ====================
 
 ====================
@@ -1593,7 +1593,7 @@ length 46
 ====================
 \"I was nervous, and was strangely polite...\"
 ====================
-\"I was nervous, and was strangely polite...\"
+「非常紧张的，还用着奇怪的敬语说…」
 ====================
 
 ====================
@@ -1604,7 +1604,7 @@ length 42
 ====================
 \"'Kanako-san, I am in love with you...'\"
 ====================
-\"'Kanako-san, I am in love with you...'\"
+「河南子同学，我喜欢你…」
 ====================
 
 ====================
@@ -1615,7 +1615,7 @@ length 51
 ====================
 \"'Would you please go out with me...' like that.\"
 ====================
-\"'Would you please go out with me...' like that.\"
+「能和我交往吗…这样的」
 ====================
 
 ====================
@@ -1626,7 +1626,7 @@ length 41
 ====================
 \"Kanako just said 'sure' and nodded...\"
 ====================
-\"Kanako just said 'sure' and nodded...\"
+「河南子她，点了点头说了一句，『好啊』…」
 ====================
 
 ====================
@@ -1637,7 +1637,7 @@ length 75
 ====================
 \"After that, they mobbed me so hard I couldn't tell what was going on...\"
 ====================
-\"After that, they mobbed me so hard I couldn't tell what was going on...\"
+「那之后，已经，变得乱七八糟的，什么都不知道了…」
 ====================
 
 ====================
@@ -1648,7 +1648,7 @@ length 61
 ====================
 \"Before I realized it, I was laid out in a wrecked room...\"
 ====================
-\"Before I realized it, I was laid out in a wrecked room...\"
+「回过神来时，已倒在一片狼藉的房间里了…」
 ====================
 
 ====================
@@ -1659,7 +1659,7 @@ length 48
 ====================
 \"But it had turned into just the two of us...\"
 ====================
-\"But it had turned into just the two of us...\"
+「但是，已经好端端地变成两人独处了…」
 ====================
 
 ====================
@@ -1670,7 +1670,7 @@ length 53
 ====================
 \"We looked at each other and burst out laughing...\"
 ====================
-\"We looked at each other and burst out laughing...\"
+「我俩互相凝视着对方的面容，大声地笑了…」
 ====================
 
 ====================
@@ -1681,7 +1681,7 @@ length 42
 ====================
 \"We made time for just the two of us...\"
 ====================
-\"We made time for just the two of us...\"
+「我们，腾出只属于我们自己的时间…」
 ====================
 
 ====================
@@ -1692,7 +1692,7 @@ length 24
 ====================
 \"...and got closer...\"
 ====================
-\"...and got closer...\"
+「用来加深感情…」
 ====================
 
 ====================
@@ -1703,7 +1703,7 @@ length 64
 ====================
 \"'Let's go to high school together, then the same college...'\"
 ====================
-\"'Let's go to high school together, then the same college...'\"
+「让我们一起升入同一所大学，并在那毕业吧…」
 ====================
 
 ====================
@@ -1714,7 +1714,7 @@ length 57
 ====================
 \"'Then... let's get married,' is what I said to her...\"
 ====================
-\"'Then... let's get married,' is what I said to her...\"
+「然后…就结婚吧，我如此说道…」
 ====================
 
 ====================
@@ -1725,7 +1725,7 @@ length 30
 ====================
 \"She nodded in agreement...\"
 ====================
-\"She nodded in agreement...\"
+「河南子她，点头同意了…」
 ====================
 
 ====================
@@ -1736,7 +1736,7 @@ length 54
 ====================
 \"That story spread around to our friends quickly...\"
 ====================
-\"That story spread around to our friends quickly...\"
+「很快，这番告白就在大伙间传开了…」
 ====================
 
 ====================
@@ -1747,7 +1747,7 @@ length 22
 ====================
 \"Sensei knew too...\"
 ====================
-\"Sensei knew too...\"
+「连老师也知道了…」
 ====================
 
 ====================
@@ -1758,7 +1758,7 @@ length 104
 ====================
 \"Every chance he would get, he'd tell me I still had a ways to go before he'd trust me with Kanako...\"
 ====================
-\"Every chance he would get, he'd tell me I still had a ways to go before he'd trust me with Kanako...\"
+「老师总是说，『只有这点成就的话，我还不能把河南子交给你』之类的…」
 ====================
 
 ====================
@@ -1769,7 +1769,7 @@ length 72
 ====================
 \"I became even more determined, and reduced my times with a fervor...\"
 ====================
-\"I became even more determined, and reduced my times with a fervor...\"
+「我也倔强了起来，以强力的干劲刷新着记录…」
 ====================
 
 ====================
@@ -1780,7 +1780,7 @@ length 42
 ====================
 \"I won in the district preliminaries...\"
 ====================
-\"I won in the district preliminaries...\"
+「然后在地区预赛中夺冠…」
 ====================
 
 ====================
@@ -1791,7 +1791,7 @@ length 36
 ====================
 \"And advanced to the nationals...\"
 ====================
-\"And advanced to the nationals...\"
+「继而进军全国…」
 ====================
 
 ====================
@@ -1802,7 +1802,7 @@ length 96
 ====================
 \"I got worked up and asked if he'd let me have her if I happened to take first place there...\"
 ====================
-\"I got worked up and asked if he'd let me have her if I happened to take first place there...\"
+「至此，我便向老师扬言，『如果，我夺冠了的话，能将河南子交给我吗』…」
 ====================
 
 ====================
@@ -1813,7 +1813,7 @@ length 91
 ====================
 \"He smiled like he wasn't all that displeased and said he'd think about it when I did...\"
 ====================
-\"He smiled like he wasn't all that displeased and said he'd think about it when I did...\"
+「老师并未一口回绝，只是笑着说『届时我再考虑吧』…」
 ====================
 
 ====================
@@ -1824,7 +1824,7 @@ length 12
 ====================
 \"But I...\"
 ====================
-\"But I...\"
+「但是，我却对…」
 ====================
 
 ====================
@@ -1835,7 +1835,7 @@ length 29
 ====================
 \"The man who noticed me...\"
 ====================
-\"The man who noticed me...\"
+「发现了我…」
 ====================
 
 ====================
@@ -1846,7 +1846,7 @@ length 105
 ====================
 \"The man who taught me how to study, play sports, make friends, what it means to live... everything...\"
 ====================
-\"The man who taught me how to study, play sports, make friends, what it means to live... everything...\"
+「并教会我学习、运动、交友…直至包括生存的意义在内的一切的老师…」
 ====================
 
 ====================
@@ -1857,7 +1857,7 @@ length 21
 ====================
 \"I betrayed him...\"
 ====================
-\"I betrayed him...\"
+「我却背叛了他…」
 ====================
 
 ====================
@@ -1868,7 +1868,7 @@ length 40
 ====================
 \"In order to protect my own family...\"
 ====================
-\"In order to protect my own family...\"
+「我，为了拯救自己的家庭…」
 ====================
 
 ====================
@@ -1879,7 +1879,7 @@ length 39
 ====================
 \"I willingly jumped into the street.\"
 ====================
-\"I willingly jumped into the street.\"
+「亲身冲到了公路上」
 ====================
 
 ====================
@@ -1890,7 +1890,7 @@ length 27
 ====================
 \"I escaped death, but...\"
 ====================
-\"I escaped death, but...\"
+「虽然我保住了性命…」
 ====================
 
 ====================
@@ -1901,7 +1901,7 @@ length 13
 ====================
 \"Sensei...\"
 ====================
-\"Sensei...\"
+「但老师他…」
 ====================
 
 ====================
@@ -1912,7 +1912,7 @@ length 40
 ====================
 \"He wouldn't forgive me doing that...\"
 ====================
-\"He wouldn't forgive me doing that...\"
+「却无法宽恕此等行为…」
 ====================
 
 ====================
@@ -1923,7 +1923,7 @@ length 47
 ====================
 \"It was the first time I'd seen him angry...\"
 ====================
-\"It was the first time I'd seen him angry...\"
+「我第一次看见如此愤怒的老师…」
 ====================
 
 ====================
@@ -1934,7 +1934,7 @@ length 43
 ====================
 \"I was no longer allowed in his house...\"
 ====================
-\"I was no longer allowed in his house...\"
+「连老师的家都不准我进入…」
 ====================
 
 ====================
@@ -1945,7 +1945,7 @@ length 39
 ====================
 \"The last thing he said to me was...\"
 ====================
-\"The last thing he said to me was...\"
+「他最后对我说的是…」
 ====================
 
 ====================
@@ -1956,7 +1956,7 @@ length 61
 ====================
 \"'There's no way I'd entrust Kanako to someone like that.'\"
 ====================
-\"'There's no way I'd entrust Kanako to someone like that.'\"
+「怎能把河南子交给你这种家伙啊…」
 ====================
 
 ====================
@@ -1967,7 +1967,7 @@ length 24
 ====================
 \"Then, those words...\"
 ====================
-\"Then, those words...\"
+「然后，那句话…」
 ====================
 
 ====================
@@ -1978,7 +1978,7 @@ length 44
 ====================
 \"They really became his last words to me.\"
 ====================
-\"They really became his last words to me.\"
+「真的，成为了最后的遗言」
 ====================
 
 ====================
@@ -1989,7 +1989,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+「………」
 ====================
 
 ====================
@@ -2000,7 +2000,7 @@ length 8
 ====================
 \"I...\"
 ====================
-\"I...\"
+「我啊…」
 ====================
 
 ====================
@@ -2011,7 +2011,7 @@ length 42
 ====================
 \"I always kept waiting for his words...\"
 ====================
-\"I always kept waiting for his words...\"
+「一直，都在不断地期盼着老师的回话…」
 ====================
 
 ====================
@@ -2022,7 +2022,7 @@ length 31
 ====================
 \"His words of forgiveness...\"
 ====================
-\"His words of forgiveness...\"
+「期待他原谅的言语…」
 ====================
 
 ====================
@@ -2033,7 +2033,7 @@ length 35
 ====================
 \"But I never got to hear them...\"
 ====================
-\"But I never got to hear them...\"
+「然而，我未能听见…」
 ====================
 
 ====================
@@ -2044,7 +2044,7 @@ length 45
 ====================
 \"Since that day, I've been having a dream.\"
 ====================
-\"Since that day, I've been having a dream.\"
+「从此以后，我一直做着一个梦」
 ====================
 
 ====================
@@ -2055,7 +2055,7 @@ length 43
 ====================
 \"One where I'm running as fast as I can.\"
 ====================
-\"One where I'm running as fast as I can.\"
+「一个全力奔跑的梦」
 ====================
 
 ====================
@@ -2066,7 +2066,7 @@ length 55
 ====================
 \"I'm going so fast I can't see anything around me...\"
 ====================
-\"I'm going so fast I can't see anything around me...\"
+「以无法看见周围任何东西的速度…」
 ====================
 
 ====================
@@ -2077,7 +2077,7 @@ length 62
 ====================
 \"My heart is pounding and feels like it's going to burst...\"
 ====================
-\"My heart is pounding and feels like it's going to burst...\"
+「心脏砰砰直跳着，仿佛要破裂一般…」
 ====================
 
 ====================
@@ -2088,7 +2088,7 @@ length 62
 ====================
 \"Even so, before it bursts, I run and run as fast as I can.\"
 ====================
-\"Even so, before it bursts, I run and run as fast as I can.\"
+「但只要尚未破裂，我就竭尽全力地飞奔着」
 ====================
 
 ====================
@@ -2099,7 +2099,7 @@ length 32
 ====================
 \"I cut through the goal tape.\"
 ====================
-\"I cut through the goal tape.\"
+「冲破终点线」
 ====================
 
 ====================
@@ -2110,7 +2110,7 @@ length 94
 ====================
 \"When I turn around, I can see the other runners far away on the other side of the horizon.\"
 ====================
-\"When I turn around, I can see the other runners far away on the other side of the horizon.\"
+「回头望去，其他选手还远在地平线的那端」
 ====================
 
 ====================
@@ -2121,7 +2121,7 @@ length 28
 ====================
 \"They're comically small.\"
 ====================
-\"They're comically small.\"
+「小的如此令人可笑」
 ====================
 
 ====================
@@ -2132,7 +2132,7 @@ length 33
 ====================
 \"Then I realize that I've won.\"
 ====================
-\"Then I realize that I've won.\"
+「我这才发觉自己获胜了」
 ====================
 
 ====================
@@ -2143,7 +2143,7 @@ length 40
 ====================
 \"Out of breath, I run over to Sensei.\"
 ====================
-\"Out of breath, I run over to Sensei.\"
+「我，一边喘着气，一边跑到了老师身边」
 ====================
 
 ====================
@@ -2154,7 +2154,7 @@ length 29
 ====================
 \"I tell him that I've won.\"
 ====================
-\"I tell him that I've won.\"
+「告诉他我获胜了」
 ====================
 
 ====================
@@ -2165,7 +2165,7 @@ length 74
 ====================
 \"Then I try to ask him if he'd trust me with Kanako like I always do...\"
 ====================
-\"Then I try to ask him if he'd trust me with Kanako like I always do...\"
+「然后，像平时一样询问道，『这样能把河南子交给我了吗』…」
 ====================
 
 ====================
@@ -2176,7 +2176,7 @@ length 36
 ====================
 \"But I can't say anything more...\"
 ====================
-\"But I can't say anything more...\"
+「然而，上述的话语我一个字也说不出口…」
 ====================
 
 ====================
@@ -2187,7 +2187,7 @@ length 58
 ====================
 \"He's waiting for me to speak with a gentle expression.\"
 ====================
-\"He's waiting for me to speak with a gentle expression.\"
+「老师一脸和蔼地等待着我的话语」
 ====================
 
 ====================
@@ -2198,7 +2198,7 @@ length 23
 ====================
 \"But I can't say it.\"
 ====================
-\"But I can't say it.\"
+「但我却无法说出」
 ====================
 
 ====================
@@ -2209,7 +2209,7 @@ length 44
 ====================
 \"Because I know what happened in reality.\"
 ====================
-\"Because I know what happened in reality.\"
+「那是因为，我已知道现实中发生的一切」
 ====================
 
 ====================
@@ -2220,7 +2220,7 @@ length 43
 ====================
 \"I already know what Sensei says next...\"
 ====================
-\"I already know what Sensei says next...\"
+「老师，接下来要说的话语早已决定了…」
 ====================
 
 ====================
@@ -2231,7 +2231,7 @@ length 60
 ====================
 \"'There's no way I'd give Kanako to someone like that...'\"
 ====================
-\"'There's no way I'd give Kanako to someone like that...'\"
+「那就是，『怎能把河南子交给你这种家伙啊』…」
 ====================
 
 ====================
@@ -2242,7 +2242,7 @@ length 54
 ====================
 \"That's why I can't bring myself to say anything...\"
 ====================
-\"That's why I can't bring myself to say anything...\"
+「所以，我已然什么都说不出口了…」
 ====================
 
 ====================
@@ -2253,7 +2253,7 @@ length 40
 ====================
 \"I just want to run away from Sensei.\"
 ====================
-\"I just want to run away from Sensei.\"
+「只想从老师的面前逃走」
 ====================
 
 ====================
@@ -2264,7 +2264,7 @@ length 58
 ====================
 \"While he still has that gentle expression on his face.\"
 ====================
-\"While he still has that gentle expression on his face.\"
+「趁老师还是如此一脸和蔼的时候」
 ====================
 
 ====================
@@ -2275,7 +2275,7 @@ length 45
 ====================
 \"But I'm exhausted and my legs won't move.\"
 ====================
-\"But I'm exhausted and my legs won't move.\"
+「但却因太累了，而无法迈开脚步」
 ====================
 
 ====================
@@ -2286,7 +2286,7 @@ length 38
 ====================
 \"I can't breathe... I'm in agony...\"
 ====================
-\"I can't breathe... I'm in agony...\"
+「痛苦了起来…懊恼了起来…」
 ====================
 
 ====================
@@ -2297,7 +2297,7 @@ length 22
 ====================
 \"Then I snap awake.\"
 ====================
-\"Then I snap awake.\"
+「而后一跃惊醒」
 ====================
 
 ====================
@@ -2308,7 +2308,7 @@ length 36
 ====================
 \"Even though it's already over...\"
 ====================
-\"Even though it's already over...\"
+「明明已经结束了…」
 ====================
 
 ====================
@@ -2319,7 +2319,7 @@ length 32
 ====================
 \"Even though it's all over...\"
 ====================
-\"Even though it's all over...\"
+「明明全都结束了…」
 ====================
 
 ====================
@@ -2330,7 +2330,7 @@ length 29
 ====================
 \"I still see it sometimes.\"
 ====================
-\"I still see it sometimes.\"
+「但至今仍不时梦见」
 ====================
 
 ====================
@@ -2341,7 +2341,7 @@ length 22
 ====================
 \"It's like a curse.\"
 ====================
-\"It's like a curse.\"
+「那就像是诅咒之类的东西」
 ====================
 
 ====================
@@ -2352,7 +2352,7 @@ length 25
 ====================
 \"Born of my mistake...\"
 ====================
-\"Born of my mistake...\"
+「我所犯下的过错…」
 ====================
 
 ====================
@@ -2363,7 +2363,7 @@ length 18
 ====================
 \"Hey, Nii-chan.\"
 ====================
-\"Hey, Nii-chan.\"
+「呐，大哥」
 ====================
 
 ====================
@@ -2374,7 +2374,7 @@ length 7
 ====================
 \"Hm?\"
 ====================
-\"Hm?\"
+「嗯」
 ====================
 
 ====================
@@ -2385,7 +2385,7 @@ length 28
 ====================
 \"This is all in the past.\"
 ====================
-\"This is all in the past.\"
+「因为一切都已成往事了」
 ====================
 
 ====================
@@ -2396,7 +2396,7 @@ length 26
 ====================
 \"It's all already over.\"
 ====================
-\"It's all already over.\"
+「一切的一切，都已经结束了」
 ====================
 
 ====================
@@ -2407,7 +2407,7 @@ length 32
 ====================
 \"I don't love Kanako anymore.\"
 ====================
-\"I don't love Kanako anymore.\"
+「我也已经，不再喜欢河南子了」
 ====================
 
 ====================
@@ -2418,7 +2418,7 @@ length 59
 ====================
 \"I just remember the past and have nightmares sometimes.\"
 ====================
-\"I just remember the past and have nightmares sometimes.\"
+「只是，偶尔仍回忆起往事，宛若梦魇」
 ====================
 
 ====================
@@ -2429,7 +2429,7 @@ length 39
 ====================
 \"They're becoming less frequent too.\"
 ====================
-\"They're becoming less frequent too.\"
+「此种情形也愈发渐少了」
 ====================
 
 ====================
@@ -2440,7 +2440,7 @@ length 29
 ====================
 \"Time solves all problems.\"
 ====================
-\"Time solves all problems.\"
+「时间可以解决一切」
 ====================
 
 ====================
@@ -2451,7 +2451,7 @@ length 20
 ====================
 \"Convenient, huh?\"
 ====================
-\"Convenient, huh?\"
+「还真是方便的设定呢」
 ====================
 
 ====================
@@ -2462,7 +2462,7 @@ length 9
 ====================
 \"So...\"
 ====================
-\"So...\"
+「所以啊…」
 ====================
 
 ====================
@@ -2473,7 +2473,7 @@ length 42
 ====================
 \"Please don't tell Nee-chan about this.\"
 ====================
-\"Please don't tell Nee-chan about this.\"
+「无论如何，都不要向姐姐提起此事啊」
 ====================
 
 ====================
@@ -2484,7 +2484,7 @@ length 23
 ====================
 \"Yeah, I understand.\"
 ====================
-\"Yeah, I understand.\"
+「嗯，我知道啦」
 ====================
 
 ====================
@@ -2495,7 +2495,7 @@ length 28
 ====================
 \"...and that's the story.\"
 ====================
-\"...and that's the story.\"
+「…就是这么说的了」
 ====================
 
 ====================
@@ -2506,7 +2506,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+「………」
 ====================
 
 ====================
@@ -2517,7 +2517,7 @@ length 68
 ====================
 That evening after Takafumi has gone home, I tell Tomoyo everything.
 ====================
-That evening after Takafumi has gone home, I tell Tomoyo everything.
+当晚，等鹰文离去后，我将一切都转述给了智代。
 ====================
 
 ====================
@@ -2528,7 +2528,7 @@ length 10
 ====================
 She cries.
 ====================
-She cries.
+听完，智代痛哭了起来。
 ====================
 
 ====================
@@ -2539,7 +2539,7 @@ length 34
 ====================
 \"Uwah, I'll listen. What is it?\"
 ====================
-\"Uwah, I'll listen. What is it?\"
+「哇—，小智会听你的说哦，怎么了怎么了？」
 ====================
 
 ====================
@@ -2550,7 +2550,7 @@ length 57
 ====================
 Not understanding, Tomo panics and starts comforting her.
 ====================
-Not understanding, Tomo panics and starts comforting her.
+无法理解对话之意的小智慌忙安慰道。
 ====================
 
 ====================
@@ -2561,7 +2561,7 @@ length 27
 ====================
 She hugs Tomo and looks up.
 ====================
-She hugs Tomo and looks up.
+智代抱起那样的小智，抬起了头。
 ====================
 
 ====================
@@ -2572,7 +2572,7 @@ length 21
 ====================
 \"Takafumi alone...\"
 ====================
-\"Takafumi alone...\"
+「鹰文难道独自…」
 ====================
 
 ====================
@@ -2583,7 +2583,7 @@ length 40
 ====================
 \"Sacrificed everything, didn't he...?\"
 ====================
-\"Sacrificed everything, didn't he...?\"
+「牺牲了一切吗…」
 ====================
 
 ====================
@@ -2594,7 +2594,7 @@ length 21
 ====================
 \"For our family...\"
 ====================
-\"For our family...\"
+「为了我们这些家人…」
 ====================
 
 ====================
@@ -2605,7 +2605,7 @@ length 11
 ====================
 \"Yeah...\"
 ====================
-\"Yeah...\"
+「是啊…」
 ====================
 
 ====================
@@ -2616,7 +2616,7 @@ length 36
 ====================
 \"I knew he was having nightmares.\"
 ====================
-\"I knew he was having nightmares.\"
+「我虽知他有做噩梦」
 ====================
 
 ====================
@@ -2627,7 +2627,7 @@ length 70
 ====================
 \"But even if I asked him what they were about, he wouldn't tell me.\"
 ====================
-\"But even if I asked him what they were about, he wouldn't tell me.\"
+「但怎么问他原因，都不肯说」
 ====================
 
 ====================
@@ -2638,7 +2638,7 @@ length 15
 ====================
 \"That guy...\"
 ====================
-\"That guy...\"
+「那家伙啊…」
 ====================
 
 ====================
@@ -2649,7 +2649,7 @@ length 47
 ====================
 \"In his dreams, he's still running even now.\"
 ====================
-\"In his dreams, he's still running even now.\"
+「至今仍在梦中不停地狂奔着」
 ====================
 
 ====================
@@ -2660,7 +2660,7 @@ length 28
 ====================
 \"Suffering all the while.\"
 ====================
-\"Suffering all the while.\"
+「一直都痛苦着」
 ====================
 
 ====================
@@ -2671,7 +2671,7 @@ length 19
 ====================
 \"Let's help him.\"
 ====================
-\"Let's help him.\"
+「寻求着救赎」
 ====================
 
 ====================
@@ -2682,7 +2682,7 @@ length 11
 ====================
 \"Yeah...\"
 ====================
-\"Yeah...\"
+「嗯…」
 ====================
 
 ====================
@@ -2693,7 +2693,7 @@ length 8
 ====================
 \"I...\"
 ====================
-\"I...\"
+「我要…」
 ====================
 
 ====================
@@ -2704,7 +2704,7 @@ length 51
 ====================
 She wipes her tears away with the back of her hand.
 ====================
-She wipes her tears away with the back of her hand.
+边说边用手背拭去泪水。
 ====================
 
 ====================
@@ -2715,7 +2715,7 @@ length 24
 ====================
 \"I'll make him happy.\"
 ====================
-\"I'll make him happy.\"
+「让那家伙幸福」
 ====================
 
 ====================
@@ -2726,7 +2726,7 @@ length 36
 ====================
 \"Yeah, if it's us, it'll go well.\"
 ====================
-\"Yeah, if it's us, it'll go well.\"
+「是啊，我们的话，一定能办到」
 ====================
 
 ====================
@@ -2737,7 +2737,7 @@ length 13
 ====================
 \"I'm back.\"
 ====================
-\"I'm back.\"
+「我回来了—」
 ====================
 
 ====================
@@ -2748,7 +2748,7 @@ length 54
 ====================
 Kanako, who had gone out to buy ice cream, comes back.
 ====================
-Kanako, who had gone out to buy ice cream, comes back.
+出去买冰激凌的河南子回来了。
 ====================
 
 ====================
@@ -2759,7 +2759,7 @@ length 23
 ====================
 \"Uwah, how dreadful.\"
 ====================
-\"Uwah, how dreadful.\"
+「呜哇，修罗场啊」
 ====================
 
 ====================
@@ -2770,7 +2770,7 @@ length 55
 ====================
 She looks at Tomoyo crying her eyes out and draws back.
 ====================
-She looks at Tomoyo crying her eyes out and draws back.
+河南子被眼前哭得两眼红肿的智代吓了一跳。
 ====================
 
 ====================
@@ -2781,7 +2781,7 @@ length 50
 ====================
 Tomoyo suddenly stands up and goes over to Kanako.
 ====================
-Tomoyo suddenly stands up and goes over to Kanako.
+智代突然站了起来，走近了河南子。
 ====================
 
 ====================
@@ -2792,7 +2792,7 @@ length 36
 ====================
 \"Eh, what...? Huh, you want some?\"
 ====================
-\"Eh, what...? Huh, you want some?\"
+「诶，怎么了…要，要打架吗」
 ====================
 
 ====================
@@ -2803,7 +2803,7 @@ length 9
 ====================
 \"Uwah.\"
 ====================
-\"Uwah.\"
+「呜哇」
 ====================
 
 ====================
@@ -2814,7 +2814,7 @@ length 50
 ====================
 She embraces Kanako, who was prepared for a fight.
 ====================
-She embraces Kanako, who was prepared for a fight.
+智代抱住了摆好架势的河南子。
 ====================
 
 ====================
@@ -2825,7 +2825,7 @@ length 33
 ====================
 \"Eh? You interested in me now?\"
 ====================
-\"Eh? You interested in me now?\"
+「咦？要移情于我了吗？」
 ====================
 
 ====================
@@ -2836,7 +2836,7 @@ length 58
 ====================
 \"Kanako... for so long... I've given you a hard time...\"
 ====================
-\"Kanako... for so long... I've given you a hard time...\"
+「河南子…如此漫长的岁月中…都让你承受着痛苦的回忆…」
 ====================
 
 ====================
@@ -2847,7 +2847,7 @@ length 17
 ====================
 \"Forgive me...\"
 ====================
-\"Forgive me...\"
+「请原谅我…」
 ====================
 
 ====================
@@ -2858,7 +2858,7 @@ length 42
 ====================
 \"I'll definitely make you guys happy...\"
 ====================
-\"I'll definitely make you guys happy...\"
+「我绝对会，让你们幸福的…」
 ====================
 
 ====================
@@ -2869,7 +2869,7 @@ length 13
 ====================
 \"O-Okay...\"
 ====================
-\"O-Okay...\"
+「哈，哈—…」
 ====================
 
 ====================
@@ -2880,5 +2880,5 @@ length 26
 ====================
 Kanako is left speechless.
 ====================
-Kanako is left speechless.
+河南子就这样惊讶地一言不语。
 ====================

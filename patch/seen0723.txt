@@ -9,7 +9,7 @@ length 15
 ====================
 July 23rd (Fri)
 ====================
-July 23rd (Fri)
+7月23日(星期五)
 ====================
 
 ====================
@@ -20,7 +20,7 @@ length 30
 ====================
 \"This is revenge, Takafumi.\"
 ====================
-\"This is revenge, Takafumi.\"
+「我来复仇了，鹰文」
 ====================
 
 ====================
@@ -31,7 +31,7 @@ length 94
 ====================
 As soon as I get home, I take off and throw my work clothes on the floor and put on a T-shirt.
 ====================
-As soon as I get home, I take off and throw my work clothes on the floor and put on a T-shirt.
+我一回到家，就脱下工作服扔在地上，只穿着一件T恤。
 ====================
 
 ====================
@@ -42,7 +42,7 @@ length 27
 ====================
 \"Man, you're persistent.\"
 ====================
-\"Man, you're persistent.\"
+「真是纠缠不休啊」
 ====================
 
 ====================
@@ -53,7 +53,7 @@ length 34
 ====================
 \"Okay, if you lose this time...\"
 ====================
-\"Okay, if you lose this time...\"
+「既然如此，如果这次大哥又输了的话…」
 ====================
 
 ====================
@@ -64,7 +64,7 @@ length 61
 ====================
 Takafumi looks at Tomoyo in the kitchen and lowers his voice.
 ====================
-Takafumi looks at Tomoyo in the kitchen and lowers his voice.
+鹰文瞅了眼站在厨房中的智代，小声地说。
 ====================
 
 ====================
@@ -75,7 +75,7 @@ length 27
 ====================
 \"Break up with Nee-chan.\"
 ====================
-\"Break up with Nee-chan.\"
+「就和姐姐分手吧」
 ====================
 
 ====================
@@ -86,7 +86,7 @@ length 24
 ====================
 \"...will you do that?\"
 ====================
-\"...will you do that?\"
+「…就算如此仍要比？」
 ====================
 
 ====================
@@ -97,7 +97,7 @@ length 12
 ====================
 \"I won't.\"
 ====================
-\"I won't.\"
+「不比了」
 ====================
 
 ====================
@@ -108,7 +108,7 @@ length 15
 ====================
 \"You won't?!\"
 ====================
-\"You won't?!\"
+「不比了吗」
 ====================
 
 ====================
@@ -119,7 +119,7 @@ length 27
 ====================
 \"As if I'd concede that.\"
 ====================
-\"As if I'd concede that.\"
+「这事岂能让步啊」
 ====================
 
 ====================
@@ -130,7 +130,7 @@ length 24
 ====================
 \"Pick something else.\"
 ====================
-\"Pick something else.\"
+「换个别的」
 ====================
 
 ====================
@@ -141,7 +141,7 @@ length 39
 ====================
 \"Didn't you say you'd do anything...\"
 ====================
-\"Didn't you say you'd do anything...\"
+「不是说什么都干的吗…」
 ====================
 
 ====================
@@ -152,7 +152,7 @@ length 59
 ====================
 \"Okay then, I'll have you get flattened by Kanako again.\"
 ====================
-\"Okay then, I'll have you get flattened by Kanako again.\"
+「那样的话，就再被河南子揍扁吧」
 ====================
 
 ====================
@@ -163,7 +163,7 @@ length 18
 ====================
 \"Okay. Too bad.\"
 ====================
-\"Okay. Too bad.\"
+「好了。遗憾啊」
 ====================
 
 ====================
@@ -174,7 +174,7 @@ length 10
 ====================
 ...I lost.
 ====================
-...I lost.
+…败北。
 ====================
 
 ====================
@@ -185,7 +185,7 @@ length 95
 ====================
 \"Okay, Kanako went to go buy some ice cream, so you're going to take it from her and eat it.\"
 ====================
-\"Okay, Kanako went to go buy some ice cream, so you're going to take it from her and eat it.\"
+「那么，河南子现在正从买冰激凌的路上返回，你把它抢了吃掉吧」
 ====================
 
 ====================
@@ -196,7 +196,7 @@ length 9
 ====================
 \"Okay.\"
 ====================
-\"Okay.\"
+「好」
 ====================
 
 ====================
@@ -207,7 +207,7 @@ length 4
 ====================
 Talk
 ====================
-Talk
+聊天
 ====================
 
 ====================
@@ -218,7 +218,7 @@ length 5
 ====================
 Study
 ====================
-Study
+学习
 ====================
 
 ====================
@@ -229,7 +229,7 @@ length 12
 ====================
 Go out front
 ====================
-Go out front
+出去
 ====================
 
 ====================
@@ -240,7 +240,7 @@ length 6
 ====================
 Tomoyo
 ====================
-Tomoyo
+智代
 ====================
 
 ====================
@@ -251,7 +251,7 @@ length 8
 ====================
 Takafumi
 ====================
-Takafumi
+鹰文
 ====================
 
 ====================
@@ -262,7 +262,7 @@ length 4
 ====================
 Tomo
 ====================
-Tomo
+小智
 ====================
 
 ====================
@@ -273,7 +273,7 @@ length 38
 ====================
 \"Tomoyo, what's for dinner tonight?\"
 ====================
-\"Tomoyo, what's for dinner tonight?\"
+「智代，今晚吃什么？」
 ====================
 
 ====================
@@ -284,7 +284,7 @@ length 22
 ====================
 \"Sliced pork salad.\"
 ====================
-\"Sliced pork salad.\"
+「涮猪肉冷盘」
 ====================
 
 ====================
@@ -295,7 +295,7 @@ length 17
 ====================
 \"Woo! Awesome!\"
 ====================
-\"Woo! Awesome!\"
+「咻！太赞啦！」
 ====================
 
 ====================
@@ -306,7 +306,7 @@ length 46
 ====================
 \"Tomoyo, what color are your panties today?\"
 ====================
-\"Tomoyo, what color are your panties today?\"
+「智代，今天的内裤是什么颜色的？」
 ====================
 
 ====================
@@ -317,7 +317,7 @@ length 34
 ====================
 \"As if I'm going to tell you...\"
 ====================
-\"As if I'm going to tell you...\"
+「这种东西怎说得出口啊…」
 ====================
 
 ====================
@@ -328,7 +328,7 @@ length 26
 ====================
 \"Well, they're white...\"
 ====================
-\"Well, they're white...\"
+「算了，白色的…」
 ====================
 
 ====================
@@ -339,7 +339,7 @@ length 17
 ====================
 \"Woo! Awesome!\"
 ====================
-\"Woo! Awesome!\"
+「咻！太赞啦！」
 ====================
 
 ====================
@@ -350,7 +350,7 @@ length 58
 ====================
 \"Tomoyo, who's the starting pitcher for Yokohama today?\"
 ====================
-\"Tomoyo, who's the starting pitcher for Yokohama today?\"
+「智代，今天横滨队的首发有谁啊？」
 ====================
 
 ====================
@@ -361,7 +361,7 @@ length 40
 ====================
 \"I wouldn't know something like that.\"
 ====================
-\"I wouldn't know something like that.\"
+「那种事我哪知道啊」
 ====================
 
 ====================
@@ -372,7 +372,7 @@ length 42
 ====================
 \"Wouldn't it be someone like Sasaki...?\"
 ====================
-\"Wouldn't it be someone like Sasaki...?\"
+「是不是有佐佐木啊…？」
 ====================
 
 ====================
@@ -383,7 +383,7 @@ length 28
 ====================
 \"Woo! Sasaki is starting!\"
 ====================
-\"Woo! Sasaki is starting!\"
+「咻！佐佐木首发哦！」
 ====================
 
 ====================
@@ -394,7 +394,7 @@ length 25
 ====================
 \"Hey, your punishment.\"
 ====================
-\"Hey, your punishment.\"
+「好了啦，惩罚游戏」
 ====================
 
 ====================
@@ -405,7 +405,7 @@ length 7
 ====================
 \"No.\"
 ====================
-\"No.\"
+「不要」
 ====================
 
 ====================
@@ -416,7 +416,7 @@ length 7
 ====================
 \"Eh?\"
 ====================
-\"Eh?\"
+「诶？」
 ====================
 
 ====================
@@ -427,7 +427,7 @@ length 17
 ====================
 \"Just kidding.\"
 ====================
-\"Just kidding.\"
+「骗你的」
 ====================
 
 ====================
@@ -438,7 +438,7 @@ length 25
 ====================
 \"Hey, your punishment.\"
 ====================
-\"Hey, your punishment.\"
+「好了啦，惩罚游戏」
 ====================
 
 ====================
@@ -449,7 +449,7 @@ length 34
 ====================
 \"Tomo, is there a boy you like?\"
 ====================
-\"Tomo, is there a boy you like?\"
+「小智，有没有喜欢的男孩？」
 ====================
 
 ====================
@@ -460,7 +460,7 @@ length 30
 ====================
 \"Eh? I can't tell you that.\"
 ====================
-\"Eh? I can't tell you that.\"
+「诶—，这种事不能说的哟—」
 ====================
 
 ====================
@@ -471,7 +471,7 @@ length 18
 ====================
 \"Ooh, there is!\"
 ====================
-\"Ooh, there is!\"
+「哦哦—，已经有了呀！」
 ====================
 
 ====================
@@ -482,7 +482,7 @@ length 42
 ====================
 \"Tomo, who do you like more, him or me?\"
 ====================
-\"Tomo, who do you like more, him or me?\"
+「小智，那个家伙和爸爸相比，更喜欢谁？」
 ====================
 
 ====================
@@ -493,7 +493,7 @@ length 27
 ====================
 \"Eh, there isn't anyone.\"
 ====================
-\"Eh, there isn't anyone.\"
+「诶—，没有的哟—」
 ====================
 
 ====================
@@ -504,7 +504,7 @@ length 44
 ====================
 \"Tomo, what color are your panties today?\"
 ====================
-\"Tomo, what color are your panties today?\"
+「小智，今天的内裤是什么颜色的？」
 ====================
 
 ====================
@@ -515,7 +515,7 @@ length 56
 ====================
 \"Tomo, who's the starting pitcher for Yokohama today?\"
 ====================
-\"Tomo, who's the starting pitcher for Yokohama today?\"
+「小智，今天横滨队的首发有谁啊？」
 ====================
 
 ====================
@@ -526,7 +526,7 @@ length 27
 ====================
 That's right... I'll study.
 ====================
-That's right... I'll study.
+也是啊…学习吧。
 ====================
 
 ====================
@@ -537,7 +537,7 @@ length 27
 ====================
 Guess I've got no choice...
 ====================
-Guess I've got no choice...
+不得不这样做了吗…
 ====================
 
 ====================
@@ -548,7 +548,7 @@ length 10
 ====================
 \"Rawr!!\"
 ====================
-\"Rawr!!\"
+「嘎呜！！」
 ====================
 
 ====================
@@ -559,7 +559,7 @@ length 16
 ====================
 Takafumi roared!
 ====================
-Takafumi roared!
+鹰文咆哮了！
 ====================
 
 ====================
@@ -570,7 +570,7 @@ length 31
 ====================
 \"Nii-chan, your punishment!!\"
 ====================
-\"Nii-chan, your punishment!!\"
+「大哥，惩罚游戏！！」
 ====================
 
 ====================
@@ -581,7 +581,7 @@ length 15
 ====================
 I go out front.
 ====================
-I go out front.
+走到屋外。
 ====================
 
 ====================
@@ -592,7 +592,7 @@ length 9
 ====================
 \"Hmhm.\"
 ====================
-\"Hmhm.\"
+「哼哼～」
 ====================
 
 ====================
@@ -603,7 +603,7 @@ length 97
 ====================
 After I've been waiting a while, Kanako comes walking toward me in a good mood, eating ice cream.
 ====================
-After I've been waiting a while, Kanako comes walking toward me in a good mood, eating ice cream.
+稍作等候后，河南子便一边吃着冰激凌，一边兴高采烈朝这边走来。
 ====================
 
 ====================
@@ -614,7 +614,7 @@ length 79
 ====================
 I lower my face and head straight toward her in the guise of a normal passerby.
 ====================
-I lower my face and head straight toward her in the guise of a normal passerby.
+我低着头，装成一介路人从正面走近。
 ====================
 
 ====================
@@ -625,7 +625,7 @@ length 25
 ====================
 We're passing each other.
 ====================
-We're passing each other.
+擦身而过的瞬间。
 ====================
 
 ====================
@@ -636,7 +636,7 @@ length 41
 ====================
 I reach out my hand toward the ice cream.
 ====================
-I reach out my hand toward the ice cream.
+我伸手抓向冰激凌。
 ====================
 
 ====================
@@ -647,7 +647,7 @@ length 5
 ====================
 Damn.
 ====================
-Damn.
+呲—。
 ====================
 
 ====================
@@ -658,7 +658,7 @@ length 39
 ====================
 My fingertip just grazed the ice cream.
 ====================
-My fingertip just grazed the ice cream.
+指尖只掠过奶油而已。
 ====================
 
 ====================
@@ -669,7 +669,7 @@ length 47
 ====================
 Kanako dodged by bending her upper body around.
 ====================
-Kanako dodged by bending her upper body around.
+河南子上身后仰躲了过去。
 ====================
 
 ====================
@@ -680,7 +680,7 @@ length 31
 ====================
 \"What do you want, prick...?\"
 ====================
-\"What do you want, prick...?\"
+「干啥哪，你这家伙…」
 ====================
 
 ====================
@@ -691,7 +691,7 @@ length 33
 ====================
 She glares at me with those eyes.
 ====================
-She glares at me with those eyes.
+双眼直瞪着我。
 ====================
 
 ====================
@@ -702,7 +702,7 @@ length 74
 ====================
 \"Sorry... I'm going to take your ice cream and then greedily devour it.\"
 ====================
-\"Sorry... I'm going to take your ice cream and then greedily devour it.\"
+「不好意思啦…我要抢走你的冰激凌，然后吃光」
 ====================
 
 ====================
@@ -713,7 +713,7 @@ length 41
 ====================
 I lick off the ice cream on my fingertip.
 ====================
-I lick off the ice cream on my fingertip.
+说完舔掉了指尖沾着的奶油。
 ====================
 
 ====================
@@ -724,7 +724,7 @@ length 8
 ====================
 \"Why?\"
 ====================
-\"Why?\"
+「为啥」
 ====================
 
 ====================
@@ -735,7 +735,7 @@ length 29
 ====================
 \"Because I want to eat it.\"
 ====================
-\"Because I want to eat it.\"
+「因为想吃」
 ====================
 
 ====================
@@ -746,7 +746,7 @@ length 19
 ====================
 \"I don't get it.\"
 ====================
-\"I don't get it.\"
+「莫名其妙啊」
 ====================
 
 ====================
@@ -757,7 +757,7 @@ length 40
 ====================
 I step further in and throw a left hook.
 ====================
-I step further in and throw a left hook.
+我又踏出一步，打出一记左钩拳。
 ====================
 
 ====================
@@ -768,7 +768,7 @@ length 88
 ====================
 The ice cream that was supposed to be in its trajectory has vanished from Kanako's hand.
 ====================
-The ice cream that was supposed to be in its trajectory has vanished from Kanako's hand.
+本该在那之前的冰激凌，从河南子的手中消失了。
 ====================
 
 ====================
@@ -779,7 +779,7 @@ length 67
 ====================
 \"We can consider this a student challenging his master, correct?\"
 ====================
-\"We can consider this a student challenging his master, correct?\"
+「就当作是师徒对决来接受也没问题吧」
 ====================
 
 ====================
@@ -790,7 +790,7 @@ length 41
 ====================
 The ice cream is dancing through the air.
 ====================
-The ice cream is dancing through the air.
+冰激凌在空中飞舞着。
 ====================
 
 ====================
@@ -801,7 +801,7 @@ length 32
 ====================
 \"I'm not what I used to be...\"
 ====================
-\"I'm not what I used to be...\"
+「已不再是过去的我了…」
 ====================
 
 ====================
@@ -812,7 +812,7 @@ length 36
 ====================
 \"...dinner preparations are done.\"
 ====================
-\"...dinner preparations are done.\"
+「…晚饭准备好了哦」
 ====================
 
 ====================
@@ -823,7 +823,7 @@ length 53
 ====================
 \"Are you having fun sleeping in a place like this?\"
 ====================
-\"Are you having fun sleeping in a place like this?\"
+「睡在这种地方很开心吗？」
 ====================
 
 ====================
@@ -834,7 +834,7 @@ length 9
 ====================
 \"No...\"
 ====================
-\"No...\"
+「不…」
 ====================
 
 ====================
@@ -845,7 +845,7 @@ length 36
 ====================
 I sit up. She really did flatten me.
 ====================
-I sit up. She really did flatten me.
+我站起身来。真的是被揍扁了。
 ====================
 
 ====================
@@ -856,7 +856,7 @@ length 72
 ====================
 \"Here, I checked this out from the library along with a picture book.\"
 ====================
-\"Here, I checked this out from the library along with a picture book.\"
+「看，这是在图书馆同画册一起借来的」
 ====================
 
 ====================
@@ -867,7 +867,7 @@ length 9
 ====================
 \"What?\"
 ====================
-\"What?\"
+「什么」
 ====================
 
 ====================
@@ -878,7 +878,7 @@ length 61
 ====================
 I take the book. The words \"basic typing\" are in the title.
 ====================
-I take the book. The words \"basic typing\" are in the title.
+我接过书。标题是『打字入门』。
 ====================
 
 ====================
@@ -889,7 +889,7 @@ length 45
 ====================
 \"Effort is important, but so is technique.\"
 ====================
-\"Effort is important, but so is technique.\"
+「努力固然重要，但我认为方法也同等重要吧」
 ====================
 
 ====================
@@ -900,7 +900,7 @@ length 71
 ====================
 I quickly finish dinner and dive head first into the introductory book.
 ====================
-I quickly finish dinner and dive head first into the introductory book.
+我匆匆吃完晚饭，马上又埋头于入门书中。
 ====================
 
 ====================
@@ -911,7 +911,7 @@ length 44
 ====================
 \"Nii-chan, you still want to continue...?\"
 ====================
-\"Nii-chan, you still want to continue...?\"
+「大哥，还要来啊…？」
 ====================
 
 ====================
@@ -922,7 +922,7 @@ length 49
 ====================
 Takafumi peeks at my book and asks exasperatedly.
 ====================
-Takafumi peeks at my book and asks exasperatedly.
+偷看了书一眼后，鹰文吃惊地问道。
 ====================
 
 ====================
@@ -933,7 +933,7 @@ length 9
 ====================
 \"Yeah.\"
 ====================
-\"Yeah.\"
+「是啊」
 ====================
 
 ====================
@@ -944,7 +944,7 @@ length 46
 ====================
 \"Are you going to keep going until you win?\"
 ====================
-\"Are you going to keep going until you win?\"
+「就是说，准备直到获胜为止？」
 ====================
 
 ====================
@@ -955,7 +955,7 @@ length 9
 ====================
 \"Yeah.\"
 ====================
-\"Yeah.\"
+「是啊」
 ====================
 
 ====================
@@ -966,7 +966,7 @@ length 40
 ====================
 \"Just what do you want to make me do?\"
 ====================
-\"Just what do you want to make me do?\"
+「到底想要我做什么啊？」
 ====================
 
 ====================
@@ -977,7 +977,7 @@ length 32
 ====================
 \"I'll tell you when you lose.\"
 ====================
-\"I'll tell you when you lose.\"
+「等你输了就告诉你…」
 ====================
 
 ====================
@@ -988,7 +988,7 @@ length 30
 ====================
 \"I told you that's scary...\"
 ====================
-\"I told you that's scary...\"
+「所以才说可怕的啊…」
 ====================
 
 ====================
@@ -999,7 +999,7 @@ length 74
 ====================
 \"But that means that someday you're going to make me do whatever it is.\"
 ====================
-\"But that means that someday you're going to make me do whatever it is.\"
+「但这样下去，总有一天我会被打败的不是吗」
 ====================
 
 ====================
@@ -1010,7 +1010,7 @@ length 12
 ====================
 \"Exactly.\"
 ====================
-\"Exactly.\"
+「正如你所言」
 ====================
 
 ====================
@@ -1021,7 +1021,7 @@ length 62
 ====================
 \"Hah... recently you've developed a ridiculous willpower...\"
 ====================
-\"Hah... recently you've developed a ridiculous willpower...\"
+「哈—…最近，大哥有着莫名其妙的毅力啊…」
 ====================
 
 ====================
@@ -1032,7 +1032,7 @@ length 74
 ====================
 \"Okay, I'm going to say now what your next punishment will be if I win.\"
 ====================
-\"Okay, I'm going to say now what your next punishment will be if I win.\"
+「那，我先透露下，下次我赢时的惩罚吧」
 ====================
 
 ====================
@@ -1043,7 +1043,7 @@ length 38
 ====================
 \"That's kind of soon... what is it?\"
 ====================
-\"That's kind of soon... what is it?\"
+「真早呢…是什么啊」
 ====================
 
 ====================
@@ -1054,7 +1054,7 @@ length 26
 ====================
 \"Next time, if I win...\"
 ====================
-\"Next time, if I win...\"
+「下次，如果我了赢的话…」
 ====================
 
 ====================
@@ -1065,7 +1065,7 @@ length 48
 ====================
 \"I won't accept any more of these challenges.\"
 ====================
-\"I won't accept any more of these challenges.\"
+「就不再接受这个挑战了」
 ====================
 
 ====================
@@ -1076,7 +1076,7 @@ length 96
 ====================
 After Takafumi goes home, I borrow his machine and practice what I learned in the book for real.
 ====================
-After Takafumi goes home, I borrow his machine and practice what I learned in the book for real.
+从鹰文回家开始，我就借用电脑，实践从书上学来的练习方法。
 ====================
 
 ====================
@@ -1087,7 +1087,7 @@ length 23
 ====================
 \"You're still at it?\"
 ====================
-\"You're still at it?\"
+「还要练习吗？」
 ====================
 
 ====================
@@ -1098,7 +1098,7 @@ length 39
 ====================
 \"Sorry, you can turn off the lights.\"
 ====================
-\"Sorry, you can turn off the lights.\"
+「打扰你啦，把灯关了也行」
 ====================
 
 ====================
@@ -1109,7 +1109,7 @@ length 26
 ====================
 \"You'll ruin your eyes.\"
 ====================
-\"You'll ruin your eyes.\"
+「对眼睛不好哦」
 ====================
 
 ====================
@@ -1120,7 +1120,7 @@ length 58
 ====================
 \"Hey, Tomo-san, warn him about what I told you earlier.\"
 ====================
-\"Hey, Tomo-san, warn him about what I told you earlier.\"
+「喏，小智小姐，请像我刚才说的一样提醒他啊」
 ====================
 
 ====================
@@ -1131,7 +1131,7 @@ length 70
 ====================
 \"Geez, you shouldn't look at pornographic images all day and night.\"
 ====================
-\"Geez, you shouldn't look at pornographic images all day and night.\"
+「真是的—，一个劲地盯着色情图片看是不对的哟」
 ====================
 
 ====================
@@ -1142,7 +1142,7 @@ length 70
 ====================
 \"Don't have a kid say something she doesn't understand like that...\"
 ====================
-\"Don't have a kid say something she doesn't understand like that...\"
+「别教还不明白意思的小孩子说这种话啦…」
 ====================
 
 ====================
@@ -1153,5 +1153,5 @@ length 95
 ====================
 Even after the three of them go to sleep, I continue practicing in front of the bright monitor.
 ====================
-Even after the three of them go to sleep, I continue practicing in front of the bright monitor.
+三人都入睡后，我仍继续在闪着亮光的显示器前奋斗不已。
 ====================

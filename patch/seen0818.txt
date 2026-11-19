@@ -9,7 +9,7 @@ length 17
 ====================
 August 18th (Wed)
 ====================
-August 18th (Wed)
+8月18日(星期三)
 ====================
 
 ====================
@@ -20,7 +20,7 @@ length 40
 ====================
 \"Hey, here's something I heard about.\"
 ====================
-\"Hey, here's something I heard about.\"
+「我也是听说的」
 ====================
 
 ====================
@@ -31,7 +31,7 @@ length 98
 ====================
 \"It seems that it's dangerous here during the fall since that's when bears frequent this place.\"
 ====================
-\"It seems that it's dangerous here during the fall since that's when bears frequent this place.\"
+「秋天这儿似乎有熊出没，很危险呢」
 ====================
 
 ====================
@@ -42,7 +42,7 @@ length 87
 ====================
 Tomoyo brings up a different topic for the first time since that accident this morning.
 ====================
-Tomoyo brings up a different topic for the first time since that accident this morning.
+那天早上。自从我出事以来，智代头一次聊起别的话题。
 ====================
 
 ====================
@@ -53,7 +53,7 @@ length 73
 ====================
 \"That's because they're gathering food in preparation for hibernation.\"
 ====================
-\"That's because they're gathering food in preparation for hibernation.\"
+「那一定是为冬眠准备食物吧」
 ====================
 
 ====================
@@ -64,7 +64,7 @@ length 34
 ====================
 \"But it's the summer right now.\"
 ====================
-\"But it's the summer right now.\"
+「但现在还是夏天啊」
 ====================
 
 ====================
@@ -75,7 +75,7 @@ length 53
 ====================
 \"Yeah. That's why I think it's safe to go outside.\"
 ====================
-\"Yeah. That's why I think it's safe to go outside.\"
+「嗯，所以我想现在就算出现熊，也是安全的」
 ====================
 
 ====================
@@ -86,7 +86,7 @@ length 55
 ====================
 \"Nah, before that, they wouldn't even come out here.\"
 ====================
-\"Nah, before that, they wouldn't even come out here.\"
+「大概不会这么早就出现吧」
 ====================
 
 ====================
@@ -97,7 +97,7 @@ length 66
 ====================
 \"They won't come out here? Can you really say that for certain?\"
 ====================
-\"They won't come out here? Can you really say that for certain?\"
+「不会出现吗？你能断定吗？」
 ====================
 
 ====================
@@ -108,7 +108,7 @@ length 40
 ====================
 \"Well, I can't really say for sure...\"
 ====================
-\"Well, I can't really say for sure...\"
+「不，我并没断言…」
 ====================
 
 ====================
@@ -119,7 +119,7 @@ length 60
 ====================
 \"You kind of sound like you want them to show up, though.\"
 ====================
-\"You kind of sound like you want them to show up, though.\"
+「听你的语气，好像真的会出现呢」
 ====================
 
 ====================
@@ -130,7 +130,7 @@ length 18
 ====================
 \"Of course not.\"
 ====================
-\"Of course not.\"
+「绝没这回事」
 ====================
 
 ====================
@@ -141,7 +141,7 @@ length 75
 ====================
 All she did was bring up a weird subject. She says nothing other than that.
 ====================
-All she did was bring up a weird subject. She says nothing other than that.
+她只提了提这个奇怪的话题，便不再多言了。
 ====================
 
 ====================
@@ -152,7 +152,7 @@ length 74
 ====================
 Tomoyo and I carefully lay down a plastic sheet in the shade and sit down.
 ====================
-Tomoyo and I carefully lay down a plastic sheet in the shade and sit down.
+细心地在树荫下铺上塑料布后，我和智代便坐下了。
 ====================
 
 ====================
@@ -163,7 +163,7 @@ length 49
 ====================
 An injured person and his attendant, so to speak.
 ====================
-An injured person and his attendant, so to speak.
+她说要照顾我这个受伤的人。
 ====================
 
 ====================
@@ -174,7 +174,7 @@ length 152
 ====================
 The house is now so beautiful that it can no longer be called abandoned. The villagers come and go to work on their jobs, occasionally looking this way.
 ====================
-The house is now so beautiful that it can no longer be called abandoned. The villagers come and go to work on their jobs, occasionally looking this way.
+在这间已漂亮得不能再称作废屋的房子里，村民们各司其职地工作着，偶尔也会看向这边。
 ====================
 
 ====================
@@ -185,7 +185,7 @@ length 38
 ====================
 I couldn't feel any more out of place.
 ====================
-I couldn't feel any more out of place.
+再没有比这更让人待不下去的了。
 ====================
 
 ====================
@@ -196,7 +196,7 @@ length 149
 ====================
 I thought about returning to my room for some rest because of that, but since the villagers occasionally come to me for instructions, I have to stay.
 ====================
-I thought about returning to my room for some rest because of that, but since the villagers occasionally come to me for instructions, I have to stay.
+虽然我想老老实实地待在房里，但是经常会有村民过来询问工作的指示，所以我不得不待在现场。
 ====================
 
 ====================
@@ -207,7 +207,7 @@ length 55
 ====================
 \"I suppose I couldn't possibly have finished it all.\"
 ====================
-\"I suppose I couldn't possibly have finished it all.\"
+「说到底，我也不可能一个人做完全部的工作啊」
 ====================
 
 ====================
@@ -218,7 +218,7 @@ length 25
 ====================
 \"Hm? What do you mean?\"
 ====================
-\"Hm? What do you mean?\"
+「嗯？什么事？」
 ====================
 
 ====================
@@ -229,7 +229,7 @@ length 49
 ====================
 \"There is only so much that I can actually do.\"
 ====================
-\"There is only so much that I can actually do.\"
+「我能做的，可没那么多呢」
 ====================
 
 ====================
@@ -240,7 +240,7 @@ length 63
 ====================
 \"Well, I did work my ass off studying all about electricity.\"
 ====================
-\"Well, I did work my ass off studying all about electricity.\"
+「尽管我拼命地学习了电气相关的知识」
 ====================
 
 ====================
@@ -251,7 +251,7 @@ length 95
 ====================
 \"But I only know enough about what an electrician does to do repairs and apply it to my job.\"
 ====================
-\"But I only know enough about what an electrician does to do repairs and apply it to my job.\"
+「不过也仅仅只了解了修理和应用方面的基础电工知识啊」
 ====================
 
 ====================
@@ -262,7 +262,7 @@ length 85
 ====================
 \"To rebuild a house or install a blackboard like that? There's no way I can do it.\"
 ====================
-\"To rebuild a house or install a blackboard like that? There's no way I can do it.\"
+「像这样重建好房子，刨好黑板的事我可做不到」
 ====================
 
 ====================
@@ -273,7 +273,7 @@ length 22
 ====================
 \"It's not my field.\"
 ====================
-\"It's not my field.\"
+「因为我根本就不是干这行的」
 ====================
 
 ====================
@@ -284,7 +284,7 @@ length 61
 ====================
 However, there are some astonishingly skilled villagers here.
 ====================
-However, there are some astonishingly skilled villagers here.
+然而，这里有手艺精湛的村民存在。
 ====================
 
 ====================
@@ -295,7 +295,7 @@ length 59
 ====================
 Perhaps they did this for a living back before coming here.
 ====================
-Perhaps they did this for a living back before coming here.
+大概在他们来这之前，就是靠这吃饭的吧。
 ====================
 
 ====================
@@ -306,7 +306,7 @@ length 42
 ====================
 I gaze on idly until a lady approaches us.
 ====================
-I gaze on idly until a lady approaches us.
+在我发呆地注视着这一切时，一位女性走了过来。
 ====================
 
 ====================
@@ -317,7 +317,7 @@ length 39
 ====================
 It's the lady in charge of the laundry.
 ====================
-It's the lady in charge of the laundry.
+是负责洗衣的那位。
 ====================
 
 ====================
@@ -328,7 +328,7 @@ length 47
 ====================
 \"...it's hot out here. Have some barley tea.\"
 ====================
-\"...it's hot out here. Have some barley tea.\"
+「…天很热，喝点麦茶吧」
 ====================
 
 ====================
@@ -339,7 +339,7 @@ length 55
 ====================
 She pours the tea into paper cups and hands them to us.
 ====================
-She pours the tea into paper cups and hands them to us.
+她把麦茶倒入纸杯，递给了我。
 ====================
 
 ====================
@@ -350,7 +350,7 @@ length 11
 ====================
 \"Thanks.\"
 ====================
-\"Thanks.\"
+「麻烦你了」
 ====================
 
 ====================
@@ -361,7 +361,7 @@ length 14
 ====================
 \"Thank you.\"
 ====================
-\"Thank you.\"
+「谢谢」
 ====================
 
 ====================
@@ -372,7 +372,7 @@ length 25
 ====================
 \"...you're... welcome.\"
 ====================
-\"...you're... welcome.\"
+「…哪里的话…」
 ====================
 
 ====================
@@ -383,7 +383,7 @@ length 19
 ====================
 She faintly smiles.
 ====================
-She faintly smiles.
+她微笑了。
 ====================
 
 ====================
@@ -394,7 +394,7 @@ length 30
 ====================
 \"...thanks for helping out.\"
 ====================
-\"...thanks for helping out.\"
+「…多谢你们的帮忙」
 ====================
 
 ====================
@@ -405,7 +405,7 @@ length 95
 ====================
 It may be a little late, but I still thank her, although it makes me feel a little embarrassed.
 ====================
-It may be a little late, but I still thank her, although it makes me feel a little embarrassed.
+虽然有些晚了，但我还是向她道了谢，尽管这让我有点不好意思。
 ====================
 
 ====================
@@ -416,7 +416,7 @@ length 64
 ====================
 \"...not at all. I'll only be helping out after it is built...\"
 ====================
-\"...not at all. I'll only be helping out after it is built...\"
+「…没有的事，因为这些…都是我们能帮上的」
 ====================
 
 ====================
@@ -427,7 +427,7 @@ length 43
 ====================
 \"I was... a teacher... until recently...\"
 ====================
-\"I was... a teacher... until recently...\"
+「我之前…也是…做老师的」
 ====================
 
 ====================
@@ -438,7 +438,7 @@ length 57
 ====================
 \"It was tough... and I was helpless... so I came here.\"
 ====================
-\"It was tough... and I was helpless... so I came here.\"
+「但是太辛苦了…没办法……就来到这了」
 ====================
 
 ====================
@@ -449,7 +449,7 @@ length 51
 ====================
 \"But... I think I want to give it another try...\"
 ====================
-\"But... I think I want to give it another try...\"
+「但是，我想再做一次…试试看…」
 ====================
 
 ====================
@@ -460,7 +460,7 @@ length 24
 ====================
 \"That's what I think.\"
 ====================
-\"That's what I think.\"
+「我是这么想的」
 ====================
 
 ====================
@@ -471,7 +471,7 @@ length 13
 ====================
 \"...I see.\"
 ====================
-\"...I see.\"
+「…这样啊」
 ====================
 
 ====================
@@ -482,5 +482,5 @@ length 33
 ====================
 \"So that's why... thank you...\"
 ====================
-\"So that's why... thank you...\"
+「所以，谢谢了…」
 ====================

@@ -9,7 +9,7 @@ length 16
 ====================
 August 8th (Sun)
 ====================
-August 8th (Sun)
+8月8日(星期日)
 ====================
 
 ====================
@@ -20,7 +20,7 @@ length 67
 ====================
 I went to the library and checked out more books the following day.
 ====================
-I went to the library and checked out more books the following day.
+第二天我又去了图书馆，借了另一些书。
 ====================
 
 ====================
@@ -31,7 +31,7 @@ length 82
 ====================
 With the librarian's help, I found several books that contained a lot of pictures.
 ====================
-With the librarian's help, I found several books that contained a lot of pictures.
+图书管理员也帮了我点忙，尽可能多地为我准备了些含较多插图的书。
 ====================
 
 ====================
@@ -42,7 +42,7 @@ length 21
 ====================
 \"Working hard, eh?\"
 ====================
-\"Working hard, eh?\"
+「你还真是干劲十足啊—」
 ====================
 
 ====================
@@ -53,7 +53,7 @@ length 79
 ====================
 With an ice cream bar hanging out of her mouth, Kanako quickly flips the pages.
 ====================
-With an ice cream bar hanging out of her mouth, Kanako quickly flips the pages.
+河南子嘴里叼着冰棒，随手哗啦哗啦地翻着书。
 ====================
 
 ====================
@@ -64,7 +64,7 @@ length 32
 ====================
 \"What? Are you going to help?\"
 ====================
-\"What? Are you going to help?\"
+「咋了，想来帮忙吗？」
 ====================
 
 ====================
@@ -75,7 +75,7 @@ length 114
 ====================
 \"How about this one? Does it look the same? It's correct, no? Hell, it has to be correct. I said it, after all.\"
 ====================
-\"How about this one? Does it look the same? It's correct, no? Hell, it has to be correct. I said it, after all.\"
+「这个如何？不觉得很像吗？不像是正确答案吗？肯定就是它了，因为是我找的嘛」
 ====================
 
 ====================
@@ -86,7 +86,7 @@ length 46
 ====================
 Kanako points at a page from one of the books.
 ====================
-Kanako points at a page from one of the books.
+河南子指着书中一页说道。
 ====================
 
 ====================
@@ -97,7 +97,7 @@ length 73
 ====================
 \"No. I'd say that's Chinese calligraphy. Likely from the Qing Dynasty.\"
 ====================
-\"No. I'd say that's Chinese calligraphy. Likely from the Qing Dynasty.\"
+「不是。真要说的话那是中国书法。确切来说是清朝的」
 ====================
 
 ====================
@@ -108,7 +108,7 @@ length 49
 ====================
 I hate to admit, but I recognize it on sight now.
 ====================
-I hate to admit, but I recognize it on sight now.
+对于那些对不上号的东西，我都已经记得了。
 ====================
 
 ====================
@@ -119,7 +119,7 @@ length 51
 ====================
 \"What's with you? You sounded like you're smart.\"
 ====================
-\"What's with you? You sounded like you're smart.\"
+「你这是怎么了，好像变聪明了嘛」
 ====================
 
 ====================
@@ -130,7 +130,7 @@ length 52
 ====================
 \"Well, I've been researching this the whole time.\"
 ====================
-\"Well, I've been researching this the whole time.\"
+「因为一直在看嘛」
 ====================
 
 ====================
@@ -141,7 +141,7 @@ length 20
 ====================
 \"...it's no good.\"
 ====================
-\"...it's no good.\"
+「…不行了」
 ====================
 
 ====================
@@ -152,7 +152,7 @@ length 35
 ====================
 I throw the book away and lie down.
 ====================
-I throw the book away and lie down.
+我将书一丢躺了下去。
 ====================
 
 ====================
@@ -163,7 +163,7 @@ length 99
 ====================
 I found that there are several styles that look similar, but haven't made any progress beyond that.
 ====================
-I found that there are several styles that look similar, but haven't made any progress beyond that.
+我只知道有很多相似的书法，之后便毫无进展了。
 ====================
 
 ====================
@@ -174,7 +174,7 @@ length 38
 ====================
 I wonder if there are any other clues.
 ====================
-I wonder if there are any other clues.
+就没别的什么能作线索的东西了吗？
 ====================
 
 ====================
@@ -185,7 +185,7 @@ length 49
 ====================
 \"There's no point thinking about it all alone.\"
 ====================
-\"There's no point thinking about it all alone.\"
+「独自冥思苦想可没用哦」
 ====================
 
 ====================
@@ -196,7 +196,7 @@ length 36
 ====================
 \"How about you try talking to me?\"
 ====================
-\"How about you try talking to me?\"
+「找我商量下吧？」
 ====================
 
 ====================
@@ -207,7 +207,7 @@ length 35
 ====================
 \"That'd just be a waste of time.\"
 ====================
-\"That'd just be a waste of time.\"
+「那就更没用了」
 ====================
 
 ====================
@@ -218,7 +218,7 @@ length 55
 ====================
 \"Oh, come on! And I was trying to help you out here!\"
 ====================
-\"Oh, come on! And I was trying to help you out here!\"
+「什么嘛，真是的。难得人家想要帮忙的说」
 ====================
 
 ====================
@@ -229,7 +229,7 @@ length 73
 ====================
 \"Yeah, yeah. Okay. I appreciate the sentiment. And only the sentiment.\"
 ====================
-\"Yeah, yeah. Okay. I appreciate the sentiment. And only the sentiment.\"
+「好啦好啦，我知道了知道了。您的好意我心领了」
 ====================
 
 ====================
@@ -240,7 +240,7 @@ length 68
 ====================
 I sit back up, and just when I am about to flip open a book, I stop.
 ====================
-I sit back up, and just when I am about to flip open a book, I stop.
+我抬起身来，正要打开书时，突然停住了。
 ====================
 
 ====================
@@ -251,5 +251,5 @@ length 70
 ====================
 \"...that's right. There's nothing stopping me from asking for help.\"
 ====================
-\"...that's right. There's nothing stopping me from asking for help.\"
+「…说的也是啊，就不能去找人帮帮忙吗」
 ====================

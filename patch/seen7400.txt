@@ -9,7 +9,7 @@ length 30
 ====================
 The enemy has started to flee!
 ====================
-The enemy has started to flee!
+敌人开始逃跑了！
 ====================
 
 ====================
@@ -20,7 +20,7 @@ length 30
 ====================
 The enemy has started to flee!
 ====================
-The enemy has started to flee!
+敌人开始逃跑了！
 ====================
 
 ====================
@@ -31,7 +31,7 @@ length 28
 ====================
 Entering extermination mode.
 ====================
-Entering extermination mode.
+进入歼灭模式。
 ====================
 
 ====================
@@ -42,7 +42,7 @@ length 28
 ====================
 Entering extermination mode.
 ====================
-Entering extermination mode.
+进入歼灭模式。
 ====================
 
 ====================
@@ -53,7 +53,7 @@ length 39
 ====================
 Retreat and return to the ground level.
 ====================
-Retreat and return to the ground level.
+撤退，返回地面。
 ====================
 
 ====================
@@ -64,5 +64,5 @@ length 39
 ====================
 Retreat and return to the ground level.
 ====================
-Retreat and return to the ground level.
+撤退，返回地面。
 ====================

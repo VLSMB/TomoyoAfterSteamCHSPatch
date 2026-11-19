@@ -9,7 +9,7 @@ length 25
 ====================
 \"Are your wounds okay?\"
 ====================
-\"Are your wounds okay?\"
+「伤没事了吗？」
 ====================
 
 ====================
@@ -20,7 +20,7 @@ length 9
 ====================
 \"Yeah.\"
 ====================
-\"Yeah.\"
+「嗯」
 ====================
 
 ====================
@@ -31,7 +31,7 @@ length 40
 ====================
 \"Those are from a fight, aren't they?\"
 ====================
-\"Those are from a fight, aren't they?\"
+「那是打架造成的伤吧？」
 ====================
 
 ====================
@@ -42,7 +42,7 @@ length 12
 ====================
 \"Sort of.\"
 ====================
-\"Sort of.\"
+「嗯」
 ====================
 
 ====================
@@ -53,7 +53,7 @@ length 37
 ====================
 \"I won't ask what happened, but...\"
 ====================
-\"I won't ask what happened, but...\"
+「虽然我不会追问你究竟发生了什么…」
 ====================
 
 ====================
@@ -64,7 +64,7 @@ length 32
 ====================
 \"Please, don't make me worry.\"
 ====================
-\"Please, don't make me worry.\"
+「但请不要让我太过担心」
 ====================
 
 ====================
@@ -75,7 +75,7 @@ length 38
 ====================
 \"What is it, Tomoya? Are you bored?\"
 ====================
-\"What is it, Tomoya? Are you bored?\"
+「怎么了，朋也。很无聊吗？」
 ====================
 
 ====================
@@ -86,7 +86,7 @@ length 39
 ====================
 \"Do you want me to keep you company?\"
 ====================
-\"Do you want me to keep you company?\"
+「想有人陪吗？」
 ====================
 
 ====================
@@ -97,7 +97,7 @@ length 17
 ====================
 \"There, there.\"
 ====================
-\"There, there.\"
+「乖乖」
 ====================
 
 ====================
@@ -108,7 +108,7 @@ length 20
 ====================
 Tomoyo pats my head.
 ====================
-Tomoyo pats my head.
+智代抚摸着我的头。
 ====================
 
 ====================
@@ -119,7 +119,7 @@ length 35
 ====================
 I lay my head down on Tomoyo's lap.
 ====================
-I lay my head down on Tomoyo's lap.
+我就这样躺在智代的膝上。
 ====================
 
 ====================
@@ -130,7 +130,7 @@ length 32
 ====================
 \"Papa, you look like a child.\"
 ====================
-\"Papa, you look like a child.\"
+「爸爸好像个小孩子哦—」
 ====================
 
 ====================
@@ -141,7 +141,7 @@ length 25
 ====================
 \"That's true, tee hee.\"
 ====================
-\"That's true, tee hee.\"
+「真的呢，呵呵」
 ====================
 
 ====================
@@ -152,7 +152,7 @@ length 33
 ====================
 For a while, Tomoyo pats my head.
 ====================
-For a while, Tomoyo pats my head.
+她就这样抚摸着我。
 ====================
 
 ====================
@@ -163,7 +163,7 @@ length 14
 ====================
 It feels nice.
 ====================
-It feels nice.
+感觉很舒服。
 ====================
 
 ====================
@@ -174,7 +174,7 @@ length 67
 ====================
 \"It's time to get up. Otherwise I can't read Tomo her storybook.\"
 ====================
-\"It's time to get up. Otherwise I can't read Tomo her storybook.\"
+「差不多该让开了吧。别影响我给小智念画册了」
 ====================
 
 ====================
@@ -185,7 +185,7 @@ length 14
 ====================
 \"Hm? Again?\"
 ====================
-\"Hm? Again?\"
+「嗯？还要躺吗？」
 ====================
 
 ====================
@@ -196,7 +196,7 @@ length 17
 ====================
 \"There, there.\"
 ====================
-\"There, there.\"
+「乖乖」
 ====================
 
 ====================
@@ -207,7 +207,7 @@ length 30
 ====================
 My head is being patted again.
 ====================
-My head is being patted again.
+她又抚摸起我的头来。
 ====================
 
 ====================
@@ -218,7 +218,7 @@ length 28
 ====================
 \"Maybe Papa wants a kiss?\"
 ====================
-\"Maybe Papa wants a kiss?\"
+「爸爸是不是想要亲亲呢—」
 ====================
 
 ====================
@@ -229,7 +229,7 @@ length 30
 ====================
 Tomo gives a great suggestion.
 ====================
-Tomo gives a great suggestion.
+小智提了个令人高兴的建议。
 ====================
 
 ====================
@@ -240,7 +240,7 @@ length 23
 ====================
 I silently nod my head.
 ====================
-I silently nod my head.
+我默默地点了点头。
 ====================
 
 ====================
@@ -251,7 +251,7 @@ length 8
 ====================
 \"See.\"
 ====================
-\"See.\"
+「看吧—」
 ====================
 
 ====================
@@ -262,7 +262,7 @@ length 10
 ====================
 \"Ngh...\"
 ====================
-\"Ngh...\"
+「呜…」
 ====================
 
 ====================
@@ -273,7 +273,7 @@ length 89
 ====================
 For Tomo, a kiss is a symbol of a family bond. Of course, Tomoyo won't be able to refuse.
 ====================
-For Tomo, a kiss is a symbol of a family bond. Of course, Tomoyo won't be able to refuse.
+对小智来说，亲吻就是家庭和睦的象征。因此智代无法拒绝。
 ====================
 
 ====================
@@ -284,7 +284,7 @@ length 62
 ====================
 Being left no other choice, Tomoyo places her hand on my chin.
 ====================
-Being left no other choice, Tomoyo places her hand on my chin.
+智代无可奈何地伸手捧住我的下巴。
 ====================
 
 ====================
@@ -295,7 +295,7 @@ length 10
 ====================
 \"Ugh...\"
 ====================
-\"Ugh...\"
+「呜呜…」
 ====================
 
 ====================
@@ -306,7 +306,7 @@ length 37
 ====================
 Tomo looks on intently from the side.
 ====================
-Tomo looks on intently from the side.
+小智就在身旁看着。
 ====================
 
 ====================
@@ -317,7 +317,7 @@ length 60
 ====================
 While trembling a little from embarrassment, our lips touch.
 ====================
-While trembling a little from embarrassment, our lips touch.
+虽因羞涩而有些颤抖，但两人的唇依然贴在了一起。
 ====================
 
 ====================
@@ -328,7 +328,7 @@ length 13
 ====================
 I feel happy.
 ====================
-I feel happy.
+我感觉很幸福。
 ====================
 
 ====================
@@ -339,7 +339,7 @@ length 32
 ====================
 \"Papa, you look like a child.\"
 ====================
-\"Papa, you look like a child.\"
+「爸爸好像个小孩子哦—」
 ====================
 
 ====================
@@ -350,7 +350,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+「………」
 ====================
 
 ====================
@@ -361,7 +361,7 @@ length 72
 ====================
 \"It's done, so move aside. Otherwise I can't read Tomo her storybook.\"
 ====================
-\"It's done, so move aside. Otherwise I can't read Tomo her storybook.\"
+「好了，该让开了。别影响我给小智念画册了」
 ====================
 
 ====================
@@ -372,7 +372,7 @@ length 29
 ====================
 \"Hm? What is it this time?\"
 ====================
-\"Hm? What is it this time?\"
+「嗯？这次又怎么了」
 ====================
 
 ====================
@@ -383,7 +383,7 @@ length 32
 ====================
 \"He wants to be kissed again.\"
 ====================
-\"He wants to be kissed again.\"
+「还想要亲亲哦」
 ====================
 
 ====================
@@ -394,7 +394,7 @@ length 20
 ====================
 \"Look, he agreed.\"
 ====================
-\"Look, he agreed.\"
+「看吧，他说了『嗯』呢—」
 ====================
 
 ====================
@@ -405,7 +405,7 @@ length 10
 ====================
 \"Tsk...\"
 ====================
-\"Tsk...\"
+「呜…」
 ====================
 
 ====================
@@ -416,7 +416,7 @@ length 18
 ====================
 She grabs my chin.
 ====================
-She grabs my chin.
+她抓住我的下巴。
 ====================
 
 ====================
@@ -427,7 +427,7 @@ length 11
 ====================
 And then...
 ====================
-And then...
+然后…
 ====================
 
 ====================
@@ -438,7 +438,7 @@ length 8
 ====================
 \"Ngh.\"
 ====================
-\"Ngh.\"
+「嗯」
 ====================
 
 ====================
@@ -449,7 +449,7 @@ length 36
 ====================
 Our lips are tightly bound together.
 ====================
-Our lips are tightly bound together.
+紧紧地将嘴唇贴了上来。
 ====================
 
 ====================
@@ -460,7 +460,7 @@ length 9
 ====================
 .........
 ====================
-.........
+………
 ====================
 
 ====================
@@ -471,7 +471,7 @@ length 23
 ====================
 She catches her breath.
 ====================
-She catches her breath.
+她呼呼地喘着气。
 ====================
 
 ====================
@@ -482,7 +482,7 @@ length 24
 ====================
 \"Is this good enough?\"
 ====================
-\"Is this good enough?\"
+「这样可以了吧」
 ====================
 
 ====================
@@ -493,7 +493,7 @@ length 72
 ====================
 \"It's done, so move aside. Otherwise I can't read Tomo her storybook.\"
 ====================
-\"It's done, so move aside. Otherwise I can't read Tomo her storybook.\"
+「好了，该让开了。别影响我给小智念画册了」
 ====================
 
 ====================
@@ -504,7 +504,7 @@ length 26
 ====================
 \"He wants another kiss.\"
 ====================
-\"He wants another kiss.\"
+「还要亲哦」
 ====================
 
 ====================
@@ -515,7 +515,7 @@ length 36
 ====================
 \"...what... is wrong with you...?\"
 ====================
-\"...what... is wrong with you...?\"
+「…怎么啦…你这家伙…」
 ====================
 
 ====================
@@ -526,7 +526,7 @@ length 29
 ====================
 \"He hasn't had enough yet.\"
 ====================
-\"He hasn't had enough yet.\"
+「爸爸还没亲够哦」
 ====================
 
 ====================
@@ -537,7 +537,7 @@ length 46
 ====================
 \"How long are we going to be doing this...?\"
 ====================
-\"How long are we going to be doing this...?\"
+「我该怎么做才好啊…」
 ====================
 
 ====================
@@ -548,7 +548,7 @@ length 57
 ====================
 \"I won't be able to concentrate on her picture book...\"
 ====================
-\"I won't be able to concentrate on her picture book...\"
+「都没法专心念画册了…」
 ====================
 
 ====================
@@ -559,7 +559,7 @@ length 29
 ====================
 \"Tomo, look the other way.\"
 ====================
-\"Tomo, look the other way.\"
+「小智，转过头去」
 ====================
 
 ====================
@@ -570,7 +570,7 @@ length 7
 ====================
 \"Eh?\"
 ====================
-\"Eh?\"
+「诶？」
 ====================
 
 ====================
@@ -581,7 +581,7 @@ length 44
 ====================
 \"Listen, you're still too young for this.\"
 ====================
-\"Listen, you're still too young for this.\"
+「听话，这个吻对小智来说还太早了」
 ====================
 
 ====================
@@ -592,7 +592,7 @@ length 26
 ====================
 \"Eh? But I want to see.\"
 ====================
-\"Eh? But I want to see.\"
+「诶—，我想看嘛」
 ====================
 
 ====================
@@ -603,7 +603,7 @@ length 27
 ====================
 \"No, look the other way.\"
 ====================
-\"No, look the other way.\"
+「不行，转过头去」
 ====================
 
 ====================
@@ -614,7 +614,7 @@ length 97
 ====================
 She is sulking, but it seems she lost to Tomoyo's pressure as she obediently turns the other way.
 ====================
-She is sulking, but it seems she lost to Tomoyo's pressure as she obediently turns the other way.
+虽然有些不太情愿，但迫于智代的气势，她仍旧乖乖地背过身去了。
 ====================
 
 ====================
@@ -625,7 +625,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+「………」
 ====================
 
 ====================
@@ -636,7 +636,7 @@ length 128
 ====================
 Tomoyo turns to me. After changing her angle to make sure our noses don't bump, she opens her mouth to kiss me with her tongue. 
 ====================
-Tomoyo turns to me. After changing her angle to make sure our noses don't bump, she opens her mouth to kiss me with her tongue. 
+智代转向我，将头侧到了不会碰到鼻子的角度，然后就好像要把我吃掉般地张口吻来。
 ====================
 
 ====================
@@ -647,7 +647,7 @@ length 36
 ====================
 Tomoyo's tongue entangles with mine.
 ====================
-Tomoyo's tongue entangles with mine.
+与智代的舌头缠绕在了一起。
 ====================
 
 ====================
@@ -658,7 +658,7 @@ length 17
 ====================
 *Smooch* *Smooch*
 ====================
-*Smooch* *Smooch*
+咕噜咕噜…
 ====================
 
 ====================
@@ -669,7 +669,7 @@ length 10
 ====================
 \"Nnn...\"
 ====================
-\"Nnn...\"
+「嗯…」
 ====================
 
 ====================
@@ -680,7 +680,7 @@ length 48
 ====================
 Her tongue lets go, and she pulls her head back.
 ====================
-Her tongue lets go, and she pulls her head back.
+她松开口，舌头也停止了缠绕。
 ====================
 
 ====================
@@ -691,7 +691,7 @@ length 21
 ====================
 \"Showing off, hmm?\"
 ====================
-\"Showing off, hmm?\"
+「故意做给我们看的吗？」
 ====================
 
 ====================
@@ -702,7 +702,7 @@ length 38
 ====================
 Tomoyo falls to the floor with a thud.
 ====================
-Tomoyo falls to the floor with a thud.
+伴随着『咚—————！』的效果音，智代趴在了地上。
 ====================
 
 ====================
@@ -713,7 +713,7 @@ length 42
 ====================
 \"Forget it, pretend nothing happened...\"
 ====================
-\"Forget it, pretend nothing happened...\"
+「忘了吧，就当什么都没看到…」
 ====================
 
 ====================
@@ -724,7 +724,7 @@ length 94
 ====================
 \"No, it was a rather sensational sight. You guys were about to get it on right next to her.\"
 ====================
-\"No, it was a rather sensational sight. You guys were about to get it on right next to her.\"
+「忘不了，实在太具冲击性了，就在我身边接吻啊」
 ====================
 
 ====================
@@ -735,7 +735,7 @@ length 72
 ====================
 \"Look, Tomo, it's a picture book. Picture books are enjoyable, right?\"
 ====================
-\"Look, Tomo, it's a picture book. Picture books are enjoyable, right?\"
+「好啦，小智，看画册吧，有趣的画册哦—」
 ====================
 
 ====================
@@ -746,7 +746,7 @@ length 8
 ====================
 \"...?\"
 ====================
-\"...?\"
+「…？」
 ====================
 
 ====================
@@ -757,7 +757,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+「………」
 ====================
 
 ====================
@@ -768,7 +768,7 @@ length 48
 ====================
 When I try to approach Tomoyo, she glares at me.
 ====================
-When I try to approach Tomoyo, she glares at me.
+当我想再靠过去时，她狠狠地瞪了我一眼。
 ====================
 
 ====================
@@ -779,7 +779,7 @@ length 19
 ====================
 I should stop it...
 ====================
-I should stop it...
+就到此为止吧…
 ====================
 
 ====================
@@ -790,7 +790,7 @@ length 9
 ====================
 \"Rawr!\"
 ====================
-\"Rawr!\"
+「嘎呜」
 ====================
 
 ====================
@@ -801,7 +801,7 @@ length 14
 ====================
 Tomoyo roared!
 ====================
-Tomoyo roared!
+智代咆哮了！
 ====================
 
 ====================
@@ -812,7 +812,7 @@ length 37
 ====================
 I'm too scared to get close to her...
 ====================
-I'm too scared to get close to her...
+恐怖得没法靠近…
 ====================
 
 ====================
@@ -823,7 +823,7 @@ length 36
 ====================
 \"Takafumi, are you making a game?\"
 ====================
-\"Takafumi, are you making a game?\"
+「鹰文是在制作游戏吗？」
 ====================
 
 ====================
@@ -834,7 +834,7 @@ length 14
 ====================
 \"No, an OS.\"
 ====================
-\"No, an OS.\"
+「不，是OS」
 ====================
 
 ====================
@@ -845,7 +845,7 @@ length 21
 ====================
 \"Huh, what's that?\"
 ====================
-\"Huh, what's that?\"
+「那是什么」
 ====================
 
 ====================
@@ -856,7 +856,7 @@ length 27
 ====================
 \"Would you like to know?\"
 ====================
-\"Would you like to know?\"
+「你想听吗？」
 ====================
 
 ====================
@@ -867,7 +867,7 @@ length 9
 ====================
 \"Sure.\"
 ====================
-\"Sure.\"
+「嗯」
 ====================
 
 ====================
@@ -878,7 +878,7 @@ length 73
 ====================
 \"Well, if you must... It's going to be long, so be prepared to listen.\"
 ====================
-\"Well, if you must... It's going to be long, so be prepared to listen.\"
+「真拿你没办法…解释起来很长哦，要做好心理准备啊」
 ====================
 
 ====================
@@ -889,7 +889,7 @@ length 93
 ====================
 \"OS stands for 'Operating System'. It's software which manages the entire computer system.\"
 ====================
-\"OS stands for 'Operating System'. It's software which manages the entire computer system.\"
+「OS是Operating System的缩写，也就是管理整个电脑系统的软件」
 ====================
 
 ====================
@@ -900,7 +900,7 @@ length 87
 ====================
 \"And if you don't know what software is, it's something which operates the computer.\"
 ====================
-\"And if you don't know what software is, it's something which operates the computer.\"
+「要说软件是什么，那就是让电脑运作的…」
 ====================
 
 ====================
@@ -911,7 +911,7 @@ length 41
 ====================
 Disk... memory... application software...
 ====================
-Disk... memory... application software...
+磁盘…内存…应用软件…
 ====================
 
 ====================
@@ -922,7 +922,7 @@ length 54
 ====================
 Takafumi spouts line after line of a foreign language.
 ====================
-Takafumi spouts line after line of a foreign language.
+鹰文不断说出一些国外的词汇。
 ====================
 
 ====================
@@ -933,7 +933,7 @@ length 48
 ====================
 Unable to comprehend it at all, I become sleepy.
 ====================
-Unable to comprehend it at all, I become sleepy.
+我完全不能理解，不禁犯困起来。
 ====================
 
 ====================
@@ -944,7 +944,7 @@ length 57
 ====================
 As he talks, he starts to gradually resemble a foreigner.
 ====================
-As he talks, he starts to gradually resemble a foreigner.
+说着这些的鹰文，看上去完全像是外国人了。
 ====================
 
 ====================
@@ -955,7 +955,7 @@ length 13
 ====================
 \"HAHAHAHA!\"
 ====================
-\"HAHAHAHA!\"
+「HAHAHAHAHA！」
 ====================
 
 ====================
@@ -966,7 +966,7 @@ length 23
 ====================
 Geez, that scared me...
 ====================
-Geez, that scared me...
+呜哇，好可怕～…
 ====================
 
 ====================
@@ -977,7 +977,7 @@ length 37
 ====================
 Huh, so you really are a foreigner...
 ====================
-Huh, so you really are a foreigner...
+怎么了，原来你是外国人吗…
 ====================
 
 ====================
@@ -988,7 +988,7 @@ length 50
 ====================
 I didn't know... Why didn't you tell me before...?
 ====================
-I didn't know... Why didn't you tell me before...?
+我完全不知道啊…早点告诉我啊…
 ====================
 
 ====================
@@ -999,7 +999,7 @@ length 47
 ====================
 \"Oh! I've finally come to the land of Japan!\"
 ====================
-\"Oh! I've finally come to the land of Japan!\"
+「Oh！I终于come to日本了」
 ====================
 
 ====================
@@ -1010,7 +1010,7 @@ length 33
 ====================
 \"With this swim tube I bought!\"
 ====================
-\"With this swim tube I bought!\"
+「用救生圈come to的」
 ====================
 
 ====================
@@ -1021,7 +1021,7 @@ length 46
 ====================
 So you swam here... That's some determination.
 ====================
-So you swam here... That's some determination.
+游过来的吗…那还真有毅力啊…
 ====================
 
 ====================
@@ -1032,7 +1032,7 @@ length 26
 ====================
 \"So, this is Japan, eh?\"
 ====================
-\"So, this is Japan, eh?\"
+「Here是日本吗」
 ====================
 
 ====================
@@ -1043,7 +1043,7 @@ length 39
 ====================
 \"Oh! Are you a samurai? The samurai?\"
 ====================
-\"Oh! Are you a samurai? The samurai?\"
+「哦！你是武士吗？那个武士？」
 ====================
 
 ====================
@@ -1054,7 +1054,7 @@ length 18
 ====================
 What do you think?
 ====================
-What do you think?
+你们觉得呢？
 ====================
 
 ====================
@@ -1065,7 +1065,7 @@ length 43
 ====================
 \"Then you're a shogun? Are you a shogun?\"
 ====================
-\"Then you're a shogun? Are you a shogun?\"
+「老爷？You是老爷吗？」
 ====================
 
 ====================
@@ -1076,7 +1076,7 @@ length 12
 ====================
 Try again...
 ====================
-Try again...
+也不是…
 ====================
 
 ====================
@@ -1087,7 +1087,7 @@ length 70
 ====================
 \"So, are you Ultraman? You're the transformed Ultraman, aren't you?\"
 ====================
-\"So, are you Ultraman? You're the transformed Ultraman, aren't you?\"
+「那是奥特曼吗？变身后的奥特曼吗？」
 ====================
 
 ====================
@@ -1098,7 +1098,7 @@ length 90
 ====================
 Maybe before the transformation, but after? The only resemblance is we're both humanoid...
 ====================
-Maybe before the transformation, but after? The only resemblance is we're both humanoid...
+变身前还说得过去，变身后的话…和人完全没有共通点吧……
 ====================
 
 ====================
@@ -1109,7 +1109,7 @@ length 60
 ====================
 \"Oh! Ultraman, you're the transformed Ultraman! HAHAHAHA!\"
 ====================
-\"Oh! Ultraman, you're the transformed Ultraman! HAHAHAHA!\"
+「Oh！奥特曼，是变身后的奥特曼啊！HAHAHAHA！」
 ====================
 
 ====================
@@ -1120,7 +1120,7 @@ length 15
 ====================
 I said I'm not.
 ====================
-I said I'm not.
+都说了不是。
 ====================
 
 ====================
@@ -1131,7 +1131,7 @@ length 44
 ====================
 \"Nii-chan. Were you even listening to me?\"
 ====================
-\"Nii-chan. Were you even listening to me?\"
+「大哥，你有在好好地听吗？」
 ====================
 
 ====================
@@ -1142,7 +1142,7 @@ length 21
 ====================
 He's done explaining.
 ====================
-He's done explaining.
+他说完了。
 ====================
 
 ====================
@@ -1153,7 +1153,7 @@ length 44
 ====================
 \"Yeah, I was... It means Ultraman, right?\"
 ====================
-\"Yeah, I was... It means Ultraman, right?\"
+「嗯，听着呢…奥特曼嘛」
 ====================
 
 ====================
@@ -1164,7 +1164,7 @@ length 39
 ====================
 \"Wow, why did I even try to explain?\"
 ====================
-\"Wow, why did I even try to explain?\"
+「我都解说了些什么啊…」
 ====================
 
 ====================
@@ -1175,7 +1175,7 @@ length 54
 ====================
 \"Do I really look like transformed Ultraman to you?\"
 ====================
-\"Do I really look like transformed Ultraman to you?\"
+「我真那么像变身后的奥特曼吗？」
 ====================
 
 ====================
@@ -1186,7 +1186,7 @@ length 35
 ====================
 \"No, you look nothing like it...\"
 ====================
-\"No, you look nothing like it...\"
+「不，一点也看不出哪像…」
 ====================
 
 ====================
@@ -1197,7 +1197,7 @@ length 21
 ====================
 \"You're a samurai?\"
 ====================
-\"You're a samurai?\"
+「You是武士？」
 ====================
 
 ====================
@@ -1208,7 +1208,7 @@ length 33
 ====================
 \"I'm just an ordinary citizen.\"
 ====================
-\"I'm just an ordinary citizen.\"
+「我只是普通市民啊」
 ====================
 
 ====================
@@ -1219,7 +1219,7 @@ length 11
 ====================
 \"Shogun?\"
 ====================
-\"Shogun?\"
+「老爷？」
 ====================
 
 ====================
@@ -1230,7 +1230,7 @@ length 33
 ====================
 \"Ugh, geez. Stop bothering me!\"
 ====================
-\"Ugh, geez. Stop bothering me!\"
+「啊—，真是的，别再妨碍我了」
 ====================
 
 ====================
@@ -1241,7 +1241,7 @@ length 62
 ====================
 Well, it seems he's getting pissed for real... I better stop. 
 ====================
-Well, it seems he's getting pissed for real... I better stop. 
+看来他真的生气了…还是算了吧。
 ====================
 
 ====================
@@ -1252,7 +1252,7 @@ length 9
 ====================
 \"Rawr!\"
 ====================
-\"Rawr!\"
+「嘎哦」
 ====================
 
 ====================
@@ -1263,7 +1263,7 @@ length 22
 ====================
 Takafumi roared too...
 ====================
-Takafumi roared too...
+鹰文也咆哮了…
 ====================
 
 ====================
@@ -1274,7 +1274,7 @@ length 27
 ====================
 Like brother like sister...
 ====================
-Like brother like sister...
+这对姐弟还真像…
 ====================
 
 ====================
@@ -1285,7 +1285,7 @@ length 30
 ====================
 \"Hey, what are you reading?\"
 ====================
-\"Hey, what are you reading?\"
+「你在看什么呢」
 ====================
 
 ====================
@@ -1296,7 +1296,7 @@ length 27
 ====================
 \"Hm? The advertisements.\"
 ====================
-\"Hm? The advertisements.\"
+「嗯？征集指南」
 ====================
 
 ====================
@@ -1307,7 +1307,7 @@ length 13
 ====================
 \"Ads? Why?\"
 ====================
-\"Ads? Why?\"
+「征集？看这个干啥」
 ====================
 
 ====================
@@ -1318,7 +1318,7 @@ length 113
 ====================
 \"Well, this afternoon I bit off more than I could chew and learned my lesson, so I thought I'd do honest work.\"
 ====================
-\"Well, this afternoon I bit off more than I could chew and learned my lesson, so I thought I'd do honest work.\"
+「因为白天太过追求立竿见影的效果而碰上了麻烦，所以打算换个脚踏实地点的赚钱方法」
 ====================
 
 ====================
@@ -1329,7 +1329,7 @@ length 108
 ====================
 \"Well, yesterday I bit off more than I could chew and learned my lesson, so I thought I'd do honest work.\"
 ====================
-\"Well, yesterday I bit off more than I could chew and learned my lesson, so I thought I'd do honest work.\"
+「因为昨天太过追求立竿见影的效果而碰上了麻烦，所以打算换个脚踏实地点的赚钱方法」
 ====================
 
 ====================
@@ -1340,7 +1340,7 @@ length 112
 ====================
 \"Well, the other day I bit off more than I could chew and learned my lesson, so I thought I'd do honest work.\"
 ====================
-\"Well, the other day I bit off more than I could chew and learned my lesson, so I thought I'd do honest work.\"
+「因为前些天太过追求立竿见影的效果而碰上了麻烦，所以打算换个脚踏实地点的赚钱方法」
 ====================
 
 ====================
@@ -1351,7 +1351,7 @@ length 26
 ====================
 \"Get a part-time job...\"
 ====================
-\"Get a part-time job...\"
+「你还是好好去打工吧…」
 ====================
 
 ====================
@@ -1362,7 +1362,7 @@ length 110
 ====================
 \"A part-time job is a drag. With product naming, all I have to do is send in my suggestion and win a prize.\"
 ====================
-\"A part-time job is a drag. With product naming, all I have to do is send in my suggestion and win a prize.\"
+「打工太麻烦了。哪像取名这种事，只要一张名信片就能变成奖金了哦」
 ====================
 
 ====================
@@ -1373,7 +1373,7 @@ length 67
 ====================
 \"You are taking the reality of this world too lightly, you know.\"
 ====================
-\"You are taking the reality of this world too lightly, you know.\"
+「你啊，太小看这个社会了…」
 ====================
 
 ====================
@@ -1384,7 +1384,7 @@ length 38
 ====================
 \"I'm good at these kinds of things.\"
 ====================
-\"I'm good at these kinds of things.\"
+「这个我很拿手的啦」
 ====================
 
 ====================
@@ -1395,7 +1395,7 @@ length 58
 ====================
 \"Let's see... Looking for a nickname for a tourist bus.\"
 ====================
-\"Let's see... Looking for a nickname for a tourist bus.\"
+「首先，嗯…征集景点巡游巴士的昵称吗…」
 ====================
 
 ====================
@@ -1406,7 +1406,7 @@ length 26
 ====================
 \"Bus-gas Kaboom Mk. II.\"
 ====================
-\"Bus-gas Kaboom Mk. II.\"
+「瓦斯爆炸巴士2号」
 ====================
 
 ====================
@@ -1417,7 +1417,7 @@ length 15
 ====================
 \"Okay, next.\"
 ====================
-\"Okay, next.\"
+「好，下一个」
 ====================
 
 ====================
@@ -1428,7 +1428,7 @@ length 21
 ====================
 \"Hold on a minute.\"
 ====================
-\"Hold on a minute.\"
+「给我等等」
 ====================
 
 ====================
@@ -1439,7 +1439,7 @@ length 22
 ====================
 \"Huh? What's wrong?\"
 ====================
-\"Huh? What's wrong?\"
+「哈，怎么了？」
 ====================
 
 ====================
@@ -1450,7 +1450,7 @@ length 50
 ====================
 \"So much that I don't even know where to start.\"
 ====================
-\"So much that I don't even know where to start.\"
+「我都不知该怎么吐槽了」
 ====================
 
 ====================
@@ -1461,7 +1461,7 @@ length 35
 ====================
 \"Whatever happened to the Mk. I?\"
 ====================
-\"Whatever happened to the Mk. I?\"
+「先说说1号怎么了」
 ====================
 
 ====================
@@ -1472,7 +1472,7 @@ length 29
 ====================
 \"I suppose it went kaboom?\"
 ====================
-\"I suppose it went kaboom?\"
+「当然是爆炸掉了啊」
 ====================
 
 ====================
@@ -1483,7 +1483,7 @@ length 12
 ====================
 \"I see...\"
 ====================
-\"I see...\"
+「这样啊…」
 ====================
 
 ====================
@@ -1494,7 +1494,7 @@ length 77
 ====================
 \"Oh, I didn't mean it really went kaboom. It's just the lore for the name.\"
 ====================
-\"Oh, I didn't mean it really went kaboom. It's just the lore for the name.\"
+「嗯，当然不可能真的爆炸了，只是如此设定而已」
 ====================
 
 ====================
@@ -1505,7 +1505,7 @@ length 58
 ====================
 \"I wonder if tourists would want to ride on the Mk. II.\"
 ====================
-\"I wonder if tourists would want to ride on the Mk. II.\"
+「那2号还会有人乘吗」
 ====================
 
 ====================
@@ -1516,7 +1516,7 @@ length 72
 ====================
 \"Geez, you're thickheaded. You can't be thinking like that, you know?\"
 ====================
-\"Geez, you're thickheaded. You can't be thinking like that, you know?\"
+「太死脑筋可不行哦」
 ====================
 
 ====================
@@ -1527,7 +1527,7 @@ length 16
 ====================
 I suppose not...
 ====================
-I suppose not...
+我有死脑筋吗…
 ====================
 
 ====================
@@ -1538,7 +1538,7 @@ length 14
 ====================
 \"Next is...\"
 ====================
-\"Next is...\"
+「下一个…」
 ====================
 
 ====================
@@ -1549,7 +1549,7 @@ length 85
 ====================
 \"Looking for a name for the son of two Kinzan Corp. mascots, Goldy and Silverdust.\"
 ====================
-\"Looking for a name for the son of two Kinzan Corp. mascots, Goldy and Silverdust.\"
+「征集金山的吉祥物金太和阿银的孩子的名字吗…」
 ====================
 
 ====================
@@ -1560,7 +1560,7 @@ length 13
 ====================
 \"Golddust.\"
 ====================
-\"Golddust.\"
+「阿钢」
 ====================
 
 ====================
@@ -1571,7 +1571,7 @@ length 15
 ====================
 \"Okay, next.\"
 ====================
-\"Okay, next.\"
+「好，下一个」
 ====================
 
 ====================
@@ -1582,7 +1582,7 @@ length 21
 ====================
 \"Hold on a minute.\"
 ====================
-\"Hold on a minute.\"
+「给我等等」
 ====================
 
 ====================
@@ -1593,7 +1593,7 @@ length 22
 ====================
 \"Huh? What's wrong?\"
 ====================
-\"Huh? What's wrong?\"
+「哈，怎么了？」
 ====================
 
 ====================
@@ -1604,7 +1604,7 @@ length 50
 ====================
 \"So much that I don't even know where to start.\"
 ====================
-\"So much that I don't even know where to start.\"
+「我都不知该怎么吐槽了」
 ====================
 
 ====================
@@ -1615,7 +1615,7 @@ length 65
 ====================
 \"First of all, the kid character doesn't sound very childlike.\"
 ====================
-\"First of all, the kid character doesn't sound very childlike.\"
+「总之，孩子的名字太像父母了」
 ====================
 
 ====================
@@ -1626,7 +1626,7 @@ length 23
 ====================
 \"The name, Golddust?\"
 ====================
-\"The name, Golddust?\"
+「阿钢？」
 ====================
 
 ====================
@@ -1637,7 +1637,7 @@ length 15
 ====================
 \"Yeah, that.\"
 ====================
-\"Yeah, that.\"
+「没错，就是那个」
 ====================
 
 ====================
@@ -1648,7 +1648,7 @@ length 28
 ====================
 \"It's like that wrestler.\"
 ====================
-\"It's like that wrestler.\"
+「阿铜，阿钢，很像不是吗」
 ====================
 
 ====================
@@ -1659,7 +1659,7 @@ length 15
 ====================
 \"A wrestler?\"
 ====================
-\"A wrestler?\"
+「阿铜，阿钢？」
 ====================
 
 ====================
@@ -1670,7 +1670,7 @@ length 44
 ====================
 \"Never mind. It's fine if you don't know.\"
 ====================
-\"Never mind. It's fine if you don't know.\"
+「嗯，你不明白我什么意思的话就算了」
 ====================
 
 ====================
@@ -1681,7 +1681,7 @@ length 55
 ====================
 \"So... Goldy and Silverdust... Their child would be?\"
 ====================
-\"So... Goldy and Silverdust... Their child would be?\"
+「那个—…金太、阿银的…孩子是谁？」
 ====================
 
 ====================
@@ -1692,7 +1692,7 @@ length 13
 ====================
 \"Golddust.\"
 ====================
-\"Golddust.\"
+「阿钢」
 ====================
 
 ====================
@@ -1703,7 +1703,7 @@ length 48
 ====================
 \"Well then, good luck with that suggestion...\"
 ====================
-\"Well then, good luck with that suggestion...\"
+「算了，你还是加油写你的名信片去吧…」
 ====================
 
 ====================
@@ -1714,7 +1714,7 @@ length 14
 ====================
 \"Next is...\"
 ====================
-\"Next is...\"
+「下一个…」
 ====================
 
 ====================
@@ -1725,7 +1725,7 @@ length 75
 ====================
 \"Looking for a name for the four koala bears from West Australia, huh...\"
 ====================
-\"Looking for a name for the four koala bears from West Australia, huh...\"
+「征集从西澳大利亚运来的4只考拉的名字吗…」
 ====================
 
 ====================
@@ -1736,7 +1736,7 @@ length 13
 ====================
 \"Koaraita.\"
 ====================
-\"Koaraita.\"
+「考拉太」
 ====================
 
 ====================
@@ -1747,7 +1747,7 @@ length 14
 ====================
 \"Koaraizou.\"
 ====================
-\"Koaraizou.\"
+「考拉藏」
 ====================
 
 ====================
@@ -1758,7 +1758,7 @@ length 17
 ====================
 \"Koarainosuke.\"
 ====================
-\"Koarainosuke.\"
+「考拉之助」
 ====================
 
 ====================
@@ -1769,7 +1769,7 @@ length 26
 ====================
 \"Um... One more, huh...\"
 ====================
-\"Um... One more, huh...\"
+「嗯…还有一头吗…」
 ====================
 
 ====================
@@ -1780,7 +1780,7 @@ length 14
 ====================
 \"Koaraizou.\"
 ====================
-\"Koaraizou.\"
+「考拉藏」
 ====================
 
 ====================
@@ -1791,7 +1791,7 @@ length 15
 ====================
 \"Okay, next.\"
 ====================
-\"Okay, next.\"
+「好，下一个」
 ====================
 
 ====================
@@ -1802,7 +1802,7 @@ length 21
 ====================
 \"Hold on a minute.\"
 ====================
-\"Hold on a minute.\"
+「给我等等」
 ====================
 
 ====================
@@ -1813,7 +1813,7 @@ length 22
 ====================
 \"Huh? What's wrong?\"
 ====================
-\"Huh? What's wrong?\"
+「哈，怎么了？」
 ====================
 
 ====================
@@ -1824,7 +1824,7 @@ length 28
 ====================
 \"There are two Koalaskis.\"
 ====================
-\"There are two Koalaskis.\"
+「有两头考拉藏啊」
 ====================
 
 ====================
@@ -1835,7 +1835,7 @@ length 15
 ====================
 \"Eh? Really?\"
 ====================
-\"Eh? Really?\"
+「诶？真的吗？」
 ====================
 
 ====================
@@ -1846,7 +1846,7 @@ length 77
 ====================
 \"Well, don't sweat the small stuff. No one can tell the difference anyway.\"
 ====================
-\"Well, don't sweat the small stuff. No one can tell the difference anyway.\"
+「算了，别在乎这种细节。反正考拉这玩意，谁都分不清的」
 ====================
 
 ====================
@@ -1857,7 +1857,7 @@ length 16
 ====================
 If you say so...
 ====================
-If you say so...
+这也可以吗…
 ====================
 
 ====================
@@ -1868,7 +1868,7 @@ length 14
 ====================
 \"Next is...\"
 ====================
-\"Next is...\"
+「下一个…」
 ====================
 
 ====================
@@ -1879,7 +1879,7 @@ length 98
 ====================
 \"Looking for a name for a new spa that has been thoroughly tested to provide relaxation, huh...\"
 ====================
-\"Looking for a name for a new spa that has been thoroughly tested to provide relaxation, huh...\"
+「征集能让人感觉放松的新温泉的名字吗…」
 ====================
 
 ====================
@@ -1890,7 +1890,7 @@ length 18
 ====================
 \"Infernal Hell.\"
 ====================
-\"Infernal Hell.\"
+「灼热地狱」
 ====================
 
 ====================
@@ -1901,7 +1901,7 @@ length 15
 ====================
 \"Okay, next.\"
 ====================
-\"Okay, next.\"
+「好了，下一个」
 ====================
 
 ====================
@@ -1912,7 +1912,7 @@ length 51
 ====================
 \"Yeah, keep at it. I won't even try to stop you.\"
 ====================
-\"Yeah, keep at it. I won't even try to stop you.\"
+「啊，算了。不阻止你了」
 ====================
 
 ====================
@@ -1923,7 +1923,7 @@ length 14
 ====================
 \"Next is...\"
 ====================
-\"Next is...\"
+「下一个…」
 ====================
 
 ====================
@@ -1934,5 +1934,5 @@ length 30
 ====================
 I should just leave her alone.
 ====================
-I should just leave her alone.
+管她去…
 ====================

@@ -9,7 +9,7 @@ length 16
 ====================
 August 1st (Sun)
 ====================
-August 1st (Sun)
+8月1日(星期日)
 ====================
 
 ====================
@@ -20,7 +20,7 @@ length 61
 ====================
 There seem to be an unexpectedly high number of participants.
 ====================
-There seem to be an unexpectedly high number of participants.
+参赛者比预想的要多。
 ====================
 
 ====================
@@ -31,7 +31,7 @@ length 112
 ====================
 From the highest level of the temporary stands, we can see the runners in their colorful and varied sports wear.
 ====================
-From the highest level of the temporary stands, we can see the runners in their colorful and varied sports wear.
+从临时搭建的观众席最上层望去，能看见身着各色运动服的参赛者。
 ====================
 
 ====================
@@ -42,7 +42,7 @@ length 64
 ====================
 Everyone is doing their warm-ups and waiting for the start time.
 ====================
-Everyone is doing their warm-ups and waiting for the start time.
+无论谁都跃跃欲试地热身，等待着起跑时刻的到来。
 ====================
 
 ====================
@@ -53,7 +53,7 @@ length 38
 ====================
 \"How many kilometers is he running?\"
 ====================
-\"How many kilometers is he running?\"
+「要跑几公里？」
 ====================
 
 ====================
@@ -64,7 +64,7 @@ length 46
 ====================
 \"Takafumi is doing the 15 kilometer course.\"
 ====================
-\"Takafumi is doing the 15 kilometer course.\"
+「鹰文是15公里组的」
 ====================
 
 ====================
@@ -75,7 +75,7 @@ length 100
 ====================
 That's an overwhelming length. I was dead tired after just the three kilometers we did for practice.
 ====================
-That's an overwhelming length. I was dead tired after just the three kilometers we did for practice.
+真是让人晕倒的长度啊。我才练习个3公里，就已经精疲力尽的说。
 ====================
 
 ====================
@@ -86,7 +86,7 @@ length 82
 ====================
 There's a large sketch of the courses up, and the 15 kilometer one is the longest.
 ====================
-There's a large sketch of the courses up, and the 15 kilometer one is the longest.
+从一旁张贴着的巨大的路线图看来，最长的路线就是15公里。
 ====================
 
 ====================
@@ -97,7 +97,7 @@ length 134
 ====================
 It's an intense up and down course where they run up the mountain, do a lap around the park off the path, and run back down the slope.
 ====================
-It's an intense up and down course where they run up the mountain, do a lap around the park off the path, and run back down the slope.
+沿着山路向上，绕路边的森林公园一周，再顺着坡道下来，是条跌宕起伏的路线。
 ====================
 
 ====================
@@ -108,7 +108,7 @@ length 64
 ====================
 \"...shouldn't he have done a course that was a little easier?\"
 ====================
-\"...shouldn't he have done a course that was a little easier?\"
+「…选条稍微简单点的路线不好吗？」
 ====================
 
 ====================
@@ -119,7 +119,7 @@ length 49
 ====================
 \"We didn't even run this distance in practice.\"
 ====================
-\"We didn't even run this distance in practice.\"
+「这种距离，练习时根本没跑过的啊」
 ====================
 
 ====================
@@ -130,7 +130,7 @@ length 53
 ====================
 \"He used to be totally fine running this distance.\"
 ====================
-\"He used to be totally fine running this distance.\"
+「以前这种距离是能轻松跑完的」
 ====================
 
 ====================
@@ -141,7 +141,7 @@ length 37
 ====================
 \"And we aren't telling him to win.\"
 ====================
-\"And we aren't telling him to win.\"
+「而且也没叫他夺冠」
 ====================
 
 ====================
@@ -152,7 +152,7 @@ length 41
 ====================
 \"I just want him to run it to the end.\"
 ====================
-\"I just want him to run it to the end.\"
+「只希望他可以跑完」
 ====================
 
 ====================
@@ -163,7 +163,7 @@ length 27
 ====================
 \"So he can stop running.\"
 ====================
-\"So he can stop running.\"
+「就只为能跑完这段路而已」
 ====================
 
 ====================
@@ -174,7 +174,7 @@ length 23
 ====================
 \"I see... good idea.\"
 ====================
-\"I see... good idea.\"
+「这样啊…说的也是呢」
 ====================
 
 ====================
@@ -185,7 +185,7 @@ length 51
 ====================
 I think we should convey our feelings together too.
 ====================
-I think we should convey our feelings together too.
+要是我们的思念也能传达就好了。
 ====================
 
 ====================
@@ -196,7 +196,7 @@ length 35
 ====================
 To the always unsatisfied Takafumi.
 ====================
-To the always unsatisfied Takafumi.
+传给那无论何时，都一脸不满的鹰文。
 ====================
 
 ====================
@@ -207,7 +207,7 @@ length 44
 ====================
 Let's cheer him on with all we've got today.
 ====================
-Let's cheer him on with all we've got today.
+今天就尽力为他打气吧。
 ====================
 
 ====================
@@ -218,7 +218,7 @@ length 25
 ====================
 \"You cheer him on too.\"
 ====================
-\"You cheer him on too.\"
+「你也为他加油吧」
 ====================
 
 ====================
@@ -229,7 +229,7 @@ length 62
 ====================
 I say and turn around to look at Kanako, who's standing there.
 ====================
-I say and turn around to look at Kanako, who's standing there.
+我转过头，对站在身后的河南子说道。
 ====================
 
 ====================
@@ -240,7 +240,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+「………」
 ====================
 
 ====================
@@ -251,7 +251,7 @@ length 68
 ====================
 Takafumi is a little toward the back of the wide open starting area.
 ====================
-Takafumi is a little toward the back of the wide open starting area.
+鹰文就在广场起跑点的稍后方。
 ====================
 
 ====================
@@ -262,7 +262,7 @@ length 52
 ====================
 We call out to him from the roped off entrance area.
 ====================
-We call out to him from the roped off entrance area.
+我们在拦有绳子的入口边叫住了他。
 ====================
 
 ====================
@@ -273,7 +273,7 @@ length 22
 ====================
 \"Give it your best.\"
 ====================
-\"Give it your best.\"
+「加油跑哦」
 ====================
 
 ====================
@@ -284,7 +284,7 @@ length 54
 ====================
 \"I'll give as much as I can without killing myself.\"
 ====================
-\"I'll give as much as I can without killing myself.\"
+「我会在不勉强自己的情况下努力的」
 ====================
 
 ====================
@@ -295,7 +295,7 @@ length 52
 ====================
 Takafumi responds while he stretches his upper body.
 ====================
-Takafumi responds while he stretches his upper body.
+鹰文一边在跑道上伸展着上半身，一边回答道。
 ====================
 
 ====================
@@ -306,7 +306,7 @@ length 32
 ====================
 It's 30 seconds until the start.
 ====================
-It's 30 seconds until the start.
+起跑前30秒。
 ====================
 
 ====================
@@ -317,7 +317,7 @@ length 33
 ====================
 The runners take their positions.
 ====================
-The runners take their positions.
+参赛者各就各位。
 ====================
 
 ====================
@@ -328,7 +328,7 @@ length 53
 ====================
 Takafumi looks up slightly with a deadpan expression.
 ====================
-Takafumi looks up slightly with a deadpan expression.
+鹰文一脸泄气样，茫然地仰望天空。
 ====================
 
 ====================
@@ -339,7 +339,7 @@ length 10
 ====================
 \"Ready.\"
 ====================
-\"Ready.\"
+「预备—」
 ====================
 
 ====================
@@ -350,7 +350,7 @@ length 48
 ====================
 The starter's voice rings out from the speakers.
 ====================
-The starter's voice rings out from the speakers.
+喇叭里响起发令员的声音。
 ====================
 
 ====================
@@ -361,7 +361,7 @@ length 8
 ====================
 *Baaaam*
 ====================
-*Baaaam*
+砰————！
 ====================
 
 ====================
@@ -372,7 +372,7 @@ length 74
 ====================
 The starting cannon fires and the wave of people all start moving at once.
 ====================
-The starting cannon fires and the wave of people all start moving at once.
+发令枪一响，人潮便一下涌了出去。
 ====================
 
 ====================
@@ -383,7 +383,7 @@ length 21
 ====================
 \"Where's Takafumi?\"
 ====================
-\"Where's Takafumi?\"
+「鹰文在哪？」
 ====================
 
 ====================
@@ -394,7 +394,7 @@ length 15
 ====================
 \"Over there.\"
 ====================
-\"Over there.\"
+「那边」
 ====================
 
 ====================
@@ -405,7 +405,7 @@ length 93
 ====================
 He's in the middle of the group, going the same speed as some excessively energetic old guys.
 ====================
-He's in the middle of the group, going the same speed as some excessively energetic old guys.
+正处于人群中央，和一群精神抖擞的老爷爷们并驾齐驱地跑着。
 ====================
 
 ====================
@@ -416,7 +416,7 @@ length 42
 ====================
 \"Tomoya, Kanako, let's chase after him.\"
 ====================
-\"Tomoya, Kanako, let's chase after him.\"
+「朋也、河南子，我们追上去吧」
 ====================
 
 ====================
@@ -427,7 +427,7 @@ length 8
 ====================
 \"Huh?\"
 ====================
-\"Huh?\"
+「哈？」
 ====================
 
 ====================
@@ -438,7 +438,7 @@ length 42
 ====================
 I reply, not understanding what she means.
 ====================
-I reply, not understanding what she means.
+我不明白她的意思，随口应了一声。
 ====================
 
 ====================
@@ -449,7 +449,7 @@ length 33
 ====================
 \"We're going to encourage him.\"
 ====================
-\"We're going to encourage him.\"
+「去训一训鹰文」
 ====================
 
 ====================
@@ -460,7 +460,7 @@ length 37
 ====================
 \"He isn't trying to run seriously.\"
 ====================
-\"He isn't trying to run seriously.\"
+「那家伙没在认真跑」
 ====================
 
 ====================
@@ -471,7 +471,7 @@ length 64
 ====================
 \"So we're going to chase after him and make him run for real.\"
 ====================
-\"So we're going to chase after him and make him run for real.\"
+「所以，追上去叫他好好跑」
 ====================
 
 ====================
@@ -482,7 +482,7 @@ length 45
 ====================
 As soon as she says this, she starts running.
 ====================
-As soon as she says this, she starts running.
+刚说完，智代就跑了出去。
 ====================
 
 ====================
@@ -493,7 +493,7 @@ length 19
 ====================
 \"H-Hey! Hold on!\"
 ====================
-\"H-Hey! Hold on!\"
+「喂，喂—，稍微等等啊！」
 ====================
 
 ====================
@@ -504,7 +504,7 @@ length 27
 ====================
 Flustered, I run after her.
 ====================
-Flustered, I run after her.
+我慌忙追了上去。
 ====================
 
 ====================
@@ -515,7 +515,7 @@ length 40
 ====================
 \"What do you mean by chase after him?\"
 ====================
-\"What do you mean by chase after him?\"
+「要怎么追上他啊」
 ====================
 
 ====================
@@ -526,7 +526,7 @@ length 29
 ====================
 \"Isn't it obvious? We run.\"
 ====================
-\"Isn't it obvious? We run.\"
+「还用问吗，当然是跑着追啊」
 ====================
 
 ====================
@@ -537,7 +537,7 @@ length 62
 ====================
 \"Luckily, if we take the back path, it's not far from here.\"
 ====================
-\"Luckily, if we take the back path, it's not far from here.\"
+「幸好从这条小路穿过去是很近的」
 ====================
 
 ====================
@@ -548,7 +548,7 @@ length 22
 ====================
 My breathing is heavy.
 ====================
-My breathing is heavy.
+呼吸荒乱了。
 ====================
 
 ====================
@@ -559,7 +559,7 @@ length 16
 ====================
 My throat hurts.
 ====================
-My throat hurts.
+喉咙也火辣辣的。
 ====================
 
 ====================
@@ -570,7 +570,7 @@ length 45
 ====================
 My T-shirt is clinging to my back with sweat.
 ====================
-My T-shirt is clinging to my back with sweat.
+T恤背后也浸满了汗。
 ====================
 
 ====================
@@ -581,7 +581,7 @@ length 34
 ====================
 \"Looks like we made it in time.\"
 ====================
-\"Looks like we made it in time.\"
+「看来赶上了呢」
 ====================
 
 ====================
@@ -592,7 +592,7 @@ length 42
 ====================
 \"Oh... this is still the leading group.\"
 ====================
-\"Oh... this is still the leading group.\"
+「哦…才到第一集团啊」
 ====================
 
 ====================
@@ -603,7 +603,7 @@ length 65
 ====================
 For some reason, it's like I'm participating in the marathon too.
 ====================
-For some reason, it's like I'm participating in the marathon too.
+不知道为何，感觉连我都在参加马拉松了。
 ====================
 
 ====================
@@ -614,7 +614,7 @@ length 62
 ====================
 When we arrive, the leading group of runners is still passing.
 ====================
-When we arrive, the leading group of runners is still passing.
+我们赶到时，才刚到第一集团准备通过之时。
 ====================
 
 ====================
@@ -625,7 +625,7 @@ length 87
 ====================
 The runners, who easily climb the main road, gradually grow slower as more people pass.
 ====================
-The runners, who easily climb the main road, gradually grow slower as more people pass.
+快步登上坡道的选手们，越往后速度越慢。
 ====================
 
 ====================
@@ -636,7 +636,7 @@ length 42
 ====================
 After about half a minute, Takafumi nears.
 ====================
-After about half a minute, Takafumi nears.
+大概半数选手通过后，鹰文跟上来了。
 ====================
 
 ====================
@@ -647,7 +647,7 @@ length 18
 ====================
 \"Takafumi, run!\"
 ====================
-\"Takafumi, run!\"
+「鹰文─，给我认真跑—」
 ====================
 
 ====================
@@ -658,7 +658,7 @@ length 62
 ====================
 In a loud splitting voice, Tomoyo flings encouragement at him.
 ====================
-In a loud splitting voice, Tomoyo flings encouragement at him.
+智代撕破喉咙般地大吼着。
 ====================
 
 ====================
@@ -669,7 +669,7 @@ length 42
 ====================
 Takafumi looks in our direction wide-eyed.
 ====================
-Takafumi looks in our direction wide-eyed.
+鹰文像是眼珠都要蹦出来似的，盯着这边。
 ====================
 
 ====================
@@ -680,7 +680,7 @@ length 38
 ====================
 He probably didn't think we'd be here.
 ====================
-He probably didn't think we'd be here.
+他一定想不到我们会在这吧。
 ====================
 
 ====================
@@ -691,7 +691,7 @@ length 62
 ====================
 He was probably going to just cruise for the rest of the race.
 ====================
-He was probably going to just cruise for the rest of the race.
+也许那家伙，就想着之后随意敷衍下跑完了事吧。
 ====================
 
 ====================
@@ -702,7 +702,7 @@ length 19
 ====================
 As if we'd let you.
 ====================
-As if we'd let you.
+怎能让他得逞？
 ====================
 
 ====================
@@ -713,7 +713,7 @@ length 87
 ====================
 \"Takafumi, if you don't run like you're going to die, your punishment won't be over!\"
 ====================
-\"Takafumi, if you don't run like you're going to die, your punishment won't be over!\"
+「鹰文，你不给我玩命跑的话，这场惩罚游戏永远没完哦—！」
 ====================
 
 ====================
@@ -724,7 +724,7 @@ length 36
 ====================
 Takafumi's speed increases a little.
 ====================
-Takafumi's speed increases a little.
+鹰文的速度渐渐提上来了。
 ====================
 
 ====================
@@ -735,7 +735,7 @@ length 33
 ====================
 \"So it really is a punishment.\"
 ====================
-\"So it really is a punishment.\"
+「果然是惩罚游戏嘛」
 ====================
 
 ====================
@@ -746,7 +746,7 @@ length 63
 ====================
 His stride widens and the rhythm of his arm movements improves.
 ====================
-His stride widens and the rhythm of his arm movements improves.
+他加大了步幅，双臂挥动的节奏也变得协调。
 ====================
 
 ====================
@@ -757,7 +757,7 @@ length 58
 ====================
 \"All right, he's gone back to his old style of running.\"
 ====================
-\"All right, he's gone back to his old style of running.\"
+「很好，跑步姿势和以前一样了」
 ====================
 
 ====================
@@ -768,7 +768,7 @@ length 31
 ====================
 \"Let's go to the next place.\"
 ====================
-\"Let's go to the next place.\"
+「去下个地点吧」
 ====================
 
 ====================
@@ -779,7 +779,7 @@ length 27
 ====================
 \"We're still doing this?\"
 ====================
-\"We're still doing this?\"
+「还要去啊」
 ====================
 
 ====================
@@ -790,7 +790,7 @@ length 15
 ====================
 \"We made it.\"
 ====================
-\"We made it.\"
+「赶上了」
 ====================
 
 ====================
@@ -801,7 +801,7 @@ length 37
 ====================
 \"We've run to a hell of a place...\"
 ====================
-\"We've run to a hell of a place...\"
+「竟能跑到这里来啊…」
 ====================
 
 ====================
@@ -812,7 +812,7 @@ length 83
 ====================
 Halfway here, it stopped being running and felt more like climbing a mountain path.
 ====================
-Halfway here, it stopped being running and felt more like climbing a mountain path.
+半路开始便不是跑了，而像是登山般了。
 ====================
 
 ====================
@@ -823,7 +823,7 @@ length 18
 ====================
 \"Here he comes.\"
 ====================
-\"Here he comes.\"
+「来了」
 ====================
 
 ====================
@@ -834,7 +834,7 @@ length 58
 ====================
 On the long ascent, Takafumi has raised his chin a little.
 ====================
-On the long ascent, Takafumi has raised his chin a little.
+在悠长蔓延的上坡路上，鹰文正略微仰着头跑着。
 ====================
 
 ====================
@@ -845,7 +845,7 @@ length 51
 ====================
 His position has improved considerably from before.
 ====================
-His position has improved considerably from before.
+比先前的名次提高不少。
 ====================
 
 ====================
@@ -856,7 +856,7 @@ length 29
 ====================
 \"You can do it if you try!\"
 ====================
-\"You can do it if you try!\"
+「果然要做还是能做到的嘛」
 ====================
 
 ====================
@@ -867,7 +867,7 @@ length 35
 ====================
 \"Give it your all until the end!\"
 ====================
-\"Give it your all until the end!\"
+「给我坚持到最后啊—！」
 ====================
 
 ====================
@@ -878,7 +878,7 @@ length 12
 ====================
 \"Shut up!\"
 ====================
-\"Shut up!\"
+「吵死了—」
 ====================
 
 ====================
@@ -889,7 +889,7 @@ length 42
 ====================
 His voice makes it all the way back to us.
 ====================
-His voice makes it all the way back to us.
+还有力气还嘴。
 ====================
 
 ====================
@@ -900,7 +900,7 @@ length 24
 ====================
 \"You're slow, Tomoya.\"
 ====================
-\"You're slow, Tomoya.\"
+「太慢了，朋也」
 ====================
 
 ====================
@@ -911,7 +911,7 @@ length 44
 ====================
 \"That spot looked like I'd die if I fell.\"
 ====================
-\"That spot looked like I'd die if I fell.\"
+「刚才那地方，要是掉下去可就死定啦」
 ====================
 
 ====================
@@ -922,7 +922,7 @@ length 24
 ====================
 \"It's easy from here.\"
 ====================
-\"It's easy from here.\"
+「从这开始就轻松了」
 ====================
 
 ====================
@@ -933,7 +933,7 @@ length 36
 ====================
 \"There aren't many ups and downs.\"
 ====================
-\"There aren't many ups and downs.\"
+「因为没什么起伏了」
 ====================
 
 ====================
@@ -944,7 +944,7 @@ length 49
 ====================
 We've arrived at the entrance to the forest park.
 ====================
-We've arrived at the entrance to the forest park.
+我们来到了森林公园的入口处。
 ====================
 
 ====================
@@ -955,7 +955,7 @@ length 50
 ====================
 We've covered more than one-third of the distance.
 ====================
-We've covered more than one-third of the distance.
+从路程上来说，已是过了三分之一处了。
 ====================
 
 ====================
@@ -966,7 +966,7 @@ length 102
 ====================
 It seems like the leading group has already passed. Runners pass by one by one on the shaded footpath.
 ====================
-It seems like the leading group has already passed. Runners pass by one by one on the shaded footpath.
+第一集团似乎已经通过了，不时仍有一两位选手跑过这条林荫小道。
 ====================
 
 ====================
@@ -977,7 +977,7 @@ length 37
 ====================
 \"Isn't it about time he showed up?\"
 ====================
-\"Isn't it about time he showed up?\"
+「差不多该到了吧」
 ====================
 
 ====================
@@ -988,7 +988,7 @@ length 42
 ====================
 \"He was around this position earlier...\"
 ====================
-\"He was around this position earlier...\"
+「刚才大概还在这群人之中…」
 ====================
 
 ====================
@@ -999,7 +999,7 @@ length 79
 ====================
 We spot Takafumi, who has slowed somewhat and is running with the middle group.
 ====================
-We spot Takafumi, who has slowed somewhat and is running with the middle group.
+姗姗来迟地，在中间集团中发现了跑来的鹰文。
 ====================
 
 ====================
@@ -1010,7 +1010,7 @@ length 65
 ====================
 His steps are small and he's bent somewhat forward while he runs.
 ====================
-His steps are small and he's bent somewhat forward while he runs.
+步幅很小，就这样以前倾的姿势跑着。
 ====================
 
 ====================
@@ -1021,7 +1021,7 @@ length 36
 ====================
 \"Run as if you were about to die.\"
 ====================
-\"Run as if you were about to die.\"
+「给我作死里跑—！」
 ====================
 
 ====================
@@ -1032,7 +1032,7 @@ length 23
 ====================
 I yell in a loud voice.
 ====================
-I yell in a loud voice.
+我大吼道。
 ====================
 
 ====================
@@ -1043,7 +1043,7 @@ length 22
 ====================
 \"I am going to die!\"
 ====================
-\"I am going to die!\"
+「就快死啦—」
 ====================
 
 ====================
@@ -1054,7 +1054,7 @@ length 29
 ====================
 His voice is almost a shriek.
 ====================
-His voice is almost a shriek.
+发出了惨叫般的声音。
 ====================
 
 ====================
@@ -1065,7 +1065,7 @@ length 66
 ====================
 His breathing is hard; his face is pale like he's short on oxygen.
 ====================
-His breathing is hard; his face is pale like he's short on oxygen.
+呼吸很急促，脸色也因缺氧而显得很差。
 ====================
 
 ====================
@@ -1076,7 +1076,7 @@ length 18
 ====================
 \"...is he okay?\"
 ====================
-\"...is he okay?\"
+「…没问题吗？」
 ====================
 
 ====================
@@ -1087,7 +1087,7 @@ length 19
 ====================
 \"I don't know...\"
 ====================
-\"I don't know...\"
+「不清楚…」
 ====================
 
 ====================
@@ -1098,7 +1098,7 @@ length 48
 ====================
 \"Takafumi! Overtake the guys in front of you!\"
 ====================
-\"Takafumi! Overtake the guys in front of you!\"
+「鹰文—！追上去，超过你眼前那家伙！」
 ====================
 
 ====================
@@ -1109,7 +1109,7 @@ length 33
 ====================
 She immediately yells out to him.
 ====================
-She immediately yells out to him.
+声音立刻就传到了。
 ====================
 
 ====================
@@ -1120,7 +1120,7 @@ length 35
 ====================
 We move toward the open area ahead.
 ====================
-We move toward the open area ahead.
+我们朝着更前面的广场移动。
 ====================
 
 ====================
@@ -1131,7 +1131,7 @@ length 72
 ====================
 We climb the man-made steps and walk along the continuing mountain path.
 ====================
-We climb the man-made steps and walk along the continuing mountain path.
+沿着铺设的台阶攀登，继而顺着山道奔跑。
 ====================
 
 ====================
@@ -1142,7 +1142,7 @@ length 94
 ====================
 Thankfully, this area has a low grade so that you can make a lap around the park as you climb.
 ====================
-Thankfully, this area has a low grade so that you can make a lap around the park as you climb.
+为了能正好绕公园一周，这边的山道坡度不是很陡，真是太好了。
 ====================
 
 ====================
@@ -1153,7 +1153,7 @@ length 109
 ====================
 When we come out of the shade of the trees that surrounds the mountain path, the summer sun beats down on us.
 ====================
-When we come out of the shade of the trees that surrounds the mountain path, the summer sun beats down on us.
+一走出被树荫覆盖的山路，夏日就灼射着肌肤。
 ====================
 
 ====================
@@ -1164,7 +1164,7 @@ length 80
 ====================
 At the end of the rope that's being used as a guide, there's a single huge tree.
 ====================
-At the end of the rope that's being used as a guide, there's a single huge tree.
+导向绳的前端，有棵巨大的树。
 ====================
 
 ====================
@@ -1175,7 +1175,7 @@ length 29
 ====================
 That's the turn-around point.
 ====================
-That's the turn-around point.
+那便是折返点。
 ====================
 
 ====================
@@ -1186,7 +1186,7 @@ length 111
 ====================
 Takafumi's expression is warped, his steps small, and his arms feebly swaying in order to maintain his posture.
 ====================
-Takafumi's expression is warped, his steps small, and his arms feebly swaying in order to maintain his posture.
+鹰文的表情扭曲，步幅也变小了，双臂为了维持平衡而微微地挥动着。
 ====================
 
 ====================
@@ -1197,7 +1197,7 @@ length 38
 ====================
 \"Takafumi! Your legs aren't moving!\"
 ====================
-\"Takafumi! Your legs aren't moving!\"
+「鹰文—，脚根本没动啊！」
 ====================
 
 ====================
@@ -1208,7 +1208,7 @@ length 33
 ====================
 \"Run like you're going to die!\"
 ====================
-\"Run like you're going to die!\"
+「给我作死里跑啊—！」
 ====================
 
 ====================
@@ -1219,7 +1219,7 @@ length 63
 ====================
 I cheer him on the same way I have any number of times already.
 ====================
-I cheer him on the same way I have any number of times already.
+我们不停地为他加油着。
 ====================
 
 ====================
@@ -1230,7 +1230,7 @@ length 23
 ====================
 But he doesn't respond.
 ====================
-But he doesn't respond.
+然而，他却毫无回应。
 ====================
 
 ====================
@@ -1241,7 +1241,7 @@ length 59
 ====================
 He doesn't even wave his hands, let alone voice a response.
 ====================
-He doesn't even wave his hands, let alone voice a response.
+不仅没出声，就连手都没挥一下。
 ====================
 
 ====================
@@ -1252,7 +1252,7 @@ length 23
 ====================
 \"Are you listening?!\"
 ====================
-\"Are you listening?!\"
+「听得到吗—！」
 ====================
 
 ====================
@@ -1263,7 +1263,7 @@ length 14
 ====================
 \"Answer us!\"
 ====================
-\"Answer us!\"
+「给点反应嘛—」
 ====================
 
 ====================
@@ -1274,7 +1274,7 @@ length 13
 ====================
 Haa... haa...
 ====================
-Haa... haa...
+哈啊…哈啊…
 ====================
 
 ====================
@@ -1285,7 +1285,7 @@ length 26
 ====================
 I can hear you. Shut up...
 ====================
-I can hear you. Shut up...
+听到了啦，吵死了…
 ====================
 
 ====================
@@ -1296,7 +1296,7 @@ length 7
 ====================
 Geez...
 ====================
-Geez...
+真是的…
 ====================
 
 ====================
@@ -1307,7 +1307,7 @@ length 13
 ====================
 Haa... haa...
 ====================
-Haa... haa...
+哈啊…哈啊…
 ====================
 
 ====================
@@ -1318,7 +1318,7 @@ length 19
 ====================
 Ah, it's no good...
 ====================
-Ah, it's no good...
+啊—，不行了…
 ====================
 
 ====================
@@ -1329,7 +1329,7 @@ length 28
 ====================
 My legs won't move at all...
 ====================
-My legs won't move at all...
+脚根本抬不起来了…
 ====================
 
 ====================
@@ -1340,7 +1340,7 @@ length 22
 ====================
 I can't run anymore...
 ====================
-I can't run anymore...
+我已经跑不动了…
 ====================
 
 ====================
@@ -1351,7 +1351,7 @@ length 25
 ====================
 This is enough, right...?
 ====================
-This is enough, right...?
+已经可以了吧…
 ====================
 
 ====================
@@ -1362,7 +1362,7 @@ length 16
 ====================
 I'm exhausted...
 ====================
-I'm exhausted...
+好累啊…
 ====================
 
 ====================
@@ -1373,7 +1373,7 @@ length 20
 ====================
 I'm going to stop...
 ====================
-I'm going to stop...
+停下脚步吧…
 ====================
 
 ====================
@@ -1384,7 +1384,7 @@ length 9
 ====================
 .........
 ====================
-.........
+………
 ====================
 
 ====================
@@ -1395,7 +1395,7 @@ length 6
 ====================
 ......
 ====================
-......
+……
 ====================
 
 ====================
@@ -1406,7 +1406,7 @@ length 38
 ====================
 ...would you come to my house tonight?
 ====================
-...would you come to my house tonight?
+…今晚，来我家吗？
 ====================
 
 ====================
@@ -1417,7 +1417,7 @@ length 3
 ====================
 Eh?
 ====================
-Eh?
+诶。
 ====================
 
 ====================
@@ -1428,7 +1428,7 @@ length 9
 ====================
 Sensei...
 ====================
-Sensei...
+老师…
 ====================
 
 ====================
@@ -1439,7 +1439,7 @@ length 39
 ====================
 \"Would you come to my house tonight?\"
 ====================
-\"Would you come to my house tonight?\"
+「今晚，来我家吗？」
 ====================
 
 ====================
@@ -1450,7 +1450,7 @@ length 29
 ====================
 Ah, so you can lecture me...?
 ====================
-Ah, so you can lecture me...?
+啊，是要说教吗…
 ====================
 
 ====================
@@ -1461,7 +1461,7 @@ length 54
 ====================
 Because I wasn't running seriously during gym class...
 ====================
-Because I wasn't running seriously during gym class...
+是因为训练的时候，我没认真跑吗…
 ====================
 
 ====================
@@ -1472,7 +1472,7 @@ length 33
 ====================
 \"Ah, no. That's not it at all.\"
 ====================
-\"Ah, no. That's not it at all.\"
+「啊—，不是的，我完全没这打算啊」
 ====================
 
 ====================
@@ -1483,7 +1483,7 @@ length 53
 ====================
 \"We're having hot pot. I was hoping you'd join us.\"
 ====================
-\"We're having hot pot. I was hoping you'd join us.\"
+「今天我家吃火锅，想邀你一起来」
 ====================
 
 ====================
@@ -1494,7 +1494,7 @@ length 75
 ====================
 \"I guess it might be hard to so suddenly. Your parents would be worried.\"
 ====================
-\"I guess it might be hard to so suddenly. Your parents would be worried.\"
+「果然太唐突还是很不便吧。父母会担心的吧」
 ====================
 
 ====================
@@ -1505,7 +1505,7 @@ length 35
 ====================
 Ah, no, that wouldn't be a problem.
 ====================
-Ah, no, that wouldn't be a problem.
+啊，不会，没那种事。
 ====================
 
 ====================
@@ -1516,7 +1516,7 @@ length 26
 ====================
 \"...well, how about it?\"
 ====================
-\"...well, how about it?\"
+「…那么，你觉得如何？」
 ====================
 
 ====================
@@ -1527,7 +1527,7 @@ length 42
 ====================
 I don't mind. If I can eat delicious food.
 ====================
-I don't mind. If I can eat delicious food.
+也没什么不好的，只要能吃到好吃的。
 ====================
 
 ====================
@@ -1538,7 +1538,7 @@ length 40
 ====================
 \"I can't guarantee the taste, hahaha.\"
 ====================
-\"I can't guarantee the taste, hahaha.\"
+「味道我可就没法保证了，哈哈哈」
 ====================
 
 ====================
@@ -1549,7 +1549,7 @@ length 32
 ====================
 \"Another gangly one has come.\"
 ====================
-\"Another gangly one has come.\"
+「又来了个瘦弱的啊」
 ====================
 
 ====================
@@ -1560,7 +1560,7 @@ length 24
 ====================
 \"You eating properly?\"
 ====================
-\"You eating properly?\"
+「你平时有好好吃饭吗？」
 ====================
 
 ====================
@@ -1571,7 +1571,7 @@ length 40
 ====================
 \"You were like that too not long ago.\"
 ====================
-\"You were like that too not long ago.\"
+「你还说呢，不久前你不也这样的吗」
 ====================
 
 ====================
@@ -1582,7 +1582,7 @@ length 67
 ====================
 \"Sensei brings them without giving a thought to their potential.\"
 ====================
-\"Sensei brings them without giving a thought to their potential.\"
+「那还不是因为老师根本不考虑身体素质什么的，就把人拉进来了嘛」
 ====================
 
 ====================
@@ -1593,7 +1593,7 @@ length 41
 ====================
 \"That's why we never get any stronger!\"
 ====================
-\"That's why we never get any stronger!\"
+「所以总强大不起来嘛！」
 ====================
 
 ====================
@@ -1604,7 +1604,7 @@ length 34
 ====================
 \"Well, eat up. Don't hold back.\"
 ====================
-\"Well, eat up. Don't hold back.\"
+「来，别客气尽量吃吧」
 ====================
 
 ====================
@@ -1615,7 +1615,7 @@ length 58
 ====================
 \"Hey, you didn't contribute so much as a penny to this!\"
 ====================
-\"Hey, you didn't contribute so much as a penny to this!\"
+「你这家伙一分钱都没出呢！」
 ====================
 
 ====================
@@ -1626,7 +1626,7 @@ length 11
 ====================
 Hahahahaha!
 ====================
-Hahahahaha!
+哈哈哈哈哈—！
 ====================
 
 ====================
@@ -1637,7 +1637,7 @@ length 52
 ====================
 \"...Sakagami-kun, no need to hold back. Go ahead.\"
 ====================
-\"...Sakagami-kun, no need to hold back. Go ahead.\"
+「…坂上君，别讲客气啊，快吃吧」
 ====================
 
 ====================
@@ -1648,7 +1648,7 @@ length 56
 ====================
 \"But the dinner table tends to be just a little loud.\"
 ====================
-\"But the dinner table tends to be just a little loud.\"
+「只是，这儿的晚饭稍微有点吵闹呢」
 ====================
 
 ====================
@@ -1659,7 +1659,7 @@ length 7
 ====================
 Yeah...
 ====================
-Yeah...
+哈啊…
 ====================
 
 ====================
@@ -1670,7 +1670,7 @@ length 45
 ====================
 Are you guys really the track and field team?
 ====================
-Are you guys really the track and field team?
+你们几个，真的是田径队的？
 ====================
 
 ====================
@@ -1681,7 +1681,7 @@ length 11
 ====================
 \"...why?\"
 ====================
-\"...why?\"
+「…为啥这么问」
 ====================
 
 ====================
@@ -1692,7 +1692,7 @@ length 19
 ====================
 You're really slow.
 ====================
-You're really slow.
+因为你们跑得太慢了。
 ====================
 
 ====================
@@ -1703,7 +1703,7 @@ length 36
 ====================
 \"What, punk? You picking a fight?\"
 ====================
-\"What, punk? You picking a fight?\"
+「说啥，你这家伙，讨打是么」
 ====================
 
 ====================
@@ -1714,7 +1714,7 @@ length 33
 ====================
 \"All right, let's have a race.\"
 ====================
-\"All right, let's have a race.\"
+「那好，我们来较量下」
 ====================
 
 ====================
@@ -1725,7 +1725,7 @@ length 87
 ====================
 \"I'll show you that although our team is in decline, we still have some fight in it.\"
 ====================
-\"I'll show you that although our team is in decline, we still have some fight in it.\"
+「就算我们田径队再不济，也要让你见识见识」
 ====================
 
 ====================
@@ -1736,7 +1736,7 @@ length 20
 ====================
 \"...haa... haa...\"
 ====================
-\"...haa... haa...\"
+「…哈啊…哈啊…」
 ====================
 
 ====================
@@ -1747,7 +1747,7 @@ length 15
 ====================
 \"...sorry...\"
 ====================
-\"...sorry...\"
+「…抱歉…」
 ====================
 
 ====================
@@ -1758,7 +1758,7 @@ length 64
 ====================
 \"..willing to have one more race? With the captain this time.\"
 ====================
-\"..willing to have one more race? With the captain this time.\"
+「…能再比一次吗？这次让队长和你比」
 ====================
 
 ====================
@@ -1769,7 +1769,7 @@ length 93
 ====================
 \"Bastard, don't run faster than the captain! He's not perfect, but he's still the captain!\"
 ====================
-\"Bastard, don't run faster than the captain! He's not perfect, but he's still the captain!\"
+「你这家伙，居然跑得比队长还快—！不管怎么说，好歹也是我们队长啊！」
 ====================
 
 ====================
@@ -1780,7 +1780,7 @@ length 33
 ====================
 \"Captain, please do something!\"
 ====================
-\"Captain, please do something!\"
+「队长你也争口气啊！」
 ====================
 
 ====================
@@ -1791,7 +1791,7 @@ length 56
 ====================
 \"...I don't care who, come on, someone pass that guy!\"
 ====================
-\"...I don't care who, come on, someone pass that guy!\"
+「…不管是谁都行，快出来个人超过他吧！」
 ====================
 
 ====================
@@ -1802,7 +1802,7 @@ length 62
 ====================
 \"...at this rate, our declining team will be total garbage!\"
 ====================
-\"...at this rate, our declining team will be total garbage!\"
+「…再这样下去，不济的田径队可要真的非常不济了！」
 ====================
 
 ====================
@@ -1813,7 +1813,7 @@ length 57
 ====================
 \"...it's fine. We never bore fruit in the first place.\"
 ====================
-\"...it's fine. We never bore fruit in the first place.\"
+「…有啥关系，反正也是事实嘛」
 ====================
 
 ====================
@@ -1824,7 +1824,7 @@ length 14
 ====================
 ...hahahahaha!
 ====================
-...hahahahaha!
+…哈哈哈哈哈—！
 ====================
 
 ====================
@@ -1835,7 +1835,7 @@ length 21
 ====================
 \"...bastard, wait!\"
 ====================
-\"...bastard, wait!\"
+「…你这家伙，等等—！」
 ====================
 
 ====================
@@ -1846,7 +1846,7 @@ length 56
 ====================
 \"...shit. You're incredible. You'll win. First place!\"
 ====================
-\"...shit. You're incredible. You'll win. First place!\"
+「…可恶，好厉害嘛，算你赢了，第一名哦—！」
 ====================
 
 ====================
@@ -1857,7 +1857,7 @@ length 45
 ====================
 \"...the bastard is already our team's ace!\"
 ====================
-\"...the bastard is already our team's ace!\"
+「…你，就是我们队的王牌啦—！」
 ====================
 
 ====================
@@ -1868,7 +1868,7 @@ length 59
 ====================
 No, I don't remember joining the team in the first place...
 ====================
-No, I don't remember joining the team in the first place...
+不会吧，我根本还没加入啊…
 ====================
 
 ====================
@@ -1879,7 +1879,7 @@ length 81
 ====================
 \"...you're our ace. Not a single one of us has won in the district tournament!\"
 ====================
-\"...you're our ace. Not a single one of us has won in the district tournament!\"
+「…说你是王牌你就是啦，我们就连地区比赛的冠军都没拿过啊！」
 ====================
 
 ====================
@@ -1890,7 +1890,7 @@ length 79
 ====================
 \"Shit, this is frustrating, but you're our ace. I'm leaving the team to you!\"
 ====================
-\"Shit, this is frustrating, but you're our ace. I'm leaving the team to you!\"
+「可恶，虽然很不甘心，但你就是王牌了，田径队就托付给你啦—！」
 ====================
 
 ====================
@@ -1901,7 +1901,7 @@ length 55
 ====================
 \"...hey Captain, please don't give away the team....\"
 ====================
-\"...hey Captain, please don't give away the team....\"
+「…不要啊，队长，请别放弃我们田径队啊…」
 ====================
 
 ====================
@@ -1912,7 +1912,7 @@ length 31
 ====================
 \"Shit, this guy's smart too!\"
 ====================
-\"Shit, this guy's smart too!\"
+「混蛋，这家伙脑袋也很好使啊—！」
 ====================
 
 ====================
@@ -1923,7 +1923,7 @@ length 42
 ====================
 \"But I'm still better looking than him.\"
 ====================
-\"But I'm still better looking than him.\"
+「但单凭长相的话，我可不会输给你啊—」
 ====================
 
 ====================
@@ -1934,7 +1934,7 @@ length 22
 ====================
 \"...no, you aren't.\"
 ====================
-\"...no, you aren't.\"
+「…不，已经输啦」
 ====================
 
 ====================
@@ -1945,7 +1945,7 @@ length 24
 ====================
 \"Kanako, you bastard!\"
 ====================
-\"Kanako, you bastard!\"
+「河南子，你这家伙—！」
 ====================
 
 ====================
@@ -1956,7 +1956,7 @@ length 25
 ====================
 \"...hm? You want some?\"
 ====================
-\"...hm? You want some?\"
+「…嗯？想打架吗？」
 ====================
 
 ====================
@@ -1967,7 +1967,7 @@ length 27
 ====================
 \"...no I don't. Damn it!\"
 ====================
-\"...no I don't. Damn it!\"
+「…我可不和你打，可恶———！」
 ====================
 
 ====================
@@ -1978,7 +1978,7 @@ length 21
 ====================
 What, are you strong?
 ====================
-What, are you strong?
+怎么，你很强吗？
 ====================
 
 ====================
@@ -1989,7 +1989,7 @@ length 22
 ====================
 \"...hm? I'm strong.\"
 ====================
-\"...hm? I'm strong.\"
+「…嗯？很强哦」
 ====================
 
 ====================
@@ -2000,7 +2000,7 @@ length 67
 ====================
 My older sister is extremely strong too... I wonder who's stronger?
 ====================
-My older sister is extremely strong too... I wonder who's stronger?
+不过我姐姐也相当强…究竟谁更强呢？
 ====================
 
 ====================
@@ -2011,7 +2011,7 @@ length 33
 ====================
 \"Idiot, obviously it's Kanako.\"
 ====================
-\"Idiot, obviously it's Kanako.\"
+「笨—蛋，当然是河南子啊」
 ====================
 
 ====================
@@ -2022,7 +2022,7 @@ length 25
 ====================
 \"...I'm the strongest.\"
 ====================
-\"...I'm the strongest.\"
+「…我可是最强的哦」
 ====================
 
 ====================
@@ -2033,7 +2033,7 @@ length 41
 ====================
 \"...hey guys, the food's already done.\"
 ====================
-\"...hey guys, the food's already done.\"
+「…喂喂，你们几个，火已经点上了哦」
 ====================
 
 ====================
@@ -2044,7 +2044,7 @@ length 53
 ====================
 \"It's quick because it's cheap meat. It's so thin.\"
 ====================
-\"It's quick because it's cheap meat. It's so thin.\"
+「弄这些便宜的肉倒是手脚挺快的嘛。肉都松松垮垮的」
 ====================
 
 ====================
@@ -2055,7 +2055,7 @@ length 14
 ====================
 \"...Kanako.\"
 ====================
-\"...Kanako.\"
+「…河南子」
 ====================
 
 ====================
@@ -2066,7 +2066,7 @@ length 32
 ====================
 \"I wonder who you take after.\"
 ====================
-\"I wonder who you take after.\"
+「你究竟像谁啊」
 ====================
 
 ====================
@@ -2077,7 +2077,7 @@ length 37
 ====================
 \"Your father has such a weak body.\"
 ====================
-\"Your father has such a weak body.\"
+「明明你爸身体这么弱呢」
 ====================
 
 ====================
@@ -2088,7 +2088,7 @@ length 33
 ====================
 \"...it's the fruits of effort.\"
 ====================
-\"...it's the fruits of effort.\"
+「…这是我努力的结果哟」
 ====================
 
 ====================
@@ -2099,7 +2099,7 @@ length 98
 ====================
 \"...unlike our track and field team, Kanako can probably get recommended to a good high school.\"
 ====================
-\"...unlike our track and field team, Kanako can probably get recommended to a good high school.\"
+「…和我们田径队不一样，河南子可是能被推荐到好高中的啊」
 ====================
 
 ====================
@@ -2110,7 +2110,7 @@ length 46
 ====================
 Don't put me in the same category as you guys.
 ====================
-Don't put me in the same category as you guys.
+别把我也一起算进去啊。
 ====================
 
 ====================
@@ -2121,7 +2121,7 @@ length 22
 ====================
 \"...o-our damn ace!\"
 ====================
-\"...o-our damn ace!\"
+「…你，你这个王牌混蛋—！」
 ====================
 
 ====================
@@ -2132,7 +2132,7 @@ length 43
 ====================
 Are you getting mad or admitting defeat...?
 ====================
-Are you getting mad or admitting defeat...?
+那究竟是生气，还是承认自己的失败呢…
 ====================
 
 ====================
@@ -2143,7 +2143,7 @@ length 19
 ====================
 \"...how'd it go?\"
 ====================
-\"...how'd it go?\"
+「…怎么样…」
 ====================
 
 ====================
@@ -2154,7 +2154,7 @@ length 9
 ====================
 .........
 ====================
-.........
+………
 ====================
 
 ====================
@@ -2165,7 +2165,7 @@ length 37
 ====================
 \"...no good... I got shot down....\"
 ====================
-\"...no good... I got shot down....\"
+「…不行…被拒绝了…」
 ====================
 
 ====================
@@ -2176,7 +2176,7 @@ length 35
 ====================
 \"...hahaha! Completely rejected!\"
 ====================
-\"...hahaha! Completely rejected!\"
+「…哈—哈—哈—！壮烈牺牲啦————！」
 ====================
 
 ====================
@@ -2187,7 +2187,7 @@ length 46
 ====================
 \"...yahoooooo! You're one of us losers now!\"
 ====================
-\"...yahoooooo! You're one of us losers now!\"
+「…Yahoo—————！你也进失败组啦！」
 ====================
 
 ====================
@@ -2198,7 +2198,7 @@ length 69
 ====================
 \"...you and I are friends forever. All right, let's drink tonight!\"
 ====================
-\"...you and I are friends forever. All right, let's drink tonight!\"
+「…你和我是永远的挚友啊，好，让我们通宵畅饮吧！」
 ====================
 
 ====================
@@ -2209,7 +2209,7 @@ length 22
 ====================
 You guys are underage.
 ====================
-You guys are underage.
+你们还是学生吧。
 ====================
 
 ====================
@@ -2220,7 +2220,7 @@ length 19
 ====================
 \"...how'd it go?\"
 ====================
-\"...how'd it go?\"
+「…怎样…」
 ====================
 
 ====================
@@ -2231,7 +2231,7 @@ length 9
 ====================
 .........
 ====================
-.........
+………
 ====================
 
 ====================
@@ -2242,7 +2242,7 @@ length 21
 ====================
 \"She shot me down!\"
 ====================
-\"She shot me down!\"
+「被拒了啦！」
 ====================
 
 ====================
@@ -2253,7 +2253,7 @@ length 48
 ====================
 \"...yahoooo! You're one of us starting today!\"
 ====================
-\"...yahoooo! You're one of us starting today!\"
+「…Yahoo—————！今天开始，你也加入我们啦！」
 ====================
 
 ====================
@@ -2264,7 +2264,7 @@ length 51
 ====================
 \"...also, there's someone she's interested in...\"
 ====================
-\"...also, there's someone she's interested in...\"
+「…还有啊，她说她已有中意的人了…」
 ====================
 
 ====================
@@ -2275,7 +2275,7 @@ length 10
 ====================
 \"...eh?\"
 ====================
-\"...eh?\"
+「…诶？」
 ====================
 
 ====================
@@ -2286,7 +2286,7 @@ length 11
 ====================
 \"...who?\"
 ====================
-\"...who?\"
+「…在哪里？」
 ====================
 
 ====================
@@ -2297,7 +2297,7 @@ length 16
 ====================
 \"...among us.\"
 ====================
-\"...among us.\"
+「…就在我们之中」
 ====================
 
 ====================
@@ -2308,7 +2308,7 @@ length 9
 ====================
 .........
 ====================
-.........
+………
 ====================
 
 ====================
@@ -2319,7 +2319,7 @@ length 23
 ====================
 \"...who could it be?\"
 ====================
-\"...who could it be?\"
+「…会是谁呢…」
 ====================
 
 ====================
@@ -2330,7 +2330,7 @@ length 26
 ====================
 \"...Takafumi, you free?\"
 ====================
-\"...Takafumi, you free?\"
+「…鹰文，现在有空吗」
 ====================
 
 ====================
@@ -2341,7 +2341,7 @@ length 30
 ====================
 Sorry, I'm repairing my shoes.
 ====================
-Sorry, I'm repairing my shoes.
+抱歉，我正在修理跑鞋。
 ====================
 
 ====================
@@ -2352,7 +2352,7 @@ length 28
 ====================
 \"...I'll do that for you.\"
 ====================
-\"...I'll do that for you.\"
+「…那些我来帮你弄啦」
 ====================
 
 ====================
@@ -2363,7 +2363,7 @@ length 51
 ====================
 Eh? You're acting kind of creepy all of a sudden...
 ====================
-Eh? You're acting kind of creepy all of a sudden...
+诶？突然间搞什么啊，有不祥的预感…
 ====================
 
 ====================
@@ -2374,7 +2374,7 @@ length 59
 ====================
 \"...Kanako is going shopping. She wants you to help her.\"
 ====================
-\"...Kanako is going shopping. She wants you to help her.\"
+「…河南子要出去买东西，想叫你帮忙」
 ====================
 
 ====================
@@ -2385,7 +2385,7 @@ length 3
 ====================
 Me?
 ====================
-Me?
+叫我？
 ====================
 
 ====================
@@ -2396,7 +2396,7 @@ length 12
 ====================
 \"...yeah.\"
 ====================
-\"...yeah.\"
+「…是啊」
 ====================
 
 ====================
@@ -2407,7 +2407,7 @@ length 78
 ====================
 \"...oh, Takafumi, good timing. I'm about to go shopping. Would you help me?\"
 ====================
-\"...oh, Takafumi, good timing. I'm about to go shopping. Would you help me?\"
+「…哦，鹰文啊，来得正好，我正要出去买东西，能帮下忙吗」
 ====================
 
 ====================
@@ -2418,7 +2418,7 @@ length 24
 ====================
 Well, you called for me.
 ====================
-Well, you called for me.
+不是河南子叫我来的吗？
 ====================
 
 ====================
@@ -2429,7 +2429,7 @@ length 10
 ====================
 \"...eh?\"
 ====================
-\"...eh?\"
+「…诶？」
 ====================
 
 ====================
@@ -2440,7 +2440,7 @@ length 3
 ====================
 Eh?
 ====================
-Eh?
+诶？
 ====================
 
 ====================
@@ -2451,7 +2451,7 @@ length 36
 ====================
 \"...I'll give you a hint, Takkun.\"
 ====================
-\"...I'll give you a hint, Takkun.\"
+「…给你个提示，小鹰」
 ====================
 
 ====================
@@ -2462,7 +2462,7 @@ length 7
 ====================
 Takkun?
 ====================
-Takkun?
+被叫作『小鹰』了…
 ====================
 
 ====================
@@ -2473,7 +2473,7 @@ length 24
 ====================
 \"The one she likes...\"
 ====================
-\"The one she likes...\"
+「那家伙啊…」
 ====================
 
 ====================
@@ -2484,7 +2484,7 @@ length 41
 ====================
 \"...is the most thickheaded one of us.\"
 ====================
-\"...is the most thickheaded one of us.\"
+「…是我们之中最迟钝的家伙」
 ====================
 
 ====================
@@ -2495,7 +2495,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+「………」
 ====================
 
 ====================
@@ -2506,7 +2506,7 @@ length 53
 ====================
 Uwah... what is everyone looking at? This is scary...
 ====================
-Uwah... what is everyone looking at? This is scary...
+呜哇…大家干嘛都盯着我啊…好恐怖哦…
 ====================
 
 ====================
@@ -2517,7 +2517,7 @@ length 24
 ====================
 \"Kanako is waiting...\"
 ====================
-\"Kanako is waiting...\"
+「河南子在等着呢…」
 ====================
 
 ====================
@@ -2528,7 +2528,7 @@ length 29
 ====================
 \"...for our ace of hearts.\"
 ====================
-\"...for our ace of hearts.\"
+「…恋爱的王牌啊」
 ====================
 
 ====================
@@ -2539,7 +2539,7 @@ length 52
 ====================
 \"...Captain, you basically gave him the answer...\"
 ====================
-\"...Captain, you basically gave him the answer...\"
+「…队长，你都把答案给说出来了哟…」
 ====================
 
 ====================
@@ -2550,7 +2550,7 @@ length 14
 ====================
 Hey, Kanako...
 ====================
-Hey, Kanako...
+那个，河南子…
 ====================
 
 ====================
@@ -2561,7 +2561,7 @@ length 10
 ====================
 \"...hm?\"
 ====================
-\"...hm?\"
+「…嗯？」
 ====================
 
 ====================
@@ -2572,7 +2572,7 @@ length 21
 ====================
 Well... Kanako-san...
 ====================
-Well... Kanako-san...
+不对…河南子同学…
 ====================
 
 ====================
@@ -2583,7 +2583,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+「………」
 ====================
 
 ====================
@@ -2594,7 +2594,7 @@ length 36
 ====================
 Kanako-san, I am in love with you...
 ====================
-Kanako-san, I am in love with you...
+我喜欢你…
 ====================
 
 ====================
@@ -2605,7 +2605,7 @@ length 35
 ====================
 Would you please go out with me...?
 ====================
-Would you please go out with me...?
+可以和我交往吗…
 ====================
 
 ====================
@@ -2616,7 +2616,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+「………」
 ====================
 
 ====================
@@ -2627,7 +2627,7 @@ length 12
 ====================
 \"...sure.\"
 ====================
-\"...sure.\"
+「…可以哦」
 ====================
 
 ====================
@@ -2638,7 +2638,7 @@ length 10
 ====================
 Awesome...
 ====================
-Awesome...
+成了…
 ====================
 
 ====================
@@ -2649,7 +2649,7 @@ length 24
 ====================
 \"...hell yeaaaaaaaah!\"
 ====================
-\"...hell yeaaaaaaaah!\"
+「…太棒啦啊啊啊啊啊啊啊————！」
 ====================
 
 ====================
@@ -2660,7 +2660,7 @@ length 5
 ====================
 Woah!
 ====================
-Woah!
+呜哇啊！
 ====================
 
 ====================
@@ -2671,7 +2671,7 @@ length 36
 ====================
 That was my best time this semester!
 ====================
-That was my best time this semester!
+这真是最棒的时刻啊！
 ====================
 
 ====================
@@ -2682,7 +2682,7 @@ length 15
 ====================
 Sensei, Sensei!
 ====================
-Sensei, Sensei!
+老师、老师—！
 ====================
 
 ====================
@@ -2693,7 +2693,7 @@ length 31
 ====================
 \"...all right, you did well.\"
 ====================
-\"...all right, you did well.\"
+「…好样的，干得不错嘛」
 ====================
 
 ====================
@@ -2704,7 +2704,7 @@ length 33
 ====================
 Now will you let me have Kanako?!
 ====================
-Now will you let me have Kanako?!
+这就是说，你愿意将河南子托付给我吗！
 ====================
 
 ====================
@@ -2715,7 +2715,7 @@ length 44
 ====================
 \"...hahaha, it's still too soon for that.\"
 ====================
-\"...hahaha, it's still too soon for that.\"
+「…哈哈哈，那还太早了呢」
 ====================
 
 ====================
@@ -2726,7 +2726,7 @@ length 69
 ====================
 \"...you've still got a ways to go before I can give Kanako to you.\"
 ====================
-\"...you've still got a ways to go before I can give Kanako to you.\"
+「…若你还是老样子的话，我可不会把河南子交给你哦」
 ====================
 
 ====================
@@ -2737,7 +2737,7 @@ length 31
 ====================
 Then I should run, even faster.
 ====================
-Then I should run, even faster.
+只要我跑得更快就行了吧。
 ====================
 
 ====================
@@ -2748,7 +2748,7 @@ length 17
 ====================
 I'm going to run!
 ====================
-I'm going to run!
+我会加油跑的！
 ====================
 
 ====================
@@ -2759,7 +2759,7 @@ length 9
 ====================
 \"Ah...\"
 ====================
-\"Ah...\"
+「啊…」
 ====================
 
 ====================
@@ -2770,7 +2770,7 @@ length 15
 ====================
 \"Uwaaaaaaah!\"
 ====================
-\"Uwaaaaaaah!\"
+「呜啊啊啊啊啊啊啊—————！」
 ====================
 
 ====================
@@ -2781,7 +2781,7 @@ length 17
 ====================
 \"Haa... haa...\"
 ====================
-\"Haa... haa...\"
+「哈啊…哈啊…」
 ====================
 
 ====================
@@ -2792,7 +2792,7 @@ length 49
 ====================
 \"All right, you gave it a good shot, Takafumi.\"
 ====================
-\"All right, you gave it a good shot, Takafumi.\"
+「不错，很努力嘛，鹰文」
 ====================
 
 ====================
@@ -2803,7 +2803,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+「………」
 ====================
 
 ====================
@@ -2814,7 +2814,7 @@ length 38
 ====================
 \"That was an incredible last burst.\"
 ====================
-\"That was an incredible last burst.\"
+「很赞的最后冲刺呢」
 ====================
 
 ====================
@@ -2825,7 +2825,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+「………」
 ====================
 
 ====================
@@ -2836,7 +2836,7 @@ length 11
 ====================
 \"...I...\"
 ====================
-\"...I...\"
+「…我…」
 ====================
 
 ====================
@@ -2847,7 +2847,7 @@ length 11
 ====================
 \"...won?\"
 ====================
-\"...won?\"
+「…赢得冠军了吗…？」
 ====================
 
 ====================
@@ -2858,7 +2858,7 @@ length 9
 ====================
 \"No...\"
 ====================
-\"No...\"
+「不…」
 ====================
 
 ====================
@@ -2869,7 +2869,7 @@ length 14
 ====================
 \"I lost...?\"
 ====================
-\"I lost...?\"
+「输了吗…？」
 ====================
 
 ====================
@@ -2880,7 +2880,7 @@ length 25
 ====================
 \"I wasn't in first...?\"
 ====================
-\"I wasn't in first...?\"
+「不是第一名吗…？」
 ====================
 
 ====================
@@ -2891,7 +2891,7 @@ length 11
 ====================
 \"Yeah...\"
 ====================
-\"Yeah...\"
+「嗯…」
 ====================
 
 ====================
@@ -2902,7 +2902,7 @@ length 24
 ====================
 \"What place was I...?\"
 ====================
-\"What place was I...?\"
+「是第几名呢…？」
 ====================
 
 ====================
@@ -2913,7 +2913,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+「………」
 ====================
 
 ====================
@@ -2924,7 +2924,7 @@ length 11
 ====================
 \"Well...\"
 ====================
-\"Well...\"
+「那个嘛…」
 ====================
 
 ====================
@@ -2935,7 +2935,7 @@ length 9
 ====================
 \"31st.\"
 ====================
-\"31st.\"
+「第31名」
 ====================
 
 ====================
@@ -2946,7 +2946,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+「………」
 ====================
 
 ====================
@@ -2957,7 +2957,7 @@ length 10
 ====================
 \"Wh-...\"
 ====================
-\"Wh-...\"
+「这…」
 ====================
 
 ====================
@@ -2968,7 +2968,7 @@ length 20
 ====================
 \"What the heck...\"
 ====================
-\"What the heck...\"
+「这算什么嘛…」
 ====================
 
 ====================
@@ -2979,7 +2979,7 @@ length 45
 ====================
 \"I've never heard of such a bad ranking...\"
 ====================
-\"I've never heard of such a bad ranking...\"
+「这样差劲的成绩，以前从未听过啊…」
 ====================
 
 ====================
@@ -2990,7 +2990,7 @@ length 11
 ====================
 \"Haha...\"
 ====================
-\"Haha...\"
+「哈哈…」
 ====================
 
 ====================
@@ -3001,7 +3001,7 @@ length 9
 ====================
 .........
 ====================
-.........
+………
 ====================
 
 ====================
@@ -3012,7 +3012,7 @@ length 6
 ====================
 ......
 ====================
-......
+……
 ====================
 
 ====================
@@ -3023,7 +3023,7 @@ length 3
 ====================
 ...
 ====================
-...
+…
 ====================
 
 ====================
@@ -3034,7 +3034,7 @@ length 15
 ====================
 Sensei is here.
 ====================
-Sensei is here.
+老师出现了。
 ====================
 
 ====================
@@ -3045,7 +3045,7 @@ length 30
 ====================
 It's the same dream as always.
 ====================
-It's the same dream as always.
+在一直重复的梦中。
 ====================
 
 ====================
@@ -3056,7 +3056,7 @@ length 60
 ====================
 The only difference is that this time, I can't say anything.
 ====================
-The only difference is that this time, I can't say anything.
+然而不同的是，这次我已无话可说了。
 ====================
 
 ====================
@@ -3067,7 +3067,7 @@ length 21
 ====================
 Because I didn't win.
 ====================
-Because I didn't win.
+因为没有取胜。
 ====================
 
 ====================
@@ -3078,7 +3078,7 @@ length 30
 ====================
 Even so, I'll report to him...
 ====================
-Even so, I'll report to him...
+仅管如此，仍得向他汇报…
 ====================
 
 ====================
@@ -3089,7 +3089,7 @@ length 13
 ====================
 \"Sensei...\"
 ====================
-\"Sensei...\"
+「老师…」
 ====================
 
 ====================
@@ -3100,7 +3100,7 @@ length 9
 ====================
 .........
 ====================
-.........
+………
 ====================
 
 ====================
@@ -3111,7 +3111,7 @@ length 21
 ====================
 He's silent as usual.
 ====================
-He's silent as usual.
+老师仍是一如既往地沉默。
 ====================
 
 ====================
@@ -3122,7 +3122,7 @@ length 14
 ====================
 \"...Sensei.\"
 ====================
-\"...Sensei.\"
+「…老师」
 ====================
 
 ====================
@@ -3133,7 +3133,7 @@ length 12
 ====================
 \"I ran...\"
 ====================
-\"I ran...\"
+「我，跑完了哟…」
 ====================
 
 ====================
@@ -3144,7 +3144,7 @@ length 16
 ====================
 \"I did run...\"
 ====================
-\"I did run...\"
+「虽然跑完了…」
 ====================
 
 ====================
@@ -3155,7 +3155,7 @@ length 10
 ====================
 \"But...\"
 ====================
-\"But...\"
+「但是…」
 ====================
 
 ====================
@@ -3166,7 +3166,7 @@ length 21
 ====================
 \"It was no good...\"
 ====================
-\"It was no good...\"
+「完全不行呢…」
 ====================
 
 ====================
@@ -3177,7 +3177,7 @@ length 9
 ====================
 .........
 ====================
-.........
+………
 ====================
 
 ====================
@@ -3188,7 +3188,7 @@ length 24
 ====================
 That's all I tell him...
 ====================
-That's all I tell him...
+虽然仅有这么一点汇报…
 ====================
 
 ====================
@@ -3199,7 +3199,7 @@ length 42
 ====================
 But there's still something I want to say.
 ====================
-But there's still something I want to say.
+不过，我还有些话想说。
 ====================
 
 ====================
@@ -3210,7 +3210,7 @@ length 74
 ====================
 I want to tell him that this felt different than when I used to run alone.
 ====================
-I want to tell him that this felt different than when I used to run alone.
+那就是，至今为止都是一个人跑来的我，已经有了不一样的心境。
 ====================
 
 ====================
@@ -3221,7 +3221,7 @@ length 21
 ====================
 \"It was no good...\"
 ====================
-\"It was no good...\"
+「虽然完全不行…」
 ====================
 
 ====================
@@ -3232,7 +3232,7 @@ length 8
 ====================
 \"But...
 ====================
-\"But...
+「但是…
 ====================
 
 ====================
@@ -3243,7 +3243,7 @@ length 14
 ====================
  it was fun.\"
 ====================
- it was fun.\"
+我很开心」
 ====================
 
 ====================
@@ -3254,7 +3254,7 @@ length 9
 ====================
 .........
 ====================
-.........
+………
 ====================
 
 ====================
@@ -3265,7 +3265,7 @@ length 39
 ====================
 \"I have friends around me now too...\"
 ====================
-\"I have friends around me now too...\"
+「至今，我身边仍有很多伙伴…」
 ====================
 
 ====================
@@ -3276,7 +3276,7 @@ length 87
 ====================
 \"They're always acting ridiculous like the track and field team that you gathered...\"
 ====================
-\"They're always acting ridiculous like the track and field team that you gathered...\"
+「他们，也都像老师召集的田径队员一样，每天做着傻事…」
 ====================
 
 ====================
@@ -3287,7 +3287,7 @@ length 33
 ====================
 \"It was just like back then...\"
 ====================
-\"It was just like back then...\"
+「真的很像那时…」
 ====================
 
 ====================
@@ -3298,7 +3298,7 @@ length 45
 ====================
 \"The most fun, happiest time of my life...\"
 ====================
-\"The most fun, happiest time of my life...\"
+「那段最为开心和幸福的时光…」
 ====================
 
 ====================
@@ -3309,7 +3309,7 @@ length 66
 ====================
 \"Everyone's here, and we act stupid and get excited together...\"
 ====================
-\"Everyone's here, and we act stupid and get excited together...\"
+「大家聚在一起，一起喧嚣胡闹着…」
 ====================
 
 ====================
@@ -3320,7 +3320,7 @@ length 35
 ====================
 \"And she is always by my side...\"
 ====================
-\"And she is always by my side...\"
+「而且，她也一直陪在我身边…」
 ====================
 
 ====================
@@ -3331,7 +3331,7 @@ length 9
 ====================
 .........
 ====================
-.........
+………
 ====================
 
 ====================
@@ -3342,7 +3342,7 @@ length 13
 ====================
 \"Sensei...\"
 ====================
-\"Sensei...\"
+「老师…」
 ====================
 
 ====================
@@ -3353,7 +3353,7 @@ length 48
 ====================
 My mouth moves on its own. I can't stop talking.
 ====================
-My mouth moves on its own. I can't stop talking.
+我不由自主地开口了。已经无法抑制倾诉的冲动了。
 ====================
 
 ====================
@@ -3364,7 +3364,7 @@ length 8
 ====================
 \"I...\"
 ====================
-\"I...\"
+「我…」
 ====================
 
 ====================
@@ -3375,7 +3375,7 @@ length 13
 ====================
 \"Sensei...\"
 ====================
-\"Sensei...\"
+「对老师…」
 ====================
 
 ====================
@@ -3386,7 +3386,7 @@ length 43
 ====================
 \"And that shitty track and field team...\"
 ====================
-\"And that shitty track and field team...\"
+「还有那个弱得掉渣的田径队…」
 ====================
 
 ====================
@@ -3397,7 +3397,7 @@ length 17
 ====================
 \"And Kanako...\"
 ====================
-\"And Kanako...\"
+「以及河南子…」
 ====================
 
 ====================
@@ -3408,7 +3408,7 @@ length 22
 ====================
 \"I loved you all...\"
 ====================
-\"I loved you all...\"
+「都非常喜欢…」
 ====================
 
 ====================
@@ -3419,7 +3419,7 @@ length 30
 ====================
 \"I loved you all so much...\"
 ====================
-\"I loved you all so much...\"
+「非常非常喜欢…」
 ====================
 
 ====================
@@ -3430,7 +3430,7 @@ length 9
 ====================
 .........
 ====================
-.........
+………
 ====================
 
 ====================
@@ -3441,7 +3441,7 @@ length 11
 ====================
 \"Also...\"
 ====================
-\"Also...\"
+「此外…」
 ====================
 
 ====================
@@ -3452,7 +3452,7 @@ length 34
 ====================
 I have to say it. What comes next.
 ====================
-I have to say it. What comes next.
+不能再说下去了。
 ====================
 
 ====================
@@ -3463,7 +3463,7 @@ length 19
 ====================
 Even though I know.
 ====================
-Even though I know.
+我是知道的。
 ====================
 
 ====================
@@ -3474,7 +3474,7 @@ length 33
 ====================
 What's waiting for me after that.
 ====================
-What's waiting for me after that.
+前方等待着的，会是怎样的结果。
 ====================
 
 ====================
@@ -3485,7 +3485,7 @@ length 19
 ====================
 Those bitter words.
 ====================
-Those bitter words.
+那是尖锐的话语。
 ====================
 
 ====================
@@ -3496,7 +3496,7 @@ length 47
 ====================
 The words that have made me suffer for so long.
 ====================
-The words that have made me suffer for so long.
+一直折磨着我的话语。
 ====================
 
 ====================
@@ -3507,7 +3507,7 @@ length 8
 ====================
 But I...
 ====================
-But I...
+然而，我…
 ====================
 
 ====================
@@ -3518,7 +3518,7 @@ length 15
 ====================
 \"Even now...\"
 ====================
-\"Even now...\"
+「至今我仍…」
 ====================
 
 ====================
@@ -3529,7 +3529,7 @@ length 20
 ====================
 \"I love Kanako...\"
 ====================
-\"I love Kanako...\"
+「喜欢着河南子…」
 ====================
 
 ====================
@@ -3540,7 +3540,7 @@ length 23
 ====================
 \"I love her so much.\"
 ====================
-\"I love her so much.\"
+「非常喜欢」
 ====================
 
 ====================
@@ -3551,7 +3551,7 @@ length 10
 ====================
 I said it.
 ====================
-I said it.
+说出来了。
 ====================
 
 ====================
@@ -3562,7 +3562,7 @@ length 9
 ====================
 .........
 ====================
-.........
+………
 ====================
 
 ====================
@@ -3573,7 +3573,7 @@ length 28
 ====================
 Sensei's lips are trembling.
 ====================
-Sensei's lips are trembling.
+老师的嘴角颤动了。
 ====================
 
 ====================
@@ -3584,7 +3584,7 @@ length 12
 ====================
 His mouth...
 ====================
-His mouth...
+从那口中…
 ====================
 
 ====================
@@ -3595,7 +3595,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+「………」
 ====================
 
 ====================
@@ -3606,7 +3606,7 @@ length 10
 ====================
 \"Eh...?\"
 ====================
-\"Eh...?\"
+「诶…」
 ====================
 
 ====================
@@ -3617,7 +3617,7 @@ length 18
 ====================
 \"I forgive you.\"
 ====================
-\"I forgive you.\"
+「原谅你哦」
 ====================
 
 ====================
@@ -3628,7 +3628,7 @@ length 13
 ====================
 \"Kanako...\"
 ====================
-\"Kanako...\"
+「河南子…」
 ====================
 
 ====================
@@ -3639,7 +3639,7 @@ length 18
 ====================
 \"I forgive you.\"
 ====================
-\"I forgive you.\"
+「我原谅你」
 ====================
 
 ====================
@@ -3650,7 +3650,7 @@ length 28
 ====================
 \"I'm forgiving you, so...\"
 ====================
-\"I'm forgiving you, so...\"
+「我原谅你了…」
 ====================
 
 ====================
@@ -3661,7 +3661,7 @@ length 41
 ====================
 \"If you're suffering in your dreams...\"
 ====================
-\"If you're suffering in your dreams...\"
+「若你被梦折磨着的话…」
 ====================
 
 ====================
@@ -3672,7 +3672,7 @@ length 49
 ====================
 \"I'll be with you, like this, forgiving you...\"
 ====================
-\"I'll be with you, like this, forgiving you...\"
+「我就会像这样在你身边，原谅你的…」
 ====================
 
 ====================
@@ -3683,7 +3683,7 @@ length 28
 ====================
 \"I'll keep forgiving you.\"
 ====================
-\"I'll keep forgiving you.\"
+「会一直原谅你的」
 ====================
 
 ====================
@@ -3694,7 +3694,7 @@ length 23
 ====================
 \"So it's okay now...\"
 ====================
-\"So it's okay now...\"
+「所以，已足够了…」
 ====================
 
 ====================
@@ -3705,7 +3705,7 @@ length 68
 ====================
 \"That's enough... you don't need to run in your dreams anymore...\"
 ====================
-\"That's enough... you don't need to run in your dreams anymore...\"
+「已经无需…再在梦中飞奔了…」
 ====================
 
 ====================
@@ -3716,7 +3716,7 @@ length 14
 ====================
 \"I don't...\"
 ====================
-\"I don't...\"
+「就算…」
 ====================
 
 ====================
@@ -3727,7 +3727,7 @@ length 30
 ====================
 \"...need to run anymore...?\"
 ====================
-\"...need to run anymore...?\"
+「…不跑也可以了吗…？」
 ====================
 
 ====================
@@ -3738,7 +3738,7 @@ length 26
 ====================
 \"Yeah, it's okay now...\"
 ====================
-\"Yeah, it's okay now...\"
+「嗯，可以哦…」
 ====================
 
 ====================
@@ -3749,7 +3749,7 @@ length 27
 ====================
 \"I... don't need to win?\"
 ====================
-\"I... don't need to win?\"
+「即使…不赢也没关系吗？」
 ====================
 
 ====================
@@ -3760,7 +3760,7 @@ length 26
 ====================
 \"You don't need to win.\"
 ====================
-\"You don't need to win.\"
+「不赢也没关系哟」
 ====================
 
 ====================
@@ -3771,7 +3771,7 @@ length 53
 ====================
 \"I... don't need to be scared to dream anymore...?\"
 ====================
-\"I... don't need to be scared to dream anymore...?\"
+「已经…不用再害怕梦境了吗…？」
 ====================
 
 ====================
@@ -3782,7 +3782,7 @@ length 48
 ====================
 \"Yeah, you don't need to be scared anymore...\"
 ====================
-\"Yeah, you don't need to be scared anymore...\"
+「嗯，不用再害怕了…」
 ====================
 
 ====================
@@ -3793,7 +3793,7 @@ length 36
 ====================
 \"I forgive you... for everything.\"
 ====================
-\"I forgive you... for everything.\"
+「原谅…你的一切」
 ====================
 
 ====================
@@ -3804,7 +3804,7 @@ length 24
 ====================
 \"I forgive you, so...\"
 ====================
-\"I forgive you, so...\"
+「我全部都原谅你…」
 ====================
 
 ====================
@@ -3815,7 +3815,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+「………」
 ====================
 
 ====================
@@ -3826,7 +3826,7 @@ length 26
 ====================
 \"So you can rest now...\"
 ====================
-\"So you can rest now...\"
+「所以，你已可以休息了…」
 ====================
 
 ====================
@@ -3837,7 +3837,7 @@ length 24
 ====================
 \"Even in your dreams.\"
 ====================
-\"Even in your dreams.\"
+「梦境也该休止了」
 ====================
 
 ====================
@@ -3848,7 +3848,7 @@ length 17
 ====================
 \"...good work.\"
 ====================
-\"...good work.\"
+「…辛苦你了」
 ====================
 
 ====================
@@ -3859,7 +3859,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+「………」
 ====================
 
 ====================
@@ -3870,7 +3870,7 @@ length 11
 ====================
 \"Uwah...\"
 ====================
-\"Uwah...\"
+「呜…」
 ====================
 
 ====================
@@ -3881,7 +3881,7 @@ length 19
 ====================
 \"Uwaaaaaaaaah...\"
 ====================
-\"Uwaaaaaaaaah...\"
+「呜啊啊啊啊————…」
 ====================
 
 ====================
@@ -3892,7 +3892,7 @@ length 15
 ====================
 Takafumi cries.
 ====================
-Takafumi cries.
+鹰文哭了。
 ====================
 
 ====================
@@ -3903,7 +3903,7 @@ length 18
 ====================
 On Kanako's chest.
 ====================
-On Kanako's chest.
+在河南子的怀里。
 ====================
 
 ====================
@@ -3914,7 +3914,7 @@ length 36
 ====================
 He keeps calling his teacher's name.
 ====================
-He keeps calling his teacher's name.
+反复叫着恩师的名字。
 ====================
 
 ====================
@@ -3925,7 +3925,7 @@ length 88
 ====================
 After that, Takafumi formally asks Kanako, in front of us, to resume their relationship.
 ====================
-After that, Takafumi formally asks Kanako, in front of us, to resume their relationship.
+之后，鹰文在我们的面前，正式向河南子请求再次交往。
 ====================
 
 ====================
@@ -3936,7 +3936,7 @@ length 141
 ====================
 Up until now, Kanako always used foul language, but when he does this, for once she looks embarrassed and just nods and says, \"Yeah, sure.\"
 ====================
-Up until now, Kanako always used foul language, but when he does this, for once she looks embarrassed and just nods and says, \"Yeah, sure.\"
+之前一直对他恶言相向的河南子，此刻也一脸害羞地点头颔许道『嗯，可以哦』。
 ====================
 
 ====================
@@ -3947,7 +3947,7 @@ length 44
 ====================
 Her cheeks flush. She's so cute I'm jealous.
 ====================
-Her cheeks flush. She's so cute I'm jealous.
+那羞红的脸颊，几乎可爱到让人嫉妒。
 ====================
 
 ====================
@@ -3958,7 +3958,7 @@ length 68
 ====================
 It's pretty irritating, so I throw myself at Takafumi as I knee him.
 ====================
-It's pretty irritating, so I throw myself at Takafumi as I knee him.
+因为这场面实在是太令人窒息了，所以我一边踢着鹰文，一边朝他扑去。
 ====================
 
 ====================
@@ -3969,7 +3969,7 @@ length 56
 ====================
 As if overcome with emotion, Tomoyo embraces Kanako too.
 ====================
-As if overcome with emotion, Tomoyo embraces Kanako too.
+智代也极为感动地抱住了河南子。
 ====================
 
 ====================
@@ -3980,7 +3980,7 @@ length 64
 ====================
 And like that, Takafumi, who had been running for three years...
 ====================
-And like that, Takafumi, who had been running for three years...
+就这样，三年间不停奔跑着的鹰文…
 ====================
 
 ====================
@@ -3991,7 +3991,7 @@ length 24
 ====================
 Finally stopped running.
 ====================
-Finally stopped running.
+终于跑至终点了。
 ====================
 
 ====================
@@ -4002,7 +4002,7 @@ length 62
 ====================
 The tapping of a kitchen knife cutting comes from the kitchen.
 ====================
-The tapping of a kitchen knife cutting comes from the kitchen.
+厨房里传来了『咚咚』的切菜声。
 ====================
 
 ====================
@@ -4013,7 +4013,7 @@ length 31
 ====================
 It's the only sound I can hear.
 ====================
-It's the only sound I can hear.
+能听到的只有这些。
 ====================
 
 ====================
@@ -4024,7 +4024,7 @@ length 18
 ====================
 \"...it's quiet.\"
 ====================
-\"...it's quiet.\"
+「…好安静啊」
 ====================
 
 ====================
@@ -4035,7 +4035,7 @@ length 68
 ====================
 In the room, it's just me, Tomo, and Tomoyo, who's preparing dinner.
 ====================
-In the room, it's just me, Tomo, and Tomoyo, who's preparing dinner.
+房间里，只有正在准备晚饭的智代、小智和我三人。
 ====================
 
 ====================
@@ -4046,7 +4046,7 @@ length 37
 ====================
 Kanako has gone back to her own home.
 ====================
-Kanako has gone back to her own home.
+河南子回娘家了。
 ====================
 
 ====================
@@ -4057,7 +4057,7 @@ length 37
 ====================
 So that she can talk with her mother.
 ====================
-So that she can talk with her mother.
+为了和她母亲好好谈谈。
 ====================
 
 ====================
@@ -4068,7 +4068,7 @@ length 23
 ====================
 Takafumi went with her.
 ====================
-Takafumi went with her.
+鹰文也跟着去了。
 ====================
 
 ====================
@@ -4079,7 +4079,7 @@ length 8
 ====================
 \"Ngh.\"
 ====================
-\"Ngh.\"
+「嗯—」
 ====================
 
 ====================
@@ -4090,7 +4090,7 @@ length 32
 ====================
 Tomo stretches like she's tired.
 ====================
-Tomo stretches like she's tired.
+小智很困似的伸了个懒腰。
 ====================
 
 ====================
@@ -4101,7 +4101,7 @@ length 16
 ====================
 She seems bored.
 ====================
-She seems bored.
+看起来很无聊。
 ====================
 
 ====================
@@ -4112,5 +4112,5 @@ length 50
 ====================
 It used to be so lively, so that's to be expected.
 ====================
-It used to be so lively, so that's to be expected.
+毕竟曾经是那样热闹，这也是没办法的呢。
 ====================

@@ -9,7 +9,7 @@ length 17
 ====================
 Of course I have.
 ====================
-Of course I have.
+我当然有在等啊。
 ====================
 
 ====================
@@ -20,7 +20,7 @@ length 17
 ====================
 Of course I have.
 ====================
-Of course I have.
+我当然有在等啊。
 ====================
 
 ====================
@@ -31,7 +31,7 @@ length 32
 ====================
 You've always kept me waiting...
 ====================
-You've always kept me waiting...
+你总是让我一直等……
 ====================
 
 ====================
@@ -42,7 +42,7 @@ length 32
 ====================
 You've always kept me waiting...
 ====================
-You've always kept me waiting...
+你总是让我一直等……
 ====================
 
 ====================
@@ -53,7 +53,7 @@ length 41
 ====================
 After we broke up, it was eight months...
 ====================
-After we broke up, it was eight months...
+我们分手之后，我等了八个月……
 ====================
 
 ====================
@@ -64,7 +64,7 @@ length 41
 ====================
 After we broke up, it was eight months...
 ====================
-After we broke up, it was eight months...
+我们分手之后，我等了八个月……
 ====================
 
 ====================
@@ -75,7 +75,7 @@ length 43
 ====================
 After you passed out, it was three years...
 ====================
-After you passed out, it was three years...
+你昏过去之后，我等了三年……
 ====================
 
 ====================
@@ -86,7 +86,7 @@ length 43
 ====================
 After you passed out, it was three years...
 ====================
-After you passed out, it was three years...
+你昏过去之后，我等了三年……
 ====================
 
 ====================
@@ -97,7 +97,7 @@ length 28
 ====================
 And after you fell asleep...
 ====================
-And after you fell asleep...
+而你睡着之后……
 ====================
 
 ====================
@@ -108,7 +108,7 @@ length 28
 ====================
 And after you fell asleep...
 ====================
-And after you fell asleep...
+而你睡着之后……
 ====================
 
 ====================
@@ -119,7 +119,7 @@ length 47
 ====================
 Just how much longer do you want me to wait...?
 ====================
-Just how much longer do you want me to wait...?
+你到底还要让我等多久……？
 ====================
 
 ====================
@@ -130,7 +130,7 @@ length 47
 ====================
 Just how much longer do you want me to wait...?
 ====================
-Just how much longer do you want me to wait...?
+你到底还要让我等多久……？
 ====================
 
 ====================
@@ -141,7 +141,7 @@ length 20
 ====================
 I'm already... so...
 ====================
-I'm already... so...
+我已经……已经……
 ====================
 
 ====================
@@ -152,5 +152,5 @@ length 20
 ====================
 I'm already... so...
 ====================
-I'm already... so...
+我已经……已经……
 ====================

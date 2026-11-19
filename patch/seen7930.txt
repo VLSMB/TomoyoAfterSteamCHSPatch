@@ -9,7 +9,7 @@ length 26
 ====================
 \"That went well enough.\"
 ====================
-\"That went well enough.\"
+「干得还算马马虎虎嘛」
 ====================
 
 ====================
@@ -20,7 +20,7 @@ length 39
 ====================
 \"Did you follow us all the way here?\"
 ====================
-\"Did you follow us all the way here?\"
+「你这家伙也跟来了吗？」
 ====================
 
 ====================
@@ -31,7 +31,7 @@ length 43
 ====================
 \"Nah, I'm on the ground level right now.\"
 ====================
-\"Nah, I'm on the ground level right now.\"
+「不，我留还在地面上呢」
 ====================
 
 ====================
@@ -42,7 +42,7 @@ length 97
 ====================
 \"I'm just using magic to transmit my voice and image to you in these filthy bastards' hideout.\"
 ====================
-\"I'm just using magic to transmit my voice and image to you in these filthy bastards' hideout.\"
+「只是使用魔法，将影像和声音传到那群丑陋而又肮脏的混蛋们的这处巢穴而已」
 ====================
 
 ====================
@@ -53,7 +53,7 @@ length 80
 ====================
 \"Ugh, this is disgusting. I'm surprised you'd venture into this filthy place.\"
 ====================
-\"Ugh, this is disgusting. I'm surprised you'd venture into this filthy place.\"
+「啊—，真肮脏啊，为何如此肮脏啊，你们还真能进来呢」
 ====================
 
 ====================
@@ -64,7 +64,7 @@ length 45
 ====================
 \"Do not use such foul language, you idiot!\"
 ====================
-\"Do not use such foul language, you idiot!\"
+「饶不了你小子哦」
 ====================
 
 ====================
@@ -75,7 +75,7 @@ length 19
 ====================
 \"I'm very sorry.\"
 ====================
-\"I'm very sorry.\"
+「非常抱歉」
 ====================
 
 ====================
@@ -86,7 +86,7 @@ length 36
 ====================
 \"What's with this laid-back mood?\"
 ====================
-\"What's with this laid-back mood?\"
+「到底怎么啦，如此悠闲的感觉究竟是…」
 ====================
 
 ====================
@@ -97,7 +97,7 @@ length 39
 ====================
 \"Now then, let's organize our items.\"
 ====================
-\"Now then, let's organize our items.\"
+「那么，先整理下物品吧」
 ====================
 
 ====================
@@ -108,7 +108,7 @@ length 70
 ====================
 \"Have you noticed the almond tofu pudding mixed in with your items?\"
 ====================
-\"Have you noticed the almond tofu pudding mixed in with your items?\"
+「其中也混杂着杏仁豆腐吧？」
 ====================
 
 ====================
@@ -119,7 +119,7 @@ length 68
 ====================
 \"You'll find that a lot of those player-slaying bastards have it.\"
 ====================
-\"You'll find that a lot of those player-slaying bastards have it.\"
+「这就是至今已打击了众多冒险者的，那群家伙的陋习了」
 ====================
 
 ====================
@@ -130,7 +130,7 @@ length 50
 ====================
 \"I'm sorry, but can I speak like I normally do?\"
 ====================
-\"I'm sorry, but can I speak like I normally do?\"
+「不好意思，我可以恢复原来的语气吗」
 ====================
 
 ====================
@@ -141,7 +141,7 @@ length 16
 ====================
 \"If you must.\"
 ====================
-\"If you must.\"
+「恩准」
 ====================
 
 ====================
@@ -152,7 +152,7 @@ length 33
 ====================
 \"It's those bastards' habit...\"
 ====================
-\"It's those bastards' habit...\"
+「这就是那群混蛋的陋习了…」
 ====================
 
 ====================
@@ -163,7 +163,7 @@ length 26
 ====================
 \"Damn those bastards...\"
 ====================
-\"Damn those bastards...\"
+「我×，那群混蛋…」
 ====================
 
 ====================
@@ -174,7 +174,7 @@ length 51
 ====================
 \"I think it would be better if you don't switch.\"
 ====================
-\"I think it would be better if you don't switch.\"
+「我觉得还是不恢复语气比较好」
 ====================
 
 ====================
@@ -185,7 +185,7 @@ length 82
 ====================
 \"Those bastards mold their almond tofu pudding after real weapons they've seen.\"
 ====================
-\"Those bastards mold their almond tofu pudding after real weapons they've seen.\"
+「那群混蛋根据真正的武器，仿造了同样形状的杏仁豆腐」
 ====================
 
 ====================
@@ -196,7 +196,7 @@ length 53
 ====================
 \"You just want to call them 'bastards', don't you?\"
 ====================
-\"You just want to call them 'bastards', don't you?\"
+「你就只是想说『那群混蛋』吧」
 ====================
 
 ====================
@@ -207,7 +207,7 @@ length 125
 ====================
 \"Their technique is godly. Amateurs like you can't understand how delicate the process of production without ingestion is.\"
 ====================
-\"Their technique is godly. Amateurs like you can't understand how delicate the process of production without ingestion is.\"
+「这技术还真是鬼斧神工啊。这可是对外行人而言，不吃吃看的话，根本不会发觉的精湛技艺啊」
 ====================
 
 ====================
@@ -218,7 +218,7 @@ length 96
 ====================
 \"It's an awful shock to get a rare item, only to discover that it's just almond tofu pudding.\"
 ====================
-\"It's an awful shock to get a rare item, only to discover that it's just almond tofu pudding.\"
+「尤其是当获得稀有物品，却得知这不过是杏仁豆腐之时，此种打击可是异常巨大的」
 ====================
 
 ====================
@@ -229,7 +229,7 @@ length 69
 ====================
 \"Still, if you equip it, the bastards' craftsmanship really shows.\"
 ====================
-\"Still, if you equip it, the bastards' craftsmanship really shows.\"
+「不过，好歹也能凑合着用，毕竟其中也蕴含着那群混蛋的工匠之魂」
 ====================
 
 ====================
@@ -240,7 +240,7 @@ length 30
 ====================
 \"Eh? I can fight with this?\"
 ====================
-\"Eh? I can fight with this?\"
+「诶，这些也能用于战斗吗？」
 ====================
 
 ====================
@@ -251,7 +251,7 @@ length 56
 ====================
 \"It's no match for the real thing, but you'll get by.\"
 ====================
-\"It's no match for the real thing, but you'll get by.\"
+「虽说比不上真家伙，但也算差不多了啦」
 ====================
 
 ====================
@@ -262,7 +262,7 @@ length 28
 ====================
 \"They sure are amazing...\"
 ====================
-\"They sure are amazing...\"
+「那些家伙还真牛×哪…」
 ====================
 
 ====================
@@ -273,7 +273,7 @@ length 86
 ====================
 \"When they have time, they heat the almond tofu pudding in the pots on their heads.\"
 ====================
-\"When they have time, they heat the almond tofu pudding in the pots on their heads.\"
+「若是闲暇之时，他们也会用头上的锅，把这些杏仁豆腐咕噜咕噜地煮着吃的」
 ====================
 
 ====================
@@ -284,7 +284,7 @@ length 31
 ====================
 \"Eh? Is that why it's there?\"
 ====================
-\"Eh? Is that why it's there?\"
+「诶，那算什么设定啊」
 ====================
 
 ====================
@@ -295,7 +295,7 @@ length 100
 ====================
 \"It's a testament to their ability that half the pots of this country are here in this labyrinth.\"
 ====================
-\"It's a testament to their ability that half the pots of this country are here in this labyrinth.\"
+「据说这个国家的锅大约有5成在这地下，还真该尊敬那些工匠的敬业精神呢」
 ====================
 
 ====================
@@ -306,7 +306,7 @@ length 48
 ====================
 \"I'm understanding the enemy less and less...\"
 ====================
-\"I'm understanding the enemy less and less...\"
+「越来越搞不清敌人究竟是什么了…」
 ====================
 
 ====================
@@ -317,7 +317,7 @@ length 54
 ====================
 \"Let me continue the item tutorial for you novices.\"
 ====================
-\"Let me continue the item tutorial for you novices.\"
+「继续为你们这些初学者解说物品吧」
 ====================
 
 ====================
@@ -328,7 +328,7 @@ length 81
 ====================
 \"On the post-battle rewards screen, there's a list of items and their weights.\"
 ====================
-\"On the post-battle rewards screen, there's a list of items and their weights.\"
+「在战斗结束后出现的战利品画面上，每项物品旁都标有重量值和确认框」
 ====================
 
 ====================
@@ -339,7 +339,7 @@ length 91
 ====================
 \"If a checkbox is marked, you'll be taking that item. Unchecked items will be discarded.\"
 ====================
-\"If a checkbox is marked, you'll be taking that item. Unchecked items will be discarded.\"
+「在确认框中勾上绿色标记的，就是要拿去的物品。没有选中的就是要扔掉的物品」
 ====================
 
 ====================
@@ -350,7 +350,7 @@ length 51
 ====================
 \"You can toggle the checkbox with a mouse click.\"
 ====================
-\"You can toggle the checkbox with a mouse click.\"
+「可以点击鼠标，来切换是否选中」
 ====================
 
 ====================
@@ -361,7 +361,7 @@ length 122
 ====================
 \"Since you don't have anything right now, everything's checked by default, and you can take all of the spoils with you.\"
 ====================
-\"Since you don't have anything right now, everything's checked by default, and you can take all of the spoils with you.\"
+「因为此时还处于什么都没有的状态，所以默认是全部选中的，可以拿走所有的战利品」
 ====================
 
 ====================
@@ -372,7 +372,7 @@ length 44
 ====================
 \"However, it won't be as simple later on.\"
 ====================
-\"However, it won't be as simple later on.\"
+「然而，之后可没这么简单了」
 ====================
 
 ====================
@@ -383,7 +383,7 @@ length 6
 ====================
 \"The 
 ====================
-\"The 
+「携带总重量
 ====================
 
 ====================
@@ -394,7 +394,7 @@ length 15
 ====================
 'Total Weight' 
 ====================
-'Total Weight' 
+(Total Weight)
 ====================
 
 ====================
@@ -405,7 +405,7 @@ length 58
 ====================
 that you can carry is calculated from your party members' 
 ====================
-that you can carry is calculated from your party members' 
+是全员的 CPW 值之和，
 ====================
 
 ====================
@@ -416,7 +416,7 @@ length 5
 ====================
 CPW. 
 ====================
-CPW. 
+超过这个值
 ====================
 
 ====================
@@ -427,7 +427,7 @@ length 60
 ====================
 You can't pick up anything that'll put you over the limit.\"
 ====================
-You can't pick up anything that'll put you over the limit.\"
+就拿不动了」
 ====================
 
 ====================
@@ -438,7 +438,7 @@ length 113
 ====================
 \"In the Rewards screen, you'll have to choose which items to keep based on their weight and your Total Weight.\"
 ====================
-\"In the Rewards screen, you'll have to choose which items to keep based on their weight and your Total Weight.\"
+「一边看着物品的重量和总重量，一边在战利品画面中决定要拿走和扔弃的物品」
 ====================
 
 ====================
@@ -449,7 +449,7 @@ length 114
 ====================
 \"It's hard to decide which items to keep when you have a limit, but think of it as part of the game's strategy.\"
 ====================
-\"It's hard to decide which items to keep when you have a limit, but think of it as part of the game's strategy.\"
+「虽然在负重范围内安排所持物品很是麻烦，但就当作这也是攻略的一部分吧」
 ====================
 
 ====================
@@ -460,7 +460,7 @@ length 94
 ====================
 \"If you have a healing potion, you can select the potion from your items to recover health.\"
 ====================
-\"If you have a healing potion, you can select the potion from your items to recover health.\"
+「此外，倘若得到回复药的话，使用物品中的药，即可回复生命值」
 ====================
 
 ====================
@@ -471,7 +471,7 @@ length 61
 ====================
 \"You can equip any weapons and armor you find immediately.\"
 ====================
-\"You can equip any weapons and armor you find immediately.\"
+「到手的武器和防具可立即装备」
 ====================
 
 ====================
@@ -482,7 +482,7 @@ length 117
 ====================
 \"Once you are done organizing your items and healing, you can choose to either go on to the next floor or retreat.\"
 ====================
-\"Once you are done organizing your items and healing, you can choose to either go on to the next floor or retreat.\"
+「整理完物品并回复完毕后，即可选择进军下一层，亦或撤退」
 ====================
 
 ====================
@@ -493,7 +493,7 @@ length 93
 ====================
 \"If you're worn out and can't recover your health, you should retreat to the ground level.\"
 ====================
-\"If you're worn out and can't recover your health, you should retreat to the ground level.\"
+「若未好好回复生命值，导致处于伤痕累累的状态的话，也就会想撤回地面了吧」
 ====================
 
 ====================
@@ -504,7 +504,7 @@ length 141
 ====================
 \"At the ground level, everything, including your health and used skills, will be restored. You can only save and load on the ground level.\"
 ====================
-\"At the ground level, everything, including your health and used skills, will be restored. You can only save and load on the ground level.\"
+「到了地面，生命值和使用过的技能都将回复。此外，记录的存储与读取也仅限于地面」
 ====================
 
 ====================
@@ -515,7 +515,7 @@ length 124
 ====================
 \"But if you just retreat without doing anything, new beastmen will emerge from the depths, and sentries will be replaced.\"
 ====================
-\"But if you just retreat without doing anything, new beastmen will emerge from the depths, and sentries will be replaced.\"
+「不过，假若什么都不做就返回地面，马上又会有新的兽人从地底深处爬上来，怪物的部署又会恢复原样」
 ====================
 
 ====================
@@ -526,7 +526,7 @@ length 56
 ====================
 \"Then you'll have to start over from the beginning...\"
 ====================
-\"Then you'll have to start over from the beginning...\"
+「如此一来，攻略又将从头开始…」
 ====================
 
 ====================
@@ -537,7 +537,7 @@ length 49
 ====================
 \"That's where our master, Tomo-sama, comes in.\"
 ====================
-\"That's where our master, Tomo-sama, comes in.\"
+「因此，届时就该由我们的MASTER——小智殿下登场了」
 ====================
 
 ====================
@@ -548,7 +548,7 @@ length 71
 ====================
 \"She can cast the Almighty Magic 'Floor Lock' with her sacred hands.\"
 ====================
-\"She can cast the Almighty Magic 'Floor Lock' with her sacred hands.\"
+「借由她的御手，释放超高位魔法『FLOOR LOCK（地层锁定）』」
 ====================
 
 ====================
@@ -559,7 +559,7 @@ length 109
 ====================
 \"Just as the name implies, it's a spell that locks the floor down and stops those bastards from coming up.\"
 ====================
-\"Just as the name implies, it's a spell that locks the floor down and stops those bastards from coming up.\"
+「正如其名，此项技能是封锁地层，让那群混蛋无法再上来的魔法」
 ====================
 
 ====================
@@ -570,7 +570,7 @@ length 57
 ====================
 \"It doesn't sound like there's any other use for it...\"
 ====================
-\"It doesn't sound like there's any other use for it...\"
+「貌似是派不上其他用途的魔法啊…」
 ====================
 
 ====================
@@ -581,7 +581,7 @@ length 110
 ====================
 \"However, because it is an Almighty Magic and very high-level spell, you can only use it every five floors.\"
 ====================
-\"However, because it is an Almighty Magic and very high-level spell, you can only use it every five floors.\"
+「但是，因为这个魔法是很难掌握的超高位魔法，所以只能在5的倍数层才能施放」
 ====================
 
 ====================
@@ -592,7 +592,7 @@ length 60
 ====================
 \"Which means... you'll have to clear five floors at once.\"
 ====================
-\"Which means... you'll have to clear five floors at once.\"
+「也就是说…必须一口气打通5层」
 ====================
 
 ====================
@@ -603,7 +603,7 @@ length 158
 ====================
 \"If you return to the ground level halfway through, then you'll have to start over from the floor after the one where you last cast Floor Lock. Be careful.\"
 ====================
-\"If you return to the ground level halfway through, then you'll have to start over from the floor after the one where you last cast Floor Lock. Be careful.\"
+「假若中途折回地面的话，就要从上次释放FLOOR LOCK的下一层开始重打一次…请务必注意」
 ====================
 
 ====================
@@ -614,7 +614,7 @@ length 137
 ====================
 \"Yet, on the other hand, you can use that to earn as much experience as you want. Do that if you just want to breeze through the game.\"
 ====================
-\"Yet, on the other hand, you can use that to earn as much experience as you want. Do that if you just want to breeze through the game.\"
+「不过，反过来利用这点的话，无论多少经验值都可借此反复获得。如果只想无意义地攻略的话，这么做也可」
 ====================
 
 ====================
@@ -625,7 +625,7 @@ length 43
 ====================
 \"So? How many floors are there in total?\"
 ====================
-\"So? How many floors are there in total?\"
+「那么，最终要下到第几层呢？」
 ====================
 
 ====================
@@ -636,7 +636,7 @@ length 104
 ====================
 \"Nobody knows. Well, I know, because I'm the creator, but it'll kill the suspense if I just tell you.\"
 ====================
-\"Nobody knows. Well, I know, because I'm the creator, but it'll kill the suspense if I just tell you.\"
+「…这可不清楚。不，身为制作者的我虽说知道，但倘若告诉你们的话，岂不很扫兴啊」
 ====================
 
 ====================
@@ -647,7 +647,7 @@ length 23
 ====================
 \"You already have...\"
 ====================
-\"You already have...\"
+「早就扫完了…」
 ====================
 
 ====================
@@ -658,7 +658,7 @@ length 55
 ====================
 \"Now, decide whether you want to advance or retreat.\"
 ====================
-\"Now, decide whether you want to advance or retreat.\"
+「那么，是进军，还是撤退，好好选择吧」
 ====================
 
 ====================
@@ -669,7 +669,7 @@ length 67
 ====================
 \"If you want to retreat, click the Retreat button on the bottom.\"
 ====================
-\"If you want to retreat, click the Retreat button on the bottom.\"
+「要撤退的话，点击最下方的『撤退』按钮即可」
 ====================
 
 ====================
@@ -680,7 +680,7 @@ length 40
 ====================
 \"You can also Retreat during battles.\"
 ====================
-\"You can also Retreat during battles.\"
+「即便在战斗中，也可随时『撤退』」
 ====================
 
 ====================
@@ -691,7 +691,7 @@ length 136
 ====================
 \"Even if you're on the brink of defeat, you can still win a battle by using your skills. Even if your health is at 1. Give it a shot.\"
 ====================
-\"Even if you're on the brink of defeat, you can still win a battle by using your skills. Even if your health is at 1. Give it a shot.\"
+「就算身处伤痕累累的状态，但若善用技能的话，仍能反败为胜。就算仅剩1的生命值时，也不妨试着挑战一下吧」
 ====================
 
 ====================
@@ -702,7 +702,7 @@ length 64
 ====================
 \"If you choose to keep fighting, try using a skill this time.\"
 ====================
-\"If you choose to keep fighting, try using a skill this time.\"
+「若选择继续战斗的话，这次就试试技能吧」
 ====================
 
 ====================
@@ -713,7 +713,7 @@ length 97
 ====================
 \"Tomoya's starting skill is 'Guts', Tomoyo's is 'Seriousness', and Kanako's is 'High Tension'.\"
 ====================
-\"Tomoya's starting skill is 'Guts', Tomoyo's is 'Seriousness', and Kanako's is 'High Tension'.\"
+「朋也有『毅力爆发』，智代有『动真格』，河南子有『异常兴奋』」
 ====================
 
 ====================
@@ -724,7 +724,7 @@ length 18
 ====================
 \"Just leave your 
 ====================
-\"Just leave your 
+「LAST ACTION
 ====================
 
 ====================
@@ -735,7 +735,7 @@ length 12
 ====================
 LAST ACTION 
 ====================
-LAST ACTION 
+照样设定为『驱逐』即可。
 ====================
 
 ====================
@@ -746,7 +746,7 @@ length 91
 ====================
 as 'Attack'. If you have nothing else for your Warrior-types to do, leave it on 'Attack'.\"
 ====================
-as 'Attack'. If you have nothing else for your Warrior-types to do, leave it on 'Attack'.\"
+战士系职业的，若无特别之事的话，只用『驱逐』就行了」
 ====================
 
 ====================
@@ -757,7 +757,7 @@ length 112
 ====================
 \"As for Tomo, place her in the back so that enemies can't reach her, and try out 'Search' for your LAST ACTION.
 ====================
-\"As for Tomo, place her in the back so that enemies can't reach her, and try out 'Search' for your LAST ACTION.
+「至于小智，为避免成为敌人的目标，最好将其部署在后方，LAST ACTION 也可试着设为『探索』
 ====================
 
 ====================
@@ -768,7 +768,7 @@ length 2
 ====================
 \"
 ====================
-\"
+」
 ====================
 
 ====================
@@ -779,7 +779,7 @@ length 62
 ====================
 \"By using Search, you can find more items after each round.\"
 ====================
-\"By using Search, you can find more items after each round.\"
+「比起不探索的场合，这样可以获得更多的物品」
 ====================
 
 ====================
@@ -790,7 +790,7 @@ length 33
 ====================
 \"That's all for this tutorial.\"
 ====================
-\"That's all for this tutorial.\"
+「这次的说明就到此为止了」
 ====================
 
 ====================
@@ -801,7 +801,7 @@ length 81
 ====================
 \"Now, go forth, brave souls, and fulfill the destiny given to you by Takafumi!\"
 ====================
-\"Now, go forth, brave souls, and fulfill the destiny given to you by Takafumi!\"
+「好了，出发！肩负鹰文命运的诸位勇士！」
 ====================
 
 ====================
@@ -812,7 +812,7 @@ length 78
 ====================
 \"How are you holding up? You should've won if you followed my instructions.\"
 ====================
-\"How are you holding up? You should've won if you followed my instructions.\"
+「感觉如何？若依我所言，定能取胜的吧」
 ====================
 
 ====================
@@ -823,7 +823,7 @@ length 60
 ====================
 \"You should also have leveled up and learned a new skill.\"
 ====================
-\"You should also have leveled up and learned a new skill.\"
+「这次升级后，就能领悟新的技能了」
 ====================
 
 ====================
@@ -834,7 +834,7 @@ length 109
 ====================
 \"Note that your skills are stackable. In fact, I would say that this is essential to success in this game.\"
 ====================
-\"Note that your skills are stackable. In fact, I would say that this is essential to success in this game.\"
+「原则上来说，技能可以重叠。或者说，这才是这款游戏的精髓」
 ====================
 
 ====================
@@ -845,7 +845,7 @@ length 125
 ====================
 \"The more skills you stack, the bigger the ring shining around your characters will be, and the stronger they will become.\"
 ====================
-\"The more skills you stack, the bigger the ring shining around your characters will be, and the stronger they will become.\"
+「重叠的技能越多，环绕角色的光环就会越大，角色也越强」
 ====================
 
 ====================
@@ -856,7 +856,7 @@ length 130
 ====================
 \"But once you use a skill, you can't use it again until you return to the ground level. Plan your uses with the future in mind.\"
 ====================
-\"But once you use a skill, you can't use it again until you return to the ground level. Plan your uses with the future in mind.\"
+「但由于已施放过一次的技能，在返回地面前都不可再次使用，所以必须考虑之后的情形，有计划地使用」
 ====================
 
 ====================
@@ -867,7 +867,7 @@ length 91
 ====================
 \"Also, you need to consider how you'll distribute your bonus points when you level up...\"
 ====================
-\"Also, you need to consider how you'll distribute your bonus points when you level up...\"
+「此外，还得斟酌如何分配升级时的属性点…」
 ====================
 
 ====================
@@ -878,7 +878,7 @@ length 86
 ====================
 \"You'll have a hard time as a swordsman later on if you only raise your ATK (Attack).
 ====================
-\"You'll have a hard time as a swordsman later on if you only raise your ATK (Attack).
+「就算是对剑士而言，若一个劲提升ATK（攻击力）的话，后期也会格外艰辛的
 ====================
 
 ====================
@@ -889,7 +889,7 @@ length 2
 ====================
 \"
 ====================
-\"
+」
 ====================
 
 ====================
@@ -900,7 +900,7 @@ length 99
 ====================
 \"DEF (Defense) and DEX (Dexterity) are also important. If your attacks miss a lot, raise your DEX.
 ====================
-\"DEF (Defense) and DEX (Dexterity) are also important. If your attacks miss a lot, raise your DEX.
+「DEF（防御力）和DEX（敏捷度）也很重要。若攻击经常Miss（未命中）的话，就加点DEX吧
 ====================
 
 ====================
@@ -911,7 +911,7 @@ length 2
 ====================
 \"
 ====================
-\"
+」
 ====================
 
 ====================
@@ -922,7 +922,7 @@ length 110
 ====================
 \"If you want to increase the maximum weight you can carry, spend your bonus points on your CPW (Carry Power).
 ====================
-\"If you want to increase the maximum weight you can carry, spend your bonus points on your CPW (Carry Power).
+「若想增加可携带物品的重量的话，提升CPW即可
 ====================
 
 ====================
@@ -933,7 +933,7 @@ length 2
 ====================
 \"
 ====================
-\"
+」
 ====================
 
 ====================
@@ -944,7 +944,7 @@ length 57
 ====================
 \"By the way, you can also skip messages during battle.\"
 ====================
-\"By the way, you can also skip messages during battle.\"
+「另外，即便在战斗中，Message Skip（讯息快进）也有效」
 ====================
 
 ====================
@@ -955,7 +955,7 @@ length 115
 ====================
 \"Once you get used to fighting, you can hold down your Ctrl key to speed up your battles. That's what I recommend.
 ====================
-\"Once you get used to fighting, you can hold down your Ctrl key to speed up your battles. That's what I recommend.
+「习惯之后，按着CTRL键就能快速战斗了。这也是推荐玩法
 ====================
 
 ====================
@@ -966,7 +966,7 @@ length 2
 ====================
 \"
 ====================
-\"
+」
 ====================
 
 ====================
@@ -977,7 +977,7 @@ length 32
 ====================
 \"This concludes the tutorial.\"
 ====================
-\"This concludes the tutorial.\"
+「面向初学者的说明就至此完结了」
 ====================
 
 ====================
@@ -988,7 +988,7 @@ length 108
 ====================
 \"Now, keep going. We'll talk about your journey through the floors when you return to the ground level...\"
 ====================
-\"Now, keep going. We'll talk about your journey through the floors when you return to the ground level...\"
+「继续向下深入吧，有关攻略的话就留到地面上再说吧…」
 ====================
 
 ====================
@@ -999,7 +999,7 @@ length 81
 ====================
 \"Now, go forth, brave souls, and fulfill the destiny given to you by Takafumi!\"
 ====================
-\"Now, go forth, brave souls, and fulfill the destiny given to you by Takafumi!\"
+「好了，出发！肩负鹰文命运的诸位勇士！」
 ====================
 
 ====================
@@ -1010,7 +1010,7 @@ length 63
 ====================
 \"All right, we got through! Cast that 'Whatever Lock' spell.\"
 ====================
-\"All right, we got through! Cast that 'Whatever Lock' spell.\"
+「好，攻破了，设法施放那个什么LOCK的魔法吧」
 ====================
 
 ====================
@@ -1021,7 +1021,7 @@ length 27
 ====================
 \"Certainly, here I go...\"
 ====================
-\"Certainly, here I go...\"
+「嗯，让我来…」
 ====================
 
 ====================
@@ -1032,7 +1032,7 @@ length 36
 ====================
 \"Almighty Magic... Floor Loooock!\"
 ====================
-\"Almighty Magic... Floor Loooock!\"
+「超高位魔法…FLOOR LO———————CK！」
 ====================
 
 ====================
@@ -1043,7 +1043,7 @@ length 25
 ====================
 \"Excellent work, guys!\"
 ====================
-\"Excellent work, guys!\"
+「诸位，干得不错！」
 ====================
 
 ====================
@@ -1054,7 +1054,7 @@ length 34
 ====================
 \"Oh, are you the real Takafumi?\"
 ====================
-\"Oh, are you the real Takafumi?\"
+「喔，是真正的鹰文吗—」
 ====================
 
 ====================
@@ -1065,7 +1065,7 @@ length 85
 ====================
 \"No, I am No. 071, who possesses the emotion 'Joy'. Haha, I'm happy for no reason.\"
 ====================
-\"No, I am No. 071, who possesses the emotion 'Joy'. Haha, I'm happy for no reason.\"
+「不，我是掌控『愉快』这一感情的第071号，哈哈—，莫名其妙地开心呀—」
 ====================
 
 ====================
@@ -1076,7 +1076,7 @@ length 42
 ====================
 \"Another guy who's hard to deal with...\"
 ====================
-\"Another guy who's hard to deal with...\"
+「又来了个麻烦的家伙呐…」
 ====================
 
 ====================
@@ -1087,7 +1087,7 @@ length 68
 ====================
 \"Now, I will be your operator from here on out. Keep it up, haha.\"
 ====================
-\"Now, I will be your operator from here on out. Keep it up, haha.\"
+「那么，之后就由我来解说了，加油啊，哈哈—」
 ====================
 
 ====================
@@ -1098,7 +1098,7 @@ length 37
 ====================
 \"I've lost the will to keep going.\"
 ====================
-\"I've lost the will to keep going.\"
+「感觉干劲全无了哟」
 ====================
 
 ====================
@@ -1109,7 +1109,7 @@ length 46
 ====================
 \"And? Is No. 054 still nowhere to be found?\"
 ====================
-\"And? Is No. 054 still nowhere to be found?\"
+「话说回来，还找不到第054号吗」
 ====================
 
 ====================
@@ -1120,7 +1120,7 @@ length 54
 ====================
 \"There's no way he's on a floor this high up, haha.\"
 ====================
-\"There's no way he's on a floor this high up, haha.\"
+「他哪能在这么低的地层嘛，哈哈—」
 ====================
 
 ====================
@@ -1131,7 +1131,7 @@ length 94
 ====================
 \"That melancholic guy back then felt like he was a better fit for this game's atmosphere...\"
 ====================
-\"That melancholic guy back then felt like he was a better fit for this game's atmosphere...\"
+「感觉刚才那个忧郁的家伙，更符合这个游戏的气氛啊…」
 ====================
 
 ====================
@@ -1142,7 +1142,7 @@ length 152
 ====================
 \"Well then, keep it up and go for the tenth floor! Haha. I wonder what these people are working their socks off for. They must be out of their minds.\"
 ====================
-\"Well then, keep it up and go for the tenth floor! Haha. I wonder what these people are working their socks off for. They must be out of their minds.\"
+「那么，接下来以突破地下第10层为目标努力吧！哈哈—，这些人究竟在为何努力啊，想想就觉得可笑啊—」
 ====================
 
 ====================
@@ -1153,7 +1153,7 @@ length 18
 ====================
 \"May I cut you?\"
 ====================
-\"May I cut you?\"
+「我可以把你剁了吗」
 ====================
 
 ====================
@@ -1164,7 +1164,7 @@ length 28
 ====================
 \"Move aside. Here I go...\"
 ====================
-\"Move aside. Here I go...\"
+「闪开，施法啰…」
 ====================
 
 ====================
@@ -1175,7 +1175,7 @@ length 36
 ====================
 \"Almighty Magic... Floor Loooock!\"
 ====================
-\"Almighty Magic... Floor Loooock!\"
+「超高位魔法…FLOOR LO———————CK！」
 ====================
 
 ====================
@@ -1186,7 +1186,7 @@ length 50
 ====================
 \"Awesome! You guys actually beat that just now!\"
 ====================
-\"Awesome! You guys actually beat that just now!\"
+「好厉害—，刚才竟能打赢啊！！」
 ====================
 
 ====================
@@ -1197,7 +1197,7 @@ length 34
 ====================
 \"Oh, are you the real Takafumi?\"
 ====================
-\"Oh, are you the real Takafumi?\"
+「喔，是真正的鹰文吗—」
 ====================
 
 ====================
@@ -1208,7 +1208,7 @@ length 89
 ====================
 \"No, I am No. 075, who possesses the emotion 'Surprise'. Man, that was really awesome!\"
 ====================
-\"No, I am No. 075, who possesses the emotion 'Surprise'. Man, that was really awesome!\"
+「不，其实我是掌控『惊讶』这一感情的第075号哟—，哎呀，话说回来你们还真厉害啊！」
 ====================
 
 ====================
@@ -1219,7 +1219,7 @@ length 42
 ====================
 \"Another guy who's hard to deal with...\"
 ====================
-\"Another guy who's hard to deal with...\"
+「又来了个麻烦的家伙呐…」
 ====================
 
 ====================
@@ -1230,7 +1230,7 @@ length 67
 ====================
 \"It seems I'll be your operator from here on out. Is that true?!\"
 ====================
-\"It seems I'll be your operator from here on out. Is that true?!\"
+「听说好像之后是由我来解说啊，真的假的—！？」
 ====================
 
 ====================
@@ -1241,7 +1241,7 @@ length 22
 ====================
 \"Yeah, that's true.\"
 ====================
-\"Yeah, that's true.\"
+「真的真的」
 ====================
 
 ====================
@@ -1252,7 +1252,7 @@ length 32
 ====================
 \"Really? Nobody told me that!\"
 ====================
-\"Really? Nobody told me that!\"
+「咦—，我怎么一点都没听说过啊—！」
 ====================
 
 ====================
@@ -1263,7 +1263,7 @@ length 46
 ====================
 \"And? Is No. 054 still nowhere to be found?\"
 ====================
-\"And? Is No. 054 still nowhere to be found?\"
+「话说回来，还找不到第054号吗」
 ====================
 
 ====================
@@ -1274,7 +1274,7 @@ length 61
 ====================
 \"If he's on a floor this high up, even I would be shocked!\"
 ====================
-\"If he's on a floor this high up, even I would be shocked!\"
+「若在这么低的地层的话，我会很惊讶的！」
 ====================
 
 ====================
@@ -1285,7 +1285,7 @@ length 29
 ====================
 \"You're already shocked...\"
 ====================
-\"You're already shocked...\"
+「你已经十分惊讶了…」
 ====================
 
 ====================
@@ -1296,7 +1296,7 @@ length 33
 ====================
 \"Huh? Hold up. Hey, you there!\"
 ====================
-\"Huh? Hold up. Hey, you there!\"
+「咦，稍等稍等，那边那位！」
 ====================
 
 ====================
@@ -1307,7 +1307,7 @@ length 11
 ====================
 \"Eh, me?\"
 ====================
-\"Eh, me?\"
+「诶，说我吗？」
 ====================
 
 ====================
@@ -1318,7 +1318,7 @@ length 28
 ====================
 \"Aren't you the princess?\"
 ====================
-\"Aren't you the princess?\"
+「你不是公主吗？！」
 ====================
 
 ====================
@@ -1329,7 +1329,7 @@ length 25
 ====================
 \"Crap... he found out.\"
 ====================
-\"Crap... he found out.\"
+「切—…被发现了吗」
 ====================
 
 ====================
@@ -1340,7 +1340,7 @@ length 87
 ====================
 \"Oh my. I couldn't discern it with her hair tied up, but she is indeed the princess.\"
 ====================
-\"Oh my. I couldn't discern it with her hair tied up, but she is indeed the princess.\"
+「喔—，扎着头发一直没发现啊。确实是公主呀」
 ====================
 
 ====================
@@ -1351,7 +1351,7 @@ length 109
 ====================
 \"What's with this? I thought she was just another regular character, but she was hiding a secret that big!\"
 ====================
-\"What's with this? I thought she was just another regular character, but she was hiding a secret that big!\"
+「搞什么嘛，原以为是个不起眼的角色，没想到居然也有这种隐藏设定啊！」
 ====================
 
 ====================
@@ -1362,7 +1362,7 @@ length 38
 ====================
 \"If that's true, then I'm the king!\"
 ====================
-\"If that's true, then I'm the king!\"
+「那么，我就是国王了！」
 ====================
 
 ====================
@@ -1373,7 +1373,7 @@ length 24
 ====================
 \"He lies. Behead him!\"
 ====================
-\"He lies. Behead him!\"
+「这可是欺君之罪啊，拖出去砍了喂狗」
 ====================
 
 ====================
@@ -1384,7 +1384,7 @@ length 11
 ====================
 \"No way!\"
 ====================
-\"No way!\"
+「不会吧—！！」
 ====================
 
 ====================
@@ -1395,7 +1395,7 @@ length 47
 ====================
 \"So, Your Highness, what are you doing here?\"
 ====================
-\"So, Your Highness, what are you doing here?\"
+「话说回来，公主为何在此！」
 ====================
 
 ====================
@@ -1406,7 +1406,7 @@ length 53
 ====================
 \"Well, how do I put it? Taking my mind off things?\"
 ====================
-\"Well, how do I put it? Taking my mind off things?\"
+「诶，啊—，怎么说呢，来散心的？」
 ====================
 
 ====================
@@ -1417,7 +1417,7 @@ length 97
 ====================
 \"You know how I have a lot of official duties? It's very stressful, so I'm here to let it out.\"
 ====================
-\"You know how I have a lot of official duties? It's very stressful, so I'm here to let it out.\"
+「你看，我这不是事务缠身嘛。心情郁闷惨了，所以来此大干一场嘛」
 ====================
 
 ====================
@@ -1428,7 +1428,7 @@ length 27
 ====================
 \"That's a lie, isn't it?\"
 ====================
-\"That's a lie, isn't it?\"
+「那是骗人的吧」
 ====================
 
 ====================
@@ -1439,7 +1439,7 @@ length 37
 ====================
 \"Hm? I've seen your face before...\"
 ====================
-\"Hm? I've seen your face before...\"
+「嗯，这张脸好眼熟啊…」
 ====================
 
 ====================
@@ -1450,7 +1450,7 @@ length 32
 ====================
 \"We've crossed swords before.\"
 ====================
-\"We've crossed swords before.\"
+「我们曾经交过手」
 ====================
 
 ====================
@@ -1461,7 +1461,7 @@ length 79
 ====================
 \"That's right... you're the head honcho of the rebels, the Bear Association!\"
 ====================
-\"That's right... you're the head honcho of the rebels, the Bear Association!\"
+「是吗…你就是叛乱军『Bear·Association（熊之联盟）』的头目啊」
 ====================
 
 ====================
@@ -1472,7 +1472,7 @@ length 39
 ====================
 \"Eh?! Even Tomoyo has a secret role?\"
 ====================
-\"Eh?! Even Tomoyo has a secret role?\"
+「诶—！连智代都有这种隐藏设定吗—」
 ====================
 
 ====================
@@ -1483,7 +1483,7 @@ length 94
 ====================
 \"Honcho... that's a vulgar way to put it. I would like you to call me their leader instead.\"
 ====================
-\"Honcho... that's a vulgar way to put it. I would like you to call me their leader instead.\"
+「头目…真是野蛮人的叫法呢。我倒想让你称我为领袖呢」
 ====================
 
 ====================
@@ -1494,7 +1494,7 @@ length 25
 ====================
 \"And why are you here?\"
 ====================
-\"And why are you here?\"
+「那你又为何来此？」
 ====================
 
 ====================
@@ -1505,7 +1505,7 @@ length 89
 ====================
 \"That's something I wanted to ask you. I never thought that we would cross paths here.\"
 ====================
-\"That's something I wanted to ask you. I never thought that we would cross paths here.\"
+「这正是我想问的。想不到竟会在此处与你碰面啊」
 ====================
 
 ====================
@@ -1516,7 +1516,7 @@ length 42
 ====================
 \"You wanna go? Looks like you're alone.\"
 ====================
-\"You wanna go? Looks like you're alone.\"
+「要动手吗？看上去就你一人哦」
 ====================
 
 ====================
@@ -1527,7 +1527,7 @@ length 26
 ====================
 \"Don't look down on me.\"
 ====================
-\"Don't look down on me.\"
+「别小看我呐」
 ====================
 
 ====================
@@ -1538,7 +1538,7 @@ length 80
 ====================
 \"Very well. We'll pick up from where we left off last time. Raise your sword.\"
 ====================
-\"Very well. We'll pick up from where we left off last time. Raise your sword.\"
+「也好，就算作当时的延续吧。举剑吧」
 ====================
 
 ====================
@@ -1549,7 +1549,7 @@ length 41
 ====================
 \"Of course... is what I'd like to say.\"
 ====================
-\"Of course... is what I'd like to say.\"
+「好啊…虽想如此答复…」
 ====================
 
 ====================
@@ -1560,7 +1560,7 @@ length 41
 ====================
 \"But, for now, let's go after No. 054.\"
 ====================
-\"But, for now, let's go after No. 054.\"
+「但现在还是先追查054号的下落吧」
 ====================
 
 ====================
@@ -1571,7 +1571,7 @@ length 61
 ====================
 \"Even you are starting to take action... What do you know?\"
 ====================
-\"Even you are starting to take action... What do you know?\"
+「连你这样的人物都开始行动了…究竟有何企图？」
 ====================
 
 ====================
@@ -1582,7 +1582,7 @@ length 80
 ====================
 \"All I can say right now is that he's the culprit. That's all there is to it.\"
 ====================
-\"All I can say right now is that he's the culprit. That's all there is to it.\"
+「如今能说的只有，『那家伙是元凶』。仅此而已」
 ====================
 
 ====================
@@ -1593,7 +1593,7 @@ length 42
 ====================
 \"Is that from your perspective or ours?\"
 ====================
-\"Is that from your perspective or ours?\"
+「那是对你们而言？还是对我们而言？」
 ====================
 
 ====================
@@ -1604,7 +1604,7 @@ length 29
 ====================
 \"It's the same for either.\"
 ====================
-\"It's the same for either.\"
+「对双方而言」
 ====================
 
 ====================
@@ -1615,7 +1615,7 @@ length 53
 ====================
 \"What's wrong with you guys? You're being so cool.\"
 ====================
-\"What's wrong with you guys? You're being so cool.\"
+「怎么了啦，你们俩…帅过头了啦」
 ====================
 
 ====================
@@ -1626,7 +1626,7 @@ length 43
 ====================
 \"Are you thinking of... slaying No. 054?\"
 ====================
-\"Are you thinking of... slaying No. 054?\"
+「你打算…杀了054号吗？」
 ====================
 
 ====================
@@ -1637,7 +1637,7 @@ length 29
 ====================
 \"Yes. That's why I'm here.\"
 ====================
-\"Yes. That's why I'm here.\"
+「是啊。我正是为此而来」
 ====================
 
 ====================
@@ -1648,7 +1648,7 @@ length 42
 ====================
 \"Don't call him No. 054. He's Takafumi.\"
 ====================
-\"Don't call him No. 054. He's Takafumi.\"
+「别叫什么054号啊—，那家伙是鹰文啊—」
 ====================
 
 ====================
@@ -1659,7 +1659,7 @@ length 60
 ====================
 \"I won't let you kill him! I will never let you kill him!\"
 ====================
-\"I won't let you kill him! I will never let you kill him!\"
+「不许杀那家伙—，我绝不允许—」
 ====================
 
 ====================
@@ -1670,7 +1670,7 @@ length 41
 ====================
 \"Whoa... such natural acting skills...\"
 ====================
-\"Whoa... such natural acting skills...\"
+「呜喔…真是逼真的演技啊…」
 ====================
 
 ====================
@@ -1681,7 +1681,7 @@ length 82
 ====================
 \"You're just infatuated. Don't tell me you really think he still remembers you?\"
 ====================
-\"You're just infatuated. Don't tell me you really think he still remembers you?\"
+「你还真是痴情啊。难道你认为他还记得你的事吗？」
 ====================
 
 ====================
@@ -1692,7 +1692,7 @@ length 46
 ====================
 \"Since his emotions are complete, he might.\"
 ====================
-\"Since his emotions are complete, he might.\"
+「既然他有着全部的感情，那就当然有可能记得我啊」
 ====================
 
 ====================
@@ -1703,7 +1703,7 @@ length 31
 ====================
 \"What? Even the BGM changed.\"
 ====================
-\"What? Even the BGM changed.\"
+「咋啦—…连BGM(背景音乐)都换了吗…」
 ====================
 
 ====================
@@ -1714,7 +1714,7 @@ length 50
 ====================
 \"But that Takafumi isn't the one who saved you.\"
 ====================
-\"But that Takafumi isn't the one who saved you.\"
+「不过，救你之人，并非那个鹰文」
 ====================
 
 ====================
@@ -1725,7 +1725,7 @@ length 45
 ====================
 \"The one who saved you isn't here anymore.\"
 ====================
-\"The one who saved you isn't here anymore.\"
+「他，已不存在于这世上任何角落了」
 ====================
 
 ====================
@@ -1736,7 +1736,7 @@ length 22
 ====================
 \"He's already dead.\"
 ====================
-\"He's already dead.\"
+「他，已经死了」
 ====================
 
 ====================
@@ -1747,7 +1747,7 @@ length 21
 ====================
 \"I know... that...\"
 ====================
-\"I know... that...\"
+「这种事…我也明白…」
 ====================
 
 ====================
@@ -1758,7 +1758,7 @@ length 32
 ====================
 \"Even so, I want to meet him.\"
 ====================
-\"Even so, I want to meet him.\"
+「但即便如此，我仍想见到他」
 ====================
 
 ====================
@@ -1769,7 +1769,7 @@ length 49
 ====================
 \"What if he dies the very moment you find him?\"
 ====================
-\"What if he dies the very moment you find him?\"
+「哪怕见到之后，他就即刻成为一具尸体吗」
 ====================
 
 ====================
@@ -1780,7 +1780,7 @@ length 33
 ====================
 \"Let's settle this here, then!\"
 ====================
-\"Let's settle this here, then!\"
+「那我们就先在此了断吧—」
 ====================
 
 ====================
@@ -1791,7 +1791,7 @@ length 35
 ====================
 \"Wait, Your Highness. Calm down.\"
 ====================
-\"Wait, Your Highness. Calm down.\"
+「算了，公主，请冷静下」
 ====================
 
 ====================
@@ -1802,7 +1802,7 @@ length 68
 ====================
 \"Our party is in need of her strength. For now, hold your tongue.\"
 ====================
-\"Our party is in need of her strength. For now, hold your tongue.\"
+「她也是必要的战力嘛。现在就先忍耐下吧」
 ====================
 
 ====================
@@ -1813,7 +1813,7 @@ length 57
 ====================
 \"Let us not get ahead of ourselves concerning No. 054.\"
 ====================
-\"Let us not get ahead of ourselves concerning No. 054.\"
+「054号之事，还是从长计议吧」
 ====================
 
 ====================
@@ -1824,7 +1824,7 @@ length 14
 ====================
 \"...got it.\"
 ====================
-\"...got it.\"
+「呜—…明白了…」
 ====================
 
 ====================
@@ -1835,7 +1835,7 @@ length 30
 ====================
 \"Now then, let's get going.\"
 ====================
-\"Now then, let's get going.\"
+「那么，赶紧前进吧」
 ====================
 
 ====================
@@ -1846,7 +1846,7 @@ length 33
 ====================
 \"You're leaving that quickly?!\"
 ====================
-\"You're leaving that quickly?!\"
+「你们就要走了吗！？」
 ====================
 
 ====================
@@ -1857,7 +1857,7 @@ length 38
 ====================
 \"You're annoying me. I'll kill you.\"
 ====================
-\"You're annoying me. I'll kill you.\"
+「真是个烦人的家伙啊，砍了你哦！」
 ====================
 
 ====================
@@ -1868,7 +1868,7 @@ length 43
 ====================
 \"Yikes! Was she always this aggressive?!\"
 ====================
-\"Yikes! Was she always this aggressive?!\"
+「咦—！此人，竟是这种角色吗！？」
 ====================
 
 ====================
@@ -1879,7 +1879,7 @@ length 42
 ====================
 \"Don't just act surprised. Do your job.\"
 ====================
-\"Don't just act surprised. Do your job.\"
+「别光惊讶了，你也好好干活吧」
 ====================
 
 ====================
@@ -1890,7 +1890,7 @@ length 29
 ====================
 \"Well, then. Do your best!\"
 ====================
-\"Well, then. Do your best!\"
+「那再见了，加油啊！！」
 ====================
 
 ====================
@@ -1901,7 +1901,7 @@ length 30
 ====================
 \"I'll do the usual, then...\"
 ====================
-\"I'll do the usual, then...\"
+「那么依据惯例…」
 ====================
 
 ====================
@@ -1912,7 +1912,7 @@ length 36
 ====================
 \"Almighty Magic... Floor Loooock!\"
 ====================
-\"Almighty Magic... Floor Loooock!\"
+「超高位魔法…FLOOR LO———————CK！」
 ====================
 
 ====================
@@ -1923,7 +1923,7 @@ length 34
 ====================
 \"Oh, you've finally reached me.\"
 ====================
-\"Oh, you've finally reached me.\"
+「哎呀，终于找到我啦」
 ====================
 
 ====================
@@ -1934,7 +1934,7 @@ length 32
 ====================
 \"Hey, it's the real Takafumi.\"
 ====================
-\"Hey, it's the real Takafumi.\"
+「哇，是真正的鹰文啊—」
 ====================
 
 ====================
@@ -1945,7 +1945,7 @@ length 66
 ====================
 \"Wow, this guy actually fell for my lie... That's a bad sign...\"
 ====================
-\"Wow, this guy actually fell for my lie... That's a bad sign...\"
+「呜哇，随便撒了个谎，这人就相信了…见鬼…」
 ====================
 
 ====================
@@ -1956,7 +1956,7 @@ length 38
 ====================
 \"I have a bad feeling about this...\"
 ====================
-\"I have a bad feeling about this...\"
+「我有种不好的预感啊…」
 ====================
 
 ====================
@@ -1967,7 +1967,7 @@ length 117
 ====================
 \"Uh-oh, he might have found out I'm No. 081, who possesses the emotion 'Fretfulness'... This isn't looking good...\"
 ====================
-\"Uh-oh, he might have found out I'm No. 081, who possesses the emotion 'Fretfulness'... This isn't looking good...\"
+「呜哇，难道我是象征『焦躁』这一感情的第081号之事败露了…见鬼…」
 ====================
 
 ====================
@@ -1978,7 +1978,7 @@ length 42
 ====================
 \"Another guy who's hard to deal with...\"
 ====================
-\"Another guy who's hard to deal with...\"
+「又来了个麻烦的家伙呐…」
 ====================
 
 ====================
@@ -1989,7 +1989,7 @@ length 45
 ====================
 \"Which means No. 054 isn't here, either...\"
 ====================
-\"Which means No. 054 isn't here, either...\"
+「也就是说，这里也没有054号…吗」
 ====================
 
 ====================
@@ -2000,7 +2000,7 @@ length 45
 ====================
 \"Yeah. Also, I need to go to the bathroom.\"
 ====================
-\"Yeah. Also, I need to go to the bathroom.\"
+「嗯，此外我想上厕所了」
 ====================
 
 ====================
@@ -2011,7 +2011,7 @@ length 52
 ====================
 \"Go right ahead, if that'll make you feel better.\"
 ====================
-\"Go right ahead, if that'll make you feel better.\"
+「去上吧，若能治好你这张脸的话」
 ====================
 
 ====================
@@ -2022,7 +2022,7 @@ length 81
 ====================
 \"'This is unusually bad...' That mentality is part of who I am, so I can't go.\"
 ====================
-\"'This is unusually bad...' That mentality is part of who I am, so I can't go.\"
+「不…因为据说老是活见鬼的精神状态才是我的个性，所以我不能去」
 ====================
 
 ====================
@@ -2033,7 +2033,7 @@ length 26
 ====================
 \"Man, this looks bad...\"
 ====================
-\"Man, this looks bad...\"
+「呜哇—，真见鬼啊…」
 ====================
 
 ====================
@@ -2044,7 +2044,7 @@ length 12
 ====================
 \"Just go.\"
 ====================
-\"Just go.\"
+「快给我去啦」
 ====================
 
 ====================
@@ -2055,7 +2055,7 @@ length 144
 ====================
 \"No, this is something else. I just found a rental video from a year ago in my room. The late fees are going to be huge... This really bad...\"
 ====================
-\"No, this is something else. I just found a rental video from a year ago in my room. The late fees are going to be huge... This really bad...\"
+「不，刚才所说的是别的事哟。在房间里翻出了一年前借的录像带，到现在为止该交多少滞纳金啊…见鬼啊…」
 ====================
 
 ====================
@@ -2066,7 +2066,7 @@ length 26
 ====================
 \"Then go and return it.\"
 ====================
-\"Then go and return it.\"
+「那就快去还啊」
 ====================
 
 ====================
@@ -2077,7 +2077,7 @@ length 58
 ====================
 \"Nah, let me sleep a little more. It'll get even worse.\"
 ====================
-\"Nah, let me sleep a little more. It'll get even worse.\"
+「不，再拖延一会，让它更见鬼吧」
 ====================
 
 ====================
@@ -2088,7 +2088,7 @@ length 15
 ====================
 \"Uh, okay...\"
 ====================
-\"Uh, okay...\"
+「啊，这样啊…」
 ====================
 
 ====================
@@ -2099,7 +2099,7 @@ length 29
 ====================
 \"So how far in is No. 054?\"
 ====================
-\"So how far in is No. 054?\"
+「054号究竟潜藏在哪啊」
 ====================
 
 ====================
@@ -2110,7 +2110,7 @@ length 69
 ====================
 \"He's burrowed himself in pretty deep. He's probably dead already.\"
 ====================
-\"He's burrowed himself in pretty deep. He's probably dead already.\"
+「相当深哦，说不定早已死了」
 ====================
 
 ====================
@@ -2121,7 +2121,7 @@ length 18
 ====================
 \"What was that?\"
 ====================
-\"What was that?\"
+「你说什么？」
 ====================
 
 ====================
@@ -2132,7 +2132,7 @@ length 54
 ====================
 \"Whoa, they're staring at me... This can't be good.\"
 ====================
-\"Whoa, they're staring at me... This can't be good.\"
+「呜哇，被瞪了…见鬼」
 ====================
 
 ====================
@@ -2143,7 +2143,7 @@ length 119
 ====================
 \"Well, getting here has been a lot of trouble, even for the four of us. We can't ignore the worst possible scenario.\"
 ====================
-\"Well, getting here has been a lot of trouble, even for the four of us. We can't ignore the worst possible scenario.\"
+「说的也是，我们4人尽顾着如此历尽艰辛，也该好好考虑下最坏的情况了」
 ====================
 
 ====================
@@ -2154,7 +2154,7 @@ length 52
 ====================
 \"He probably snuck inside while avoiding enemies.\"
 ====================
-\"He probably snuck inside while avoiding enemies.\"
+「也许他根本没战斗。只是偷偷潜入而已」
 ====================
 
 ====================
@@ -2165,7 +2165,7 @@ length 101
 ====================
 \"But isn't that an anti-infiltration Golem? You're a goner the moment that thing spots you, right?\"
 ====================
-\"But isn't that an anti-infiltration Golem? You're a goner the moment that thing spots you, right?\"
+「但那石像兵，是用以对付入侵者的吧？若被它发现了不就见鬼了吗？」
 ====================
 
 ====================
@@ -2176,7 +2176,7 @@ length 60
 ====================
 \"You think that's scary? The way you speak is even worse.\"
 ====================
-\"You think that's scary? The way you speak is even worse.\"
+「见鬼了吗？但是，你的说法更见鬼啊」
 ====================
 
 ====================
@@ -2187,7 +2187,7 @@ length 14
 ====================
 \"Say again?\"
 ====================
-\"Say again?\"
+「说啥玩意哪？」
 ====================
 
 ====================
@@ -2198,7 +2198,7 @@ length 53
 ====================
 \"Whoa, they're staring at me again. This is bad...\"
 ====================
-\"Whoa, they're staring at me again. This is bad...\"
+「呜哇，又被瞪了，见鬼…」
 ====================
 
 ====================
@@ -2209,7 +2209,7 @@ length 37
 ====================
 \"You don't know Takafumi's powers?\"
 ====================
-\"You don't know Takafumi's powers?\"
+「你这家伙，难道不知道鹰文的能力吗？」
 ====================
 
 ====================
@@ -2220,7 +2220,7 @@ length 85
 ====================
 \"Correct. Unfortunately, it seems my character is one with no clue about anything.\"
 ====================
-\"Correct. Unfortunately, it seems my character is one with no clue about anything.\"
+「是啊。多半我被很可悲地设定为接近于『什么都不知道的玩家』了」
 ====================
 
 ====================
@@ -2231,7 +2231,7 @@ length 76
 ====================
 \"Takafumi has the ability to nullify the Golems' powers and destroy them.\"
 ====================
-\"Takafumi has the ability to nullify the Golems' powers and destroy them.\"
+「鹰文具有将石像兵的力量无效化，并破坏其真身的能力」
 ====================
 
 ====================
@@ -2242,7 +2242,7 @@ length 79
 ====================
 \"That explains why there is a Takafumi production facility right above here.\"
 ====================
-\"That explains why there is a Takafumi production facility right above here.\"
+「这就是在地面上修建鹰文生产厂的理由了」
 ====================
 
 ====================
@@ -2253,7 +2253,7 @@ length 65
 ====================
 \"Huh? Is that how things are? I didn't know... This looks bad.\"
 ====================
-\"Huh? Is that how things are? I didn't know... This looks bad.\"
+「啊嘞，还有这种设定吗，不知道的说…见鬼」
 ====================
 
 ====================
@@ -2264,7 +2264,7 @@ length 105
 ====================
 \"Speaking of which, No. 081 should have the same ability. He doesn't appear to be aware of it, though.\"
 ====================
-\"Speaking of which, No. 081 should have the same ability. He doesn't appear to be aware of it, though.\"
+「顺便说下，这个081号也有同样的能力。虽然他本人好像还没意识到」
 ====================
 
 ====================
@@ -2275,7 +2275,7 @@ length 114
 ====================
 \"This person looks like they'll be pissed if I tell you guys I already knew about it. This doesn't look good...\"
 ====================
-\"This person looks like they'll be pissed if I tell you guys I already knew about it. This doesn't look good...\"
+「现在说其实我早就知道了的话，这人貌似会生气的吧，见鬼…」
 ====================
 
 ====================
@@ -2286,7 +2286,7 @@ length 18
 ====================
 \"What was that?\"
 ====================
-\"What was that?\"
+「你说啥？」
 ====================
 
 ====================
@@ -2297,7 +2297,7 @@ length 31
 ====================
 \"Whoa, this is really bad...\"
 ====================
-\"Whoa, this is really bad...\"
+「呜哇，真见鬼…」
 ====================
 
 ====================
@@ -2308,7 +2308,7 @@ length 101
 ====================
 \"I know! Let's just toss this guy down there and have him nullify that pain in the ass of a Golem.\"
 ====================
-\"I know! Let's just toss this guy down there and have him nullify that pain in the ass of a Golem.\"
+「那么，把这家伙扔下去，让那些麻烦的石像兵失去力量不就行了」
 ====================
 
 ====================
@@ -2319,7 +2319,7 @@ length 119
 ====================
 \"What's he talking about? He's not giving my welfare any consideration... Oh, I was thinking out loud. That's bad...\"
 ====================
-\"What's he talking about? He's not giving my welfare any consideration... Oh, I was thinking out loud. That's bad...\"
+「这家伙在说什么啊，竟然一副事不关己的样子谈论别人之事，可恶，呜哇，不小心说出来了，见鬼…」
 ====================
 
 ====================
@@ -2330,7 +2330,7 @@ length 103
 ====================
 \"We cannot do that. The beastmen have sentries placed around here. He would only last a few seconds.\"
 ====================
-\"We cannot do that. The beastmen have sentries placed around here. He would only last a few seconds.\"
+「不能这么做哟，因为还有兽人们在把守着呢。转眼就会被秒杀的哦？」
 ====================
 
 ====================
@@ -2341,7 +2341,7 @@ length 110
 ====================
 \"Good point. You guys should all go and keep on looking. Wow, they're all staring at me. That's not good...\"
 ====================
-\"Good point. You guys should all go and keep on looking. Wow, they're all staring at me. That's not good...\"
+「没错没错。你们这群家伙快去找他出来吧，呜哇，被大家一起瞪啦，见鬼…」
 ====================
 
 ====================
@@ -2352,7 +2352,7 @@ length 55
 ====================
 \"*sigh*... There's no way he'll still remember me...\"
 ====================
-\"*sigh*... There's no way he'll still remember me...\"
+「哈—…这样看来的话，是不可能还残留着有关我的记忆呢…」
 ====================
 
 ====================
@@ -2363,7 +2363,7 @@ length 11
 ====================
 \"Indeed.\"
 ====================
-\"Indeed.\"
+「不正是这样吗」
 ====================
 
 ====================
@@ -2374,7 +2374,7 @@ length 19
 ====================
 \"Well, let's go.\"
 ====================
-\"Well, let's go.\"
+「那么，出发吧」
 ====================
 
 ====================
@@ -2385,7 +2385,7 @@ length 9
 ====================
 \"Yeah.\"
 ====================
-\"Yeah.\"
+「好吧」
 ====================
 
 ====================
@@ -2396,7 +2396,7 @@ length 22
 ====================
 \"Then, as always...\"
 ====================
-\"Then, as always...\"
+「那么依照惯例…」
 ====================
 
 ====================
@@ -2407,7 +2407,7 @@ length 36
 ====================
 \"Almighty Magic... Floor Loooock!\"
 ====================
-\"Almighty Magic... Floor Loooock!\"
+「超高位魔法…FLOOR LO———————CK！」
 ====================
 
 ====================
@@ -2418,7 +2418,7 @@ length 33
 ====================
 \"Ehhhh! You guys really came?!\"
 ====================
-\"Ehhhh! You guys really came?!\"
+「诶诶诶诶诶～～～！真的来了啊～～～～！？」
 ====================
 
 ====================
@@ -2429,7 +2429,7 @@ length 41
 ====================
 \"This is definitely a different guy...\"
 ====================
-\"This is definitely a different guy...\"
+「这次一眼就看出来不是了呢…」
 ====================
 
 ====================
@@ -2440,7 +2440,7 @@ length 59
 ====================
 \"I'm No. 090, who represents the emotion 'Dumbfounded'?!\"
 ====================
-\"I'm No. 090, who represents the emotion 'Dumbfounded'?!\"
+「我是象征着『夸张』这一感情的第090号～～～～！？」
 ====================
 
 ====================
@@ -2451,7 +2451,7 @@ length 70
 ====================
 \"Is it just me or are these guys getting weirder the deeper we get?\"
 ====================
-\"Is it just me or are these guys getting weirder the deeper we get?\"
+「怎么地层越深，出来的人就越奇怪啊，这不会是我的错觉吧？」
 ====================
 
 ====================
@@ -2462,7 +2462,7 @@ length 60
 ====================
 \"He called me weird!! Even though I'm completely normal!!\"
 ====================
-\"He called me weird!! Even though I'm completely normal!!\"
+「居然被说成是奇怪了～～～～！！我明明很正常的说～～～～！！」
 ====================
 
 ====================
@@ -2473,7 +2473,7 @@ length 40
 ====================
 \"What part of your face is normal...?\"
 ====================
-\"What part of your face is normal...?\"
+「你这副表情哪里看起来正常哟…」
 ====================
 
 ====================
@@ -2484,7 +2484,7 @@ length 42
 ====================
 \"This means No. 054 isn't here, either.\"
 ====================
-\"This means No. 054 isn't here, either.\"
+「也就是说，这里也没有第054号咯」
 ====================
 
 ====================
@@ -2495,7 +2495,7 @@ length 72
 ====================
 \"There's still a chance he'll remember, though. Do you know who I am?\"
 ====================
-\"There's still a chance he'll remember, though. Do you know who I am?\"
+「慎重起见还是问问吧，你记不得我吧？」
 ====================
 
 ====================
@@ -2506,7 +2506,7 @@ length 29
 ====================
 \"Eh?! Have we met before?!\"
 ====================
-\"Eh?! Have we met before?!\"
+「诶诶诶～～～～！？难道我们见过——～～～～！？」
 ====================
 
 ====================
@@ -2517,7 +2517,7 @@ length 24
 ====================
 \"No luck after all...\"
 ====================
-\"No luck after all...\"
+「果然不行啊…」
 ====================
 
 ====================
@@ -2528,7 +2528,7 @@ length 51
 ====================
 \"You two didn't even get a conversation going...\"
 ====================
-\"You two didn't even get a conversation going...\"
+「说起来，好像根本就没进行过正常的对话呢…」
 ====================
 
 ====================
@@ -2539,7 +2539,7 @@ length 63
 ====================
 \"I'm starting to think the first guy was the most serious...\"
 ====================
-\"I'm starting to think the first guy was the most serious...\"
+「甚至觉得，最开始的那个家伙还算是超正经的呢…」
 ====================
 
 ====================
@@ -2550,7 +2550,7 @@ length 67
 ====================
 \"Hey, isn't it about time you told us why you're after Takafumi?\"
 ====================
-\"Hey, isn't it about time you told us why you're after Takafumi?\"
+「呐，也该听你说说追寻鹰文的理由了吧？」
 ====================
 
 ====================
@@ -2561,7 +2561,7 @@ length 14
 ====================
 \"..........\"
 ====================
-\"..........\"
+「………」
 ====================
 
 ====================
@@ -2572,7 +2572,7 @@ length 42
 ====================
 \"If you don't, I can't let you move on.\"
 ====================
-\"If you don't, I can't let you move on.\"
+「不然的话，我不会再让你前进了」
 ====================
 
 ====================
@@ -2583,7 +2583,7 @@ length 30
 ====================
 \"Looks like you're serious.\"
 ====================
-\"Looks like you're serious.\"
+「看来你是认真的呢…」
 ====================
 
 ====================
@@ -2594,7 +2594,7 @@ length 30
 ====================
 \"I get it... I'll tell you.\"
 ====================
-\"I get it... I'll tell you.\"
+「明白了…就告诉你吧」
 ====================
 
 ====================
@@ -2605,7 +2605,7 @@ length 21
 ====================
 \"...I had a dream.\"
 ====================
-\"...I had a dream.\"
+「…我做了个梦」
 ====================
 
 ====================
@@ -2616,7 +2616,7 @@ length 8
 ====================
 \"Huh?\"
 ====================
-\"Huh?\"
+「诶？」
 ====================
 
 ====================
@@ -2627,7 +2627,7 @@ length 70
 ====================
 \"It was a nightmare... where this world was overrun with Takafumis.\"
 ====================
-\"It was a nightmare... where this world was overrun with Takafumis.\"
+「这片大地，皆被鹰文们占据了…这样的噩梦」
 ====================
 
 ====================
@@ -2638,7 +2638,7 @@ length 38
 ====================
 \"I asked a fortune teller about it.\"
 ====================
-\"I asked a fortune teller about it.\"
+「然后我将此告诉了占卜师」
 ====================
 
 ====================
@@ -2649,7 +2649,7 @@ length 51
 ====================
 \"They told me that it was destined to come true.\"
 ====================
-\"They told me that it was destined to come true.\"
+「占卜师说，那是终将到来的现实」
 ====================
 
 ====================
@@ -2660,7 +2660,7 @@ length 35
 ====================
 \"Later, the nightmare continued.\"
 ====================
-\"Later, the nightmare continued.\"
+「之后，梦仍在延续」
 ====================
 
 ====================
@@ -2671,7 +2671,7 @@ length 16
 ====================
 \"I was dying.\"
 ====================
-\"I was dying.\"
+「我丢了性命」
 ====================
 
 ====================
@@ -2682,7 +2682,7 @@ length 45
 ====================
 \"I saw Takafumi's disgusting face by mine.\"
 ====================
-\"I saw Takafumi's disgusting face by mine.\"
+「那时，在我身旁的正是令人讨厌的鹰文之脸」
 ====================
 
 ====================
@@ -2693,7 +2693,7 @@ length 54
 ====================
 \"Even though there's no way I'd ever die for him...\"
 ====================
-\"Even though there's no way I'd ever die for him...\"
+「我明明不可能为那家伙而死的说…」
 ====================
 
 ====================
@@ -2704,7 +2704,7 @@ length 44
 ====================
 \"He kneeled next to me, and thanked me...\"
 ====================
-\"He kneeled next to me, and thanked me...\"
+「那家伙跪在我身边，感谢着我…」
 ====================
 
 ====================
@@ -2715,7 +2715,7 @@ length 52
 ====================
 \"It's such an irritating dream... and a bad omen.\"
 ====================
-\"It's such an irritating dream... and a bad omen.\"
+「真是个令人不安的…凶兆啊」
 ====================
 
 ====================
@@ -2726,7 +2726,7 @@ length 51
 ====================
 \"You're trying to kill Takafumi for that reason?\"
 ====================
-\"You're trying to kill Takafumi for that reason?\"
+「为了这种理由，你就说要杀了鹰文吗？」
 ====================
 
 ====================
@@ -2737,7 +2737,7 @@ length 128
 ====================
 \"Not a single one of that fortune teller's prophecies have been incorrect. The events it details are why we've been led here.\"
 ====================
-\"Not a single one of that fortune teller's prophecies have been incorrect. The events it details are why we've been led here.\"
+「占卜师的预言，还从未落空过。我们也是靠那预言的指引才来到此处的！」
 ====================
 
 ====================
@@ -2748,7 +2748,7 @@ length 55
 ====================
 \"Isn't it a little hasty to take that as a bad omen?\"
 ====================
-\"Isn't it a little hasty to take that as a bad omen?\"
+「但是称之为凶兆是否太轻率了啊？」
 ====================
 
 ====================
@@ -2759,7 +2759,7 @@ length 58
 ====================
 \"I'm going to die. How is that anything but a bad omen?\"
 ====================
-\"I'm going to die. How is that anything but a bad omen?\"
+「我会死的啊，除了凶兆还能称为什么啊—」
 ====================
 
 ====================
@@ -2770,7 +2770,7 @@ length 52
 ====================
 \"I want to join in with this conversation, too...\"
 ====================
-\"I want to join in with this conversation, too...\"
+「我也想加入这种对话看看啊…」
 ====================
 
 ====================
@@ -2781,7 +2781,7 @@ length 36
 ====================
 \"No. 054 possesses every emotion.\"
 ====================
-\"No. 054 possesses every emotion.\"
+「054号掌控了所有的感情」
 ====================
 
 ====================
@@ -2792,7 +2792,7 @@ length 47
 ====================
 \"Which also means he is an excellent sensor.\"
 ====================
-\"Which also means he is an excellent sensor.\"
+「也就是，诸如优秀的感应器之类的东西」
 ====================
 
 ====================
@@ -2803,7 +2803,7 @@ length 109
 ====================
 \"Can it not be said that he predicted this omen before us, and so infiltrated this subterranean labyrinth?\"
 ====================
-\"Can it not be said that he predicted this omen before us, and so infiltrated this subterranean labyrinth?\"
+「他比我们先一步感应到该凶兆，然后便潜入了这地下…也可以这么说吧？」
 ====================
 
 ====================
@@ -2814,7 +2814,7 @@ length 15
 ====================
 \"...even so.\"
 ====================
-\"...even so.\"
+「…但就算如此」
 ====================
 
 ====================
@@ -2825,7 +2825,7 @@ length 21
 ====================
 \"I'm going to die.\"
 ====================
-\"I'm going to die.\"
+「我还是会死的啊」
 ====================
 
 ====================
@@ -2836,7 +2836,7 @@ length 51
 ====================
 \"I'll do everything I can to escape that future.\"
 ====================
-\"I'll do everything I can to escape that future.\"
+「若能避免此事发生的话，我会尽全力去尝试的」
 ====================
 
 ====================
@@ -2847,7 +2847,7 @@ length 46
 ====================
 \"I won't let something like that come true.\"
 ====================
-\"I won't let something like that come true.\"
+「我绝不会让你得逞的—」
 ====================
 
 ====================
@@ -2858,7 +2858,7 @@ length 52
 ====================
 \"Let's leave everything for when we find No. 054.\"
 ====================
-\"Let's leave everything for when we find No. 054.\"
+「总之，通通放到找到054号之后再说吧」
 ====================
 
 ====================
@@ -2869,7 +2869,7 @@ length 21
 ====================
 \"We need to hurry.\"
 ====================
-\"We need to hurry.\"
+「赶紧前进吧」
 ====================
 
 ====================
@@ -2880,7 +2880,7 @@ length 26
 ====================
 \"And, just as always...\"
 ====================
-\"And, just as always...\"
+「那么，依照惯例…」
 ====================
 
 ====================
@@ -2891,7 +2891,7 @@ length 36
 ====================
 \"Almighty Magic... Floor Loooock!\"
 ====================
-\"Almighty Magic... Floor Loooock!\"
+「超高位魔法…FLOOR LO———————CK！」
 ====================
 
 ====================
@@ -2902,7 +2902,7 @@ length 19
 ====================
 \"Ooooooooowwwww!\"
 ====================
-\"Ooooooooowwwww!\"
+「好痛痛痛痛痛痛痛痛啊啊啊啊啊啊～～～～～～——！！」
 ====================
 
 ====================
@@ -2913,7 +2913,7 @@ length 36
 ====================
 \"Seriously? It's No. 090 again...\"
 ====================
-\"Seriously? It's No. 090 again...\"
+「搞什么啊，难道又是第090号吗…」
 ====================
 
 ====================
@@ -2924,7 +2924,7 @@ length 83
 ====================
 \"No, I'm No. 054. That Floor Lock just caught my foot between floors! Loosen it!\"
 ====================
-\"No, I'm No. 054. That Floor Lock just caught my foot between floors! Loosen it!\"
+「搞错了啦，我是第054号啊—，我被刚才的FLOOR LOCK夹到脚了！松开点啦～！！」
 ====================
 
 ====================
@@ -2935,7 +2935,7 @@ length 19
 ====================
 \"Oh, forgive me.\"
 ====================
-\"Oh, forgive me.\"
+「哦哦，抱歉」
 ====================
 
 ====================
@@ -2946,7 +2946,7 @@ length 46
 ====================
 \"Was Floor Lock a physical spell like that?\"
 ====================
-\"Was Floor Lock a physical spell like that?\"
+「『FLOOR LOCK』是这种物理性的东西吗…」
 ====================
 
 ====================
@@ -2957,7 +2957,7 @@ length 11
 ====================
 \"Phew...\"
 ====================
-\"Phew...\"
+「呼—…」
 ====================
 
 ====================
@@ -2968,7 +2968,7 @@ length 81
 ====================
 \"Oh, this is amazing. Finding a Takafumi with multiple emotions is refreshing.\"
 ====================
-\"Oh, this is amazing. Finding a Takafumi with multiple emotions is refreshing.\"
+「哇，好厉害。会改变表情的鹰文可真新鲜呢」
 ====================
 
 ====================
@@ -2979,7 +2979,7 @@ length 69
 ====================
 \"Show me what it's like when you're angry, and when you're crying.\"
 ====================
-\"Show me what it's like when you're angry, and when you're crying.\"
+「给我看看你气哭的样子嘛—」
 ====================
 
 ====================
@@ -2990,7 +2990,7 @@ length 19
 ====================
 \"Why should I...\"
 ====================
-\"Why should I...\"
+「为什么啊…」
 ====================
 
 ====================
@@ -3001,7 +3001,7 @@ length 13
 ====================
 \"Takafumi.\"
 ====================
-\"Takafumi.\"
+「鹰文—」
 ====================
 
 ====================
@@ -3012,7 +3012,7 @@ length 66
 ====================
 \"Oh, that's right. This is the reunion you've been waiting for.\"
 ====================
-\"Oh, that's right. This is the reunion you've been waiting for.\"
+「啊，对了，貌似这正是你期待的再会呢」
 ====================
 
 ====================
@@ -3023,7 +3023,7 @@ length 7
 ====================
 \"Eh?\"
 ====================
-\"Eh?\"
+「诶？」
 ====================
 
 ====================
@@ -3034,7 +3034,7 @@ length 67
 ====================
 \"My, is it Your Highness? Why are you in such a dangerous place?\"
 ====================
-\"My, is it Your Highness? Why are you in such a dangerous place?\"
+「啊嘞，公主殿下？为何会来这种危险的地方啊？」
 ====================
 
 ====================
@@ -3045,7 +3045,7 @@ length 23
 ====================
 \"Do you remember me?\"
 ====================
-\"Do you remember me?\"
+「关于我的事，还记得吗？」
 ====================
 
 ====================
@@ -3056,7 +3056,7 @@ length 29
 ====================
 \"Eh? Was that actually me?\"
 ====================
-\"Eh? Was that actually me?\"
+「诶？是在问我吗？」
 ====================
 
 ====================
@@ -3067,7 +3067,7 @@ length 43
 ====================
 \"To be precise, it was the original you.\"
 ====================
-\"To be precise, it was the original you.\"
+「准确来说是在问你的原型啦」
 ====================
 
 ====================
@@ -3078,7 +3078,7 @@ length 44
 ====================
 \"Do you have any memories from back then?\"
 ====================
-\"Do you have any memories from back then?\"
+「当时的记忆都丧失了吗？」
 ====================
 
 ====================
@@ -3089,7 +3089,7 @@ length 53
 ====================
 \"Hm... I haven't spent much time in this body yet.\"
 ====================
-\"Hm... I haven't spent much time in this body yet.\"
+「嗯～，我待在这个身体里的时间还不太长呢—」
 ====================
 
 ====================
@@ -3100,7 +3100,7 @@ length 78
 ====================
 \"My memories are still a little fuzzy. It's probably going to take a while.\"
 ====================
-\"My memories are still a little fuzzy. It's probably going to take a while.\"
+「记忆还有些混乱。看来得稍微花些时间才行呢」
 ====================
 
 ====================
@@ -3111,7 +3111,7 @@ length 53
 ====================
 \"I see. If that's the case, I'll take my turn now.\"
 ====================
-\"I see. If that's the case, I'll take my turn now.\"
+「是吗。那就先解决我的事吧」
 ====================
 
 ====================
@@ -3122,7 +3122,7 @@ length 26
 ====================
 \"Yes? Who would you be?\"
 ====================
-\"Yes? Who would you be?\"
+「哈？请问您是哪位？」
 ====================
 
 ====================
@@ -3133,7 +3133,7 @@ length 8
 ====================
 \"Die.\"
 ====================
-\"Die.\"
+「去死吧」
 ====================
 
 ====================
@@ -3144,7 +3144,7 @@ length 13
 ====================
 *Claaaanngg!*
 ====================
-*Claaaanngg!*
+锵————！
 ====================
 
 ====================
@@ -3155,7 +3155,7 @@ length 25
 ====================
 \"Whoa, that was close!\"
 ====================
-\"Whoa, that was close!\"
+「呜哇—，好危险—！」
 ====================
 
 ====================
@@ -3166,7 +3166,7 @@ length 45
 ====================
 \"Haa... like I would ever let that happen.\"
 ====================
-\"Haa... like I would ever let that happen.\"
+「哈—…我怎会让你得逞啊」
 ====================
 
 ====================
@@ -3177,7 +3177,7 @@ length 78
 ====================
 \"You two, sheathe your swords. First, we must listen to what he has to say.\"
 ====================
-\"You two, sheathe your swords. First, we must listen to what he has to say.\"
+「给我住手，你们俩都把剑收起来，先把话问清楚吧」
 ====================
 
 ====================
@@ -3188,7 +3188,7 @@ length 77
 ====================
 \"Even so, if he is indeed the culprit, then I shall not stand in your way.\"
 ====================
-\"Even so, if he is indeed the culprit, then I shall not stand in your way.\"
+「而且，如果这个家伙就是所谓的元凶的话，此刻也已来不及制止了」
 ====================
 
 ====================
@@ -3199,7 +3199,7 @@ length 43
 ====================
 \"That's right. Let's hear him out first.\"
 ====================
-\"That's right. Let's hear him out first.\"
+「没错啊—，先把话问清楚嘛—」
 ====================
 
 ====================
@@ -3210,7 +3210,7 @@ length 11
 ====================
 \"Fine...\"
 ====================
-\"Fine...\"
+「也行吧…」
 ====================
 
 ====================
@@ -3221,7 +3221,7 @@ length 40
 ====================
 \"Spill it. Tell us why you came here.\"
 ====================
-\"Spill it. Tell us why you came here.\"
+「说吧，你来这的理由」
 ====================
 
 ====================
@@ -3232,7 +3232,7 @@ length 26
 ====================
 \"Tell us what you know.\"
 ====================
-\"Tell us what you know.\"
+「你知道些什么，说给我们听吧」
 ====================
 
 ====================
@@ -3243,7 +3243,7 @@ length 31
 ====================
 \"Eh, well, it's kind of bad.\"
 ====================
-\"Eh, well, it's kind of bad.\"
+「诶，啊—，那还真是糟糕呢」
 ====================
 
 ====================
@@ -3254,7 +3254,7 @@ length 52
 ====================
 \"The beastmen are researching a particular magic.\"
 ====================
-\"The beastmen are researching a particular magic.\"
+「兽人们正在进行魔法的研究」
 ====================
 
 ====================
@@ -3265,7 +3265,7 @@ length 26
 ====================
 \"A really horrible one.\"
 ====================
-\"A really horrible one.\"
+「而且还是极为骇人听闻的魔法」
 ====================
 
 ====================
@@ -3276,7 +3276,7 @@ length 38
 ====================
 \"What is it? Don't avoid the topic.\"
 ====================
-\"What is it? Don't avoid the topic.\"
+「搞什么啊，说得拐弯抹角的」
 ====================
 
 ====================
@@ -3287,7 +3287,7 @@ length 24
 ====================
 \"Fine, I'll tell you.\"
 ====================
-\"Fine, I'll tell you.\"
+「那就用一句话来说明吧」
 ====================
 
 ====================
@@ -3298,7 +3298,7 @@ length 46
 ====================
 \"It's a magic that can travel back in time.\"
 ====================
-\"It's a magic that can travel back in time.\"
+「那是能让时光倒流的魔法哟」
 ====================
 
 ====================
@@ -3309,7 +3309,7 @@ length 42
 ====================
 \"It can cause time to flow in reverse?!\"
 ====================
-\"It can cause time to flow in reverse?!\"
+「让时光倒流是指—」
 ====================
 
 ====================
@@ -3320,7 +3320,7 @@ length 31
 ====================
 \"Oh, that's a nice reaction.\"
 ====================
-\"Oh, that's a nice reaction.\"
+「哦，很赞的反应呢」
 ====================
 
 ====================
@@ -3331,7 +3331,7 @@ length 43
 ====================
 \"Is it the Almighty High Magic DeLorean?\"
 ====================
-\"Is it the Almighty High Magic DeLorean?\"
+「那不就是超高位魔法DELOREAN吗—」
 ====================
 
 ====================
@@ -3342,7 +3342,7 @@ length 69
 ====================
 \"The forbidden magic that is said to be able to rewrite history...\"
 ====================
-\"The forbidden magic that is said to be able to rewrite history...\"
+「传说中能改写历史的禁断魔法…」
 ====================
 
 ====================
@@ -3353,7 +3353,7 @@ length 56
 ====================
 \"Rewrite history? What are they trying to accomplish?\"
 ====================
-\"Rewrite history? What are they trying to accomplish?\"
+「居然改写历史，那些家伙有何居心啊？」
 ====================
 
 ====================
@@ -3364,7 +3364,7 @@ length 72
 ====================
 \"Do you not know of mankind's and the beastmen's long history of war?\"
 ====================
-\"Do you not know of mankind's and the beastmen's long history of war?\"
+「你啊，难道不知道我们人类和兽人之间的战争史吗」
 ====================
 
 ====================
@@ -3375,7 +3375,7 @@ length 74
 ====================
 \"Nope. I told you, my character in this game is just a clueless player.\"
 ====================
-\"Nope. I told you, my character in this game is just a clueless player.\"
+「是啊。我早说过我被设定为『接近一无所知的玩家』了吧」
 ====================
 
 ====================
@@ -3386,7 +3386,7 @@ length 39
 ====================
 \"Hmm... allow me to explain, then...\"
 ====================
-\"Hmm... allow me to explain, then...\"
+「晕…那就告诉你吧…」
 ====================
 
 ====================
@@ -3397,7 +3397,7 @@ length 74
 ====================
 \"Their plan is probably to go back in time to annihilate our ancestors.\"
 ====================
-\"Their plan is probably to go back in time to annihilate our ancestors.\"
+「它们大概是企图让时间不断回溯，然后灭亡我们的祖先吧」
 ====================
 
 ====================
@@ -3408,7 +3408,7 @@ length 91
 ====================
 \"The moment that magic is cast and completed, the history of this continent will change.\"
 ====================
-\"The moment that magic is cast and completed, the history of this continent will change.\"
+「该魔法完成的同时，这片大陆的历史便会改写」
 ====================
 
 ====================
@@ -3419,7 +3419,7 @@ length 83
 ====================
 \"Mankind shall disappear instantly, and they will rampantly take over the world.\"
 ====================
-\"Mankind shall disappear instantly, and they will rampantly take over the world.\"
+「人类将瞬间消失，改由那些家伙横行于世」
 ====================
 
 ====================
@@ -3430,7 +3430,7 @@ length 26
 ====================
 \"Isn't that a big deal?\"
 ====================
-\"Isn't that a big deal?\"
+「那不是非常不得了的事吗」
 ====================
 
 ====================
@@ -3441,7 +3441,7 @@ length 67
 ====================
 \"See? If that's our situation, there's no need to kill Takafumi.\"
 ====================
-\"See? If that's our situation, there's no need to kill Takafumi.\"
+「如何，这样就没必要杀鹰文了吧」
 ====================
 
 ====================
@@ -3452,7 +3452,7 @@ length 24
 ====================
 \"But then I will die.\"
 ====================
-\"But then I will die.\"
+「但我会死的啊」
 ====================
 
 ====================
@@ -3463,7 +3463,7 @@ length 92
 ====================
 \"But maybe that's because of the beastmen's magic. Wouldn't that put us in the same boat?\"
 ====================
-\"But maybe that's because of the beastmen's magic. Wouldn't that put us in the same boat?\"
+「说不定那也是缘于那些家伙的魔法哦？这样我们不就利害一致了吗？」
 ====================
 
 ====================
@@ -3474,7 +3474,7 @@ length 35
 ====================
 \"What a cool, refined character.\"
 ====================
-\"What a cool, refined character.\"
+「真是个纠缠不清的角色啊—」
 ====================
 
 ====================
@@ -3485,7 +3485,7 @@ length 82
 ====================
 \"But how would you explain the dream where Takafumis have taken over the world?\"
 ====================
-\"But how would you explain the dream where Takafumis have taken over the world?\"
+「但是，鹰文占据了这片大地的梦又该如何解释呢？」
 ====================
 
 ====================
@@ -3496,7 +3496,7 @@ length 39
 ====================
 \"Is that dream really of the future?\"
 ====================
-\"Is that dream really of the future?\"
+「那果真是预示未来的梦吗…？」
 ====================
 
 ====================
@@ -3507,7 +3507,7 @@ length 29
 ====================
 \"What do you mean by that?\"
 ====================
-\"What do you mean by that?\"
+「这话是什么意思」
 ====================
 
 ====================
@@ -3518,7 +3518,7 @@ length 14
 ====================
 \"Nothing...\"
 ====================
-\"Nothing...\"
+「没什么…」
 ====================
 
 ====================
@@ -3529,7 +3529,7 @@ length 80
 ====================
 \"And? How are we going to stop them from completing that Almighty High Magic?\"
 ====================
-\"And? How are we going to stop them from completing that Almighty High Magic?\"
+「我说，如何才能阻止那个超高位魔法的完成啊？」
 ====================
 
 ====================
@@ -3540,7 +3540,7 @@ length 102
 ====================
 \"We head to the deepest floor, where they are developing that magic, and defeat the beastmen there.\"
 ====================
-\"We head to the deepest floor, where they are developing that magic, and defeat the beastmen there.\"
+「潜入到正在进行魔法开发的最深处，再摆平把守在那的兽人们就行啰」
 ====================
 
 ====================
@@ -3551,7 +3551,7 @@ length 76
 ====================
 \"We're fighting against time. If we don't beat them fast, we're done for.\"
 ====================
-\"We're fighting against time. If we don't beat them fast, we're done for.\"
+「往后就该与时间竞争了。是先打倒他们呢，还是先被他们消灭呢」
 ====================
 
 ====================
@@ -3562,7 +3562,7 @@ length 62
 ====================
 \"If it's come to this, we can expect reinforcements, right?\"
 ====================
-\"If it's come to this, we can expect reinforcements, right?\"
+「这样一来，我们就能期待援军了吧」
 ====================
 
 ====================
@@ -3573,7 +3573,7 @@ length 138
 ====================
 \"I have already reported this to the Federation Army. I cannot say when they will conclude their conferences and mobilize their forces.\"
 ====================
-\"I have already reported this to the Federation Army. I cannot say when they will conclude their conferences and mobilize their forces.\"
+「我已向联邦军报告了。但要等到层层会议结束，以认可派遣军队之时，大概已不知是什么时候了」
 ====================
 
 ====================
@@ -3584,7 +3584,7 @@ length 34
 ====================
 \"What's the matter with them...\"
 ====================
-\"What's the matter with them...\"
+「这算什么嘛…」
 ====================
 
 ====================
@@ -3595,7 +3595,7 @@ length 38
 ====================
 \"Let's just do everything we can...\"
 ====================
-\"Let's just do everything we can...\"
+「我们就尽我们所能去做吧…」
 ====================
 
 ====================
@@ -3606,7 +3606,7 @@ length 41
 ====================
 \"...so that we don't have any regrets.\"
 ====================
-\"...so that we don't have any regrets.\"
+「别残留遗憾啊」
 ====================
 
 ====================
@@ -3617,7 +3617,7 @@ length 11
 ====================
 \"Hmph...\"
 ====================
-\"Hmph...\"
+「哼…」
 ====================
 
 ====================
@@ -3628,7 +3628,7 @@ length 87
 ====================
 \"There might not be a single consciousness that will feel regret if that time comes.\"
 ====================
-\"There might not be a single consciousness that will feel regret if that time comes.\"
+「到那时，这世上可能连『遗憾』这一意识，也已不复存在了呢」
 ====================
 
 ====================
@@ -3639,7 +3639,7 @@ length 22
 ====================
 \"I will fight, too.\"
 ====================
-\"I will fight, too.\"
+「我也来并肩作战吧」
 ====================
 
 ====================
@@ -3650,7 +3650,7 @@ length 20
 ====================
 \"What can you do?\"
 ====================
-\"What can you do?\"
+「你能做什么？」
 ====================
 
 ====================
@@ -3661,7 +3661,7 @@ length 54
 ====================
 \"I can nullify the Golems' powers and destroy them.\"
 ====================
-\"I can nullify the Golems' powers and destroy them.\"
+「让石像兵失去力量，并破坏它」
 ====================
 
 ====================
@@ -3672,7 +3672,7 @@ length 83
 ====================
 \"But since I am weak against beastmen, I will hide until only the Golem is left.\"
 ====================
-\"But since I am weak against beastmen, I will hide until only the Golem is left.\"
+「不过，因为我对付兽人就非常弱了，所以直到敌人只剩石像兵之前，我都会一直躲着的」
 ====================
 
 ====================
@@ -3683,7 +3683,7 @@ length 68
 ====================
 \"You're going to defeat the Golem once we clear out the beastmen?\"
 ====================
-\"You're going to defeat the Golem once we clear out the beastmen?\"
+「也就是说，只要我们打倒了兽人，你就能帮我们打倒石像兵吗？」
 ====================
 
 ====================
@@ -3694,7 +3694,7 @@ length 100
 ====================
 \"No, but I wish I could... Unfortunately, even I can't do much about the Golems from here on out.\"
 ====================
-\"No, but I wish I could... Unfortunately, even I can't do much about the Golems from here on out.\"
+「不，若能办到倒也好…不过很可惜，比此处更深层的石像兵，就连我也无法仅凭一己之力打败的」
 ====================
 
 ====================
@@ -3705,7 +3705,7 @@ length 48
 ====================
 \"You'll need to weaken it as much as you can.\"
 ====================
-\"You'll need to weaken it as much as you can.\"
+「所以请尽力削弱石像兵的力量吧」
 ====================
 
 ====================
@@ -3716,7 +3716,7 @@ length 81
 ====================
 \"Well, I don't really get it, but all I need to do is weaken the Golem, right?\"
 ====================
-\"Well, I don't really get it, but all I need to do is weaken the Golem, right?\"
+「算了，虽然还不太明白，但只要削弱石像兵的力量就行了吧」
 ====================
 
 ====================
@@ -3727,7 +3727,7 @@ length 33
 ====================
 \"Exactly. I leave that to you.\"
 ====================
-\"Exactly. I leave that to you.\"
+「正是如此。拜托了—」
 ====================
 
 ====================
@@ -3738,7 +3738,7 @@ length 41
 ====================
 \"All right. This is where I come in...\"
 ====================
-\"All right. This is where I come in...\"
+「呼，该我出场了吗…」
 ====================
 
 ====================
@@ -3749,7 +3749,7 @@ length 36
 ====================
 \"Almighty Magic... Floor Loooock!\"
 ====================
-\"Almighty Magic... Floor Loooock!\"
+「超高位魔法…FLOOR LO———————CK！」
 ====================
 
 ====================
@@ -3760,7 +3760,7 @@ length 49
 ====================
 \"How is it? Are there still more floors ahead?\"
 ====================
-\"How is it? Are there still more floors ahead?\"
+「不会吧，前面还有啊？」
 ====================
 
 ====================
@@ -3771,7 +3771,7 @@ length 27
 ====================
 \"Oh, yeah. That's right.\"
 ====================
-\"Oh, yeah. That's right.\"
+「是啊，嗯。没错呢」
 ====================
 
 ====================
@@ -3782,7 +3782,7 @@ length 65
 ====================
 \"Also, I remembered something while we were fighting together.\"
 ====================
-\"Also, I remembered something while we were fighting together.\"
+「另外，刚才一同作战之时，我回忆起一些事」
 ====================
 
 ====================
@@ -3793,7 +3793,7 @@ length 8
 ====================
 \"Hmm?\"
 ====================
-\"Hmm?\"
+「嗯？」
 ====================
 
 ====================
@@ -3804,7 +3804,7 @@ length 43
 ====================
 \"From when I was a travelling swordsman.\"
 ====================
-\"From when I was a travelling swordsman.\"
+「那是当我还是浪迹天涯的剑客之时的事」
 ====================
 
 ====================
@@ -3815,7 +3815,7 @@ length 55
 ====================
 \"I once fell in love with the princess of a kingdom.\"
 ====================
-\"I once fell in love with the princess of a kingdom.\"
+「那时，我与某国的公主坠入了情网」
 ====================
 
 ====================
@@ -3826,7 +3826,7 @@ length 9
 ====================
 \"Eh...\"
 ====================
-\"Eh...\"
+「诶…」
 ====================
 
 ====================
@@ -3837,7 +3837,7 @@ length 34
 ====================
 \"I remember now, Your Highness.\"
 ====================
-\"I remember now, Your Highness.\"
+「我想起来了，公主」
 ====================
 
 ====================
@@ -3848,7 +3848,7 @@ length 85
 ====================
 \"I am not the me from back then, but it seems my memories were recorded somewhere.\"
 ====================
-\"I am not the me from back then, but it seems my memories were recorded somewhere.\"
+「虽然我并不是当时的我，但这段记忆却似乎仍刻印在某处」
 ====================
 
 ====================
@@ -3859,7 +3859,7 @@ length 21
 ====================
 \"Thank goodness...\"
 ====================
-\"Thank goodness...\"
+「太好了…」
 ====================
 
 ====================
@@ -3870,7 +3870,7 @@ length 66
 ====================
 \"My self from back then protected you from harm, Your Highness.\"
 ====================
-\"My self from back then protected you from harm, Your Highness.\"
+「从前的我，曾保护过公主殿下您」
 ====================
 
 ====================
@@ -3881,7 +3881,7 @@ length 52
 ====================
 \"That's right... you did your best to protect me.\"
 ====================
-\"That's right... you did your best to protect me.\"
+「是啊…你啊，拼命地保护了我」
 ====================
 
 ====================
@@ -3892,7 +3892,7 @@ length 74
 ====================
 \"I fell into the beastmen's trap... and was held deep inside the caves.\"
 ====================
-\"I fell into the beastmen's trap... and was held deep inside the caves.\"
+「那是，我落入兽人们的陷阱…被困于洞窟深处的事」
 ====================
 
 ====================
@@ -3903,7 +3903,7 @@ length 44
 ====================
 \"And then, Takafumi, you entered alone...\"
 ====================
-\"And then, Takafumi, you entered alone...\"
+「然后鹰文，你只身一人…」
 ====================
 
 ====================
@@ -3914,7 +3914,7 @@ length 55
 ====================
 \"...and stood fearlessly against a hundred beastmen.\"
 ====================
-\"...and stood fearlessly against a hundred beastmen.\"
+「纵使面对100名兽人，也毫不退缩…」
 ====================
 
 ====================
@@ -3925,7 +3925,7 @@ length 51
 ====================
 \"You finally reached me and broke off my chains.\"
 ====================
-\"You finally reached me and broke off my chains.\"
+「最后终于挣扎着来到我身边，斩断了束缚我的锁链」
 ====================
 
 ====================
@@ -3936,7 +3936,7 @@ length 53
 ====================
 \"With numerous arrows sticking out of your back...\"
 ====================
-\"With numerous arrows sticking out of your back...\"
+「背上还插着好多箭…」
 ====================
 
 ====================
@@ -3947,7 +3947,7 @@ length 35
 ====================
 \"Your strength finally gave out.\"
 ====================
-\"Your strength finally gave out.\"
+「然后，你就这么力尽而亡了」
 ====================
 
 ====================
@@ -3958,7 +3958,7 @@ length 50
 ====================
 \"Afterwards, as I stood next to your dead body,\"
 ====================
-\"Afterwards, as I stood next to your dead body,\"
+「之后，凝视着你的亡骸…」
 ====================
 
 ====================
@@ -3969,7 +3969,7 @@ length 35
 ====================
 \"there was nothing I could do...\"
 ====================
-\"there was nothing I could do...\"
+「我却无能为力…」
 ====================
 
 ====================
@@ -3980,7 +3980,7 @@ length 122
 ====================
 \"So that's why you were making copies of him, using the fact that Takafumis can cancel the Golems' powers as an excuse.\"
 ====================
-\"So that's why you were making copies of him, using the fact that Takafumis can cancel the Golems' powers as an excuse.\"
+「于是，你就以所谓的能使石像兵失去力量为理由，不断制造着复制品呢」
 ====================
 
 ====================
@@ -3991,7 +3991,7 @@ length 16
 ====================
 \"I'm sorry...\"
 ====================
-\"I'm sorry...\"
+「对不起…」
 ====================
 
 ====================
@@ -4002,7 +4002,7 @@ length 33
 ====================
 \"I just wanted to apologize...\"
 ====================
-\"I just wanted to apologize...\"
+「只是，很想道歉…」
 ====================
 
 ====================
@@ -4013,7 +4013,7 @@ length 21
 ====================
 \"And to thank you.\"
 ====================
-\"And to thank you.\"
+「此外，还有感谢」
 ====================
 
 ====================
@@ -4024,7 +4024,7 @@ length 24
 ====================
 \"Thank you, Takafumi.\"
 ====================
-\"Thank you, Takafumi.\"
+「谢谢你，鹰文」
 ====================
 
 ====================
@@ -4035,7 +4035,7 @@ length 34
 ====================
 \"Thanks to you, I am all right.\"
 ====================
-\"Thanks to you, I am all right.\"
+「多亏了你，如今我才仍能好好地站在这里」
 ====================
 
 ====================
@@ -4046,7 +4046,7 @@ length 59
 ====================
 \"Yeah, you've really grown up, Your Highness. Thank God.\"
 ====================
-\"Yeah, you've really grown up, Your Highness. Thank God.\"
+「嗯，你长大了呢，公主…太好了」
 ====================
 
 ====================
@@ -4057,7 +4057,7 @@ length 39
 ====================
 \"You guys took on such good roles...\"
 ====================
-\"You guys took on such good roles...\"
+「你们的戏份还真重啊…」
 ====================
 
 ====================
@@ -4068,7 +4068,7 @@ length 86
 ====================
 \"Now that your memories have returned, will you raise your sword and fight with us?\"
 ====================
-\"Now that your memories have returned, will you raise your sword and fight with us?\"
+「既然已经恢复了昔日的记忆，那你还能再次持剑吗？」
 ====================
 
 ====================
@@ -4079,7 +4079,7 @@ length 61
 ====================
 \"I cannot. I no longer have the strength I once possessed.\"
 ====================
-\"I cannot. I no longer have the strength I once possessed.\"
+「不，我已没有当时的臂力和体力了」
 ====================
 
 ====================
@@ -4090,7 +4090,7 @@ length 64
 ====================
 \"I just want to stay with the princess. Will that bother you?\"
 ====================
-\"I just want to stay with the princess. Will that bother you?\"
+「只是，若能待在公主身边就很满足了。不会妨碍你们吧」
 ====================
 
 ====================
@@ -4101,7 +4101,7 @@ length 18
 ====================
 \"Of course not.\"
 ====================
-\"Of course not.\"
+「当然不会」
 ====================
 
 ====================
@@ -4112,7 +4112,7 @@ length 38
 ====================
 \"Indeed. We need your powers, Luke.\"
 ====================
-\"Indeed. We need your powers, Luke.\"
+「嗯，你那力量不也是必要的吗，鲁克」
 ====================
 
 ====================
@@ -4123,7 +4123,7 @@ length 14
 ====================
 \"Thank God.\"
 ====================
-\"Thank God.\"
+「太好了」
 ====================
 
 ====================
@@ -4134,7 +4134,7 @@ length 67
 ====================
 \"Eh? You're calling him Luke? Are you sure that's not a mistake?\"
 ====================
-\"Eh? You're calling him Luke? Are you sure that's not a mistake?\"
+「诶？是鲁克吗？没搞错吧！？」
 ====================
 
 ====================
@@ -4145,7 +4145,7 @@ length 50
 ====================
 \"Move aside! Move aside! You're all in the way!\"
 ====================
-\"Move aside! Move aside! You're all in the way!\"
+「闪开闪开闪开——啦！挡着啦挡着啦挡着啦————！」
 ====================
 
 ====================
@@ -4156,7 +4156,7 @@ length 44
 ====================
 \"You want some of this magic?! Imbeciles!\"
 ====================
-\"You want some of this magic?! Imbeciles!\"
+「想挨魔法吗，笨蛋你这笨蛋—」
 ====================
 
 ====================
@@ -4167,7 +4167,7 @@ length 36
 ====================
 \"Almighty Magic... Floor Loooock!\"
 ====================
-\"Almighty Magic... Floor Loooock!\"
+「超高位魔法…FLOOR LO———————CK！」
 ====================
 
 ====================
@@ -4178,7 +4178,7 @@ length 25
 ====================
 \"You're quite tense...\"
 ====================
-\"You're quite tense...\"
+「斗志真激昂呢…」
 ====================
 
 ====================
@@ -4189,7 +4189,7 @@ length 54
 ====================
 \"We've gone quite deep inside. Is there still more?\"
 ====================
-\"We've gone quite deep inside. Is there still more?\"
+「都来到这么深的地方了，还没到底吗？」
 ====================
 
 ====================
@@ -4200,7 +4200,7 @@ length 73
 ====================
 \"It feels like it's been getting darker... What an unpleasant feeling.\"
 ====================
-\"It feels like it's been getting darker... What an unpleasant feeling.\"
+「有种似乎变得更阴暗了的感觉呢…好讨厌的感觉啊…」
 ====================
 
 ====================
@@ -4211,7 +4211,7 @@ length 70
 ====================
 \"Everyone, gather under the lamp's light so we don't get separated.\"
 ====================
-\"Everyone, gather under the lamp's light so we don't get separated.\"
+「各位，请聚集到灯火照亮之处，别走散咯」
 ====================
 
 ====================
@@ -4222,7 +4222,7 @@ length 7
 ====================
 \"Oh?\"
 ====================
-\"Oh?\"
+「哎呀…？」
 ====================
 
 ====================
@@ -4233,7 +4233,7 @@ length 49
 ====================
 \"What, is this another one of Kanako's pranks?\"
 ====================
-\"What, is this another one of Kanako's pranks?\"
+「怎么了，河南子的玩笑吗？」
 ====================
 
 ====================
@@ -4244,7 +4244,7 @@ length 36
 ====================
 \"It's not me... This stench is...\"
 ====================
-\"It's not me... This stench is...\"
+「不是啦…这股恶臭…」
 ====================
 
 ====================
@@ -4255,7 +4255,7 @@ length 23
 ====================
 \"There's a beastman!\"
 ====================
-\"There's a beastman!\"
+「有兽人—！」
 ====================
 
 ====================
@@ -4266,7 +4266,7 @@ length 10
 ====================
 \"Ahhhh!\"
 ====================
-\"Ahhhh!\"
+「呜啊啊啊——！」
 ====================
 
 ====================
@@ -4277,7 +4277,7 @@ length 13
 ====================
 \"Takafumi!\"
 ====================
-\"Takafumi!\"
+「鹰文！」
 ====================
 
 ====================
@@ -4288,7 +4288,7 @@ length 19
 ====================
 \"Take thiiiisss!\"
 ====================
-\"Take thiiiisss!\"
+「看—招———————！」
 ====================
 
 ====================
@@ -4299,7 +4299,7 @@ length 8
 ====================
 *Slash!*
 ====================
-*Slash!*
+唰！
 ====================
 
 ====================
@@ -4310,7 +4310,7 @@ length 36
 ====================
 \"The enemy has been dealt with...\"
 ====================
-\"The enemy has been dealt with...\"
+「敌人已摆平了…」
 ====================
 
 ====================
@@ -4321,7 +4321,7 @@ length 44
 ====================
 \"It also had a lamp on it. I'll light it.\"
 ====================
-\"It also had a lamp on it. I'll light it.\"
+「这家伙还带着油灯。现在赶紧点上吧」
 ====================
 
 ====================
@@ -4332,7 +4332,7 @@ length 13
 ====================
 \"Takafumi!\"
 ====================
-\"Takafumi!\"
+「鹰文—！！」
 ====================
 
 ====================
@@ -4343,7 +4343,7 @@ length 43
 ====================
 \"Take him to the ground level right now!\"
 ====================
-\"Take him to the ground level right now!\"
+「快点传送回地面—！」
 ====================
 
 ====================
@@ -4354,7 +4354,7 @@ length 62
 ====================
 \"No, we need to stop the bleeding first, or he'll die here.\"
 ====================
-\"No, we need to stop the bleeding first, or he'll die here.\"
+「不，不先止血的话，他会死的哦—」
 ====================
 
 ====================
@@ -4365,7 +4365,7 @@ length 15
 ====================
 \"Takafumiii!\"
 ====================
-\"Takafumiii!\"
+「鹰文————！」
 ====================
 
 ====================
@@ -4376,7 +4376,7 @@ length 63
 ====================
 \"I didn't expect such a serious development at this point...\"
 ====================
-\"I didn't expect such a serious development at this point...\"
+「没想到竟会发展为如此严重的剧情啊…」
 ====================
 
 ====================
@@ -4387,7 +4387,7 @@ length 56
 ====================
 \"Hmph... I'd be better off if he just dies like that.\"
 ====================
-\"Hmph... I'd be better off if he just dies like that.\"
+「哼…就这么死了的话，对我而言倒是件好事呢」
 ====================
 
 ====================
@@ -4398,7 +4398,7 @@ length 52
 ====================
 \"All right. Excellent work. Leave the rest to me.\"
 ====================
-\"All right. Excellent work. Leave the rest to me.\"
+「好了，干得不错，之后交给我了」
 ====================
 
 ====================
@@ -4409,7 +4409,7 @@ length 36
 ====================
 \"Almighty Magic... Floor Loooock!\"
 ====================
-\"Almighty Magic... Floor Loooock!\"
+「超高位魔法…FLOOR LO———————CK！」
 ====================
 
 ====================
@@ -4420,7 +4420,7 @@ length 42
 ====================
 \"Are we still not at the deepest floor?\"
 ====================
-\"Are we still not at the deepest floor?\"
+「还没到最深处吗…」
 ====================
 
 ====================
@@ -4431,7 +4431,7 @@ length 46
 ====================
 \"Not yet. Get your asses moving, numskulls.\"
 ====================
-\"Not yet. Get your asses moving, numskulls.\"
+「还早着呢，你们快给我行动起来啊」
 ====================
 
 ====================
@@ -4442,7 +4442,7 @@ length 45
 ====================
 \"Do not use such foul language, you idiot!\"
 ====================
-\"Do not use such foul language, you idiot!\"
+「饶不了你小子哦」
 ====================
 
 ====================
@@ -4453,7 +4453,7 @@ length 41
 ====================
 \"I'm sorry. There are ten floors left.\"
 ====================
-\"I'm sorry. There are ten floors left.\"
+「非常抱歉，还有10层了」
 ====================
 
 ====================
@@ -4464,7 +4464,7 @@ length 75
 ====================
 \"So he's such a chicken that he'll spoil the game if you threaten him...\"
 ====================
-\"So he's such a chicken that he'll spoil the game if you threaten him...\"
+「这家伙吓得剧透了哦…」
 ====================
 
 ====================
@@ -4475,7 +4475,7 @@ length 73
 ====================
 \"Hurry, everyone. The day of the forbidden magic's completion is near!\"
 ====================
-\"Hurry, everyone. The day of the forbidden magic's completion is near!\"
+「抓紧时间哦，诸位，秘术完成之日将近咯！」
 ====================
 
 ====================
@@ -4486,7 +4486,7 @@ length 36
 ====================
 \"Or so No. 054 said in his sleep.\"
 ====================
-\"Or so No. 054 said in his sleep.\"
+「昏睡中的054号像是梦呓般地说过这话」
 ====================
 
 ====================
@@ -4497,7 +4497,7 @@ length 37
 ====================
 \"Thanks for the vital information.\"
 ====================
-\"Thanks for the vital information.\"
+「那还真多谢你传话了」
 ====================
 
 ====================
@@ -4508,7 +4508,7 @@ length 95
 ====================
 \"Also, there will be a time limit from the 45th floor, so let's make a save to restart from.\"
 ====================
-\"Also, there will be a time limit from the 45th floor, so let's make a save to restart from.\"
+「此外，由于到了第45层后就会有时间限制了，因而还是在此存档以便日后再干吧」
 ====================
 
 ====================
@@ -4519,7 +4519,7 @@ length 31
 ====================
 \"Thanks for the kind advice.\"
 ====================
-\"Thanks for the kind advice.\"
+「多谢你亲切的提醒」
 ====================
 
 ====================
@@ -4530,7 +4530,7 @@ length 20
 ====================
 \"Everyone, hurry!\"
 ====================
-\"Everyone, hurry!\"
+「各位，赶紧上路吧」
 ====================
 
 ====================
@@ -4541,7 +4541,7 @@ length 38
 ====================
 \"That was perfect. Well, here I go.\"
 ====================
-\"That was perfect. Well, here I go.\"
+「干得很好嘛。那就开始咯」
 ====================
 
 ====================
@@ -4552,7 +4552,7 @@ length 36
 ====================
 \"Almighty Magic... Floor Loooock!\"
 ====================
-\"Almighty Magic... Floor Loooock!\"
+「超高位魔法…FLOOR LO———————CK！」
 ====================
 
 ====================
@@ -4563,7 +4563,7 @@ length 35
 ====================
 \"Finally, just five floors left.\"
 ====================
-\"Finally, just five floors left.\"
+「终于只剩最后5层了吗」
 ====================
 
 ====================
@@ -4574,7 +4574,7 @@ length 38
 ====================
 \"...Floor Lock's uses just ran out.\"
 ====================
-\"...Floor Lock's uses just ran out.\"
+「…『FLOOR LOCK』也刚好用完了」
 ====================
 
 ====================
@@ -4585,7 +4585,7 @@ length 43
 ====================
 \"What? Did that spell have limited uses?\"
 ====================
-\"What? Did that spell have limited uses?\"
+「什么？那魔法，难道还有使用次数的限制吗？」
 ====================
 
 ====================
@@ -4596,7 +4596,7 @@ length 72
 ====================
 \"Of course. If it were unlimited, I would have cast it at each floor.\"
 ====================
-\"Of course. If it were unlimited, I would have cast it at each floor.\"
+「废话嘛。倘若无限的话，早就每层都施放一次了」
 ====================
 
 ====================
@@ -4607,7 +4607,7 @@ length 90
 ====================
 \"I don't mind continuing, but we need to load up first. Let's head to the ground level.\"
 ====================
-\"I don't mind continuing, but we need to load up first. Let's head to the ground level.\"
+「虽说继续前进也行，但暂且还是先补给一下吧。返回地面吧」
 ====================
 
 ====================
@@ -4618,7 +4618,7 @@ length 31
 ====================
 \"There are four floors left.\"
 ====================
-\"There are four floors left.\"
+「还剩，四层了」
 ====================
 
 ====================
@@ -4629,7 +4629,7 @@ length 19
 ====================
 \"Yeah, let's go.\"
 ====================
-\"Yeah, let's go.\"
+「是啊，走吧」
 ====================
 
 ====================
@@ -4640,7 +4640,7 @@ length 22
 ====================
 \"Three floors left.\"
 ====================
-\"Three floors left.\"
+「还剩，三层了」
 ====================
 
 ====================
@@ -4651,7 +4651,7 @@ length 22
 ====================
 \"Good. Let's hurry.\"
 ====================
-\"Good. Let's hurry.\"
+「嗯，加快脚步吧」
 ====================
 
 ====================
@@ -4662,7 +4662,7 @@ length 21
 ====================
 \"Two floors to go.\"
 ====================
-\"Two floors to go.\"
+「还剩，两层了」
 ====================
 
 ====================
@@ -4673,7 +4673,7 @@ length 21
 ====================
 \"Let's keep going.\"
 ====================
-\"Let's keep going.\"
+「走吧」
 ====================
 
 ====================
@@ -4684,7 +4684,7 @@ length 36
 ====================
 \"We're finally on the last floor.\"
 ====================
-\"We're finally on the last floor.\"
+「终于，到了最后一层了—」
 ====================
 
 ====================
@@ -4695,7 +4695,7 @@ length 58
 ====================
 \"Hm... given the circumstances, do you think we'll win?\"
 ====================
-\"Hm... given the circumstances, do you think we'll win?\"
+「呼…这种状况下，究竟能打赢吗？」
 ====================
 
 ====================
@@ -4706,7 +4706,7 @@ length 26
 ====================
 \"Ha, of course we will.\"
 ====================
-\"Ha, of course we will.\"
+「哼—，怎会打不赢呢」
 ====================
 
 ====================
@@ -4717,7 +4717,7 @@ length 39
 ====================
 \"Well then, everyone, let's do this.\"
 ====================
-\"Well then, everyone, let's do this.\"
+「那么各位，上吧」
 ====================
 
 ====================
@@ -4728,7 +4728,7 @@ length 27
 ====================
 \"This is the last floor.\"
 ====================
-\"This is the last floor.\"
+「最后一层了—」
 ====================
 
 ====================
@@ -4739,7 +4739,7 @@ length 36
 ====================
 \"I wonder if we'll win this time?\"
 ====================
-\"I wonder if we'll win this time?\"
+「这次能打赢吗…？」
 ====================
 
 ====================
@@ -4750,7 +4750,7 @@ length 26
 ====================
 \"Ha, of course we will.\"
 ====================
-\"Ha, of course we will.\"
+「哼—，怎会打不赢呢」
 ====================
 
 ====================
@@ -4761,7 +4761,7 @@ length 39
 ====================
 \"Well then, everyone, let's do this.\"
 ====================
-\"Well then, everyone, let's do this.\"
+「那么各位，上吧」
 ====================
 
 ====================
@@ -4772,7 +4772,7 @@ length 15
 ====================
 \"We wooonn!!\"
 ====================
-\"We wooonn!!\"
+「赢啦啊啊啊————！！」
 ====================
 
 ====================
@@ -4783,7 +4783,7 @@ length 42
 ====================
 \"Did we manage to break up their plans?\"
 ====================
-\"Did we manage to break up their plans?\"
+「这就能阻止那群家伙的阴谋了吗」
 ====================
 
 ====================
@@ -4794,7 +4794,7 @@ length 9
 ====================
 \"No...\"
 ====================
-\"No...\"
+「还没…」
 ====================
 
 ====================
@@ -4805,7 +4805,7 @@ length 14
 ====================
 \"Takafumi?!\"
 ====================
-\"Takafumi?!\"
+「鹰文！？」
 ====================
 
 ====================
@@ -4816,7 +4816,7 @@ length 98
 ====================
 \"What's the matter? You're here in person? Will you be okay after coming all the way down here?\"
 ====================
-\"What's the matter? You're here in person? Will you be okay after coming all the way down here?\"
+「怎么了，这次居然是鹰文本人啊，来到这里没问题吗…？」
 ====================
 
 ====================
@@ -4827,7 +4827,7 @@ length 39
 ====================
 \"A few beastmen escaped to the past.\"
 ====================
-\"A few beastmen escaped to the past.\"
+「已有数名兽人回到了过去」
 ====================
 
 ====================
@@ -4838,7 +4838,7 @@ length 57
 ====================
 \"Every time they go back, their numbers will increase.\"
 ====================
-\"Every time they go back, their numbers will increase.\"
+「返回过去的兽人同伙会越来越多」
 ====================
 
 ====================
@@ -4849,7 +4849,7 @@ length 90
 ====================
 \"One thousand years before now, the beastmen's army will be larger than all of mankind.\"
 ====================
-\"One thousand years before now, the beastmen's army will be larger than all of mankind.\"
+「穿梭回千年之前，那时的兽人大军的数量，就会变得远远凌驾于人类军队」
 ====================
 
 ====================
@@ -4860,7 +4860,7 @@ length 37
 ====================
 \"The beastmen's history has begun.\"
 ====================
-\"The beastmen's history has begun.\"
+「兽人们的历史开始了」
 ====================
 
 ====================
@@ -4871,7 +4871,7 @@ length 32
 ====================
 \"No way... What should we do?\"
 ====================
-\"No way... What should we do?\"
+「怎会这样…这该如何是好啊—」
 ====================
 
 ====================
@@ -4882,7 +4882,7 @@ length 37
 ====================
 \"I'll go after them with the Lord.\"
 ====================
-\"I'll go after them with the Lord.\"
+「我和君主殿下去追击他们」
 ====================
 
 ====================
@@ -4893,7 +4893,7 @@ length 45
 ====================
 \"My Lord, I can count on your help, right?\"
 ====================
-\"My Lord, I can count on your help, right?\"
+「君主殿下，请您协助我」
 ====================
 
 ====================
@@ -4904,7 +4904,7 @@ length 17
 ====================
 \"...certainly.\"
 ====================
-\"...certainly.\"
+「…嗯」
 ====================
 
 ====================
@@ -4915,7 +4915,7 @@ length 52
 ====================
 \"I will go with you. I understand everything now.\"
 ====================
-\"I will go with you. I understand everything now.\"
+「我也去。如今我已全部明白了」
 ====================
 
 ====================
@@ -4926,7 +4926,7 @@ length 21
 ====================
 \"I see. Thank you.\"
 ====================
-\"I see. Thank you.\"
+「是吗，多谢协助」
 ====================
 
 ====================
@@ -4937,7 +4937,7 @@ length 105
 ====================
 \"I'll go with you, too. I'm just a normal character without any special, secret background, after all.\"
 ====================
-\"I'll go with you, too. I'm just a normal character without any special, secret background, after all.\"
+「那我也去。反正我是个没什么特别的隐藏设定的普通角色罢了」
 ====================
 
 ====================
@@ -4948,7 +4948,7 @@ length 86
 ====================
 \"Do you not now carry an extraordinary mission? I look forward to your performance.\"
 ====================
-\"Do you not now carry an extraordinary mission? I look forward to your performance.\"
+「那就即刻肩负起这个特别的任务吧，我期待你的表现哦」
 ====================
 
 ====================
@@ -4959,7 +4959,7 @@ length 18
 ====================
 \"Your Highness.\"
 ====================
-\"Your Highness.\"
+「公主」
 ====================
 
 ====================
@@ -4970,7 +4970,7 @@ length 86
 ====================
 \"Please stay here, Your Highness. Your duty is to lead our country into the future.\"
 ====================
-\"Please stay here, Your Highness. Your duty is to lead our country into the future.\"
+「公主，请您留下。您还肩负着引领该国未来的使命」
 ====================
 
 ====================
@@ -4981,7 +4981,7 @@ length 25
 ====================
 \"To me, that's just...\"
 ====================
-\"To me, that's just...\"
+「对我而言那…」
 ====================
 
 ====================
@@ -4992,7 +4992,7 @@ length 35
 ====================
 \"Besides, even if you guys go...\"
 ====================
-\"Besides, even if you guys go...\"
+「而且，就算你们…」
 ====================
 
 ====================
@@ -5003,7 +5003,7 @@ length 50
 ====================
 \"Can you even do anything about the situation?!\"
 ====================
-\"Can you even do anything about the situation?!\"
+「你们去了又能挽回什么呢！？」
 ====================
 
 ====================
@@ -5014,7 +5014,7 @@ length 37
 ====================
 \"Of course... There's always hope.\"
 ====================
-\"Of course... There's always hope.\"
+「能挽回…扔有挽回的可能性」
 ====================
 
 ====================
@@ -5025,7 +5025,7 @@ length 46
 ====================
 \"What are your chances? Will you come back?\"
 ====================
-\"What are your chances? Will you come back?\"
+「胜算呢！？能回来吗！？」
 ====================
 
 ====================
@@ -5036,7 +5036,7 @@ length 84
 ====================
 \"Your Highness, I know it's hard to go our separate ways, but we will meet again.\"
 ====================
-\"Your Highness, I know it's hard to go our separate ways, but we will meet again.\"
+「公主，分别虽然残酷，但我们定会重逢的」
 ====================
 
 ====================
@@ -5047,7 +5047,7 @@ length 34
 ====================
 \"When that happens, will you...\"
 ====================
-\"When that happens, will you...\"
+「到那时，你…」
 ====================
 
 ====================
@@ -5058,7 +5058,7 @@ length 29
 ====================
 \"...will you still be you?\"
 ====================
-\"...will you still be you?\"
+「…还会是你吗？」
 ====================
 
 ====================
@@ -5069,7 +5069,7 @@ length 48
 ====================
 \"Who knows? I'll leave it to you to find out.\"
 ====================
-\"Who knows? I'll leave it to you to find out.\"
+「谁知道呢。这就靠公主，你来确认了」
 ====================
 
 ====================
@@ -5080,7 +5080,7 @@ length 16
 ====================
 \"Ten seconds.\"
 ====================
-\"Ten seconds.\"
+「10秒之后」
 ====================
 
 ====================
@@ -5091,7 +5091,7 @@ length 77
 ====================
 \"Our fight begins a thousand years ago, and will end ten seconds from now.\"
 ====================
-\"Our fight begins a thousand years ago, and will end ten seconds from now.\"
+「我们的战斗将从千年前开始，并于10秒后结束」
 ====================
 
 ====================
@@ -5102,7 +5102,7 @@ length 38
 ====================
 \"Your Highness... My dear princess.\"
 ====================
-\"Your Highness... My dear princess.\"
+「公主…我最爱的公主」
 ====================
 
 ====================
@@ -5113,7 +5113,7 @@ length 13
 ====================
 \"Farewell.\"
 ====================
-\"Farewell.\"
+「再见了」
 ====================
 
 ====================
@@ -5124,7 +5124,7 @@ length 22
 ====================
 \"Here I go, then...\"
 ====================
-\"Here I go, then...\"
+「那么，走吧…」
 ====================
 
 ====================
@@ -5135,7 +5135,7 @@ length 9
 ====================
 \"Yeah.\"
 ====================
-\"Yeah.\"
+「嗯」
 ====================
 
 ====================
@@ -5146,7 +5146,7 @@ length 16
 ====================
 \"Bring it on.\"
 ====================
-\"Bring it on.\"
+「快上吧」
 ====================
 
 ====================
@@ -5157,5 +5157,5 @@ length 37
 ====================
 \"Almighty High Magic... DeLorean!!\"
 ====================
-\"Almighty High Magic... DeLorean!!\"
+「超高位魔法…DELOREAN！！」
 ====================

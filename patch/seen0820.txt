@@ -9,7 +9,7 @@ length 17
 ====================
 August 20th (Fri)
 ====================
-August 20th (Fri)
+8月20日(星期五)
 ====================
 
 ====================
@@ -20,7 +20,7 @@ length 43
 ====================
 The villagers are cheering for some reason.
 ====================
-The villagers are cheering for some reason.
+不知为何传来了欢呼声。
 ====================
 
 ====================
@@ -31,7 +31,7 @@ length 57
 ====================
 I walk towards the commotion to find out what's going on.
 ====================
-I walk towards the commotion to find out what's going on.
+我走过去一探究竟。
 ====================
 
 ====================
@@ -42,7 +42,7 @@ length 50
 ====================
 There, I notice the caretaker with her back to me.
 ====================
-There, I notice the caretaker with her back to me.
+看到了管理员的背影。
 ====================
 
 ====================
@@ -53,7 +53,7 @@ length 20
 ====================
 \"What's going on?\"
 ====================
-\"What's going on?\"
+「怎么了」
 ====================
 
 ====================
@@ -64,7 +64,7 @@ length 22
 ====================
 I ask her from behind.
 ====================
-I ask her from behind.
+我向她询问道。
 ====================
 
 ====================
@@ -75,7 +75,7 @@ length 25
 ====================
 \"Hm? Oh, good morning.\"
 ====================
-\"Hm? Oh, good morning.\"
+「嗯？哎呀，早上好」
 ====================
 
 ====================
@@ -86,7 +86,7 @@ length 12
 ====================
 \"Morning.\"
 ====================
-\"Morning.\"
+「早上好」
 ====================
 
 ====================
@@ -97,7 +97,7 @@ length 40
 ====================
 \"So, what's up? Did something happen?\"
 ====================
-\"So, what's up? Did something happen?\"
+「我说，发生什么事了」
 ====================
 
 ====================
@@ -108,7 +108,7 @@ length 32
 ====================
 \"An amazing helper showed up.\"
 ====================
-\"An amazing helper showed up.\"
+「出现位了不起的帮手哦」
 ====================
 
 ====================
@@ -119,7 +119,7 @@ length 13
 ====================
 \"A helper?\"
 ====================
-\"A helper?\"
+「帮手？」
 ====================
 
 ====================
@@ -130,7 +130,7 @@ length 67
 ====================
 \"And that helper is doing three times the work of any other man.\"
 ====================
-\"And that helper is doing three times the work of any other man.\"
+「比我们这的男人还能干三倍呢」
 ====================
 
 ====================
@@ -141,7 +141,7 @@ length 43
 ====================
 I turn to look where the women are looking.
 ====================
-I turn to look where the women are looking.
+我沿着女性们的视线看过去。
 ====================
 
 ====================
@@ -152,7 +152,7 @@ length 64
 ====================
 There, I see a brown creature carrying a large amount of timber.
 ====================
-There, I see a brown creature carrying a large amount of timber.
+在视线前端，有个抱着大量方材走着的茶色生物。
 ====================
 
 ====================
@@ -163,7 +163,7 @@ length 31
 ====================
 I almost fall down on the spot.
 ====================
-I almost fall down on the spot.
+我差点没当场跌倒。
 ====================
 
 ====================
@@ -174,7 +174,7 @@ length 20
 ====================
 It's a bear costume.
 ====================
-It's a bear costume.
+那是熊的卡通服。
 ====================
 
 ====================
@@ -185,7 +185,7 @@ length 35
 ====================
 Tomoyo has to be the one inside it.
 ====================
-Tomoyo has to be the one inside it.
+也就是说，里面无疑是智代了。
 ====================
 
 ====================
@@ -196,7 +196,7 @@ length 54
 ====================
 \"The bear was working amongst us before we noticed.\"
 ====================
-\"The bear was working amongst us before we noticed.\"
+「不知何时混进来干活的呢」
 ====================
 
 ====================
@@ -207,7 +207,7 @@ length 80
 ====================
 \"At first, we thought it was an actual bear, and that caused quite an uproar.\"
 ====================
-\"At first, we thought it was an actual bear, and that caused quite an uproar.\"
+「最初还以为是真的熊呢，造成了不小的骚乱」
 ====================
 
 ====================
@@ -218,7 +218,7 @@ length 101
 ====================
 \"But well, once we took a better look and saw what a hard-worker it is, we were all but impressed.\"
 ====================
-\"But well, once we took a better look and saw what a hard-worker it is, we were all but impressed.\"
+「但见它如此卖力，就又对它钦佩起来了」
 ====================
 
 ====================
@@ -229,7 +229,7 @@ length 34
 ====================
 \"It's not really a bear, is it?\"
 ====================
-\"It's not really a bear, is it?\"
+「那是假的吧？」
 ====================
 
 ====================
@@ -240,7 +240,7 @@ length 47
 ====================
 \"Yeah, it isn't, no matter how I look at it.\"
 ====================
-\"Yeah, it isn't, no matter how I look at it.\"
+「怎么看都是假的吧」
 ====================
 
 ====================
@@ -251,7 +251,7 @@ length 35
 ====================
 \"There's somebody inside, right?\"
 ====================
-\"There's somebody inside, right?\"
+「里面是个人吧？」
 ====================
 
 ====================
@@ -262,7 +262,7 @@ length 45
 ====================
 \"Who knows? Perhaps there's a bear inside.\"
 ====================
-\"Who knows? Perhaps there's a bear inside.\"
+「谁知道呢。说不定里面也是头熊哦？」
 ====================
 
 ====================
@@ -273,7 +273,7 @@ length 14
 ====================
 \"Oh, I see.\"
 ====================
-\"Oh, I see.\"
+「啊—原来如此」
 ====================
 
 ====================
@@ -284,7 +284,7 @@ length 45
 ====================
 \"So it's pretending to be a person, right?\"
 ====================
-\"So it's pretending to be a person, right?\"
+「想要装成人呢」
 ====================
 
 ====================
@@ -295,7 +295,7 @@ length 48
 ====================
 \"In that case, I can accept how strong it is.\"
 ====================
-\"In that case, I can accept how strong it is.\"
+「这样的话，那种怪力也就能理解了呢」
 ====================
 
 ====================
@@ -306,7 +306,7 @@ length 80
 ====================
 I don't know how much of what I'm saying she believes, but she continues to nod.
 ====================
-I don't know how much of what I'm saying she believes, but she continues to nod.
+不知她究竟相信到什么程度，只是一个劲『嗯嗯』地点着头。
 ====================
 
 ====================
@@ -317,7 +317,7 @@ length 63
 ====================
 \"Hey, I heard there's a bear working here. Is that for real?\"
 ====================
-\"Hey, I heard there's a bear working here. Is that for real?\"
+「呐—呐—，据说有熊在这干活，是真的吗—？」
 ====================
 
 ====================
@@ -328,7 +328,7 @@ length 37
 ====================
 I hear Kanako's voice from behind me.
 ====================
-I hear Kanako's voice from behind me.
+背后传来了河南子的声音。
 ====================
 
 ====================
@@ -339,7 +339,7 @@ length 15
 ====================
 \"Yeah, look.\"
 ====================
-\"Yeah, look.\"
+「是啊，看吧」
 ====================
 
 ====================
@@ -350,7 +350,7 @@ length 32
 ====================
 \"Whoa, it's actually working.\"
 ====================
-\"Whoa, it's actually working.\"
+「呜哦哦，真的在干活啊」
 ====================
 
 ====================
@@ -361,7 +361,7 @@ length 53
 ====================
 \"I suppose there are some amazing bears out there.\"
 ====================
-\"I suppose there are some amazing bears out there.\"
+「这世上还真有不得了的熊啊」
 ====================
 
 ====================
@@ -372,7 +372,7 @@ length 34
 ====================
 \"You idiot. Take a better look.\"
 ====================
-\"You idiot. Take a better look.\"
+「笨蛋，看清楚点」
 ====================
 
 ====================
@@ -383,7 +383,7 @@ length 33
 ====================
 \"Eh... Huh? Is that a costume?\"
 ====================
-\"Eh... Huh? Is that a costume?\"
+「诶…咦？卡通服吗？」
 ====================
 
 ====================
@@ -394,7 +394,7 @@ length 27
 ====================
 \"Oh. So it's a human...?\"
 ====================
-\"Oh. So it's a human...?\"
+「什么嘛，原来是人啊…」
 ====================
 
 ====================
@@ -405,7 +405,7 @@ length 39
 ====================
 \"That aside, its gait is familiar...\"
 ====================
-\"That aside, its gait is familiar...\"
+「话说回来，这模样，仿佛在哪见过啊…」
 ====================
 
 ====================
@@ -416,7 +416,7 @@ length 11
 ====================
 \"Senpa... 
 ====================
-\"Senpa... 
+「前辈…
 ====================
 
 ====================
@@ -427,7 +427,7 @@ length 7
 ====================
 mmph!\"
 ====================
-mmph!\"
+呜—」
 ====================
 
 ====================
@@ -438,7 +438,7 @@ length 46
 ====================
 I jab her in the side before she could finish.
 ====================
-I jab her in the side before she could finish.
+她正要说出口的时候，我捅了下她的腰。
 ====================
 
 ====================
@@ -449,7 +449,7 @@ length 30
 ====================
 \"What the hell's with you?!\"
 ====================
-\"What the hell's with you?!\"
+「干什么啊，你小子」
 ====================
 
 ====================
@@ -460,7 +460,7 @@ length 41
 ====================
 I wink at her hoping she'll get the hint.
 ====================
-I wink at her hoping she'll get the hint.
+我向她使了个眼色，示意她别多事。
 ====================
 
 ====================
@@ -471,7 +471,7 @@ length 63
 ====================
 \"What's this? You hitting on me? Are you dumping her for me?\"
 ====================
-\"What's this? You hitting on me? Are you dumping her for me?\"
+「什么啊？示爱吗？想追求我吗？」
 ====================
 
 ====================
@@ -482,7 +482,7 @@ length 71
 ====================
 \"Okay, if you can catch my spit with your face, I'll think about it.\"
 ====================
-\"Okay, if you can catch my spit with your face, I'll think about it.\"
+「好，从现在开始，如果你能用脸接住我吐出来的口水，那我就考虑考虑」
 ====================
 
 ====================
@@ -493,7 +493,7 @@ length 25
 ====================
 \"All right, go! *Spit*\"
 ====================
-\"All right, go! *Spit*\"
+「开始了哦，呸—」
 ====================
 
 ====================
@@ -504,7 +504,7 @@ length 7
 ====================
 \"Ow!\"
 ====================
-\"Ow!\"
+「好痛—！」
 ====================
 
 ====================
@@ -515,7 +515,7 @@ length 43
 ====================
 I smack her with a karate chop to the head.
 ====================
-I smack her with a karate chop to the head.
+我重重地敲了她一下。
 ====================
 
 ====================
@@ -526,7 +526,7 @@ length 29
 ====================
 \"Stop being so disgusting.\"
 ====================
-\"Stop being so disgusting.\"
+「别做这么恶心的事」
 ====================
 
 ====================
@@ -537,7 +537,7 @@ length 69
 ====================
 \"Because you hit me, it landed on the hair of that guy behind you!\"
 ====================
-\"Because you hit me, it landed on the hair of that guy behind you!\"
+「都怪你敲我啊，这下吐到前面那家伙的头发上了—」
 ====================
 
 ====================
@@ -548,7 +548,7 @@ length 22
 ====================
 \"Eh? What about me?\"
 ====================
-\"Eh? What about me?\"
+「诶？什么？」
 ====================
 
 ====================
@@ -559,7 +559,7 @@ length 21
 ====================
 The man turns around.
 ====================
-The man turns around.
+前面的男人转过头来。
 ====================
 
 ====================
@@ -570,7 +570,7 @@ length 54
 ====================
 \"Oh, nothing. I just thought you look very stylish.\"
 ====================
-\"Oh, nothing. I just thought you look very stylish.\"
+「啊，没什么，只是感觉你好帅呢」
 ====================
 
 ====================
@@ -581,7 +581,7 @@ length 22
 ====================
 \"Hah... is that so?\"
 ====================
-\"Hah... is that so?\"
+「诶，是这样吗？」
 ====================
 
 ====================
@@ -592,7 +592,7 @@ length 17
 ====================
 \"Come with me.\"
 ====================
-\"Come with me.\"
+「跟我过来」
 ====================
 
 ====================
@@ -603,7 +603,7 @@ length 61
 ====================
 I grab Kanako's hand and drag her out of the crowd of people.
 ====================
-I grab Kanako's hand and drag her out of the crowd of people.
+我牵着河南子的手，离开了人群。
 ====================
 
 ====================
@@ -614,7 +614,7 @@ length 22
 ====================
 \"Geez! What is it?!\"
 ====================
-\"Geez! What is it?!\"
+「干什么啊，真是的！」
 ====================
 
 ====================
@@ -625,7 +625,7 @@ length 39
 ====================
 \"Don't tell anyone that it's Tomoyo.\"
 ====================
-\"Don't tell anyone that it's Tomoyo.\"
+「千万别说那是智代啊」
 ====================
 
 ====================
@@ -636,7 +636,7 @@ length 12
 ====================
 \"Eh? Why?\"
 ====================
-\"Eh? Why?\"
+「咦，为什么」
 ====================
 
 ====================
@@ -647,7 +647,7 @@ length 66
 ====================
 \"She's probably doing that because she doesn't want us to know.\"
 ====================
-\"She's probably doing that because she doesn't want us to know.\"
+「正因为她不想被人知道，所以才穿成那样的吧」
 ====================
 
 ====================
@@ -658,7 +658,7 @@ length 59
 ====================
 \"But it's obvious it's her if you look at how she moves.\"
 ====================
-\"But it's obvious it's her if you look at how she moves.\"
+「但一看她那动作，不就穿帮了吗」
 ====================
 
 ====================
@@ -669,7 +669,7 @@ length 14
 ====================
 \"Even then.\"
 ====================
-\"Even then.\"
+「就算如此也别说」
 ====================
 
 ====================
@@ -680,7 +680,7 @@ length 47
 ====================
 \"She can't help us if she doesn't wear that.\"
 ====================
-\"She can't help us if she doesn't wear that.\"
+「如果说了的话，她就不会来帮忙了啊」
 ====================
 
 ====================
@@ -691,7 +691,7 @@ length 17
 ====================
 \"Seriously...?\"
 ====================
-\"Seriously...?\"
+「真的吗…」
 ====================
 
 ====================
@@ -702,7 +702,7 @@ length 39
 ====================
 \"Ah...  she's as awkward as always..\"
 ====================
-\"Ah...  she's as awkward as always..\"
+「啊—，还是照样不开窍呢…」
 ====================
 
 ====================
@@ -713,7 +713,7 @@ length 68
 ====================
 Takafumi would probably have said, \"That's what's cute about her.\"
 ====================
-Takafumi would probably have said, \"That's what's cute about her.\"
+如果说这话的是鹰文的话，大概会说『这方面也很可爱』吧。
 ====================
 
 ====================
@@ -724,7 +724,7 @@ length 38
 ====================
 Let me give that same Takafumi a call.
 ====================
-Let me give that same Takafumi a call.
+我给鹰文打起电话来。
 ====================
 
 ====================
@@ -735,7 +735,7 @@ length 29
 ====================
 \"Hello, Okazaki residence.\"
 ====================
-\"Hello, Okazaki residence.\"
+『你好，这里是冈崎家』
 ====================
 
 ====================
@@ -746,7 +746,7 @@ length 36
 ====================
 He answers more naturally this time.
 ====================
-He answers more naturally this time.
+他接得比之前更自然了。
 ====================
 
 ====================
@@ -757,7 +757,7 @@ length 70
 ====================
 \"It was you, right? You're the one who sent that bear costume here.\"
 ====================
-\"It was you, right? You're the one who sent that bear costume here.\"
+「是你将熊的卡通服，偷偷送到这的吧」
 ====================
 
 ====================
@@ -768,7 +768,7 @@ length 38
 ====================
 \"The way you put that sure is rude.\"
 ====================
-\"The way you put that sure is rude.\"
+『说什么偷偷送的，还真是失礼啊』
 ====================
 
 ====================
@@ -779,7 +779,7 @@ length 37
 ====================
 \"I sent it because I was asked to.\"
 ====================
-\"I sent it because I was asked to.\"
+『还不是因为有人拜托，我才送去的啊』
 ====================
 
 ====================
@@ -790,7 +790,7 @@ length 18
 ====================
 \"Who asked you?\"
 ====================
-\"Who asked you?\"
+「谁拜托的」
 ====================
 
 ====================
@@ -801,7 +801,7 @@ length 44
 ====================
 \"Uh... I was asked to keep that a secret.\"
 ====================
-\"Uh... I was asked to keep that a secret.\"
+『啊—，那个人叫我保密』
 ====================
 
 ====================
@@ -812,7 +812,7 @@ length 29
 ====================
 \"It was Tomoyo, wasn't it?\"
 ====================
-\"It was Tomoyo, wasn't it?\"
+「是智代吧」
 ====================
 
 ====================
@@ -823,7 +823,7 @@ length 20
 ====================
 \"Well, who knows?\"
 ====================
-\"Well, who knows?\"
+『谁知道呢？』
 ====================
 
 ====================
@@ -834,7 +834,7 @@ length 24
 ====================
 He's feigning ignorance.
 ====================
-He's feigning ignorance.
+还在故意装傻。
 ====================
 
 ====================
@@ -845,7 +845,7 @@ length 49
 ====================
 \"You really are a good brother, you know that?\"
 ====================
-\"You really are a good brother, you know that?\"
+「你真是个好弟弟啊」
 ====================
 
 ====================
@@ -856,7 +856,7 @@ length 34
 ====================
 \"Eh? Haha, you really think so?\"
 ====================
-\"Eh? Haha, you really think so?\"
+『诶？哈哈，是吗』
 ====================
 
 ====================
@@ -867,7 +867,7 @@ length 72
 ====================
 He answers, seeming to take my words completely to heart. What an idiot.
 ====================
-He answers, seeming to take my words completely to heart. What an idiot.
+一点都不否定地接受了。真是个傻瓜。
 ====================
 
 ====================
@@ -878,7 +878,7 @@ length 54
 ====================
 \"Senpai, where were you today? What were you up to?\"
 ====================
-\"Senpai, where were you today? What were you up to?\"
+「前辈，今天去了哪，做了些什么啊」
 ====================
 
 ====================
@@ -889,7 +889,7 @@ length 11
 ====================
 \"......!\"
 ====================
-\"......!\"
+「……！」
 ====================
 
 ====================
@@ -900,7 +900,7 @@ length 50
 ====================
 Tomoyo's hand trembles as she scoops up some soup.
 ====================
-Tomoyo's hand trembles as she scoops up some soup.
+她那想要盛汤的手立即颤抖了一下。
 ====================
 
 ====================
@@ -911,7 +911,7 @@ length 46
 ====================
 Kanako is probably enjoying Tomoyo's reaction.
 ====================
-Kanako is probably enjoying Tomoyo's reaction.
+看到智代的反应，河南子一定乐坏了吧。
 ====================
 
 ====================
@@ -922,7 +922,7 @@ length 74
 ====================
 \"I wasn't feeling very well, so I stayed in the room and got some rest.\"
 ====================
-\"I wasn't feeling very well, so I stayed in the room and got some rest.\"
+「因为身体有点不舒服，所以一直在房里休息」
 ====================
 
 ====================
@@ -933,7 +933,7 @@ length 37
 ====================
 Does she really think we didn't know?
 ====================
-Does she really think we didn't know?
+她还以为没穿帮吗？
 ====================
 
 ====================
@@ -944,7 +944,7 @@ length 56
 ====================
 \"Are you all right? Want me to get you some medicine?\"
 ====================
-\"Are you all right? Want me to get you some medicine?\"
+「不要紧吗？我去找点药来吧」
 ====================
 
 ====================
@@ -955,7 +955,7 @@ length 53
 ====================
 \"No, don't worry about it. It's just minor anemia.\"
 ====================
-\"No, don't worry about it. It's just minor anemia.\"
+「不，不用担心。只是轻微的贫血」
 ====================
 
 ====================
@@ -966,7 +966,7 @@ length 46
 ====================
 \"Ah, that's a shame. There was a bear here!\"
 ====================
-\"Ah, that's a shame. There was a bear here!\"
+「还真可惜啊—。明明今天有熊出现的说」
 ====================
 
 ====================
@@ -977,7 +977,7 @@ length 18
 ====================
 \"Yeah, I heard.\"
 ====================
-\"Yeah, I heard.\"
+「嗯，我听别人说了」
 ====================
 
 ====================
@@ -988,7 +988,7 @@ length 49
 ====================
 \"It was someone wearing a bear costume, right?\"
 ====================
-\"It was someone wearing a bear costume, right?\"
+「是穿着熊的…卡通服的家伙吧？」
 ====================
 
 ====================
@@ -999,7 +999,7 @@ length 117
 ====================
 I wouldn't know what to do if she started telling me it was a real bear that had shown up. Thank goodness she didn't.
 ====================
-I wouldn't know what to do if she started telling me it was a real bear that had shown up. Thank goodness she didn't.
+我还在烦恼如果她坚持说是真正的熊的话，我该怎么回答呢，这么一说还真是帮大忙了。
 ====================
 
 ====================
@@ -1010,7 +1010,7 @@ length 34
 ====================
 \"I heard that it was very nice.\"
 ====================
-\"I heard that it was very nice.\"
+「总之，是个不错的家伙吧」
 ====================
 
 ====================
@@ -1021,7 +1021,7 @@ length 54
 ====================
 \"Nah, it was rather eerie how kind that person was.\"
 ====================
-\"Nah, it was rather eerie how kind that person was.\"
+「不—，那人的好心反而让人觉得很可疑呢」
 ====================
 
 ====================
@@ -1032,7 +1032,7 @@ length 80
 ====================
 \"It has to be after something. It might do something sketchy all of a sudden.\"
 ====================
-\"It has to be after something. It might do something sketchy all of a sudden.\"
+「一定是有什么企图的。说不定会突然做坏事呢」
 ====================
 
 ====================
@@ -1043,7 +1043,7 @@ length 46
 ====================
 \"Of course not. There's no way that's true!\"
 ====================
-\"Of course not. There's no way that's true!\"
+「不会有那种事的，绝不可能」
 ====================
 
 ====================
@@ -1054,7 +1054,7 @@ length 13
 ====================
 \"How come?\"
 ====================
-\"How come?\"
+「为什么？」
 ====================
 
 ====================
@@ -1065,7 +1065,7 @@ length 11
 ====================
 \"Well...\"
 ====================
-\"Well...\"
+「那是因为…」
 ====================
 
 ====================
@@ -1076,7 +1076,7 @@ length 46
 ====================
 \"There are no bad people among bear lovers.\"
 ====================
-\"There are no bad people among bear lovers.\"
+「喜欢熊的不会是坏人」
 ====================
 
 ====================
@@ -1087,7 +1087,7 @@ length 37
 ====================
 \"I think we can trust that person.\"
 ====================
-\"I think we can trust that person.\"
+「我想那个人是值得信赖的」
 ====================
 
 ====================
@@ -1098,7 +1098,7 @@ length 80
 ====================
 She gulps down the last of her miso soup, stacks the dishes, and then stands up.
 ====================
-She gulps down the last of her miso soup, stacks the dishes, and then stands up.
+喝完味噌汤后，她就将餐具叠起站了起来。
 ====================
 
 ====================
@@ -1109,7 +1109,7 @@ length 70
 ====================
 Kanako looks like she's trying her best to stop herself from laughing.
 ====================
-Kanako looks like she's trying her best to stop herself from laughing.
+河南子则是一副拼命强忍着不笑的表情。
 ====================
 
 ====================
@@ -1120,7 +1120,7 @@ length 44
 ====================
 I immediately go to bed after taking a bath.
 ====================
-I immediately go to bed after taking a bath.
+洗完澡后，便立刻入睡了。
 ====================
 
 ====================
@@ -1131,5 +1131,5 @@ length 89
 ====================
 We'll need to wake up early tomorrow. I'm starting to get used to this healthy lifestyle.
 ====================
-We'll need to wake up early tomorrow. I'm starting to get used to this healthy lifestyle.
+明早上要早起。我也开始习惯这种健康的生活了。
 ====================

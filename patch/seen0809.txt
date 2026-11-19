@@ -9,7 +9,7 @@ length 16
 ====================
 August 9th (Mon)
 ====================
-August 9th (Mon)
+8月9日(星期一)
 ====================
 
 ====================
@@ -20,7 +20,7 @@ length 62
 ====================
 The next day, I visit each of the calligraphy schools in town.
 ====================
-The next day, I visit each of the calligraphy schools in town.
+次日，我来到了小镇上的书法教室。
 ====================
 
 ====================
@@ -31,7 +31,7 @@ length 139
 ====================
 Now that I've gone through the books, I realize that the calligraphy used in the letter are comparable to the strokes in the illustrations.
 ====================
-Now that I've gone through the books, I realize that the calligraphy used in the letter are comparable to the strokes in the illustrations.
+我从书中了解到，这信上的笔迹即使与书上的插图相比也毫不逊色。
 ====================
 
 ====================
@@ -42,7 +42,7 @@ length 75
 ====================
 Since she used to live in this town, I thought perhaps somebody would know.
 ====================
-Since she used to live in this town, I thought perhaps somebody would know.
+所以，如果她曾在这小镇住过的话，说不定这里会有人知道。
 ====================
 
 ====================
@@ -53,7 +53,7 @@ length 124
 ====================
 Even though it's only a hunch, I thought it's still better than going about it without the slightest clue of what I'm doing.
 ====================
-Even though it's only a hunch, I thought it's still better than going about it without the slightest clue of what I'm doing.
+仅仅知道这一点，也比我像个无头苍蝇一般找不着方向来的好得多。
 ====================
 
 ====================
@@ -64,7 +64,7 @@ length 27
 ====================
 There isn't much time left.
 ====================
-There isn't much time left.
+时间已经所剩无几了。
 ====================
 
 ====================
@@ -75,7 +75,7 @@ length 50
 ====================
 Once the sun sets, it'd be hard to visit any more.
 ====================
-Once the sun sets, it'd be hard to visit any more.
+日落之后，要找书法教室就比较困难了。
 ====================
 
 ====================
@@ -86,7 +86,7 @@ length 50
 ====================
 This is the last calligraphy school that I picked.
 ====================
-This is the last calligraphy school that I picked.
+我选择了最后一间书法教室。
 ====================
 
 ====================
@@ -97,7 +97,7 @@ length 63
 ====================
 \"...you don't see paper made of gampi used often these days.\"
 ====================
-\"...you don't see paper made of gampi used often these days.\"
+「…现在这个年代，用雁皮纸的还真是十分少见啊」
 ====================
 
 ====================
@@ -108,7 +108,7 @@ length 52
 ====================
 At last, I found a clue that actually may be a lead.
 ====================
-At last, I found a clue that actually may be a lead.
+终于找到条能算是线索的线索了。
 ====================
 
 ====================
@@ -119,7 +119,7 @@ length 83
 ====================
 \"Earlier today, a guy told me that this type of letter paper is pretty rare now.\"
 ====================
-\"Earlier today, a guy told me that this type of letter paper is pretty rare now.\"
+「今天啊，有人说这封信所用的纸，现在已很少见了哟」
 ====================
 
 ====================
@@ -130,7 +130,7 @@ length 39
 ====================
 \"Apparently it's called gampi paper.\"
 ====================
-\"Apparently it's called gampi paper.\"
+「好像是叫雁皮纸」
 ====================
 
 ====================
@@ -141,7 +141,7 @@ length 97
 ====================
 \"Let me see what I can find. If I search for that along with the other search terms we used...\"
 ====================
-\"Let me see what I can find. If I search for that along with the other search terms we used...\"
+「我来搜索一下吧。将目前为止所有的搜索条件组合在一起…」
 ====================
 
 ====================
@@ -152,7 +152,7 @@ length 31
 ====================
 Takafumi turns to the keyboard.
 ====================
-Takafumi turns to the keyboard.
+鹰文敲起了键盘。
 ====================
 
 ====================
@@ -163,7 +163,7 @@ length 18
 ====================
 \"I'll help too!\"
 ====================
-\"I'll help too!\"
+「我也来帮忙吧」
 ====================
 
 ====================
@@ -174,7 +174,7 @@ length 109
 ====================
 Kanako leans up against his back, and the two of them start typing away. Aw, look at how well they get along.
 ====================
-Kanako leans up against his back, and the two of them start typing away. Aw, look at how well they get along.
+河南子也贴在他的背上，两人一起打起字来。看起来非常要好。
 ====================
 
 ====================
@@ -185,7 +185,7 @@ length 33
 ====================
 \"Okay, let's give this a go...\"
 ====================
-\"Okay, let's give this a go...\"
+「就这样，搜索…」
 ====================
 
 ====================
@@ -196,7 +196,7 @@ length 10
 ====================
 \"Whoa... 
 ====================
-\"Whoa... 
+「呜哇…
 ====================
 
 ====================
@@ -207,7 +207,7 @@ length 12
 ====================
 we did it!\"
 ====================
-we did it!\"
+找到了！」
 ====================
 
 ====================
@@ -218,7 +218,7 @@ length 50
 ====================
 \"We got one hit! We narrowed it down perfectly!\"
 ====================
-\"We got one hit! We narrowed it down perfectly!\"
+「只有1项结果！完全吻合哟」
 ====================
 
 ====================
@@ -229,7 +229,7 @@ length 53
 ====================
 \"Wait... huh? There's more than what I typed in...\"
 ====================
-\"Wait... huh? There's more than what I typed in...\"
+「咦…奇怪？搜索条件怎么多了个…」
 ====================
 
 ====================
@@ -240,7 +240,7 @@ length 13
 ====================
 \"...sakura, 
 ====================
-\"...sakura, 
+「…樱花、
 ====================
 
 ====================
@@ -251,7 +251,7 @@ length 10
 ====================
 mountain, 
 ====================
-mountain, 
+山、
 ====================
 
 ====================
@@ -262,7 +262,7 @@ length 13
 ====================
 gampi paper, 
 ====================
-gampi paper, 
+雁皮纸、
 ====================
 
 ====================
@@ -273,7 +273,7 @@ length 7
 ====================
 shit.\"
 ====================
-shit.\"
+便便」
 ====================
 
 ====================
@@ -284,7 +284,7 @@ length 32
 ====================
 \"Aaaaarrrrrrggggghhhhhhhhhh!!\"
 ====================
-\"Aaaaarrrrrrggggghhhhhhhhhh!!\"
+「呜啊啊啊啊啊啊啊啊啊啊啊———！」
 ====================
 
 ====================
@@ -295,7 +295,7 @@ length 78
 ====================
 \"How the hell did you come up with the word 'shit' from the clues we have?!\"
 ====================
-\"How the hell did you come up with the word 'shit' from the clues we have?!\"
+「现在已知的线索里哪里有『便便』这个关键词啊！」
 ====================
 
 ====================
@@ -306,7 +306,7 @@ length 40
 ====================
 \"I didn't. I just went with the flow.\"
 ====================
-\"I didn't. I just went with the flow.\"
+「没有，顺便加的」
 ====================
 
 ====================
@@ -317,7 +317,7 @@ length 154
 ====================
 \"What do you mean you went with the flow? Like 'shit'? How the hell did that get you to 'shit'?! Hell, what does 'shit' have anything to do with this?!\"
 ====================
-\"What do you mean you went with the flow? Like 'shit'? How the hell did that get you to 'shit'?! Hell, what does 'shit' have anything to do with this?!\"
+「顺便的…搞什么嘛，像便便那样顺便就出来了吗，啊，像便便那样！为什么要像便便那样随随便便就出来啊！」
 ====================
 
 ====================
@@ -328,7 +328,7 @@ length 43
 ====================
 \"Takafumi, stop saying things like that.\"
 ====================
-\"Takafumi, stop saying things like that.\"
+「喂，鹰文，别一直说些不雅的词啊」
 ====================
 
 ====================
@@ -339,7 +339,7 @@ length 46
 ====================
 \"Well, she added 'shit' to my search terms!\"
 ====================
-\"Well, she added 'shit' to my search terms!\"
+「这家伙把『便便』也给加到搜索条件里了啊！」
 ====================
 
 ====================
@@ -350,7 +350,7 @@ length 83
 ====================
 \"I don't really understand how it works, but can't you just search for it again?\"
 ====================
-\"I don't really understand how it works, but can't you just search for it again?\"
+「虽然我不是很明白，但是重新搜索不就好了吗？」
 ====================
 
 ====================
@@ -361,7 +361,7 @@ length 60
 ====================
 \"I can... but what about the moment of joy I just had...?\"
 ====================
-\"I can... but what about the moment of joy I just had...?\"
+「话是这么说没错…但刚才我那『找到了！』的喜悦感就荡然无存了啊…」
 ====================
 
 ====================
@@ -372,7 +372,7 @@ length 105
 ====================
 \"Get a load of this guy. He's pumping his fist because of shit! He's just like a kid; that's so funny.\"
 ====================
-\"Get a load of this guy. He's pumping his fist because of shit! He's just like a kid; that's so funny.\"
+「搜索到了便便，就开心得振臂高呼—，这人真像个小孩子似的，太搞笑了—」
 ====================
 
 ====================
@@ -383,7 +383,7 @@ length 57
 ====================
 \"Damn it! I'm taking 'shit' out and searching again...\"
 ====================
-\"Damn it! I'm taking 'shit' out and searching again...\"
+「可恶，把便便去掉，重新搜索…」
 ====================
 
 ====================
@@ -394,7 +394,7 @@ length 37
 ====================
 \"Whoa, there's a whole lot more...\"
 ====================
-\"Whoa, there's a whole lot more...\"
+「呜哇啊…结果一下就增多了…」
 ====================
 
 ====================
@@ -405,7 +405,7 @@ length 33
 ====================
 \"Damn, 'shit' sure is amazing.\"
 ====================
-\"Damn, 'shit' sure is amazing.\"
+「便便还真是不得了呢…」
 ====================
 
 ====================
@@ -416,7 +416,7 @@ length 22
 ====================
 \"Is it not working?\"
 ====================
-\"Is it not working?\"
+「不行吗？」
 ====================
 
 ====================
@@ -427,7 +427,7 @@ length 72
 ====================
 \"There are way too many results... we need to narrow it down somehow.\"
 ====================
-\"There are way too many results... we need to narrow it down somehow.\"
+「结果太多了…要是不多加点条件的话，是很难找到吻合的」
 ====================
 
 ====================
@@ -438,7 +438,7 @@ length 39
 ====================
 \"How about the postmark from before?\"
 ====================
-\"How about the postmark from before?\"
+「之前的邮戳也加上去了吗？」
 ====================
 
 ====================
@@ -449,7 +449,7 @@ length 119
 ====================
 \"That still didn't help a whole lot. It gave me things like large stationery stores and culture schools in the area.\"
 ====================
-\"That still didn't help a whole lot. It gave me things like large stationery stores and culture schools in the area.\"
+「就算加了也没什么变化啊。查出来的都是些大型文具用品店啊、地区性的文化学校之类的」
 ====================
 
 ====================
@@ -460,5 +460,5 @@ length 70
 ====================
 \"I guess we have to figure out the name of the location... damn it!\"
 ====================
-\"I guess we have to figure out the name of the location... damn it!\"
+「果然还是查不到确切的地名呢…可恶—」
 ====================

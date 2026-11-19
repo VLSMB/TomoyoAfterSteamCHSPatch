@@ -9,7 +9,7 @@ length 17
 ====================
 August 16th (Mon)
 ====================
-August 16th (Mon)
+8月16日(星期一)
 ====================
 
 ====================
@@ -20,7 +20,7 @@ length 13
 ====================
 \"Hey, hey.\"
 ====================
-\"Hey, hey.\"
+「呐—呐—」
 ====================
 
 ====================
@@ -31,7 +31,7 @@ length 22
 ====================
 \"Did she come here?\"
 ====================
-\"Did she come here?\"
+「她没来过这吗？」
 ====================
 
 ====================
@@ -42,7 +42,7 @@ length 36
 ====================
 \"You mean Tomoyo? No, she didn't.\"
 ====================
-\"You mean Tomoyo? No, she didn't.\"
+「智代吗？没来过呀」
 ====================
 
 ====================
@@ -53,7 +53,7 @@ length 29
 ====================
 \"Huh? Where did she go...?\"
 ====================
-\"Huh? Where did she go...?\"
+「咦～？跑哪去了呢～？」
 ====================
 
 ====================
@@ -64,7 +64,7 @@ length 23
 ====================
 \"What? You lost her?\"
 ====================
-\"What? You lost her?\"
+「怎么？跟丢了吗？」
 ====================
 
 ====================
@@ -75,7 +75,7 @@ length 30
 ====================
 \"That seems to be the case.\"
 ====================
-\"That seems to be the case.\"
+「貌似如此」
 ====================
 
 ====================
@@ -86,7 +86,7 @@ length 29
 ====================
 \"Just what were you doing?\"
 ====================
-\"Just what were you doing?\"
+「你都干什么去了啊」
 ====================
 
 ====================
@@ -97,7 +97,7 @@ length 19
 ====================
 \"Nothing at all.\"
 ====================
-\"Nothing at all.\"
+「什么都没干啊」
 ====================
 
 ====================
@@ -108,7 +108,7 @@ length 38
 ====================
 \"Weren't you keeping an eye on her?\"
 ====================
-\"Weren't you keeping an eye on her?\"
+「你有没有好好看住她啊？」
 ====================
 
 ====================
@@ -119,7 +119,7 @@ length 71
 ====================
 \"Come on, didn't you tell me not to look when she's in the bathroom?\"
 ====================
-\"Come on, didn't you tell me not to look when she's in the bathroom?\"
+「还不是你说的嘛。上厕所时别看着」
 ====================
 
 ====================
@@ -130,7 +130,7 @@ length 16
 ====================
 \"Bathroom...?\"
 ====================
-\"Bathroom...?\"
+「厕所…？」
 ====================
 
 ====================
@@ -141,7 +141,7 @@ length 188
 ====================
 \"I thought she was taking too long when she went in and didn't come out for like ten minutes, so I knocked on the door, but she didn't answer. And when I peeked in on her, she was gone.\"
 ====================
-\"I thought she was taking too long when she went in and didn't come out for like ten minutes, so I knocked on the door, but she didn't answer. And when I peeked in on her, she was gone.\"
+「过了大概10分钟都还不出来，我在想怎么这么久啊，便敲了敲门。可是毫无回应，再开门就发现人不见了」
 ====================
 
 ====================
@@ -152,7 +152,7 @@ length 22
 ====================
 \"Was there an exit?\"
 ====================
-\"Was there an exit?\"
+「还有其他出口吗？」
 ====================
 
 ====================
@@ -163,7 +163,7 @@ length 75
 ====================
 \"There's a small window that you might be able to climb through somehow.\"
 ====================
-\"There's a small window that you might be able to climb through somehow.\"
+「有扇勉强能通过的小窗」
 ====================
 
 ====================
@@ -174,7 +174,7 @@ length 28
 ====================
 \"So she ran away, huh...?\"
 ====================
-\"So she ran away, huh...?\"
+「逃跑了呢…」
 ====================
 
 ====================
@@ -185,7 +185,7 @@ length 17
 ====================
 \"She sure did.\"
 ====================
-\"She sure did.\"
+「嗯，让她逃掉了」
 ====================
 
 ====================
@@ -196,7 +196,7 @@ length 47
 ====================
 \"Don't just stand there. Let's look for her!\"
 ====================
-\"Don't just stand there. Let's look for her!\"
+「别在这闲逛了，快去找她啊」
 ====================
 
 ====================
@@ -207,7 +207,7 @@ length 25
 ====================
 \"Where should we look?\"
 ====================
-\"Where should we look?\"
+「去哪找？」
 ====================
 
 ====================
@@ -218,7 +218,7 @@ length 87
 ====================
 \"We're going back the way we came. She's probably thinking of going back by herself.\"
 ====================
-\"We're going back the way we came. She's probably thinking of going back by herself.\"
+「返回的路啊。因为她想独自回去呢」
 ====================
 
 ====================
@@ -229,7 +229,7 @@ length 42
 ====================
 \"Oh, don't worry, then. She'll be back.\"
 ====================
-\"Oh, don't worry, then. She'll be back.\"
+「那就没关系啦。他还会回来的哦」
 ====================
 
 ====================
@@ -240,7 +240,7 @@ length 15
 ====================
 \"Why's that?\"
 ====================
-\"Why's that?\"
+「为什么」
 ====================
 
 ====================
@@ -251,7 +251,7 @@ length 25
 ====================
 \"I took this from her.\"
 ====================
-\"I took this from her.\"
+「我事先拿走了」
 ====================
 
 ====================
@@ -262,7 +262,7 @@ length 61
 ====================
 I recognize the wallet she's holding... It's Tomoyo's wallet.
 ====================
-I recognize the wallet she's holding... It's Tomoyo's wallet.
+她手中拿着智代的钱包。
 ====================
 
 ====================
@@ -273,7 +273,7 @@ length 85
 ====================
 \"I also told everyone in the village not to lend her any money or give her a ride.\"
 ====================
-\"I also told everyone in the village not to lend her any money or give her a ride.\"
+「而且我也对村民们说过了，请别借给她钱，或让她搭便车」
 ====================
 
 ====================
@@ -284,7 +284,7 @@ length 25
 ====================
 \"Look, here she comes.\"
 ====================
-\"Look, here she comes.\"
+「看吧，回来了」
 ====================
 
 ====================
@@ -295,7 +295,7 @@ length 56
 ====================
 I turn around and see Tomoyo walking straight toward us.
 ====================
-I turn around and see Tomoyo walking straight toward us.
+回过头去，就看到智代笔直地朝这走来。
 ====================
 
 ====================
@@ -306,7 +306,7 @@ length 101
 ====================
 Her hair and clothes are very messy, so she must've had a hard time climbing through the tiny window.
 ====================
-Her hair and clothes are very messy, so she must've had a hard time climbing through the tiny window.
+大概是从小窗钻出去时并不顺利吧，头发和衣服显得有些零乱。
 ====================
 
 ====================
@@ -317,7 +317,7 @@ length 49
 ====================
 Her appearance... tells me she's lost her sanity.
 ====================
-Her appearance... tells me she's lost her sanity.
+那样子…表明她已丧失了理智。
 ====================
 
 ====================
@@ -328,7 +328,7 @@ length 35
 ====================
 \"Kanako, give me back my wallet.\"
 ====================
-\"Kanako, give me back my wallet.\"
+「河南子，还我钱包」
 ====================
 
 ====================
@@ -339,7 +339,7 @@ length 20
 ====================
 \"And so she says.\"
 ====================
-\"And so she says.\"
+「她这么说，我该怎么办」
 ====================
 
 ====================
@@ -350,7 +350,7 @@ length 28
 ====================
 Kanako asks for my decision.
 ====================
-Kanako asks for my decision.
+河南子征求着我的意见。
 ====================
 
 ====================
@@ -361,7 +361,7 @@ length 23
 ====================
 \"Don't give it back.\"
 ====================
-\"Don't give it back.\"
+「别还给她」
 ====================
 
 ====================
@@ -372,7 +372,7 @@ length 8
 ====================
 \"Why?\"
 ====================
-\"Why?\"
+「为什么」
 ====================
 
 ====================
@@ -383,7 +383,7 @@ length 58
 ====================
 \"You're planning on going home by yourself, aren't you?\"
 ====================
-\"You're planning on going home by yourself, aren't you?\"
+「你想一个人回去吧？」
 ====================
 
 ====================
@@ -394,7 +394,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+「………」
 ====================
 
 ====================
@@ -405,7 +405,7 @@ length 54
 ====================
 \"If that's not the case, then go along with Kanako.\"
 ====================
-\"If that's not the case, then go along with Kanako.\"
+「如果不是，那就和河南子一起行动吧」
 ====================
 
 ====================
@@ -416,7 +416,7 @@ length 19
 ====================
 \"Yeah... okay...\"
 ====================
-\"Yeah... okay...\"
+「嗯…我知道了…」
 ====================
 
 ====================
@@ -427,7 +427,7 @@ length 49
 ====================
 \"I got it... so please give me my wallet back.\"
 ====================
-\"I got it... so please give me my wallet back.\"
+「我知道了啦…就把钱包还给我吧」
 ====================
 
 ====================
@@ -438,7 +438,7 @@ length 21
 ====================
 \"What should I do?\"
 ====================
-\"What should I do?\"
+「怎么办？」
 ====================
 
 ====================
@@ -449,7 +449,7 @@ length 46
 ====================
 \"Don't give it back while we're still here.\"
 ====================
-\"Don't give it back while we're still here.\"
+「直到离开这之前都别还」
 ====================
 
 ====================
@@ -460,7 +460,7 @@ length 28
 ====================
 \"What is wrong with you?!\"
 ====================
-\"What is wrong with you?!\"
+「你这算什么意思啊」
 ====================
 
 ====================
@@ -471,7 +471,7 @@ length 41
 ====================
 \"Don't go deciding things on your own!\"
 ====================
-\"Don't go deciding things on your own!\"
+「别这样自作主张啊」
 ====================
 
 ====================
@@ -482,7 +482,7 @@ length 45
 ====================
 She's upset, and more so than I've ever seen.
 ====================
-She's upset, and more so than I've ever seen.
+她看都没看我，已经乱了方寸。
 ====================
 
 ====================
@@ -493,7 +493,7 @@ length 82
 ====================
 Or I suppose that's how Tomoyo used to be... The one that Kanako is familiar with.
 ====================
-Or I suppose that's how Tomoyo used to be... The one that Kanako is familiar with.
+或许，那就是过去的智代，也就是河南子所熟知的那个智代吧。
 ====================
 
 ====================
@@ -504,7 +504,7 @@ length 29
 ====================
 \"Kanako... give it back...\"
 ====================
-\"Kanako... give it back...\"
+「河南子…还给我…」
 ====================
 
 ====================
@@ -515,7 +515,7 @@ length 38
 ====================
 She says in a deep, threatening voice.
 ====================
-She says in a deep, threatening voice.
+她用低沉的声音威胁道。
 ====================
 
 ====================
@@ -526,7 +526,7 @@ length 10
 ====================
 \"Can't.\"
 ====================
-\"Can't.\"
+「都说了不行了」
 ====================
 
 ====================
@@ -537,7 +537,7 @@ length 36
 ====================
 \"That's enough... Give it back...\"
 ====================
-\"That's enough... Give it back...\"
+「别闹了…还给我…」
 ====================
 
 ====================
@@ -548,7 +548,7 @@ length 45
 ====================
 \"I can't. That's what your boyfriend said.\"
 ====================
-\"I can't. That's what your boyfriend said.\"
+「你男朋友说不行的」
 ====================
 
 ====================
@@ -559,7 +559,7 @@ length 19
 ====================
 \"Give it back...\"
 ====================
-\"Give it back...\"
+「还给我…」
 ====================
 
 ====================
@@ -570,7 +570,7 @@ length 57
 ====================
 \"If you don't... I'll have to take it back by force...\"
 ====================
-\"If you don't... I'll have to take it back by force...\"
+「不然…我就要用武力夺取了…」
 ====================
 
 ====================
@@ -581,7 +581,7 @@ length 72
 ====================
 \"If it comes to that... I can't guarantee you will leave unscathed...\"
 ====================
-\"If it comes to that... I can't guarantee you will leave unscathed...\"
+「我无法保证…那时你会平安无事…」
 ====================
 
 ====================
@@ -592,7 +592,7 @@ length 70
 ====================
 I can feel shivers run down my spine; my body temperature is dropping.
 ====================
-I can feel shivers run down my spine; my body temperature is dropping.
+我心中一寒，不禁全身战栗。
 ====================
 
 ====================
@@ -603,7 +603,7 @@ length 39
 ====================
 \"I'll give you three more seconds...\"
 ====================
-\"I'll give you three more seconds...\"
+「只给你三秒钟时间…」
 ====================
 
 ====================
@@ -614,7 +614,7 @@ length 12
 ====================
 \"Three...\"
 ====================
-\"Three...\"
+「三…」
 ====================
 
 ====================
@@ -625,7 +625,7 @@ length 10
 ====================
 \"Two...\"
 ====================
-\"Two...\"
+「二…」
 ====================
 
 ====================
@@ -636,7 +636,7 @@ length 10
 ====================
 \"One...\"
 ====================
-\"One...\"
+「一…」
 ====================
 
 ====================
@@ -647,7 +647,7 @@ length 9
 ====================
 \"Pass!\"
 ====================
-\"Pass!\"
+「传球！」
 ====================
 
 ====================
@@ -658,7 +658,7 @@ length 47
 ====================
 Kanako suddenly throws the wallet into the air.
 ====================
-Kanako suddenly throws the wallet into the air.
+她突然将钱包扔到空中。
 ====================
 
 ====================
@@ -669,7 +669,7 @@ length 68
 ====================
 The wallet flys toward me, and I reach out and grab it in a fluster.
 ====================
-The wallet flys toward me, and I reach out and grab it in a fluster.
+钱包向我飞来。我慌忙接住了。
 ====================
 
 ====================
@@ -680,7 +680,7 @@ length 50
 ====================
 At the same time, the oppressive atmosphere fades.
 ====================
-At the same time, the oppressive atmosphere fades.
+同时，那种战栗感亦烟消云散。
 ====================
 
 ====================
@@ -691,7 +691,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+「………」
 ====================
 
 ====================
@@ -702,7 +702,7 @@ length 37
 ====================
 Tomoyo stands there hanging her head.
 ====================
-Tomoyo stands there hanging her head.
+只剩下垂头丧气的智代。
 ====================
 
 ====================
@@ -713,7 +713,7 @@ length 14
 ====================
 \"Calm down.\"
 ====================
-\"Calm down.\"
+「给我好好冷静下」
 ====================
 
 ====================
@@ -724,7 +724,7 @@ length 42
 ====================
 \"We'll leave this place together. Okay?\"
 ====================
-\"We'll leave this place together. Okay?\"
+「我们要一起回去。好吗」
 ====================
 
 ====================
@@ -735,7 +735,7 @@ length 20
 ====================
 She doesn't respond.
 ====================
-She doesn't respond.
+她没有回答。
 ====================
 
 ====================
@@ -746,7 +746,7 @@ length 66
 ====================
 She walks away quickly, not even taking the time to lift her head.
 ====================
-She walks away quickly, not even taking the time to lift her head.
+只是低头转过身去，然后快步离去了。
 ====================
 
 ====================
@@ -757,7 +757,7 @@ length 40
 ====================
 \"Good job on riding that out, Kanako.\"
 ====================
-\"Good job on riding that out, Kanako.\"
+「河南子，你还真能忍啊」
 ====================
 
 ====================
@@ -768,7 +768,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+「………」
 ====================
 
 ====================
@@ -779,7 +779,7 @@ length 27
 ====================
 She doesn't respond either.
 ====================
-She doesn't respond either.
+她也没有回答。
 ====================
 
 ====================
@@ -790,7 +790,7 @@ length 11
 ====================
 \"Kanako?\"
 ====================
-\"Kanako?\"
+「河南子？」
 ====================
 
 ====================
@@ -801,7 +801,7 @@ length 13
 ====================
 \".........\"
 ====================
-\".........\"
+「………」
 ====================
 
 ====================
@@ -812,7 +812,7 @@ length 24
 ====================
 She's completely frozen.
 ====================
-She's completely frozen.
+她杵在那了。
 ====================
 
 ====================
@@ -823,7 +823,7 @@ length 57
 ====================
 I tap her back, and immediately, she takes a deep breath.
 ====================
-I tap her back, and immediately, she takes a deep breath.
+我敲了敲她的背，她才『呼—哈—』地喘着大气。
 ====================
 
 ====================
@@ -834,7 +834,7 @@ length 60
 ====================
 \"Man... my legs are still shaking... That was so scary...\"
 ====================
-\"Man... my legs are still shaking... That was so scary...\"
+「呜哇，脚还在发抖呢…好可怕～」
 ====================
 
 ====================
@@ -845,7 +845,7 @@ length 34
 ====================
 \"So you get scared too, huh...?\"
 ====================
-\"So you get scared too, huh...?\"
+「连你都害怕了吗…」
 ====================
 
 ====================
@@ -856,7 +856,7 @@ length 48
 ====================
 \"That shortened my life by a hundred years...\"
 ====================
-\"That shortened my life by a hundred years...\"
+「可要折寿一百年了啊…」
 ====================
 
 ====================
@@ -867,7 +867,7 @@ length 42
 ====================
 \"How long were you planning to live...?\"
 ====================
-\"How long were you planning to live...?\"
+「你打算活到多少岁的啊…」
 ====================
 
 ====================
@@ -878,5 +878,5 @@ length 57
 ====================
 The sun has set, and thus brings my work today to an end.
 ====================
-The sun has set, and thus brings my work today to an end.
+太阳落山了，今天的工作也告一段落。
 ====================

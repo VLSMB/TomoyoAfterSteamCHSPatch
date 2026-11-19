@@ -9,7 +9,7 @@ length 15
 ====================
 July 22nd (Thu)
 ====================
-July 22nd (Thu)
+7月22日(星期四)
 ====================
 
 ====================
@@ -20,7 +20,7 @@ length 36
 ====================
 \"Could you throw this out for me?\"
 ====================
-\"Could you throw this out for me?\"
+「这些，去扔了吧」
 ====================
 
 ====================
@@ -31,7 +31,7 @@ length 53
 ====================
 Some over-sized junk is haphazardly stuffed in a box.
 ====================
-Some over-sized junk is haphazardly stuffed in a box.
+只见箱子中杂乱地塞满了大件的垃圾。
 ====================
 
 ====================
@@ -42,7 +42,7 @@ length 70
 ====================
 I take it to the corner of the premises, where we keep unneeded items.
 ====================
-I take it to the corner of the premises, where we keep unneeded items.
+我将其搬到了地基一角的废弃品堆放处。
 ====================
 
 ====================
@@ -53,7 +53,7 @@ length 90
 ====================
 As I turn the box over and add the junk to the pile, I find a white computer and keyboard.
 ====================
-As I turn the box over and add the junk to the pile, I find a white computer and keyboard.
+将箱子倒过来，废弃物便堆积成山了，露出台白色的电脑主机及键盘。
 ====================
 
 ====================
@@ -64,7 +64,7 @@ length 56
 ====================
 After staring at it for a while, I return to the office.
 ====================
-After staring at it for a while, I return to the office.
+凝视了一番后，我返回了事务所。
 ====================
 
 ====================
@@ -75,7 +75,7 @@ length 40
 ====================
 \"You don't want that computer, right?\"
 ====================
-\"You don't want that computer, right?\"
+「那台电脑，不要了吧？」
 ====================
 
 ====================
@@ -86,7 +86,7 @@ length 45
 ====================
 \"Yeah, I've already stripped it for parts.\"
 ====================
-\"Yeah, I've already stripped it for parts.\"
+「啊，因为部件都取出来了」
 ====================
 
 ====================
@@ -97,7 +97,7 @@ length 18
 ====================
 \"Can I take it?\"
 ====================
-\"Can I take it?\"
+「那我拿走也没问题吧？」
 ====================
 
 ====================
@@ -108,7 +108,7 @@ length 38
 ====================
 \"...I don't mind, but it's useless.\"
 ====================
-\"...I don't mind, but it's useless.\"
+「…那倒不介意，只不过已用不起了哦？」
 ====================
 
 ====================
@@ -119,7 +119,7 @@ length 29
 ====================
 \"I just want the keyboard.\"
 ====================
-\"I just want the keyboard.\"
+「只是键盘而已」
 ====================
 
 ====================
@@ -130,7 +130,7 @@ length 40
 ====================
 \"That's fine, but it's useless too...\"
 ====================
-\"That's fine, but it's useless too...\"
+「也行，但那也不能用了…」
 ====================
 
 ====================
@@ -141,7 +141,7 @@ length 58
 ====================
 Before he's done speaking, I run back to the pile of junk.
 ====================
-Before he's done speaking, I run back to the pile of junk.
+未等师傅把话说完，我就奔向废弃物堆放处了。
 ====================
 
 ====================
@@ -152,7 +152,7 @@ length 16
 ====================
 \"Hey, Senpai.\"
 ====================
-\"Hey, Senpai.\"
+「那个，前辈」
 ====================
 
 ====================
@@ -163,7 +163,7 @@ length 7
 ====================
 \"Hm?\"
 ====================
-\"Hm?\"
+「嗯？」
 ====================
 
 ====================
@@ -174,7 +174,7 @@ length 28
 ====================
 \"Your boyfriend is crazy.\"
 ====================
-\"Your boyfriend is crazy.\"
+「你男朋友，不太对劲啊」
 ====================
 
 ====================
@@ -185,7 +185,7 @@ length 19
 ====================
 \"What did he do?\"
 ====================
-\"What did he do?\"
+「哪点不对劲？」
 ====================
 
 ====================
@@ -196,7 +196,7 @@ length 66
 ====================
 \"I need to tell you. That keyboard isn't connected to anything.\"
 ====================
-\"I need to tell you. That keyboard isn't connected to anything.\"
+「得有人告诉他一下啊。那块键盘，什么都没接哦」
 ====================
 
 ====================
@@ -207,7 +207,7 @@ length 35
 ====================
 \"No, he's using it for practice.\"
 ====================
-\"No, he's using it for practice.\"
+「没事，那只是在练习而已」
 ====================
 
 ====================
@@ -218,7 +218,7 @@ length 31
 ====================
 \"Practice? For the computer?\"
 ====================
-\"Practice? For the computer?\"
+「练习是指电脑的练习？」
 ====================
 
 ====================
@@ -229,7 +229,7 @@ length 9
 ====================
 \"Yeah.\"
 ====================
-\"Yeah.\"
+「嗯」
 ====================
 
 ====================
@@ -240,7 +240,7 @@ length 53
 ====================
 \"Hm... he didn't seem to have much interest in it.\"
 ====================
-\"Hm... he didn't seem to have much interest in it.\"
+「哼…明明对这玩意没啥兴趣的说」
 ====================
 
 ====================
@@ -251,7 +251,7 @@ length 11
 ====================
 ...I don't.
 ====================
-...I don't.
+…当然没兴趣啊。
 ====================
 
 ====================
@@ -262,7 +262,7 @@ length 23
 ====================
 I'm complaining inside.
 ====================
-I'm complaining inside.
+我在心中抱怨着。
 ====================
 
 ====================
@@ -273,7 +273,7 @@ length 18
 ====================
 Fights. Computers.
 ====================
-Fights. Computers.
+架也打了，字也打了。
 ====================
 
 ====================
@@ -284,7 +284,7 @@ length 49
 ====================
 Are these roundabout efforts going to bear fruit?
 ====================
-Are these roundabout efforts going to bear fruit?
+就这么绕一大圈，能让努力有所回报吗？
 ====================
 
 ====================
@@ -295,7 +295,7 @@ length 56
 ====================
 (Ah, don't think. If you think, you'll lose motivation.)
 ====================
-(Ah, don't think. If you think, you'll lose motivation.)
+（啊—，懒得想了。再想下去，干劲都泄了）
 ====================
 
 ====================
@@ -306,7 +306,7 @@ length 59
 ====================
 Right now, I can only think about winning against Takafumi.
 ====================
-Right now, I can only think about winning against Takafumi.
+现在就只考虑如何胜过鹰文吧。
 ====================
 
 ====================
@@ -317,7 +317,7 @@ length 19
 ====================
 \"You were close.\"
 ====================
-\"You were close.\"
+「真可惜啊」
 ====================
 
 ====================
@@ -328,7 +328,7 @@ length 33
 ====================
 I challenged him again, and lost.
 ====================
-I challenged him again, and lost.
+再次挑战，再次败北。
 ====================
 
 ====================
@@ -339,7 +339,7 @@ length 58
 ====================
 \"You're trying so hard. What do you want to make me do?\"
 ====================
-\"You're trying so hard. What do you want to make me do?\"
+「如此努力，究竟是想让我干啥啊」
 ====================
 
 ====================
@@ -350,7 +350,7 @@ length 34
 ====================
 \"I'll tell you when you lose...\"
 ====================
-\"I'll tell you when you lose...\"
+「等你输了就告诉你…」
 ====================
 
 ====================
@@ -361,7 +361,7 @@ length 27
 ====================
 \"That's kind of scary...\"
 ====================
-\"That's kind of scary...\"
+「总感觉有点可怕啊…」
 ====================
 
 ====================
@@ -372,7 +372,7 @@ length 90
 ====================
 \"I need to think of some kind of punishment that will make you not want to try again...\"
 ====================
-\"I need to think of some kind of punishment that will make you not want to try again...\"
+「这次就罚你玩个没有再战之力的惩罚游戏…」
 ====================
 
 ====================
@@ -383,7 +383,7 @@ length 17
 ====================
 \"Like what...?\"
 ====================
-\"Like what...?\"
+「是怎样的啊…」
 ====================
 
 ====================
@@ -394,7 +394,7 @@ length 78
 ====================
 \"Okay, you can do what I did before. It was scary, so I'll have you try it.\"
 ====================
-\"Okay, you can do what I did before. It was scary, so I'll have you try it.\"
+「喏，之前我也做过的啊，因为很恐怖，所以大哥你也试试看吧」
 ====================
 
 ====================
@@ -405,7 +405,7 @@ length 9
 ====================
 \"What?\"
 ====================
-\"What?\"
+「什么嘛」
 ====================
 
 ====================
@@ -416,7 +416,7 @@ length 43
 ====================
 \"Take Tomo hostage in front of Nee-chan.\"
 ====================
-\"Take Tomo hostage in front of Nee-chan.\"
+「在姐姐面前，劫持小智作为人质哦」
 ====================
 
 ====================
@@ -427,7 +427,7 @@ length 133
 ====================
 \"If you do the same as I did, she might figure it out immediately, so I want your appearance to have even more of an impact, okay?\"
 ====================
-\"If you do the same as I did, she might figure it out immediately, so I want your appearance to have even more of an impact, okay?\"
+「若还和上次一样的话，说不定立刻就被戳穿了，所以想要你看上去更具冲击力些」
 ====================
 
 ====================
@@ -438,7 +438,7 @@ length 38
 ====================
 \"That's it. You'll do it shirtless.\"
 ====================
-\"That's it. You'll do it shirtless.\"
+「对了，请你赤裸上身吧」
 ====================
 
 ====================
@@ -449,7 +449,7 @@ length 43
 ====================
 In the kitchen, Tomoyo is preparing dinner.
 ====================
-In the kitchen, Tomoyo is preparing dinner.
+厨房里，智代正在准备晚饭。
 ====================
 
 ====================
@@ -460,7 +460,7 @@ length 40
 ====================
 Tomo is sitting at her feet like always.
 ====================
-Tomo is sitting at her feet like always.
+小智一如继往地坐在智代脚边。
 ====================
 
 ====================
@@ -471,7 +471,7 @@ length 91
 ====================
 I conceal myself in the closet, take off my shirt, and put the bag I prepared over my head.
 ====================
-I conceal myself in the closet, take off my shirt, and put the bag I prepared over my head.
+我悄悄钻入橱柜，就在那脱掉衬衣，并将预备好的纸袋套在头上。
 ====================
 
 ====================
@@ -482,7 +482,7 @@ length 52
 ====================
 Having finished changing, I creep out of the closet.
 ====================
-Having finished changing, I creep out of the closet.
+变装完毕后，我从橱柜中爬了出来。
 ====================
 
 ====================
@@ -493,7 +493,7 @@ length 35
 ====================
 \"Uwah, what the hell's with you?\"
 ====================
-\"Uwah, what the hell's with you?\"
+「呜哇哇—，搞什么哪，你—」
 ====================
 
 ====================
@@ -504,7 +504,7 @@ length 36
 ====================
 Kanako draws back, but I ignore her.
 ====================
-Kanako draws back, but I ignore her.
+居然被河南子缠上了，先不管她。
 ====================
 
 ====================
@@ -515,7 +515,7 @@ length 23
 ====================
 I head for the kitchen.
 ====================
-I head for the kitchen.
+就这样走到厨房。
 ====================
 
 ====================
@@ -526,7 +526,7 @@ length 48
 ====================
 I crouch down and put my arm around Tomo's neck.
 ====================
-I crouch down and put my arm around Tomo's neck.
+我俯下身，将胳膊挽住了小智的头。
 ====================
 
 ====================
@@ -537,7 +537,7 @@ length 8
 ====================
 \"Wah!\"
 ====================
-\"Wah!\"
+「哇啊」
 ====================
 
 ====================
@@ -548,7 +548,7 @@ length 23
 ====================
 Tomo lets out a scream.
 ====================
-Tomo lets out a scream.
+小智发出了一声惊叫。
 ====================
 
 ====================
@@ -559,7 +559,7 @@ length 23
 ====================
 \"What's wrong, Tomo?\"
 ====================
-\"What's wrong, Tomo?\"
+「怎么啦，小智？」
 ====================
 
 ====================
@@ -570,7 +570,7 @@ length 29
 ====================
 \"Don't move! Not one step.\"
 ====================
-\"Don't move! Not one step.\"
+「别动！只要动一步的话」
 ====================
 
 ====================
@@ -581,7 +581,7 @@ length 52
 ====================
 Tomoyo's right leg cuts through the air with a roar.
 ====================
-Tomoyo's right leg cuts through the air with a roar.
+智代的右脚呼啸着划破空气。
 ====================
 
 ====================
@@ -592,7 +592,7 @@ length 7
 ====================
 *Woosh*
 ====================
-*Woosh*
+咻！
 ====================
 
 ====================
@@ -603,7 +603,7 @@ length 11
 ====================
 I dodge it!
 ====================
-I dodge it!
+躲开了！
 ====================
 
 ====================
@@ -614,7 +614,7 @@ length 51
 ====================
 Her next kick immediately comes from another angle.
 ====================
-Her next kick immediately comes from another angle.
+翻身继而又是一踢。
 ====================
 
 ====================
@@ -625,7 +625,7 @@ length 7
 ====================
 *Woosh*
 ====================
-*Woosh*
+咻！
 ====================
 
 ====================
@@ -636,7 +636,7 @@ length 14
 ====================
 I dodge again!
 ====================
-I dodge again!
+又躲过了！
 ====================
 
 ====================
@@ -647,7 +647,7 @@ length 59
 ====================
 (...this is the result of my special training with Kanako!)
 ====================
-(...this is the result of my special training with Kanako!)
+（…这就是，和河南子特训的成果吗！）
 ====================
 
 ====================
@@ -658,7 +658,7 @@ length 7
 ====================
 *Woosh*
 ====================
-*Woosh*
+咻！
 ====================
 
 ====================
@@ -669,7 +669,7 @@ length 13
 ====================
 I can see it!
 ====================
-I can see it!
+看得见！
 ====================
 
 ====================
@@ -680,7 +680,7 @@ length 7
 ====================
 *Woosh*
 ====================
-*Woosh*
+咻！
 ====================
 
 ====================
@@ -691,7 +691,7 @@ length 24
 ====================
 I can see Tomoyo's kick!
 ====================
-I can see Tomoyo's kick!
+看得见哦，智代的踢击！
 ====================
 
 ====================
@@ -702,7 +702,7 @@ length 7
 ====================
 *Woosh*
 ====================
-*Woosh*
+咻！
 ====================
 
 ====================
@@ -713,7 +713,7 @@ length 11
 ====================
 How's that!
 ====================
-How's that!
+不也没啥嘛！
 ====================
 
 ====================
@@ -724,7 +724,7 @@ length 5
 ====================
 *Bam*
 ====================
-*Bam*
+咔！
 ====================
 
 ====================
@@ -735,7 +735,7 @@ length 10
 ====================
 \"Gah...\"
 ====================
-\"Gah...\"
+「呜哇哇…」
 ====================
 
 ====================
@@ -746,7 +746,7 @@ length 37
 ====================
 I'm kicked from behind and keel over.
 ====================
-I'm kicked from behind and keel over.
+被来自身后的一踢击中了头，我当场蹲了下来。
 ====================
 
 ====================
@@ -757,7 +757,7 @@ length 27
 ====================
 \"I've punished you, hey.\"
 ====================
-\"I've punished you, hey.\"
+「河南处决完毕，哦耶」
 ====================
 
 ====================
@@ -768,7 +768,7 @@ length 37
 ====================
 \"There's more of a beating coming.\"
 ====================
-\"There's more of a beating coming.\"
+「继续鞭尸吧」
 ====================
 
 ====================
@@ -779,7 +779,7 @@ length 49
 ====================
 She has both of my arms, so I can't even tap out.
 ====================
-She has both of my arms, so I can't even tap out.
+双臂都被抓住了，无法还击。
 ====================
 
 ====================
@@ -790,7 +790,7 @@ length 33
 ====================
 \"Ah, stop it. That's Nii-chan.\"
 ====================
-\"Ah, stop it. That's Nii-chan.\"
+「啊—，住手啊，放开他，是大哥啊」
 ====================
 
 ====================
@@ -801,7 +801,7 @@ length 7
 ====================
 \"Eh?\"
 ====================
-\"Eh?\"
+「诶？」
 ====================
 
 ====================
@@ -812,7 +812,7 @@ length 20
 ====================
 \"No, I knew that.\"
 ====================
-\"No, I knew that.\"
+「不，其实我早就知道了」
 ====================
 
 ====================
@@ -823,7 +823,7 @@ length 27
 ====================
 \"Then cut me some slack.\"
 ====================
-\"Then cut me some slack.\"
+「那你就下手轻点啊」
 ====================
 
 ====================
@@ -834,7 +834,7 @@ length 38
 ====================
 I take off the bag and yell at Kanako.
 ====================
-I take off the bag and yell at Kanako.
+我取下纸袋，对河南子怒吼道。
 ====================
 
 ====================
@@ -845,7 +845,7 @@ length 41
 ====================
 \"Well, didn't you want to get beat up?\"
 ====================
-\"Well, didn't you want to get beat up?\"
+「不是啊，我以为你想被扁啊」
 ====================
 
 ====================
@@ -856,7 +856,7 @@ length 31
 ====================
 \"It was just a little prank.\"
 ====================
-\"It was just a little prank.\"
+「只是稍微恶搞下而已啦」
 ====================
 
 ====================
@@ -867,7 +867,7 @@ length 11
 ====================
 \"Hmph...\"
 ====================
-\"Hmph...\"
+「呼—…」
 ====================
 
 ====================
@@ -878,7 +878,7 @@ length 54
 ====================
 \"Tomoya has always liked those kind of bad jokes...\"
 ====================
-\"Tomoya has always liked those kind of bad jokes...\"
+「朋也之前就喜欢开这种过分的玩笑呢…」
 ====================
 
 ====================
@@ -889,7 +889,7 @@ length 16
 ====================
 \"Please stop.\"
 ====================
-\"Please stop.\"
+「别这样做了啊」
 ====================
 
 ====================
@@ -900,7 +900,7 @@ length 41
 ====================
 She lets out an utterly exasperated sigh.
 ====================
-She lets out an utterly exasperated sigh.
+智代好像完全被吓坏了，叹了口气。
 ====================
 
 ====================
@@ -911,7 +911,7 @@ length 62
 ====================
 Someone taps on my shoulder. I turn around to Takafumi's face.
 ====================
-Someone taps on my shoulder. I turn around to Takafumi's face.
+「啪」的一声，肩膀被拍了一下。回头一看是鹰文的脸。
 ====================
 
 ====================
@@ -922,7 +922,7 @@ length 18
 ====================
 \"...had enough?\"
 ====================
-\"...had enough?\"
+「…吃够苦头了？」
 ====================
 
 ====================
@@ -933,7 +933,7 @@ length 16
 ====================
 \"Aaaaaaaaagh!\"
 ====================
-\"Aaaaaaaaagh!\"
+「呜哦哦哦哦——！」
 ====================
 
 ====================
@@ -944,7 +944,7 @@ length 39
 ====================
 I tap away at the keyboard all evening.
 ====================
-I tap away at the keyboard all evening.
+我一晚上都在敲打着键盘。
 ====================
 
 ====================
@@ -955,5 +955,5 @@ length 58
 ====================
 \"Crap, I wonder if I kicked something loose upstairs...\"
 ====================
-\"Crap, I wonder if I kicked something loose upstairs...\"
+「糟了，难道踢坏哪了吗…」
 ====================
