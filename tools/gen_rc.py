@@ -116,7 +116,7 @@ def main():
 
     # ---------- 4. 扫描 res，生成 resource.h / resource.rc ----------
     files = []
-    res_id = 1000
+    res_id = 2000
     for root, dirs, fs in os.walk(res_dir):
         dirs.sort()
         for name in sorted(fs):
