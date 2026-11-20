@@ -24,6 +24,7 @@
 - `PatchResourcePacker` 产出 `PatchResourcePacker.exe`
 - 执行 `tools/gen_rc.py`，将 `version.dll`，`PatchResourcePacker.exe`，`patch`文件夹和`gch`文件夹移动到`PatchInstaller/generated`文件夹，运行`PatchResourcePacker`得到`SEEN_CHS.TXT`，将`version.dll`，`SEEN_CHS.TXT`和`gch`文件夹作为资源生成`resource.h`和`resource.rc`文件
 - 用上面步骤生成的`resource.h`和`resource.rc`文件编译`PatchInstaller`项目，实现资源的自动打包
+- 若`tools`文件夹有`upx.exe`，则将`PatchInstaller`编译产物进行压缩
 
 以上编译顺序已在解决方案中配置，使用Visual Studio生成解决方案时自动执行这个过程。如果使用其他msvc编译途径需要注意手动配置这个顺序。
 
