@@ -16,6 +16,12 @@
 
 ![Main Pic](docs/img/main.png)
 
+![1](docs/img/1.png)
+
+![2](docs/img/2.png)
+
+![3](docs/img/3.png)
+
 ## 编译
 
 本项目使用 Microsoft Visual Studio 2022（工具集版本 v143，Windows SDK 10.0）编译，目标平台为 Win32，配置类型为动态链接库（`VersionInjectionPatch`项目），使用多字节字符集（`PatchInstaller`项目使用Unicode字符集）。
