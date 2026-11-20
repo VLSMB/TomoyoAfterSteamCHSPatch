@@ -365,3 +365,4 @@ FodyWeavers.xsd
 SEEN_CHS.TXT
 .claude/
 PatchInstaller/generated/
+tools/upx.exe

@@ -175,6 +175,11 @@
     <Delete Files="$(ProjectDir)generated\resource.h;$(ProjectDir)generated\resource.rc" ContinueOnError="true" />
     <Exec Command="python &quot;$(SolutionDir)tools\gen_rc.py&quot; &quot;$(ProjectDir)generated&quot; &quot;$(SolutionDir)$(Configuration)\PatchResourcePacker.exe&quot; &quot;$(SolutionDir)$(Configuration)\version.dll&quot; &quot;$(SolutionDir).&quot;" />
   </Target>
+  <Target Name="UpxCompress" AfterTargets="Build"
+        Condition="'$(Configuration)'=='Release'">
+    <Exec Command="python &quot;$(SolutionDir)tools\upx_compress.py&quot; &quot;$(TargetPath)&quot; --solution-dir &quot;$(SolutionDir.TrimEnd('\'))&quot;"
+          ContinueOnError="WarnAndContinue" />
+  </Target>
   <Target Name="CleanGeneratedFolder" AfterTargets="Clean">
     <RemoveDir Directories="$(ProjectDir)generated" ContinueOnError="true" />
   </Target>
