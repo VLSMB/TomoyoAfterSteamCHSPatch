@@ -2,6 +2,8 @@
 
 ## NOTICE
 
+本分支使用的汉化文本来自【TOMO汉化组&KeyFanClub汉化组】发布的智代After PS2+PSP→PC移植版【v1.2版】，对Steam独占的一些文本进行补译处理，因此本次汉化补丁的文本所有权归原汉化组所有，在使用和分发本分支补丁时请遵守原汉化组的要求。
+
 本补丁是源码可见但不可用于任何商业用途的项目，允许非商业目的的使用、修改与分发，禁止将当前项目及其任何基于当前项目的修改版本用于任何商业用途。本补丁按"原样"提供，不提供任何担保。更详细的说明参见 [NOTICE.md](NOTICE.md) 文件，如果当前概述与 NOTICE 产生冲突，以 NOTICE 的说明为准。
 
 ## 补丁介绍
@@ -33,6 +35,8 @@
 > 如果只修改了文本或图片资源而没有修改补丁程序的代码，则分发补丁资源时可以直接使用已有的 [编译产物](https://github.com/VLSMB/TomoyoAfterSteamCHSPatch/releases) 而无需再次编译。如果需要以PatchInstaller的形式分发，直接在Visual Studio中“重新生成解决方案”来自动构建PatchInstaller.exe。
 
 ## 项目贡献者
+
+汉化文本：【TOMO汉化组&KeyFanClub汉化组】智代After PS2+PSP→PC移植版【v1.2版】
 
 程序：VLSMB
 
