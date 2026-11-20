@@ -29,7 +29,7 @@ void HookInit(HMODULE hDll) {
 			return;
 		}
 	}
-	MessageBoxA(NULL, ALPHA_VERSION_WARNING, MESSAGEBOX_TITLE, MB_ICONWARNING);
+	//MessageBoxA(NULL, ALPHA_VERSION_WARNING, MESSAGEBOX_TITLE, MB_ICONWARNING);
 	PatchPack pack{};
 	std::optional<std::vector<BYTE>> binFile = readBinFile(BIN_DATA_FILE);
 	std::optional<PatchPack> textFile = PackFromTextFile();
