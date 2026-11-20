@@ -16,11 +16,20 @@
 
 ## 编译
 
-本项目使用 Microsoft Visual Studio 2022（工具集版本 v143，Windows SDK 10.0）编译，目标平台为 Win32，配置类型为动态链接库（`VersionInjectionPatch`项目），使用多字节字符集。
+本项目使用 Microsoft Visual Studio 2022（工具集版本 v143，Windows SDK 10.0）编译，目标平台为 Win32，配置类型为动态链接库（`VersionInjectionPatch`项目），使用多字节字符集（`PatchInstaller`项目使用Unicode字符集）。
+
+当前解决方案有三个项目（`VersionInjectionPatch`，`PatchResourcePacker`和`PatchInstaller`），编译顺序为：
+
+- `VersionInjectionPatch` 产出 `version.dll`
+- `PatchResourcePacker` 产出 `PatchResourcePacker.exe`
+- 执行 `tools/gen_rc.py`，将 `version.dll`，`PatchResourcePacker.exe`，`patch`文件夹和`gch`文件夹移动到`PatchInstaller/generated`文件夹，运行`PatchResourcePacker`得到`SEEN_CHS.TXT`，将`version.dll`，`SEEN_CHS.TXT`和`gch`文件夹作为资源生成`resource.h`和`resource.rc`文件
+- 用上面步骤生成的`resource.h`和`resource.rc`文件编译`PatchInstaller`项目，实现资源的自动打包
+
+以上编译顺序已在解决方案中配置，使用Visual Studio生成解决方案时自动执行这个过程。如果使用其他msvc编译途径需要注意手动配置这个顺序。
 
 可以直接将编译后的 `version.dll` 和 `patch` 文件夹的文本资源放在游戏所在的文件夹，即可实现汉化补丁的功能。编译产物中还有一个 `PatchResourcePacker.exe`，可以将 `patch` 文件夹的文本内容打包成一个 `SEEN_CHS.TXT` 二进制文件，在分发汉化补丁时只分发 `version.dll` 和 `SEEN_CHS.TXT` 这两个文件的效果与 `version.dll` 和 `patch` 文件夹相同。（补丁优先读取 `patch` 文件夹的内容）。
 
-> 如果只修改了文本而没有修改补丁程序的代码，则可以直接使用已有的 [编译产物](https://github.com/VLSMB/TomoyoAfterSteamCHSPatch/releases) 而无需再次编译。
+> 如果只修改了文本或图片资源而没有修改补丁程序的代码，则分发补丁资源时可以直接使用已有的 [编译产物](https://github.com/VLSMB/TomoyoAfterSteamCHSPatch/releases) 而无需再次编译。如果需要以PatchInstaller的形式分发，直接在Visual Studio中“重新生成解决方案”来自动构建PatchInstaller.exe。
 
 ## 项目贡献者
 
